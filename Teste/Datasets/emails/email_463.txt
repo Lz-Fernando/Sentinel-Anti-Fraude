@@ -1,0 +1,2964 @@
+X-GM-THRID: 1816970606937311268
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:f17:b0:298:e216:18d7 with SMTP id fm23csp1534283ysc;
+        Thu, 28 Nov 2024 04:50:02 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IHWrKgbgV2QavOiKev1e5MYXRkHzcN0SL3N/LPvd42U8UqLj0+z7fifKSt2toCxeqBb0khx
+X-Received: by 2002:a05:6a00:3cc9:b0:724:e80a:330 with SMTP id d2e1a72fcca58-7252ffd85d9mr10554073b3a.5.1732798201868;
+        Thu, 28 Nov 2024 04:50:01 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1732798201; cv=none;
+        d=google.com; s=arc-20240605;
+        b=JyTteEmWWCi5IQBAckEi+j05fGkuQPNcR+187cEdIl6j+g10q7/La7muYFlVGITZ/K
+         7HTyMHBypbt0Kv3BokuXtF8d6irCKGLsxgGbS0CYsHVGgMSk2w9SobG/LqSR1aQEqmcB
+         n31BxiyiuIE2/Vw74ESAt20KpKY/t1ueKlsWRbMMuYuJgG+ay33sIO05RjpKDxxGuBXz
+         Esx+tx+PxVwrdL12n9PxbUSbmEWtlTzTsA6LJUPkgm8F2pjXw7qvy1Yq7Ei3K87tGPHQ
+         PqzzTQKPuFvfzPfJJhqERQvKYidf2EgSA4vpcaVEc/bZD9ZtPOeKMBhHFA2Jo9w1+br0
+         8Pig==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=5HF1HV4ORzP8UFAOoyVVBB4Ymkf0Ura4yDFYr8wVyOc=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=XmVK1hjKy5YePbQWABD90aA4Cmb5CKYb7xD74TK81QXl0aEJ0YjysNRIRLkMNObfBu
+         1Uo2AbqvPJ4iFWp2XB82Xklud0144uC8SheP3m3hMCg1OGip4jKEVaIkqIWH3ARB8M8y
+         6iJVAS7XzmyPgXogpY8rEkTnqwWk0ZXlAfsDmTPsfMQGLFFpYNIm7a67iYfEgZ8IpuBL
+         Zvf7/YmgcYiICElIEimqbChBVh38zRlIWjUHdF4PDz8UJsEKRo+F2iAYidIlwGqsfSiv
+         Zx8pzeUlV8SqomBU33peJg2GiVrenrj8YT0pMhpLVxdSMe6UfTEV+NHFDH5Wn8H9aq0G
+         5a7g==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=o+KLmkMJ;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=vLecgXeo;
+       spf=pass (google.com: domain of s-4s2mg60goxsz7orw8ldzcrem30vaipshqrke2gqeiqw3mgkvp0tru25d@bounce.linkedin.com designates 108.174.0.203 as permitted sender) smtp.mailfrom=s-4s2mg60goxsz7orw8ldzcrem30vaipshqrke2gqeiqw3mgkvp0tru25d@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-4s2mg60goxsz7orw8ldzcrem30vaipshqrke2gqeiqw3mgkvp0tru25d@bounce.linkedin.com>
+Received: from maile-hc.linkedin.com (maile-hc.linkedin.com. [108.174.0.203])
+        by mx.google.com with ESMTPS id 41be03b00d2f7-7fc9c24fba1si1748908a12.83.2024.11.28.04.50.01
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 28 Nov 2024 04:50:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of s-4s2mg60goxsz7orw8ldzcrem30vaipshqrke2gqeiqw3mgkvp0tru25d@bounce.linkedin.com designates 108.174.0.203 as permitted sender) client-ip=108.174.0.203;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=o+KLmkMJ;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=vLecgXeo;
+       spf=pass (google.com: domain of s-4s2mg60goxsz7orw8ldzcrem30vaipshqrke2gqeiqw3mgkvp0tru25d@bounce.linkedin.com designates 108.174.0.203 as permitted sender) smtp.mailfrom=s-4s2mg60goxsz7orw8ldzcrem30vaipshqrke2gqeiqw3mgkvp0tru25d@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1732798200;
+	bh=5HF1HV4ORzP8UFAOoyVVBB4Ymkf0Ura4yDFYr8wVyOc=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=o+KLmkMJhbGtVvQU88CLd0t+PiDnDwam1WebYUYJkRmRIQXVkBF87lE1pDALdX0mf
+	 JxIr2FxSmqgLFiWsDZnPmHRXiw+RZhwkw9TW/YVs5OXqtfh2hKKL+OCvYJ6953T/Gw
+	 I+wFV+BGfPo8yP9/OmC5rmyXRq51frqhgm8Q+r7o4VZs4WYpd2e7gjiomQYTA/aeuS
+	 1jc7aLgZc/YaRfqlmKbgktMTt4Z0Y5+YFdxdE4Nhg/GCkv5+beXFm+YOKB1vtXDupE
+	 gVt40f3gGkPeC/K7gcBoqSYimDPkDcyAga0Llx9rHpXBCF8FuE4Mwl7pGXlLKtzh10
+	 9GxuwS56HVUsQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1732798200;
+	bh=5HF1HV4ORzP8UFAOoyVVBB4Ymkf0Ura4yDFYr8wVyOc=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=vLecgXeobYMEVEnI9Y17EpL0Uitm9yxiWCb56KRbVQkj0C0cJZtNrXwwJQ/RfNCNy
+	 vrnI4ufrKcKzgEtR5wRXS12xkNEjK1J9bjc+Z1JlcRhNkTPTHD1WmvQpypizRbtbNA
+	 yK6OebgdXVHoKGYPPAhw1mkEbsB7vFZARFf3DRK5WJIkNMs1SbbNu+Q8rwcXN8V48M
+	 xWnuEX1POjlXrMlMa+GS0RLIpsjTSWaZdNCLonlmOV7GRlct1u5hJHQ2x8+jJ50go3
+	 fO1WvwkRimUKjh0VLlkw6Vlf6HOG5cGVj0zdqrK52dB4n3oKJ1L+ZBT+HabLydu0yi
+	 JC59T5pTtDXAA==
+From: Hays via LinkedIn <newsletters-noreply@linkedin.com>
+Message-ID: <342076330.28525253.1732798200235@lva1-app63347.prod.linkedin.com>
+Subject: Green skills: a cause for (climate) concern
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_28525251_882201751.1732798200232"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Thu, 28 Nov 2024 12:50:00 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-aszxiscie20qfta32976eth8oefncr88zd9evk44dadw9q7mos2ji90vg09zerbtml2o1heplmcw8h334momv05q3dy3gp9ewf0hnw
+X-LinkedIn-Id: gdb74f-m41bahbg-7u
+List-Unsubscribe: <https://www.linkedin.com/comm/series-notifications/?action=unsubscribe&memberToken=ADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&newsletterId=7224328021535588352&newsletterTitle=The%20Talent%20Blueprint&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BKfZ7bQjASK6DqDz%2F61tYmA%3D%3D&midToken=AQHxaOsdYMWJVQ&midSig=2PkeqivOpxHbw1&trk=eml-email_series_follow_newsletter_01-unsub-0-unsub&trkEmail=eml-email_series_follow_newsletter_01-unsub-0-unsub-null-gdb74f~m41bahbg~7u-null-null&eid=gdb74f-m41bahbg-7u&otpToken=MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UwYmQ4N2NmZDk0ODlmYWU4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU2NjhkN2JmODg1ZDg5Y2EzZDViNWMwYTZlNDM2YjQzMjg5YmEzMGRjYTFhYjM1MiwxLDE%3D>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_28525251_882201751.1732798200232
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+The Talent Blueprint
+
+Por Hays
+
+
+Por Hays
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/green-skills-cause-climate-concern-hays=
+-kbnte?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BK=
+fZ7bQjASK6DqDz%2F61tYmA%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D2PkeqivOpx=
+Hbw1&trk=3Deml-email_series_follow_newsletter_01-null-0-read_more_banner_ct=
+a_&trkEmail=3Deml-email_series_follow_newsletter_01-null-0-read_more_banner=
+_cta_-null-gdb74f~m41bahbg~7u-null-null&eid=3Dgdb74f-m41bahbg-7u&otpToken=
+=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UwYmQ4N2NmZDk0ODlmYWU4ZDYxNzljNDA2=
+NmQ0YjVkNWJmMmZlZDNkZmU2NjhkN2JmODg1ZDg5Y2EzZDViNWMwYTZlNDM2YjQzMjg5YmEzMGR=
+jYTFhYjM1MiwxLDE%3D
+ =20
+Dubbed =E2=80=98the climate finance COP=E2=80=99 due to the overwhelming fo=
+cus on =E2=80=9Cfinancial instruments to support climate action, as well as=
+ building resilience in developing countries=E2=80=9D, the COP29 summit cam=
+e to a close earlier this week.=C2=A0=C2=A0 The direct provision of grants =
+and loans from developed to developing countries needed to double from the =
+current $40bn provision. Amid fears that negotiations would collapse entire=
+ly, a deal worth $300bn was finally struck =E2=80=93 48 hours after the con=
+ference officially closed. =C2=A0 While it may be all about the money in Ba=
+ku, our focus is on skills. And we are seeing an explosion in the demand fo=
+r green talent.=C2=A0 As Kirsty Green-Mann, Group Head of Sustainability at=
+ Hays outlines, the need is evident across all industries and job roles: =
+=E2=80=9CWe are seeing increasing demand for sustainability analysts, resil=
+ience planners and green finance roles. There has been a huge surge in STEM=
+ roles with the growth of the renewable energy sector, including battery te=
+chnology and carbon management experts. We=E2=80=99re also seeing a renewed=
+ focus on building sustainable supply chains, as well as specialised govern=
+ance and policy experts.=E2=80=9D=C2=A0=C2=A0 For Paul Endres, Head of Gree=
+n Business, Hays Germany, it=E2=80=99s the high-skill, high-pay roles that =
+are hitting new heights:=C2=A0=C2=A0 =E2=80=9CWhereas sustainability roles =
+used to be more focused on project management or communication tasks, they =
+are now strategically anchored, often directly under executive management o=
+r board level. Candidates require not only a deep understanding of business=
+ development and transformation, but also extensive expertise regarding com=
+plex regulatory requirements.=C2=A0 There is a growing gap between green ta=
+lent demand and supply, projected to reach 18.7% by 2030 and 101.5% by 2050=
+ if current trends continue. To close this gap, we must at least double the=
+ current projected green talent supply by 2050, necessitating global invest=
+ment in green skills and education.=C2=A0 The COP29 summit promoted the int=
+egration of climate education into existing curricula, with youth engagemen=
+t fundamental in ensuring future action. But these efforts can=E2=80=99t st=
+op at the school gates. Organisations will need to be proactive in upskilli=
+ng their workforce as =E2=80=98green=E2=80=99 becomes engrained across all =
+professions. Here are some tips to do just that:=C2=A0 Kirsty adds that abo=
+ve all, sustainability needs to be seen as a strategic priority, rather tha=
+n an =E2=80=9Cadd on.=E2=80=9D=C2=A0 =E2=80=9CFor many organisations, susta=
+inability isn=E2=80=99t a core part of their DNA. This makes it difficult f=
+or employees, whose time is often already stretched, to make space for chan=
+ge. When you align your sustainability initiatives to the wider ambitions o=
+f your organisation, it encourages problem-solving and innovation to make e=
+xisting practices, products and services more sustainable.=E2=80=9D=C2=A0 T=
+ackling climate change will be one of the biggest challenges we will face. =
+What will your next move be?=C2=A0=C2=A0 Future Focus: From requirement to =
+retention =E2=80=93 the impact of your ESG commitment on candidates.=C2=A0=
+=C2=A0 Still not sure if sustainability should be top of your agenda?=C2=A0=
+=C2=A0 You only need to look at your candidates=E2=80=99 wish lists to unde=
+rstand the companies that will beat you in the battle for talent.=C2=A0=C2=
+=A0 Nino Kupusovic, a Senior Manager for Internal Recruiting at Hays, state=
+s: =E2=80=9CCandidates perceive awareness of sustainability within a compan=
+y as a basic requirement, even if it is rarely the decisive argument for or=
+ against taking a job.=E2=80=9D=C2=A0=C2=A0 Alongside competitive pay, flex=
+ible working and health benefits, the sustainable commitments made by an or=
+ganisation are a fundamental part of a winning value proposition.=C2=A0 Pau=
+l Endres digs deeper, adding that organisations who operate sustainably are=
+ seen to be investing in a shared future.=C2=A0=C2=A0 =E2=80=9CA company th=
+at invests in climate protection and human or labour rights today, is inves=
+ting in its future viability, and therefore in the security of its jobs. Co=
+mpanies that are perceived as particularly attractive are those that take r=
+esponsibility not only economically but also ecologically and socially=E2=
+=80=94in short, those that operate sustainably.=E2=80=9D=C2=A0=C2=A0 Some o=
+f the key metrics that candidates are searching for include:=C2=A0=C2=A0 Cl=
+imate and greenhouse gas reductions, including scope emissions. =C2=A0 Empl=
+oyee engagement scores.=C2=A0 Community participation.=C2=A0=C2=A0 External=
+ recognition, such as a CDP score (a rating system that assesses a company=
+=E2=80=99s environmental performance).=C2=A0 But in a bid to communicate yo=
+ur ESG commitments, make sure not to partake in =E2=80=98greenwashing=E2=80=
+=99 - the practice of giving a false impression of the environmental impact=
+ or benefits of a product or service. Often, this is used to appeal to eco-=
+conscious consumers.=C2=A0 A number of household brands have fallen foul of=
+ greenwashing accusations. The COP summit has also faced its fair share of =
+criticism, after it was discovered that a lobbying firm was awarded a multi=
+million-pound contract to help Azerbaijan =E2=80=98enhance its image=E2=80=
+=99 ahead of the summit.=C2=A0=C2=A0 Candidates are savvy and armed with so=
+cial media platforms to voice their discontent. You need to ensure that as =
+an organisation, you are building and sharing an honest and holistic narrat=
+ive.=C2=A0 Career Corner: Be the change you want to see in the world=C2=A0 =
+LinkedIn=E2=80=99s 2024 Green Skills Report illustrates that global demand =
+for green talent is growing rapidly. Demand increased by 11.6% in just 12 m=
+onths, while the available supply hit just 5.6%.=C2=A0 Considering a career=
+ change? Maybe it=E2=80=99s time to take that leap of faith.=C2=A0=C2=A0=C2=
+=A0 After a decade in the luxury goods industry, Jennifer Henry started her=
+ career in the staffing and recruitment industry, joining Hays as a Bids an=
+d Strategic Client Relationship Manager. Concerned by the harmful impacts o=
+f mass consumption, Jennifer proposed the creation of a =E2=80=98Sustainabi=
+lity and Net-Zero Project Manager=E2=80=99.=C2=A0 =E2=80=9CThe benefit of a=
+ being an internal hire is that you already understand the business =E2=80=
+=93 the quirks, the opportunities, the challenges. My role at Hays means I =
+know when to push and when to pause. If you=E2=80=99re considering a career=
+ in sustainability, your next opportunity could be closer than you think.=
+=E2=80=9D=C2=A0=C2=A0 Here=E2=80=99s Jennifer=E2=80=99s top tips for making=
+ an impact in a green role:=C2=A0=C2=A0 Proximity is key=C2=A0 =E2=80=9CThe=
+ recent events in Europe make it harder to ignore the effects of climate ch=
+ange=E2=80=9D.=C2=A0 Extreme weather events are becoming increasingly frequ=
+ent, with increasingly devastating consequences. In the last month alone, w=
+e=E2=80=99ve witnessed flash flooding in Spain, typhoons in the Philippines=
+ and a Chinese city (Guangzhou) break a 30-year heat record.=C2=A0 This pro=
+ximity is also important when you=E2=80=99re delivering projects. Showcasin=
+g the importance of sustainability is strengthened by physical interaction,=
+ so you need to build a network of =E2=80=98green=E2=80=99 advocates that s=
+hare your vision. Soft skills such as communication and collaboration will =
+be fundamental to success.=C2=A0=C2=A0 Help everyone along the change journ=
+ey =E2=80=9CNearly all workers will need to unlearn behaviours,=E2=80=9D Je=
+nnifer adds. Suppliers will need to be evaluated based on their sustainabil=
+ity credentials. We=E2=80=99ll need to adopt eco-friendly habits such as co=
+nserving energy and reducing waste in offices. Climate reporting will becom=
+e a key metric for organisational performance.=C2=A0=C2=A0 This can feel li=
+ke a big mountain to climb, but for Jennifer, sustainable change lies in th=
+e small, frequent steps we help everyone take, together.=C2=A0=C2=A0 =E2=80=
+=9CIt=E2=80=99s similar to the adoption curve for new technologies. You nee=
+d to find your innovators and early adopters. Plant your seeds in these min=
+ds =E2=80=93 encourage them to challenge existing processes and behaviours =
+and support them in modelling more sustainable habits.=E2=80=9D=C2=A0=C2=A0=
+ Your ability to solve problems, communicate complex ideas and engage an ar=
+ray of stakeholders to maintain momentum will be key to succeeding in a sus=
+tainability-focused role.=C2=A0 The latest episode of =E2=80=98Sustainable =
+Futures=E2=80=99 is now available=C2=A0=C2=A0 Wondering where a career in s=
+ustainability could take you? Make sure to watch the latest episode of the =
+=E2=80=98Sustainable Futures=E2=80=99 series by Hays UK&I.=C2=A0 Paul Gosli=
+ng is joined by Toby Gibbs, Founder of Logika Consultants. Toby shares his =
+career journey, from working as an ecologist to becoming an environmental c=
+onsultant. He reflects on his experience across a variety of industries, in=
+cluding major projects such as the Heathrow expansion!=C2=A0=C2=A0 Be inspi=
+red by Toby=E2=80=99s story .
+Continue lendo no LinkedIn
+https://www.linkedin.com/comm/pulse/green-skills-cause-climate-concern-hays=
+-kbnte?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BK=
+fZ7bQjASK6DqDz%2F61tYmA%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D2PkeqivOpx=
+Hbw1&trk=3Deml-email_series_follow_newsletter_01-newsletter_content_preview=
+_text-0-readmore_button_&trkEmail=3Deml-email_series_follow_newsletter_01-n=
+ewsletter_content_preview_text-0-readmore_button_-null-gdb74f~m41bahbg~7u-n=
+ull-null&eid=3Dgdb74f-m41bahbg-7u&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNG=
+VkNDUxY2UwYmQ4N2NmZDk0ODlmYWU4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU2NjhkN2JmO=
+Dg1ZDg5Y2EzZDViNWMwYTZlNDM2YjQzMjg5YmEzMGRjYTFhYjM1MiwxLDE%3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | HTML | CSS | JS | React.js | Node.js | Python)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3BKfZ7bQjASK6DqDz%2F61tYmA%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSi=
+g=3D2PkeqivOpxHbw1&trk=3Deml-email_series_follow_newsletter_01-SecurityHelp=
+-0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Secur=
+ityHelp-0-textfooterglimmer-null-gdb74f~m41bahbg~7u-null-null&eid=3Dgdb74f-=
+m41bahbg-7u&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UwYmQ4N2NmZDk0=
+ODlmYWU4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU2NjhkN2JmODg1ZDg5Y2EzZDViNWMwYTZ=
+lNDM2YjQzMjg5YmEzMGRjYTFhYjM1MiwxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/comm/series-notifica=
+tions/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y=
+9whjlY&newsletterId=3D7224328021535588352&newsletterTitle=3DThe%20Talent%20=
+Blueprint&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%=
+3BKfZ7bQjASK6DqDz%2F61tYmA%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D2Pkeqiv=
+OpxHbw1&trk=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGli=
+mmer&trkEmail=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerG=
+limmer-null-gdb74f~m41bahbg~7u-null-null&eid=3Dgdb74f-m41bahbg-7u&otpToken=
+=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UwYmQ4N2NmZDk0ODlmYWU4ZDYxNzljNDA2=
+NmQ0YjVkNWJmMmZlZDNkZmU2NjhkN2JmODg1ZDg5Y2EzZDViNWMwYTZlNDM2YjQzMjg5YmEzMGR=
+jYTFhYjM1MiwxLDE%3D=C2=A0=C2=A0=C2=B7=C2=A0=C2=A0Ajuda: https://www.linkedi=
+n.com/help/linkedin/answer/67?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_emai=
+l_series_follow_newsletter_01%3BKfZ7bQjASK6DqDz%2F61tYmA%3D%3D&midToken=3DA=
+QHxaOsdYMWJVQ&midSig=3D2PkeqivOpxHbw1&trk=3Deml-email_series_follow_newslet=
+ter_01-help-0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newslett=
+er_01-help-0-textfooterglimmer-null-gdb74f~m41bahbg~7u-null-null&eid=3Dgdb7=
+4f-m41bahbg-7u&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UwYmQ4N2NmZ=
+Dk0ODlmYWU4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU2NjhkN2JmODg1ZDg5Y2EzZDViNWMw=
+YTZlNDM2YjQzMjg5YmEzMGRjYTFhYjM1MiwxLDE%3D
+
+=C2=A9 2024 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_28525251_882201751.1732798200232
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+style>
+@media (max-width: 480px) {
+  .inline-button,
+.inline-button table {
+    display: none !important;
+  }
+
+  .full-width-button,
+.full-width-button table {
+    display: table !important;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content,
+.pulse .article-main__content > * {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content h2,
+.pulse .article-main__content h2 span {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content p,
+.pulse .article-main__content p span {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content blockquote {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-img=
+ {
+    width: 48px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"][data-entity-typ=
+e=3D"organization"] .pub-entity-img img {
+    height: 48px;
+    width: 48px;
+    border-radius: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"][data-entity-typ=
+e=3D"member"] .pub-entity-img img {
+    height: 56px;
+    width: 56px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t {
+    padding-left: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t h1 {
+    margin-bottom: 2px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t h3 {
+    margin-bottom: 2px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t p {
+    margin-bottom: 2px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content,
+.advice .article-main__content > * {
+    font-size: 20px;
+  }
+
+  .advice .qa-redesign-article-content .article-main__content > * {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content h2,
+.advice .article-main__content h2 span {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice.redesign .article-main__content h2,
+.advice.redesign .article-main__content h2 span {
+    font-size: 32px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content p,
+.advice .article-main__content p span {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content blockquote {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar__wrapper.navbar__wrapper--x-article-split-layout {
+    margin-left: 24px;
+  }
+}
+@media (min-width: 1440px) {
+  .navbar__wrapper.navbar__wrapper--x-article-split-layout {
+    margin-left: 48px;
+  }
+}
+@media (min-width: 992px) {
+  [data-id=3D'member-nav-header__container'] {
+    margin-left: calc(40% - 8px - 392px);
+  }
+}
+@media (min-width: 1200px) {
+  [data-id=3D'member-nav-header__container'] {
+    margin-left: calc(40% - 32px - 392px);
+  }
+}
+@media (min-width: 1440px) {
+  [data-id=3D'member-nav-header__container'] {
+    margin-left: calc(40% - 64px - 392px);
+  }
+}
+@media (min-width: 992px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    width: 60%;
+  }
+}
+@media (min-width: 992px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    padding-left: 8px;
+  }
+}
+@media (min-width: 1200px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    padding-left: 32px;
+  }
+}
+@media (min-width: 1440px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    padding-left: 64px;
+  }
+}
+@media (min-width: 576px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1128px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
+@media (min-width: 1680px) {}
+@media (min-width: 1920px) {}
+@media (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media screen and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 991px) {}
+@media screen and (max-width: 991px) {}
+@media (max-width: 991px) {
+  .search-bar.isExpanded .search-bar__placeholder {
+    display: none;
+  }
+
+  .search-bar.isExpanded .base-search-bar__form {
+    display: flex;
+  }
+}
+@media screen and (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (min-width: 992px) {}
+@media (forced-colors: active) {}
+@media (-ms-high-contrast: active), (forced-colors: active) {}
+@media (min-width: 992px) {}
+@media (min-width: 576px) {}
+@media (min-width: 992px) {}
+@media (min-width: 992px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
+@media (min-width: 992px) {}
+@media (max-width: 575px) {}
+@media (max-width: 640px) {}
+@media (min-width: 992px) {}
+@media (max-width: 991px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media screen and (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (min-width: 245px) {}
+@media (min-width: 330px) {}
+@media only screen and (min-width: 30.06em) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (min-width: 992px) {
+  .papabear\:tab-vertical.tab-selected:after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:pointer-events-none::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:absolute::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:\!left-\[-19px\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:\!top-\[6px\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:bottom-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:left-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:right-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:top-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:ml-0\.5::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:ml-\[74px\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:block::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:h-full::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:w-full::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:rounded-full::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:border-1::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:border-solid::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:border-color-divider::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:bg-gradient-to-b::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:from-color-transparent::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:to-color-background-scrim::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:text-color-text-low-emphasis::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:no-underline::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:shadow-\[0_0_0_500px_var\(--color-scrim\)\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:content-\[\"\"\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:content-\[\'\'\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:content-\[\'\/\'\]::after {
+    content: "";
+  }
+}
+@media (min-width: 576px) {
+  .xs\:sticky {
+    position: sticky;
+  }
+
+  .xs\:left-\[-52px\] {
+    left: -52px;
+  }
+
+  .xs\:left-\[-56px\] {
+    left: -56px;
+  }
+
+  .xs\:top-0 {
+    top: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .sm\:m-0 {
+    margin: 0px;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:pl-0\.5 {
+    padding-left: 4px;
+  }
+
+  .sm\:text-sm {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  .md\:\!absolute {
+    position: absolute !important;
+  }
+
+  .md\:absolute {
+    position: absolute;
+  }
+
+  .md\:left-\[-44px\] {
+    left: -44px;
+  }
+
+  .md\:left-\[-52px\] {
+    left: -52px;
+  }
+
+  .md\:left-\[-53px\] {
+    left: -53px;
+  }
+
+  .md\:left-\[-60px\] {
+    left: -60px;
+  }
+
+  .md\:right-\[19px\] {
+    right: 19px;
+  }
+
+  .md\:m-2 {
+    margin: 16px;
+  }
+
+  .md\:-ml-1 {
+    margin-left: -8px;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .md\:mb-8 {
+    margin-bottom: 64px;
+  }
+
+  .md\:ml-1 {
+    margin-left: 8px;
+  }
+
+  .md\:ml-\[-12px\] {
+    margin-left: -12px;
+  }
+
+  .md\:ml-\[-41px\] {
+    margin-left: -41px;
+  }
+
+  .md\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .md\:mr-4 {
+    margin-right: 32px;
+  }
+
+  .md\:mr-6 {
+    margin-right: 48px;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:box-content {
+    box-sizing: content-box;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:inline-flex {
+    display: inline-flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:h-4 {
+    height: 32px;
+  }
+
+  .md\:h-56 {
+    height: 448px;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:w-2\/5 {
+    width: 40%;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
+  .md\:w-4 {
+    width: 32px;
+  }
+
+  .md\:w-\[280px\] {
+    width: 280px;
+  }
+
+  .md\:w-\[392px\] {
+    width: 392px;
+  }
+
+  .md\:w-\[452px\] {
+    width: 452px;
+  }
+
+  .md\:w-\[500px\] {
+    width: 500px;
+  }
+
+  .md\:w-\[calc\(100\%\+44px\)\] {
+    width: calc(100% + 44px);
+  }
+
+  .md\:w-\[calc\(37\%-40px\)\] {
+    width: calc(37% - 40px);
+  }
+
+  .md\:w-\[calc\(50\%-40px\)\] {
+    width: calc(50% - 40px);
+  }
+
+  .md\:max-w-\[392px\] {
+    max-width: 392px;
+  }
+
+  .md\:max-w-\[576px\] {
+    max-width: 576px;
+  }
+
+  .md\:flex-1 {
+    flex: 1 1 0%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+
+  .md\:whitespace-nowrap {
+    white-space: nowrap;
+  }
+
+  .md\:px-1 {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .md\:px-3 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .md\:py-1\.5 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .md\:py-4 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .md\:py-6 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .md\:pb-2 {
+    padding-bottom: 16px;
+  }
+
+  .md\:pb-6 {
+    padding-bottom: 48px;
+  }
+
+  .md\:pb-\[200px\] {
+    padding-bottom: 200px;
+  }
+
+  .md\:pl-1 {
+    padding-left: 8px;
+  }
+
+  .md\:pl-4 {
+    padding-left: 32px;
+  }
+
+  .md\:pl-\[32px\] {
+    padding-left: 32px;
+  }
+
+  .md\:pl-\[41px\] {
+    padding-left: 41px;
+  }
+
+  .md\:pl-\[56px\] {
+    padding-left: 56px;
+  }
+
+  .md\:pr-1 {
+    padding-right: 8px;
+  }
+
+  .md\:pr-\[320px\] {
+    padding-right: 320px;
+  }
+
+  .md\:pr-\[88px\] {
+    padding-right: 88px;
+  }
+
+  .md\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .md\:pt-1 {
+    padding-top: 8px;
+  }
+
+  .md\:pt-6 {
+    padding-top: 48px;
+  }
+
+  .md\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .md\:text-md {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .lg\:\!absolute {
+    position: absolute !important;
+  }
+
+  .lg\:left-\[-48px\] {
+    left: -48px;
+  }
+
+  .lg\:left-\[-56px\] {
+    left: -56px;
+  }
+
+  .lg\:left-\[-58px\] {
+    left: -58px;
+  }
+
+  .lg\:right-\[8px\] {
+    right: 8px;
+  }
+
+  .lg\:my-6 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
+  .lg\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .lg\:ml-1 {
+    margin-left: 8px;
+  }
+
+  .lg\:ml-12 {
+    margin-left: 96px;
+  }
+
+  .lg\:ml-3 {
+    margin-left: 24px;
+  }
+
+  .lg\:ml-\[-33px\] {
+    margin-left: -33px;
+  }
+
+  .lg\:ml-\[10px\] {
+    margin-left: 10px;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:inline-flex {
+    display: inline-flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:h-4 {
+    height: 32px;
+  }
+
+  .lg\:h-6 {
+    height: 48px;
+  }
+
+  .lg\:h-\[20px\] {
+    height: 20px;
+  }
+
+  .lg\:w-4 {
+    width: 32px;
+  }
+
+  .lg\:w-6 {
+    width: 48px;
+  }
+
+  .lg\:w-\[20px\] {
+    width: 20px;
+  }
+
+  .lg\:w-\[calc\(100\%\+56px\)\] {
+    width: calc(100% + 56px);
+  }
+
+  .lg\:w-\[calc\(37\%-32px\)\] {
+    width: calc(37% - 32px);
+  }
+
+  .lg\:w-\[calc\(50\%-32px\)\] {
+    width: calc(50% - 32px);
+  }
+
+  .lg\:max-w-x-article-width {
+    max-width: 816px;
+  }
+
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
+  .lg\:items-center {
+    align-items: center;
+  }
+
+  .lg\:pl-4 {
+    padding-left: 32px;
+  }
+
+  .lg\:pl-\[33px\] {
+    padding-left: 33px;
+  }
+
+  .lg\:pl-\[40px\] {
+    padding-left: 40px;
+  }
+
+  .lg\:pl-\[41px\] {
+    padding-left: 41px;
+  }
+
+  .lg\:pl-\[88px\] {
+    padding-left: 88px;
+  }
+
+  .lg\:pr-1 {
+    padding-right: 8px;
+  }
+
+  .lg\:pr-4 {
+    padding-right: 32px;
+  }
+
+  .lg\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .lg\:text-display-lg {
+    font-size: 48px;
+  }
+
+  .lg\:text-lg {
+    font-size: 20px;
+  }
+
+  .lg\:text-md {
+    font-size: 16px;
+  }
+
+  .lg\:text-sm {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1440px) {
+  .xl\:ml-6 {
+    margin-left: 48px;
+  }
+
+  .xl\:w-6 {
+    width: 48px;
+  }
+
+  .xl\:w-\[50px\] {
+    width: 50px;
+  }
+
+  .xl\:pl-8 {
+    padding-left: 64px;
+  }
+
+  .xl\:pl-\[120px\] {
+    padding-left: 120px;
+  }
+
+  .xl\:pr-8 {
+    padding-right: 64px;
+  }
+}
+@media (max-width: 767px) {
+  .babybear\:\!-top-0\.5 {
+    top: -4px !important;
+  }
+
+  .babybear\:-top-1 {
+    top: -8px;
+  }
+
+  .babybear\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .babybear\:bottom-\[120\%\] {
+    bottom: 120%;
+  }
+
+  .babybear\:left-3 {
+    left: 24px;
+  }
+
+  .babybear\:right-4 {
+    right: 32px;
+  }
+
+  .babybear\:top-0\.5 {
+    top: 4px;
+  }
+
+  .babybear\:z-0 {
+    z-index: 0;
+  }
+
+  .babybear\:order-last {
+    order: 9999;
+  }
+
+  .babybear\:m-0 {
+    margin: 0px;
+  }
+
+  .babybear\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .babybear\:mx-1\.5 {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .babybear\:my-2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .babybear\:-mt-0\.5 {
+    margin-top: -4px;
+  }
+
+  .babybear\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .babybear\:mb-0\.5 {
+    margin-bottom: 4px;
+  }
+
+  .babybear\:mb-1 {
+    margin-bottom: 8px;
+  }
+
+  .babybear\:mb-2 {
+    margin-bottom: 16px;
+  }
+
+  .babybear\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .babybear\:ml-1 {
+    margin-left: 8px;
+  }
+
+  .babybear\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .babybear\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .babybear\:mt-0\.5 {
+    margin-top: 4px;
+  }
+
+  .babybear\:mt-\[6px\] {
+    margin-top: 6px;
+  }
+
+  .babybear\:hidden {
+    display: none;
+  }
+
+  .babybear\:h-4 {
+    height: 32px;
+  }
+
+  .babybear\:h-6 {
+    height: 48px;
+  }
+
+  .babybear\:h-\[180px\] {
+    height: 180px;
+  }
+
+  .babybear\:h-\[26px\] {
+    height: 26px;
+  }
+
+  .babybear\:h-\[360px\] {
+    height: 360px;
+  }
+
+  .babybear\:h-\[59px\] {
+    height: 59px;
+  }
+
+  .babybear\:h-\[64px\] {
+    height: 64px;
+  }
+
+  .babybear\:h-\[72px\] {
+    height: 72px;
+  }
+
+  .babybear\:h-auto {
+    height: auto;
+  }
+
+  .babybear\:max-h-4 {
+    max-height: 32px;
+  }
+
+  .babybear\:max-h-\[225px\] {
+    max-height: 225px;
+  }
+
+  .babybear\:max-h-\[250px\] {
+    max-height: 250px;
+  }
+
+  .babybear\:max-h-\[400px\] {
+    max-height: 400px;
+  }
+
+  .babybear\:min-h-\[134px\] {
+    min-height: 134px;
+  }
+
+  .babybear\:w-1 {
+    width: 8px;
+  }
+
+  .babybear\:w-11\/12 {
+    width: 91.666667%;
+  }
+
+  .babybear\:w-6 {
+    width: 48px;
+  }
+
+  .babybear\:w-\[105px\] {
+    width: 105px;
+  }
+
+  .babybear\:w-\[199px\] {
+    width: 199px;
+  }
+
+  .babybear\:w-\[26px\] {
+    width: 26px;
+  }
+
+  .babybear\:w-\[360px\] {
+    width: 360px;
+  }
+
+  .babybear\:w-\[64px\] {
+    width: 64px;
+  }
+
+  .babybear\:w-\[calc\(100\%-68px\)\] {
+    width: calc(100% - 68px);
+  }
+
+  .babybear\:w-fit {
+    width: fit-content;
+  }
+
+  .babybear\:w-full {
+    width: 100%;
+  }
+
+  .babybear\:min-w-full {
+    min-width: 100%;
+  }
+
+  .babybear\:max-w-\[300px\] {
+    max-width: 300px;
+  }
+
+  .babybear\:max-w-\[32px\] {
+    max-width: 32px;
+  }
+
+  .babybear\:max-w-\[790px\] {
+    max-width: 790px;
+  }
+
+  .babybear\:max-w-md {
+    max-width: 28rem;
+  }
+
+  .babybear\:flex-auto {
+    flex: 1 1 auto;
+  }
+
+  .babybear\:flex-none {
+    flex: none;
+  }
+
+  .babybear\:basis-0 {
+    flex-basis: 0px;
+  }
+
+  .babybear\:-translate-x-50\% {
+    transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY=
+(1);
+  }
+
+  @media (max-width: 767px) {
+    .babybear\:-translate-x-50\% {
+      transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(=
+1) scaleY(1);
+    }
+
+    @media (max-width: 767px) {
+      .babybear\:-translate-x-50\% {
+        transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scale=
+X(1) scaleY(1);
+      }
+
+      @media (max-width: 767px) {
+        .babybear\:-translate-x-50\% {
+          transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) sca=
+leX(1) scaleY(1);
+        }
+
+        @media (max-width: 767px) {
+          .babybear\:-translate-x-50\% {
+            transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) s=
+caleX(1) scaleY(1);
+          }
+
+          @media (max-width: 767px) {
+            .babybear\:-translate-x-50\% {
+              transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0)=
+ scaleX(1) scaleY(1);
+            }
+
+            @media (max-width: 767px) {
+              .babybear\:-translate-x-50\% {
+                transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(=
+0) scaleX(1) scaleY(1);
+              }
+
+              @media (max-width: 767px) {
+                .babybear\:-translate-x-50\% {
+                  transform: translate(-50%, 0) rotate(90deg) skewX(0) skew=
+Y(0) scaleX(1) scaleY(1);
+                }
+
+                @media (max-width: 767px) {
+                  .babybear\:-translate-x-50\% {
+                    transform: translate(-50%, 0) rotate(90deg) skewX(0) sk=
+ewY(0) scaleX(1) scaleY(1);
+                  }
+
+                  @media (max-width: 767px) {
+                    .babybear\:-translate-x-50\% {
+                      transform: translate(-50%, 0) rotate(90deg) skewX(0) =
+skewY(0) scaleX(1) scaleY(1);
+                    }
+
+                    @media (max-width: 767px) {
+                      .babybear\:-translate-x-50\% {
+                        transform: translate(-50%, 0) rotate(90deg) skewX(0=
+) skewY(0) scaleX(1) scaleY(1);
+                      }
+
+                      @media (max-width: 767px) {
+                        .babybear\:-translate-x-50\% {
+                          transform: translate(-50%, 0) rotate(90deg) skewX=
+(0) skewY(0) scaleX(1) scaleY(1);
+                        }
+
+                        @media (max-width: 767px) {
+                          .babybear\:-translate-x-50\% {
+                            transform: translate(-50%, 0) rotate(90deg) ske=
+wX(0) skewY(0) scaleX(1) scaleY(1);
+                          }
+
+                          @media (max-width: 767px) {
+                            .babybear\:-translate-x-50\% {
+                              transform: translate(-50%, 0) rotate(90deg) s=
+kewX(0) skewY(0) scaleX(1) scaleY(1);
+                            }
+
+                            @media (max-width: 767px) {
+                              .babybear\:-translate-x-50\% {
+                                transform: translate(-50%, 0) rotate(90deg)=
+ skewX(0) skewY(0) scaleX(1) scaleY(1);
+                              }
+
+                              @media transform: translate(0, 0) rotate(0) s=
+kewX(0) skewY(0) scaleX(1) scaleY(1);
+     (max-width: 767px) {
+                                .babybear\:rotate-90 {
+                                  transform: translate(-50%, 0) rotate(90de=
+g) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                }
+
+                                @media (max-width: 767px) {
+                                  .babybear\:rotate-90 {
+                                    transform: translate(-50%, 0) rotate(90=
+deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                  }
+
+                                  @media (max-width: 767px) {
+                                    .babybear\:rotate-90 {
+                                      transform: translate(-50%, 0) rotate(=
+90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                    }
+
+                                    @media (max-width: 767px) {
+                                      .babybear\:rotate-90 {
+                                        transform: translate(-50%, 0) rotat=
+e(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                      }
+
+                                      @media (max-width: 767px) {
+                                        .babybear\:rotate-90 {
+                                          transform: translate(-50%, 0) rot=
+ate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                        }
+
+                                        @media (max-width: 767px) {
+                                          .babybear\:rotate-90 {
+                                            transform: translate(-50%, 0) r=
+otate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                          }
+
+                                          @media (max-width: 767px) {
+                                            .babybear\:rotate-90 {
+                                              transform: translate(-50%, 0)=
+ rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                            }
+
+                                            @media (max-width: 767px) {
+                                              .babybear\:rotate-90 {
+                                                transform: translate(-50%, =
+0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                              }
+
+                                              @media (max-width: 767px) {
+                                                .babybear\:rotate-90 {
+                                                  transform: translate(-50%=
+, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                }
+
+                                                @media (max-width: 767px) {
+                                                  .babybear\:rotate-90 {
+                                                    transform: translate(-5=
+0%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                  }
+
+                                                  @media (max-width: 767px)=
+ {
+                                                    .babybear\:rotate-90 {
+                                                      transform: translate(=
+-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                    }
+
+                                                    @media (max-width: 767p=
+x) {
+                                                      .babybear\:rotate-90 =
+{
+                                                        transform: translat=
+e(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                      }
+
+                                                      @media (max-width: 76=
+7px) {
+                                                        .babybear\:rotate-9=
+0 {
+                                                          transform: transl=
+ate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                        }
+
+                                                        @media (max-width: =
+767px) {
+                                                          .babybear\:rotate=
+-90 {
+                                                            transform: tran=
+slate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                          }
+
+                                                          flex-direction: r=
+ow;
+    .babybear\:flex-col {
+                                                            flex-direction:=
+ column;
+                                                          }
+
+                                                          .babybear\:flex-w=
+rap {
+                                                            flex-wrap: wrap=
+;
+                                                          }
+
+                                                          .babybear\:items-=
+start {
+                                                            align-items: fl=
+ex-start;
+                                                          }
+
+                                                          .babybear\:items-=
+center {
+                                                            align-items: ce=
+nter;
+                                                          }
+
+                                                          .babybear\:justif=
+y-start {
+                                                            justify-content=
+: flex-start;
+                                                          }
+
+                                                          .babybear\:justif=
+y-end {
+                                                            justify-content=
+: flex-end;
+                                                          }
+
+                                                          .babybear\:justif=
+y-center {
+                                                            justify-content=
+: center;
+                                                          }
+
+                                                          .babybear\:justif=
+y-between {
+                                                            justify-content=
+: space-between;
+                                                          }
+
+                                                          .babybear\:justif=
+y-around {
+                                                            justify-content=
+: space-around;
+                                                          }
+
+                                                          .babybear\:self-s=
+tart {
+                                                            align-self: fle=
+x-start;
+                                                          }
+
+                                                          .babybear\:self-c=
+enter {
+                                                            align-self: cen=
+ter;
+                                                          }
+
+                                                          .babybear\:overfl=
+ow-y-auto {
+                                                            overflow-y: aut=
+o;
+                                                          }
+
+                                                          .babybear\:rounde=
+d-\[0px\] {
+                                                            border-radius: =
+0px;
+                                                          }
+
+                                                          .babybear\:border=
+-b-1 {
+                                                            border-bottom-w=
+idth: 1px;
+                                                          }
+
+                                                          .babybear\:border=
+-r-0 {
+                                                            border-right-wi=
+dth: 0;
+                                                          }
+
+                                                          .babybear\:border=
+-solid {
+                                                            border-style: s=
+olid;
+                                                          }
+
+                                                          .babybear\:border=
+-color-border-low-emphasis {
+                                                            border-color: r=
+gba(0, 0, 0, 0.3);
+                                                          }
+
+                                                          .babybear\:bg-col=
+or-brand {
+                                                            background-colo=
+r: #0a66c2;
+                                                          }
+
+                                                          .babybear\:p-2 {
+                                                            padding: 16px;
+                                                          }
+
+                                                          .babybear\:px-0 {
+                                                            padding-left: 0=
+px;
+                                                            padding-right: =
+0px;
+                                                          }
+
+                                                          .babybear\:px-2 {
+                                                            padding-left: 1=
+6px;
+                                                            padding-right: =
+16px;
+                                                          }
+
+                                                          .babybear\:px-mob=
+ile-container-padding {
+                                                            padding-left: 1=
+6px;
+                                                            padding-right: =
+16px;
+                                                          }
+
+                                                          .babybear\:py-1 {
+                                                            padding-top: 8p=
+x;
+                                                            padding-bottom:=
+ 8px;
+                                                          }
+
+                                                          .babybear\:py-3 {
+                                                            padding-top: 24=
+px;
+                                                            padding-bottom:=
+ 24px;
+                                                          }
+
+                                                          .babybear\:pb-0 {
+                                                            padding-bottom:=
+ 0px;
+                                                          }
+
+                                                          .babybear\:pb-2 {
+                                                            padding-bottom:=
+ 16px;
+                                                          }
+
+                                                          .babybear\:pl-0\.=
+5 {
+                                                            padding-left: 4=
+px;
+                                                          }
+
+                                                          .babybear\:pr-0 {
+                                                            padding-right: =
+0px;
+                                                          }
+
+                                                          .babybear\:pr-0\.=
+5 {
+                                                            padding-right: =
+4px;
+                                                          }
+
+                                                          .babybear\:pt-0 {
+                                                            padding-top: 0p=
+x;
+                                                          }
+
+                                                          .babybear\:pt-0\.=
+5 {
+                                                            padding-top: 4p=
+x;
+                                                          }
+
+                                                          .babybear\:pt-1 {
+                                                            padding-top: 8p=
+x;
+                                                          }
+
+                                                          .babybear\:pt-4 {
+                                                            padding-top: 32=
+px;
+                                                          }
+
+                                                          .babybear\:text-\=
+[10px\] {
+                                                            font-size: 10px=
+;
+                                                          }
+
+                                                          .babybear\:text-l=
+g {
+                                                            font-size: 20px=
+;
+                                                          }
+
+                                                          .babybear\:text-m=
+d {
+                                                            font-size: 16px=
+;
+                                                          }
+
+                                                          .babybear\:text-s=
+m {
+                                                            font-size: 14px=
+;
+                                                          }
+
+                                                          .babybear\:text-x=
+l {
+                                                            font-size: 24px=
+;
+                                                          }
+
+                                                          .babybear\:text-x=
+s {
+                                                            font-size: 12px=
+;
+                                                          }
+
+                                                          .babybear\:font-b=
+old {
+                                                            font-weight: 60=
+0;
+                                                          }
+
+                                                          .babybear\:leadin=
+g-\[150px\] {
+                                                            line-height: 15=
+0px;
+                                                          }
+
+                                                          .babybear\:last\:=
+border-b-0:last-child {
+                                                            border-bottom-w=
+idth: 0;
+                                                          }
+
+                                                        }
+
+                                                      }
+
+                                                    }
+
+                                                  }
+
+                                                }
+
+                                              }
+
+                                            }
+
+                                          }
+
+                                        }
+
+                                      }
+
+                                    }
+
+                                  }
+
+                                }
+
+                              }
+
+                            }
+
+                          }
+
+                        }
+
+                      }
+
+                    }
+
+                  }
+
+                }
+
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+}
+@media (max-width: 991px) {
+  .babymamabear\:invisible {
+    visibility: hidden;
+  }
+
+  .babymamabear\:static {
+    position: static;
+  }
+
+  .babymamabear\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .babymamabear\:mx-mobile-container-padding {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .babymamabear\:mb-1\.5 {
+    margin-bottom: 12px;
+  }
+
+  .babymamabear\:ml-\[-9999px\] {
+    margin-left: -9999px;
+  }
+
+  .babymamabear\:mr-3 {
+    margin-right: 24px;
+  }
+
+  .babymamabear\:flex {
+    display: flex;
+  }
+
+  .babymamabear\:hidden {
+    display: none;
+  }
+
+  .babymamabear\:h-\[1px\] {
+    height: 1px;
+  }
+
+  .babymamabear\:h-\[48px\] {
+    height: 48px;
+  }
+
+  .babymamabear\:w-\[100vw\] {
+    width: 100vw;
+  }
+
+  .babymamabear\:w-\[1px\] {
+    width: 1px;
+  }
+
+  .babymamabear\:w-full {
+    width: 100%;
+  }
+
+  .babymamabear\:min-w-\[50px\] {
+    min-width: 50px;
+  }
+
+  .babymamabear\:basis-1\/2 {
+    flex-basis: 50%;
+  }
+
+  .babymamabear\:flex-col {
+    flex-direction: column;
+  }
+
+  .babymamabear\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .babymamabear\:bg-color-transparent {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .babymamabear\:p-0 {
+    padding: 0px;
+  }
+
+  .babymamabear\:px-mobile-container-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .babymamabear\:py-1\.5 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .mamabear\:absolute {
+    position: absolute;
+  }
+
+  .mamabear\:-top-0\.5 {
+    top: -4px;
+  }
+
+  .mamabear\:-top-1 {
+    top: -8px;
+  }
+
+  .mamabear\:right-4 {
+    right: 32px;
+  }
+
+  .mamabear\:top-\[58px\] {
+    top: 58px;
+  }
+
+  .mamabear\:mr-3 {
+    margin-right: 24px;
+  }
+
+  .mamabear\:mt-\[68px\] {
+    margin-top: 68px;
+  }
+
+  .mamabear\:hidden {
+    display: none;
+  }
+
+  .mamabear\:\!h-4 {
+    height: 32px !important;
+  }
+
+  .mamabear\:h-\[100\%\] {
+    height: 100%;
+  }
+
+  .mamabear\:\!min-h-\[32px\] {
+    min-height: 32px !important;
+  }
+
+  .mamabear\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .mamabear\:w-48 {
+    width: 384px;
+  }
+
+  .mamabear\:w-\[744px\] {
+    width: 744px;
+  }
+
+  .mamabear\:w-\[calc\(100\%-97px\)\] {
+    width: calc(100% - 97px);
+  }
+
+  .mamabear\:w-full {
+    width: 100%;
+  }
+
+  .mamabear\:min-w-0 {
+    min-width: 0px;
+  }
+
+  .mamabear\:min-w-full {
+    min-width: 100%;
+  }
+
+  .mamabear\:max-w-\[790px\] {
+    max-width: 790px;
+  }
+
+  .mamabear\:flex-shrink-0 {
+    flex-shrink: 0;
+  }
+
+  .mamabear\:flex-row {
+    flex-direction: row;
+  }
+
+  .mamabear\:items-start {
+    align-items: flex-start;
+  }
+
+  .mamabear\:items-center {
+    align-items: center;
+  }
+
+  .mamabear\:self-center {
+    align-self: center;
+  }
+
+  .mamabear\:rounded-tr-none {
+    border-top-right-radius: 0px;
+  }
+
+  .mamabear\:px-2 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .mamabear\:px-3 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .mamabear\:px-mobile-container-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .mamabear\:py-3 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .mamabear\:pt-desktop-content-top-margin {
+    padding-top: 16px;
+  }
+
+  .mamabear\:text-center {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .papamamabear\:pt-desktop-content-top-margin {
+    padding-top: 16px;
+  }
+
+  .after\:papamamabear\:\!h-\[37px\]::after {
+    content: undefined;
+    height: 37px !important;
+  }
+
+  @media (min-width: 768px) {
+    .after\:papamamabear\:\!h-\[37px\]::after {
+      content: "";
+    }
+
+    content: "".after\:papamamabear\:\!h-\[37px\]::after:content-\[\'\'\]::=
+after {
+      content: "";
+    }
+
+    .after\:papamamabear\:\!h-\[37px\]::after:content-\[\"\"\]::after {
+      content: "";
+    }
+
+    .after\:papamamabear\:up-down-divider::after {
+      display: flex;
+      height: 100%;
+      width: 1px;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.3);
+      text-align: center;
+      content: undefined;
+    }
+
+    @media (min-width: 768px) {
+      .after\:papamamabear\:up-down-divider::after {
+        content: "";
+      }
+
+      content: "".after\:papamamabear\:up-down-divider::after:content-\[\'\=
+'\]::after {
+        content: "";
+      }
+
+      .after\:papamamabear\:up-down-divider::after:content-\[\"\"\]::after =
+{
+        content: "";
+      }
+
+    }
+
+  }
+}
+@media (min-width: 992px) {
+  .papabear\:absolute {
+    position: absolute;
+  }
+
+  .papabear\:-top-1 {
+    top: -8px;
+  }
+
+  .papabear\:top-\[58px\] {
+    top: 58px;
+  }
+
+  .papabear\:\!mx-2 {
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+  }
+
+  .papabear\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .papabear\:mb-\[18px\] {
+    margin-bottom: 18px;
+  }
+
+  .papabear\:ml-column-gutter {
+    margin-left: 24px;
+  }
+
+  .papabear\:mr-2 {
+    margin-right: 16px;
+  }
+
+  .papabear\:mr-3 {
+    margin-right: 24px;
+  }
+
+  .papabear\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .papabear\:mt-0\.5 {
+    margin-top: 4px;
+  }
+
+  .papabear\:mt-\[-100px\] {
+    margin-top: -100px;
+  }
+
+  .papabear\:mt-\[68px\] {
+    margin-top: 68px;
+  }
+
+  .papabear\:inline-block {
+    display: inline-block;
+  }
+
+  .papabear\:flex {
+    display: flex;
+  }
+
+  .papabear\:hidden {
+    display: none;
+  }
+
+  .papabear\:\!h-4 {
+    height: 32px !important;
+  }
+
+  .papabear\:h-6 {
+    height: 48px;
+  }
+
+  .papabear\:h-\[100\%\] {
+    height: 100%;
+  }
+
+  .papabear\:\!min-h-\[32px\] {
+    min-height: 32px !important;
+  }
+
+  .papabear\:min-h-\[96px\] {
+    min-height: 96px;
+  }
+
+  .papabear\:w-48 {
+    width: 384px;
+  }
+
+  .papabear\:w-\[1128px\] {
+    width: 1128px;
+  }
+
+  .papabear\:w-\[219px\] {
+    width: 219px;
+  }
+
+  .papabear\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .papabear\:w-\[calc\(100\%-97px\)\] {
+    width: calc(100% - 97px);
+  }
+
+  .papabear\:w-auto {
+    width: auto;
+  }
+
+  .papabear\:w-content-max-w {
+    width: 1128px;
+  }
+
+  .papabear\:w-core-rail-width {
+    width: 784px;
+  }
+
+  .papabear\:w-right-rail-width {
+    width: calc(1128px - 24px - 784px);
+  }
+
+  .papabear\:min-w-0 {
+    min-width: 0px;
+  }
+
+  .papabear\:max-w-\[550px\] {
+    max-width: 550px;
+  }
+
+  .papabear\:flex-shrink-0 {
+    flex-shrink: 0;
+  }
+
+  .papabear\:flex-col {
+    flex-direction: column;
+  }
+
+  .papabear\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .papabear\:items-start {
+    align-items: flex-start;
+  }
+
+  .papabear\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .papabear\:justify-center {
+    justify-content: center;
+  }
+
+  .papabear\:self-start {
+    align-self: flex-start;
+  }
+
+  .papabear\:rounded-tr-none {
+    border-top-right-radius: 0px;
+  }
+
+  .papabear\:border-4 {
+    border-width: 4px;
+  }
+
+  .papabear\:p-0 {
+    padding: 0px;
+  }
+
+  .papabear\:p-details-container-padding {
+    padding: 24px;
+  }
+
+  .papabear\:py-2 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .papabear\:pt-desktop-content-top-margin {
+    padding-top: 16px;
+  }
+
+  .papabear\:text-xl {
+    font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .-md\:ml-2 {
+    margin-left: 16px;
+  }
+
+  .-md\:mt-1 {
+    margin-top: 8px;
+  }
+
+  .-md\:flex-wrap {
+    flex-wrap: wrap;
+  }
+}
+</style></head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-ca=
+nvas w-full m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; pa=
+dding: 0px; padding-top: 8px; font-family: -apple-system, system-ui, BlinkM=
+acSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Ox=
+ygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe U=
+I Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, =
+Arial, sans-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible=
+ overflow-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; m=
+ax-height: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" dat=
+a-email-preheader=3D"true">Dubbed =E2=80=98the climate finance COP=E2=80=99=
+ due to the overwhelming focus on =E2=80=9Cfinancial=E2=80=A6</div> <div cl=
+ass=3D"h-0 opacity-0 text-transparent invisible overflow-hidden w-0 max-h-[=
+0]" style=3D"visibility: hidden; height: 0px; max-height: 0; width: 0px; ov=
+erflow: hidden; opacity: 0; mso-hide: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table =
+role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0" width=3D"512" align=3D"center" class=3D"mercado-container w-[512=
+px] max-w-[512px] mx-auto my-0 p-0 bg-color-background-container" style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt; margin-left: auto; margin-right: auto; margi=
+n-top: 0px; margin-bottom: 0px; width: 512px; max-width: 512px; background-=
+color: #ffffff; padding: 0px;"> <tbody> <tr> <td class=3D"text-center p-3" =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; padding: 24px; text-align: center;"=
+> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" width=3D"100%" class=3D"min-w-full" style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; min-width: 100%;"> <tbody> <tr> <td align=3D"left" val=
+ign=3D"middle" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https:/=
+/www.linkedin.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_fo=
+llow_newsletter_01%3BKfZ7bQjASK6DqDz%2F61tYmA%3D%3D&amp;midToken=3DAQHxaOsd=
+YMWJVQ&amp;midSig=3D2PkeqivOpxHbw1&amp;trk=3Deml-email_series_follow_newsle=
+tter_01-header-0-home_glimmer_dynamic_badging_high_dpi&amp;trkEmail=3Deml-e=
+mail_series_follow_newsletter_01-header-0-home_glimmer_dynamic_badging_high=
+_dpi-null-gdb74f~m41bahbg~7u-null-null&amp;eid=3Dgdb74f-m41bahbg-7u&amp;otp=
+Token=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UwYmQ4N2NmZDk0ODlmYWU4ZDYxNzl=
+jNDA2NmQ0YjVkNWJmMmZlZDNkZmU2NjhkN2JmODg1ZDg5Y2EzZDViNWMwYTZlNDM2YjQzMjg5Ym=
+EzMGRjYTFhYjM1MiwxLDE%3D" target=3D"_blank" class=3D"w-[84px]" style=3D"col=
+or: #0a66c2; cursor: pointer; display: inline-block; text-decoration: none;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width: 84px;">=
+ <img class=3D"h-[37px] w-[101px]" alt=3D"LinkedIn" src=3D"https://www.link=
+edin.com/comm/dms/logo/v2?badgeTheme=3Dmercado&amp;lipi=3Durn%3Ali%3Apage%3=
+Aemail_email_series_follow_newsletter_01%3BKfZ7bQjASK6DqDz%2F61tYmA%3D%3D&a=
+mp;midSig=3D2PkeqivOpxHbw1&amp;midToken=3DAQHxaOsdYMWJVQ&amp;trkEmail=3Deml=
+-email_series_follow_newsletter_01-null-0-comms%7Ebadging%7Edynamic%7Eglimm=
+er%7Ev2-null-gdb74f%7Em41bahbg%7E7u-null-null&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2&amp;_sig=
+=3D1hJLwruUlxHbw1" data-test-header-dynamic-badging-img-high-dpi style=3D"o=
+utline: none; text-decoration: none; -ms-interpolation-mode: bicubic; heigh=
+t: 37px; width: 101px;" width=3D"101" height=3D"37"> </a> </td> <td valign=
+=3D"middle" align=3D"right" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tabl=
+e role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" width=3D"100%" data-test-header-profile style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt;"> <tbody> <tr> <td align=3D"right" valign=3D"middle" clas=
+s=3D"w-[32px]" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 32px;" width=
+=3D"32"> <a href=3D"https://br.linkedin.com/comm/in/fernando-ferreira-brito=
+?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BKfZ7bQj=
+ASK6DqDz%2F61tYmA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2PkeqivO=
+pxHbw1&amp;trk=3Deml-email_series_follow_newsletter_01-header-0-profile_gli=
+mmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-header-0-profile_=
+glimmer-null-gdb74f~m41bahbg~7u-null-null&amp;eid=3Dgdb74f-m41bahbg-7u&amp;=
+otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UwYmQ4N2NmZDk0ODlmYWU4ZDYx=
+NzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU2NjhkN2JmODg1ZDg5Y2EzZDViNWMwYTZlNDM2YjQzMjg=
+5YmEzMGRjYTFhYjM1MiwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cur=
+sor: pointer; display: inline-block; text-decoration: none; -webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%;"> <img alt=3D"Luiz Fernando Br=
+ito Ferreira" src=3D"https://media.licdn.com/dms/image/v2/D4E03AQHtWMkj43o1=
+lA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/=
+0/1724191556445?e=3D2147483647&amp;v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB=
+92xXoc9r_1IG6EIUIKB4" class=3D"rounded-[100%] w-[32px] h-[32px]" style=3D"o=
+utline: none; text-decoration: none; -ms-interpolation-mode: bicubic; heigh=
+t: 32px; width: 32px; border-radius: 100%;" width=3D"32" height=3D"32"> </a=
+> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <=
+tr> <td class=3D"px-0 pb-3" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding=
+-left: 0px; padding-right: 0px; padding-bottom: 24px;"> <div> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr=
+> <td data-test-id=3D"newsletter-entity-lockup" class=3D"px-3 pt-1" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; padding-left: 24px; padding-right: 24px;=
+ padding-top: 8px;"> <table role=3D"presentation" valign=3D"top" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"font-sans" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, system-u=
+i, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', U=
+buntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', He=
+lvetica, Arial, sans-serif;"> <tbody> <tr> <td valign=3D"top" class=3D"pr-1=
+ w-6" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 48px; padding-right: 8=
+px;" width=3D"48"> <a href=3D"https://www.linkedin.com/comm/newsletters/722=
+4328021535588352?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslet=
+ter_01%3BKfZ7bQjASK6DqDz%2F61tYmA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;m=
+idSig=3D2PkeqivOpxHbw1&amp;trk=3Deml-email_series_follow_newsletter_01-news=
+letter_entity_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-email_serie=
+s_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta-nul=
+l-gdb74f~m41bahbg~7u-null-null&amp;eid=3Dgdb74f-m41bahbg-7u&amp;otpToken=3D=
+MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UwYmQ4N2NmZDk0ODlmYWU4ZDYxNzljNDA2NmQ=
+0YjVkNWJmMmZlZDNkZmU2NjhkN2JmODg1ZDg5Y2EzZDViNWMwYTZlNDM2YjQzMjg5YmEzMGRjYT=
+FhYjM1MiwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointe=
+r; display: inline-block; text-decoration: none; -webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%;"> <img class=3D"inline-block relative bg-=
+color-entity-ghost-background w-6 h-6 rounded-md" src=3D"https://media.licd=
+n.com/dms/image/v2/D4E12AQGB0jN4odX2Jw/series-logo_image-shrink_100_100/ser=
+ies-logo_image-shrink_100_100/0/1722413998072?e=3D2147483647&amp;v=3Dbeta&a=
+mp;t=3Dlv9e5AFO-TpWKu_a948LyymTiB4Mj39_GGmX5Zyn_io" alt=3D"Abrir The Talent=
+ Blueprint" style=3D"outline: none; text-decoration: none; -ms-interpolatio=
+n-mode: bicubic; position: relative; display: inline-block; height: 48px; w=
+idth: 48px; border-radius: 8px; background-color: #eae6df;" width=3D"48" he=
+ight=3D"48"> </a> </td> <td valign=3D"top" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a hre=
+f=3D"https://www.linkedin.com/comm/newsletters/7224328021535588352?lipi=3Du=
+rn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BKfZ7bQjASK6DqDz%=
+2F61tYmA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2PkeqivOpxHbw1&am=
+p;trk=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-0-ne=
+wsletter_entity_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-ne=
+wsletter_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m41bahbg~7u-null=
+-null&amp;eid=3Dgdb74f-m41bahbg-7u&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1M=
+jQwNGVkNDUxY2UwYmQ4N2NmZDk0ODlmYWU4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU2Njhk=
+N2JmODg1ZDg5Y2EzZDViNWMwYTZlNDM2YjQzMjg5YmEzMGRjYTFhYjM1MiwxLDE%3D" target=
+=3D"_blank" class=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer=
+; display: inline-block; text-decoration: none; -webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; text-decoration-line: none;"> <div class=
+=3D"pb-0.5" style=3D"padding-bottom: 4px;"> <span class=3D"text-md font-bol=
+d text-color-text break-words leading-regular" style=3D"overflow-wrap: brea=
+k-word; font-size: 16px; font-weight: 600; line-height: 1.25; color: rgba(0=
+, 0, 0, 0.9);"> The Talent Blueprint </span> </div> </a> </td> </tr> <tr> <=
+td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedi=
+n.com/comm/newsletters/7224328021535588352?lipi=3Durn%3Ali%3Apage%3Aemail_e=
+mail_series_follow_newsletter_01%3BKfZ7bQjASK6DqDz%2F61tYmA%3D%3D&amp;midTo=
+ken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2PkeqivOpxHbw1&amp;trk=3Deml-email_series=
+_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta&amp;=
+trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-0=
+-newsletter_entity_cta-null-gdb74f~m41bahbg~7u-null-null&amp;eid=3Dgdb74f-m=
+41bahbg-7u&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UwYmQ4N2NmZ=
+Dk0ODlmYWU4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU2NjhkN2JmODg1ZDg5Y2EzZDViNWMw=
+YTZlNDM2YjQzMjg5YmEzMGRjYTFhYjM1MiwxLDE%3D" target=3D"_blank" class=3D"no-u=
+nderline" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; =
+text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; text-decoration-line: none;"> <span class=3D"text-xs text-color-tex=
+t-low-emphasis leading-regular" style=3D"font-size: 12px; line-height: 1.25=
+; color: rgba(0, 0, 0, 0.6);"> Helping you build your future with the lates=
+t insights from the world of work. </span> </a> </td> </tr> </tbody> </tabl=
+e> </td> </tr> </tbody> </table> </td> </tr> <tr data-test-id=3D"newsletter=
+-content-preview"> <td class=3D"px-3 pt-2" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt; padding-left: 24px; padding-right: 24px; padding-top: 16px;"> <tabl=
+e role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbod=
+y> <tr> <td class=3D"overflow-hidden " style=3D"-webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt; overflow: hidden;"> <table role=3D"presentation" valign=3D"top" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/green-skills-cause-=
+climate-concern-hays-kbnte?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_foll=
+ow_newsletter_01%3BKfZ7bQjASK6DqDz%2F61tYmA%3D%3D&amp;midToken=3DAQHxaOsdYM=
+WJVQ&amp;midSig=3D2PkeqivOpxHbw1&amp;trk=3Deml-email_series_follow_newslett=
+er_01-newsletter_content_preview-0-headline_&amp;trkEmail=3Deml-email_serie=
+s_follow_newsletter_01-newsletter_content_preview-0-headline_-null-gdb74f~m=
+41bahbg~7u-null-null&amp;eid=3Dgdb74f-m41bahbg-7u&amp;otpToken=3DMWIwZDE3ZT=
+gxMzI4Y2JjM2I1MjQwNGVkNDUxY2UwYmQ4N2NmZDk0ODlmYWU4ZDYxNzljNDA2NmQ0YjVkNWJmM=
+mZlZDNkZmU2NjhkN2JmODg1ZDg5Y2EzZDViNWMwYTZlNDM2YjQzMjg5YmEzMGRjYTFhYjM1Miwx=
+LDE%3D" target=3D"_blank" class=3D"w-full" style=3D"color: #0a66c2; cursor:=
+ pointer; display: inline-block; text-decoration: none; -webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; width: 100%;"> <img class=3D"block=
+ w-full aspect-[744/400] object-cover overflow-hidden" data-test-id=3D"news=
+letter-content-preview__cover-image" alt=3D"Imagem de capa da newsletter" s=
+rc=3D"https://media.licdn.com/dms/image/v2/D4E12AQFE-Z2kh1bB2A/article-cove=
+r_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1732795672625=
+?e=3D2147483647&amp;v=3Dbeta&amp;t=3DwjxjFlKwRSu0zK0olGa2o1LXN9RlCKiAsOFEbM=
+pdaak" style=3D"outline: none; text-decoration: none; -ms-interpolation-mod=
+e: bicubic; display: block; aspect-ratio: 744/400; width: 100%; overflow: h=
+idden; object-fit: cover;"> </a> </td> </tr> <tr> <td class=3D"py-2" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; padding-top: 16px; padding-bottom: 16px;=
+"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"ht=
+tps://www.linkedin.com/comm/pulse/green-skills-cause-climate-concern-hays-k=
+bnte?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BKfZ=
+7bQjASK6DqDz%2F61tYmA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2Pke=
+qivOpxHbw1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_conte=
+nt_preview-0-title_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-ne=
+wsletter_content_preview-0-title_-null-gdb74f~m41bahbg~7u-null-null&amp;eid=
+=3Dgdb74f-m41bahbg-7u&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2=
+UwYmQ4N2NmZDk0ODlmYWU4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU2NjhkN2JmODg1ZDg5Y=
+2EzZDViNWMwYTZlNDM2YjQzMjg5YmEzMGRjYTFhYjM1MiwxLDE%3D" target=3D"_blank" cl=
+ass=3D"no-underline font-medium text-sm m-0 text-system-gray-90" style=3D"c=
+ursor: pointer; display: inline-block; text-decoration: none; -webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0px; font-size: 14px=
+; font-weight: 500; color: #282828; text-decoration-line: none;"> <h2 class=
+=3D"m-0 text-display-sm leading-regular text-color-text font-bold font-sans=
+" style=3D"margin: 0px; font-family: -apple-system, system-ui, BlinkMacSyst=
+emFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, =
+'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial,=
+ sans-serif; font-size: 24px; font-weight: 600; line-height: 1.25; color: r=
+gba(0, 0, 0, 0.9);"> Green skills: a cause for (climate) concern </h2> </a>=
+ </td> </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" data-test-id=3D"newsletter-author-lockup-redesign" cl=
+ass=3D"mt-1 mb-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-bottom: 16=
+px; margin-top: 8px;"> <tbody> <tr> <td valign=3D"middle" align=3D"left" cl=
+ass=3D"w-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 24px;" width=3D"=
+24"> <a href=3D"https://www.linkedin.com/comm/company/hays?lipi=3Durn%3Ali%=
+3Apage%3Aemail_email_series_follow_newsletter_01%3BKfZ7bQjASK6DqDz%2F61tYmA=
+%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2PkeqivOpxHbw1&amp;trk=3D=
+eml-email_series_follow_newsletter_01-newsletter_content_preview-0-author_&=
+amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_pre=
+view-0-author_-null-gdb74f~m41bahbg~7u-null-null&amp;eid=3Dgdb74f-m41bahbg-=
+7u&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UwYmQ4N2NmZDk0ODlmY=
+WU4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU2NjhkN2JmODg1ZDg5Y2EzZDViNWMwYTZlNDM2=
+YjQzMjg5YmEzMGRjYTFhYjM1MiwxLDE%3D" target=3D"_blank" style=3D"color: #0a66=
+c2; cursor: pointer; display: inline-block; text-decoration: none; -webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img class=3D"inline-=
+block relative bg-color-entity-ghost-background w-4 h-4 align-middle" src=
+=3D"https://media.licdn.com/dms/image/v2/D4E0BAQEv3QBJew9V4A/company-logo_1=
+00_100/company-logo_100_100/0/1719821230020/hays_logo?e=3D2147483647&amp;v=
+=3Dbeta&amp;t=3DRhHJkKaHVJgO7c3vtFaev25TincEs0LkaooaauTh6Xw" alt=3D"Imagem =
+do autor" style=3D"outline: none; text-decoration: none; -ms-interpolation-=
+mode: bicubic; position: relative; display: inline-block; height: 32px; wid=
+th: 32px; background-color: #eae6df; vertical-align: middle;" width=3D"32" =
+height=3D"32"> </a> </td> <td style=3D"-webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a =
+href=3D"https://www.linkedin.com/comm/company/hays?lipi=3Durn%3Ali%3Apage%3=
+Aemail_email_series_follow_newsletter_01%3BKfZ7bQjASK6DqDz%2F61tYmA%3D%3D&a=
+mp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2PkeqivOpxHbw1&amp;trk=3Deml-emai=
+l_series_follow_newsletter_01-newsletter_content_preview-0-author_&amp;trkE=
+mail=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-a=
+uthor_-null-gdb74f~m41bahbg~7u-null-null&amp;eid=3Dgdb74f-m41bahbg-7u&amp;o=
+tpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UwYmQ4N2NmZDk0ODlmYWU4ZDYxN=
+zljNDA2NmQ0YjVkNWJmMmZlZDNkZmU2NjhkN2JmODg1ZDg5Y2EzZDViNWMwYTZlNDM2YjQzMjg5=
+YmEzMGRjYTFhYjM1MiwxLDE%3D" target=3D"_blank" class=3D"no-underline ml-1" s=
+tyle=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decora=
+tion: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mar=
+gin-left: 8px; text-decoration-line: none;"> <span class=3D"font-sans font-=
+bold text-sm mb-3 text-color-text-low-emphasis leading-regular" style=3D"ma=
+rgin-bottom: 24px; font-family: -apple-system, system-ui, BlinkMacSystemFon=
+t, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxyg=
+en Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', '=
+Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans=
+-serif; font-size: 14px; font-weight: 600; line-height: 1.25; color: rgba(0=
+, 0, 0, 0.6);"> Hays </span> </a> </td> </tr> </tbody> </table> </td> </tr>=
+ <tr> <td class=3D"pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bo=
+ttom: 8px;"> <div class=3D"p-3 bg-color-surface-tint rounded-md font-sans" =
+data-test-id=3D"newsletter-cta-banner" style=3D"border-radius: 8px; backgro=
+und-color: #f5f7f9; padding: 24px; font-family: -apple-system, system-ui, B=
+linkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubunt=
+u, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvet=
+ica, Arial, sans-serif;"> <div class=3D"mb-1.5" style=3D"margin-bottom: 12p=
+x;"> <span class=3D"text-md leading-regular font-bold text-color-text" styl=
+e=3D"font-size: 16px; font-weight: 600; line-height: 1.25; color: rgba(0, 0=
+, 0, 0.9);"> Leia este artigo no LinkedIn para participar da conversa </spa=
+n> </div> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"email-button " data-tes=
+t-id=3D"email-button" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr=
+> <td valign=3D"middle" align=3D"left" style=3D"-webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/green-skills-cause-cli=
+mate-concern-hays-kbnte?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_=
+newsletter_01%3BKfZ7bQjASK6DqDz%2F61tYmA%3D%3D&amp;midToken=3DAQHxaOsdYMWJV=
+Q&amp;midSig=3D2PkeqivOpxHbw1&amp;trk=3Deml-email_series_follow_newsletter_=
+01-newsletter_content_preview-0-read_more_banner_cta_&amp;trkEmail=3Deml-em=
+ail_series_follow_newsletter_01-newsletter_content_preview-0-read_more_bann=
+er_cta_-null-gdb74f~m41bahbg~7u-null-null&amp;eid=3Dgdb74f-m41bahbg-7u&amp;=
+otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UwYmQ4N2NmZDk0ODlmYWU4ZDYx=
+NzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU2NjhkN2JmODg1ZDg5Y2EzZDViNWMwYTZlNDM2YjQzMjg=
+5YmEzMGRjYTFhYjM1MiwxLDE%3D" target=3D"_blank" aria-label=3D"Abrir este art=
+igo no LinkedIn" class=3D"align-top no-underline " style=3D"color: #0a66c2;=
+ cursor: pointer; display: inline-block; text-decoration: none; -webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; vertical-align: top; text-=
+decoration-line: none;"> <table role=3D"presentation" valign=3D"top" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"auto" class=3D"border-s=
+eparate " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: separate=
+;"> <tbody> <tr> <td class=3D"btn-sm btn-primary border-color-brand button-=
+link leading-regular !min-h-[auto] !shadow-none border-1 border-solid" styl=
+e=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; height: min-content; border-radius: 24p=
+x; padding-top: 7px; padding-bottom: 7px; padding-left: 16px; padding-right=
+: 16px; text-align: center; font-size: 14px; font-weight: 600; cursor: poin=
+ter; text-decoration-line: none; background-color: #0a66c2; color: #ffffff;=
+ border-width: 1px; border-style: solid; border-color: #0a66c2; line-height=
+: 1.25; min-height: auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 =
+#0000 !important;"> <a href=3D"https://www.linkedin.com/comm/pulse/green-sk=
+ills-cause-climate-concern-hays-kbnte?lipi=3Durn%3Ali%3Apage%3Aemail_email_=
+series_follow_newsletter_01%3BKfZ7bQjASK6DqDz%2F61tYmA%3D%3D&amp;midToken=
+=3DAQHxaOsdYMWJVQ&amp;midSig=3D2PkeqivOpxHbw1&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-newsletter_content_preview-0-read_more_banner_cta_&amp;t=
+rkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-=
+0-read_more_banner_cta_-null-gdb74f~m41bahbg~7u-null-null&amp;eid=3Dgdb74f-=
+m41bahbg-7u&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UwYmQ4N2Nm=
+ZDk0ODlmYWU4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU2NjhkN2JmODg1ZDg5Y2EzZDViNWM=
+wYTZlNDM2YjQzMjg5YmEzMGRjYTFhYjM1MiwxLDE%3D" target=3D"_blank" tabindex=3D"=
+-1" aria-hidden=3D"true" class=3D"no-underline" style=3D"color: #0a66c2; cu=
+rsor: pointer; display: inline-block; text-decoration: none; -webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; text-decoration-line: none;">=
+ <span class=3D"no-underline text-white" style=3D"color: #ffffff; text-deco=
+ration-line: none;"> Ler no LinkedIn </span> </a> </td> </tr> </tbody> </ta=
+ble> </a> </td> </tr> </tbody> </table> </div> </td> </tr> <tr data-test-id=
+=3D"newsletter-content-preview--content"> <td class=3D"series-article-body"=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, system=
+-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans',=
+ Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji=
+', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', =
+Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: rgb=
+a(0, 0, 0, 0.9);"> <p style=3D"margin: 0; font-weight: 400; margin-top: 0.8=
+em; font-size: 1em; line-height: 1.5;">Dubbed =E2=80=98the climate finance =
+COP=E2=80=99 due to the overwhelming focus on =E2=80=9C<a href=3D"https://w=
+ww.youtube.com/watch?v=3DhnSvhx6Mnc0" target=3D"_blank" style=3D"text-decor=
+ation: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; di=
+splay: inline; cursor: pointer; font-weight: 600; color: #0a66c2; text-deco=
+ration-line: none;">financial instruments to support climate action, as wel=
+l as building resilience in developing countries=E2=80=9D,</a> the COP29 su=
+mmit came to a close earlier this week.&nbsp;&nbsp;</p><p style=3D"margin: =
+0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">=
+The direct provision of grants and loans from developed to developing count=
+ries needed to double from the current $40bn provision. Amid fears that neg=
+otiations would collapse entirely, a deal worth $300bn was finally struck =
+=E2=80=93 48 hours after the conference officially closed. &nbsp;</p><p sty=
+le=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-=
+height: 1.5;">While it may be all about the money in Baku, our focus is on =
+skills. And we are seeing <em style=3D"font-style: italic;">an explosion</e=
+m> in the demand for green talent.&nbsp;</p><p style=3D"margin: 0; font-wei=
+ght: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">As <a href=
+=3D"https://www.linkedin.com/in/kirsty-green-mann/" target=3D"_blank" style=
+=3D"text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; display: inline; cursor: pointer; font-weight: 600; color: #0a6=
+6c2; text-decoration-line: none;">Kirsty Green-Mann</a>, Group Head of Sust=
+ainability at Hays outlines, the need is evident across all industries and =
+job roles: =E2=80=9CWe are seeing increasing demand for sustainability anal=
+ysts, resilience planners and green finance roles. There has been a huge su=
+rge in STEM roles with the growth of the renewable energy sector, including=
+ battery technology and carbon management experts. We=E2=80=99re also seein=
+g a renewed focus on building sustainable supply chains, as well as special=
+ised governance and policy experts.=E2=80=9D&nbsp;&nbsp;</p><p style=3D"mar=
+gin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1=
+.5;">For <a href=3D"https://www.linkedin.com/in/paul-endres/" target=3D"_bl=
+ank" style=3D"text-decoration: none; -webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; display: inline; cursor: pointer; font-weight: 600; c=
+olor: #0a66c2; text-decoration-line: none;">Paul Endres</a>, Head of Green =
+Business, Hays Germany, it=E2=80=99s the high-skill, high-pay roles that ar=
+e hitting new heights:&nbsp;&nbsp;</p><p style=3D"margin: 0; font-weight: 4=
+00; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">=E2=80=9CWhereas =
+sustainability roles used to be more focused on project management or commu=
+nication tasks, they are now strategically anchored, often directly under e=
+xecutive management or board leve...</p> </td> </tr> <tr> <td class=3D"pt-2=
+ no-underline" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 16px; t=
+ext-decoration-line: none;"> <table role=3D"presentation" valign=3D"top" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"emai=
+l-button series-content-preview__bottom-cta" data-test-id=3D"email-button" =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=3D"middle=
+" align=3D"left" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https=
+://www.linkedin.com/comm/pulse/green-skills-cause-climate-concern-hays-kbnt=
+e?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BKfZ7bQ=
+jASK6DqDz%2F61tYmA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2Pkeqiv=
+OpxHbw1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_content_=
+preview-0-readmore_button_&amp;trkEmail=3Deml-email_series_follow_newslette=
+r_01-newsletter_content_preview-0-readmore_button_-null-gdb74f~m41bahbg~7u-=
+null-null&amp;eid=3Dgdb74f-m41bahbg-7u&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM=
+2I1MjQwNGVkNDUxY2UwYmQ4N2NmZDk0ODlmYWU4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU2=
+NjhkN2JmODg1ZDg5Y2EzZDViNWMwYTZlNDM2YjQzMjg5YmEzMGRjYTFhYjM1MiwxLDE%3D" tar=
+get=3D"_blank" aria-label=3D"Abrir The Talent Blueprint no LinkedIn" class=
+=3D"align-top no-underline " style=3D"color: #0a66c2; cursor: pointer; disp=
+lay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; vertical-align: top; text-decoration-line: none;=
+ width: 100%;"> <table role=3D"presentation" valign=3D"top" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"border-separate "=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: separate; width: =
+100%;"> <tbody> <tr> <td class=3D"btn-md btn-secondary-emphasis border-colo=
+r-brand button-link leading-regular !min-h-[auto] !shadow-none border-1 bor=
+der-solid font-sans" data-test-id=3D"newsletter-content-preview-redesign-bo=
+ttom-cta" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: min-content; bord=
+er-radius: 24px; padding-top: 12px; padding-bottom: 12px; padding-left: 24p=
+x; padding-right: 24px; text-align: center; font-size: 16px; font-weight: 6=
+00; cursor: pointer; text-decoration-line: none; background-color: rgba(0, =
+0, 0, 0); color: #0a66c2; border-width: 1px; border-style: solid; border-co=
+lor: #0a66c2; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'S=
+egoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sa=
+ns', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-seri=
+f; line-height: 1.25; min-height: auto !important; box-shadow: 0 0 #0000, 0=
+ 0 #0000, 0 0 #0000 !important;"> <a href=3D"https://www.linkedin.com/comm/=
+pulse/green-skills-cause-climate-concern-hays-kbnte?lipi=3Durn%3Ali%3Apage%=
+3Aemail_email_series_follow_newsletter_01%3BKfZ7bQjASK6DqDz%2F61tYmA%3D%3D&=
+amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2PkeqivOpxHbw1&amp;trk=3Deml-ema=
+il_series_follow_newsletter_01-newsletter_content_preview-0-readmore_button=
+_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_p=
+review-0-readmore_button_-null-gdb74f~m41bahbg~7u-null-null&amp;eid=3Dgdb74=
+f-m41bahbg-7u&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UwYmQ4N2=
+NmZDk0ODlmYWU4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU2NjhkN2JmODg1ZDg5Y2EzZDViN=
+WMwYTZlNDM2YjQzMjg5YmEzMGRjYTFhYjM1MiwxLDE%3D" target=3D"_blank" tabindex=
+=3D"-1" aria-hidden=3D"true" class=3D"no-underline" style=3D"color: #0a66c2=
+; cursor: pointer; display: inline-block; text-decoration: none; -webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decoration-line: non=
+e; width: 100%;"> <span class=3D"no-underline text-color-brand" style=3D"co=
+lor: #0a66c2; text-decoration-line: none;"> Continue lendo no LinkedIn </sp=
+an> </a> </td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </table> <=
+/td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tb=
+ody> </table> </td> </tr> </tbody> </table> </div> </td> </tr> <tr> <td cla=
+ss=3D"bg-color-background-canvas p-3" style=3D"-webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t; background-color: #f3f2f0; padding: 24px;"> <table role=3D"presentation"=
+ valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"1=
+00%" class=3D"text-xs" style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 1=
+2px;"> <tbody> <tr> <td class=3D"pb-1 m-0" data-test-id=3D"email-footer__in=
+tended" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom=
+: 8px;"> Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack=
+ Developer | HTML | CSS | JS | React.js | Node.js | Python) </td> </tr> <tr=
+> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0p=
+x; padding-bottom: 8px;"> <a href=3D"https://www.linkedin.com/help/linkedin=
+/answer/4788?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_foll=
+ow_newsletter_01%3BKfZ7bQjASK6DqDz%2F61tYmA%3D%3D&amp;midToken=3DAQHxaOsdYM=
+WJVQ&amp;midSig=3D2PkeqivOpxHbw1&amp;trk=3Deml-email_series_follow_newslett=
+er_01-SecurityHelp-0-footerglimmer&amp;trkEmail=3Deml-email_series_follow_n=
+ewsletter_01-SecurityHelp-0-footerglimmer-null-gdb74f~m41bahbg~7u-null-null=
+&amp;eid=3Dgdb74f-m41bahbg-7u&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNG=
+VkNDUxY2UwYmQ4N2NmZDk0ODlmYWU4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU2NjhkN2JmO=
+Dg1ZDg5Y2EzZDViNWMwYTZlNDM2YjQzMjg5YmEzMGRjYTFhYjM1MiwxLDE%3D" target=3D"_b=
+lank" class=3D"text-inherit underline" style=3D"cursor: pointer; display: i=
+nline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; color: inherit; text-decoration-line: underline;">Saib=
+a por que inclu=C3=ADmos isso.</a> </td> </tr> <tr> <td class=3D"pb-1 m-0" =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;">=
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.</td> </tr> <tr> <=
+td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; =
+padding-bottom: 8px;"> <a href=3D"https://www.linkedin.com/comm/series-noti=
+fications/?action=3Dunsubscribe&amp;memberToken=3DADoAADr_Zc8BliE63H4nkhqY_=
+TxFq4e-Y9whjlY&amp;newsletterId=3D7224328021535588352&amp;newsletterTitle=
+=3DThe%20Talent%20Blueprint&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series=
+_follow_newsletter_01%3BKfZ7bQjASK6DqDz%2F61tYmA%3D%3D&amp;midToken=3DAQHxa=
+OsdYMWJVQ&amp;midSig=3D2PkeqivOpxHbw1&amp;trk=3Deml-email_series_follow_new=
+sletter_01-unsubscribe-0-footerGlimmer&amp;trkEmail=3Deml-email_series_foll=
+ow_newsletter_01-unsubscribe-0-footerGlimmer-null-gdb74f~m41bahbg~7u-null-n=
+ull&amp;eid=3Dgdb74f-m41bahbg-7u&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQ=
+wNGVkNDUxY2UwYmQ4N2NmZDk0ODlmYWU4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU2NjhkN2=
+JmODg1ZDg5Y2EzZDViNWMwYTZlNDM2YjQzMjg5YmEzMGRjYTFhYjM1MiwxLDE%3D" target=3D=
+"_blank" class=3D"text-inherit underline" style=3D"cursor: pointer; display=
+: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; color: inherit; text-decoration-line: underline;">C=
+ancelar inscri=C3=A7=C3=A3o</a> =C2=A0=C2=A0=C2=B7=C2=A0=C2=A0 <a href=3D"h=
+ttps://www.linkedin.com/help/linkedin/answer/67?lang=3Dpt&amp;lipi=3Durn%3A=
+li%3Apage%3Aemail_email_series_follow_newsletter_01%3BKfZ7bQjASK6DqDz%2F61t=
+YmA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2PkeqivOpxHbw1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-help-0-footerglimmer&amp;trkEmail=
+=3Deml-email_series_follow_newsletter_01-help-0-footerglimmer-null-gdb74f~m=
+41bahbg~7u-null-null&amp;eid=3Dgdb74f-m41bahbg-7u&amp;otpToken=3DMWIwZDE3ZT=
+gxMzI4Y2JjM2I1MjQwNGVkNDUxY2UwYmQ4N2NmZDk0ODlmYWU4ZDYxNzljNDA2NmQ0YjVkNWJmM=
+mZlZDNkZmU2NjhkN2JmODg1ZDg5Y2EzZDViNWMwYTZlNDM2YjQzMjg5YmEzMGRjYTFhYjM1Miwx=
+LDE%3D" target=3D"_blank" class=3D"text-inherit underline" style=3D"cursor:=
+ pointer; display: inline-block; text-decoration: none; -webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; color: inherit; text-decoration-li=
+ne: underline;">Ajuda</a> </td> </tr> <tr> <td class=3D"pb-1" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; padding-bottom: 8px;"> <a href=3D"https://www.li=
+nkedin.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_ne=
+wsletter_01%3BKfZ7bQjASK6DqDz%2F61tYmA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&=
+amp;midSig=3D2PkeqivOpxHbw1&amp;trk=3Deml-email_series_follow_newsletter_01=
+-footer-0-logoGlimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-=
+footer-0-logoGlimmer-null-gdb74f~m41bahbg~7u-null-null&amp;eid=3Dgdb74f-m41=
+bahbg-7u&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UwYmQ4N2NmZDk=
+0ODlmYWU4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU2NjhkN2JmODg1ZDg5Y2EzZDViNWMwYT=
+ZlNDM2YjQzMjg5YmEzMGRjYTFhYjM1MiwxLDE%3D" target=3D"_blank" style=3D"color:=
+ #0a66c2; cursor: pointer; display: inline-block; text-decoration: none; -w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img src=3D"htt=
+ps://static.licdn.com/aero-v1/sc/h/9ehe6n39fa07dc5edzv0rla4e" alt=3D"Linked=
+In" class=3D"block h-[14px] w-[56px] image-rendering-crisp" style=3D"outlin=
+e: none; text-decoration: none; image-rendering: -moz-crisp-edges; image-re=
+ndering: -o-crisp-edges; image-rendering: -webkit-optimize-contrast; image-=
+rendering: crisp-edges; -ms-interpolation-mode: nearest-neighbor; display: =
+block; height: 14px; width: 56px;" width=3D"56" height=3D"14"> </a> </td> <=
+/tr> <tr> <td data-test-copyright-text style=3D"-webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt;"> =C2=A9 2024 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton =
+Place, Dublin 2 - Irlanda. LinkedIn =C3=A9 um nome comercial registrado da =
+LinkedIn Ireland Unlimited Company. <span data-test-trademarks-text> Linked=
+In e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn. </span> </=
+td> </tr> </tbody> </table> </td> </tr> </tbody> </table> <img alt role=3D"=
+presentation" src=3D"https://www.linkedin.com/emimp/ip_WjJSaU56Um1MVzAwTVdK=
+aGFHSm5MVGQxOlpXMWhhV3hmYzJWeWFXVnpYMlp2Ykd4dmQxOXVaWGR6YkdWMGRHVnlYekF4OmR=
+YSnVPbXhwT214cGJtdGxaRWx1UVhKMGFXTnNaVG8zTWpZM09EWTNOelkzTnpRMk1qSTBNVEk0.g=
+if" style=3D"outline: none; text-decoration: none; -ms-interpolation-mode: =
+bicubic; width: 1px; height: 1px;" width=3D"1" height=3D"1"> </body> </html=
+>
+------=_Part_28525251_882201751.1732798200232--
+

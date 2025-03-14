@@ -1,0 +1,892 @@
+X-GM-THRID: 1819873474013850611
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:9ea8:b0:29a:824b:9ec3 with SMTP id fi40csp8278711ysc;
+        Mon, 30 Dec 2024 05:49:51 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IH0qEN+own8FvxkYHMhjw9wiG4wnEf5FgYbckyYzKFinIBw461SvvJh0WYBKwPdjqhj2Efh
+X-Received: by 2002:a05:6a00:3905:b0:725:e73c:c415 with SMTP id d2e1a72fcca58-72abde8fd6fmr49900211b3a.18.1735566591197;
+        Mon, 30 Dec 2024 05:49:51 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1735566591; cv=none;
+        d=google.com; s=arc-20240605;
+        b=eFCPCryoJmKW6ECQ/c32sF+RyhKjO4PqmJlUg7iGz3y1GPbV0VPNtI5p/77Ay1z6kt
+         Dl9tgOQYJR9XZIkICrgobNbswbaG9uTlYN9VlHiXJ7XGyN/8iQ3loLWpED3K6ztwifdd
+         oidDKwWwVwBFVNf4Uf0axpeIBG22wNwjvnS/jwmP0I6wlDLwqe+WUavLp9RKhgXccgd7
+         WlhSnFsRnuBP2rL1byvV3N+kt9fCs9eeiuLUCOcwUnQFEHtZP+TqqVkWFKuUS8p83P1j
+         73U1NAmF80AzmmRJod2cC1MT3lyjBkBxf87HBxPAvx1AL/Sv77Jn9JA/xHErTvnyszra
+         gt4g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=c6LxlAAVLv3Qyqgn6Y11K2Dz2cb6HQTlN8JY5fDcBwg=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=C6EcxDPTRjdp/HyT5jQBv3cfz4ZyiXjuwP0yQEdPt1lBwfvuhkK6WdQKC6NfuUUn0b
+         17xYpYgLNBHntlCoUBdxOdWu/kLZ4nUV8B9MUbbPF5dGFgv4nI0yBMVb+ln+ufYuViVh
+         cODMj4RVEIF7NnrRcPbZ2qQzdl/1QchSFccD7pRFlhh9saWkfu/WhwLWUuyGOl2Y4NNi
+         dH12lRMyBIp2xSti+XwFmlvCvZuEpX7BeAiAVRQtQQ1gpEa2OqGMZSnUWxiQgmC6B5U2
+         5Wd1QrdWrCHcYG6BLI5dpFy89bAfAEmucI5p76hwvJuc15OEI8S/1+Wk1ija1iEmQw92
+         +0Tg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=oWaMKlbR;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=lnaV9Zjz;
+       spf=pass (google.com: domain of s-2door79cbl6fwj0030ddajkc59zqrsqvrmss8d3xb3qnhg0hte5tqfs1@bounce.linkedin.com designates 108.174.0.201 as permitted sender) smtp.mailfrom=s-2door79cbl6fwj0030ddajkc59zqrsqvrmss8d3xb3qnhg0hte5tqfs1@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-2door79cbl6fwj0030ddajkc59zqrsqvrmss8d3xb3qnhg0hte5tqfs1@bounce.linkedin.com>
+Received: from maile-ha.linkedin.com (maile-ha.linkedin.com. [108.174.0.201])
+        by mx.google.com with ESMTPS id 41be03b00d2f7-842e9a37361si27108968a12.250.2024.12.30.05.49.50
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 30 Dec 2024 05:49:51 -0800 (PST)
+Received-SPF: pass (google.com: domain of s-2door79cbl6fwj0030ddajkc59zqrsqvrmss8d3xb3qnhg0hte5tqfs1@bounce.linkedin.com designates 108.174.0.201 as permitted sender) client-ip=108.174.0.201;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=oWaMKlbR;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=lnaV9Zjz;
+       spf=pass (google.com: domain of s-2door79cbl6fwj0030ddajkc59zqrsqvrmss8d3xb3qnhg0hte5tqfs1@bounce.linkedin.com designates 108.174.0.201 as permitted sender) smtp.mailfrom=s-2door79cbl6fwj0030ddajkc59zqrsqvrmss8d3xb3qnhg0hte5tqfs1@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1735566586;
+	bh=c6LxlAAVLv3Qyqgn6Y11K2Dz2cb6HQTlN8JY5fDcBwg=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=oWaMKlbRQfdXgAxhbzj7ERE/J8ZwQ3y1F1/OTGkdOQbVfHOA0tqAkSPRl8C+C8mZc
+	 Zsm9G7wCOKfAiAiiX9Bb8nN+28trCHiSr5BEBx+45e/GPVLo7A2aHnuEA674LBHI54
+	 ks7ecNZumLovQymcheumY2X7zjoU/wMDzbOijla0AoZJTgpkenpfHORQGwNskZLxVt
+	 FsE7qMyxghB2iSxQ8TwjlPUlUeRpBpaYdJIpg8HqMlR4g+GjNGbkbPzkQAc0t5Z0mx
+	 +Tj4INBWseslDjhmDFObApuRCWj5W/Xmuo7FOWJ83HCu0PjWckH9BNu9mvMdaHoq14
+	 rvkCSRAuZarbg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1735566586;
+	bh=c6LxlAAVLv3Qyqgn6Y11K2Dz2cb6HQTlN8JY5fDcBwg=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=lnaV9Zjzk1I2ngnorNtcO97JaJFOtYuKtFRFY0SV9pabP/2OUH47plSKSJHHiPe/J
+	 3ZOt3UuPuZh2FH9CvIfUNgGOnibieY8VGVag6ur8hT2DfnUwdMPqXl39nU1YiIKq5F
+	 WnSodaxPj4Gp2Zu579fX/ddD3HLxKZC6kQIYmKpXSoF4fkVQ2nnjv8iR8RFkoylMPm
+	 OVKpRcAANExf0sIz0pvao/gs0XdNnvfIo9iEuBkEuQrZ2PRfY3aKdGIi+GHWGgGUYd
+	 N3hnHOukHE3N4TstbTyiSykait58NsdWn4rDn7n0XAf6KYbOGUpPcEbum4gqFDIxiR
+	 hAF9CcOJ9YHmw==
+From: Leandro Brito Bastos via LinkedIn <newsletters-noreply@linkedin.com>
+Message-ID: <1734553121.44559164.1735566586185@lva1-app115462.prod.linkedin.com>
+Subject: Como as Tecnologias de 2024 Moldaram o Nosso Futuro.
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_44559162_625740227.1735566586182"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Mon, 30 Dec 2024 13:49:46 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-at008lq040nx8gt8pro0llvhjvra0smzm9p6v9hcorwef03r0w0av6oaakuieeopf763fwwvlyb9tjil0ytahqx75p83v7igm1zdkc
+X-LinkedIn-Id: gdb74f-m5b3iwsa-w
+List-Unsubscribe: <https://www.linkedin.com/comm/series-notifications/?action=unsubscribe&memberToken=ADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&newsletterId=7206051779325632512&newsletterTitle=Resumo%20Tech&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%3D&midToken=AQHxaOsdYMWJVQ&midSig=3m5z3jmu2tobA1&trk=eml-email_series_follow_newsletter_01-unsub-0-unsub&trkEmail=eml-email_series_follow_newsletter_01-unsub-0-unsub-null-gdb74f~m5b3iwsa~w-null-null&eid=gdb74f-m5b3iwsa-w&otpToken=MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmUyYjI4OWNiZDg0NDljYWE4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI0NzVlZGMyZjc0Y2JiZmMwMTZiYjQ4NzJmNDQwZjFkMWZkZWI3NWI4NDlhYzA4ZCwxLDE%3D>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_44559162_625740227.1735566586182
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Resumo Tech
+
+Por Leandro Brito Bastos
+
+
+Por Leandro Brito Bastos
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/como-tecnologias-de-2024-moldaram-o-nos=
+so-futuro-leandro-brito-bastos-ajorf?lipi=3Durn%3Ali%3Apage%3Aemail_email_s=
+eries_follow_newsletter_01%3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%3D&midToken=3DAQHx=
+aOsdYMWJVQ&midSig=3D3m5z3jmu2tobA1&trk=3Deml-email_series_follow_newsletter=
+_01-null-0-read_more_banner_cta_&trkEmail=3Deml-email_series_follow_newslet=
+ter_01-null-0-read_more_banner_cta_-null-gdb74f~m5b3iwsa~w-null-null&eid=3D=
+gdb74f-m5b3iwsa-w&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmUyYjI4OW=
+NiZDg0NDljYWE4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI0NzVlZGMyZjc0Y2JiZmMwMTZiY=
+jQ4NzJmNDQwZjFkMWZkZWI3NWI4NDlhYzA4ZCwxLDE%3D
+ =20
+2024 foi um ano marcado por avan=C3=A7os tecnol=C3=B3gicos revolucion=C3=A1=
+rios que remodelaram setores inteiros e abriram novas possibilidades para o=
+ futuro. Com cada m=C3=AAs trazendo novidades, o impacto foi sentido em n=
+=C3=ADvel global. Este artigo detalha os momentos mais importantes e oferec=
+e insights baseados em dados, estudos de caso e recomenda=C3=A7=C3=B5es aci=
+on=C3=A1veis. Janeiro: A Ascens=C3=A3o da Intelig=C3=AAncia Artificial Gene=
+rativa O ano come=C3=A7ou com o lan=C3=A7amento do ChatGPT-4 pela OpenAI, q=
+ue superou as expectativas ao expandir os limites da IA generativa. Esta te=
+cnologia n=C3=A3o apenas gerava textos, mas tamb=C3=A9m demonstrava criativ=
+idade ao produzir roteiros, artigos e at=C3=A9 mesmo resolver problemas t=
+=C3=A9cnicos. Empresas como a Amazon incorporaram o ChatGPT-4 em suas opera=
+=C3=A7=C3=B5es para melhorar o atendimento ao cliente, reduzindo em 30% o t=
+empo de resposta e aumentando a satisfa=C3=A7=C3=A3o dos usu=C3=A1rios. Seg=
+undo o especialista Andrew Ng, "a IA generativa n=C3=A3o =C3=A9 apenas uma =
+tend=C3=AAncia, mas uma revolu=C3=A7=C3=A3o que est=C3=A1 redesenhando como=
+ trabalhamos e interagimos com a tecnologia". Fevereiro: O Metaverso Ganha =
+For=C3=A7a A Meta revolucionou o metaverso com novos dispositivos de realid=
+ade virtual que tornaram as experi=C3=AAncias mais acess=C3=ADveis e imersi=
+vas. Empresas como Accenture come=C3=A7aram a usar esses dispositivos para =
+treinamentos e reuni=C3=B5es, reduzindo custos em at=C3=A9 40%. Uma pesquis=
+a da McKinsey revelou que 70% das organiza=C3=A7=C3=B5es planejam integrar =
+solu=C3=A7=C3=B5es do metaverso at=C3=A9 2025. "O metaverso n=C3=A3o =C3=A9=
+ apenas um lugar; =C3=A9 uma nova dimens=C3=A3o para a intera=C3=A7=C3=A3o =
+humana." =E2=80=94 Mark Zuckerberg, CEO da Meta. Meta Quest Pro Mar=C3=A7o:=
+ A Corrida pela Domin=C3=A2ncia da IA Google e Microsoft intensificaram a c=
+ompeti=C3=A7=C3=A3o ao lan=C3=A7arem Bard e Bing AI, respectivamente. Ambas=
+ as ferramentas impactaram diretamente como as pessoas pesquisam e acessam =
+informa=C3=A7=C3=B5es, com solu=C3=A7=C3=B5es personalizadas baseadas em pr=
+efer=C3=AAncias do usu=C3=A1rio. Uma empresa de e-commerce relatou um aumen=
+to de 50% nas vendas ao implementar um sistema de recomenda=C3=A7=C3=A3o al=
+imentado por essas IAs. Google Bard interface Abril: A IA Transforma o Merc=
+ado de Trabalho Com ferramentas de automa=C3=A7=C3=A3o e produtividade, emp=
+resas como a Salesforce relataram uma redu=C3=A7=C3=A3o de 25% em tarefas r=
+epetitivas, permitindo que funcion=C3=A1rios se concentrem em atividades es=
+trat=C3=A9gicas. No entanto, debates sobre desemprego tecnol=C3=B3gico se i=
+ntensificaram, levando especialistas como Kai-Fu Lee a alertar: "A ado=C3=
+=A7=C3=A3o da IA deve ser acompanhada por uma requalifica=C3=A7=C3=A3o em l=
+arga escala." Imagem: Shutterstock Maio: Privacidade em Foco O aumento nos =
+vazamentos de dados gerou uma discuss=C3=A3o global sobre a seguran=C3=A7a =
+digital. Governos e empresas investiram em solu=C3=A7=C3=B5es de prote=C3=
+=A7=C3=A3o de dados, como a implementa=C3=A7=C3=A3o do GDPR em novas regi=
+=C3=B5es. Estudos mostraram que 80% dos consumidores preferem fazer neg=C3=
+=B3cios com empresas que priorizam a privacidade. fonte: attotech.info Junh=
+o: IA Criativa Redefinindo Arte e M=C3=BAsica Ferramentas como Midjourney e=
+ DALL-E 2 ampliaram os limites da criatividade humana, gerando arte e m=C3=
+=BAsica de alta qualidade. A Sotheby=E2=80=99s, uma renomada casa de leil=
+=C3=B5es, leiloou uma obra criada por IA por mais de US$ 200 mil. Essas pla=
+taformas tamb=C3=A9m abriram portas para criadores independentes, permitind=
+o a produ=C3=A7=C3=A3o de conte=C3=BAdo com custo reduzido. "A criatividade=
+ assistida por IA =C3=A9 um catalisador para ideias que antes pareciam impo=
+ss=C3=ADveis." =E2=80=94 Sundar Pichai, CEO do Google. AIgenerated image Ju=
+lho: Mobilidade Aut=C3=B4noma em Alta Velocidade Empresas como Tesla e Waym=
+o realizaram testes em larga escala com carros aut=C3=B4nomos, demonstrando=
+ a viabilidade de ve=C3=ADculos sem motorista em ambientes urbanos. Estudos=
+ de impacto indicam que a ado=C3=A7=C3=A3o em massa pode reduzir acidentes =
+de tr=C3=A2nsito em at=C3=A9 90%. Em Phoenix, EUA, a Waymo iniciou servi=C3=
+=A7os de transporte aut=C3=B4nomo, mostrando resultados promissores. Recome=
+nda=C3=A7=C3=A3o: Empresas de transporte e log=C3=ADstica devem explorar pa=
+rcerias com startups de mobilidade aut=C3=B4noma para melhorar efici=C3=AAn=
+cia operacional. Tesla selfdriving car Agosto: Expans=C3=A3o da Internet da=
+s Coisas Com mais de 50 bilh=C3=B5es de dispositivos conectados, as "cidade=
+s inteligentes" se tornaram uma realidade em 2024. Um exemplo =C3=A9 Singap=
+ura, que integrou sensores IoT para otimizar o tr=C3=A1fego, reduzindo cong=
+estionamentos em 25%. A consultoria IDC estima que o mercado IoT superar=C3=
+=A1 US$ 1 trilh=C3=A3o at=C3=A9 2025. Imagem : IoT Setembro: O In=C3=ADcio =
+do 6G A pesquisa e desenvolvimento do 6G aceleraram em pa=C3=ADses como Cor=
+eia do Sul e China, prometendo velocidades 100 vezes maiores que o 5G. Empr=
+esas como Samsung iniciaram prot=C3=B3tipos que devem revolucionar ind=C3=
+=BAstrias como telemedicina e entretenimento. Imagem: Reprodu=C3=A7=C3=A3o =
+Outubro: IA Revoluciona a Sa=C3=BAde A IA demonstrou ser uma aliada na diag=
+n=C3=B3stico de doen=C3=A7as e na personaliza=C3=A7=C3=A3o de tratamentos. =
+Um estudo da Universidade de Stanford mostrou que sistemas de IA aumentaram=
+ a precis=C3=A3o de diagn=C3=B3sticos em 30%. Plataformas como a Watson Hea=
+lth da IBM continuam a liderar avan=C3=A7os no setor. "A intelig=C3=AAncia =
+artificial est=C3=A1 redesenhando o futuro da medicina." =E2=80=94 Dr. Eric=
+ Topol, autor de "Deep Medicine". Imagem: metamorworks Novembro: Criptograf=
+ia Qu=C3=A2ntica Com o avan=C3=A7o dos computadores qu=C3=A2nticos, empresa=
+s como IBM e Google lideraram iniciativas em criptografia qu=C3=A2ntica. Ba=
+ncos e governos demonstraram grande interesse, citando benef=C3=ADcios para=
+ seguran=C3=A7a e preven=C3=A7=C3=A3o de fraudes. Imagem : Getty images Dez=
+embro: Sustentabilidade na Tecnologia O compromisso com a sustentabilidade =
+foi um tema central em 2024. Empresas tecnol=C3=B3gicas anunciaram metas am=
+biciosas para reduzir emiss=C3=B5es de carbono. A Amazon, por exemplo, inve=
+stiu em data centers movidos a energias renov=C3=A1veis, enquanto startups =
+criaram solu=C3=A7=C3=B5es para reciclagem de dispositivos eletr=C3=B4nicos=
+. Dados indicam que as empresas que investem em sustentabilidade apresentam=
+ crescimento 25% mais r=C3=A1pido do que seus concorrentes. Recomenda=C3=A7=
+=C3=A3o: Adote pr=C3=A1ticas sustent=C3=A1veis em seus projetos tecnol=C3=
+=B3gicos para alinhar-se =C3=A0s demandas do mercado e dos consumidores. pr=
+ojetos tecnol=C3=B3gicos para alinhar-se =C3=A0s demandas do mercado e dos =
+consumidores. Imagem : Getty images Conclus=C3=A3o O ano de 2024 foi uma vi=
+trine de inova=C3=A7=C3=B5es que continuar=C3=A3o a moldar nosso futuro. A =
+intelig=C3=AAncia artificial generativa, em especial, destacou-se como o ma=
+rco mais transformador do ano. Independentemente de sua =C3=A1rea de atua=
+=C3=A7=C3=A3o, as oportunidades s=C3=A3o imensas para aqueles que estiverem=
+ prontos para abra=C3=A7ar essas mudan=C3=A7as. Se voc=C3=AA deseja estar =
+=C3=A0 frente dessas transforma=C3=A7=C3=B5es, invista em qualifica=C3=A7=
+=C3=A3o e conecte-se com uma rede de profissionais que compartilham sua pai=
+x=C3=A3o por tecnologia. Compartilhe este artigo e participe da conversa so=
+bre o futuro da tecnologia! Leandro Brito =C3=A9 um profissional de tecnolo=
+gia com mais de 20 anos de experi=C3=AAncia em lideran=C3=A7a e consultoria=
+ em TI, novos neg=C3=B3cios, relacionamento e ciberseguran=C3=A7a. Atualmen=
+te, ocupa a posi=C3=A7=C3=A3o de Chief Information Officer em uma multinaci=
+onal, sendo respons=C3=A1vel pelo planejamento estrat=C3=A9gico dos sistema=
+s de TI e ciberseguran=C3=A7a. Ele possui ampla experi=C3=AAncia em recuper=
+a=C3=A7=C3=A3o de desastres, conscientiza=C3=A7=C3=A3o em seguran=C3=A7a da=
+ informa=C3=A7=C3=A3o e lideran=C3=A7a t=C3=A9cnica. Leandro =C3=A9 co-apre=
+sentador do Hyperdrive podcast , onde discute temas de tecnologia, pol=C3=
+=ADtica e cultura nerd. Com sua vasta experi=C3=AAncia, ele ajuda empresas =
+a fortalecer a seguran=C3=A7a da informa=C3=A7=C3=A3o, melhorar a resili=C3=
+=AAncia e promover a inova=C3=A7=C3=A3o tecnol=C3=B3gica. #Tecnologia2024, =
+#Inova=C3=A7=C3=A3o, #Intelig=C3=AAnciaArtificial, #Metaverso, #RealidadeVi=
+rtual, #MobilidadeAut=C3=B4noma, #SustentabilidadeTecnol=C3=B3gica, #IAeTra=
+balho, #ArteComIA, #FuturoDaSa=C3=BAde, #Redes6G, #CriptografiaQu=C3=A2ntic=
+a, #Transforma=C3=A7=C3=A3oDigital, #PrivacidadeDeDados, #InternetDasCoisas=
+, #EmpresasSustent=C3=A1veis, #FuturoDoTrabalho, #Inova=C3=A7=C3=B5esTecnol=
+=C3=B3gicas, #CidadesInteligentes, #CulturaDeInova=C3=A7=C3=A3o.
+Continue lendo no LinkedIn
+https://www.linkedin.com/comm/pulse/como-tecnologias-de-2024-moldaram-o-nos=
+so-futuro-leandro-brito-bastos-ajorf?lipi=3Durn%3Ali%3Apage%3Aemail_email_s=
+eries_follow_newsletter_01%3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%3D&midToken=3DAQHx=
+aOsdYMWJVQ&midSig=3D3m5z3jmu2tobA1&trk=3Deml-email_series_follow_newsletter=
+_01-newsletter_content_preview_text-0-readmore_button_&trkEmail=3Deml-email=
+_series_follow_newsletter_01-newsletter_content_preview_text-0-readmore_but=
+ton_-null-gdb74f~m5b3iwsa~w-null-null&eid=3Dgdb74f-m5b3iwsa-w&otpToken=3DMW=
+IwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmUyYjI4OWNiZDg0NDljYWE4NjYxNzljNDA2NmQ0Y=
+jVkNWJmMmZlZDNkZmI0NzVlZGMyZjc0Y2JiZmMwMTZiYjQ4NzJmNDQwZjFkMWZkZWI3NWI4NDlh=
+YzA4ZCwxLDE%3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | Java | JS | React.js | Node.js | Python)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSi=
+g=3D3m5z3jmu2tobA1&trk=3Deml-email_series_follow_newsletter_01-SecurityHelp=
+-0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Secur=
+ityHelp-0-textfooterglimmer-null-gdb74f~m5b3iwsa~w-null-null&eid=3Dgdb74f-m=
+5b3iwsa-w&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmUyYjI4OWNiZDg0ND=
+ljYWE4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI0NzVlZGMyZjc0Y2JiZmMwMTZiYjQ4NzJmN=
+DQwZjFkMWZkZWI3NWI4NDlhYzA4ZCwxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/comm/series-notifica=
+tions/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y=
+9whjlY&newsletterId=3D7206051779325632512&newsletterTitle=3DResumo%20Tech&l=
+ipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B5a7gxSRgR=
+VW%2B8W2juNpBWQ%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D3m5z3jmu2tobA1&trk=
+=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGlimmer&trkEma=
+il=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGlimmer-null=
+-gdb74f~m5b3iwsa~w-null-null&eid=3Dgdb74f-m5b3iwsa-w&otpToken=3DMWIwZDE3ZTg=
+xMzI4Y2JjM2I1MjQwNGVkNDUxYmUyYjI4OWNiZDg0NDljYWE4NjYxNzljNDA2NmQ0YjVkNWJmMm=
+ZlZDNkZmI0NzVlZGMyZjc0Y2JiZmMwMTZiYjQ4NzJmNDQwZjFkMWZkZWI3NWI4NDlhYzA4ZCwxL=
+DE%3D=C2=A0=C2=A0=C2=B7=C2=A0=C2=A0Ajuda: https://www.linkedin.com/help/lin=
+kedin/answer/67?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follo=
+w_newsletter_01%3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%3D&midToken=3DAQHxaOsdYMWJVQ&=
+midSig=3D3m5z3jmu2tobA1&trk=3Deml-email_series_follow_newsletter_01-help-0-=
+textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-help-0-t=
+extfooterglimmer-null-gdb74f~m5b3iwsa~w-null-null&eid=3Dgdb74f-m5b3iwsa-w&o=
+tpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmUyYjI4OWNiZDg0NDljYWE4NjYxN=
+zljNDA2NmQ0YjVkNWJmMmZlZDNkZmI0NzVlZGMyZjc0Y2JiZmMwMTZiYjQ4NzJmNDQwZjFkMWZk=
+ZWI3NWI4NDlhYzA4ZCwxLDE%3D
+
+=C2=A9 2024 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_44559162_625740227.1735566586182
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+/head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-canvas w-fu=
+ll m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; padding: 0p=
+x; padding-top: 8px; font-family: -apple-system, system-ui, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Ox=
+ygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sa=
+ns-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible overflow=
+-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; max-height=
+: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" data-email-p=
+reheader=3D"true">2024 foi um ano marcado por avan=C3=A7os tecnol=C3=B3gico=
+s revolucion=C3=A1rios que=E2=80=A6</div> <div class=3D"h-0 opacity-0 text-=
+transparent invisible overflow-hidden w-0 max-h-[0]" style=3D"visibility: h=
+idden; height: 0px; max-height: 0; width: 0px; overflow: hidden; opacity: 0=
+; mso-hide: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+ =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table role=3D"presentation" va=
+lign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"512"=
+ align=3D"center" class=3D"mercado-container w-[512px] max-w-[512px] mx-aut=
+o my-0 p-0 " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-left: auto; mar=
+gin-right: auto; margin-top: 0px; margin-bottom: 0px; width: 512px; max-wid=
+th: 512px; padding: 0px;"> <tbody> <tr> <td style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"bg-color-background-co=
+ntainer " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff=
+;"> <tbody> <tr> <td class=3D"text-center p-3" style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt; padding: 24px; text-align: center;"> <table role=3D"presentatio=
+n" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D=
+"100%" class=3D"min-w-full" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-wid=
+th: 100%;"> <tbody> <tr> <td align=3D"left" valign=3D"middle" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/feed/=
+?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B5a7gxSR=
+gRVW%2B8W2juNpBWQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3m5z3jmu=
+2tobA1&amp;trk=3Deml-email_series_follow_newsletter_01-header-0-home_glimme=
+r_dynamic_badging_high_dpi&amp;trkEmail=3Deml-email_series_follow_newslette=
+r_01-header-0-home_glimmer_dynamic_badging_high_dpi-null-gdb74f~m5b3iwsa~w-=
+null-null&amp;eid=3Dgdb74f-m5b3iwsa-w&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2=
+I1MjQwNGVkNDUxYmUyYjI4OWNiZDg0NDljYWE4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI0N=
+zVlZGMyZjc0Y2JiZmMwMTZiYjQ4NzJmNDQwZjFkMWZkZWI3NWI4NDlhYzA4ZCwxLDE%3D" targ=
+et=3D"_blank" class=3D"w-[84px]" style=3D"color: #0a66c2; cursor: pointer; =
+display: inline-block; text-decoration: none; -webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; width: 84px;"> <img class=3D"h-[37px] w-[101=
+px]" alt=3D"LinkedIn" src=3D"https://www.linkedin.com/comm/dms/logo/v2?badg=
+eTheme=3Dmercado&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%3D&amp;midSig=3D3m5z3jmu2tobA1&amp=
+;midToken=3DAQHxaOsdYMWJVQ&amp;trkEmail=3Deml-email_series_follow_newslette=
+r_01-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2-null-gdb74f%7Em5b3iwsa=
+%7Ew-null-null&amp;trk=3Deml-email_series_follow_newsletter_01-null-0-comms=
+%7Ebadging%7Edynamic%7Eglimmer%7Ev2&amp;_sig=3D0pPg0MJlmtobA1" data-test-he=
+ader-dynamic-badging-img-high-dpi style=3D"outline: none; text-decoration: =
+none; -ms-interpolation-mode: bicubic; height: 37px; width: 101px;" width=
+=3D"101" height=3D"37"> </a> </td> <td valign=3D"middle" align=3D"right" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=
+=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" da=
+ta-test-header-profile style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <t=
+r> <td align=3D"right" valign=3D"middle" class=3D"w-[32px]" style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt; width: 32px;" width=3D"32"> <a href=3D"https://br.=
+linkedin.com/comm/in/fernando-ferreira-brito?lipi=3Durn%3Ali%3Apage%3Aemail=
+_email_series_follow_newsletter_01%3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%3D&amp;mid=
+Token=3DAQHxaOsdYMWJVQ&amp;midSig=3D3m5z3jmu2tobA1&amp;trk=3Deml-email_seri=
+es_follow_newsletter_01-header-0-profile_glimmer&amp;trkEmail=3Deml-email_s=
+eries_follow_newsletter_01-header-0-profile_glimmer-null-gdb74f~m5b3iwsa~w-=
+null-null&amp;eid=3Dgdb74f-m5b3iwsa-w&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2=
+I1MjQwNGVkNDUxYmUyYjI4OWNiZDg0NDljYWE4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI0N=
+zVlZGMyZjc0Y2JiZmMwMTZiYjQ4NzJmNDQwZjFkMWZkZWI3NWI4NDlhYzA4ZCwxLDE%3D" targ=
+et=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-blo=
+ck; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%;"> <img alt=3D"Luiz Fernando Brito Ferreira" src=3D"https://medi=
+a.licdn.com/dms/image/v2/D4E03AQHtWMkj43o1lA/profile-displayphoto-shrink_20=
+0_200/profile-displayphoto-shrink_200_200/0/1724191556445?e=3D2147483647&am=
+p;v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB92xXoc9r_1IG6EIUIKB4" class=3D"ro=
+unded-[100%] w-[32px] h-[32px]" style=3D"outline: none; text-decoration: no=
+ne; -ms-interpolation-mode: bicubic; height: 32px; width: 32px; border-radi=
+us: 100%;" width=3D"32" height=3D"32"> </a> </td> </tr> </tbody> </table> <=
+/td> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"px-0 pb-3" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; padding-left: 0px; padding-right: 0px; p=
+adding-bottom: 24px;"> <div> <table role=3D"presentation" valign=3D"top" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td data-test-id=3D"newsletter-en=
+tity-lockup" class=3D"px-3 pt-1" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; pa=
+dding-left: 24px; padding-right: 24px; padding-top: 8px;"> <table role=3D"p=
+resentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" width=3D"100%" class=3D"font-sans" style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Ro=
+boto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantare=
+ll, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', =
+'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;"> <tbody>=
+ <tr> <td valign=3D"top" class=3D"pr-1 w-6" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt; width: 48px; padding-right: 8px;" width=3D"48"> <a href=3D"https:/=
+/www.linkedin.com/comm/newsletters/7206051779325632512?lipi=3Durn%3Ali%3Apa=
+ge%3Aemail_email_series_follow_newsletter_01%3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%=
+3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3m5z3jmu2tobA1&amp;trk=3Deml-=
+email_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_ent=
+ity_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_ent=
+ity_lockup-0-newsletter_entity_cta-null-gdb74f~m5b3iwsa~w-null-null&amp;eid=
+=3Dgdb74f-m5b3iwsa-w&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmU=
+yYjI4OWNiZDg0NDljYWE4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI0NzVlZGMyZjc0Y2JiZm=
+MwMTZiYjQ4NzJmNDQwZjFkMWZkZWI3NWI4NDlhYzA4ZCwxLDE%3D" target=3D"_blank" sty=
+le=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decorati=
+on: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <im=
+g class=3D"inline-block relative bg-color-entity-ghost-background w-6 h-6 r=
+ounded-md" src=3D"https://media.licdn.com/dms/image/v2/D4D12AQE51UkcAwiVyA/=
+series-logo_image-shrink_100_100/series-logo_image-shrink_100_100/0/1733941=
+462746?e=3D2147483647&amp;v=3Dbeta&amp;t=3DgLEU0ar_iVsbVo2Om7KjNEd-SpGNgtZh=
+N6feMHn3wMU" alt=3D"Abrir Resumo Tech" style=3D"outline: none; text-decorat=
+ion: none; -ms-interpolation-mode: bicubic; position: relative; display: in=
+line-block; height: 48px; width: 48px; border-radius: 8px; background-color=
+: #eae6df;" width=3D"48" height=3D"48"> </a> </td> <td valign=3D"top" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D=
+"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/newsletters/7=
+206051779325632512?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsl=
+etter_01%3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp=
+;midSig=3D3m5z3jmu2tobA1&amp;trk=3Deml-email_series_follow_newsletter_01-ne=
+wsletter_entity_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-email_ser=
+ies_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta-n=
+ull-gdb74f~m5b3iwsa~w-null-null&amp;eid=3Dgdb74f-m5b3iwsa-w&amp;otpToken=3D=
+MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmUyYjI4OWNiZDg0NDljYWE4NjYxNzljNDA2NmQ=
+0YjVkNWJmMmZlZDNkZmI0NzVlZGMyZjc0Y2JiZmMwMTZiYjQ4NzJmNDQwZjFkMWZkZWI3NWI4ND=
+lhYzA4ZCwxLDE%3D" target=3D"_blank" class=3D"no-underline" style=3D"color: =
+#0a66c2; cursor: pointer; display: inline-block; text-decoration: none; -we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decoration-li=
+ne: none;"> <div class=3D"pb-0.5" style=3D"padding-bottom: 4px;"> <span cla=
+ss=3D"text-md font-bold text-color-text break-words leading-regular" style=
+=3D"overflow-wrap: break-word; font-size: 16px; font-weight: 600; line-heig=
+ht: 1.25; color: rgba(0, 0, 0, 0.9);"> Resumo Tech </span> </div> </a> </td=
+> </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https=
+://www.linkedin.com/comm/newsletters/7206051779325632512?lipi=3Durn%3Ali%3A=
+page%3Aemail_email_series_follow_newsletter_01%3B5a7gxSRgRVW%2B8W2juNpBWQ%3=
+D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3m5z3jmu2tobA1&amp;trk=3Dem=
+l-email_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_e=
+ntity_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_e=
+ntity_lockup-0-newsletter_entity_cta-null-gdb74f~m5b3iwsa~w-null-null&amp;e=
+id=3Dgdb74f-m5b3iwsa-w&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY=
+mUyYjI4OWNiZDg0NDljYWE4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI0NzVlZGMyZjc0Y2Ji=
+ZmMwMTZiYjQ4NzJmNDQwZjFkMWZkZWI3NWI4NDlhYzA4ZCwxLDE%3D" target=3D"_blank" c=
+lass=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; display: in=
+line-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; text-decoration-line: none;"> <span class=3D"text-xs te=
+xt-color-text-low-emphasis leading-regular" style=3D"font-size: 12px; line-=
+height: 1.25; color: rgba(0, 0, 0, 0.6);"> Conecte-se com o futuro do mundo=
+ corporativo.An=C3=A1lises,insights que ir=C3=A3o fazer diferen=C3=A7a para=
+=E2=80=A6 </span> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> <=
+/table> </td> </tr> <tr data-test-id=3D"newsletter-content-preview"> <td cl=
+ass=3D"px-3 pt-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 24p=
+x; padding-right: 24px; padding-top: 16px;"> <table role=3D"presentation" v=
+align=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100=
+%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"over=
+flow-hidden " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; overflow: hidden;"> <=
+table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -m=
+s-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <=
+tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https:=
+//www.linkedin.com/comm/pulse/como-tecnologias-de-2024-moldaram-o-nosso-fut=
+uro-leandro-brito-bastos-ajorf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_=
+follow_newsletter_01%3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%3D&amp;midToken=3DAQHxaO=
+sdYMWJVQ&amp;midSig=3D3m5z3jmu2tobA1&amp;trk=3Deml-email_series_follow_news=
+letter_01-newsletter_content_preview-0-headline_&amp;trkEmail=3Deml-email_s=
+eries_follow_newsletter_01-newsletter_content_preview-0-headline_-null-gdb7=
+4f~m5b3iwsa~w-null-null&amp;eid=3Dgdb74f-m5b3iwsa-w&amp;otpToken=3DMWIwZDE3=
+ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmUyYjI4OWNiZDg0NDljYWE4NjYxNzljNDA2NmQ0YjVkNWJ=
+mMmZlZDNkZmI0NzVlZGMyZjc0Y2JiZmMwMTZiYjQ4NzJmNDQwZjFkMWZkZWI3NWI4NDlhYzA4ZC=
+wxLDE%3D" target=3D"_blank" class=3D"w-full" style=3D"color: #0a66c2; curso=
+r: pointer; display: inline-block; text-decoration: none; -webkit-text-size=
+-adjust: 100%; -ms-text-size-adjust: 100%; width: 100%;"> <img class=3D"blo=
+ck w-full aspect-[744/400] object-cover overflow-hidden" data-test-id=3D"ne=
+wsletter-content-preview__cover-image" alt=3D"Imagem de capa da newsletter"=
+ src=3D"https://media.licdn.com/dms/image/v2/D4D12AQGrWf_nHd80Pw/article-co=
+ver_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/17352366115=
+55?e=3D2147483647&amp;v=3Dbeta&amp;t=3DR7UQyprUtdiInlc21YD1QerYNb5MM_SS4Eas=
+6JZWajM" style=3D"outline: none; text-decoration: none; -ms-interpolation-m=
+ode: bicubic; display: block; aspect-ratio: 744/400; width: 100%; overflow:=
+ hidden; object-fit: cover;"> </a> </td> </tr> <tr> <td class=3D"py-2" styl=
+e=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding-top: 16px; padding-bottom: 16px=
+;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"h=
+ttps://www.linkedin.com/comm/pulse/como-tecnologias-de-2024-moldaram-o-noss=
+o-futuro-leandro-brito-bastos-ajorf?lipi=3Durn%3Ali%3Apage%3Aemail_email_se=
+ries_follow_newsletter_01%3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%3D&amp;midToken=3DA=
+QHxaOsdYMWJVQ&amp;midSig=3D3m5z3jmu2tobA1&amp;trk=3Deml-email_series_follow=
+_newsletter_01-newsletter_content_preview-0-title_&amp;trkEmail=3Deml-email=
+_series_follow_newsletter_01-newsletter_content_preview-0-title_-null-gdb74=
+f~m5b3iwsa~w-null-null&amp;eid=3Dgdb74f-m5b3iwsa-w&amp;otpToken=3DMWIwZDE3Z=
+TgxMzI4Y2JjM2I1MjQwNGVkNDUxYmUyYjI4OWNiZDg0NDljYWE4NjYxNzljNDA2NmQ0YjVkNWJm=
+MmZlZDNkZmI0NzVlZGMyZjc0Y2JiZmMwMTZiYjQ4NzJmNDQwZjFkMWZkZWI3NWI4NDlhYzA4ZCw=
+xLDE%3D" target=3D"_blank" class=3D"no-underline font-medium text-sm m-0 te=
+xt-system-gray-90" style=3D"cursor: pointer; display: inline-block; text-de=
+coration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ margin: 0px; font-size: 14px; font-weight: 500; color: #282828; text-decor=
+ation-line: none;"> <h2 class=3D"m-0 text-display-sm leading-regular text-c=
+olor-text font-bold font-sans" style=3D"margin: 0px; font-family: -apple-sy=
+stem, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', =
+'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple=
+ Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Luci=
+da Grande', Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 600=
+; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Como as Tecnologias de 20=
+24 Moldaram o Nosso Futuro. </h2> </a> </td> </tr> <tr> <td style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D"top" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" data-test-id=3D=
+"newsletter-author-lockup-redesign" class=3D"mt-1 mb-2" style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; margin-bottom: 16px; margin-top: 8px;"> <tbody> <tr> <=
+td valign=3D"middle" align=3D"left" class=3D"w-3" style=3D"-webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tabl=
+e-rspace: 0pt; width: 24px;" width=3D"24"> <a href=3D"https://br.linkedin.c=
+om/comm/in/iamleandrobrito?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_foll=
+ow_newsletter_01%3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%3D&amp;midToken=3DAQHxaOsdYM=
+WJVQ&amp;midSig=3D3m5z3jmu2tobA1&amp;trk=3Deml-email_series_follow_newslett=
+er_01-newsletter_content_preview-0-author_&amp;trkEmail=3Deml-email_series_=
+follow_newsletter_01-newsletter_content_preview-0-author_-null-gdb74f~m5b3i=
+wsa~w-null-null&amp;eid=3Dgdb74f-m5b3iwsa-w&amp;otpToken=3DMWIwZDE3ZTgxMzI4=
+Y2JjM2I1MjQwNGVkNDUxYmUyYjI4OWNiZDg0NDljYWE4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDN=
+kZmI0NzVlZGMyZjc0Y2JiZmMwMTZiYjQ4NzJmNDQwZjFkMWZkZWI3NWI4NDlhYzA4ZCwxLDE%3D=
+" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inli=
+ne-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%;"> <img class=3D"inline-block relative bg-color-entity-gho=
+st-background clip-path-circle-50 rounded-full w-4 h-4 align-middle" src=3D=
+"https://media.licdn.com/dms/image/v2/D4D03AQHnHFDA8jLu-w/profile-displayph=
+oto-shrink_400_400/B4DZPbQpv.HYAg-/0/1734550396666?e=3D2147483647&amp;v=3Db=
+eta&amp;t=3DiM5SAEhFwHewHiKQJBuA5ToB8yAFdfyahZQoTOu8Yk4" alt=3D"Imagem do a=
+utor" style=3D"outline: none; text-decoration: none; -ms-interpolation-mode=
+: bicubic; position: relative; display: inline-block; height: 32px; width: =
+32px; border-radius: 9999px; background-color: #eae6df; vertical-align: mid=
+dle; clip-path: circle(50%);" width=3D"32" height=3D"32"> </a> </td> <td st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://br.linkedin.com/=
+comm/in/iamleandrobrito?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_=
+newsletter_01%3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJV=
+Q&amp;midSig=3D3m5z3jmu2tobA1&amp;trk=3Deml-email_series_follow_newsletter_=
+01-newsletter_content_preview-0-author_&amp;trkEmail=3Deml-email_series_fol=
+low_newsletter_01-newsletter_content_preview-0-author_-null-gdb74f~m5b3iwsa=
+~w-null-null&amp;eid=3Dgdb74f-m5b3iwsa-w&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2J=
+jM2I1MjQwNGVkNDUxYmUyYjI4OWNiZDg0NDljYWE4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZm=
+I0NzVlZGMyZjc0Y2JiZmMwMTZiYjQ4NzJmNDQwZjFkMWZkZWI3NWI4NDlhYzA4ZCwxLDE%3D" t=
+arget=3D"_blank" class=3D"no-underline ml-1" style=3D"color: #0a66c2; curso=
+r: pointer; display: inline-block; text-decoration: none; -webkit-text-size=
+-adjust: 100%; -ms-text-size-adjust: 100%; margin-left: 8px; text-decoratio=
+n-line: none;"> <span class=3D"font-sans font-bold text-sm mb-3 text-color-=
+text-low-emphasis leading-regular" style=3D"margin-bottom: 24px; font-famil=
+y: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helve=
+tica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Sy=
+mbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 14px; font=
+-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.6);"> Leandro Brito=
+ Bastos </span> </a> </td> </tr> </tbody> </table> </td> </tr> <tr> <td cla=
+ss=3D"pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px;"> =
+<div class=3D"p-3 bg-color-surface-tint rounded-md font-sans" data-test-id=
+=3D"newsletter-cta-banner" style=3D"border-radius: 8px; background-color: #=
+f5f7f9; padding: 24px; font-family: -apple-system, system-ui, BlinkMacSyste=
+mFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, '=
+Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, =
+sans-serif;"> <div class=3D"mb-1.5" style=3D"margin-bottom: 12px;"> <span c=
+lass=3D"text-md leading-regular font-bold text-color-text" style=3D"font-si=
+ze: 16px; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);">=
+ Leia este artigo no LinkedIn para participar da conversa </span> </div> <t=
+able role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0" width=3D"100%" class=3D"email-button " data-test-id=3D"emai=
+l-button" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=
+=3D"middle" align=3D"left" style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a hre=
+f=3D"https://www.linkedin.com/comm/pulse/como-tecnologias-de-2024-moldaram-=
+o-nosso-futuro-leandro-brito-bastos-ajorf?lipi=3Durn%3Ali%3Apage%3Aemail_em=
+ail_series_follow_newsletter_01%3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%3D&amp;midTok=
+en=3DAQHxaOsdYMWJVQ&amp;midSig=3D3m5z3jmu2tobA1&amp;trk=3Deml-email_series_=
+follow_newsletter_01-newsletter_content_preview-0-read_more_banner_cta_&amp=
+;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_previe=
+w-0-read_more_banner_cta_-null-gdb74f~m5b3iwsa~w-null-null&amp;eid=3Dgdb74f=
+-m5b3iwsa-w&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmUyYjI4OWNi=
+ZDg0NDljYWE4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI0NzVlZGMyZjc0Y2JiZmMwMTZiYjQ=
+4NzJmNDQwZjFkMWZkZWI3NWI4NDlhYzA4ZCwxLDE%3D" target=3D"_blank" aria-label=
+=3D"Abrir este artigo no LinkedIn" class=3D"align-top no-underline " style=
+=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decoration=
+: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; vertica=
+l-align: top; text-decoration-line: none;"> <table role=3D"presentation" va=
+lign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"auto=
+" class=3D"border-separate " style=3D"-webkit-text-size-adjust: 100%; -ms-t=
+ext-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border=
+-collapse: separate;"> <tbody> <tr> <td class=3D"btn-sm btn-primary border-=
+color-brand button-link leading-regular !min-h-[auto] !shadow-none border-1=
+ border-solid" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: min-content;=
+ border-radius: 24px; padding-top: 7px; padding-bottom: 7px; padding-left: =
+16px; padding-right: 16px; text-align: center; font-size: 14px; font-weight=
+: 600; cursor: pointer; text-decoration-line: none; background-color: #0a66=
+c2; color: #ffffff; border-width: 1px; border-style: solid; border-color: #=
+0a66c2; line-height: 1.25; min-height: auto !important; box-shadow: 0 0 #00=
+00, 0 0 #0000, 0 0 #0000 !important;"> <a href=3D"https://www.linkedin.com/=
+comm/pulse/como-tecnologias-de-2024-moldaram-o-nosso-futuro-leandro-brito-b=
+astos-ajorf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_0=
+1%3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=
+=3D3m5z3jmu2tobA1&amp;trk=3Deml-email_series_follow_newsletter_01-newslette=
+r_content_preview-0-read_more_banner_cta_&amp;trkEmail=3Deml-email_series_f=
+ollow_newsletter_01-newsletter_content_preview-0-read_more_banner_cta_-null=
+-gdb74f~m5b3iwsa~w-null-null&amp;eid=3Dgdb74f-m5b3iwsa-w&amp;otpToken=3DMWI=
+wZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmUyYjI4OWNiZDg0NDljYWE4NjYxNzljNDA2NmQ0Yj=
+VkNWJmMmZlZDNkZmI0NzVlZGMyZjc0Y2JiZmMwMTZiYjQ4NzJmNDQwZjFkMWZkZWI3NWI4NDlhY=
+zA4ZCwxLDE%3D" target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" class=
+=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; display: inline=
+-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; text-decoration-line: none;"> <span class=3D"no-underline t=
+ext-white" style=3D"color: #ffffff; text-decoration-line: none;"> Ler no Li=
+nkedIn </span> </a> </td> </tr> </tbody> </table> </a> </td> </tr> </tbody>=
+ </table> </div> </td> </tr> <tr data-test-id=3D"newsletter-content-preview=
+--content"> <td class=3D"series-article-body" style=3D"-webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Sego=
+e UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans'=
+, Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI=
+ Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; =
+font-size: 16px; line-height: 1.5; color: rgba(0, 0, 0, 0.9);"> <p style=3D=
+"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-heigh=
+t: 1.5;">2024 foi um ano marcado por avan=C3=A7os tecnol=C3=B3gicos revoluc=
+ion=C3=A1rios que remodelaram setores inteiros e abriram novas possibilidad=
+es para o futuro. Com cada m=C3=AAs trazendo novidades, o impacto foi senti=
+do em n=C3=ADvel global. Este artigo detalha os momentos mais importantes e=
+ oferece insights baseados em dados, estudos de caso e recomenda=C3=A7=C3=
+=B5es acion=C3=A1veis.</p><hr><h3 style=3D"margin: 0; margin-left: 0px; mar=
+gin-right: 0px; margin-top: 8px; margin-bottom: 4px; font-size: 16px; font-=
+weight: 600; line-height: 1.25; letter-spacing: -0.02em; color: rgba(0, 0, =
+0, 0.9);">Janeiro: A Ascens=C3=A3o da Intelig=C3=AAncia Artificial Generati=
+va</h3><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-siz=
+e: 1em; line-height: 1.5;">O ano come=C3=A7ou com o lan=C3=A7amento do Chat=
+GPT-4 pela OpenAI, que superou as expectativas ao expandir os limites da IA=
+ generativa. Esta tecnologia n=C3=A3o apenas gerava textos, mas tamb=C3=A9m=
+ demonstrava criatividade ao produzir roteiros, artigos e at=C3=A9 mesmo re=
+solver problemas t=C3=A9cnicos. Empresas como a Amazon incorporaram o ChatG=
+PT-4 em suas opera=C3=A7=C3=B5es para melhorar o atendimento ao cliente, re=
+duzindo em 30% o tempo de resposta e aumentando a satisfa=C3=A7=C3=A3o dos =
+usu=C3=A1rios. </p><blockquote style=3D"margin-top: 24px; margin-bottom: 24=
+px; margin-left: 0px; margin-right: 0px; display: block; border-width: 0; b=
+order-left-width: 4px; border-style: solid; border-left-color: #424242; pad=
+ding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 12px;=
+ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Rob=
+oto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarel=
+l, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', '=
+Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size:=
+ 20px; font-weight: 600; font-style: normal; line-height: 1.5; color: #3843=
+4f;"><p style=3D"margin: 0; margin-top: 0.8em; font-size: 16px; font-weight=
+: 500; line-height: 1.25;">Segundo o especialista Andrew Ng, "a IA generati=
+va n=C3=A3o =C3=A9 apenas uma tend=C3=AAncia, mas uma revolu=C3=A7=C3=A3o q=
+ue est=C3=A1 redesenhando como trabalhamos e interagimos com a tecnologia".=
+</p></blockquote><figure style=3D"margin: 0px;"><img data-media-urn data-li=
+-src=3D"https://media.licdn.com/dms/image/v2/D4D12AQFqwr0LtCnuNw/article-in=
+line_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1735236=
+741047?e=3D1740614400&amp;v=3Dbeta&amp;t=3DeG7NrDaKCwa6_xR5IY09bHAnbEPkDljD=
+0_weKOnLCCQ" src=3D"https://media.licdn.com/dms/image/v2/D4D12AQFqwr0LtCnuN=
+w/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_14=
+88/0/1735236741047?e=3D1740614400&amp;v=3Dbeta&amp;t=3DeG7NrDaKCwa6_xR5IY09=
+bHAnbEPkDljD0_weKOnLCCQ" width=3D"480" style=3D"outline: none; text-decorat=
+ion: none; -ms-interpolation-mode: bicubic; margin-top: 1em; display: block=
+; max-width: 100%; margin-left: auto; margin-right: auto; width: 100%;"><fi=
+gcaption style=3D"margin-top: 8px; text-align: center; font-family: -apple-=
+system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue'=
+, 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'App=
+le Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lu=
+cida Grande', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1=
+.25; color: rgba(0, 0, 0, 0.6);"></figcaption></figure><hr><h3 style=3D"mar=
+gin: 0; margin-left: 0px; margin-right: 0px; margin-top: 8px; margin-bottom=
+: 4px; font-size: 16px; font-weight: 600; line-height: 1.25; letter-spacing=
+: -0.02em; color: rgba(0, 0, 0, 0.9);">Fevereiro: O Metaverso Ganha For=C3=
+=A7a</h3><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-s=
+ize: 1em; line-height: 1.5;">A Meta revolucionou o metaverso com novos disp=
+ositivos de realidade virtual que tornaram as experi=C3=AAncias mais acess=
+=C3=ADveis e imersivas. Empresas como Accenture come=C3=A7aram a usar esses=
+ dispositivos para treinamentos e reuni=C3=B5es, reduzindo custos em at=C3=
+=A9 40%. Uma pesquisa da McKinsey revelou que 70% das organiza=C3=A7=C3=B5e=
+s planejam integrar solu=C3=A7=C3=B5es do metaverso at=C3=A9 2025.</p><bloc=
+kquote style=3D"margin-top: 24px; margin-bottom: 24px; margin-left: 0px; ma=
+rgin-right: 0px; display: block; border-width: 0; border-left-width: 4px; b=
+order-style: solid; border-left-color: #424242; padding-top: 0px; padding-b=
+ottom: 0px; padding-right: 0px; padding-left: 12px; font-family: -apple-sys=
+tem, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', '=
+Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple =
+Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucid=
+a Grande', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 600;=
+ font-style: normal; line-height: 1.5; color: #38434f;"><p style=3D"margin:=
+ 0; margin-top: 0.8em; font-size: 16px; font-weight: 500; line-height: 1.25=
+;">"O metaverso n=C3=A3o =C3=A9 apenas um lugar; =C3=A9 uma nova dimens=C3=
+=A3o para a intera=C3=A7=C3=A3o huma...</p></blockquote> </td> </tr> <tr> <=
+td class=3D"pt-2 no-underline" style=3D"-webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padd=
+ing-top: 16px; text-decoration-line: none;"> <table role=3D"presentation" v=
+align=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100=
+%" class=3D"email-button series-content-preview__bottom-cta" data-test-id=
+=3D"email-button" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <t=
+d valign=3D"middle" align=3D"left" style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"=
+> <a href=3D"https://www.linkedin.com/comm/pulse/como-tecnologias-de-2024-m=
+oldaram-o-nosso-futuro-leandro-brito-bastos-ajorf?lipi=3Durn%3Ali%3Apage%3A=
+email_email_series_follow_newsletter_01%3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%3D&am=
+p;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3m5z3jmu2tobA1&amp;trk=3Deml-email=
+_series_follow_newsletter_01-newsletter_content_preview-0-readmore_button_&=
+amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_pre=
+view-0-readmore_button_-null-gdb74f~m5b3iwsa~w-null-null&amp;eid=3Dgdb74f-m=
+5b3iwsa-w&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmUyYjI4OWNiZD=
+g0NDljYWE4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI0NzVlZGMyZjc0Y2JiZmMwMTZiYjQ4N=
+zJmNDQwZjFkMWZkZWI3NWI4NDlhYzA4ZCwxLDE%3D" target=3D"_blank" aria-label=3D"=
+Abrir Resumo Tech no LinkedIn" class=3D"align-top no-underline " style=3D"c=
+olor: #0a66c2; cursor: pointer; display: inline-block; text-decoration: non=
+e; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; vertical-ali=
+gn: top; text-decoration-line: none; width: 100%;"> <table role=3D"presenta=
+tion" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%" class=3D"border-separate " style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; border-collapse: separate; width: 100%;"> <tbody> <tr> <td class=3D"btn-m=
+d btn-secondary-emphasis border-color-brand button-link leading-regular !mi=
+n-h-[auto] !shadow-none border-1 border-solid font-sans" data-test-id=3D"ne=
+wsletter-content-preview-redesign-bottom-cta" style=3D"-webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; height: min-content; border-radius: 24px; padding-top: 12px; pad=
+ding-bottom: 12px; padding-left: 24px; padding-right: 24px; text-align: cen=
+ter; font-size: 16px; font-weight: 600; cursor: pointer; text-decoration-li=
+ne: none; background-color: rgba(0, 0, 0, 0); color: #0a66c2; border-width:=
+ 1px; border-style: solid; border-color: #0a66c2; font-family: -apple-syste=
+m, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fi=
+ra Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Co=
+lor Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida =
+Grande', Helvetica, Arial, sans-serif; line-height: 1.25; min-height: auto =
+!important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;"> <a hr=
+ef=3D"https://www.linkedin.com/comm/pulse/como-tecnologias-de-2024-moldaram=
+-o-nosso-futuro-leandro-brito-bastos-ajorf?lipi=3Durn%3Ali%3Apage%3Aemail_e=
+mail_series_follow_newsletter_01%3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%3D&amp;midTo=
+ken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3m5z3jmu2tobA1&amp;trk=3Deml-email_series=
+_follow_newsletter_01-newsletter_content_preview-0-readmore_button_&amp;trk=
+Email=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-=
+readmore_button_-null-gdb74f~m5b3iwsa~w-null-null&amp;eid=3Dgdb74f-m5b3iwsa=
+-w&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmUyYjI4OWNiZDg0NDljY=
+WE4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI0NzVlZGMyZjc0Y2JiZmMwMTZiYjQ4NzJmNDQw=
+ZjFkMWZkZWI3NWI4NDlhYzA4ZCwxLDE%3D" target=3D"_blank" tabindex=3D"-1" aria-=
+hidden=3D"true" class=3D"no-underline" style=3D"color: #0a66c2; cursor: poi=
+nter; display: inline-block; text-decoration: none; -webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; text-decoration-line: none; width: 100=
+%;"> <span class=3D"no-underline text-color-brand" style=3D"color: #0a66c2;=
+ text-decoration-line: none;"> Continue lendo no LinkedIn </span> </a> </td=
+> </tr> </tbody> </table> </a> </td> </tr> </tbody> </table> </td> </tr> </=
+tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table>=
+ </td> </tr> </tbody> </table> </div> </td> </tr> <tr> <td class=3D"bg-colo=
+r-background-canvas p-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background=
+-color: #f3f2f0; padding: 24px;"> <table role=3D"presentation" valign=3D"to=
+p" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D=
+"text-xs" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 12px;"> <tbody=
+> <tr> <td class=3D"pb-1 m-0" data-test-id=3D"email-footer__intended" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> Este=
+ e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Developer | =
+Java | JS | React.js | Node.js | Python) </td> </tr> <tr> <td class=3D"pb-1=
+ m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: =
+8px;"> <a href=3D"https://www.linkedin.com/help/linkedin/answer/4788?lang=
+=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%=
+3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=
+=3D3m5z3jmu2tobA1&amp;trk=3Deml-email_series_follow_newsletter_01-SecurityH=
+elp-0-footerglimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-Se=
+curityHelp-0-footerglimmer-null-gdb74f~m5b3iwsa~w-null-null&amp;eid=3Dgdb74=
+f-m5b3iwsa-w&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmUyYjI4OWN=
+iZDg0NDljYWE4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI0NzVlZGMyZjc0Y2JiZmMwMTZiYj=
+Q4NzJmNDQwZjFkMWZkZWI3NWI4NDlhYzA4ZCwxLDE%3D" target=3D"_blank" class=3D"te=
+xt-inherit underline" style=3D"cursor: pointer; display: inline-block; text=
+-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; color: inherit; text-decoration-line: underline;">Saiba por que inclu=
+=C3=ADmos isso.</a> </td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;">Voc=C3=AA est=
+=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn. Outras pesso=
+as podem ver que voc=C3=AA =C3=A9 assinante.</td> </tr> <tr> <td class=3D"p=
+b-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-botto=
+m: 8px;"> <a href=3D"https://www.linkedin.com/comm/series-notifications/?ac=
+tion=3Dunsubscribe&amp;memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjl=
+Y&amp;newsletterId=3D7206051779325632512&amp;newsletterTitle=3DResumo%20Tec=
+h&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B5a=
+7gxSRgRVW%2B8W2juNpBWQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3m5=
+z3jmu2tobA1&amp;trk=3Deml-email_series_follow_newsletter_01-unsubscribe-0-f=
+ooterGlimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-unsubscri=
+be-0-footerGlimmer-null-gdb74f~m5b3iwsa~w-null-null&amp;eid=3Dgdb74f-m5b3iw=
+sa-w&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmUyYjI4OWNiZDg0NDl=
+jYWE4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI0NzVlZGMyZjc0Y2JiZmMwMTZiYjQ4NzJmND=
+QwZjFkMWZkZWI3NWI4NDlhYzA4ZCwxLDE%3D" target=3D"_blank" class=3D"text-inher=
+it underline" style=3D"cursor: pointer; display: inline-block; text-decorat=
+ion: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; colo=
+r: inherit; text-decoration-line: underline;">Cancelar inscri=C3=A7=C3=A3o<=
+/a> =C2=A0=C2=A0=C2=B7=C2=A0=C2=A0 <a href=3D"https://www.linkedin.com/help=
+/linkedin/answer/67?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_seri=
+es_follow_newsletter_01%3B5a7gxSRgRVW%2B8W2juNpBWQ%3D%3D&amp;midToken=3DAQH=
+xaOsdYMWJVQ&amp;midSig=3D3m5z3jmu2tobA1&amp;trk=3Deml-email_series_follow_n=
+ewsletter_01-help-0-footerglimmer&amp;trkEmail=3Deml-email_series_follow_ne=
+wsletter_01-help-0-footerglimmer-null-gdb74f~m5b3iwsa~w-null-null&amp;eid=
+=3Dgdb74f-m5b3iwsa-w&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmU=
+yYjI4OWNiZDg0NDljYWE4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI0NzVlZGMyZjc0Y2JiZm=
+MwMTZiYjQ4NzJmNDQwZjFkMWZkZWI3NWI4NDlhYzA4ZCwxLDE%3D" target=3D"_blank" cla=
+ss=3D"text-inherit underline" style=3D"cursor: pointer; display: inline-blo=
+ck; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; color: inherit; text-decoration-line: underline;">Ajuda</a> </t=
+d> </tr> <tr> <td class=3D"pb-1" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; pa=
+dding-bottom: 8px;"> <a href=3D"https://www.linkedin.com/comm/feed/?lipi=3D=
+urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B5a7gxSRgRVW%2B8=
+W2juNpBWQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3m5z3jmu2tobA1&a=
+mp;trk=3Deml-email_series_follow_newsletter_01-footer-0-logoGlimmer&amp;trk=
+Email=3Deml-email_series_follow_newsletter_01-footer-0-logoGlimmer-null-gdb=
+74f~m5b3iwsa~w-null-null&amp;eid=3Dgdb74f-m5b3iwsa-w&amp;otpToken=3DMWIwZDE=
+3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmUyYjI4OWNiZDg0NDljYWE4NjYxNzljNDA2NmQ0YjVkNW=
+JmMmZlZDNkZmI0NzVlZGMyZjc0Y2JiZmMwMTZiYjQ4NzJmNDQwZjFkMWZkZWI3NWI4NDlhYzA4Z=
+CwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; disp=
+lay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%;"> <img src=3D"https://static.licdn.com/aero-v1/s=
+c/h/9ehe6n39fa07dc5edzv0rla4e" alt=3D"LinkedIn" class=3D"block h-[14px] w-[=
+56px] image-rendering-crisp" style=3D"outline: none; text-decoration: none;=
+ image-rendering: -moz-crisp-edges; image-rendering: -o-crisp-edges; image-=
+rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; -ms-int=
+erpolation-mode: nearest-neighbor; display: block; height: 14px; width: 56p=
+x;" width=3D"56" height=3D"14"> </a> </td> </tr> <tr> <td data-test-copyrig=
+ht-text style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> =C2=A9 2024 LinkedIn Irel=
+and Unlimited Company, Wilton Plaza, Wilton Place, Dublin 2 - Irlanda. Link=
+edIn =C3=A9 um nome comercial registrado da LinkedIn Ireland Unlimited Comp=
+any. <span data-test-trademarks-text> LinkedIn e o logo do LinkedIn s=C3=A3=
+o marcas registradas do LinkedIn. </span> </td> </tr> </tbody> </table> </t=
+d> </tr> </tbody> </table> </td> </tr> </tbody> </table> <img alt role=3D"p=
+resentation" src=3D"https://www.linkedin.com/emimp/ip_WjJSaU56Um1MVzAxWWpOc=
+GQzTmhMWGM9OlpXMWhhV3hmYzJWeWFXVnpYMlp2Ykd4dmQxOXVaWGR6YkdWMGRHVnlYekF4OmRY=
+SnVPbXhwT214cGJtdGxaRWx1UVhKMGFXTnNaVG8zTWpjNE1UQTVORFEyTkRVM05qa3lNVFl3.gi=
+f" style=3D"outline: none; text-decoration: none; -ms-interpolation-mode: b=
+icubic; width: 1px; height: 1px;" width=3D"1" height=3D"1"> </body> </html>
+------=_Part_44559162_625740227.1735566586182--
+

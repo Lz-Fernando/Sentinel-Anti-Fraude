@@ -1,0 +1,960 @@
+X-GM-THRID: 1826404017671211931
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:7a22:b0:2cd:a3c7:5e5d with SMTP id n34csp292418ysr;
+        Wed, 12 Mar 2025 08:50:03 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IHyxSpXsIWaR+Gm7nn8Fgl6b3/AIBWij5Mn/EsBIV4FmEgfD6n6Vosrc72+G4gaQTbrUeUi
+X-Received: by 2002:a05:6808:22a5:b0:3f6:7fc4:a0b5 with SMTP id 5614622812f47-3fa2a45c354mr4269097b6e.18.1741794603392;
+        Wed, 12 Mar 2025 08:50:03 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1741794603; cv=none;
+        d=google.com; s=arc-20240605;
+        b=A9kkOM2iCSDGc+LzaKM+dKOZytBdob6V5HhAz8POQrPfF7pD5ZgHjsfPzI4LXEBKG5
+         8oM0Jfs1vG6mbxhGlDTgC1ABBCR5eIBxcS36Ksn3gSGDxXhkuoKCRVJnsUJJh+yGcCGl
+         +si4H8VLD6tharH+Y1VjfU/+OA8m1/cBV4DrOgbqpAJbqa1q8jEyWYovcDHndAAv01Yu
+         n8VPz+/d17rSJ/SNzXUgskbfGf6J22vNIcQQcf5t+7zwL/zQIDieMCMmgf8EPX0vkPd4
+         QyzIAkcmdFYt/8mRs6+8rNGRwiigvJMMGgbnROuWiozzPrOWX5kpUMBoGyvLCp/nQ+/8
+         pGrg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=aZuFlWKelnxGzFNeU/4Rx/ANGlOmM6fg8hNSFjx8B74=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=ZxL6fNsW0To46x1T4XVotTYToed4G+cPOgf8EAgJYU2NYl97hd5IHn4V+i9coGfNBk
+         6uUvff8vDvwC+xo5yqeiOf1iUhrdxN+ia25VAxOvjhSCb1dF4Z1ckMAAQyr04ue2rs+8
+         7LAhQGveqZzYUoJqfnNdupxztNvsWCTueg3svmEM1rZWbXOTvOPKfmm+nqE0DyrORJ2a
+         aSg4QnCML6/krcTs6FDnndaaD7I1LATUgCyya86jFADy3nDMbomquh1k+zbDXiuUpIZM
+         ml/4fOC2Pc2pXaSmtD9bMU4has71yO4Fpbg5twFkLTvQ02bLcXIqy10tQsCNnCCi9KgL
+         npLw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=EHiCn10w;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=zeTWCpRR;
+       spf=pass (google.com: domain of s-2tac4pxbjxvkbilqomqa7cmpm73tktgts5odpt0i07fmmkl93lfukktf@bounce.linkedin.com designates 108.174.6.197 as permitted sender) smtp.mailfrom=s-2tac4pxbjxvkbilqomqa7cmpm73tktgts5odpt0i07fmmkl93lfukktf@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-2tac4pxbjxvkbilqomqa7cmpm73tktgts5odpt0i07fmmkl93lfukktf@bounce.linkedin.com>
+Received: from maile-ce.linkedin.com (maile-ce.linkedin.com. [108.174.6.197])
+        by mx.google.com with ESMTPS id 5614622812f47-3fb9aa798b8si1159091b6e.127.2025.03.12.08.50.03
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 12 Mar 2025 08:50:03 -0700 (PDT)
+Received-SPF: pass (google.com: domain of s-2tac4pxbjxvkbilqomqa7cmpm73tktgts5odpt0i07fmmkl93lfukktf@bounce.linkedin.com designates 108.174.6.197 as permitted sender) client-ip=108.174.6.197;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=EHiCn10w;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=zeTWCpRR;
+       spf=pass (google.com: domain of s-2tac4pxbjxvkbilqomqa7cmpm73tktgts5odpt0i07fmmkl93lfukktf@bounce.linkedin.com designates 108.174.6.197 as permitted sender) smtp.mailfrom=s-2tac4pxbjxvkbilqomqa7cmpm73tktgts5odpt0i07fmmkl93lfukktf@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1741794601;
+	bh=aZuFlWKelnxGzFNeU/4Rx/ANGlOmM6fg8hNSFjx8B74=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=EHiCn10w9RONv0dWvr0P/yX9ng0hRQbwfQ0noFuAJjesNzDjGoUUMnLl9iN0oz95r
+	 avdBkLFSsvAKqtrOpFO1gSLUSuDJorkrapdXg+FzIYqXsh4fEpm1uTqpt+DpmbRPbL
+	 0p/1wAH1U6baS7JBjKo2BWrU1U14vJX071EIy0kq6xT40ZkOpRiu3DOaFHflA9E8L2
+	 UVSRhSLC8m/fW1miZPTvIbYdf5r0rpqSXE3d6lcvoT5c12T+miOZs5kmq/Z9qUS9jc
+	 RZ1AdreHkcQvJUlY+RokbsVXyXN8tJab1txpWtIiXr+aDxK3WDZX3dSbdKeNp0nTvR
+	 stBBvyJL/kLMA==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1741794601;
+	bh=aZuFlWKelnxGzFNeU/4Rx/ANGlOmM6fg8hNSFjx8B74=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=zeTWCpRRgYbgHgvfWliAToDPCvmMkBGLThP1EV3r7L1rODGVhMHb6LWrdsl+g0DvX
+	 m+aHXs2zUK/Q4uw1C9CrbAF+gHxyyYxEYVYbmulj12U29jFHT96CVw7jgqBYvxWTlz
+	 r7xRz42IPA5dZ4RNpTrtQq3i729HDsTQawEQe1+KE9heV7VZOgZKKWOb+EdpRTznuV
+	 hxp9vshB8jMBNN0AcN6qcgcpKGBMcM+7MdiQpi8fT51srlbXg0wmvRxJ3QBkwI/KK9
+	 SVoMD2i5x4ncPfe14XYPh8rihEqH39c7iBKHKYTSncKHNKPAUiWqs/hbZKiZeDJkTa
+	 mbRuuS0O3DCew==
+From: "Luciano Rocha (PCD) via LinkedIn" <newsletters-noreply@linkedin.com>
+Message-ID: <112261243.7199597.1741794600983@lva1-app56454.prod.linkedin.com>
+Subject: =?UTF-8?Q?Networking:_a_arte_de_construir_conex=C3=B5es_duradouras.?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_7199595_564576098.1741794600980"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Wed, 12 Mar 2025 15:50:00 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-aszubnspp9oeklbqwuozx294vhdzfm3spbi7s79ds4vkt0q18nfqfvzju6vw0rapqj8prz2s3a3fdfic7mr5vqh6ic19k2k8310i24
+X-LinkedIn-Id: gdb74f-m863ijz6-m6
+List-Unsubscribe: <https://www.linkedin.com/series-notifications/?action=unsubscribe&memberToken=ADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&newsletterId=7223479127775862784&newsletterTitle=O Poder das soft skills no TI&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BzCn4sIH4RGex%2B2E1nDU0yg%3D%3D&midToken=AQHxaOsdYMWJVQ&midSig=0Cy3D7cOcmZHE1&ek=email_series_follow_newsletter_01&e=gdb74f-m863ijz6-m6&eid=gdb74f-m863ijz6-m6&m=unsub&ts=unsub&li=0&t=plh>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_7199595_564576098.1741794600980
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+O Poder das soft skills no TI
+
+Por Luciano Rocha (PCD)
+
+
+Por Luciano Rocha (PCD)
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/networking-arte-de-construir-conex%C3%B=
+5es-duradouras-luciano-rocha-pcd--bga1f?lipi=3Durn%3Ali%3Apage%3Aemail_emai=
+l_series_follow_newsletter_01%3BzCn4sIH4RGex%2B2E1nDU0yg%3D%3D&midToken=3DA=
+QHxaOsdYMWJVQ&midSig=3D0Cy3D7cOcmZHE1&trk=3Deml-email_series_follow_newslet=
+ter_01-null-0-read_more_banner_cta_&trkEmail=3Deml-email_series_follow_news=
+letter_01-null-0-read_more_banner_cta_-null-gdb74f~m863ijz6~m6-null-null&ei=
+d=3Dgdb74f-m863ijz6-m6&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUwY=
+mQ4YmM4ZDA0MTljYWM4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NWFlM2UzZDI3MzgwZjUz=
+YTExODY1NjBlMDQ1MzMxZTNiYjcxYTJhNzllNjcwZSwxLDE%3D
+ =20
+Descubra como o networking pode impulsionar sua carreira e fortalecer seus =
+la=C3=A7os profissionais Networking =C3=A9 um dos conceitos mais falados no=
+ ambiente corporativo, mas, muitas vezes, =C3=A9 mal compreendido ou subest=
+imado. Construir uma rede de contatos n=C3=A3o significa apenas colecionar =
+nomes em uma lista de e-mails ou conex=C3=B5es em plataformas digitais. Tra=
+ta-se de criar rela=C3=A7=C3=B5es aut=C3=AAnticas e mutuamente ben=C3=A9fic=
+as, que podem abrir portas e ampliar horizontes. Para entender o real poder=
+ do networking, =C3=A9 necess=C3=A1rio ir al=C3=A9m da superf=C3=ADcie. As =
+redes profissionais t=C3=AAm um impacto direto n=C3=A3o apenas na evolu=C3=
+=A7=C3=A3o de carreiras individuais, mas tamb=C3=A9m no fortalecimento de e=
+quipes e na cria=C3=A7=C3=A3o de oportunidades de neg=C3=B3cios. A conex=C3=
+=A3o certa no momento certo pode ser um divisor de =C3=A1guas. Neste artigo=
+, vamos analisar a fundo o conceito de networking. Desde o que =C3=A9 e sua=
+s caracter=C3=ADsticas, at=C3=A9 os benef=C3=ADcios e desafios envolvidos. =
+Vamos entender tamb=C3=A9m o que as empresas buscam em profissionais que do=
+minam essa habilidade. O objetivo =C3=A9 garantir que voc=C3=AA saia daqui =
+com uma compreens=C3=A3o clara e aplic=C3=A1vel sobre o assunto. =C3=8Dndic=
+e O que =C3=A9 networking? Caracter=C3=ADsticas Para que serve? O lado posi=
+tivo e negativo Benef=C3=ADcios Desvantagens O que as empresas procuram? Co=
+nclus=C3=A3o O que =C3=A9 networking? Networking =C3=A9, essencialmente, a =
+constru=C3=A7=C3=A3o de um conjunto de rela=C3=A7=C3=B5es profissionais est=
+rat=C3=A9gicas. N=C3=A3o se trata apenas de quantidade, mas da qualidade e =
+da relev=C3=A2ncia dessas conex=C3=B5es. =C3=89 uma pr=C3=A1tica que vai al=
+=C3=A9m de apertos de m=C3=A3o em eventos; envolve intera=C3=A7=C3=B5es gen=
+u=C3=ADnas e a troca de informa=C3=A7=C3=B5es e conhecimentos. O termo surg=
+iu da necessidade de criar pontes entre pessoas e organiza=C3=A7=C3=B5es. O=
+ networking permite que voc=C3=AA esteja presente em c=C3=ADrculos influent=
+es, onde as decis=C3=B5es importantes s=C3=A3o tomadas. No entanto, requer =
+esfor=C3=A7o cont=C3=ADnuo e uma abordagem planejada para ser realmente efi=
+caz. As plataformas digitais tamb=C3=A9m desempenham um papel crucial no ne=
+tworking atual. Redes como LinkedIn s=C3=A3o ferramentas importantes para c=
+onectar pessoas de diferentes setores e lugares, mas devem ser utilizadas d=
+e forma estrat=C3=A9gica e consistente. Mais do que isso, networking =C3=A9=
+ sobre reciprocidade. N=C3=A3o =C3=A9 s=C3=B3 pedir favores; =C3=A9 oferece=
+r valor e estar disposto a colaborar, ajudando outras pessoas a atingir seu=
+s pr=C3=B3prios objetivos profissionais. Caracter=C3=ADsticas Networking =
+=C3=A9 relacional, estrat=C3=A9gico, persistente e emp=C3=A1tico. Ele exige=
+ comprometimento e genuinidade em cada intera=C3=A7=C3=A3o. N=C3=A3o se tra=
+ta de ganhar algo a curto prazo, mas de cultivar la=C3=A7os duradouros que =
+podem florescer ao longo do tempo. A capacidade de escutar =C3=A9 uma carac=
+ter=C3=ADstica subestimada no networking. Demonstrar interesse real pelas e=
+xperi=C3=AAncias e opini=C3=B5es das pessoas com quem voc=C3=AA interage po=
+de fortalecer significativamente sua rede. Al=C3=A9m disso, networking =C3=
+=A9 um processo cont=C3=ADnuo, n=C3=A3o algo que ocorre apenas em eventos e=
+spec=C3=ADficos. =C3=89 necess=C3=A1rio estar sempre atento =C3=A0s oportun=
+idades para construir conex=C3=B5es relevantes, seja presencialmente ou onl=
+ine. Outro ponto importante =C3=A9 o equil=C3=ADbrio entre formalidade e ac=
+essibilidade. Saber como se posicionar de maneira profissional, mas ao mesm=
+o tempo ser acess=C3=ADvel e genu=C3=ADno, =C3=A9 uma habilidade crucial. P=
+ara que serve? Networking serve para abrir portas profissionais, facilitar =
+a troca de conhecimentos e criar um ambiente de suporte m=C3=BAtuo. =C3=89 =
+uma ferramenta indispens=C3=A1vel para ampliar suas perspectivas e alcan=C3=
+=A7ar seus objetivos. Em muitos casos, as oportunidades mais valiosas n=C3=
+=A3o est=C3=A3o publicadas em sites de emprego ou an=C3=BAncios. Elas surge=
+m por meio de recomenda=C3=A7=C3=B5es e contatos dentro de sua rede. Por is=
+so, cultivar e manter rela=C3=A7=C3=B5es ativas =C3=A9 vital. Ele =C3=A9 es=
+sencial para o aprendizado e crescimento cont=C3=ADnuo. Ele permite que voc=
+=C3=AA absorva insights de outros profissionais, aprenda com as experi=C3=
+=AAncias alheias e acompanhe as tend=C3=AAncias de mercado. Ajuda na constr=
+u=C3=A7=C3=A3o de sua marca pessoal. Ao se envolver ativamente em sua rede,=
+ voc=C3=AA fortalece sua presen=C3=A7a e aumenta sua visibilidade dentro do=
+ setor em que atua. O lado positivo e negativo O networking oferece grandes=
+ vantagens para quem deseja crescer profissionalmente. Um dos lados positiv=
+os =C3=A9 a possibilidade de expandir seu acesso a oportunidades de trabalh=
+o ou projetos que, muitas vezes, n=C3=A3o est=C3=A3o dispon=C3=ADveis publi=
+camente. Conex=C3=B5es bem estabelecidas podem abrir portas para novas posi=
+=C3=A7=C3=B5es, parcerias e at=C3=A9 mesmo mentorias, contribuindo para o a=
+van=C3=A7o da carreira e o fortalecimento de sua marca pessoal no mercado. =
+Outro ponto positivo =C3=A9 a troca de conhecimentos que o networking propo=
+rciona. Estar conectado com profissionais de diferentes =C3=A1reas permite =
+aprender novas pr=C3=A1ticas, acompanhar tend=C3=AAncias e obter insights v=
+aliosos para resolver problemas ou implementar inova=C3=A7=C3=B5es. Essa tr=
+oca constante enriquece n=C3=A3o apenas a vida profissional, mas tamb=C3=A9=
+m a capacidade de entender e se adaptar aos desafios do mercado. Por outro =
+lado, o networking tamb=C3=A9m pode apresentar dificuldades. Uma das princi=
+pais =C3=A9 o investimento de tempo e energia necess=C3=A1rio para cultivar=
+ essas conex=C3=B5es de maneira genu=C3=ADna e consistente. Para quem tem u=
+ma rotina intensa, manter relacionamentos ativos pode ser desgastante, espe=
+cialmente quando =C3=A9 preciso equilibrar m=C3=BAltiplas intera=C3=A7=C3=
+=B5es presenciais e digitais. Outro aspecto negativo =C3=A9 o risco de supe=
+rficialidade em algumas conex=C3=B5es. Quando o networking =C3=A9 feito ape=
+nas com foco no benef=C3=ADcio pr=C3=B3prio, as rela=C3=A7=C3=B5es podem se=
+ tornar fr=C3=A1geis e pouco confi=C3=A1veis. Essa abordagem pode prejudica=
+r a reputa=C3=A7=C3=A3o do profissional e dificultar a constru=C3=A7=C3=A3o=
+ de uma rede s=C3=B3lida, al=C3=A9m de transmitir uma imagem negativa para =
+colegas e parceiros de trabalho. Benef=C3=ADcios Um dos maiores benef=C3=AD=
+cios do networking =C3=A9 a possibilidade de abrir portas para oportunidade=
+s =C3=BAnicas. Muitas das melhores vagas de emprego ou parcerias comerciais=
+ n=C3=A3o s=C3=A3o anunciadas publicamente, mas acess=C3=ADveis atrav=C3=A9=
+s de indica=C3=A7=C3=B5es e relacionamentos bem estabelecidos. Manter uma r=
+ede ativa permite que voc=C3=AA esteja sempre no radar das pessoas certas, =
+tornando-se refer=C3=AAncia em sua =C3=A1rea e aumentando as chances de cre=
+scimento na carreira. Al=C3=A9m disso, o networking proporciona um aprendiz=
+ado cont=C3=ADnuo, j=C3=A1 que a troca de experi=C3=AAncias e informa=C3=A7=
+=C3=B5es com outros profissionais enriquece sua vis=C3=A3o de mercado. Ele =
+permite que voc=C3=AA fique atualizado sobre tend=C3=AAncias, descubra nova=
+s pr=C3=A1ticas e solu=C3=A7=C3=B5es e aprenda diretamente com quem j=C3=A1=
+ enfrentou desafios semelhantes aos seus. Essa intera=C3=A7=C3=A3o constant=
+e estimula o desenvolvimento de novas habilidades e ideias. Outro benef=C3=
+=ADcio importante =C3=A9 o suporte que o networking oferece. Construir uma =
+rede s=C3=B3lida significa ter com quem contar nos momentos de incerteza ou=
+ dificuldade. Profissionais conectados podem fornecer conselhos valiosos, i=
+ndicar caminhos alternativos ou simplesmente ser uma fonte de encorajamento=
+. Essa rede de apoio =C3=A9 crucial tanto para o crescimento profissional q=
+uanto para o bem-estar pessoal. Desvantagens Apesar de seus muitos benef=C3=
+=ADcios, o networking apresenta algumas dificuldades que n=C3=A3o podem ser=
+ ignoradas. Um dos principais pontos =C3=A9 o tempo e o esfor=C3=A7o cont=
+=C3=ADnuo necess=C3=A1rios para cultivar e manter uma rede de contatos. Par=
+ticipar de eventos, interagir em plataformas digitais e acompanhar as conex=
+=C3=B5es de maneira aut=C3=AAntica pode ser exaustivo, especialmente para p=
+essoas com agendas muito ocupadas ou que possuem uma personalidade mais int=
+rovertida. Al=C3=A9m disso, existe o risco de intera=C3=A7=C3=B5es superfic=
+iais, onde o foco est=C3=A1 apenas no benef=C3=ADcio pr=C3=B3prio. Esse tip=
+o de abordagem pode prejudicar a constru=C3=A7=C3=A3o de relacionamentos ge=
+nu=C3=ADnos e duradouros, comprometendo a confian=C3=A7a e a credibilidade =
+no ambiente profissional. Quando o networking =C3=A9 percebido como algo fo=
+r=C3=A7ado ou puramente interesseiro, ele pode gerar resultados negativos e=
+ at=C3=A9 mesmo afastar potenciais contatos importantes. Outro ponto que me=
+rece aten=C3=A7=C3=A3o =C3=A9 a possibilidade de mal-entendidos e interpret=
+a=C3=A7=C3=B5es err=C3=B4neas nas intera=C3=A7=C3=B5es. Em um mundo cada ve=
+z mais conectado digitalmente, mensagens podem ser mal interpretadas, e a f=
+alta de um contato mais pessoal pode dificultar o entendimento m=C3=BAtuo. =
+Isso requer um cuidado extra para garantir que a comunica=C3=A7=C3=A3o seja=
+ clara, objetiva e genu=C3=ADna. O que as empresas procuram? As empresas bu=
+scam profissionais que saibam cultivar conex=C3=B5es aut=C3=AAnticas e estr=
+at=C3=A9gicas. N=C3=A3o se trata apenas de conhecer muitas pessoas, mas de =
+saber identificar e valorizar as rela=C3=A7=C3=B5es que geram impacto posit=
+ivo no ambiente corporativo. Empresas valorizam quem utiliza o networking c=
+omo ferramenta para unir diferentes setores e criar um ambiente de colabora=
+=C3=A7=C3=A3o entre as equipes. Esperam que esses profissionais sejam proat=
+ivos e tenham uma vis=C3=A3o clara de como podem agregar valor =C3=A0 organ=
+iza=C3=A7=C3=A3o por meio das suas conex=C3=B5es. Saber estabelecer parceri=
+as estrat=C3=A9gicas e trazer insights relevantes de sua rede para projetos=
+ internos =C3=A9 uma habilidade bastante procurada. Profissionais que sabem=
+ aplicar seu networking para solucionar problemas ou criar novas oportunida=
+des se destacam no mercado. Outro ponto crucial =C3=A9 a capacidade de mant=
+er essas conex=C3=B5es vivas e produtivas ao longo do tempo. Manter a consi=
+st=C3=AAncia em intera=C3=A7=C3=B5es profissionais e a disposi=C3=A7=C3=A3o=
+ para ajudar s=C3=A3o qualidades que mostram comprometimento. O networking,=
+ quando bem executado, reflete diretamente na imagem do profissional e, con=
+sequentemente, na empresa que ele representa. Conclus=C3=A3o Networking =C3=
+=A9 uma habilidade essencial para quem deseja crescer e se destacar profiss=
+ionalmente. Ele vai al=C3=A9m de apenas criar conex=C3=B5es; =C3=A9 sobre e=
+stabelecer rela=C3=A7=C3=B5es genu=C3=ADnas que possam trazer valor m=C3=BA=
+tuo. Ao compreender a import=C3=A2ncia de interagir com as pessoas certas e=
+ nutrir essas conex=C3=B5es, voc=C3=AA estar=C3=A1 construindo uma base s=
+=C3=B3lida para seu desenvolvimento pessoal e profissional. Al=C3=A9m disso=
+, o networking, quando feito de forma estrat=C3=A9gica e aut=C3=AAntica, po=
+de abrir portas inesperadas. Seja participando de eventos ou utilizando pla=
+taformas digitais, o importante =C3=A9 estar presente, ser proativo e mante=
+r a consist=C3=AAncia. Uma rede bem cultivada n=C3=A3o apenas amplia oportu=
+nidades de carreira, mas tamb=C3=A9m promove um senso de comunidade e supor=
+te cont=C3=ADnuo. Agora, =C3=A9 hora de colocar esse aprendizado em pr=C3=
+=A1tica. Reflita sobre como voc=C3=AA pode come=C3=A7ar ou fortalecer sua p=
+r=C3=B3pria rede e compartilhe suas experi=C3=AAncias conosco. Quero saber =
+como o networking impactou sua carreira ou quais s=C3=A3o seus maiores desa=
+fios nessa =C3=A1rea. Vamos continuar essa conversa nos coment=C3=A1rios! E=
+ncontrou algo de errado nesse ou em outro artigo? Comente, curte e comparti=
+lhe para mais pessoas terem acesso al=C3=A9m de assinar a newsletter. Aceit=
+o cr=C3=ADticas em rela=C3=A7=C3=A3o aos conte=C3=BAdos criados al=C3=A9m d=
+e sugest=C3=B5es e elogios. Hashtags #careerGrowth #professionalConnections=
+ #networkingTips Fontes https://sabertecnologias.com.br/2/artigo/o-que-e-ne=
+tworking https://rockcontent.com/br/blog/networking/ https://www.pontotel.c=
+om.br/networking/ https://www.ibccoaching.com.br/portal/vida-profissional/n=
+etworking-quais-sao-os-principais-erros-que-voce-deve-evitar/ https://barra=
+zacarlos.com/pt-br/vantagens-e-desvantagens-da-internet/
+Continue lendo no LinkedIn
+https://www.linkedin.com/comm/pulse/networking-arte-de-construir-conex%C3%B=
+5es-duradouras-luciano-rocha-pcd--bga1f?lipi=3Durn%3Ali%3Apage%3Aemail_emai=
+l_series_follow_newsletter_01%3BzCn4sIH4RGex%2B2E1nDU0yg%3D%3D&midToken=3DA=
+QHxaOsdYMWJVQ&midSig=3D0Cy3D7cOcmZHE1&trk=3Deml-email_series_follow_newslet=
+ter_01-newsletter_content_preview_text-0-readmore_button_&trkEmail=3Deml-em=
+ail_series_follow_newsletter_01-newsletter_content_preview_text-0-readmore_=
+button_-null-gdb74f~m863ijz6~m6-null-null&eid=3Dgdb74f-m863ijz6-m6&otpToken=
+=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUwYmQ4YmM4ZDA0MTljYWM4YzYxNzljNDA2=
+NmQ0YjVkNWJmMmZlZDNkZmI4NWFlM2UzZDI3MzgwZjUzYTExODY1NjBlMDQ1MzMxZTNiYjcxYTJ=
+hNzllNjcwZSwxLDE%3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | Java | JS | React.js | PostgreSQL)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3BzCn4sIH4RGex%2B2E1nDU0yg%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSi=
+g=3D0Cy3D7cOcmZHE1&trk=3Deml-email_series_follow_newsletter_01-SecurityHelp=
+-0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Secur=
+ityHelp-0-textfooterglimmer-null-gdb74f~m863ijz6~m6-null-null&eid=3Dgdb74f-=
+m863ijz6-m6&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUwYmQ4YmM4ZDA0=
+MTljYWM4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NWFlM2UzZDI3MzgwZjUzYTExODY1NjB=
+lMDQ1MzMxZTNiYjcxYTJhNzllNjcwZSwxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/series-notifications=
+/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjl=
+Y&newsletterId=3D7223479127775862784&newsletterTitle=3DO Poder das soft ski=
+lls no TI&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%=
+3BzCn4sIH4RGex%2B2E1nDU0yg%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D0Cy3D7c=
+OcmZHE1&ek=3Demail_series_follow_newsletter_01&e=3Dgdb74f-m863ijz6-m6&eid=
+=3Dgdb74f-m863ijz6-m6&m=3Dunsubscribe&ts=3DfooterGlimmer&li=3D0&t=3Dplh  =
+=C2=A0=C2=A0=C2=B7=C2=A0=C2=A0Ajuda: https://www.linkedin.com/help/linkedin=
+/answer/67?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3BzCn4sIH4RGex%2B2E1nDU0yg%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSi=
+g=3D0Cy3D7cOcmZHE1&trk=3Deml-email_series_follow_newsletter_01-help-0-textf=
+ooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-help-0-textfo=
+oterglimmer-null-gdb74f~m863ijz6~m6-null-null&eid=3Dgdb74f-m863ijz6-m6&otpT=
+oken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUwYmQ4YmM4ZDA0MTljYWM4YzYxNzlj=
+NDA2NmQ0YjVkNWJmMmZlZDNkZmI4NWFlM2UzZDI3MzgwZjUzYTExODY1NjBlMDQ1MzMxZTNiYjc=
+xYTJhNzllNjcwZSwxLDE%3D
+
+=C2=A9 2025 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_7199595_564576098.1741794600980
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+/head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-canvas w-fu=
+ll m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; padding: 0p=
+x; padding-top: 8px; font-family: -apple-system, system-ui, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Ox=
+ygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sa=
+ns-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible overflow=
+-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; max-height=
+: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" data-email-p=
+reheader=3D"true">Descubra como o networking pode impulsionar sua carreira =
+e fortalecer seus=E2=80=A6</div> <div class=3D"h-0 opacity-0 text-transpare=
+nt invisible overflow-hidden w-0 max-h-[0]" style=3D"visibility: hidden; he=
+ight: 0px; max-height: 0; width: 0px; overflow: hidden; opacity: 0; mso-hid=
+e: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table role=3D"presentation" valign=3D"t=
+op" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"512" align=3D=
+"center" class=3D"mercado-container w-[512px] max-w-[512px] mx-auto my-0 p-=
+0 " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt; margin-left: auto; margin-right=
+: auto; margin-top: 0px; margin-bottom: 0px; width: 512px; max-width: 512px=
+; padding: 0px;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"=
+> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" width=3D"100%" class=3D"bg-color-background-container "=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff;"> <tbod=
+y> <tr> <td class=3D"text-center p-3" style=3D"-webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t; padding: 24px; text-align: center;"> <table role=3D"presentation" valign=
+=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" cl=
+ass=3D"min-w-full" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%;=
+"> <tbody> <tr> <td align=3D"left" valign=3D"middle" style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/feed/?lipi=3Du=
+rn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BzCn4sIH4RGex%2B2=
+E1nDU0yg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0Cy3D7cOcmZHE1&am=
+p;trk=3Deml-email_series_follow_newsletter_01-header-0-home_glimmer_static_=
+badging_with_count&amp;trkEmail=3Deml-email_series_follow_newsletter_01-hea=
+der-0-home_glimmer_static_badging_with_count-null-gdb74f~m863ijz6~m6-null-n=
+ull&amp;eid=3Dgdb74f-m863ijz6-m6&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQ=
+wNGVkNDIxZmUwYmQ4YmM4ZDA0MTljYWM4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NWFlM2=
+UzZDI3MzgwZjUzYTExODY1NjBlMDQ1MzMxZTNiYjcxYTJhNzllNjcwZSwxLDE%3D" target=3D=
+"_blank" class=3D"w-[84px]" style=3D"color: #0a66c2; cursor: pointer; displ=
+ay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -m=
+s-text-size-adjust: 100%; width: 84px;"> <img class=3D"h-[37px] w-[101px]" =
+alt=3D"LinkedIn" src=3D"https://static.licdn.com/aero-v1/sc/h/540l3idj51q1u=
+s5rf80slauv2" data-test-header-static-badging-img style=3D"outline: none; t=
+ext-decoration: none; -ms-interpolation-mode: bicubic; height: 37px; width:=
+ 101px;" width=3D"101" height=3D"37"> </a> </td> <td valign=3D"middle" alig=
+n=3D"right" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presen=
+tation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" wid=
+th=3D"100%" data-test-header-profile style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;"> <tbody> <tr> <td align=3D"right" valign=3D"middle" class=3D"w-[32px]" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; width: 32px;" width=3D"32"> <a href=
+=3D"https://br.linkedin.com/comm/in/fernando-ferreira-brito?lipi=3Durn%3Ali=
+%3Apage%3Aemail_email_series_follow_newsletter_01%3BzCn4sIH4RGex%2B2E1nDU0y=
+g%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0Cy3D7cOcmZHE1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-header-0-profile_glimmer&amp;trkEm=
+ail=3Deml-email_series_follow_newsletter_01-header-0-profile_glimmer-null-g=
+db74f~m863ijz6~m6-null-null&amp;eid=3Dgdb74f-m863ijz6-m6&amp;otpToken=3DMWI=
+wZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUwYmQ4YmM4ZDA0MTljYWM4YzYxNzljNDA2NmQ0Yj=
+VkNWJmMmZlZDNkZmI4NWFlM2UzZDI3MzgwZjUzYTExODY1NjBlMDQ1MzMxZTNiYjcxYTJhNzllN=
+jcwZSwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; =
+display: inline-block; text-decoration: none; -webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%;"> <img alt=3D"Luiz Fernando Brito Ferreira" =
+src=3D"https://media.licdn.com/dms/image/v2/D4E03AQHtWMkj43o1lA/profile-dis=
+playphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/172419155644=
+5?e=3D2147483647&amp;v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB92xXoc9r_1IG6E=
+IUIKB4" class=3D"rounded-[100%] w-[32px] h-[32px]" style=3D"outline: none; =
+text-decoration: none; -ms-interpolation-mode: bicubic; height: 32px; width=
+: 32px; border-radius: 100%;" width=3D"32" height=3D"32"> </a> </td> </tr> =
+</tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class=
+=3D"px-0 pb-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 0px; p=
+adding-right: 0px; padding-bottom: 24px;"> <div> <table role=3D"presentatio=
+n" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D=
+"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td data-test=
+-id=3D"newsletter-entity-lockup" class=3D"px-3 pt-1" style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt; padding-left: 24px; padding-right: 24px; padding-top: 8px=
+;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" width=3D"100%" class=3D"font-sans" style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; font-family: -apple-system, system-ui, BlinkMacSystem=
+Font, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'O=
+xygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, s=
+ans-serif;"> <tbody> <tr> <td valign=3D"top" class=3D"pr-1 w-6" style=3D"-w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt; width: 48px; padding-right: 8px;" width=3D"48"=
+> <a href=3D"https://www.linkedin.com/comm/newsletters/7223479127775862784?=
+lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BzCn4sIH4=
+RGex%2B2E1nDU0yg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0Cy3D7cOc=
+mZHE1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_entity_loc=
+kup-0-newsletter_entity_cta&amp;trkEmail=3Deml-email_series_follow_newslett=
+er_01-newsletter_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m863ijz6=
+~m6-null-null&amp;eid=3Dgdb74f-m863ijz6-m6&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y=
+2JjM2I1MjQwNGVkNDIxZmUwYmQ4YmM4ZDA0MTljYWM4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNk=
+ZmI4NWFlM2UzZDI3MzgwZjUzYTExODY1NjBlMDQ1MzMxZTNiYjcxYTJhNzllNjcwZSwxLDE%3D"=
+ target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inlin=
+e-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%;"> <img class=3D"inline-block relative bg-color-entity-ghos=
+t-background w-6 h-6 rounded-md" src=3D"https://media.licdn.com/dms/image/v=
+2/D4D12AQG3wpNQ_VtIkA/series-logo_image-shrink_100_100/series-logo_image-sh=
+rink_100_100/0/1722211598994?e=3D2147483647&amp;v=3Dbeta&amp;t=3Dnjz6FO2HkV=
+R8_iBCqeaQrthRkaSn1Z-ZBSD4Z-K4IJM" alt=3D"Abrir O Poder das soft skills no =
+TI" style=3D"outline: none; text-decoration: none; -ms-interpolation-mode: =
+bicubic; position: relative; display: inline-block; height: 48px; width: 48=
+px; border-radius: 8px; background-color: #eae6df;" width=3D"48" height=3D"=
+48"> </a> </td> <td valign=3D"top" style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"=
+> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"=
+> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"htt=
+ps://www.linkedin.com/comm/newsletters/7223479127775862784?lipi=3Durn%3Ali%=
+3Apage%3Aemail_email_series_follow_newsletter_01%3BzCn4sIH4RGex%2B2E1nDU0yg=
+%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0Cy3D7cOcmZHE1&amp;trk=3D=
+eml-email_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter=
+_entity_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter=
+_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m863ijz6~m6-null-null&am=
+p;eid=3Dgdb74f-m863ijz6-m6&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkN=
+DIxZmUwYmQ4YmM4ZDA0MTljYWM4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NWFlM2UzZDI3=
+MzgwZjUzYTExODY1NjBlMDQ1MzMxZTNiYjcxYTJhNzllNjcwZSwxLDE%3D" target=3D"_blan=
+k" class=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; display=
+: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; text-decoration-line: none;"> <div class=3D"pb-0.5"=
+ style=3D"padding-bottom: 4px;"> <span class=3D"text-md font-bold text-colo=
+r-text break-words leading-regular" style=3D"overflow-wrap: break-word; fon=
+t-size: 16px; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9=
+);"> O Poder das soft skills no TI </span> </div> </a> </td> </tr> <tr> <td=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.=
+com/comm/newsletters/7223479127775862784?lipi=3Durn%3Ali%3Apage%3Aemail_ema=
+il_series_follow_newsletter_01%3BzCn4sIH4RGex%2B2E1nDU0yg%3D%3D&amp;midToke=
+n=3DAQHxaOsdYMWJVQ&amp;midSig=3D0Cy3D7cOcmZHE1&amp;trk=3Deml-email_series_f=
+ollow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta&amp;tr=
+kEmail=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-0-n=
+ewsletter_entity_cta-null-gdb74f~m863ijz6~m6-null-null&amp;eid=3Dgdb74f-m86=
+3ijz6-m6&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUwYmQ4YmM4ZDA=
+0MTljYWM4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NWFlM2UzZDI3MzgwZjUzYTExODY1Nj=
+BlMDQ1MzMxZTNiYjcxYTJhNzllNjcwZSwxLDE%3D" target=3D"_blank" class=3D"no-und=
+erline" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; te=
+xt-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; text-decoration-line: none;"> <span class=3D"text-xs text-color-text-=
+low-emphasis leading-regular" style=3D"font-size: 12px; line-height: 1.25; =
+color: rgba(0, 0, 0, 0.6);"> Uma newsletter voltado ao #OpenToWork onde as =
+empresas mais solicitam nas oportunidades de emprego:=E2=80=A6 </span> </a>=
+ </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <t=
+r data-test-id=3D"newsletter-content-preview"> <td class=3D"px-3 pt-2" styl=
+e=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding-left: 24px; padding-right: 24px=
+; padding-top: 16px;"> <table role=3D"presentation" valign=3D"top" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"overflow-hidden " style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; overflow: hidden;"> <table role=3D"prese=
+ntation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" wi=
+dth=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td sty=
+le=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/=
+comm/pulse/networking-arte-de-construir-conex%C3%B5es-duradouras-luciano-ro=
+cha-pcd--bga1f?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslette=
+r_01%3BzCn4sIH4RGex%2B2E1nDU0yg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;mid=
+Sig=3D0Cy3D7cOcmZHE1&amp;trk=3Deml-email_series_follow_newsletter_01-newsle=
+tter_content_preview-0-headline_&amp;trkEmail=3Deml-email_series_follow_new=
+sletter_01-newsletter_content_preview-0-headline_-null-gdb74f~m863ijz6~m6-n=
+ull-null&amp;eid=3Dgdb74f-m863ijz6-m6&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2=
+I1MjQwNGVkNDIxZmUwYmQ4YmM4ZDA0MTljYWM4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4N=
+WFlM2UzZDI3MzgwZjUzYTExODY1NjBlMDQ1MzMxZTNiYjcxYTJhNzllNjcwZSwxLDE%3D" targ=
+et=3D"_blank" class=3D"w-full" style=3D"color: #0a66c2; cursor: pointer; di=
+splay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; width: 100%;"> <img class=3D"block w-full aspe=
+ct-[744/400] object-cover overflow-hidden" data-test-id=3D"newsletter-conte=
+nt-preview__cover-image" alt=3D"Imagem de capa da newsletter" src=3D"https:=
+//media.licdn.com/dms/image/v2/D4D12AQFFMYZoIC2i9Q/article-cover_image-shri=
+nk_180_320/B4DZV3GAwmHIAY-/0/1741459819944?e=3D2147483647&amp;v=3Dbeta&amp;=
+t=3DcjF38SQypja_uPtTJrF0ZgDI_MoMqrlfj1UUgtJHDdQ" style=3D"outline: none; te=
+xt-decoration: none; -ms-interpolation-mode: bicubic; display: block; aspec=
+t-ratio: 744/400; width: 100%; overflow: hidden; object-fit: cover;"> </a> =
+</td> </tr> <tr> <td class=3D"py-2" style=3D"-webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ padding-top: 16px; padding-bottom: 16px;"> <table role=3D"presentation" va=
+lign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/=
+networking-arte-de-construir-conex%C3%B5es-duradouras-luciano-rocha-pcd--bg=
+a1f?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BzCn4=
+sIH4RGex%2B2E1nDU0yg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0Cy3D=
+7cOcmZHE1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_conten=
+t_preview-0-title_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-new=
+sletter_content_preview-0-title_-null-gdb74f~m863ijz6~m6-null-null&amp;eid=
+=3Dgdb74f-m863ijz6-m6&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZm=
+UwYmQ4YmM4ZDA0MTljYWM4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NWFlM2UzZDI3MzgwZ=
+jUzYTExODY1NjBlMDQ1MzMxZTNiYjcxYTJhNzllNjcwZSwxLDE%3D" target=3D"_blank" cl=
+ass=3D"no-underline font-medium text-sm m-0 text-system-gray-90" style=3D"c=
+ursor: pointer; display: inline-block; text-decoration: none; -webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0px; font-size: 14px=
+; font-weight: 500; color: #282828; text-decoration-line: none;"> <h2 class=
+=3D"m-0 text-display-sm leading-regular text-color-text font-bold font-sans=
+" style=3D"margin: 0px; font-family: -apple-system, system-ui, BlinkMacSyst=
+emFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, =
+'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial,=
+ sans-serif; font-size: 24px; font-weight: 600; line-height: 1.25; color: r=
+gba(0, 0, 0, 0.9);"> Networking: a arte de construir conex=C3=B5es duradour=
+as. </h2> </a> </td> </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0" width=3D"100%" data-test-id=3D"newsletter-author-locku=
+p-redesign" class=3D"mt-1 mb-2" style=3D"-webkit-text-size-adjust: 100%; -m=
+s-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mar=
+gin-bottom: 16px; margin-top: 8px;"> <tbody> <tr> <td valign=3D"middle" ali=
+gn=3D"left" class=3D"w-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 24=
+px;" width=3D"24"> <a href=3D"https://br.linkedin.com/comm/in/lgomesroc?lip=
+i=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BzCn4sIH4RGe=
+x%2B2E1nDU0yg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0Cy3D7cOcmZH=
+E1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_content_previ=
+ew-0-author_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newslette=
+r_content_preview-0-author_-null-gdb74f~m863ijz6~m6-null-null&amp;eid=3Dgdb=
+74f-m863ijz6-m6&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUwYmQ4=
+YmM4ZDA0MTljYWM4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NWFlM2UzZDI3MzgwZjUzYTE=
+xODY1NjBlMDQ1MzMxZTNiYjcxYTJhNzllNjcwZSwxLDE%3D" target=3D"_blank" style=3D=
+"color: #0a66c2; cursor: pointer; display: inline-block; text-decoration: n=
+one; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img cla=
+ss=3D"inline-block relative bg-color-entity-ghost-background clip-path-circ=
+le-50 rounded-full w-4 h-4 align-middle" src=3D"https://media.licdn.com/dms=
+/image/v2/D4D35AQFdH9kF8MJeXQ/profile-framedphoto-shrink_400_400/profile-fr=
+amedphoto-shrink_400_400/0/1738186012214?e=3D1742400000&amp;v=3Dbeta&amp;t=
+=3DPNg_sMuDmQoBfHQqJjRtUZ_wC7wzPP_z9RA8ppz7zJ8" alt=3D"Imagem do autor" sty=
+le=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicubic=
+; position: relative; display: inline-block; height: 32px; width: 32px; bor=
+der-radius: 9999px; background-color: #eae6df; vertical-align: middle; clip=
+-path: circle(50%);" width=3D"32" height=3D"32"> </a> </td> <td style=3D"-w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://br.linkedin.com/comm/in/l=
+gomesroc?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3=
+BzCn4sIH4RGex%2B2E1nDU0yg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D=
+0Cy3D7cOcmZHE1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_c=
+ontent_preview-0-author_&amp;trkEmail=3Deml-email_series_follow_newsletter_=
+01-newsletter_content_preview-0-author_-null-gdb74f~m863ijz6~m6-null-null&a=
+mp;eid=3Dgdb74f-m863ijz6-m6&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVk=
+NDIxZmUwYmQ4YmM4ZDA0MTljYWM4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NWFlM2UzZDI=
+3MzgwZjUzYTExODY1NjBlMDQ1MzMxZTNiYjcxYTJhNzllNjcwZSwxLDE%3D" target=3D"_bla=
+nk" class=3D"no-underline ml-1" style=3D"color: #0a66c2; cursor: pointer; d=
+isplay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; margin-left: 8px; text-decoration-line: none;=
+"> <span class=3D"font-sans font-bold text-sm mb-3 text-color-text-low-emph=
+asis leading-regular" style=3D"margin-bottom: 24px; font-family: -apple-sys=
+tem, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', '=
+Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple =
+Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucid=
+a Grande', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600;=
+ line-height: 1.25; color: rgba(0, 0, 0, 0.6);"> Luciano Rocha (PCD) </span=
+> </a> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"pb-1" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px;"> <div class=3D"=
+p-3 bg-color-surface-tint rounded-md font-sans" data-test-id=3D"newsletter-=
+cta-banner" style=3D"border-radius: 8px; background-color: #f5f7f9; padding=
+: 24px; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe U=
+I', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', C=
+antarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Em=
+oji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;"> <=
+div class=3D"mb-1.5" style=3D"margin-bottom: 12px;"> <span class=3D"text-md=
+ leading-regular font-bold text-color-text" style=3D"font-size: 16px; font-=
+weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Leia este arti=
+go no LinkedIn para participar da conversa </span> </div> <table role=3D"pr=
+esentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ width=3D"100%" class=3D"email-button " data-test-id=3D"email-button" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=3D"middle" ali=
+gn=3D"left" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://ww=
+w.linkedin.com/comm/pulse/networking-arte-de-construir-conex%C3%B5es-durado=
+uras-luciano-rocha-pcd--bga1f?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_f=
+ollow_newsletter_01%3BzCn4sIH4RGex%2B2E1nDU0yg%3D%3D&amp;midToken=3DAQHxaOs=
+dYMWJVQ&amp;midSig=3D0Cy3D7cOcmZHE1&amp;trk=3Deml-email_series_follow_newsl=
+etter_01-newsletter_content_preview-0-read_more_banner_cta_&amp;trkEmail=3D=
+eml-email_series_follow_newsletter_01-newsletter_content_preview-0-read_mor=
+e_banner_cta_-null-gdb74f~m863ijz6~m6-null-null&amp;eid=3Dgdb74f-m863ijz6-m=
+6&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUwYmQ4YmM4ZDA0MTljYW=
+M4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NWFlM2UzZDI3MzgwZjUzYTExODY1NjBlMDQ1M=
+zMxZTNiYjcxYTJhNzllNjcwZSwxLDE%3D" target=3D"_blank" aria-label=3D"Abrir es=
+te artigo no LinkedIn" class=3D"align-top no-underline " style=3D"color: #0=
+a66c2; cursor: pointer; display: inline-block; text-decoration: none; -webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; vertical-align: top;=
+ text-decoration-line: none;"> <table role=3D"presentation" valign=3D"top" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"auto" class=3D"bo=
+rder-separate " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: se=
+parate;"> <tbody> <tr> <td class=3D"btn-sm btn-primary border-color-brand b=
+utton-link leading-regular !min-h-[auto] !shadow-none border-1 border-solid=
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt; height: min-content; border-radiu=
+s: 24px; padding-top: 7px; padding-bottom: 7px; padding-left: 16px; padding=
+-right: 16px; text-align: center; font-size: 14px; font-weight: 600; cursor=
+: pointer; text-decoration-line: none; background-color: #0a66c2; color: #f=
+fffff; border-width: 1px; border-style: solid; border-color: #0a66c2; line-=
+height: 1.25; min-height: auto !important; box-shadow: 0 0 #0000, 0 0 #0000=
+, 0 0 #0000 !important;"> <a href=3D"https://www.linkedin.com/comm/pulse/ne=
+tworking-arte-de-construir-conex%C3%B5es-duradouras-luciano-rocha-pcd--bga1=
+f?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BzCn4sI=
+H4RGex%2B2E1nDU0yg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0Cy3D7c=
+OcmZHE1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_content_=
+preview-0-read_more_banner_cta_&amp;trkEmail=3Deml-email_series_follow_news=
+letter_01-newsletter_content_preview-0-read_more_banner_cta_-null-gdb74f~m8=
+63ijz6~m6-null-null&amp;eid=3Dgdb74f-m863ijz6-m6&amp;otpToken=3DMWIwZDE3ZTg=
+xMzI4Y2JjM2I1MjQwNGVkNDIxZmUwYmQ4YmM4ZDA0MTljYWM4YzYxNzljNDA2NmQ0YjVkNWJmMm=
+ZlZDNkZmI4NWFlM2UzZDI3MzgwZjUzYTExODY1NjBlMDQ1MzMxZTNiYjcxYTJhNzllNjcwZSwxL=
+DE%3D" target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" class=3D"no-u=
+nderline" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; =
+text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; text-decoration-line: none;"> <span class=3D"no-underline text-whit=
+e" style=3D"color: #ffffff; text-decoration-line: none;"> Ler no LinkedIn <=
+/span> </a> </td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </table=
+> </div> </td> </tr> <tr data-test-id=3D"newsletter-content-preview--conten=
+t"> <td class=3D"font-sans text-md leading-open text-system-gray-90" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, system-ui, B=
+linkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubunt=
+u, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvet=
+ica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #282828;"=
+> <div data-test-id=3D"publishing-text-block"> <h3 class=3D"m-0 text-md tex=
+t-system-gray-90 pt-1 pb-0.5 leading-regular font-bold" data-test-id=3D"pub=
+lishing-text-block-h2" style=3D"margin: 0px; padding-bottom: 4px; padding-t=
+op: 8px; font-size: 16px; font-weight: 600; line-height: 1.25; color: #2828=
+28;"> <span class data-test-id=3D"little-text-block">Descubra como o networ=
+king pode impulsionar sua carreira e fortalecer seus la=C3=A7os profissiona=
+is</span> </h3> </div> <div data-test-id=3D"publishing-text-block"> <p clas=
+s=3D"m-0 mt-1.5 text-md leading-open" style=3D"font-weight: 400; margin: 0p=
+x; margin-top: 12px; font-size: 16px; line-height: 1.5;"> <br> </p> </div> =
+<div data-test-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1.5 text-md=
+ leading-open" style=3D"font-weight: 400; margin: 0px; margin-top: 12px; fo=
+nt-size: 16px; line-height: 1.5;"> <span class data-test-id=3D"little-text-=
+block">Networking =C3=A9 um dos conceitos mais falados no ambiente corporat=
+ivo, mas, muitas vezes, =C3=A9 mal compreendido ou subestimado. Construir u=
+ma rede de contatos n=C3=A3o significa apenas colecionar nomes em uma lista=
+ de e-mails ou conex=C3=B5es em plataformas digitais. Trata-se de criar rel=
+a=C3=A7=C3=B5es aut=C3=AAnticas e mutuamente ben=C3=A9ficas, que podem abri=
+r portas e ampliar horizontes.</span> </p> </div> <div data-test-id=3D"publ=
+ishing-text-block"> <p class=3D"m-0 mt-1.5 text-md leading-open" style=3D"f=
+ont-weight: 400; margin: 0px; margin-top: 12px; font-size: 16px; line-heigh=
+t: 1.5;"> <span class data-test-id=3D"little-text-block">Para entender o re=
+al poder do networking, =C3=A9 necess=C3=A1rio ir al=C3=A9m da superf=C3=AD=
+cie. As redes profissionais t=C3=AAm um impacto direto n=C3=A3o apenas na e=
+volu=C3=A7=C3=A3o de carreiras individuais, mas tamb=C3=A9m no fortalecimen=
+to de equipes e na cria=C3=A7=C3=A3o de oportunidades de neg=C3=B3cios. A c=
+onex=C3=A3o certa no momento certo pode ser um divisor de =C3=A1guas.</span=
+> </p> </div> <div data-test-id=3D"publishing-text-block"> <p class=3D"m-0 =
+mt-1.5 text-md leading-open" style=3D"font-weight: 400; margin: 0px; margin=
+-top: 12px; font-size: 16px; line-height: 1.5;"> <span class data-test-id=
+=3D"little-text-block">Neste artigo, vamos analisar a fundo o conceito de n=
+etworking. Desde o que =C3=A9 e suas caracter=C3=ADsticas, at=C3=A9 os bene=
+f=C3=ADcios e desafios envolvidos. Vamos entender tamb=C3=A9m o que as empr=
+esas buscam em profissionais que dominam essa habilidade. O objetivo =C3=A9=
+ garantir que voc=C3=AA saia daqui com uma compreens=C3=A3o clara e aplic=
+=C3=A1vel sobre o assunto.</span> </p> </div> <div data-test-id=3D"publishi=
+ng-text-block"> <p class=3D"m-0 mt-1.5 text-md leading-open" style=3D"font-=
+weight: 400; margin: 0px; margin-top: 12px; font-size: 16px; line-height: 1=
+.5;"> <br> </p> </div> <div data-test-id=3D"publishing-text-block"> <h2 dat=
+a-test-id=3D"publishing-text-block-h1" class=3D"font-bold m-0 text-lg text-=
+system-gray-90 py-1 leading-regular" style=3D"margin: 0px; padding-top: 8px=
+; padding-bottom: 8px; font-size: 20px; font-weight: 600; line-height: 1.25=
+; color: #282828;"> <span class data-test-id=3D"little-text-block">=C3=8Dnd=
+ice</span> </h2> </div> <div data-test-id=3D"publishing-text-block"> <p cla=
+ss=3D"m-0 mt-1.5 text-md leading-open" style=3D"font-weight: 400; margin: 0=
+px; margin-top: 12px; font-size: 16px; line-height: 1.5;"> <span class data=
+-test-id=3D"little-text-block"> <ul class=3D"block mt-2 mr-0 ml-3 p-0" data=
+-test-id=3D"little-template-list-unordered" style=3D"margin-left: 24px; mar=
+gin-right: 0px; margin-top: 16px; display: block; padding: 0px;"> <li class=
+=3D"mt-1.5 ml-2 text-md leading-open text-system-gray-90" style=3D"margin-l=
+eft: 16px; margin-top: 12px; font-size: 16px; line-height: 1.5; color: #282=
+828;"> <span class=3D"font-[700]" data-test-id=3D"little-text-block" style=
+=3D"font-weight: 700;">O que =C3=A9 networking?</span> </li> <li class=3D"m=
+t-1.5 ml-2 text-md leading-open text-system-gray-90" style=3D"margin-left: =
+16px; margin-top: 12px; font-size: 16px; line-height: 1.5; color: #282828;"=
+> <span class=3D"font-[700]" data-test-id=3D"little-text-block" style=3D"fo=
+nt-weight: 700;">Caracter=C3=ADsticas</span> </li> <li class=3D"mt-1.5 ml-2=
+ text-md leading-open text-system-gray-90" style=3D"margin-left: 16px; marg=
+in-top: 12px; font-size: 16px; line-height: 1.5; color: #282828;"> <span cl=
+ass=3D"font-[700]" data-test-id=3D"little-text-block" style=3D"font-weight:=
+ 700;">Para que serve?</span> </li> <li class=3D"mt-1.5 ml-2 text-md leadin=
+g-open text-system-gray-90" style=3D"margin-left: 16px; margin-top: 12px; f=
+ont-size: 16px; line-height: 1.5; color: #282828;"> <span class=3D"font-[70=
+0]" data-test-id=3D"little-text-block" style=3D"font-weight: 700;">O lado p=
+ositivo e negativo</span> </li> <li class=3D"mt-1.5 ml-2 text-md leading-op=
+en text-system-gray-90" style=3D"margin-left: 16px; margin-top: 12px; font-=
+size: 16px; line-height: 1.5; color: #282828;"> <span class=3D"font-[700]" =
+data-test-id=3D"little-text-block" style=3D"font-weight: 700;">Benef=C3=ADc=
+ios</span> </li> <li class=3D"mt-1.5 ml-2 text-md leading-open text-system-=
+gray-90" style=3D"margin-left: 16px; margin-top: 12px; font-size: 16px; lin=
+e-height: 1.5; color: #282828;"> <span class=3D"font-[700]" data-test-id=3D=
+"little-text-block" style=3D"font-weight: 700;">Desvantagens</span> </li> <=
+li class=3D"mt-1.5 ml-2 text-md leading-open text-system-gray-90" style=3D"=
+margin-left: 16px; margin-top: 12px; font-size: 16px; line-height: 1.5; col=
+or: #282828;"> <span class=3D"font-[700]" data-test-id=3D"little-text-block=
+" style=3D"font-weight: 700;">O que as empresas procuram?</span> </li> <li =
+class=3D"mt-1.5 ml-2 text-md leading-open text-system-gray-90" style=3D"mar=
+gin-left: 16px; margin-top: 12px; font-size: 16px; line-height: 1.5; color:=
+ #282828;"> <span class=3D"font-[700]" data-test-id=3D"little-text-block" s=
+tyle=3D"font-weight: 700;">Conclus=C3=A3o</span> </li> </ul> </span> </p> <=
+/div> <div data-test-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1.5 t=
+ext-md leading-open" style=3D"font-weight: 400; margin: 0px; margin-top: 12=
+px; font-size: 16px; line-height: 1.5;"> <br> </p> </div> <div data-test-id=
+=3D"publishing-text-block"> <h2 data-test-id=3D"publishing-text-block-h1" c=
+lass=3D"font-bold m-0 text-lg text-system-gray-90 py-1 leading-regular" sty=
+le=3D"margin: 0px; padding-top: 8px; padding-bottom: 8px; font-size: 20px; =
+font-weight: 600; line-height: 1.25; color: #282828;"> <span class data-tes=
+t-id=3D"little-text-block">O que =C3=A9 networking?</span> </h2> </div> <di=
+v data-test-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1.5 text-md le=
+ading-open" style=3D"font-weight: 400; margin: 0px; margin-top: 12px; font-=
+size: 16px; line-height: 1.5;"> <span class data-test-id=3D"little-text-blo=
+ck">Networking =C3=A9, essencialmente,</span><span class=3D"font-[700]" dat=
+a-test-id=3D"little-text-block" style=3D"font-weight: 700;"> a constru=C3=
+=A7=C3=A3o de um conjunto de rela=C3=A7=C3=B5es profissionais estrat=C3=A9g=
+icas</span><span class data-test-id=3D"little-text-block">. N=C3=A3o se tra=
+ta apenas de quantidade, mas da qualidade e da relev=C3=A2ncia dessas conex=
+=C3=B5es. =C3=89 uma pr=C3=A1tica que vai al=C3=A9m de apertos de m=C3=A3o =
+em eventos; envolve intera=C3=A7=C3=B5es genu=C3=ADnas e a troca de informa=
+=C3=A7=C3=B5es e conhecimentos.</span> </p> </div> <span>...</span> </td> <=
+/tr> <tr> <td class=3D"pt-2 no-underline" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; padding-top: 16px; text-decoration-line: none;"> <table role=3D"pres=
+entation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" w=
+idth=3D"100%" class=3D"email-button series-content-preview__bottom-cta" dat=
+a-test-id=3D"email-button" style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody=
+> <tr> <td valign=3D"middle" align=3D"left" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/networking-arte-d=
+e-construir-conex%C3%B5es-duradouras-luciano-rocha-pcd--bga1f?lipi=3Durn%3A=
+li%3Apage%3Aemail_email_series_follow_newsletter_01%3BzCn4sIH4RGex%2B2E1nDU=
+0yg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0Cy3D7cOcmZHE1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-readm=
+ore_button_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter=
+_content_preview-0-readmore_button_-null-gdb74f~m863ijz6~m6-null-null&amp;e=
+id=3Dgdb74f-m863ijz6-m6&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIx=
+ZmUwYmQ4YmM4ZDA0MTljYWM4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NWFlM2UzZDI3Mzg=
+wZjUzYTExODY1NjBlMDQ1MzMxZTNiYjcxYTJhNzllNjcwZSwxLDE%3D" target=3D"_blank" =
+aria-label=3D"Abrir O Poder das soft skills no TI no LinkedIn" class=3D"ali=
+gn-top no-underline " style=3D"color: #0a66c2; cursor: pointer; display: in=
+line-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; vertical-align: top; text-decoration-line: none; width:=
+ 100%;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"border-separate " style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; border-collapse: separate; width: 100%;"=
+> <tbody> <tr> <td class=3D"btn-md btn-secondary-emphasis border-color-bran=
+d button-link leading-regular !min-h-[auto] !shadow-none border-1 border-so=
+lid font-sans" data-test-id=3D"newsletter-content-preview-redesign-bottom-c=
+ta" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt; height: min-content; border-rad=
+ius: 24px; padding-top: 12px; padding-bottom: 12px; padding-left: 24px; pad=
+ding-right: 24px; text-align: center; font-size: 16px; font-weight: 600; cu=
+rsor: pointer; text-decoration-line: none; background-color: rgba(0, 0, 0, =
+0); color: #0a66c2; border-width: 1px; border-style: solid; border-color: #=
+0a66c2; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe U=
+I', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', C=
+antarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Em=
+oji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; lin=
+e-height: 1.25; min-height: auto !important; box-shadow: 0 0 #0000, 0 0 #00=
+00, 0 0 #0000 !important;"> <a href=3D"https://www.linkedin.com/comm/pulse/=
+networking-arte-de-construir-conex%C3%B5es-duradouras-luciano-rocha-pcd--bg=
+a1f?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BzCn4=
+sIH4RGex%2B2E1nDU0yg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0Cy3D=
+7cOcmZHE1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_conten=
+t_preview-0-readmore_button_&amp;trkEmail=3Deml-email_series_follow_newslet=
+ter_01-newsletter_content_preview-0-readmore_button_-null-gdb74f~m863ijz6~m=
+6-null-null&amp;eid=3Dgdb74f-m863ijz6-m6&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2J=
+jM2I1MjQwNGVkNDIxZmUwYmQ4YmM4ZDA0MTljYWM4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZm=
+I4NWFlM2UzZDI3MzgwZjUzYTExODY1NjBlMDQ1MzMxZTNiYjcxYTJhNzllNjcwZSwxLDE%3D" t=
+arget=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" class=3D"no-underline=
+" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-dec=
+oration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+text-decoration-line: none; width: 100%;"> <span class=3D"no-underline text=
+-color-brand" style=3D"color: #0a66c2; text-decoration-line: none;"> Contin=
+ue lendo no LinkedIn </span> </a> </td> </tr> </tbody> </table> </a> </td> =
+</tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> =
+</table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </div>=
+ </td> </tr> <tr> <td class=3D"bg-color-background-canvas p-3" style=3D"-we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt; background-color: #f3f2f0; padding: 24px;"> <ta=
+ble role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" width=3D"100%" class=3D"text-xs" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; font-size: 12px;"> <tbody> <tr> <td class=3D"pb-1 m-0" data-te=
+st-id=3D"email-footer__intended" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; ma=
+rgin: 0px; padding-bottom: 8px;"> Este e-mail foi enviado a Luiz Fernando B=
+rito Ferreira (Full-Stack Developer | Java | JS | React.js | PostgreSQL) </=
+td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t; margin: 0px; padding-bottom: 8px;"> <a href=3D"https://www.linkedin.com/=
+help/linkedin/answer/4788?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_emai=
+l_series_follow_newsletter_01%3BzCn4sIH4RGex%2B2E1nDU0yg%3D%3D&amp;midToken=
+=3DAQHxaOsdYMWJVQ&amp;midSig=3D0Cy3D7cOcmZHE1&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-SecurityHelp-0-footerglimmer&amp;trkEmail=3Deml-email_se=
+ries_follow_newsletter_01-SecurityHelp-0-footerglimmer-null-gdb74f~m863ijz6=
+~m6-null-null&amp;eid=3Dgdb74f-m863ijz6-m6&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y=
+2JjM2I1MjQwNGVkNDIxZmUwYmQ4YmM4ZDA0MTljYWM4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNk=
+ZmI4NWFlM2UzZDI3MzgwZjUzYTExODY1NjBlMDQ1MzMxZTNiYjcxYTJhNzllNjcwZSwxLDE%3D"=
+ target=3D"_blank" class=3D"text-inherit underline" style=3D"cursor: pointe=
+r; display: inline-block; text-decoration: none; -webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; color: inherit; text-decoration-line: und=
+erline;">Saiba por que inclu=C3=ADmos isso.</a> </td> </tr> <tr> <td class=
+=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-=
+bottom: 8px;">Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3=
+o do LinkedIn. Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.</td=
+> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ margin: 0px; padding-bottom: 8px;"> <a href=3D"https://www.linkedin.com/se=
+ries-notifications/?action=3Dunsubscribe&amp;memberToken=3DADoAADr_Zc8BliE6=
+3H4nkhqY_TxFq4e-Y9whjlY&amp;newsletterId=3D7223479127775862784&amp;newslett=
+erTitle=3DO Poder das soft skills no TI&amp;lipi=3Durn%3Ali%3Apage%3Aemail_=
+email_series_follow_newsletter_01%3BzCn4sIH4RGex%2B2E1nDU0yg%3D%3D&amp;midT=
+oken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0Cy3D7cOcmZHE1&amp;ek=3Demail_series_fol=
+low_newsletter_01&amp;e=3Dgdb74f-m863ijz6-m6&amp;eid=3Dgdb74f-m863ijz6-m6&a=
+mp;m=3Dunsubscribe&amp;ts=3DfooterGlimmer&amp;li=3D0&amp;t=3Dplh" target=3D=
+"_blank" class=3D"text-inherit underline" style=3D"cursor: pointer; display=
+: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; color: inherit; text-decoration-line: underline;">C=
+ancelar inscri=C3=A7=C3=A3o</a> =C2=A0=C2=A0=C2=B7=C2=A0=C2=A0 <a href=3D"h=
+ttps://www.linkedin.com/help/linkedin/answer/67?lang=3Dpt&amp;lipi=3Durn%3A=
+li%3Apage%3Aemail_email_series_follow_newsletter_01%3BzCn4sIH4RGex%2B2E1nDU=
+0yg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0Cy3D7cOcmZHE1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-help-0-footerglimmer&amp;trkEmail=
+=3Deml-email_series_follow_newsletter_01-help-0-footerglimmer-null-gdb74f~m=
+863ijz6~m6-null-null&amp;eid=3Dgdb74f-m863ijz6-m6&amp;otpToken=3DMWIwZDE3ZT=
+gxMzI4Y2JjM2I1MjQwNGVkNDIxZmUwYmQ4YmM4ZDA0MTljYWM4YzYxNzljNDA2NmQ0YjVkNWJmM=
+mZlZDNkZmI4NWFlM2UzZDI3MzgwZjUzYTExODY1NjBlMDQ1MzMxZTNiYjcxYTJhNzllNjcwZSwx=
+LDE%3D" target=3D"_blank" class=3D"text-inherit underline" style=3D"cursor:=
+ pointer; display: inline-block; text-decoration: none; -webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; color: inherit; text-decoration-li=
+ne: underline;">Ajuda</a> </td> </tr> <tr> <td class=3D"pb-1" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; padding-bottom: 8px;"> <a href=3D"https://www.li=
+nkedin.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_ne=
+wsletter_01%3BzCn4sIH4RGex%2B2E1nDU0yg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&=
+amp;midSig=3D0Cy3D7cOcmZHE1&amp;trk=3Deml-email_series_follow_newsletter_01=
+-footer-0-logoGlimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-=
+footer-0-logoGlimmer-null-gdb74f~m863ijz6~m6-null-null&amp;eid=3Dgdb74f-m86=
+3ijz6-m6&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUwYmQ4YmM4ZDA=
+0MTljYWM4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NWFlM2UzZDI3MzgwZjUzYTExODY1Nj=
+BlMDQ1MzMxZTNiYjcxYTJhNzllNjcwZSwxLDE%3D" target=3D"_blank" style=3D"color:=
+ #0a66c2; cursor: pointer; display: inline-block; text-decoration: none; -w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img src=3D"htt=
+ps://static.licdn.com/aero-v1/sc/h/9ehe6n39fa07dc5edzv0rla4e" alt=3D"Linked=
+In" class=3D"block h-[14px] w-[56px] image-rendering-crisp" style=3D"outlin=
+e: none; text-decoration: none; image-rendering: -moz-crisp-edges; image-re=
+ndering: -o-crisp-edges; image-rendering: -webkit-optimize-contrast; image-=
+rendering: crisp-edges; -ms-interpolation-mode: nearest-neighbor; display: =
+block; height: 14px; width: 56px;" width=3D"56" height=3D"14"> </a> </td> <=
+/tr> <tr> <td data-test-copyright-text style=3D"-webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt;"> =C2=A9 2025 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton =
+Place, Dublin 2 - Irlanda. LinkedIn =C3=A9 um nome comercial registrado da =
+LinkedIn Ireland Unlimited Company. <span data-test-trademarks-text> Linked=
+In e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn. </span> </=
+td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbo=
+dy> </table> <img alt role=3D"presentation" src=3D"https://www.linkedin.com=
+/emimp/ip_WjJSaU56Um1MVzA0TmpOcGFubzJMVzAyOlpXMWhhV3hmYzJWeWFXVnpYMlp2Ykd4d=
+mQxOXVaWGR6YkdWMGRHVnlYekF4OmRYSnVPbXhwT214cGJtdGxaRWx1UVhKMGFXTnNaVG8zTXpB=
+ME1qRXdNak00TmpVNE56Y3lPVGt5.gif" style=3D"outline: none; text-decoration: =
+none; -ms-interpolation-mode: bicubic; width: 1px; height: 1px;" width=3D"1=
+" height=3D"1"> </body> </html>
+------=_Part_7199595_564576098.1741794600980--
+

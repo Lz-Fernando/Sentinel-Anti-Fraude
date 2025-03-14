@@ -1,0 +1,844 @@
+X-GM-THRID: 1820994982244806070
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:7881:b0:29a:824b:9ec3 with SMTP id r1csp720717yso;
+        Sat, 11 Jan 2025 14:55:44 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IF6Dz9fDl8moff5F5cO42yltqTkdwoqDMFoPk4/aA4CKs39u8We2yfmeXBMSu34w0OtvrKA
+X-Received: by 2002:a05:620a:4494:b0:7b6:bbe8:7d6e with SMTP id af79cd13be357-7bcd97a4a53mr2708925285a.40.1736636144753;
+        Sat, 11 Jan 2025 14:55:44 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1736636144; cv=none;
+        d=google.com; s=arc-20240605;
+        b=b3LjZDNTxkS3p4PjYyHKikz7BdFRUwIAF3aE7GG4sfrauvU6QZpuCV8fNJaqBClfvP
+         aZqzpmxf0DqFwYqwr8McM7kgqTDSuMIDwx8aXsWdMnOJf4hgv4abfM01tl9qa9cSYtsK
+         3ehMzWANXO6apLWQpqja0A52UvJcd4qHnu85L4UseDZf3/PmbvXEx3n84j7b2fL0M3Z3
+         PDVehtMiHuKUjG7FshFglOWtcH1h6hZSzQMQEoApTVQLM9iGjDdHIQqWh7QxUv/JWaq5
+         3w042Jd52zu2ap/rnlScJ95YfR5jqSgaz6SgKGtv5gDq/EIAAYNRPMJcDkEizOm1LTbo
+         4t9A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=YQXC93CY4mHcIg461jx7ueFw5TuAQ9Ndni50Grwp7Ks=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=hoIWRQORNxerdxFF95Wc+ZnyjJA2VLnVHqjSsrLj/LQo0FCXPN2LNwp/hhJ5jd6gJ4
+         kuQK0CA2Dx+7IzSHNH3Dp3KKvGOduQW2S0QRPkmkjDvxI2wO2UESSWgDfuCC7oXus2Yx
+         Nai1KwWLlHU3HUME4D9Xa2pDJUpwa0JzUiJVVh50/LhZ3V0PUqHDUugLL/lXzSPu3SpS
+         lIM6qRu5CHSq966VIm+0ivxYlF7MN9ne/lj00kOyPybxzqyyyaW1TAsORMp5w1rDwind
+         BDGgmjb+qD7fuX3o9zXbx9tC+SsTg61TlM5nG4Dbq38yz/eNiIczJyP5rPRaofwBajsH
+         yDPg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=l2Lawi5L;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=bhw5g9pN;
+       spf=pass (google.com: domain of s-4zhib5xio6f876315x5ldsvktypcz8pdqfyw463doyzn9pr0wi3rjxh1@bounce.linkedin.com designates 2620:109:c006:104::205 as permitted sender) smtp.mailfrom=s-4zhib5xio6f876315x5ldsvktypcz8pdqfyw463doyzn9pr0wi3rjxh1@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-4zhib5xio6f876315x5ldsvktypcz8pdqfyw463doyzn9pr0wi3rjxh1@bounce.linkedin.com>
+Received: from maile-be.linkedin.com (maile-be.linkedin.com. [2620:109:c006:104::205])
+        by mx.google.com with ESMTPS id af79cd13be357-7bce7953dc7si630125585a.187.2025.01.11.14.55.44
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 11 Jan 2025 14:55:44 -0800 (PST)
+Received-SPF: pass (google.com: domain of s-4zhib5xio6f876315x5ldsvktypcz8pdqfyw463doyzn9pr0wi3rjxh1@bounce.linkedin.com designates 2620:109:c006:104::205 as permitted sender) client-ip=2620:109:c006:104::205;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=l2Lawi5L;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=bhw5g9pN;
+       spf=pass (google.com: domain of s-4zhib5xio6f876315x5ldsvktypcz8pdqfyw463doyzn9pr0wi3rjxh1@bounce.linkedin.com designates 2620:109:c006:104::205 as permitted sender) smtp.mailfrom=s-4zhib5xio6f876315x5ldsvktypcz8pdqfyw463doyzn9pr0wi3rjxh1@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1736636144;
+	bh=YQXC93CY4mHcIg461jx7ueFw5TuAQ9Ndni50Grwp7Ks=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=l2Lawi5LFIDYt8xk/k5HwW8oSdSjZUYnUyrMhVJhcE+5/rc50egpAcKBGM9bVEwp9
+	 4cwCShxrioi+I8VjXvVq8mlfLYgfJIOp7NuUdSEbUsxKDmntWEh7IGNwaYapN/qi47
+	 EsN4XMdFdj5VKNubasd+MqTJ7Q9vulgRb2zZHCosmybmCjX0lvIgU8BYDqvlYGz7wd
+	 BskvOT5UPGSEaBRw0wcyNVyluFa2sUtbK3PoBz0bVGY3RBu/lhOXWXEDJJNEFkVi+o
+	 AnF+ItmA/GzPv83Ndh3bwIZp75RZDuvAojyPKWXPFrf8Tqc9TQvZ2DQP3s5YUaxNsM
+	 7P0LcioZ6VkEQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1736636144;
+	bh=YQXC93CY4mHcIg461jx7ueFw5TuAQ9Ndni50Grwp7Ks=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=bhw5g9pNzAylEsWNrfjy42KL27wW+GpSoLdw2g5HdeNESLvHICJkjKFdw+p9+83XZ
+	 PrvV0JZlFszdgpnSfLrrDPyqRe0LyXv2FI+fVUa73y5Am0smMq5TXoCTbDXDu69vyG
+	 9bkjveByIpQQ//+jmRGhNgdWp1+qnnE0/vAxwZvlff1+fxrBHdefRvsP8gK1zHh7UV
+	 6Oh61JydjZJ7KAhWXzyiyAsI9cXfE++C0A/VJYo2ubqqBAgrT0Tzwuhn3TE92gW85t
+	 HrvFmXdpr1hC60edMmiNWsrheK0Ddn89rrIJhD8WPvnACI9WblNuLzlgn4k8FM9n4c
+	 l5+chTxRGfa5Q==
+From: Vagas Remotas via LinkedIn <newsletters-noreply@linkedin.com>
+Message-ID: <374004278.23042677.1736636144463@lva1-app62594.prod.linkedin.com>
+Subject: Vagas de Emprego na Contabilizei: 85 Oportunidades!
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_23042675_110966139.1736636144460"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Sat, 11 Jan 2025 22:55:44 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-aszs3ny3ezt3w1pxiba2i3jhak2gv4zbe0tia0g30qxebegzxs4ikqadxij39c040fps6uvdo16xo9r0z5qfmp7a0t202y1vnao5m4
+X-LinkedIn-Id: gdb74f-m5ss8p40-z0
+List-Unsubscribe: <https://www.linkedin.com/comm/series-notifications/?action=unsubscribe&memberToken=ADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&newsletterId=7202681997633196033&newsletterTitle=Emprego%20&%20Tecnologia&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&midToken=AQHxaOsdYMWJVQ&midSig=0kr3mcWQ8_FHA1&trk=eml-email_series_follow_newsletter_01-unsub-0-unsub&trkEmail=eml-email_series_follow_newsletter_01-unsub-0-unsub-null-gdb74f~m5ss8p40~z0-null-null&eid=gdb74f-m5ss8p40-z0&otpToken=MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGUxYjc4OWNmZDQ0MjkwYWY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmIyNGRjM2M0ZTA3OGFjZWU3OWQ3OTk2OTkxNDY4Nzk3MTYyZjE1NTg5YWM0OWI2MSwxLDE%3D>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_23042675_110966139.1736636144460
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Emprego & Tecnologia
+
+Por Vagas Remotas
+
+
+Por Vagas Remotas
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/vagas-de-emprego-na-contabilizei-85-opo=
+rtunidades-vagas-remotas-net-ympef?lipi=3Durn%3Ali%3Apage%3Aemail_email_ser=
+ies_follow_newsletter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&midToken=3DAQHxaO=
+sdYMWJVQ&midSig=3D0kr3mcWQ8_FHA1&trk=3Deml-email_series_follow_newsletter_0=
+1-null-0-read_more_banner_cta_&trkEmail=3Deml-email_series_follow_newslette=
+r_01-null-0-read_more_banner_cta_-null-gdb74f~m5ss8p40~z0-null-null&eid=3Dg=
+db74f-m5ss8p40-z0&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGUxYjc4OW=
+NmZDQ0MjkwYWY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmIyNGRjM2M0ZTA3OGFjZWU3OWQ3O=
+Tk2OTkxNDY4Nzk3MTYyZjE1NTg5YWM0OWI2MSwxLDE%3D
+ =20
+85 Oportunidades em Vagas de Emprego na Contabilizei, incluindo Secretaria(=
+o) Executiva(o) e Assistente de Ativa=C3=A7=C3=A3o A Contabilizei =C3=A9 o =
+maior escrit=C3=B3rio de contabilidade do Brasil, atuando desde 2013 e aten=
+dendo mais de 50 mil clientes em diversas cidades. Com sede em Curitiba e S=
+=C3=A3o Paulo, a empresa se destaca na abertura de empresas e na gest=C3=A3=
+o de CNPJs. Com uma equipe de mais de 1.200 especialistas, incluindo 80 con=
+tadores certificados, a Contabilizei combina tecnologia e expertise cont=C3=
+=A1bil para oferecer solu=C3=A7=C3=B5es eficientes. A empresa j=C3=A1 receb=
+eu investimentos significativos de fundos internacionais, como o Banco Mund=
+ial e o SoftBank Group, o que permite um cont=C3=ADnuo desenvolvimento de s=
+uas plataformas digitais. A Contabilizei =C3=A9 reconhecida por sua inova=
+=C3=A7=C3=A3o no mercado cont=C3=A1bil, oferecendo servi=C3=A7os online que=
+ simplificam a vida dos empreendedores. Al=C3=A9m disso, a empresa se compr=
+omete com a sustentabilidade e a responsabilidade social, buscando sempre m=
+elhorar a experi=C3=AAncia do cliente. Com um foco em automatizar processos=
+ cont=C3=A1beis, a Contabilizei proporciona seguran=C3=A7a e praticidade ao=
+s seus usu=C3=A1rios, permitindo que se concentrem no crescimento de seus n=
+eg=C3=B3cios. Vagas de Emprego na Contabilizei Vagas Remotas A Contabilizei=
+ est=C3=A1 com uma ampla gama de vagas remotas dispon=C3=ADveis, oferecendo=
+ oportunidades efetivas em diversas =C3=A1reas. Entre as posi=C3=A7=C3=B5es=
+ em destaque, encontram-se os Analistas Cont=C3=A1beis e Fiscais, tanto nas=
+ categorias J=C3=BAnior quanto Pleno, que atuar=C3=A3o com foco em atendime=
+nto ao cliente. Esses profissionais desempenhar=C3=A3o um papel fundamental=
+ na gest=C3=A3o cont=C3=A1bil e fiscal da empresa. Al=C3=A9m disso, a empre=
+sa busca Analistas de Dados Pleno e S=C3=AAnior, que ser=C3=A3o respons=C3=
+=A1veis por an=C3=A1lises financeiras e auditorias, contribuindo para a tom=
+ada de decis=C3=B5es estrat=C3=A9gicas. As vagas para Analistas de DevOps, =
+tanto J=C3=BAnior quanto S=C3=AAnior, tamb=C3=A9m s=C3=A3o essenciais para =
+garantir a efici=C3=AAncia dos sistemas. Os desenvolvedores t=C3=AAm v=C3=
+=A1rias oportunidades, incluindo posi=C3=A7=C3=B5es para Desenvolvedor(a) B=
+ack-End e Front-End em n=C3=ADveis Pleno e S=C3=AAnior, com foco em tecnolo=
+gias como Java e Kotlin. Ali=C3=A1s, a Contabilizei ainda procura um Cienti=
+sta de Dados S=C3=AAnior e Coordenadores em =C3=A1reas como Engenharia de S=
+oftware e Opera=C3=A7=C3=B5es Financeiras. Ademais, para quem est=C3=A1 ini=
+ciando a carreira, h=C3=A1 est=C3=A1gios dispon=C3=ADveis nas =C3=A1reas co=
+nt=C3=A1bil e jur=C3=ADdica. Essas vagas representam uma excelente oportuni=
+dade para profissionais que desejam crescer em um ambiente din=C3=A2mico e =
+colaborativo, contribuindo para o sucesso da Contabilizei. Vagas H=C3=ADbri=
+das A Contabilizei est=C3=A1 com diversas vagas de emprego h=C3=ADbridas di=
+spon=C3=ADveis, oferecendo oportunidades para profissionais em diferentes n=
+=C3=ADveis e =C3=A1reas. Entre as posi=C3=A7=C3=B5es efetivas, destaca-se o=
+ Analista de Comunica=C3=A7=C3=A3o Pleno, que ser=C3=A1 respons=C3=A1vel po=
+r desenvolver estrat=C3=A9gias de comunica=C3=A7=C3=A3o eficazes. Al=C3=A9m=
+ disso, a empresa busca um Analista de Dados e Neg=C3=B3cios Pleno, focado =
+em impulsionar o crescimento por meio da an=C3=A1lise de dados. Outra vaga =
+em aberto =C3=A9 para o Analista de Estrat=C3=A9gia de Novos Neg=C3=B3cios =
+J=C3=BAnior, que contribuir=C3=A1 para a identifica=C3=A7=C3=A3o de novas o=
+portunidades no mercado. O Analista de Estrat=C3=A9gia e Performance Pleno =
+tamb=C3=A9m =C3=A9 uma posi=C3=A7=C3=A3o importante, visando otimizar resul=
+tados e melhorar a performance das opera=C3=A7=C3=B5es. A Contabilizei aind=
+a procura um Analista de Intelig=C3=AAncia Comercial Pleno, que atuar=C3=A1=
+ na an=C3=A1lise de informa=C3=A7=C3=B5es comerciais para apoiar a tomada d=
+e decis=C3=B5es. A equipe de vendas tamb=C3=A9m est=C3=A1 em expans=C3=A3o,=
+ com vagas para Consultor(a) de Vendas =E2=80=93 Closer em S=C3=A3o Paulo e=
+ Curitiba. Para quem est=C3=A1 iniciando a carreira, h=C3=A1 oportunidades =
+como Estagi=C3=A1rio(a) de Planejamento e Performance. Assistente de Ativa=
+=C3=A7=C3=A3o A Contabilizei est=C3=A1 em busca de um Assistente de Ativa=
+=C3=A7=C3=A3o para integrar sua equipe, oferecendo uma oportunidade para qu=
+em deseja desenvolver suas habilidades em um ambiente din=C3=A2mico. No dia=
+ a dia, o assistente ter=C3=A1 a responsabilidade de apoiar no suporte mult=
+icanal aos clientes, contribuindo para uma experi=C3=AAncia de relacionamen=
+to que se destaca pela qualidade. O profissional tamb=C3=A9m ir=C3=A1 asses=
+sorar a equipe no processo de an=C3=A1lise das informa=C3=A7=C3=B5es e docu=
+mentos enviados pelos clientes, buscando compreender a cadeia do departamen=
+to societ=C3=A1rio e o fluxo de abertura de empresas. Al=C3=A9m disso, o as=
+sistente dever=C3=A1 manter um relacionamento excelente com os clientes, de=
+monstrando cuidado em toda a jornada de abertura at=C3=A9 a conclus=C3=A3o.=
+ Isso inclui realizar acompanhamentos e prestar todo o suporte necess=C3=A1=
+rio. O papel tamb=C3=A9m envolve ajudar nas atividades de controle dos proc=
+essos em andamento, contribuindo para a redu=C3=A7=C3=A3o do tempo de ativa=
+=C3=A7=C3=A3o da empresa e aumentando a satisfa=C3=A7=C3=A3o do cliente. O =
+assistente facilitar=C3=A1 o fluxo de abertura de empresas, recebendo orien=
+ta=C3=A7=C3=B5es para executar tarefas operacionais corretivas. Ali=C3=A1s,=
+ importante ter familiaridade com o Pacote Office ou Gsuite, al=C3=A9m de n=
+o=C3=A7=C3=B5es de direito empresarial e legisla=C3=A7=C3=A3o relacionada =
+=C3=A0 abertura de empresas. Secretaria(o) Executiva(o) A Contabilizei est=
+=C3=A1 em busca de um(a) Secret=C3=A1rio(a) Executivo(a) para atuar como po=
+nto focal no apoio ao C-level de Opera=C3=A7=C3=B5es. O profissional ser=C3=
+=A1 respons=C3=A1vel por entender as demandas e solicita=C3=A7=C3=B5es, gar=
+antindo que os fluxos pertinentes =C3=A0 =C3=A1rea sejam seguidos. No dia a=
+ dia, o assistente registrar=C3=A1 agendas e gerenciar=C3=A1 calend=C3=A1ri=
+os, notificando previamente os participantes sobre datas e hor=C3=A1rios, o=
+ que =C3=A9 essencial para a organiza=C3=A7=C3=A3o dos compromissos. Al=C3=
+=A9m disso, o(a) secret=C3=A1rio(a) ir=C3=A1 organizar e levantar dados par=
+a a prepara=C3=A7=C3=A3o de materiais e a estrutura=C3=A7=C3=A3o de apresen=
+ta=C3=A7=C3=B5es mensais em ingl=C3=AAs, condensando os principais pontos d=
+a =C3=A1rea. A comunica=C3=A7=C3=A3o das diretrizes e informa=C3=A7=C3=B5es=
+ relevantes, conforme direcionamento do VP, ser=C3=A1 uma parte importante =
+do trabalho, assegurando um fluxo claro e efetivo. O profissional tamb=C3=
+=A9m receber=C3=A1 correspond=C3=AAncias e e-mails, esclarecendo informa=C3=
+=A7=C3=B5es aos investidores em ingl=C3=AAs ou direcionando para as =C3=A1r=
+eas adequadas. Para se candidatar, =C3=A9 necess=C3=A1rio ter ensino superi=
+or completo, experi=C3=AAncia em assessoramento administrativo e ingl=C3=AA=
+s avan=C3=A7ado ou fluente. Habilidades com Pacote Office e G Suite s=C3=A3=
+o essenciais, assim como um conhecimento b=C3=A1sico de m=C3=ADdias sociais=
+ e plataformas de viagens. Como se Candidatar na Contabilizei? Ent=C3=A3o, =
+confira nesta p=C3=A1gina (clique aqui) os detalhes sobre o recrutamento ut=
+ilizado pela Contabilizei. OBS: Apenas divulgamos as vagas, n=C3=A3o solici=
+tamos nenhum dado pessoal ou curr=C3=ADculo. Sendo assim, nos canais abaixo=
+ compartilhamos mais publica=C3=A7=C3=B5es sobre vagas, NUNCA exigimos cada=
+stro. Portanto, a responsabilidade das ofertas =C3=A9 por parte dos contrat=
+antes.
+Continue lendo no LinkedIn
+https://www.linkedin.com/comm/pulse/vagas-de-emprego-na-contabilizei-85-opo=
+rtunidades-vagas-remotas-net-ympef?lipi=3Durn%3Ali%3Apage%3Aemail_email_ser=
+ies_follow_newsletter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&midToken=3DAQHxaO=
+sdYMWJVQ&midSig=3D0kr3mcWQ8_FHA1&trk=3Deml-email_series_follow_newsletter_0=
+1-newsletter_content_preview_text-0-readmore_button_&trkEmail=3Deml-email_s=
+eries_follow_newsletter_01-newsletter_content_preview_text-0-readmore_butto=
+n_-null-gdb74f~m5ss8p40~z0-null-null&eid=3Dgdb74f-m5ss8p40-z0&otpToken=3DMW=
+IwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGUxYjc4OWNmZDQ0MjkwYWY4YTYxNzljNDA2NmQ0Y=
+jVkNWJmMmZlZDNkZmIyNGRjM2M0ZTA3OGFjZWU3OWQ3OTk2OTkxNDY4Nzk3MTYyZjE1NTg5YWM0=
+OWI2MSwxLDE%3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | Java | JS | React.js | Node.js | Python)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSi=
+g=3D0kr3mcWQ8_FHA1&trk=3Deml-email_series_follow_newsletter_01-SecurityHelp=
+-0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Secur=
+ityHelp-0-textfooterglimmer-null-gdb74f~m5ss8p40~z0-null-null&eid=3Dgdb74f-=
+m5ss8p40-z0&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGUxYjc4OWNmZDQ0=
+MjkwYWY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmIyNGRjM2M0ZTA3OGFjZWU3OWQ3OTk2OTk=
+xNDY4Nzk3MTYyZjE1NTg5YWM0OWI2MSwxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/comm/series-notifica=
+tions/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y=
+9whjlY&newsletterId=3D7202681997633196033&newsletterTitle=3DEmprego%20&%20T=
+ecnologia&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%=
+3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D0kr3mcW=
+Q8_FHA1&trk=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGli=
+mmer&trkEmail=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerG=
+limmer-null-gdb74f~m5ss8p40~z0-null-null&eid=3Dgdb74f-m5ss8p40-z0&otpToken=
+=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGUxYjc4OWNmZDQ0MjkwYWY4YTYxNzljNDA2=
+NmQ0YjVkNWJmMmZlZDNkZmIyNGRjM2M0ZTA3OGFjZWU3OWQ3OTk2OTkxNDY4Nzk3MTYyZjE1NTg=
+5YWM0OWI2MSwxLDE%3D=C2=A0=C2=A0=C2=B7=C2=A0=C2=A0Ajuda: https://www.linkedi=
+n.com/help/linkedin/answer/67?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_emai=
+l_series_follow_newsletter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&midToken=3DA=
+QHxaOsdYMWJVQ&midSig=3D0kr3mcWQ8_FHA1&trk=3Deml-email_series_follow_newslet=
+ter_01-help-0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newslett=
+er_01-help-0-textfooterglimmer-null-gdb74f~m5ss8p40~z0-null-null&eid=3Dgdb7=
+4f-m5ss8p40-z0&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGUxYjc4OWNmZ=
+DQ0MjkwYWY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmIyNGRjM2M0ZTA3OGFjZWU3OWQ3OTk2=
+OTkxNDY4Nzk3MTYyZjE1NTg5YWM0OWI2MSwxLDE%3D
+
+=C2=A9 2025 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_23042675_110966139.1736636144460
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+/head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-canvas w-fu=
+ll m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; padding: 0p=
+x; padding-top: 8px; font-family: -apple-system, system-ui, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Ox=
+ygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sa=
+ns-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible overflow=
+-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; max-height=
+: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" data-email-p=
+reheader=3D"true">85 Oportunidades em Vagas de Emprego na Contabilizei, inc=
+luindo Secretaria(o)=E2=80=A6</div> <div class=3D"h-0 opacity-0 text-transp=
+arent invisible overflow-hidden w-0 max-h-[0]" style=3D"visibility: hidden;=
+ height: 0px; max-height: 0; width: 0px; overflow: hidden; opacity: 0; mso-=
+hide: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+ =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table role=3D"presentation" valign=
+=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"512" ali=
+gn=3D"center" class=3D"mercado-container w-[512px] max-w-[512px] mx-auto my=
+-0 p-0 " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-left: auto; margin-=
+right: auto; margin-top: 0px; margin-bottom: 0px; width: 512px; max-width: =
+512px; padding: 0px;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"bg-color-background-contai=
+ner " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff;"> =
+<tbody> <tr> <td class=3D"text-center p-3" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt; padding: 24px; text-align: center;"> <table role=3D"presentation" v=
+align=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100=
+%" class=3D"min-w-full" style=3D"-webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: =
+100%;"> <tbody> <tr> <td align=3D"left" valign=3D"middle" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/feed/?lip=
+i=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bou%2B0xMJXT=
+AO1LGJ089E0lw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0kr3mcWQ8_FH=
+A1&amp;trk=3Deml-email_series_follow_newsletter_01-header-0-home_glimmer_dy=
+namic_badging_high_dpi&amp;trkEmail=3Deml-email_series_follow_newsletter_01=
+-header-0-home_glimmer_dynamic_badging_high_dpi-null-gdb74f~m5ss8p40~z0-nul=
+l-null&amp;eid=3Dgdb74f-m5ss8p40-z0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1=
+MjQwNGVkNDUxOGUxYjc4OWNmZDQ0MjkwYWY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmIyNGR=
+jM2M0ZTA3OGFjZWU3OWQ3OTk2OTkxNDY4Nzk3MTYyZjE1NTg5YWM0OWI2MSwxLDE%3D" target=
+=3D"_blank" class=3D"w-[84px]" style=3D"color: #0a66c2; cursor: pointer; di=
+splay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; width: 84px;"> <img class=3D"h-[37px] w-[101px=
+]" alt=3D"LinkedIn" src=3D"https://www.linkedin.com/comm/dms/logo/v2?badgeT=
+heme=3Dmercado&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsl=
+etter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&amp;midSig=3D0kr3mcWQ8_FHA1&amp;m=
+idToken=3DAQHxaOsdYMWJVQ&amp;trkEmail=3Deml-email_series_follow_newsletter_=
+01-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2-null-gdb74f%7Em5ss8p40%7=
+Ez0-null-null&amp;trk=3Deml-email_series_follow_newsletter_01-null-0-comms%=
+7Ebadging%7Edynamic%7Eglimmer%7Ev2&amp;_sig=3D0tvS9oaJk_FHA1" data-test-hea=
+der-dynamic-badging-img-high-dpi style=3D"outline: none; text-decoration: n=
+one; -ms-interpolation-mode: bicubic; height: 37px; width: 101px;" width=3D=
+"101" height=3D"37"> </a> </td> <td valign=3D"middle" align=3D"right" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D=
+"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" data-=
+test-header-profile style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> =
+<td align=3D"right" valign=3D"middle" class=3D"w-[32px]" style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; width: 32px;" width=3D"32"> <a href=3D"https://br.lin=
+kedin.com/comm/in/fernando-ferreira-brito?lipi=3Durn%3Ali%3Apage%3Aemail_em=
+ail_series_follow_newsletter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&amp;midTok=
+en=3DAQHxaOsdYMWJVQ&amp;midSig=3D0kr3mcWQ8_FHA1&amp;trk=3Deml-email_series_=
+follow_newsletter_01-header-0-profile_glimmer&amp;trkEmail=3Deml-email_seri=
+es_follow_newsletter_01-header-0-profile_glimmer-null-gdb74f~m5ss8p40~z0-nu=
+ll-null&amp;eid=3Dgdb74f-m5ss8p40-z0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I=
+1MjQwNGVkNDUxOGUxYjc4OWNmZDQ0MjkwYWY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmIyNG=
+RjM2M0ZTA3OGFjZWU3OWQ3OTk2OTkxNDY4Nzk3MTYyZjE1NTg5YWM0OWI2MSwxLDE%3D" targe=
+t=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-bloc=
+k; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%;"> <img alt=3D"Luiz Fernando Brito Ferreira" src=3D"https://media=
+.licdn.com/dms/image/v2/D4E03AQHtWMkj43o1lA/profile-displayphoto-shrink_200=
+_200/profile-displayphoto-shrink_200_200/0/1724191556445?e=3D2147483647&amp=
+;v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB92xXoc9r_1IG6EIUIKB4" class=3D"rou=
+nded-[100%] w-[32px] h-[32px]" style=3D"outline: none; text-decoration: non=
+e; -ms-interpolation-mode: bicubic; height: 32px; width: 32px; border-radiu=
+s: 100%;" width=3D"32" height=3D"32"> </a> </td> </tr> </tbody> </table> </=
+td> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"px-0 pb-3" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; padding-left: 0px; padding-right: 0px; p=
+adding-bottom: 24px;"> <div> <table role=3D"presentation" valign=3D"top" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td data-test-id=3D"newsletter-en=
+tity-lockup" class=3D"px-3 pt-1" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; pa=
+dding-left: 24px; padding-right: 24px; padding-top: 8px;"> <table role=3D"p=
+resentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" width=3D"100%" class=3D"font-sans" style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Ro=
+boto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantare=
+ll, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', =
+'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;"> <tbody>=
+ <tr> <td valign=3D"top" class=3D"pr-1 w-6" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt; width: 48px; padding-right: 8px;" width=3D"48"> <a href=3D"https:/=
+/www.linkedin.com/comm/newsletters/7202681997633196033?lipi=3Durn%3Ali%3Apa=
+ge%3Aemail_email_series_follow_newsletter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%=
+3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0kr3mcWQ8_FHA1&amp;trk=3Deml-=
+email_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_ent=
+ity_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_ent=
+ity_lockup-0-newsletter_entity_cta-null-gdb74f~m5ss8p40~z0-null-null&amp;ei=
+d=3Dgdb74f-m5ss8p40-z0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxO=
+GUxYjc4OWNmZDQ0MjkwYWY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmIyNGRjM2M0ZTA3OGFj=
+ZWU3OWQ3OTk2OTkxNDY4Nzk3MTYyZjE1NTg5YWM0OWI2MSwxLDE%3D" target=3D"_blank" s=
+tyle=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decora=
+tion: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <=
+img class=3D"inline-block relative bg-color-entity-ghost-background w-6 h-6=
+ rounded-md" src=3D"https://media.licdn.com/dms/image/v2/D4D12AQEvYk0-bFZqj=
+A/series-logo_image-shrink_100_100/series-logo_image-shrink_100_100/0/17211=
+73757342?e=3D2147483647&amp;v=3Dbeta&amp;t=3DZfs8TCasQiCWc6FDIg9vLAPekNY5_C=
+gMU4qcOnsJmM4" alt=3D"Abrir Emprego &amp;amp; Tecnologia" style=3D"outline:=
+ none; text-decoration: none; -ms-interpolation-mode: bicubic; position: re=
+lative; display: inline-block; height: 48px; width: 48px; border-radius: 8p=
+x; background-color: #eae6df;" width=3D"48" height=3D"48"> </a> </td> <td v=
+align=3D"top" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"pres=
+entation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" w=
+idth=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com=
+/comm/newsletters/7202681997633196033?lipi=3Durn%3Ali%3Apage%3Aemail_email_=
+series_follow_newsletter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&amp;midToken=
+=3DAQHxaOsdYMWJVQ&amp;midSig=3D0kr3mcWQ8_FHA1&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta&amp;trk=
+Email=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-0-ne=
+wsletter_entity_cta-null-gdb74f~m5ss8p40~z0-null-null&amp;eid=3Dgdb74f-m5ss=
+8p40-z0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGUxYjc4OWNmZDQ0=
+MjkwYWY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmIyNGRjM2M0ZTA3OGFjZWU3OWQ3OTk2OTk=
+xNDY4Nzk3MTYyZjE1NTg5YWM0OWI2MSwxLDE%3D" target=3D"_blank" class=3D"no-unde=
+rline" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; tex=
+t-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; text-decoration-line: none;"> <div class=3D"pb-0.5" style=3D"padding-b=
+ottom: 4px;"> <span class=3D"text-md font-bold text-color-text break-words =
+leading-regular" style=3D"overflow-wrap: break-word; font-size: 16px; font-=
+weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Emprego &amp; =
+Tecnologia </span> </div> </a> </td> </tr> <tr> <td style=3D"-webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/newsletters/720=
+2681997633196033?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslet=
+ter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;m=
+idSig=3D0kr3mcWQ8_FHA1&amp;trk=3Deml-email_series_follow_newsletter_01-news=
+letter_entity_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-email_serie=
+s_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta-nul=
+l-gdb74f~m5ss8p40~z0-null-null&amp;eid=3Dgdb74f-m5ss8p40-z0&amp;otpToken=3D=
+MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGUxYjc4OWNmZDQ0MjkwYWY4YTYxNzljNDA2NmQ=
+0YjVkNWJmMmZlZDNkZmIyNGRjM2M0ZTA3OGFjZWU3OWQ3OTk2OTkxNDY4Nzk3MTYyZjE1NTg5YW=
+M0OWI2MSwxLDE%3D" target=3D"_blank" class=3D"no-underline" style=3D"color: =
+#0a66c2; cursor: pointer; display: inline-block; text-decoration: none; -we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decoration-li=
+ne: none;"> <span class=3D"text-xs text-color-text-low-emphasis leading-reg=
+ular" style=3D"font-size: 12px; line-height: 1.25; color: rgba(0, 0, 0, 0.6=
+);"> Not=C3=ADcias sobre emprego remoto, mercado de trabalho, empregabilida=
+de e afins </span> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> =
+</table> </td> </tr> <tr data-test-id=3D"newsletter-content-preview"> <td c=
+lass=3D"px-3 pt-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 24=
+px; padding-right: 24px; padding-top: 16px;"> <table role=3D"presentation" =
+valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"10=
+0%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"ove=
+rflow-hidden " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; overflow: hidden;"> =
+<table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> =
+<tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https=
+://www.linkedin.com/comm/pulse/vagas-de-emprego-na-contabilizei-85-oportuni=
+dades-vagas-remotas-net-ympef?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_f=
+ollow_newsletter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&amp;midToken=3DAQHxaOs=
+dYMWJVQ&amp;midSig=3D0kr3mcWQ8_FHA1&amp;trk=3Deml-email_series_follow_newsl=
+etter_01-newsletter_content_preview-0-headline_&amp;trkEmail=3Deml-email_se=
+ries_follow_newsletter_01-newsletter_content_preview-0-headline_-null-gdb74=
+f~m5ss8p40~z0-null-null&amp;eid=3Dgdb74f-m5ss8p40-z0&amp;otpToken=3DMWIwZDE=
+3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGUxYjc4OWNmZDQ0MjkwYWY4YTYxNzljNDA2NmQ0YjVkNW=
+JmMmZlZDNkZmIyNGRjM2M0ZTA3OGFjZWU3OWQ3OTk2OTkxNDY4Nzk3MTYyZjE1NTg5YWM0OWI2M=
+SwxLDE%3D" target=3D"_blank" class=3D"w-full" style=3D"color: #0a66c2; curs=
+or: pointer; display: inline-block; text-decoration: none; -webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; width: 100%;"> <img class=3D"bl=
+ock w-full aspect-[744/400] object-cover overflow-hidden" data-test-id=3D"n=
+ewsletter-content-preview__cover-image" alt=3D"Imagem de capa da newsletter=
+" src=3D"https://media.licdn.com/dms/image/v2/D4D12AQH6jM-fh4E5bw/article-c=
+over_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1736620965=
+971?e=3D2147483647&amp;v=3Dbeta&amp;t=3DSSZ2bhKprQWIoYHfUWgds2eE1ynz__k68Cc=
+-QfGtvCw" style=3D"outline: none; text-decoration: none; -ms-interpolation-=
+mode: bicubic; display: block; aspect-ratio: 744/400; width: 100%; overflow=
+: hidden; object-fit: cover;"> </a> </td> </tr> <tr> <td class=3D"py-2" sty=
+le=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 16px; padding-bottom: 16p=
+x;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=
+=3D"https://www.linkedin.com/comm/pulse/vagas-de-emprego-na-contabilizei-85=
+-oportunidades-vagas-remotas-net-ympef?lipi=3Durn%3Ali%3Apage%3Aemail_email=
+_series_follow_newsletter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&amp;midToken=
+=3DAQHxaOsdYMWJVQ&amp;midSig=3D0kr3mcWQ8_FHA1&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-newsletter_content_preview-0-title_&amp;trkEmail=3Deml-e=
+mail_series_follow_newsletter_01-newsletter_content_preview-0-title_-null-g=
+db74f~m5ss8p40~z0-null-null&amp;eid=3Dgdb74f-m5ss8p40-z0&amp;otpToken=3DMWI=
+wZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGUxYjc4OWNmZDQ0MjkwYWY4YTYxNzljNDA2NmQ0Yj=
+VkNWJmMmZlZDNkZmIyNGRjM2M0ZTA3OGFjZWU3OWQ3OTk2OTkxNDY4Nzk3MTYyZjE1NTg5YWM0O=
+WI2MSwxLDE%3D" target=3D"_blank" class=3D"no-underline font-medium text-sm =
+m-0 text-system-gray-90" style=3D"cursor: pointer; display: inline-block; t=
+ext-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; margin: 0px; font-size: 14px; font-weight: 500; color: #282828; text=
+-decoration-line: none;"> <h2 class=3D"m-0 text-display-sm leading-regular =
+text-color-text font-bold font-sans" style=3D"margin: 0px; font-family: -ap=
+ple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica N=
+eue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', =
+'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',=
+ 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 24px; font-weigh=
+t: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Vagas de Emprego na=
+ Contabilizei: 85 Oportunidades! </h2> </a> </td> </tr> <tr> <td style=3D"-=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D"top"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" data-test-=
+id=3D"newsletter-author-lockup-redesign" class=3D"mt-1 mb-2" style=3D"-webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt; margin-bottom: 16px; margin-top: 8px;"> <tbody> <=
+tr> <td valign=3D"middle" align=3D"left" class=3D"w-3" style=3D"-webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt; width: 24px;" width=3D"24"> <a href=3D"https://www.link=
+edin.com/comm/company/vagas-remotas-net?lipi=3Durn%3Ali%3Apage%3Aemail_emai=
+l_series_follow_newsletter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&amp;midToken=
+=3DAQHxaOsdYMWJVQ&amp;midSig=3D0kr3mcWQ8_FHA1&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-newsletter_content_preview-0-author_&amp;trkEmail=3Deml-=
+email_series_follow_newsletter_01-newsletter_content_preview-0-author_-null=
+-gdb74f~m5ss8p40~z0-null-null&amp;eid=3Dgdb74f-m5ss8p40-z0&amp;otpToken=3DM=
+WIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGUxYjc4OWNmZDQ0MjkwYWY4YTYxNzljNDA2NmQ0=
+YjVkNWJmMmZlZDNkZmIyNGRjM2M0ZTA3OGFjZWU3OWQ3OTk2OTkxNDY4Nzk3MTYyZjE1NTg5YWM=
+0OWI2MSwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer=
+; display: inline-block; text-decoration: none; -webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%;"> <img class=3D"inline-block relative bg-c=
+olor-entity-ghost-background w-4 h-4 align-middle" src=3D"https://media.lic=
+dn.com/dms/image/v2/D4D0BAQF-pKv8RCGa_w/company-logo_100_100/company-logo_1=
+00_100/0/1686408381536?e=3D2147483647&amp;v=3Dbeta&amp;t=3DsmrhYnygldxlXBqs=
+VTU8Y6hT5pJlox0U9AsTNbNB-Ks" alt=3D"Imagem do autor" style=3D"outline: none=
+; text-decoration: none; -ms-interpolation-mode: bicubic; position: relativ=
+e; display: inline-block; height: 32px; width: 32px; background-color: #eae=
+6df; vertical-align: middle;" width=3D"32" height=3D"32"> </a> </td> <td st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com=
+/comm/company/vagas-remotas-net?lipi=3Durn%3Ali%3Apage%3Aemail_email_series=
+_follow_newsletter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&amp;midToken=3DAQHxa=
+OsdYMWJVQ&amp;midSig=3D0kr3mcWQ8_FHA1&amp;trk=3Deml-email_series_follow_new=
+sletter_01-newsletter_content_preview-0-author_&amp;trkEmail=3Deml-email_se=
+ries_follow_newsletter_01-newsletter_content_preview-0-author_-null-gdb74f~=
+m5ss8p40~z0-null-null&amp;eid=3Dgdb74f-m5ss8p40-z0&amp;otpToken=3DMWIwZDE3Z=
+TgxMzI4Y2JjM2I1MjQwNGVkNDUxOGUxYjc4OWNmZDQ0MjkwYWY4YTYxNzljNDA2NmQ0YjVkNWJm=
+MmZlZDNkZmIyNGRjM2M0ZTA3OGFjZWU3OWQ3OTk2OTkxNDY4Nzk3MTYyZjE1NTg5YWM0OWI2MSw=
+xLDE%3D" target=3D"_blank" class=3D"no-underline ml-1" style=3D"color: #0a6=
+6c2; cursor: pointer; display: inline-block; text-decoration: none; -webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin-left: 8px; text=
+-decoration-line: none;"> <span class=3D"font-sans font-bold text-sm mb-3 t=
+ext-color-text-low-emphasis leading-regular" style=3D"margin-bottom: 24px; =
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Robo=
+to, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell=
+, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'S=
+egoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: =
+14px; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.6);"> Vag=
+as Remotas </span> </a> </td> </tr> </tbody> </table> </td> </tr> <tr> <td =
+class=3D"pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px;=
+"> <div class=3D"p-3 bg-color-surface-tint rounded-md font-sans" data-test-=
+id=3D"newsletter-cta-banner" style=3D"border-radius: 8px; background-color:=
+ #f5f7f9; padding: 24px; font-family: -apple-system, system-ui, BlinkMacSys=
+temFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen,=
+ 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emo=
+ji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial=
+, sans-serif;"> <div class=3D"mb-1.5" style=3D"margin-bottom: 12px;"> <span=
+ class=3D"text-md leading-regular font-bold text-color-text" style=3D"font-=
+size: 16px; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);=
+"> Leia este artigo no LinkedIn para participar da conversa </span> </div> =
+<table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0" width=3D"100%" class=3D"email-button " data-test-id=3D"em=
+ail-button" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td vali=
+gn=3D"middle" align=3D"left" style=3D"-webkit-text-size-adjust: 100%; -ms-t=
+ext-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a h=
+ref=3D"https://www.linkedin.com/comm/pulse/vagas-de-emprego-na-contabilizei=
+-85-oportunidades-vagas-remotas-net-ympef?lipi=3Durn%3Ali%3Apage%3Aemail_em=
+ail_series_follow_newsletter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&amp;midTok=
+en=3DAQHxaOsdYMWJVQ&amp;midSig=3D0kr3mcWQ8_FHA1&amp;trk=3Deml-email_series_=
+follow_newsletter_01-newsletter_content_preview-0-read_more_banner_cta_&amp=
+;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_previe=
+w-0-read_more_banner_cta_-null-gdb74f~m5ss8p40~z0-null-null&amp;eid=3Dgdb74=
+f-m5ss8p40-z0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGUxYjc4OW=
+NmZDQ0MjkwYWY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmIyNGRjM2M0ZTA3OGFjZWU3OWQ3O=
+Tk2OTkxNDY4Nzk3MTYyZjE1NTg5YWM0OWI2MSwxLDE%3D" target=3D"_blank" aria-label=
+=3D"Abrir este artigo no LinkedIn" class=3D"align-top no-underline " style=
+=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decoration=
+: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; vertica=
+l-align: top; text-decoration-line: none;"> <table role=3D"presentation" va=
+lign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"auto=
+" class=3D"border-separate " style=3D"-webkit-text-size-adjust: 100%; -ms-t=
+ext-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border=
+-collapse: separate;"> <tbody> <tr> <td class=3D"btn-sm btn-primary border-=
+color-brand button-link leading-regular !min-h-[auto] !shadow-none border-1=
+ border-solid" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: min-content;=
+ border-radius: 24px; padding-top: 7px; padding-bottom: 7px; padding-left: =
+16px; padding-right: 16px; text-align: center; font-size: 14px; font-weight=
+: 600; cursor: pointer; text-decoration-line: none; background-color: #0a66=
+c2; color: #ffffff; border-width: 1px; border-style: solid; border-color: #=
+0a66c2; line-height: 1.25; min-height: auto !important; box-shadow: 0 0 #00=
+00, 0 0 #0000, 0 0 #0000 !important;"> <a href=3D"https://www.linkedin.com/=
+comm/pulse/vagas-de-emprego-na-contabilizei-85-oportunidades-vagas-remotas-=
+net-ympef?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%=
+3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=
+=3D0kr3mcWQ8_FHA1&amp;trk=3Deml-email_series_follow_newsletter_01-newslette=
+r_content_preview-0-read_more_banner_cta_&amp;trkEmail=3Deml-email_series_f=
+ollow_newsletter_01-newsletter_content_preview-0-read_more_banner_cta_-null=
+-gdb74f~m5ss8p40~z0-null-null&amp;eid=3Dgdb74f-m5ss8p40-z0&amp;otpToken=3DM=
+WIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGUxYjc4OWNmZDQ0MjkwYWY4YTYxNzljNDA2NmQ0=
+YjVkNWJmMmZlZDNkZmIyNGRjM2M0ZTA3OGFjZWU3OWQ3OTk2OTkxNDY4Nzk3MTYyZjE1NTg5YWM=
+0OWI2MSwxLDE%3D" target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" cla=
+ss=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; display: inli=
+ne-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%; text-decoration-line: none;"> <span class=3D"no-underline=
+ text-white" style=3D"color: #ffffff; text-decoration-line: none;"> Ler no =
+LinkedIn </span> </a> </td> </tr> </tbody> </table> </a> </td> </tr> </tbod=
+y> </table> </div> </td> </tr> <tr data-test-id=3D"newsletter-content-previ=
+ew--content"> <td class=3D"series-article-body" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Se=
+goe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen San=
+s', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif=
+; font-size: 16px; line-height: 1.5; color: rgba(0, 0, 0, 0.9);"> <h3 style=
+=3D"margin: 0; margin-left: 0px; margin-right: 0px; margin-top: 8px; margin=
+-bottom: 4px; font-size: 16px; font-weight: 600; line-height: 1.25; letter-=
+spacing: -0.02em; color: rgba(0, 0, 0, 0.9);">85 Oportunidades em Vagas de =
+Emprego na Contabilizei, incluindo Secretaria(o) Executiva(o) e Assistente =
+de Ativa=C3=A7=C3=A3o</h3><p style=3D"margin: 0; font-weight: 400; margin-t=
+op: 0.8em; font-size: 1em; line-height: 1.5;">A Contabilizei =C3=A9 o maior=
+ escrit=C3=B3rio de contabilidade do Brasil, atuando desde 2013 e atendendo=
+ mais de 50 mil clientes em diversas cidades. Com sede em Curitiba e S=C3=
+=A3o Paulo, a empresa se destaca na abertura de empresas e na gest=C3=A3o d=
+e CNPJs. Com uma equipe de mais de 1.200 especialistas, incluindo 80 contad=
+ores certificados, a Contabilizei combina tecnologia e expertise cont=C3=A1=
+bil para oferecer solu=C3=A7=C3=B5es eficientes.</p><p style=3D"margin: 0; =
+font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">A e=
+mpresa j=C3=A1 recebeu investimentos significativos de fundos internacionai=
+s, como o Banco Mundial e o SoftBank Group, o que permite um cont=C3=ADnuo =
+desenvolvimento de suas plataformas digitais. A Contabilizei =C3=A9 reconhe=
+cida por sua inova=C3=A7=C3=A3o no mercado cont=C3=A1bil, oferecendo servi=
+=C3=A7os online que simplificam a vida dos empreendedores. Al=C3=A9m disso,=
+ a empresa se compromete com a sustentabilidade e a responsabilidade social=
+, buscando sempre melhorar a experi=C3=AAncia do cliente.</p><p style=3D"ma=
+rgin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: =
+1.5;">Com um foco em automatizar processos cont=C3=A1beis, a Contabilizei p=
+roporciona seguran=C3=A7a e praticidade aos seus usu=C3=A1rios, permitindo =
+que se concentrem no crescimento de seus neg=C3=B3cios.</p><h3 style=3D"mar=
+gin: 0; margin-left: 0px; margin-right: 0px; margin-top: 8px; margin-bottom=
+: 4px; font-size: 16px; font-weight: 600; line-height: 1.25; letter-spacing=
+: -0.02em; color: rgba(0, 0, 0, 0.9);">Vagas de Emprego na Contabilizei</h3=
+><h3 style=3D"margin: 0; margin-left: 0px; margin-right: 0px; margin-top: 8=
+px; margin-bottom: 4px; font-size: 16px; font-weight: 600; line-height: 1.2=
+5; letter-spacing: -0.02em; color: rgba(0, 0, 0, 0.9);">Vagas Remotas</h3><=
+p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; =
+line-height: 1.5;">A Contabilizei est=C3=A1 com uma ampla gama de vagas rem=
+otas dispon=C3=ADveis, oferecendo oportunidades efetivas em diversas =C3=A1=
+reas. Entre as posi=C3=A7=C3=B5es em destaque, encontram-se os Analistas Co=
+nt=C3=A1beis e Fiscais, tanto nas categorias J=C3=BAnior quanto Pleno, que =
+atuar=C3=A3o com foco em atendimento ao c...</p> </td> </tr> <tr> <td class=
+=3D"pt-2 no-underline" style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top:=
+ 16px; text-decoration-line: none;"> <table role=3D"presentation" valign=3D=
+"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=
+=3D"email-button series-content-preview__bottom-cta" data-test-id=3D"email-=
+button" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=
+=3D"middle" align=3D"left" style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a hre=
+f=3D"https://www.linkedin.com/comm/pulse/vagas-de-emprego-na-contabilizei-8=
+5-oportunidades-vagas-remotas-net-ympef?lipi=3Durn%3Ali%3Apage%3Aemail_emai=
+l_series_follow_newsletter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&amp;midToken=
+=3DAQHxaOsdYMWJVQ&amp;midSig=3D0kr3mcWQ8_FHA1&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-newsletter_content_preview-0-readmore_button_&amp;trkEma=
+il=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-rea=
+dmore_button_-null-gdb74f~m5ss8p40~z0-null-null&amp;eid=3Dgdb74f-m5ss8p40-z=
+0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGUxYjc4OWNmZDQ0MjkwYW=
+Y4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmIyNGRjM2M0ZTA3OGFjZWU3OWQ3OTk2OTkxNDY4N=
+zk3MTYyZjE1NTg5YWM0OWI2MSwxLDE%3D" target=3D"_blank" aria-label=3D"Abrir Em=
+prego &amp;amp; Tecnologia no LinkedIn" class=3D"align-top no-underline " s=
+tyle=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decora=
+tion: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; ver=
+tical-align: top; text-decoration-line: none; width: 100%;"> <table role=3D=
+"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" width=3D"100%" class=3D"border-separate " style=3D"-webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; border-collapse: separate; width: 100%;"> <tbody> <tr> <td class=
+=3D"btn-md btn-secondary-emphasis border-color-brand button-link leading-re=
+gular !min-h-[auto] !shadow-none border-1 border-solid font-sans" data-test=
+-id=3D"newsletter-content-preview-redesign-bottom-cta" style=3D"-webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt; height: min-content; border-radius: 24px; padding-top: =
+12px; padding-bottom: 12px; padding-left: 24px; padding-right: 24px; text-a=
+lign: center; font-size: 16px; font-weight: 600; cursor: pointer; text-deco=
+ration-line: none; background-color: rgba(0, 0, 0, 0); color: #0a66c2; bord=
+er-width: 1px; border-style: solid; border-color: #0a66c2; font-family: -ap=
+ple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica N=
+eue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', =
+'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',=
+ 'Lucida Grande', Helvetica, Arial, sans-serif; line-height: 1.25; min-heig=
+ht: auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important=
+;"> <a href=3D"https://www.linkedin.com/comm/pulse/vagas-de-emprego-na-cont=
+abilizei-85-oportunidades-vagas-remotas-net-ympef?lipi=3Durn%3Ali%3Apage%3A=
+email_email_series_follow_newsletter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&am=
+p;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0kr3mcWQ8_FHA1&amp;trk=3Deml-email=
+_series_follow_newsletter_01-newsletter_content_preview-0-readmore_button_&=
+amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_pre=
+view-0-readmore_button_-null-gdb74f~m5ss8p40~z0-null-null&amp;eid=3Dgdb74f-=
+m5ss8p40-z0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGUxYjc4OWNm=
+ZDQ0MjkwYWY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmIyNGRjM2M0ZTA3OGFjZWU3OWQ3OTk=
+2OTkxNDY4Nzk3MTYyZjE1NTg5YWM0OWI2MSwxLDE%3D" target=3D"_blank" tabindex=3D"=
+-1" aria-hidden=3D"true" class=3D"no-underline" style=3D"color: #0a66c2; cu=
+rsor: pointer; display: inline-block; text-decoration: none; -webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; text-decoration-line: none; w=
+idth: 100%;"> <span class=3D"no-underline text-color-brand" style=3D"color:=
+ #0a66c2; text-decoration-line: none;"> Continue lendo no LinkedIn </span> =
+</a> </td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </table> </td>=
+ </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody>=
+ </table> </td> </tr> </tbody> </table> </div> </td> </tr> <tr> <td class=
+=3D"bg-color-background-canvas p-3" style=3D"-webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ background-color: #f3f2f0; padding: 24px;"> <table role=3D"presentation" v=
+align=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100=
+%" class=3D"text-xs" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 12p=
+x;"> <tbody> <tr> <td class=3D"pb-1 m-0" data-test-id=3D"email-footer__inte=
+nded" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: =
+8px;"> Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack D=
+eveloper | Java | JS | React.js | Node.js | Python) </td> </tr> <tr> <td cl=
+ass=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; paddi=
+ng-bottom: 8px;"> <a href=3D"https://www.linkedin.com/help/linkedin/answer/=
+4788?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsl=
+etter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp=
+;midSig=3D0kr3mcWQ8_FHA1&amp;trk=3Deml-email_series_follow_newsletter_01-Se=
+curityHelp-0-footerglimmer&amp;trkEmail=3Deml-email_series_follow_newslette=
+r_01-SecurityHelp-0-footerglimmer-null-gdb74f~m5ss8p40~z0-null-null&amp;eid=
+=3Dgdb74f-m5ss8p40-z0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOG=
+UxYjc4OWNmZDQ0MjkwYWY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmIyNGRjM2M0ZTA3OGFjZ=
+WU3OWQ3OTk2OTkxNDY4Nzk3MTYyZjE1NTg5YWM0OWI2MSwxLDE%3D" target=3D"_blank" cl=
+ass=3D"text-inherit underline" style=3D"cursor: pointer; display: inline-bl=
+ock; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; color: inherit; text-decoration-line: underline;">Saiba por qu=
+e inclu=C3=ADmos isso.</a> </td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;">Voc=C3=
+=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn. Outra=
+s pessoas podem ver que voc=C3=AA =C3=A9 assinante.</td> </tr> <tr> <td cla=
+ss=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; paddin=
+g-bottom: 8px;"> <a href=3D"https://www.linkedin.com/comm/series-notificati=
+ons/?action=3Dunsubscribe&amp;memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e=
+-Y9whjlY&amp;newsletterId=3D7202681997633196033&amp;newsletterTitle=3DEmpre=
+go%20&amp;%20Tecnologia&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_fol=
+low_newsletter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&amp;midToken=3DAQHxaOsdY=
+MWJVQ&amp;midSig=3D0kr3mcWQ8_FHA1&amp;trk=3Deml-email_series_follow_newslet=
+ter_01-unsubscribe-0-footerGlimmer&amp;trkEmail=3Deml-email_series_follow_n=
+ewsletter_01-unsubscribe-0-footerGlimmer-null-gdb74f~m5ss8p40~z0-null-null&=
+amp;eid=3Dgdb74f-m5ss8p40-z0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGV=
+kNDUxOGUxYjc4OWNmZDQ0MjkwYWY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmIyNGRjM2M0ZT=
+A3OGFjZWU3OWQ3OTk2OTkxNDY4Nzk3MTYyZjE1NTg5YWM0OWI2MSwxLDE%3D" target=3D"_bl=
+ank" class=3D"text-inherit underline" style=3D"cursor: pointer; display: in=
+line-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; color: inherit; text-decoration-line: underline;">Cance=
+lar inscri=C3=A7=C3=A3o</a> =C2=A0=C2=A0=C2=B7=C2=A0=C2=A0 <a href=3D"https=
+://www.linkedin.com/help/linkedin/answer/67?lang=3Dpt&amp;lipi=3Durn%3Ali%3=
+Apage%3Aemail_email_series_follow_newsletter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%=
+3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0kr3mcWQ8_FHA1&amp;trk=3De=
+ml-email_series_follow_newsletter_01-help-0-footerglimmer&amp;trkEmail=3Dem=
+l-email_series_follow_newsletter_01-help-0-footerglimmer-null-gdb74f~m5ss8p=
+40~z0-null-null&amp;eid=3Dgdb74f-m5ss8p40-z0&amp;otpToken=3DMWIwZDE3ZTgxMzI=
+4Y2JjM2I1MjQwNGVkNDUxOGUxYjc4OWNmZDQ0MjkwYWY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZD=
+NkZmIyNGRjM2M0ZTA3OGFjZWU3OWQ3OTk2OTkxNDY4Nzk3MTYyZjE1NTg5YWM0OWI2MSwxLDE%3=
+D" target=3D"_blank" class=3D"text-inherit underline" style=3D"cursor: poin=
+ter; display: inline-block; text-decoration: none; -webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; color: inherit; text-decoration-line: u=
+nderline;">Ajuda</a> </td> </tr> <tr> <td class=3D"pb-1" style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; padding-bottom: 8px;"> <a href=3D"https://www.linkedi=
+n.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslet=
+ter_01%3Bou%2B0xMJXTAO1LGJ089E0lw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;m=
+idSig=3D0kr3mcWQ8_FHA1&amp;trk=3Deml-email_series_follow_newsletter_01-foot=
+er-0-logoGlimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-foote=
+r-0-logoGlimmer-null-gdb74f~m5ss8p40~z0-null-null&amp;eid=3Dgdb74f-m5ss8p40=
+-z0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGUxYjc4OWNmZDQ0Mjkw=
+YWY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmIyNGRjM2M0ZTA3OGFjZWU3OWQ3OTk2OTkxNDY=
+4Nzk3MTYyZjE1NTg5YWM0OWI2MSwxLDE%3D" target=3D"_blank" style=3D"color: #0a6=
+6c2; cursor: pointer; display: inline-block; text-decoration: none; -webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img src=3D"https://=
+static.licdn.com/aero-v1/sc/h/9ehe6n39fa07dc5edzv0rla4e" alt=3D"LinkedIn" c=
+lass=3D"block h-[14px] w-[56px] image-rendering-crisp" style=3D"outline: no=
+ne; text-decoration: none; image-rendering: -moz-crisp-edges; image-renderi=
+ng: -o-crisp-edges; image-rendering: -webkit-optimize-contrast; image-rende=
+ring: crisp-edges; -ms-interpolation-mode: nearest-neighbor; display: block=
+; height: 14px; width: 56px;" width=3D"56" height=3D"14"> </a> </td> </tr> =
+<tr> <td data-test-copyright-text style=3D"-webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">=
+ =C2=A9 2025 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place=
+, Dublin 2 - Irlanda. LinkedIn =C3=A9 um nome comercial registrado da Linke=
+dIn Ireland Unlimited Company. <span data-test-trademarks-text> LinkedIn e =
+o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn. </span> </td> <=
+/tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> <=
+/table> <img alt role=3D"presentation" src=3D"https://www.linkedin.com/emim=
+p/ip_WjJSaU56Um1MVzAxYzNNNGNEUXdMWG93OlpXMWhhV3hmYzJWeWFXVnpYMlp2Ykd4dmQxOX=
+VaWGR6YkdWMGRHVnlYekF4OmRYSnVPbXhwT214cGJtdGxaRWx1UVhKMGFXTnNaVG8zTWpnek9UR=
+TJNREF3TlRBek1qRTBNRGd3.gif" style=3D"outline: none; text-decoration: none;=
+ -ms-interpolation-mode: bicubic; width: 1px; height: 1px;" width=3D"1" hei=
+ght=3D"1"> </body> </html>
+------=_Part_23042675_110966139.1736636144460--
+

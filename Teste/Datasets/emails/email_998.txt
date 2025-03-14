@@ -1,0 +1,96 @@
+X-GM-THRID: 1821792031332774199
+X-Gmail-Labels: =?UTF-8?Q?Importante,Lixeira,Aberto,Categoria:_atualiza=C3=A7=C3=B5es?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:7881:b0:29a:824b:9ec3 with SMTP id r1csp6149398yso;
+        Mon, 20 Jan 2025 10:04:30 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IGSaF33o3u/+ELi9Dcbm0TabiyahpYKHHCGQClcFjq0JtmCB/EXZDNqP8QRf6quL38adAWj
+X-Received: by 2002:a05:6102:4b08:b0:4af:c58f:4550 with SMTP id ada2fe7eead31-4b690ba200bmr11697457137.7.1737396270413;
+        Mon, 20 Jan 2025 10:04:30 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1737396270; cv=none;
+        d=google.com; s=arc-20240605;
+        b=dTOGnQ7M3wuNK0JkVd55i3V5Z1671jiYZPz9xibp0mlXAeeSWWg76sPkxBs3ETuaZb
+         elHlLzlIvaLmdp7EewdKDXM4aA0QTT4u5LlIXWLf4OvMevLVSCmw9F7MDwedGxfboWUU
+         1eHlXY/UHlVHP+v5Hwf4iu3KBJBXWa0ss6Yh5a7BQkExycRc5+qEEtr484epo0WrRjGe
+         F6rsG554oLn8LuUgxE6jFIyQLVD5b4B2cUC0S+6DG2XqhuiChDJMpnihFSXIW2uLYQhu
+         D9hQ4fPxMafhHcU1ESuTkGoOphVWjx5oc2YQWZxHTaRo8vg56DSrCmo5OBpEV/f8BXyR
+         g5HA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:message-id:content-transfer-encoding:subject:date:from
+         :mime-version:dkim-signature:dkim-signature;
+        bh=bd5nyt9LqAcoJS2+cYKRD+BVmDCch3U4/JMlfc/CmL8=;
+        fh=/HdUdLVjKbjM7vqKQCg0R7d+Cuu352Lx86DUD6qVhEc=;
+        b=jOIYEVnVtMimqDXH3fnukJMes9bMU0uEXdHcpLKaSbtIWLEMns/6Xr1PJGD2ZGNwRA
+         2bx2i+ty2Fu9H7Z2Sdf1oT9RRL4tfL3CaK6Rp1jzLGwothHdWHpLxQDsrJIJXN32wCei
+         E4nSnHt0LcHP7duwR6nV1g7xemyiXjt95L+iTg1FzTenF1xB+EJXDxItR++S+TB9CDuj
+         ijlLeVI9sQ+GNgs/DWiqBXAsafbUNXyIFm4OAbUE6oiXujFzNx70i2CWIRwwsuWZ7ILz
+         pmjg1jKvgqG6sGhaEM30PWaGC/DQDAWIdxs0n9olXXj/gn5b5wOJv6pIeoOcMWI80OOF
+         cYgg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@omdbapi.com header.s=s1 header.b=XoL8u10s;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=obPgOigD;
+       spf=pass (google.com: domain of bounces+25030585-308e-nandobritoferreira=gmail.com@em9189.omdbapi.com designates 149.72.126.143 as permitted sender) smtp.mailfrom="bounces+25030585-308e-nandobritoferreira=gmail.com@em9189.omdbapi.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=omdbapi.com
+Return-Path: <bounces+25030585-308e-nandobritoferreira=gmail.com@em9189.omdbapi.com>
+Received: from s.wrqvtzvf.outbound-mail.sendgrid.net (s.wrqvtzvf.outbound-mail.sendgrid.net. [149.72.126.143])
+        by mx.google.com with ESMTPS id ada2fe7eead31-4b68a2f9a48si2443221137.289.2025.01.20.10.04.30
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 20 Jan 2025 10:04:30 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+25030585-308e-nandobritoferreira=gmail.com@em9189.omdbapi.com designates 149.72.126.143 as permitted sender) client-ip=149.72.126.143;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@omdbapi.com header.s=s1 header.b=XoL8u10s;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=obPgOigD;
+       spf=pass (google.com: domain of bounces+25030585-308e-nandobritoferreira=gmail.com@em9189.omdbapi.com designates 149.72.126.143 as permitted sender) smtp.mailfrom="bounces+25030585-308e-nandobritoferreira=gmail.com@em9189.omdbapi.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=omdbapi.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=omdbapi.com;
+	h=mime-version:from:subject:content-type:content-transfer-encoding:
+	x-feedback-id:to:cc:content-type:from:subject:to;
+	s=s1; bh=bd5nyt9LqAcoJS2+cYKRD+BVmDCch3U4/JMlfc/CmL8=;
+	b=XoL8u10sPBJjpHy82aPQC4NA63FlY4kGJnHyUdvLy32nhwTxyepi1oAKBQMTH8z77g0o
+	y+I0N6XLRdCxhfek/zm/EfM+E3iccWOrehAYAumfDFj15G0UH+y5AkTpxzoSto3RfcSqGj
+	Qh6QBk/7qXHyfsC7+/YKsJlMfRvng3ko5GONRpfJX7GVLTS1b+aT0arNMLEqw0xGJzGpRh
+	134YsVPYR2dbHzU+0zNoKiUKpd/IRHJ/bttZzj8RKEUO7IYVqTR8ZalPcRqr8bBFfzZsIq
+	IPtj9+z6WQY+zoDDG1CVqyGs4fkJ2kZRUddvCeNKnAsT7x1Td7GFEU3mEHlkfrGw==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=mime-version:from:subject:content-type:content-transfer-encoding:
+	x-feedback-id:to:cc:content-type:from:subject:to;
+	s=smtpapi; bh=bd5nyt9LqAcoJS2+cYKRD+BVmDCch3U4/JMlfc/CmL8=;
+	b=obPgOigDHSoJQGI959KM7tCJ6tsfKy+GUT7zTS0nzpX1EIDfW6a+eD9+F7XmpHUJblBj
+	+MPztMY8xYKbbtRMcHrSAsxjFF/raTqJCQFJwPRyZrWupi5CusYojizlu+Kduwm1tM66Gq
+	+mq4ga2QwavKRa/7JQhZMlRtaRgHyg5XY=
+Received: by recvd-5f9ffdf494-vzpds with SMTP id recvd-5f9ffdf494-vzpds-1-678E902D-B
+	2025-01-20 18:04:29.67293693 +0000 UTC m=+5777156.787485999
+Received: from omdb2 (unknown)
+	by geopod-ismtpd-6 (SG) with ESMTP
+	id 1IwtjRwzQZSBaUCCHsQtqQ
+	for <nandobritoferreira@gmail.com>;
+	Mon, 20 Jan 2025 18:04:29.537 +0000 (UTC)
+MIME-Version: 1.0
+From: The OMDb API <donotreply@omdbapi.com>
+Date: Mon, 20 Jan 2025 18:04:29 +0000 (UTC)
+Subject: API Key
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <1IwtjRwzQZSBaUCCHsQtqQ@geopod-ismtpd-6>
+X-Feedback-ID: 25030585:SG
+X-SG-EID: 
+ =?us-ascii?Q?u001=2EjHAkfVaDkSXskJj1BbNR4OlWVdodXodnl5XReY13+8rYpai3ZjokU3NbU?=
+ =?us-ascii?Q?bx7gj9b7mIxGtnUuMp6F6sWSsR0PekS7knSTM66?=
+ =?us-ascii?Q?cFoIZJf8N3O4uRIMc05RtmQ0N4w=2FCH3CMclBS63?=
+ =?us-ascii?Q?ZOsj+ybpgD0wdfttHPzXpwsQ5qboHyWOfbQxEzW?=
+ =?us-ascii?Q?0Mz70fpdyi3YCkVtHOmf53cKk7OeKk+M=2FzM+HTK?=
+ =?us-ascii?Q?QbOcT41f3pjL2laRFo7hK72cnYZiZmywzlP+YPe?= =?us-ascii?Q?smUj?=
+To: nandobritoferreira@gmail.com
+X-Entity-ID: u001.Q8Yi7Ng3Z0uMmoFIBiEbhw==
+
+Here is your key: 58c1d0b7
+
+Please append it to all of your API requests,
+
+OMDb API: http://www.omdbapi.com/?i=3Dtt3896198&apikey=3D58c1d0b7
+
+Click the following URL to activate your key: http://www.omdbapi.com/apikey=
+.aspx?VERIFYKEY=3Dd218b99f-997d-4710-b7f6-d03e749fd010
+If you did not make this request, please disregard this email.
+

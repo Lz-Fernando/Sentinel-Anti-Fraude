@@ -1,0 +1,3000 @@
+X-GM-THRID: 1818186512126774744
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:9ea1:b0:29a:824b:9ec3 with SMTP id fi33csp3285193ysc;
+        Wed, 11 Dec 2024 14:56:19 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IFogy24j0PXuekwzSCeuTLczeG+nGf9lkrUu0ZtEuwks+2dNlgwTqSzlUDL16I72EWvKi6O
+X-Received: by 2002:a17:902:d4cb:b0:215:9bc2:42ec with SMTP id d9443c01a7336-2177869885emr75958375ad.47.1733957779122;
+        Wed, 11 Dec 2024 14:56:19 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1733957779; cv=none;
+        d=google.com; s=arc-20240605;
+        b=OUaOsTCSeYNIjXWSq8ugtv4OrKul966Xu8nGgyZIMGx4gjPTHOnneTB996ocYUmqi/
+         CHjqdrP+l5qEIDqRMw1tCdX5JNM5C3M0U662lg7l06c5A23ygXr/CpWr5UfnC7/ltMLY
+         gNyvFWvIXqKixSOLTxIx54wdyEnXaH0L70D6PWR4+6a4hq4F28oBPArf7pfNu+X0usgd
+         nAMKXwc9jw3KIwnFwi+iQwhOKn+/absiL805aYyGlQcfdJJx3jUSOseNLmhPLbJF4MaS
+         r46NHmzEkZ5edaQZQro1eV7hMqiz7w/SUjCVz1atu4lrRfLsPuG2IRP/L6pGJJ+3epuY
+         Dl/A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=PdrgbM3oCi8nxgEhwVvmfM6qOAk0ZCvspl+cM60wx2w=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=AwYcpFoA0X5QaMnICEpLBQ3FPs2HDrj1EnSacSjf8AwXpCJPna2BHRAqDvwUw7IxDQ
+         buZOqZ4qsMI90lxj/c7KvRshmLVuBv/9r8i0QuAqCIeL6O6w0gGYCd+Q03M2YVg+s8ub
+         WEw2vqb0oQAI4c7nrsysyIH2oTy5xPffj1XtUW/Oq3Au9BFwqLb1u4fVtBkttbc8EHmS
+         SyBKkOy0mzn1aovio61NfjO/ukC06Fkp+iJxphr1LuGA8q3ufedbsXyoZWje09I5wzC4
+         9yKe5DU+u1L+iJw2Zjf203AAMZy0SJh6FOrmr4hgaxAUOajy5LKl2vUR0XV7hWIIpZyP
+         Wsfg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=tkMyxPL9;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=nYG1dL7P;
+       spf=pass (google.com: domain of s-4xq0syg3d3kkez9jly4vncoveyoj275d2qer47n0ewvzmqpa9upt1fmu@bounce.linkedin.com designates 2620:109:c003:104::202 as permitted sender) smtp.mailfrom=s-4xq0syg3d3kkez9jly4vncoveyoj275d2qer47n0ewvzmqpa9upt1fmu@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-4xq0syg3d3kkez9jly4vncoveyoj275d2qer47n0ewvzmqpa9upt1fmu@bounce.linkedin.com>
+Received: from maile-db.linkedin.com (maile-db.linkedin.com. [2620:109:c003:104::202])
+        by mx.google.com with ESMTPS id 41be03b00d2f7-7fd4cd57abfsi10172407a12.676.2024.12.11.14.56.18
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 11 Dec 2024 14:56:19 -0800 (PST)
+Received-SPF: pass (google.com: domain of s-4xq0syg3d3kkez9jly4vncoveyoj275d2qer47n0ewvzmqpa9upt1fmu@bounce.linkedin.com designates 2620:109:c003:104::202 as permitted sender) client-ip=2620:109:c003:104::202;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=tkMyxPL9;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=nYG1dL7P;
+       spf=pass (google.com: domain of s-4xq0syg3d3kkez9jly4vncoveyoj275d2qer47n0ewvzmqpa9upt1fmu@bounce.linkedin.com designates 2620:109:c003:104::202 as permitted sender) smtp.mailfrom=s-4xq0syg3d3kkez9jly4vncoveyoj275d2qer47n0ewvzmqpa9upt1fmu@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1733957775;
+	bh=PdrgbM3oCi8nxgEhwVvmfM6qOAk0ZCvspl+cM60wx2w=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=tkMyxPL9k20OEmEJ4jIp4lqfGVdcHq08XV0kACJelRhsMo8Zkbzp1FZ/mV73NmXl9
+	 StaqxuJ5omtQL8372T4mpbeFXCuxHJQAW88sBVVQriul67iTueVzKF8icbbiQdr6ro
+	 g4fpBeAoBK07EYP7/W95N+5kCMz3StNyK23gI7cLcyxcRjI34HkAZtttjM4/iRIXFY
+	 Bszo8zHU9vK4I1E9+edsasaQ80gyB9ZX4qyVkN0EradEklxzuIu8w+tRxNHGcG6UD1
+	 30oJFuRFjQKp6wuLOuh4JxosY01pTGvhO0EJBXODr80fJjTJce+AXrfwgqwnMWisYN
+	 p3rL/QfKKWg8Q==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1733957775;
+	bh=PdrgbM3oCi8nxgEhwVvmfM6qOAk0ZCvspl+cM60wx2w=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=nYG1dL7Pv4+qoZXDwrnIk1Pj/qmXYNxRGdxjY0q+QKuUQVkt9D3bJ7d0FWaujB0B+
+	 G7XgjV0xtM5WwVnYjj0rqcxHUIWNgDycYSAxyjufXhCFolIMcnRqqX/l8vgsMm6Ml4
+	 dX/AjDSIWRwknYgQuzIjvcOU5eMzAeTG4x2NnFVX9vhZCSErl4Iyfs6mj98k5thG/1
+	 AQzed6TnOmngUUCzQ/JvIi9SlCYr2W/SfsFSwFSbWnq9qpBqRDvVsXO6NNcYuLogQT
+	 TPd05jn5PoWLtydaWbxPZiOGZEV3GXw22U0o08avRdz1Zss1/UKOf0h2LOxU0Bzyxt
+	 h5WGRTDiLVi4w==
+From: Luciano Rocha via LinkedIn <newsletters-noreply@linkedin.com>
+Message-ID: <789474799.3948306.1733957774917@lva1-app68360.prod.linkedin.com>
+Subject: =?UTF-8?Q?Desenvolvimento_r=C3=A1pido_de?=
+ =?UTF-8?Q?_aplica=C3=A7=C3=B5es_(RAD)_com_C#.?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_3948302_514532277.1733957774913"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Wed, 11 Dec 2024 22:56:14 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-aszqd55k14w61m74paemn8wadmo1fz4zzzrapzbdi985rzltdmxy5wkauai49klsq8uprwp5my1pyeztigg8n5xknx3f3fvjzw8bjg
+X-LinkedIn-Id: gdb74f-m4khlb3b-pa
+List-Unsubscribe: <https://www.linkedin.com/comm/series-notifications/?action=unsubscribe&memberToken=ADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&newsletterId=7002440821278953472&newsletterTitle=Assuntos%20de%20Programa%C3%A7%C3%A3o&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BvTTZBfE8Sp%2B1cWh1PK1qew%3D%3D&midToken=AQHxaOsdYMWJVQ&midSig=1URs-3Y-XwZXw1&trk=eml-email_series_follow_newsletter_01-unsub-0-unsub&trkEmail=eml-email_series_follow_newsletter_01-unsub-0-unsub-null-gdb74f~m4khlb3b~pa-null-null&eid=gdb74f-m4khlb3b-pa&otpToken=MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGVlYjE4OGM5ZDc0NTlhYTY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUwNTdmOGY5ZGQ1ZWFjZjVkMTFiNzI3NTZjZTgxOTgzYTQwYzExZGRmNTFjMzEyZCwxLDE%3D>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_3948302_514532277.1733957774913
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Assuntos de Programa=C3=A7=C3=A3o
+
+Por Luciano Rocha
+
+
+Por Luciano Rocha
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/desenvolvimento-r%C3%A1pido-de-aplica%C=
+3%A7%C3%B5es-rad-com-c-luciano-rocha-gfgwf?lipi=3Durn%3Ali%3Apage%3Aemail_e=
+mail_series_follow_newsletter_01%3BvTTZBfE8Sp%2B1cWh1PK1qew%3D%3D&midToken=
+=3DAQHxaOsdYMWJVQ&midSig=3D1URs-3Y-XwZXw1&trk=3Deml-email_series_follow_new=
+sletter_01-null-0-read_more_banner_cta_&trkEmail=3Deml-email_series_follow_=
+newsletter_01-null-0-read_more_banner_cta_-null-gdb74f~m4khlb3b~pa-null-nul=
+l&eid=3Dgdb74f-m4khlb3b-pa&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZ=
+GVlYjE4OGM5ZDc0NTlhYTY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUwNTdmOGY5ZGQ1ZWFj=
+ZjVkMTFiNzI3NTZjZTgxOTgzYTQwYzExZGRmNTFjMzEyZCwxLDE%3D
+ =20
+Entenda como o C# e o Visual Studio impulsionam a cria=C3=A7=C3=A3o de solu=
+=C3=A7=C3=B5es de forma =C3=A1gil e eficiente. O Desenvolvimento R=C3=A1pid=
+o de Aplica=C3=A7=C3=B5es (RAD), ou Rapid Application Development, =C3=A9 u=
+ma metodologia que visa criar sistemas funcionais em curtos per=C3=ADodos d=
+e tempo. Ao longo dos anos, ferramentas e linguagens de programa=C3=A7=C3=
+=A3o evolu=C3=ADram para suportar essa abordagem. Entre elas, o C#, combina=
+do com o ambiente de desenvolvimento Visual Studio, se destaca pela capacid=
+ade de otimizar processos e simplificar etapas. Neste artigo, voc=C3=AA enc=
+ontrar=C3=A1 uma vis=C3=A3o detalhada sobre como o C# viabiliza o RAD, seus=
+ componentes principais, benef=C3=ADcios, limita=C3=A7=C3=B5es e exemplos p=
+r=C3=A1ticos. Se voc=C3=AA busca entender como essa abordagem pode se aplic=
+ar ao seu contexto de desenvolvimento, este conte=C3=BAdo foi feito para vo=
+c=C3=AA. =C3=8Dndice O que =C3=A9 RAD? Caracter=C3=ADsticas do RAD com C# P=
+ara que serve essa metodologia? Como criar aplica=C3=A7=C3=B5es: sintaxe pa=
+ra controllers Benef=C3=ADcios do RAD com C# Desvantagens dessa abordagem E=
+xemplos Conclus=C3=A3o O que =C3=A9 RAD? RAD =C3=A9 uma metodologia de dese=
+nvolvimento de software que prioriza agilidade na cria=C3=A7=C3=A3o de apli=
+ca=C3=A7=C3=B5es, permitindo itera=C3=A7=C3=B5es r=C3=A1pidas e entregas fr=
+equentes. Em vez de se basear em longos ciclos de desenvolvimento, o RAD va=
+loriza a prototipa=C3=A7=C3=A3o e a adapta=C3=A7=C3=A3o conforme as necessi=
+dades surgem. No contexto do C#, o RAD =C3=A9 potencializado pelas ferramen=
+tas visuais e pela biblioteca rica que o Visual Studio oferece. Ao permitir=
+ que desenvolvedores criem interfaces gr=C3=A1ficas com simples a=C3=A7=C3=
+=B5es de arrastar e soltar, o ambiente reduz o tempo de codifica=C3=A7=C3=
+=A3o manual. Outro ponto importante =C3=A9 que o RAD n=C3=A3o =C3=A9 uma t=
+=C3=A9cnica para todo tipo de projeto. Ele funciona melhor em sistemas onde=
+ mudan=C3=A7as frequentes s=C3=A3o previstas, como aplica=C3=A7=C3=B5es de =
+neg=C3=B3cios ou sistemas de gest=C3=A3o personalizados. Em projetos mais c=
+omplexos, com requisitos r=C3=ADgidos, o RAD pode ser menos eficiente, o qu=
+e refor=C3=A7a a necessidade de avaliar os requisitos antes de adot=C3=A1-l=
+o. Caracter=C3=ADsticas do RAD com C# Desenvolvimento visual de interfaces:=
+ o Visual Studio permite criar interfaces gr=C3=A1ficas com ferramentas de =
+design WYSIWYG (What You See Is What You Get), otimizando a constru=C3=A7=
+=C3=A3o de GUIs. Componentes pr=C3=A9-constru=C3=ADdos: o C# possui bibliot=
+ecas prontas que simplificam tarefas comuns, como manipula=C3=A7=C3=A3o de =
+arquivos, comunica=C3=A7=C3=A3o em rede e integra=C3=A7=C3=A3o com bancos d=
+e dados. Gerenciamento autom=C3=A1tico de mem=C3=B3ria: a coleta de lixo do=
+ .NET reduz a necessidade de gerenciamento manual, permitindo que o desenvo=
+lvedor foque na l=C3=B3gica do aplicativo. Ferramentas de diagn=C3=B3stico =
+e depura=C3=A7=C3=A3o: o Visual Studio oferece recursos avan=C3=A7ados para=
+ identificar problemas, testar funcionalidades e refinar o desempenho. Essa=
+s caracter=C3=ADsticas tornam o C# uma op=C3=A7=C3=A3o robusta para criar s=
+olu=C3=A7=C3=B5es rapidamente, sem abrir m=C3=A3o de estabilidade e escalab=
+ilidade. Para que serve essa metodologia? O RAD =C3=A9 amplamente utilizado=
+ em situa=C3=A7=C3=B5es onde o tempo =C3=A9 um fator cr=C3=ADtico ou onde o=
+s requisitos podem evoluir com frequ=C3=AAncia. Alguns exemplos incluem: Pr=
+ototipagem r=C3=A1pida: criar prot=C3=B3tipos que demonstrem funcionalidade=
+s principais para valida=C3=A7=C3=A3o de usu=C3=A1rios ou clientes. Sistema=
+s de gest=C3=A3o interna: desenvolver ferramentas de uso interno para empre=
+sas, como CRMs ou ERPs personalizados. Aplica=C3=A7=C3=B5es voltadas ao usu=
+=C3=A1rio final: criar interfaces interativas para sistemas de vendas, aten=
+dimento ou portais online. Integra=C3=A7=C3=A3o de servi=C3=A7os: desenvolv=
+er conectores ou APIs que se integrem rapidamente com sistemas externos. Em=
+ todos esses casos, o RAD permite acelerar o processo, reduzindo o ciclo de=
+ feedback e tornando a entrega mais din=C3=A2mica. Sintaxe para criar contr=
+ollers No desenvolvimento com C#, os controllers desempenham um papel funda=
+mental na estrutura MVC (Model-View-Controller). Veja um exemplo b=C3=A1sic=
+o e um avan=C3=A7ado: Exemplo b=C3=A1sico: O que faz: esse c=C3=B3digo defi=
+ne um controller simples que retorna uma view chamada Index. =C3=89 o ponto=
+ de partida para configurar rotas b=C3=A1sicas em uma aplica=C3=A7=C3=A3o. =
+Exemplo avan=C3=A7ado: O que faz: este c=C3=B3digo cria um controller mais =
+robusto para gerenciar uma API de produtos, incluindo opera=C3=A7=C3=B5es d=
+e leitura e cria=C3=A7=C3=A3o, com inje=C3=A7=C3=A3o de depend=C3=AAncia e =
+boas pr=C3=A1ticas de API REST. Benef=C3=ADcios Agilidade: redu=C3=A7=C3=A3=
+o do tempo de desenvolvimento em projetos com entregas r=C3=A1pidas. Produt=
+ividade: ferramentas visuais simplificam tarefas repetitivas e aceleram a c=
+ria=C3=A7=C3=A3o de interfaces. Flexibilidade: facilidade para realizar alt=
+era=C3=A7=C3=B5es conforme os requisitos evoluem. Qualidade: recursos integ=
+rados para testes e depura=C3=A7=C3=A3o garantem maior confiabilidade nas e=
+ntregas. Desvantagens dessa abordagem Complexidade em sistemas grandes: o R=
+AD pode gerar solu=C3=A7=C3=B5es dif=C3=ADceis de escalar. Depend=C3=AAncia=
+ de ferramentas: a produtividade est=C3=A1 diretamente ligada =C3=A0 qualid=
+ade do ambiente de desenvolvimento. C=C3=B3digo desorganizado: projetos r=
+=C3=A1pidos podem carecer de boas pr=C3=A1ticas, dificultando a manuten=C3=
+=A7=C3=A3o. Curva de aprendizado: ferramentas avan=C3=A7adas exigem conheci=
+mento pr=C3=A9vio para tirar proveito total. Exemplos A seguir, apresento d=
+ois exemplos pr=C3=A1ticos de uso do Desenvolvimento R=C3=A1pido de Aplica=
+=C3=A7=C3=B5es (RAD) com C#. Um exemplo b=C3=A1sico, voltado para iniciante=
+s, e outro avan=C3=A7ado, aplic=C3=A1vel a contextos mais complexos. Exempl=
+o f=C3=A1cil: cria=C3=A7=C3=A3o de um formul=C3=A1rio simples Neste exemplo=
+, criaremos um formul=C3=A1rio no WinForms com uma interface gr=C3=A1fica u=
+sando o Visual Studio. Abra o Visual Studio e crie um projeto do tipo Windo=
+ws Forms App (.NET Framework). Na interface visual (Designer), adicione doi=
+s controles: Um TextBox (para inserir o nome do usu=C3=A1rio). Um Button (p=
+ara exibir uma mensagem). C=C3=B3digo gerado pelo Visual Studio: O que faz:=
+ o usu=C3=A1rio insere seu nome no TextBox e clica no bot=C3=A3o. O evento =
+do bot=C3=A3o exibe uma mensagem personalizada em uma janela pop-up. Como i=
+sso se conecta ao RAD?: criar o formul=C3=A1rio foi simples, gra=C3=A7as ao=
+ Designer visual do Visual Studio, sem necessidade de codificar a interface=
+ manualmente. Exemplo dif=C3=ADcil: aplica=C3=A7=C3=A3o CRUD com RAD Aqui, =
+implementaremos um CRUD (Create, Read, Update, Delete) b=C3=A1sico para ger=
+enciar uma tabela de produtos usando Entity Framework em um projeto ASP.NET=
+ Core MVC. Passos iniciais: Crie um projeto ASP.NET Core Web App (Model-Vie=
+w-Controller). Instale o pacote Microsoft.EntityFrameworkCore.SqlServer. Co=
+nfigure o Entity Framework para se conectar a um banco de dados SQL Server.=
+ C=C3=B3digo: Classe de modelo Contexto do banco de dados: Controller: View=
+ (Index): O que faz: este exemplo permite listar, adicionar e visualizar pr=
+odutos. A interface =C3=A9 gerada rapidamente usando o Scaffolding do Visua=
+l Studio para criar modelos e views baseados nos dados. Como isso se conect=
+a ao RAD: usando ferramentas do Visual Studio, como Scaffolding, o processo=
+ de gera=C3=A7=C3=A3o de c=C3=B3digo =C3=A9 simplificado, eliminando a nece=
+ssidade de codifica=C3=A7=C3=A3o manual para as opera=C3=A7=C3=B5es b=C3=A1=
+sicas de CRUD. Resumo: O exemplo b=C3=A1sico destaca a facilidade de criar =
+interfaces gr=C3=A1ficas simples com RAD. O exemplo avan=C3=A7ado mostra co=
+mo o RAD =C3=A9 =C3=BAtil em projetos mais complexos, integrando banco de d=
+ados e opera=C3=A7=C3=B5es CRUD com m=C3=ADnimo esfor=C3=A7o manual. Conclu=
+s=C3=A3o O RAD, quando aplicado com C# e Visual Studio, oferece uma abordag=
+em poderosa para acelerar o desenvolvimento de aplica=C3=A7=C3=B5es. No ent=
+anto, =C3=A9 crucial entender as necessidades do projeto antes de optar por=
+ essa metodologia. A escolha entre RAD e outras abordagens deve sempre cons=
+iderar o equil=C3=ADbrio entre rapidez e manuten=C3=A7=C3=A3o. Compartilhe =
+suas experi=C3=AAncias com RAD nos coment=C3=A1rios. Como voc=C3=AA utiliza=
+ C# para acelerar seus projetos? Vamos enriquecer essa discuss=C3=A3o. Hash=
+tags #RAD #CSharp #SoftwareDevelopment Fontes https://stackoverflow.com/que=
+stions/1596957/why-is-c-sharp-a-rapid-application-development-rad-language =
+https://stackoverflow.com/questions/37858172/extension-method-for-degree-to=
+-radian-conversion-in-net https://learn.microsoft.com/en-us/dotnet/api/syst=
+em.single.radianstodegrees?view=3Dnet-8.0 https://learn.microsoft.com/ja-jp=
+/dotnet/api/system.math.atan?view=3Dnet-8.0 https://blog.betrybe.com/tecnol=
+ogia/rad/ https://mudedemundo.com.br/glossario/o-que-e-rad-rapid-applicatio=
+n-development/ https://pt.wikipedia.org/wiki/Desenvolvimento_r%C3%A1pido_de=
+_aplica%C3%A7%C3%B5es https://www.treinaweb.com.br/blog/o-que-e-rad-rapid-a=
+pplication-development/
+Continue lendo no LinkedIn
+https://www.linkedin.com/comm/pulse/desenvolvimento-r%C3%A1pido-de-aplica%C=
+3%A7%C3%B5es-rad-com-c-luciano-rocha-gfgwf?lipi=3Durn%3Ali%3Apage%3Aemail_e=
+mail_series_follow_newsletter_01%3BvTTZBfE8Sp%2B1cWh1PK1qew%3D%3D&midToken=
+=3DAQHxaOsdYMWJVQ&midSig=3D1URs-3Y-XwZXw1&trk=3Deml-email_series_follow_new=
+sletter_01-newsletter_content_preview_text-0-readmore_button_&trkEmail=3Dem=
+l-email_series_follow_newsletter_01-newsletter_content_preview_text-0-readm=
+ore_button_-null-gdb74f~m4khlb3b~pa-null-null&eid=3Dgdb74f-m4khlb3b-pa&otpT=
+oken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGVlYjE4OGM5ZDc0NTlhYTY4YTYxNzlj=
+NDA2NmQ0YjVkNWJmMmZlZDNkZmUwNTdmOGY5ZGQ1ZWFjZjVkMTFiNzI3NTZjZTgxOTgzYTQwYzE=
+xZGRmNTFjMzEyZCwxLDE%3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | HTML | CSS | JS | React.js | Node.js | Python)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3BvTTZBfE8Sp%2B1cWh1PK1qew%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSi=
+g=3D1URs-3Y-XwZXw1&trk=3Deml-email_series_follow_newsletter_01-SecurityHelp=
+-0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Secur=
+ityHelp-0-textfooterglimmer-null-gdb74f~m4khlb3b~pa-null-null&eid=3Dgdb74f-=
+m4khlb3b-pa&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGVlYjE4OGM5ZDc0=
+NTlhYTY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUwNTdmOGY5ZGQ1ZWFjZjVkMTFiNzI3NTZ=
+jZTgxOTgzYTQwYzExZGRmNTFjMzEyZCwxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/comm/series-notifica=
+tions/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y=
+9whjlY&newsletterId=3D7002440821278953472&newsletterTitle=3DAssuntos%20de%2=
+0Programa%C3%A7%C3%A3o&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_n=
+ewsletter_01%3BvTTZBfE8Sp%2B1cWh1PK1qew%3D%3D&midToken=3DAQHxaOsdYMWJVQ&mid=
+Sig=3D1URs-3Y-XwZXw1&trk=3Deml-email_series_follow_newsletter_01-unsubscrib=
+e-0-footerGlimmer&trkEmail=3Deml-email_series_follow_newsletter_01-unsubscr=
+ibe-0-footerGlimmer-null-gdb74f~m4khlb3b~pa-null-null&eid=3Dgdb74f-m4khlb3b=
+-pa&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGVlYjE4OGM5ZDc0NTlhYTY4=
+YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUwNTdmOGY5ZGQ1ZWFjZjVkMTFiNzI3NTZjZTgxOTg=
+zYTQwYzExZGRmNTFjMzEyZCwxLDE%3D=C2=A0=C2=A0=C2=B7=C2=A0=C2=A0Ajuda: https:/=
+/www.linkedin.com/help/linkedin/answer/67?lang=3Dpt&lipi=3Durn%3Ali%3Apage%=
+3Aemail_email_series_follow_newsletter_01%3BvTTZBfE8Sp%2B1cWh1PK1qew%3D%3D&=
+midToken=3DAQHxaOsdYMWJVQ&midSig=3D1URs-3Y-XwZXw1&trk=3Deml-email_series_fo=
+llow_newsletter_01-help-0-textfooterglimmer&trkEmail=3Deml-email_series_fol=
+low_newsletter_01-help-0-textfooterglimmer-null-gdb74f~m4khlb3b~pa-null-nul=
+l&eid=3Dgdb74f-m4khlb3b-pa&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZ=
+GVlYjE4OGM5ZDc0NTlhYTY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUwNTdmOGY5ZGQ1ZWFj=
+ZjVkMTFiNzI3NTZjZTgxOTgzYTQwYzExZGRmNTFjMzEyZCwxLDE%3D
+
+=C2=A9 2024 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_3948302_514532277.1733957774913
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+style>
+@media (max-width: 480px) {
+  .inline-button,
+.inline-button table {
+    display: none !important;
+  }
+
+  .full-width-button,
+.full-width-button table {
+    display: table !important;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content,
+.pulse .article-main__content > * {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content h2,
+.pulse .article-main__content h2 span {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content p,
+.pulse .article-main__content p span {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content blockquote {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-img=
+ {
+    width: 48px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"][data-entity-typ=
+e=3D"organization"] .pub-entity-img img {
+    height: 48px;
+    width: 48px;
+    border-radius: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"][data-entity-typ=
+e=3D"member"] .pub-entity-img img {
+    height: 56px;
+    width: 56px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t {
+    padding-left: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t h1 {
+    margin-bottom: 2px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t h3 {
+    margin-bottom: 2px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t p {
+    margin-bottom: 2px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content,
+.advice .article-main__content > * {
+    font-size: 20px;
+  }
+
+  .advice .qa-redesign-article-content .article-main__content > * {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content h2,
+.advice .article-main__content h2 span {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice.redesign .article-main__content h2,
+.advice.redesign .article-main__content h2 span {
+    font-size: 32px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content p,
+.advice .article-main__content p span {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content blockquote {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar__wrapper.navbar__wrapper--x-article-split-layout {
+    margin-left: 24px;
+  }
+}
+@media (min-width: 1440px) {
+  .navbar__wrapper.navbar__wrapper--x-article-split-layout {
+    margin-left: 48px;
+  }
+}
+@media (min-width: 992px) {
+  [data-id=3D'member-nav-header__container'] {
+    margin-left: calc(40% - 8px - 392px);
+  }
+}
+@media (min-width: 1200px) {
+  [data-id=3D'member-nav-header__container'] {
+    margin-left: calc(40% - 32px - 392px);
+  }
+}
+@media (min-width: 1440px) {
+  [data-id=3D'member-nav-header__container'] {
+    margin-left: calc(40% - 64px - 392px);
+  }
+}
+@media (min-width: 992px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    width: 60%;
+  }
+}
+@media (min-width: 992px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    padding-left: 8px;
+  }
+}
+@media (min-width: 1200px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    padding-left: 32px;
+  }
+}
+@media (min-width: 1440px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    padding-left: 64px;
+  }
+}
+@media (min-width: 576px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1128px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
+@media (min-width: 1680px) {}
+@media (min-width: 1920px) {}
+@media (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media screen and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 991px) {}
+@media screen and (max-width: 991px) {}
+@media (max-width: 991px) {
+  .search-bar.isExpanded .search-bar__placeholder {
+    display: none;
+  }
+
+  .search-bar.isExpanded .base-search-bar__form {
+    display: flex;
+  }
+}
+@media screen and (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (min-width: 992px) {}
+@media (forced-colors: active) {}
+@media (-ms-high-contrast: active), (forced-colors: active) {}
+@media (min-width: 992px) {}
+@media (min-width: 576px) {}
+@media (min-width: 992px) {}
+@media (min-width: 992px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
+@media (min-width: 992px) {}
+@media (max-width: 575px) {}
+@media (max-width: 640px) {}
+@media (min-width: 992px) {}
+@media (max-width: 991px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media screen and (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (min-width: 245px) {}
+@media (min-width: 330px) {}
+@media only screen and (min-width: 30.06em) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (min-width: 992px) {
+  .papabear\:tab-vertical.tab-selected:after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:pointer-events-none::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:absolute::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:\!left-\[-19px\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:\!top-\[6px\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:bottom-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:left-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:right-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:top-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:ml-0\.5::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:ml-\[74px\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:block::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:h-full::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:w-full::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:rounded-full::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:border-1::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:border-solid::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:border-color-divider::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:bg-gradient-to-b::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:from-color-transparent::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:to-color-background-scrim::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:text-color-text-low-emphasis::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:no-underline::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:shadow-\[0_0_0_500px_var\(--color-scrim\)\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:content-\[\"\"\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:content-\[\'\'\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:content-\[\'\/\'\]::after {
+    content: "";
+  }
+}
+@media (min-width: 576px) {
+  .xs\:sticky {
+    position: sticky;
+  }
+
+  .xs\:left-\[-52px\] {
+    left: -52px;
+  }
+
+  .xs\:left-\[-56px\] {
+    left: -56px;
+  }
+
+  .xs\:top-0 {
+    top: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .sm\:m-0 {
+    margin: 0px;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:pl-0\.5 {
+    padding-left: 4px;
+  }
+
+  .sm\:text-sm {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  .md\:\!absolute {
+    position: absolute !important;
+  }
+
+  .md\:absolute {
+    position: absolute;
+  }
+
+  .md\:left-\[-44px\] {
+    left: -44px;
+  }
+
+  .md\:left-\[-52px\] {
+    left: -52px;
+  }
+
+  .md\:left-\[-53px\] {
+    left: -53px;
+  }
+
+  .md\:left-\[-60px\] {
+    left: -60px;
+  }
+
+  .md\:right-\[19px\] {
+    right: 19px;
+  }
+
+  .md\:m-2 {
+    margin: 16px;
+  }
+
+  .md\:-ml-1 {
+    margin-left: -8px;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .md\:mb-8 {
+    margin-bottom: 64px;
+  }
+
+  .md\:ml-1 {
+    margin-left: 8px;
+  }
+
+  .md\:ml-\[-12px\] {
+    margin-left: -12px;
+  }
+
+  .md\:ml-\[-41px\] {
+    margin-left: -41px;
+  }
+
+  .md\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .md\:mr-4 {
+    margin-right: 32px;
+  }
+
+  .md\:mr-6 {
+    margin-right: 48px;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:box-content {
+    box-sizing: content-box;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:inline-flex {
+    display: inline-flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:h-4 {
+    height: 32px;
+  }
+
+  .md\:h-56 {
+    height: 448px;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:w-2\/5 {
+    width: 40%;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
+  .md\:w-4 {
+    width: 32px;
+  }
+
+  .md\:w-\[280px\] {
+    width: 280px;
+  }
+
+  .md\:w-\[392px\] {
+    width: 392px;
+  }
+
+  .md\:w-\[452px\] {
+    width: 452px;
+  }
+
+  .md\:w-\[500px\] {
+    width: 500px;
+  }
+
+  .md\:w-\[calc\(100\%\+44px\)\] {
+    width: calc(100% + 44px);
+  }
+
+  .md\:w-\[calc\(37\%-40px\)\] {
+    width: calc(37% - 40px);
+  }
+
+  .md\:w-\[calc\(50\%-40px\)\] {
+    width: calc(50% - 40px);
+  }
+
+  .md\:max-w-\[392px\] {
+    max-width: 392px;
+  }
+
+  .md\:max-w-\[576px\] {
+    max-width: 576px;
+  }
+
+  .md\:flex-1 {
+    flex: 1 1 0%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+
+  .md\:whitespace-nowrap {
+    white-space: nowrap;
+  }
+
+  .md\:px-1 {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .md\:px-3 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .md\:py-1\.5 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .md\:py-4 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .md\:py-6 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .md\:pb-2 {
+    padding-bottom: 16px;
+  }
+
+  .md\:pb-6 {
+    padding-bottom: 48px;
+  }
+
+  .md\:pb-\[200px\] {
+    padding-bottom: 200px;
+  }
+
+  .md\:pl-1 {
+    padding-left: 8px;
+  }
+
+  .md\:pl-4 {
+    padding-left: 32px;
+  }
+
+  .md\:pl-\[32px\] {
+    padding-left: 32px;
+  }
+
+  .md\:pl-\[41px\] {
+    padding-left: 41px;
+  }
+
+  .md\:pl-\[56px\] {
+    padding-left: 56px;
+  }
+
+  .md\:pr-1 {
+    padding-right: 8px;
+  }
+
+  .md\:pr-\[320px\] {
+    padding-right: 320px;
+  }
+
+  .md\:pr-\[88px\] {
+    padding-right: 88px;
+  }
+
+  .md\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .md\:pt-1 {
+    padding-top: 8px;
+  }
+
+  .md\:pt-6 {
+    padding-top: 48px;
+  }
+
+  .md\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .md\:text-md {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .lg\:\!absolute {
+    position: absolute !important;
+  }
+
+  .lg\:left-\[-48px\] {
+    left: -48px;
+  }
+
+  .lg\:left-\[-56px\] {
+    left: -56px;
+  }
+
+  .lg\:left-\[-58px\] {
+    left: -58px;
+  }
+
+  .lg\:right-\[8px\] {
+    right: 8px;
+  }
+
+  .lg\:my-6 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
+  .lg\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .lg\:ml-1 {
+    margin-left: 8px;
+  }
+
+  .lg\:ml-12 {
+    margin-left: 96px;
+  }
+
+  .lg\:ml-3 {
+    margin-left: 24px;
+  }
+
+  .lg\:ml-\[-33px\] {
+    margin-left: -33px;
+  }
+
+  .lg\:ml-\[10px\] {
+    margin-left: 10px;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:inline-flex {
+    display: inline-flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:h-4 {
+    height: 32px;
+  }
+
+  .lg\:h-6 {
+    height: 48px;
+  }
+
+  .lg\:h-\[20px\] {
+    height: 20px;
+  }
+
+  .lg\:w-4 {
+    width: 32px;
+  }
+
+  .lg\:w-6 {
+    width: 48px;
+  }
+
+  .lg\:w-\[20px\] {
+    width: 20px;
+  }
+
+  .lg\:w-\[calc\(100\%\+56px\)\] {
+    width: calc(100% + 56px);
+  }
+
+  .lg\:w-\[calc\(37\%-32px\)\] {
+    width: calc(37% - 32px);
+  }
+
+  .lg\:w-\[calc\(50\%-32px\)\] {
+    width: calc(50% - 32px);
+  }
+
+  .lg\:max-w-x-article-width {
+    max-width: 816px;
+  }
+
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
+  .lg\:items-center {
+    align-items: center;
+  }
+
+  .lg\:pl-4 {
+    padding-left: 32px;
+  }
+
+  .lg\:pl-\[33px\] {
+    padding-left: 33px;
+  }
+
+  .lg\:pl-\[40px\] {
+    padding-left: 40px;
+  }
+
+  .lg\:pl-\[41px\] {
+    padding-left: 41px;
+  }
+
+  .lg\:pl-\[88px\] {
+    padding-left: 88px;
+  }
+
+  .lg\:pr-1 {
+    padding-right: 8px;
+  }
+
+  .lg\:pr-4 {
+    padding-right: 32px;
+  }
+
+  .lg\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .lg\:text-display-lg {
+    font-size: 48px;
+  }
+
+  .lg\:text-lg {
+    font-size: 20px;
+  }
+
+  .lg\:text-md {
+    font-size: 16px;
+  }
+
+  .lg\:text-sm {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1440px) {
+  .xl\:ml-6 {
+    margin-left: 48px;
+  }
+
+  .xl\:w-6 {
+    width: 48px;
+  }
+
+  .xl\:w-\[50px\] {
+    width: 50px;
+  }
+
+  .xl\:pl-8 {
+    padding-left: 64px;
+  }
+
+  .xl\:pl-\[120px\] {
+    padding-left: 120px;
+  }
+
+  .xl\:pr-8 {
+    padding-right: 64px;
+  }
+}
+@media (max-width: 767px) {
+  .babybear\:\!-top-0\.5 {
+    top: -4px !important;
+  }
+
+  .babybear\:-top-1 {
+    top: -8px;
+  }
+
+  .babybear\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .babybear\:bottom-\[120\%\] {
+    bottom: 120%;
+  }
+
+  .babybear\:left-3 {
+    left: 24px;
+  }
+
+  .babybear\:right-4 {
+    right: 32px;
+  }
+
+  .babybear\:top-0\.5 {
+    top: 4px;
+  }
+
+  .babybear\:z-0 {
+    z-index: 0;
+  }
+
+  .babybear\:order-last {
+    order: 9999;
+  }
+
+  .babybear\:m-0 {
+    margin: 0px;
+  }
+
+  .babybear\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .babybear\:mx-1\.5 {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .babybear\:my-2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .babybear\:-mt-0\.5 {
+    margin-top: -4px;
+  }
+
+  .babybear\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .babybear\:mb-0\.5 {
+    margin-bottom: 4px;
+  }
+
+  .babybear\:mb-1 {
+    margin-bottom: 8px;
+  }
+
+  .babybear\:mb-2 {
+    margin-bottom: 16px;
+  }
+
+  .babybear\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .babybear\:ml-1 {
+    margin-left: 8px;
+  }
+
+  .babybear\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .babybear\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .babybear\:mt-0\.5 {
+    margin-top: 4px;
+  }
+
+  .babybear\:mt-\[6px\] {
+    margin-top: 6px;
+  }
+
+  .babybear\:hidden {
+    display: none;
+  }
+
+  .babybear\:h-4 {
+    height: 32px;
+  }
+
+  .babybear\:h-6 {
+    height: 48px;
+  }
+
+  .babybear\:h-\[180px\] {
+    height: 180px;
+  }
+
+  .babybear\:h-\[26px\] {
+    height: 26px;
+  }
+
+  .babybear\:h-\[360px\] {
+    height: 360px;
+  }
+
+  .babybear\:h-\[59px\] {
+    height: 59px;
+  }
+
+  .babybear\:h-\[64px\] {
+    height: 64px;
+  }
+
+  .babybear\:h-\[72px\] {
+    height: 72px;
+  }
+
+  .babybear\:h-auto {
+    height: auto;
+  }
+
+  .babybear\:max-h-4 {
+    max-height: 32px;
+  }
+
+  .babybear\:max-h-\[225px\] {
+    max-height: 225px;
+  }
+
+  .babybear\:max-h-\[250px\] {
+    max-height: 250px;
+  }
+
+  .babybear\:max-h-\[400px\] {
+    max-height: 400px;
+  }
+
+  .babybear\:min-h-\[134px\] {
+    min-height: 134px;
+  }
+
+  .babybear\:w-1 {
+    width: 8px;
+  }
+
+  .babybear\:w-11\/12 {
+    width: 91.666667%;
+  }
+
+  .babybear\:w-6 {
+    width: 48px;
+  }
+
+  .babybear\:w-\[105px\] {
+    width: 105px;
+  }
+
+  .babybear\:w-\[199px\] {
+    width: 199px;
+  }
+
+  .babybear\:w-\[26px\] {
+    width: 26px;
+  }
+
+  .babybear\:w-\[360px\] {
+    width: 360px;
+  }
+
+  .babybear\:w-\[64px\] {
+    width: 64px;
+  }
+
+  .babybear\:w-\[calc\(100\%-68px\)\] {
+    width: calc(100% - 68px);
+  }
+
+  .babybear\:w-fit {
+    width: fit-content;
+  }
+
+  .babybear\:w-full {
+    width: 100%;
+  }
+
+  .babybear\:min-w-full {
+    min-width: 100%;
+  }
+
+  .babybear\:max-w-\[300px\] {
+    max-width: 300px;
+  }
+
+  .babybear\:max-w-\[32px\] {
+    max-width: 32px;
+  }
+
+  .babybear\:max-w-\[790px\] {
+    max-width: 790px;
+  }
+
+  .babybear\:max-w-md {
+    max-width: 28rem;
+  }
+
+  .babybear\:flex-auto {
+    flex: 1 1 auto;
+  }
+
+  .babybear\:flex-none {
+    flex: none;
+  }
+
+  .babybear\:basis-0 {
+    flex-basis: 0px;
+  }
+
+  .babybear\:-translate-x-50\% {
+    transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY=
+(1);
+  }
+
+  @media (max-width: 767px) {
+    .babybear\:-translate-x-50\% {
+      transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(=
+1) scaleY(1);
+    }
+
+    @media (max-width: 767px) {
+      .babybear\:-translate-x-50\% {
+        transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scale=
+X(1) scaleY(1);
+      }
+
+      @media (max-width: 767px) {
+        .babybear\:-translate-x-50\% {
+          transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) sca=
+leX(1) scaleY(1);
+        }
+
+        @media (max-width: 767px) {
+          .babybear\:-translate-x-50\% {
+            transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) s=
+caleX(1) scaleY(1);
+          }
+
+          @media (max-width: 767px) {
+            .babybear\:-translate-x-50\% {
+              transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0)=
+ scaleX(1) scaleY(1);
+            }
+
+            @media (max-width: 767px) {
+              .babybear\:-translate-x-50\% {
+                transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(=
+0) scaleX(1) scaleY(1);
+              }
+
+              @media (max-width: 767px) {
+                .babybear\:-translate-x-50\% {
+                  transform: translate(-50%, 0) rotate(90deg) skewX(0) skew=
+Y(0) scaleX(1) scaleY(1);
+                }
+
+                @media (max-width: 767px) {
+                  .babybear\:-translate-x-50\% {
+                    transform: translate(-50%, 0) rotate(90deg) skewX(0) sk=
+ewY(0) scaleX(1) scaleY(1);
+                  }
+
+                  @media (max-width: 767px) {
+                    .babybear\:-translate-x-50\% {
+                      transform: translate(-50%, 0) rotate(90deg) skewX(0) =
+skewY(0) scaleX(1) scaleY(1);
+                    }
+
+                    @media (max-width: 767px) {
+                      .babybear\:-translate-x-50\% {
+                        transform: translate(-50%, 0) rotate(90deg) skewX(0=
+) skewY(0) scaleX(1) scaleY(1);
+                      }
+
+                      @media (max-width: 767px) {
+                        .babybear\:-translate-x-50\% {
+                          transform: translate(-50%, 0) rotate(90deg) skewX=
+(0) skewY(0) scaleX(1) scaleY(1);
+                        }
+
+                        @media (max-width: 767px) {
+                          .babybear\:-translate-x-50\% {
+                            transform: translate(-50%, 0) rotate(90deg) ske=
+wX(0) skewY(0) scaleX(1) scaleY(1);
+                          }
+
+                          @media (max-width: 767px) {
+                            .babybear\:-translate-x-50\% {
+                              transform: translate(-50%, 0) rotate(90deg) s=
+kewX(0) skewY(0) scaleX(1) scaleY(1);
+                            }
+
+                            @media (max-width: 767px) {
+                              .babybear\:-translate-x-50\% {
+                                transform: translate(-50%, 0) rotate(90deg)=
+ skewX(0) skewY(0) scaleX(1) scaleY(1);
+                              }
+
+                              @media transform: translate(0, 0) rotate(0) s=
+kewX(0) skewY(0) scaleX(1) scaleY(1);
+     (max-width: 767px) {
+                                .babybear\:rotate-90 {
+                                  transform: translate(-50%, 0) rotate(90de=
+g) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                }
+
+                                @media (max-width: 767px) {
+                                  .babybear\:rotate-90 {
+                                    transform: translate(-50%, 0) rotate(90=
+deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                  }
+
+                                  @media (max-width: 767px) {
+                                    .babybear\:rotate-90 {
+                                      transform: translate(-50%, 0) rotate(=
+90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                    }
+
+                                    @media (max-width: 767px) {
+                                      .babybear\:rotate-90 {
+                                        transform: translate(-50%, 0) rotat=
+e(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                      }
+
+                                      @media (max-width: 767px) {
+                                        .babybear\:rotate-90 {
+                                          transform: translate(-50%, 0) rot=
+ate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                        }
+
+                                        @media (max-width: 767px) {
+                                          .babybear\:rotate-90 {
+                                            transform: translate(-50%, 0) r=
+otate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                          }
+
+                                          @media (max-width: 767px) {
+                                            .babybear\:rotate-90 {
+                                              transform: translate(-50%, 0)=
+ rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                            }
+
+                                            @media (max-width: 767px) {
+                                              .babybear\:rotate-90 {
+                                                transform: translate(-50%, =
+0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                              }
+
+                                              @media (max-width: 767px) {
+                                                .babybear\:rotate-90 {
+                                                  transform: translate(-50%=
+, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                }
+
+                                                @media (max-width: 767px) {
+                                                  .babybear\:rotate-90 {
+                                                    transform: translate(-5=
+0%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                  }
+
+                                                  @media (max-width: 767px)=
+ {
+                                                    .babybear\:rotate-90 {
+                                                      transform: translate(=
+-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                    }
+
+                                                    @media (max-width: 767p=
+x) {
+                                                      .babybear\:rotate-90 =
+{
+                                                        transform: translat=
+e(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                      }
+
+                                                      @media (max-width: 76=
+7px) {
+                                                        .babybear\:rotate-9=
+0 {
+                                                          transform: transl=
+ate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                        }
+
+                                                        @media (max-width: =
+767px) {
+                                                          .babybear\:rotate=
+-90 {
+                                                            transform: tran=
+slate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                          }
+
+                                                          flex-direction: r=
+ow;
+    .babybear\:flex-col {
+                                                            flex-direction:=
+ column;
+                                                          }
+
+                                                          .babybear\:flex-w=
+rap {
+                                                            flex-wrap: wrap=
+;
+                                                          }
+
+                                                          .babybear\:items-=
+start {
+                                                            align-items: fl=
+ex-start;
+                                                          }
+
+                                                          .babybear\:items-=
+center {
+                                                            align-items: ce=
+nter;
+                                                          }
+
+                                                          .babybear\:justif=
+y-start {
+                                                            justify-content=
+: flex-start;
+                                                          }
+
+                                                          .babybear\:justif=
+y-end {
+                                                            justify-content=
+: flex-end;
+                                                          }
+
+                                                          .babybear\:justif=
+y-center {
+                                                            justify-content=
+: center;
+                                                          }
+
+                                                          .babybear\:justif=
+y-between {
+                                                            justify-content=
+: space-between;
+                                                          }
+
+                                                          .babybear\:justif=
+y-around {
+                                                            justify-content=
+: space-around;
+                                                          }
+
+                                                          .babybear\:self-s=
+tart {
+                                                            align-self: fle=
+x-start;
+                                                          }
+
+                                                          .babybear\:self-c=
+enter {
+                                                            align-self: cen=
+ter;
+                                                          }
+
+                                                          .babybear\:overfl=
+ow-y-auto {
+                                                            overflow-y: aut=
+o;
+                                                          }
+
+                                                          .babybear\:rounde=
+d-\[0px\] {
+                                                            border-radius: =
+0px;
+                                                          }
+
+                                                          .babybear\:border=
+-b-1 {
+                                                            border-bottom-w=
+idth: 1px;
+                                                          }
+
+                                                          .babybear\:border=
+-r-0 {
+                                                            border-right-wi=
+dth: 0;
+                                                          }
+
+                                                          .babybear\:border=
+-solid {
+                                                            border-style: s=
+olid;
+                                                          }
+
+                                                          .babybear\:border=
+-color-border-low-emphasis {
+                                                            border-color: r=
+gba(0, 0, 0, 0.3);
+                                                          }
+
+                                                          .babybear\:bg-col=
+or-brand {
+                                                            background-colo=
+r: #0a66c2;
+                                                          }
+
+                                                          .babybear\:p-2 {
+                                                            padding: 16px;
+                                                          }
+
+                                                          .babybear\:px-0 {
+                                                            padding-left: 0=
+px;
+                                                            padding-right: =
+0px;
+                                                          }
+
+                                                          .babybear\:px-2 {
+                                                            padding-left: 1=
+6px;
+                                                            padding-right: =
+16px;
+                                                          }
+
+                                                          .babybear\:px-mob=
+ile-container-padding {
+                                                            padding-left: 1=
+6px;
+                                                            padding-right: =
+16px;
+                                                          }
+
+                                                          .babybear\:py-1 {
+                                                            padding-top: 8p=
+x;
+                                                            padding-bottom:=
+ 8px;
+                                                          }
+
+                                                          .babybear\:py-3 {
+                                                            padding-top: 24=
+px;
+                                                            padding-bottom:=
+ 24px;
+                                                          }
+
+                                                          .babybear\:pb-0 {
+                                                            padding-bottom:=
+ 0px;
+                                                          }
+
+                                                          .babybear\:pb-2 {
+                                                            padding-bottom:=
+ 16px;
+                                                          }
+
+                                                          .babybear\:pl-0\.=
+5 {
+                                                            padding-left: 4=
+px;
+                                                          }
+
+                                                          .babybear\:pr-0 {
+                                                            padding-right: =
+0px;
+                                                          }
+
+                                                          .babybear\:pr-0\.=
+5 {
+                                                            padding-right: =
+4px;
+                                                          }
+
+                                                          .babybear\:pt-0 {
+                                                            padding-top: 0p=
+x;
+                                                          }
+
+                                                          .babybear\:pt-0\.=
+5 {
+                                                            padding-top: 4p=
+x;
+                                                          }
+
+                                                          .babybear\:pt-1 {
+                                                            padding-top: 8p=
+x;
+                                                          }
+
+                                                          .babybear\:pt-4 {
+                                                            padding-top: 32=
+px;
+                                                          }
+
+                                                          .babybear\:text-\=
+[10px\] {
+                                                            font-size: 10px=
+;
+                                                          }
+
+                                                          .babybear\:text-l=
+g {
+                                                            font-size: 20px=
+;
+                                                          }
+
+                                                          .babybear\:text-m=
+d {
+                                                            font-size: 16px=
+;
+                                                          }
+
+                                                          .babybear\:text-s=
+m {
+                                                            font-size: 14px=
+;
+                                                          }
+
+                                                          .babybear\:text-x=
+l {
+                                                            font-size: 24px=
+;
+                                                          }
+
+                                                          .babybear\:text-x=
+s {
+                                                            font-size: 12px=
+;
+                                                          }
+
+                                                          .babybear\:font-b=
+old {
+                                                            font-weight: 60=
+0;
+                                                          }
+
+                                                          .babybear\:leadin=
+g-\[150px\] {
+                                                            line-height: 15=
+0px;
+                                                          }
+
+                                                          .babybear\:last\:=
+border-b-0:last-child {
+                                                            border-bottom-w=
+idth: 0;
+                                                          }
+
+                                                        }
+
+                                                      }
+
+                                                    }
+
+                                                  }
+
+                                                }
+
+                                              }
+
+                                            }
+
+                                          }
+
+                                        }
+
+                                      }
+
+                                    }
+
+                                  }
+
+                                }
+
+                              }
+
+                            }
+
+                          }
+
+                        }
+
+                      }
+
+                    }
+
+                  }
+
+                }
+
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+}
+@media (max-width: 991px) {
+  .babymamabear\:invisible {
+    visibility: hidden;
+  }
+
+  .babymamabear\:static {
+    position: static;
+  }
+
+  .babymamabear\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .babymamabear\:mx-mobile-container-padding {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .babymamabear\:mb-1\.5 {
+    margin-bottom: 12px;
+  }
+
+  .babymamabear\:ml-\[-9999px\] {
+    margin-left: -9999px;
+  }
+
+  .babymamabear\:mr-3 {
+    margin-right: 24px;
+  }
+
+  .babymamabear\:flex {
+    display: flex;
+  }
+
+  .babymamabear\:hidden {
+    display: none;
+  }
+
+  .babymamabear\:h-\[1px\] {
+    height: 1px;
+  }
+
+  .babymamabear\:h-\[48px\] {
+    height: 48px;
+  }
+
+  .babymamabear\:w-\[100vw\] {
+    width: 100vw;
+  }
+
+  .babymamabear\:w-\[1px\] {
+    width: 1px;
+  }
+
+  .babymamabear\:w-full {
+    width: 100%;
+  }
+
+  .babymamabear\:min-w-\[50px\] {
+    min-width: 50px;
+  }
+
+  .babymamabear\:basis-1\/2 {
+    flex-basis: 50%;
+  }
+
+  .babymamabear\:flex-col {
+    flex-direction: column;
+  }
+
+  .babymamabear\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .babymamabear\:bg-color-transparent {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .babymamabear\:p-0 {
+    padding: 0px;
+  }
+
+  .babymamabear\:px-mobile-container-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .babymamabear\:py-1\.5 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .mamabear\:absolute {
+    position: absolute;
+  }
+
+  .mamabear\:-top-0\.5 {
+    top: -4px;
+  }
+
+  .mamabear\:-top-1 {
+    top: -8px;
+  }
+
+  .mamabear\:right-4 {
+    right: 32px;
+  }
+
+  .mamabear\:top-\[58px\] {
+    top: 58px;
+  }
+
+  .mamabear\:mr-3 {
+    margin-right: 24px;
+  }
+
+  .mamabear\:mt-\[68px\] {
+    margin-top: 68px;
+  }
+
+  .mamabear\:hidden {
+    display: none;
+  }
+
+  .mamabear\:\!h-4 {
+    height: 32px !important;
+  }
+
+  .mamabear\:h-\[100\%\] {
+    height: 100%;
+  }
+
+  .mamabear\:\!min-h-\[32px\] {
+    min-height: 32px !important;
+  }
+
+  .mamabear\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .mamabear\:w-48 {
+    width: 384px;
+  }
+
+  .mamabear\:w-\[744px\] {
+    width: 744px;
+  }
+
+  .mamabear\:w-\[calc\(100\%-97px\)\] {
+    width: calc(100% - 97px);
+  }
+
+  .mamabear\:w-full {
+    width: 100%;
+  }
+
+  .mamabear\:min-w-0 {
+    min-width: 0px;
+  }
+
+  .mamabear\:min-w-full {
+    min-width: 100%;
+  }
+
+  .mamabear\:max-w-\[790px\] {
+    max-width: 790px;
+  }
+
+  .mamabear\:flex-shrink-0 {
+    flex-shrink: 0;
+  }
+
+  .mamabear\:flex-row {
+    flex-direction: row;
+  }
+
+  .mamabear\:items-start {
+    align-items: flex-start;
+  }
+
+  .mamabear\:items-center {
+    align-items: center;
+  }
+
+  .mamabear\:self-center {
+    align-self: center;
+  }
+
+  .mamabear\:rounded-tr-none {
+    border-top-right-radius: 0px;
+  }
+
+  .mamabear\:px-2 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .mamabear\:px-3 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .mamabear\:px-mobile-container-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .mamabear\:py-3 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .mamabear\:pt-desktop-content-top-margin {
+    padding-top: 16px;
+  }
+
+  .mamabear\:text-center {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .papamamabear\:pt-desktop-content-top-margin {
+    padding-top: 16px;
+  }
+
+  .after\:papamamabear\:\!h-\[37px\]::after {
+    content: undefined;
+    height: 37px !important;
+  }
+
+  @media (min-width: 768px) {
+    .after\:papamamabear\:\!h-\[37px\]::after {
+      content: "";
+    }
+
+    content: "".after\:papamamabear\:\!h-\[37px\]::after:content-\[\'\'\]::=
+after {
+      content: "";
+    }
+
+    .after\:papamamabear\:\!h-\[37px\]::after:content-\[\"\"\]::after {
+      content: "";
+    }
+
+    .after\:papamamabear\:up-down-divider::after {
+      display: flex;
+      height: 100%;
+      width: 1px;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.3);
+      text-align: center;
+      content: undefined;
+    }
+
+    @media (min-width: 768px) {
+      .after\:papamamabear\:up-down-divider::after {
+        content: "";
+      }
+
+      content: "".after\:papamamabear\:up-down-divider::after:content-\[\'\=
+'\]::after {
+        content: "";
+      }
+
+      .after\:papamamabear\:up-down-divider::after:content-\[\"\"\]::after =
+{
+        content: "";
+      }
+
+    }
+
+  }
+}
+@media (min-width: 992px) {
+  .papabear\:absolute {
+    position: absolute;
+  }
+
+  .papabear\:-top-1 {
+    top: -8px;
+  }
+
+  .papabear\:top-\[58px\] {
+    top: 58px;
+  }
+
+  .papabear\:\!mx-2 {
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+  }
+
+  .papabear\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .papabear\:mb-\[18px\] {
+    margin-bottom: 18px;
+  }
+
+  .papabear\:ml-column-gutter {
+    margin-left: 24px;
+  }
+
+  .papabear\:mr-2 {
+    margin-right: 16px;
+  }
+
+  .papabear\:mr-3 {
+    margin-right: 24px;
+  }
+
+  .papabear\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .papabear\:mt-0\.5 {
+    margin-top: 4px;
+  }
+
+  .papabear\:mt-\[-100px\] {
+    margin-top: -100px;
+  }
+
+  .papabear\:mt-\[68px\] {
+    margin-top: 68px;
+  }
+
+  .papabear\:inline-block {
+    display: inline-block;
+  }
+
+  .papabear\:flex {
+    display: flex;
+  }
+
+  .papabear\:hidden {
+    display: none;
+  }
+
+  .papabear\:\!h-4 {
+    height: 32px !important;
+  }
+
+  .papabear\:h-6 {
+    height: 48px;
+  }
+
+  .papabear\:h-\[100\%\] {
+    height: 100%;
+  }
+
+  .papabear\:\!min-h-\[32px\] {
+    min-height: 32px !important;
+  }
+
+  .papabear\:min-h-\[96px\] {
+    min-height: 96px;
+  }
+
+  .papabear\:w-48 {
+    width: 384px;
+  }
+
+  .papabear\:w-\[1128px\] {
+    width: 1128px;
+  }
+
+  .papabear\:w-\[219px\] {
+    width: 219px;
+  }
+
+  .papabear\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .papabear\:w-\[calc\(100\%-97px\)\] {
+    width: calc(100% - 97px);
+  }
+
+  .papabear\:w-auto {
+    width: auto;
+  }
+
+  .papabear\:w-content-max-w {
+    width: 1128px;
+  }
+
+  .papabear\:w-core-rail-width {
+    width: 784px;
+  }
+
+  .papabear\:w-right-rail-width {
+    width: calc(1128px - 24px - 784px);
+  }
+
+  .papabear\:min-w-0 {
+    min-width: 0px;
+  }
+
+  .papabear\:max-w-\[550px\] {
+    max-width: 550px;
+  }
+
+  .papabear\:flex-shrink-0 {
+    flex-shrink: 0;
+  }
+
+  .papabear\:flex-col {
+    flex-direction: column;
+  }
+
+  .papabear\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .papabear\:items-start {
+    align-items: flex-start;
+  }
+
+  .papabear\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .papabear\:justify-center {
+    justify-content: center;
+  }
+
+  .papabear\:self-start {
+    align-self: flex-start;
+  }
+
+  .papabear\:rounded-tr-none {
+    border-top-right-radius: 0px;
+  }
+
+  .papabear\:border-4 {
+    border-width: 4px;
+  }
+
+  .papabear\:p-0 {
+    padding: 0px;
+  }
+
+  .papabear\:p-details-container-padding {
+    padding: 24px;
+  }
+
+  .papabear\:py-2 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .papabear\:pt-desktop-content-top-margin {
+    padding-top: 16px;
+  }
+
+  .papabear\:text-xl {
+    font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .-md\:ml-2 {
+    margin-left: 16px;
+  }
+
+  .-md\:mt-1 {
+    margin-top: 8px;
+  }
+
+  .-md\:flex-wrap {
+    flex-wrap: wrap;
+  }
+}
+</style></head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-ca=
+nvas w-full m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; pa=
+dding: 0px; padding-top: 8px; font-family: -apple-system, system-ui, BlinkM=
+acSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Ox=
+ygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe U=
+I Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, =
+Arial, sans-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible=
+ overflow-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; m=
+ax-height: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" dat=
+a-email-preheader=3D"true">Entenda como o C# e o Visual Studio impulsionam =
+a cria=C3=A7=C3=A3o de solu=C3=A7=C3=B5es de forma=E2=80=A6</div> <div clas=
+s=3D"h-0 opacity-0 text-transparent invisible overflow-hidden w-0 max-h-[0]=
+" style=3D"visibility: hidden; height: 0px; max-height: 0; width: 0px; over=
+flow: hidden; opacity: 0; mso-hide: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table =
+role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0" width=3D"512" align=3D"center" class=3D"mercado-container w-[512=
+px] max-w-[512px] mx-auto my-0 p-0 bg-color-background-container" style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt; margin-left: auto; margin-right: auto; margi=
+n-top: 0px; margin-bottom: 0px; width: 512px; max-width: 512px; background-=
+color: #ffffff; padding: 0px;"> <tbody> <tr> <td class=3D"text-center p-3" =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; padding: 24px; text-align: center;"=
+> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" width=3D"100%" class=3D"min-w-full" style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; min-width: 100%;"> <tbody> <tr> <td align=3D"left" val=
+ign=3D"middle" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https:/=
+/www.linkedin.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_fo=
+llow_newsletter_01%3BvTTZBfE8Sp%2B1cWh1PK1qew%3D%3D&amp;midToken=3DAQHxaOsd=
+YMWJVQ&amp;midSig=3D1URs-3Y-XwZXw1&amp;trk=3Deml-email_series_follow_newsle=
+tter_01-header-0-home_glimmer_dynamic_badging_high_dpi&amp;trkEmail=3Deml-e=
+mail_series_follow_newsletter_01-header-0-home_glimmer_dynamic_badging_high=
+_dpi-null-gdb74f~m4khlb3b~pa-null-null&amp;eid=3Dgdb74f-m4khlb3b-pa&amp;otp=
+Token=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGVlYjE4OGM5ZDc0NTlhYTY4YTYxNzl=
+jNDA2NmQ0YjVkNWJmMmZlZDNkZmUwNTdmOGY5ZGQ1ZWFjZjVkMTFiNzI3NTZjZTgxOTgzYTQwYz=
+ExZGRmNTFjMzEyZCwxLDE%3D" target=3D"_blank" class=3D"w-[84px]" style=3D"col=
+or: #0a66c2; cursor: pointer; display: inline-block; text-decoration: none;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width: 84px;">=
+ <img class=3D"h-[37px] w-[101px]" alt=3D"LinkedIn" src=3D"https://www.link=
+edin.com/comm/dms/logo/v2?badgeTheme=3Dmercado&amp;lipi=3Durn%3Ali%3Apage%3=
+Aemail_email_series_follow_newsletter_01%3BvTTZBfE8Sp%2B1cWh1PK1qew%3D%3D&a=
+mp;midSig=3D1URs-3Y-XwZXw1&amp;midToken=3DAQHxaOsdYMWJVQ&amp;trkEmail=3Deml=
+-email_series_follow_newsletter_01-null-0-comms%7Ebadging%7Edynamic%7Eglimm=
+er%7Ev2-null-gdb74f%7Em4khlb3b%7Epa-null-null&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2&amp;_sig=
+=3D2Hso1kDtzwZXw1" data-test-header-dynamic-badging-img-high-dpi style=3D"o=
+utline: none; text-decoration: none; -ms-interpolation-mode: bicubic; heigh=
+t: 37px; width: 101px;" width=3D"101" height=3D"37"> </a> </td> <td valign=
+=3D"middle" align=3D"right" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tabl=
+e role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" width=3D"100%" data-test-header-profile style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt;"> <tbody> <tr> <td align=3D"right" valign=3D"middle" clas=
+s=3D"w-[32px]" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 32px;" width=
+=3D"32"> <a href=3D"https://br.linkedin.com/comm/in/fernando-ferreira-brito=
+?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BvTTZBfE=
+8Sp%2B1cWh1PK1qew%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1URs-3Y-=
+XwZXw1&amp;trk=3Deml-email_series_follow_newsletter_01-header-0-profile_gli=
+mmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-header-0-profile_=
+glimmer-null-gdb74f~m4khlb3b~pa-null-null&amp;eid=3Dgdb74f-m4khlb3b-pa&amp;=
+otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGVlYjE4OGM5ZDc0NTlhYTY4YTYx=
+NzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUwNTdmOGY5ZGQ1ZWFjZjVkMTFiNzI3NTZjZTgxOTgzYTQ=
+wYzExZGRmNTFjMzEyZCwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cur=
+sor: pointer; display: inline-block; text-decoration: none; -webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%;"> <img alt=3D"Luiz Fernando Br=
+ito Ferreira" src=3D"https://media.licdn.com/dms/image/v2/D4E03AQHtWMkj43o1=
+lA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/=
+0/1724191556445?e=3D2147483647&amp;v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB=
+92xXoc9r_1IG6EIUIKB4" class=3D"rounded-[100%] w-[32px] h-[32px]" style=3D"o=
+utline: none; text-decoration: none; -ms-interpolation-mode: bicubic; heigh=
+t: 32px; width: 32px; border-radius: 100%;" width=3D"32" height=3D"32"> </a=
+> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <=
+tr> <td class=3D"px-0 pb-3" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding=
+-left: 0px; padding-right: 0px; padding-bottom: 24px;"> <div> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr=
+> <td data-test-id=3D"newsletter-entity-lockup" class=3D"px-3 pt-1" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; padding-left: 24px; padding-right: 24px;=
+ padding-top: 8px;"> <table role=3D"presentation" valign=3D"top" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"font-sans" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, system-u=
+i, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', U=
+buntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', He=
+lvetica, Arial, sans-serif;"> <tbody> <tr> <td valign=3D"top" class=3D"pr-1=
+ w-6" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 48px; padding-right: 8=
+px;" width=3D"48"> <a href=3D"https://www.linkedin.com/comm/newsletters/700=
+2440821278953472?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslet=
+ter_01%3BvTTZBfE8Sp%2B1cWh1PK1qew%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;m=
+idSig=3D1URs-3Y-XwZXw1&amp;trk=3Deml-email_series_follow_newsletter_01-news=
+letter_entity_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-email_serie=
+s_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta-nul=
+l-gdb74f~m4khlb3b~pa-null-null&amp;eid=3Dgdb74f-m4khlb3b-pa&amp;otpToken=3D=
+MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGVlYjE4OGM5ZDc0NTlhYTY4YTYxNzljNDA2NmQ=
+0YjVkNWJmMmZlZDNkZmUwNTdmOGY5ZGQ1ZWFjZjVkMTFiNzI3NTZjZTgxOTgzYTQwYzExZGRmNT=
+FjMzEyZCwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointe=
+r; display: inline-block; text-decoration: none; -webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%;"> <img class=3D"inline-block relative bg-=
+color-entity-ghost-background w-6 h-6 rounded-md" src=3D"https://media.licd=
+n.com/dms/image/v2/D4D12AQEAoFL_9ZOGaA/series-logo_image-shrink_100_100/ser=
+ies-logo_image-shrink_100_100/0/1676114493998?e=3D2147483647&amp;v=3Dbeta&a=
+mp;t=3DJ0cA9GdNyXSecho-YeWchBUEZHNz51JplsM7AVSQvSQ" alt=3D"Abrir Assuntos d=
+e Programa=C3=A7=C3=A3o" style=3D"outline: none; text-decoration: none; -ms=
+-interpolation-mode: bicubic; position: relative; display: inline-block; he=
+ight: 48px; width: 48px; border-radius: 8px; background-color: #eae6df;" wi=
+dth=3D"48" height=3D"48"> </a> </td> <td valign=3D"top" style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D"top" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt;"> <a href=3D"https://www.linkedin.com/comm/newsletters/7002440821278=
+953472?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bv=
+TTZBfE8Sp%2B1cWh1PK1qew%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1U=
+Rs-3Y-XwZXw1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_ent=
+ity_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-email_series_follow_n=
+ewsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m=
+4khlb3b~pa-null-null&amp;eid=3Dgdb74f-m4khlb3b-pa&amp;otpToken=3DMWIwZDE3ZT=
+gxMzI4Y2JjM2I1MjQwNGVkNDUxZGVlYjE4OGM5ZDc0NTlhYTY4YTYxNzljNDA2NmQ0YjVkNWJmM=
+mZlZDNkZmUwNTdmOGY5ZGQ1ZWFjZjVkMTFiNzI3NTZjZTgxOTgzYTQwYzExZGRmNTFjMzEyZCwx=
+LDE%3D" target=3D"_blank" class=3D"no-underline" style=3D"color: #0a66c2; c=
+ursor: pointer; display: inline-block; text-decoration: none; -webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; text-decoration-line: none;"=
+> <div class=3D"pb-0.5" style=3D"padding-bottom: 4px;"> <span class=3D"text=
+-md font-bold text-color-text break-words leading-regular" style=3D"overflo=
+w-wrap: break-word; font-size: 16px; font-weight: 600; line-height: 1.25; c=
+olor: rgba(0, 0, 0, 0.9);"> Assuntos de Programa=C3=A7=C3=A3o </span> </div=
+> </a> </td> </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a hr=
+ef=3D"https://www.linkedin.com/comm/newsletters/7002440821278953472?lipi=3D=
+urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BvTTZBfE8Sp%2B1c=
+Wh1PK1qew%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1URs-3Y-XwZXw1&a=
+mp;trk=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-0-n=
+ewsletter_entity_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-n=
+ewsletter_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m4khlb3b~pa-nul=
+l-null&amp;eid=3Dgdb74f-m4khlb3b-pa&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1=
+MjQwNGVkNDUxZGVlYjE4OGM5ZDc0NTlhYTY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUwNTd=
+mOGY5ZGQ1ZWFjZjVkMTFiNzI3NTZjZTgxOTgzYTQwYzExZGRmNTFjMzEyZCwxLDE%3D" target=
+=3D"_blank" class=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer=
+; display: inline-block; text-decoration: none; -webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; text-decoration-line: none;"> <span class=
+=3D"text-xs text-color-text-low-emphasis leading-regular" style=3D"font-siz=
+e: 12px; line-height: 1.25; color: rgba(0, 0, 0, 0.6);"> Uma vis=C3=A3o =C3=
+=BAnica e acess=C3=ADvel sobre #programacao e #ti. Ideal para todos, desde =
+iniciantes at=C3=A9=E2=80=A6 </span> </a> </td> </tr> </tbody> </table> </t=
+d> </tr> </tbody> </table> </td> </tr> <tr data-test-id=3D"newsletter-conte=
+nt-preview"> <td class=3D"px-3 pt-2" style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; padding-left: 24px; padding-right: 24px; padding-top: 16px;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr=
+> <td class=3D"overflow-hidden " style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; ov=
+erflow: hidden;"> <table role=3D"presentation" valign=3D"top" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tab=
+le-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"=
+> <a href=3D"https://www.linkedin.com/comm/pulse/desenvolvimento-r%C3%A1pid=
+o-de-aplica%C3%A7%C3%B5es-rad-com-c-luciano-rocha-gfgwf?lipi=3Durn%3Ali%3Ap=
+age%3Aemail_email_series_follow_newsletter_01%3BvTTZBfE8Sp%2B1cWh1PK1qew%3D=
+%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1URs-3Y-XwZXw1&amp;trk=3Deml=
+-email_series_follow_newsletter_01-newsletter_content_preview-0-headline_&a=
+mp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_prev=
+iew-0-headline_-null-gdb74f~m4khlb3b~pa-null-null&amp;eid=3Dgdb74f-m4khlb3b=
+-pa&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGVlYjE4OGM5ZDc0NTlh=
+YTY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUwNTdmOGY5ZGQ1ZWFjZjVkMTFiNzI3NTZjZTg=
+xOTgzYTQwYzExZGRmNTFjMzEyZCwxLDE%3D" target=3D"_blank" class=3D"w-full" sty=
+le=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decorati=
+on: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width=
+: 100%;"> <img class=3D"block w-full aspect-[744/400] object-cover overflow=
+-hidden" data-test-id=3D"newsletter-content-preview__cover-image" alt=3D"Im=
+agem de capa da newsletter" src=3D"https://media.licdn.com/dms/image/v2/D4D=
+12AQEsouTq1BiUcw/article-cover_image-shrink_600_2000/article-cover_image-sh=
+rink_600_2000/0/1733879305277?e=3D2147483647&amp;v=3Dbeta&amp;t=3DxNh1j1RMD=
+30hQWeqwFCimD3bKXpqYYMCRLsMmswvez4" style=3D"outline: none; text-decoration=
+: none; -ms-interpolation-mode: bicubic; display: block; aspect-ratio: 744/=
+400; width: 100%; overflow: hidden; object-fit: cover;"> </a> </td> </tr> <=
+tr> <td class=3D"py-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top:=
+ 16px; padding-bottom: 16px;"> <table role=3D"presentation" valign=3D"top" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/desenvolvimen=
+to-r%C3%A1pido-de-aplica%C3%A7%C3%B5es-rad-com-c-luciano-rocha-gfgwf?lipi=
+=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BvTTZBfE8Sp%2=
+B1cWh1PK1qew%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1URs-3Y-XwZXw=
+1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_content_previe=
+w-0-title_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_=
+content_preview-0-title_-null-gdb74f~m4khlb3b~pa-null-null&amp;eid=3Dgdb74f=
+-m4khlb3b-pa&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGVlYjE4OGM=
+5ZDc0NTlhYTY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUwNTdmOGY5ZGQ1ZWFjZjVkMTFiNz=
+I3NTZjZTgxOTgzYTQwYzExZGRmNTFjMzEyZCwxLDE%3D" target=3D"_blank" class=3D"no=
+-underline font-medium text-sm m-0 text-system-gray-90" style=3D"cursor: po=
+inter; display: inline-block; text-decoration: none; -webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; margin: 0px; font-size: 14px; font-we=
+ight: 500; color: #282828; text-decoration-line: none;"> <h2 class=3D"m-0 t=
+ext-display-sm leading-regular text-color-text font-bold font-sans" style=
+=3D"margin: 0px; font-family: -apple-system, system-ui, BlinkMacSystemFont,=
+ 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen=
+ Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-s=
+erif; font-size: 24px; font-weight: 600; line-height: 1.25; color: rgba(0, =
+0, 0, 0.9);"> Desenvolvimento r=C3=A1pido de aplica=C3=A7=C3=B5es (RAD) com=
+ C#. </h2> </a> </td> </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" width=3D"100%" data-test-id=3D"newsletter-author-lock=
+up-redesign" class=3D"mt-1 mb-2" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; ma=
+rgin-bottom: 16px; margin-top: 8px;"> <tbody> <tr> <td valign=3D"middle" al=
+ign=3D"left" class=3D"w-3" style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 2=
+4px;" width=3D"24"> <a href=3D"https://br.linkedin.com/comm/in/lgomesroc?li=
+pi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BvTTZBfE8Sp=
+%2B1cWh1PK1qew%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1URs-3Y-XwZ=
+Xw1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_content_prev=
+iew-0-author_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newslett=
+er_content_preview-0-author_-null-gdb74f~m4khlb3b~pa-null-null&amp;eid=3Dgd=
+b74f-m4khlb3b-pa&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGVlYjE=
+4OGM5ZDc0NTlhYTY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUwNTdmOGY5ZGQ1ZWFjZjVkMT=
+FiNzI3NTZjZTgxOTgzYTQwYzExZGRmNTFjMzEyZCwxLDE%3D" target=3D"_blank" style=
+=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decoration=
+: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img =
+class=3D"inline-block relative bg-color-entity-ghost-background clip-path-c=
+ircle-50 rounded-full w-4 h-4 align-middle" src=3D"https://media.licdn.com/=
+dms/image/v2/D4D03AQGBKzwwGCtO8w/profile-displayphoto-shrink_400_400/profil=
+e-displayphoto-shrink_400_400/0/1724512888489?e=3D2147483647&amp;v=3Dbeta&a=
+mp;t=3Df_F8B0V_td8yAyAD-TWA-cA4NYBQXlFvWOf0W7VO-H0" alt=3D"Imagem do autor"=
+ style=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bic=
+ubic; position: relative; display: inline-block; height: 32px; width: 32px;=
+ border-radius: 9999px; background-color: #eae6df; vertical-align: middle; =
+clip-path: circle(50%);" width=3D"32" height=3D"32"> </a> </td> <td style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://br.linkedin.com/com=
+m/in/lgomesroc?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslette=
+r_01%3BvTTZBfE8Sp%2B1cWh1PK1qew%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;mid=
+Sig=3D1URs-3Y-XwZXw1&amp;trk=3Deml-email_series_follow_newsletter_01-newsle=
+tter_content_preview-0-author_&amp;trkEmail=3Deml-email_series_follow_newsl=
+etter_01-newsletter_content_preview-0-author_-null-gdb74f~m4khlb3b~pa-null-=
+null&amp;eid=3Dgdb74f-m4khlb3b-pa&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1Mj=
+QwNGVkNDUxZGVlYjE4OGM5ZDc0NTlhYTY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUwNTdmO=
+GY5ZGQ1ZWFjZjVkMTFiNzI3NTZjZTgxOTgzYTQwYzExZGRmNTFjMzEyZCwxLDE%3D" target=
+=3D"_blank" class=3D"no-underline ml-1" style=3D"color: #0a66c2; cursor: po=
+inter; display: inline-block; text-decoration: none; -webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; margin-left: 8px; text-decoration-lin=
+e: none;"> <span class=3D"font-sans font-bold text-sm mb-3 text-color-text-=
+low-emphasis leading-regular" style=3D"margin-bottom: 24px; font-family: -a=
+pple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica =
+Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans',=
+ 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'=
+, 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 14px; font-weig=
+ht: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.6);"> Luciano Rocha </sp=
+an> </a> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"pb-1" =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px;"> <div class=
+=3D"p-3 bg-color-surface-tint rounded-md font-sans" data-test-id=3D"newslet=
+ter-cta-banner" style=3D"border-radius: 8px; background-color: #f5f7f9; pad=
+ding: 24px; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Seg=
+oe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans=
+', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe U=
+I Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;=
+"> <div class=3D"mb-1.5" style=3D"margin-bottom: 12px;"> <span class=3D"tex=
+t-md leading-regular font-bold text-color-text" style=3D"font-size: 16px; f=
+ont-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Leia este =
+artigo no LinkedIn para participar da conversa </span> </div> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" class=3D"email-button " data-test-id=3D"email-button"=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=3D"middl=
+e" align=3D"left" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"http=
+s://www.linkedin.com/comm/pulse/desenvolvimento-r%C3%A1pido-de-aplica%C3%A7=
+%C3%B5es-rad-com-c-luciano-rocha-gfgwf?lipi=3Durn%3Ali%3Apage%3Aemail_email=
+_series_follow_newsletter_01%3BvTTZBfE8Sp%2B1cWh1PK1qew%3D%3D&amp;midToken=
+=3DAQHxaOsdYMWJVQ&amp;midSig=3D1URs-3Y-XwZXw1&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-newsletter_content_preview-0-read_more_banner_cta_&amp;t=
+rkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-=
+0-read_more_banner_cta_-null-gdb74f~m4khlb3b~pa-null-null&amp;eid=3Dgdb74f-=
+m4khlb3b-pa&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGVlYjE4OGM5=
+ZDc0NTlhYTY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUwNTdmOGY5ZGQ1ZWFjZjVkMTFiNzI=
+3NTZjZTgxOTgzYTQwYzExZGRmNTFjMzEyZCwxLDE%3D" target=3D"_blank" aria-label=
+=3D"Abrir este artigo no LinkedIn" class=3D"align-top no-underline " style=
+=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decoration=
+: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; vertica=
+l-align: top; text-decoration-line: none;"> <table role=3D"presentation" va=
+lign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"auto=
+" class=3D"border-separate " style=3D"-webkit-text-size-adjust: 100%; -ms-t=
+ext-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border=
+-collapse: separate;"> <tbody> <tr> <td class=3D"btn-sm btn-primary border-=
+color-brand button-link leading-regular !min-h-[auto] !shadow-none border-1=
+ border-solid" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: min-content;=
+ border-radius: 24px; padding-top: 7px; padding-bottom: 7px; padding-left: =
+16px; padding-right: 16px; text-align: center; font-size: 14px; font-weight=
+: 600; cursor: pointer; text-decoration-line: none; background-color: #0a66=
+c2; color: #ffffff; border-width: 1px; border-style: solid; border-color: #=
+0a66c2; line-height: 1.25; min-height: auto !important; box-shadow: 0 0 #00=
+00, 0 0 #0000, 0 0 #0000 !important;"> <a href=3D"https://www.linkedin.com/=
+comm/pulse/desenvolvimento-r%C3%A1pido-de-aplica%C3%A7%C3%B5es-rad-com-c-lu=
+ciano-rocha-gfgwf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsle=
+tter_01%3BvTTZBfE8Sp%2B1cWh1PK1qew%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;=
+midSig=3D1URs-3Y-XwZXw1&amp;trk=3Deml-email_series_follow_newsletter_01-new=
+sletter_content_preview-0-read_more_banner_cta_&amp;trkEmail=3Deml-email_se=
+ries_follow_newsletter_01-newsletter_content_preview-0-read_more_banner_cta=
+_-null-gdb74f~m4khlb3b~pa-null-null&amp;eid=3Dgdb74f-m4khlb3b-pa&amp;otpTok=
+en=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGVlYjE4OGM5ZDc0NTlhYTY4YTYxNzljND=
+A2NmQ0YjVkNWJmMmZlZDNkZmUwNTdmOGY5ZGQ1ZWFjZjVkMTFiNzI3NTZjZTgxOTgzYTQwYzExZ=
+GRmNTFjMzEyZCwxLDE%3D" target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"tru=
+e" class=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; display=
+: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; text-decoration-line: none;"> <span class=3D"no-und=
+erline text-white" style=3D"color: #ffffff; text-decoration-line: none;"> L=
+er no LinkedIn </span> </a> </td> </tr> </tbody> </table> </a> </td> </tr> =
+</tbody> </table> </div> </td> </tr> <tr data-test-id=3D"newsletter-content=
+-preview--content"> <td class=3D"series-article-body" style=3D"-webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt; font-family: -apple-system, system-ui, BlinkMacSystemFon=
+t, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxyg=
+en Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', '=
+Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans=
+-serif; font-size: 16px; line-height: 1.5; color: rgba(0, 0, 0, 0.9);"> <h3=
+ style=3D"margin: 0; margin-left: 0px; margin-right: 0px; margin-top: 8px; =
+margin-bottom: 4px; font-size: 16px; font-weight: 600; line-height: 1.25; l=
+etter-spacing: -0.02em; color: rgba(0, 0, 0, 0.9);">Entenda como o C# e o V=
+isual Studio impulsionam a cria=C3=A7=C3=A3o de solu=C3=A7=C3=B5es de forma=
+ =C3=A1gil e eficiente.</h3><p style=3D"margin: 0; font-weight: 400; margin=
+-top: 0.8em; font-size: 1em; line-height: 1.5;"></p><p style=3D"margin: 0; =
+font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">O D=
+esenvolvimento R=C3=A1pido de Aplica=C3=A7=C3=B5es (RAD), ou Rapid Applicat=
+ion Development, =C3=A9 <strong>uma metodologia que visa criar sistemas fun=
+cionais em curtos per=C3=ADodos de tempo</strong>. Ao longo dos anos, ferra=
+mentas e linguagens de programa=C3=A7=C3=A3o evolu=C3=ADram para suportar e=
+ssa abordagem. Entre elas, o C#, combinado com o ambiente de desenvolviment=
+o Visual Studio, se destaca pela capacidade de otimizar processos e simplif=
+icar etapas.</p><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em;=
+ font-size: 1em; line-height: 1.5;">Neste artigo, voc=C3=AA encontrar=C3=A1=
+ uma vis=C3=A3o detalhada sobre como o C# viabiliza o RAD, seus componentes=
+ principais, benef=C3=ADcios, limita=C3=A7=C3=B5es e exemplos pr=C3=A1ticos=
+. Se voc=C3=AA busca entender como essa abordagem pode se aplicar ao seu co=
+ntexto de desenvolvimento, este conte=C3=BAdo foi feito para voc=C3=AA.</p>=
+<p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em;=
+ line-height: 1.5;"></p><h2 style=3D"margin: 0; margin-left: 0px; margin-ri=
+ght: 0px; margin-top: 8px; margin-bottom: 8px; font-size: 20px; font-weight=
+: 600; line-height: 1.25; letter-spacing: -0.02em; color: rgba(0, 0, 0, 0.9=
+);">=C3=8Dndice</h2><ul style=3D"margin-top: 1em; margin-right: 0px; margin=
+-bottom: 0px; margin-left: 1.5em; display: block; padding: 0px;"><li style=
+=3D"margin-left: 1em; font-size: 1em; line-height: 1.5; letter-spacing: -0.=
+15%; color: #282828;"><p style=3D"margin: 0; font-weight: 400; margin-top: =
+0.8em; font-size: 1em; line-height: 1.5;"><strong>O que =C3=A9 RAD?</strong=
+></p></li><li style=3D"margin-left: 1em; font-size: 1em; line-height: 1.5; =
+letter-spacing: -0.15%; color: #282828;"><p style=3D"margin: 0; font-weight=
+: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;"><strong>Caract=
+er=C3=ADsticas do RAD com C#</strong></p></li><li style=3D"margin-left: 1em=
+; font-size: 1em; line-height: 1.5; letter-spacing: -0.15%; color: #282828;=
+"><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1e=
+m; line-height: 1.5;"><strong>Para que serve essa metodologia?</strong></p>=
+</li><li style=3D"margin-left: 1em; font-size: 1em; line-height: 1.5; lette=
+r-spacing: -0.15%; color: #282828;"><p style=3D"margin: 0; font-weight: 400=
+; margin-top: 0.8em; font-size: 1em; line-height: 1.5;"><strong>Como criar =
+aplica=C3=A7=C3=B5es: sintaxe para controllers</strong></p></li><li style=
+=3D"margin-left: 1em; font-size: 1em; line-height: 1.5; letter-spacing: -0.=
+15%; color: #282828;"><p style=3D"margin: 0; font-weight: 400; margin-top: =
+0.8em; font-size: 1em; line-height: 1.5;"><strong>Benef=C3=ADcios do RAD co=
+m C#</strong></p></li><li style=3D"margin-left: 1em; font-size: 1em; line-h=
+eight: 1.5; letter-spacing: -0.15%; color: #282828;"><p style=3D"margin: 0;=
+ font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;"><s=
+trong>Desvantagens dessa abordagem</strong></p></li><li style=3D"margin-lef=
+t: 1em; font-size: 1em; line-height: 1.5; letter-spacing: -0.15%; color: #2=
+82828;"><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-si=
+ze: 1em; line-height: 1.5;"><strong>Exemplos</strong></p></li><li style=3D"=
+margin-left: 1em; font-size: 1em; line-height: 1.5; letter-spacing: -0.15%;=
+ color: #282828;"><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8e=
+m; font-size: 1em; line-height: 1.5;"><strong>Conclus=C3=A3o</strong></p></=
+li></ul><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-si=
+ze: 1em; line-height: 1.5;"></p><h2 style=3D"margin: 0; margin-left: 0px; m=
+argin-right: 0px; margin-top: 8px; margin-bottom: 8px; font-size: 20px; fon=
+t-weight: 600; line-height: 1.25; letter-spacing: -0.02em; color: rgba(0, 0=
+, 0, 0.9);">O que =C3=A9 RAD?</h2><p style=3D"margin: 0; font-weight: 400; =
+margin-top: 0.8em; font-size: 1em; line-height: 1.5;">RAD =C3=A9 uma<strong=
+> metodologia de desenvolvimento de software que prioriza agilidade na cria=
+=C3=A7=C3=A3o de aplica=C3=A7=C3=B5es, permitindo itera=C3=A7=C3=B5es r=C3=
+=A1pidas e entregas frequentes</strong>. Em vez de se basear em longos cicl=
+os de desenvolvimento, o RAD valoriza a<strong> prototipa=C3=A7=C3=A3o e a =
+adapta=C3=A7=C3=A3o conforme as necessidades surgem.</strong></p><p style=
+=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-he=
+ight: 1.5;">No contexto do C#, o RAD =C3=A9 potencializado pelas ferramenta=
+s visuais e pela biblioteca rica que o Visual Studio oferece. Ao permitir q=
+ue desenvolvedores criem interfaces gr=C3=A1ficas com simples a=C3=A7=C3=B5=
+es de arrastar e soltar,...</p> </td> </tr> <tr> <td class=3D"pt-2 no-under=
+line" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 16px; text-decor=
+ation-line: none;"> <table role=3D"presentation" valign=3D"top" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"email-button =
+series-content-preview__bottom-cta" data-test-id=3D"email-button" style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=3D"middle" align=
+=3D"left" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.=
+linkedin.com/comm/pulse/desenvolvimento-r%C3%A1pido-de-aplica%C3%A7%C3%B5es=
+-rad-com-c-luciano-rocha-gfgwf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_=
+follow_newsletter_01%3BvTTZBfE8Sp%2B1cWh1PK1qew%3D%3D&amp;midToken=3DAQHxaO=
+sdYMWJVQ&amp;midSig=3D1URs-3Y-XwZXw1&amp;trk=3Deml-email_series_follow_news=
+letter_01-newsletter_content_preview-0-readmore_button_&amp;trkEmail=3Deml-=
+email_series_follow_newsletter_01-newsletter_content_preview-0-readmore_but=
+ton_-null-gdb74f~m4khlb3b~pa-null-null&amp;eid=3Dgdb74f-m4khlb3b-pa&amp;otp=
+Token=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGVlYjE4OGM5ZDc0NTlhYTY4YTYxNzl=
+jNDA2NmQ0YjVkNWJmMmZlZDNkZmUwNTdmOGY5ZGQ1ZWFjZjVkMTFiNzI3NTZjZTgxOTgzYTQwYz=
+ExZGRmNTFjMzEyZCwxLDE%3D" target=3D"_blank" aria-label=3D"Abrir Assuntos de=
+ Programa=C3=A7=C3=A3o no LinkedIn" class=3D"align-top no-underline " style=
+=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decoration=
+: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; vertica=
+l-align: top; text-decoration-line: none; width: 100%;"> <table role=3D"pre=
+sentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" class=3D"border-separate " style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; border-collapse: separate; width: 100%;"> <tbody> <tr> <td class=3D"=
+btn-md btn-secondary-emphasis border-color-brand button-link leading-regula=
+r !min-h-[auto] !shadow-none border-1 border-solid font-sans" data-test-id=
+=3D"newsletter-content-preview-redesign-bottom-cta" style=3D"-webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt; height: min-content; border-radius: 24px; padding-top: 12p=
+x; padding-bottom: 12px; padding-left: 24px; padding-right: 24px; text-alig=
+n: center; font-size: 16px; font-weight: 600; cursor: pointer; text-decorat=
+ion-line: none; background-color: rgba(0, 0, 0, 0); color: #0a66c2; border-=
+width: 1px; border-style: solid; border-color: #0a66c2; font-family: -apple=
+-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue=
+', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Ap=
+ple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'L=
+ucida Grande', Helvetica, Arial, sans-serif; line-height: 1.25; min-height:=
+ auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;">=
+ <a href=3D"https://www.linkedin.com/comm/pulse/desenvolvimento-r%C3%A1pido=
+-de-aplica%C3%A7%C3%B5es-rad-com-c-luciano-rocha-gfgwf?lipi=3Durn%3Ali%3Apa=
+ge%3Aemail_email_series_follow_newsletter_01%3BvTTZBfE8Sp%2B1cWh1PK1qew%3D%=
+3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1URs-3Y-XwZXw1&amp;trk=3Deml-=
+email_series_follow_newsletter_01-newsletter_content_preview-0-readmore_but=
+ton_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_conten=
+t_preview-0-readmore_button_-null-gdb74f~m4khlb3b~pa-null-null&amp;eid=3Dgd=
+b74f-m4khlb3b-pa&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGVlYjE=
+4OGM5ZDc0NTlhYTY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUwNTdmOGY5ZGQ1ZWFjZjVkMT=
+FiNzI3NTZjZTgxOTgzYTQwYzExZGRmNTFjMzEyZCwxLDE%3D" target=3D"_blank" tabinde=
+x=3D"-1" aria-hidden=3D"true" class=3D"no-underline" style=3D"color: #0a66c=
+2; cursor: pointer; display: inline-block; text-decoration: none; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decoration-line: no=
+ne; width: 100%;"> <span class=3D"no-underline text-color-brand" style=3D"c=
+olor: #0a66c2; text-decoration-line: none;"> Continue lendo no LinkedIn </s=
+pan> </a> </td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </table> =
+</td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </t=
+body> </table> </td> </tr> </tbody> </table> </div> </td> </tr> <tr> <td cl=
+ass=3D"bg-color-background-canvas p-3" style=3D"-webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt; background-color: #f3f2f0; padding: 24px;"> <table role=3D"presentation=
+" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"=
+100%" class=3D"text-xs" style=3D"-webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: =
+12px;"> <tbody> <tr> <td class=3D"pb-1 m-0" data-test-id=3D"email-footer__i=
+ntended" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-botto=
+m: 8px;"> Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stac=
+k Developer | HTML | CSS | JS | React.js | Node.js | Python) </td> </tr> <t=
+r> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0=
+px; padding-bottom: 8px;"> <a href=3D"https://www.linkedin.com/help/linkedi=
+n/answer/4788?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_fol=
+low_newsletter_01%3BvTTZBfE8Sp%2B1cWh1PK1qew%3D%3D&amp;midToken=3DAQHxaOsdY=
+MWJVQ&amp;midSig=3D1URs-3Y-XwZXw1&amp;trk=3Deml-email_series_follow_newslet=
+ter_01-SecurityHelp-0-footerglimmer&amp;trkEmail=3Deml-email_series_follow_=
+newsletter_01-SecurityHelp-0-footerglimmer-null-gdb74f~m4khlb3b~pa-null-nul=
+l&amp;eid=3Dgdb74f-m4khlb3b-pa&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwN=
+GVkNDUxZGVlYjE4OGM5ZDc0NTlhYTY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUwNTdmOGY5=
+ZGQ1ZWFjZjVkMTFiNzI3NTZjZTgxOTgzYTQwYzExZGRmNTFjMzEyZCwxLDE%3D" target=3D"_=
+blank" class=3D"text-inherit underline" style=3D"cursor: pointer; display: =
+inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; color: inherit; text-decoration-line: underline;">Sai=
+ba por que inclu=C3=ADmos isso.</a> </td> </tr> <tr> <td class=3D"pb-1 m-0"=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"=
+>Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn=
+. Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.</td> </tr> <tr> =
+<td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px;=
+ padding-bottom: 8px;"> <a href=3D"https://www.linkedin.com/comm/series-not=
+ifications/?action=3Dunsubscribe&amp;memberToken=3DADoAADr_Zc8BliE63H4nkhqY=
+_TxFq4e-Y9whjlY&amp;newsletterId=3D7002440821278953472&amp;newsletterTitle=
+=3DAssuntos%20de%20Programa%C3%A7%C3%A3o&amp;lipi=3Durn%3Ali%3Apage%3Aemail=
+_email_series_follow_newsletter_01%3BvTTZBfE8Sp%2B1cWh1PK1qew%3D%3D&amp;mid=
+Token=3DAQHxaOsdYMWJVQ&amp;midSig=3D1URs-3Y-XwZXw1&amp;trk=3Deml-email_seri=
+es_follow_newsletter_01-unsubscribe-0-footerGlimmer&amp;trkEmail=3Deml-emai=
+l_series_follow_newsletter_01-unsubscribe-0-footerGlimmer-null-gdb74f~m4khl=
+b3b~pa-null-null&amp;eid=3Dgdb74f-m4khlb3b-pa&amp;otpToken=3DMWIwZDE3ZTgxMz=
+I4Y2JjM2I1MjQwNGVkNDUxZGVlYjE4OGM5ZDc0NTlhYTY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZ=
+DNkZmUwNTdmOGY5ZGQ1ZWFjZjVkMTFiNzI3NTZjZTgxOTgzYTQwYzExZGRmNTFjMzEyZCwxLDE%=
+3D" target=3D"_blank" class=3D"text-inherit underline" style=3D"cursor: poi=
+nter; display: inline-block; text-decoration: none; -webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; color: inherit; text-decoration-line: =
+underline;">Cancelar inscri=C3=A7=C3=A3o</a> =C2=A0=C2=A0=C2=B7=C2=A0=C2=A0=
+ <a href=3D"https://www.linkedin.com/help/linkedin/answer/67?lang=3Dpt&amp;=
+lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BvTTZBfE8=
+Sp%2B1cWh1PK1qew%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1URs-3Y-X=
+wZXw1&amp;trk=3Deml-email_series_follow_newsletter_01-help-0-footerglimmer&=
+amp;trkEmail=3Deml-email_series_follow_newsletter_01-help-0-footerglimmer-n=
+ull-gdb74f~m4khlb3b~pa-null-null&amp;eid=3Dgdb74f-m4khlb3b-pa&amp;otpToken=
+=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGVlYjE4OGM5ZDc0NTlhYTY4YTYxNzljNDA2=
+NmQ0YjVkNWJmMmZlZDNkZmUwNTdmOGY5ZGQ1ZWFjZjVkMTFiNzI3NTZjZTgxOTgzYTQwYzExZGR=
+mNTFjMzEyZCwxLDE%3D" target=3D"_blank" class=3D"text-inherit underline" sty=
+le=3D"cursor: pointer; display: inline-block; text-decoration: none; -webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: inherit; text-=
+decoration-line: underline;">Ajuda</a> </td> </tr> <tr> <td class=3D"pb-1" =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px;"> <a href=3D"h=
+ttps://www.linkedin.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_ser=
+ies_follow_newsletter_01%3BvTTZBfE8Sp%2B1cWh1PK1qew%3D%3D&amp;midToken=3DAQ=
+HxaOsdYMWJVQ&amp;midSig=3D1URs-3Y-XwZXw1&amp;trk=3Deml-email_series_follow_=
+newsletter_01-footer-0-logoGlimmer&amp;trkEmail=3Deml-email_series_follow_n=
+ewsletter_01-footer-0-logoGlimmer-null-gdb74f~m4khlb3b~pa-null-null&amp;eid=
+=3Dgdb74f-m4khlb3b-pa&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZG=
+VlYjE4OGM5ZDc0NTlhYTY4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUwNTdmOGY5ZGQ1ZWFjZ=
+jVkMTFiNzI3NTZjZTgxOTgzYTQwYzExZGRmNTFjMzEyZCwxLDE%3D" target=3D"_blank" st=
+yle=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decorat=
+ion: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <i=
+mg src=3D"https://static.licdn.com/aero-v1/sc/h/9ehe6n39fa07dc5edzv0rla4e" =
+alt=3D"LinkedIn" class=3D"block h-[14px] w-[56px] image-rendering-crisp" st=
+yle=3D"outline: none; text-decoration: none; image-rendering: -moz-crisp-ed=
+ges; image-rendering: -o-crisp-edges; image-rendering: -webkit-optimize-con=
+trast; image-rendering: crisp-edges; -ms-interpolation-mode: nearest-neighb=
+or; display: block; height: 14px; width: 56px;" width=3D"56" height=3D"14">=
+ </a> </td> </tr> <tr> <td data-test-copyright-text style=3D"-webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt;"> =C2=A9 2024 LinkedIn Ireland Unlimited Company, Wilton P=
+laza, Wilton Place, Dublin 2 - Irlanda. LinkedIn =C3=A9 um nome comercial r=
+egistrado da LinkedIn Ireland Unlimited Company. <span data-test-trademarks=
+-text> LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedI=
+n. </span> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> <img=
+ alt role=3D"presentation" src=3D"https://www.linkedin.com/emimp/ip_WjJSaU5=
+6Um1MVzAwYTJoc1lqTmlMWEJoOlpXMWhhV3hmYzJWeWFXVnpYMlp2Ykd4dmQxOXVaWGR6YkdWMG=
+RHVnlYekF4OmRYSnVPbXhwT214cGJtdGxaRWx1UVhKMGFXTnNaVG8zTWpFNU1EUXhNVFE1TWpJM=
+U56VTBOakkw.gif" style=3D"outline: none; text-decoration: none; -ms-interpo=
+lation-mode: bicubic; width: 1px; height: 1px;" width=3D"1" height=3D"1"> <=
+/body> </html>
+------=_Part_3948302_514532277.1733957774913--
+

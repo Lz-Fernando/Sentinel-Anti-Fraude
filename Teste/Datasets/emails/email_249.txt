@@ -1,0 +1,784 @@
+X-GM-THRID: 1815838252315505991
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categoria:_promo=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:f23:b0:286:45bc:92ab with SMTP id fm35csp1412951ysc;
+        Fri, 15 Nov 2024 16:51:43 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IHgn2SHJX9acVxCjUJx+KrC5kSSuqrblwNuo6a8p4cL4rPpL67gyuvSjjs8uCmdIB4R1oGq
+X-Received: by 2002:a05:622a:1308:b0:461:4f9a:5f1 with SMTP id d75a77b69052e-46363ec6babmr60136661cf.47.1731718303777;
+        Fri, 15 Nov 2024 16:51:43 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1731718303; cv=none;
+        d=google.com; s=arc-20240605;
+        b=Vw/VAcY9qoKmux1zb/H9wLLJXHhXZ1lP8r5sIANkzLFHyQJkqqEWhBKH3nx5oqg6pd
+         EVKBOafTelKc0WRmdadIHOoMTPaLuaiiqhjHktBz+Mjk7jCqSnwm2UOJlJY6s0m2d9S6
+         27g6gS4mzK3NqR3thcEHbD4aBmDFe8aK3hlibJjbcpVZsmvz/Focs6mfCToaK6YsQLC4
+         ob2F4eDbqVsBGBucrSWhN0kQrjALm7vSiONhFTJefR2Fpxtayl9XsdcnxoGq4AX/aUEl
+         9+a9A/eRGbENH8UGXnTADE5mYicSP3gZXNnkyjt/ymsmfPXxmObPyMfR4AIvGhM+DDv8
+         kN+g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:mime-version:from:date:dkim-signature
+         :dkim-signature;
+        bh=ZDOGZsjI18gdcKYZhVCZjb7FsaRa83d6G7Wz2tdhdX8=;
+        fh=dGXIOxQ4ARQXBYVLXR3NTxQGfeHYeBENqRo82eNKSU4=;
+        b=jTTleXVyd4eWfJctv3/hAKarksLujMlQ6SfP8KRKTv2U7KMDDti2GuEt5KeAaFqJQJ
+         X2w97VivXZZOxTf2kzlMnpid7eVbEG7QUPdFLOw6NH5/LoyxvHqWAyE1oCKh3L6KhO56
+         BTZMtwH3knMY9012MN+8t4b138XVWIn+qvlLwn922bj7gr6+s2o6zU2QjSXjXASe0jMc
+         TSaNHbhnIHsTfjU7k8Rl/IxpTqT3fVPzrAOUusdVQ9Pw/9sDmsNOT5TwLQnG4/0cJLjs
+         j57BmBq0koajOUUsd7/pIczT2enFDCGQqyat7RSbLY+1DqPnCVEQSiFK3dmTlJ11pCNb
+         6Y4A==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@solucx.com.br header.s=s1 header.b=b0cNvk5f;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=HpjGKOPJ;
+       spf=pass (google.com: domain of bounces+5878285-3ba8-nandobritoferreira=gmail.com@sd.solucx.com.br designates 149.72.165.135 as permitted sender) smtp.mailfrom="bounces+5878285-3ba8-nandobritoferreira=gmail.com@sd.solucx.com.br";
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=solucx.com.br
+Return-Path: <bounces+5878285-3ba8-nandobritoferreira=gmail.com@sd.solucx.com.br>
+Received: from o3.send1.solucx.com.br (o3.send1.solucx.com.br. [149.72.165.135])
+        by mx.google.com with ESMTPS id af79cd13be357-7b35c992d26si502741985a.166.2024.11.15.16.51.43
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Fri, 15 Nov 2024 16:51:43 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+5878285-3ba8-nandobritoferreira=gmail.com@sd.solucx.com.br designates 149.72.165.135 as permitted sender) client-ip=149.72.165.135;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@solucx.com.br header.s=s1 header.b=b0cNvk5f;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=HpjGKOPJ;
+       spf=pass (google.com: domain of bounces+5878285-3ba8-nandobritoferreira=gmail.com@sd.solucx.com.br designates 149.72.165.135 as permitted sender) smtp.mailfrom="bounces+5878285-3ba8-nandobritoferreira=gmail.com@sd.solucx.com.br";
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=solucx.com.br
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=solucx.com.br;
+	h=content-type:from:mime-version:subject:x-feedback-id:to:cc:
+	content-type:from:subject:to;
+	s=s1; bh=ZDOGZsjI18gdcKYZhVCZjb7FsaRa83d6G7Wz2tdhdX8=;
+	b=b0cNvk5fnOEGBh4EE2hFg2oeJupnDlGstTAffp/cAputGe571wxKoBIwDaW+nV657ryo
+	RirxAQub7wg9GE2aMTvcDSRtY3FCUpaLfs4/B1cSs1WKiaWajuxEixpxL5LiHoh4aQ2Gf0
+	xaKnz+Kff/BpHwsIsnbOkFzEeiPeJFV1Rk+4jqnkqDE6tXgF+prpnpFmHkCcFuiRjOLhyX
+	zoQ6QDFZRxvs9BVcYB4+4EoqUXFebwySPIJYax+KiYqZEcomI+/vF+QeT7KBj7LNI6qlmC
+	3HeVMGR+GqF66l7KjWX7lo4LUoIVshZGbjcL+gGj0jsWPfmDu/Z8z2t2pZcxYVXg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=content-type:from:mime-version:subject:x-feedback-id:to:cc:
+	content-type:from:subject:to;
+	s=smtpapi; bh=ZDOGZsjI18gdcKYZhVCZjb7FsaRa83d6G7Wz2tdhdX8=;
+	b=HpjGKOPJbj44kOn9uIuzlRdqNnSz0sayTWgkhTXf+G+RXzvrEuCtk81fAqD06HuRKmpE
+	D2vC2BITsIGbvqhh+Evva7cLoYrj5iuy20KwG0T73rhYHwvRVtdtjnriXfNDHEiDzkEGZ9
+	YLPdXUFXQsTTctRed8KOxKz79ehvHyqYU=
+Received: by recvd-6b669b7d6c-rp4nb with SMTP id recvd-6b669b7d6c-rp4nb-1-6737EC9E-42
+	2024-11-16 00:51:42.670249269 +0000 UTC m=+98956.410746239
+Received: from NTg3ODI4NQ (unknown)
+	by geopod-ismtpd-25 (SG) with HTTP
+	id eGyzgYQgRZ-as7u-P3tWMA
+	Sat, 16 Nov 2024 00:51:42.614 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=b05f78abc31e96062cc46d68d07e92128063dbf6c2fef862b00675ab056f
+Date: Sat, 16 Nov 2024 00:51:42 +0000 (UTC)
+From: Burger King <faleconosco@solucx.com.br>
+Mime-Version: 1.0
+Message-ID: <eGyzgYQgRZ-as7u-P3tWMA@geopod-ismtpd-25>
+Subject: Luiz, avalie sua =?UTF-8?Q?experi=C3=AAncia?= no BK
+X-Feedback-ID: 5878285:SG
+X-SG-EID: 
+ =?us-ascii?Q?u001=2E1J+ggABwPDGTNOhztQZM85Q7W=2F=2FPJSVu7Gdp1CKrStf4LG4Ag1pYUFx=2Fo?=
+ =?us-ascii?Q?KKSTbS7flB8Gy9SADr977Sxo7uPT51r6Jr2xt2K?=
+ =?us-ascii?Q?1=2FJc3IdnLzNMAYS8sGtjIpyq8URnZCGoTJxgEoA?=
+ =?us-ascii?Q?0lIHpJ3PTOf8hCXQvNzRT1iyufA=2F6fCAwVsoPxh?=
+ =?us-ascii?Q?5yGuQE+30LDEL8cNoZ1U4N29lIeI1cRdqnDkUFo?=
+ =?us-ascii?Q?7YqOOGu52MQ1ULFdBDK8PoFoy1r3Iv+7Ju2pb=2FQ?= =?us-ascii?Q?BPIY?=
+To: Luiz Fernando <nandobritoferreira@gmail.com>
+X-Entity-ID: u001.4MNQ+s0i7PokBp/aaQFQXA==
+
+--b05f78abc31e96062cc46d68d07e92128063dbf6c2fef862b00675ab056f
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=iso-8859-1
+Mime-Version: 1.0
+
+O BK quer te ouvir
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IPJe-2FyEsrdtDUfC3DzXpFEmXgwGZOCuS8llhXxFmYB1VOh44_sOkiSdg45xV2z-2F2myqjOqS=
+k8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6PDwaJv40=
+GnXL-2FvEjowrlyyJefPVy8K8bXgmCufU86J6IcNfrer5WV2L60RwS-2BooBVad8lJfM39o3sA5=
+v903GJOQzTQKW-2BlZjeTBJQzptWTaD6B3WXvnpaEoiTwwVonZTg-3D-3D
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IPJe-2FyEsrdtDUfC3DzXpFEmBZA2Ltd-2B2D6YC3O5u7cx0D_Mv_sOkiSdg45xV2z-2F2myqjO=
+qSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6Ec11mF=
+wIx02koHTDMI-2Fg9yry5WlSjL6iqx89B0gNmOCI91GD7LIrW8ZRqJH1jCMnWjxHdMQNHB97xM1=
+jW3s-2BzGociB7p8okDQoFpLtdIm1-2BzZB7nphhGKw-2FpwNrzSuAyA-3D-3D
+
+Luiz, com base na sua experi=EAncia no Burger King RIOMAR SHOPPING ARACAJU,=
+ em uma escala de 0 a 10, quanto voc=EA indicaria o BK pra algu=E9m?
+
+Data da compra: 15/11/2024
+Restaurante: RIOMAR SHOPPING ARACAJU=20
+Ocasi=E3o: Compra no Totem
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNpDadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw=
+2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7Wyrytcnpik-2BjvKVVPcRBd2u7UQ-3D-3DYj-C_sOkiS=
+dg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2=
+B7KZFu6TMA6Lj3LNonibSbUTCASwflGxtZmqoa-2BnkKsP7ZIXz0M94MpOICYsBrzb2zDrtnJ3a=
+Z3ImJSTbHoQGdMABeUSDkrfEv0S5W6j1iOGCS0fCdyppwmvcv6MK6xVQRmNt6p3mcNg-3D-3D
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNpDadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw=
+2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7WyryASBWxKRhkUwXl5ZtRfl0LQ-3D-3Dk27v_sOkiSdg=
+45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7=
+KZFu6TMA6Gqf-2F5UsgfFmvJKV8lxZHKLv-2Fz83VFzGuPmog4lc-2BBnUT8xCSfacFTeOYYKoD=
+W6kCo9rkmH6qiHUchGqXrnQZ6BuFz0ZByQDbA7Tw-2Bo66ZdKtvPxstoKYEqKCcjpQW6ZGw-3D-=
+3D
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNpDadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw=
+2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7WyryCWQnJkk6WHdRYVB2cnyizQ-3D-3Dh-Ay_sOkiSdg=
+45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7=
+KZFu6TMA6E0TTNh-2FY4JWhbY8dOM2yh0OKliDmN-2FZ0HirS8jSFdbbrVZxDYnLL3oY4Fn9Eqn=
+KlQY7UDuOtshPsE1F1JKdek1koGR8J0-2F3UZ6sf1nZNcBz4fQxZNM8cs27zZROwW4cSA-3D-3D
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNpDadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw=
+2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7WyryBDDAvUKcEuIgx3fPRiuviA-3D-3Dgt-m_sOkiSdg=
+45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7=
+KZFu6TMA6H8luV-2FK2-2F72sARbinyFnYUUPrrXH62UPxJj-2BIxg66naEyCoONJhjpBVGM2Ub=
+yZ2VXXN1Y-2BoEVek6VW56ZfZ1J-2BihO3PmEWvX9dvcGvT9QKGHHZADKSDKA49XVrjsnGcgA-3=
+D-3D
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNpDadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw=
+2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7Wyryx3MdcHC-2FK55xWR9hgeX-2BkQ-3D-3DZrGT_sOk=
+iSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9=
+-2B7KZFu6TMA6BPerxlXPmbGzvl7YrzlmkmAnVt4ADXafP1Qbecx-2FHSzU2CPnWaKDQN9ZGojl=
+UQjD9GSCRxPwhx9czwnsRZMkKPaMaQoOEFKkNfpNWNz2jn8Ntf6H4gTolqYDlZvRNMzBg-3D-3D
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNpDadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw=
+2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7WyryQjhkZ8-2BRc1-2FBBJijJz3pfw-3D-3Db3Jo_sOk=
+iSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9=
+-2B7KZFu6TMA6O1ytr4HVC-2Fwhpj-2B5j8yYP4Egvn-2FpfV9aDIPz6tmRVCRDcaaOsdkS0r-2=
+F9MAA-2FTJnejbv9TIvr2vwhgJ7WR1W8iD0zVaSkK2JdCBOX9-2F06YMAVmrUdRm3NKKcF2pZEO=
+k3tw-3D-3D
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNpDadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw=
+2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7WyryeESK9Z-2F7-2B52sDZWTyyTm-2Bg-3D-3DfT2A_s=
+OkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6=
+h9-2B7KZFu6TMA6CnFrjazPMde0QCJdLqB0j-2FSwE5FPO4kAN437HF8oCE6KPehw0f5crfVniY=
+xkJTr5ViuOvos4-2FB-2FVB8CTfFW2hbQL2TMqLprvoG-2BQwZ7oBnqNKE-2FfTVR0GJKX59N1d=
+6eOg-3D-3D
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNpDadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw=
+2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7WyrylfzRfRrJkgJmhWM-2BhMLEwA-3D-3DvRvj_sOkiS=
+dg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2=
+B7KZFu6TMA6CYBY-2FjTSjsCiU0ub-2F03NCEaLosQD4FuAe0rgRZ-2BV5xy-2FWQKs9Kne-2Ff=
+54VmgPcv3-2FL8x2JW90PPtnI2W9L41-2BkxiUDVQI-2Bt8otmiCuy0BsYRpX8EndZ-2FsoMCZN=
+itdLMhpA-3D-3D
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNpDadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw=
+2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7WyryLWY2lLgBxzAhur3HkWfxkA-3D-3Dnhoe_sOkiSdg=
+45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7=
+KZFu6TMA6D20ZiQn8UvqBdUyd3w-2B7wBNNaQrclVmNqYoByqL09DF8JX-2FT8UEF-2FCEPYIQ-=
+2BBKvm9OYq507Me7DyKKbWgw3momXwKnIaxcB9y4U0IIz6JDqLdVjGfuzrLoS3nIHTWF31vkpT3=
+dnZiKxsc8mYSw5sVk-3D
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNpDadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw=
+2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7WyryyF-2FoNB6JDgkd37Dh-2BBhBPA-3D-3D5lwj_sOk=
+iSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9=
+-2B7KZFu6TMA6OhllsoNDoj7dKJvGJ4NACkcLbp7Hj8GIEst5GevX-2FPW2XImosU9lW2eUIe-2=
+FdLFa-2BWjqTeCDiLhjEFnp-2BIH9IXGUjTuqAniY3cIjO3PdZYXEvZtKHIIoFvZhLfG5pfUhph=
+bEpGxVXSjWc7roO9csWuQ-3D
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNpDadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw=
+2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7Wyrydz-2BM4P06Vj0ntXzuv5-2Fi6A-3D-3D2tjx_sOk=
+iSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9=
+-2B7KZFu6TMA6CH6PqIXqf6liDJ6EqulQWwxGc1nc-2FGtBlQ2l0E9MvOkG7M29-2FjGYNIzotU=
+TPBT37eeCkXxpgO2t1SRy-2BW0XM4heBZtWxQ6X5sEjaZbBUeMbI8oUrWVXByUQHnZtyWas4oUx=
+0dSK3cNZNmOl4a9eEQo-3D
+
+N=E3o recomendo
+ Recomendo muito
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IPJe-2FyEsrdtDUfC3DzXpFEmXgwGZOCuS8llhXxFmYB1V0gY5_sOkiSdg45xV2z-2F2myqjOqS=
+k8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6PaXJhmOY=
+hBRbYUwYN0-2BXKDiGFdwd-2BKRQMuE9YHzfrS7BRjA-2Fwp0a4F-2BX-2BAgBWgu1oFkF-2FnL=
+FxaISFNIT2Vh9fds2VfgtunIrA5i8d1W4-2F72h49lkpgppdyosoOsiRmwTLO3-2BPqzkT1AkuW=
+QpcQpMxg-3D
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IBKM8OpqyYYVJstcmU-2Blmw90v74e3MRyWllflQYQ9R1GlFvc7R9ou5WCJ81JJT11sA-3D-3DR=
+CAl_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3F=
+LEfx6h9-2B7KZFu6TMA6PZuQHg8SmfIsM22wBK7vvn8vy4h8ei0lzTT-2F6eZfHkpS9dgr02FO6=
+BZ4nIrNweZsPrb0lePFf8FmdXqDoF5ikMsihZzc3BtwKY0GgpQWOUSpUEKkd5oAE43jtBx20yUl=
+ja0SRMQNwk-2FrFqUvdMLiuQ-3D
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IGPTl91Nzhq3FcMRfo5lBaA3shgLpM-2BXmlerHlO-2Bxoxv2R9as0FzYH-2BgA3wYzghTNQ-3D=
+-3DuSUF_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZ=
+hP3FLEfx6h9-2B7KZFu6TMA6MrCQfvr8KZpWR3BPsP19iDqnsyUyxPdqtJg1W4w2j8vk30ggGSy=
+GQ7RjQeVVaSVnMEMhjaM3R2tp87PQJJSFelCT9XIbJpxByhc3xjN94H-2Bb-2Bmdf4RZkzSrA7Y=
+v91WpAkT0b74ZSooaGPbZQmydvY0-3D
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IG2AvxCBXKVRoYoS3lZqdrELYS8vskK8CFtsOdlJHnS1cFYf_sOkiSdg45xV2z-2F2myqjOqSk8=
+yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6BhBeACgsO8=
+J5-2BpSHp3GEjCNA-2FvTjER9ZHgc-2BMPJX04kgJEO-2BxFmQCTVeZOdyRrl33hOJpuexiw4dd=
+vxvABSRjwjvBFGLBiWkICW4CXPOuDcWpzyC4ZLK0suiWa2Isxj1mks1cytjjF-2Bh2hqaAHHu1s=
+-3D
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IOmnBrprs5u9-2BSrGF0BMkY598p3fTxReBoNRNjeIkMBHdain_sOkiSdg45xV2z-2F2myqjOqS=
+k8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6Mdblp5hg=
+7hf2-2FiG4B81KMk2zto9PFVnM3u6DEx94l0Bt3zRQm8kvP5PUZIEfjYS6hWhSpeU4TothDQMVN=
+OJlc6YKZtT9Qco0r33u6YhmC5jJPaThsMKt0Uy3-2F-2FDDlah90anLkvaWLLeBMe3ZNSv1r4-3=
+D
+
+https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAv=
+IIdt2AdgS8oVyNAkE5MyRETi4ffcLOKrf5xztFE4GWPnI953_sOkiSdg45xV2z-2F2myqjOqSk8=
+yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6IN3zdQ670o=
+noZLF1qLQOGpP8RGkgLXOmbRpCHFORpjFsECioH5Pl5krxJ0OsG2KNk6MP9WozEekTcj1AP9B61=
+Ee1dGJhpey2-2BU2UkkntzVDe0J1f1gxdH8XzqqoZes3mzLteEDgdQ-2BXPXPqQWTtvnQ-3D
+
+Voc=EA est=E1 recebendo este e-mail porque est=E1 cadastrado no site ou app=
+ do Burger King Brasil. Se n=E3o quiser receber mais nossos emails, =E9 s=
+=F3 clicar
+
+aqui https://u5878285.ct.sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ=
+5wOAvIA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNpDadoON1xUdcomc4umgYzaMzQG1Q1hRDGwN=
+RJTKLuyBv-2FCm1Y5BQPW4ItlClYdwS7si8wUZb9g23cZ5dgqAGgFSq0N4XJR6kQ-3D-3DQJjG_=
+sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx=
+6h9-2B7KZFu6TMA6EA0Ug0zpWPYJIzW8MzpAfK0pxm-2F-2FHiUQh0u6ge08QpyOVJRrLH4GkGE=
+DBPU3fnRaiSv65UqYLf4vzw5w37ujhx5Nf1KPqLqUEQBJPwyrDSbz5tJvoVntVfEI0UHQB6sxm6=
+-2F901-2BnjVmT0IDjMCh0ac-3D
+--b05f78abc31e96062cc46d68d07e92128063dbf6c2fef862b00675ab056f
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=iso-8859-1
+Mime-Version: 1.0
+
+<!DOCTYPE html>
+<html lang=3D"pt">
+  <head>
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0" />
+    <meta charset=3D"UTF-8" />
+    <title>O BK quer te ouvir</title>
+  </head>
+
+  <body bgcolor=3D"f5ebdc" style=3D"background-color: #f5ebdc; margin: 0; p=
+adding: 0; border: 0">
+    <style type=3D"text/css">
+      .bg-yellow {
+        background-image: url("https://crm-bk-s3.burgerking.com.br/PERSONAL=
+IZACAO/NPS/clube-bk/bg-yellow.png");
+      }
+    </style>
+    <!--[if mso]>
+               <table width=3D"600" align=3D"center" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0">
+                 <tbody>
+                   <tr>
+                     <td align=3D"center">
+           <![endif]-->
+    <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" style=3D"width: 100%">
+      <tbody>
+        <tr>
+          <td>
+            <table width=3D"600" align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"width: 100%; max-width: 600px; min-width:=
+ 360px" class=3D"bg-yellow" bgcolor=3D"FFAA00">
+              <tbody>
+                <tr>
+                  <td align=3D"center" valign=3D"top">
+                    <table width=3D"600" cellspacing=3D"0" cellpadding=3D"0=
+" border=3D"0" style=3D"margin: 0 auto; max-width: 600px; width: 100%" clas=
+s=3D"bg-yellow">
+                      <tbody>
+                        <tr>
+                          <td align=3D"center" valign=3D"top">
+                            <table width=3D"600" align=3D"center" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"width: 100%; max-width: 60=
+0px; min-width: 360px">
+                              <tbody>
+                                <tr>
+                                  <td height=3D"15" align=3D"center"></td>
+                                </tr>
+                                <tr>
+                                  <td align=3D"center" valign=3D"top">
+                                    <table width=3D"100%" cellspacing=3D"0"=
+ cellpadding=3D"0" border=3D"0">
+                                      <tbody>
+                                        <tr>
+                                          <td align=3D"center">
+                                            <a href=3D"https://u5878285.ct.=
+sendgrid.net/ls/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIPJe-2FyEsrdtDUfC3Dz=
+XpFEmXgwGZOCuS8llhXxFmYB1VekZm_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4=
+gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6DjUvjxi054nnrJYf9VPBEh7kARON=
+gChVIFbM0oncmxWGULx3RVy-2FaUPmyqbErWfui3ysJYf0ufddYlbuH7oPitNLunmYLTUFrf-2B=
+5K8X8GihPh8QvnNhetldTrt2FthgFYJY1Hkorn8-2BpG1IcbIBfgs-3D" target=3D"_blank"=
+><img src=3D"https://crm-bk-s3.burgerking.com.br/EMAIL/_GERAL/LOGO-BK-BBQ.p=
+ng" width=3D"55" title=3D"www.burgerking.com.br" border=3D"0" style=3D"disp=
+lay: block; border: 0" /></a>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table align=3D"center" cellspacing=3D"=
+0" cellpadding=3D"0" border=3D"0" style=3D"display: inline-block">
+                                      <tbody>
+                                        <tr></tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table width=3D"600" align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" bgcolor=3D"f5ebdc" style=3D"width: 100%; max-width=
+: 600px; min-width: 360px; font-family: Arial, Helvetica, sans-serif; font-=
+size: 21px; color: #502314">
+              <tbody>
+                <tr>
+                  <td align=3D"center" valign=3D"bottom">
+                    <a href=3D"https://u5878285.ct.sendgrid.net/ls/click?up=
+n=3Du001.vguGlUM-2FrXzOTgQ5wOAvIPJe-2FyEsrdtDUfC3DzXpFEmBZA2Ltd-2B2D6YC3O5u=
+7cx0yemf_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2f=
+ZhP3FLEfx6h9-2B7KZFu6TMA6DkHtI94KzYfSeZ3jsnoO0prlVc9ICXQqKjD2mMd-2F4nsu4cLV=
+Czl58Gcq3N-2B6bmsgTjj2Fb0RZu2SwJXhXs6DMPMujrUpULjLWndMfZOKKmPn-2BWWJluOIkeC=
+bG-2BNojh6oTvzyPX2I0R3HXCNG0yWLjQ-3D" target=3D"_blank"><img src=3D"https:/=
+/crm-bk-s3.burgerking.com.br/PERSONALIZACAO/NPS/bk-canais/topo-NPS-BK-2.png=
+" width=3D"100%" border=3D"0" alt=3D"O BK quer te ouvir - =C9 bem r=E1pido"=
+ title=3D"O BK quer te ouvir" style=3D"display: block; border: 0; max-width=
+: 600px" /></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table width=3D"600" align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" bgcolor=3D"f5ebdc" style=3D"width: 100%; max-width=
+: 600px; min-width: 360px; font-family: Arial, Helvetica, sans-serif; font-=
+size: 28px; line-height: 30px; color: #502314">
+              <tbody>
+                <tr>
+                  <td height=3D"30"></td>
+                </tr>
+                <tr>
+                  <td align=3D"center">
+                    <table width=3D"100%" align=3D"center" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0">
+                      <tbody>
+                        <tr>
+                          <td width=3D"5%"></td>
+                          <td width=3D"90%" align=3D"center"><strong>Luiz</=
+strong>, com base na sua experi=EAncia no Burger King <strong>RIOMAR SHOPPI=
+NG ARACAJU</strong>, em uma escala de <strong>0 a 10</strong>, quanto voc=
+=EA indicaria o <strong>BK</strong> pra algu=E9m?</td>
+                          <td width=3D"5%"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td height=3D"30"></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table width=3D"600" align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" bgcolor=3D"f5ebdc" style=3D"width: 100%; max-width=
+: 600px">
+              <tbody>
+                <tr>
+                  <td align=3D"center">
+                    <table width=3D"400" align=3D"center" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" bgcolor=3D"f5ebdc" style=3D"background-colo=
+r: #f5ebdc; font-family: Arial, Helvetica, sans-serif; font-size: 20px; lin=
+e-height: 30px; color: #502314; border-radius: 10px; border: 1px #502314 so=
+lid">
+                      <tbody>
+                        <tr>
+                          <td height=3D"20"></td>
+                        </tr>
+                        <tr>
+                          <td align=3D"center">
+                            <table width=3D"100%" align=3D"center" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                              <tbody>
+                                <tr>
+                                  <td width=3D"5%"></td>
+                                  <td width=3D"90%" align=3D"center"><stron=
+g>Data da compra:</strong> 15/11/2024<br /><strong>Restaurante:</strong> RI=
+OMAR SHOPPING ARACAJU <br /><strong>Ocasi=E3o:</strong> Compra no Totem</td=
+>
+                                  <td width=3D"5%"></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height=3D"20"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table width=3D"560" align=3D"center" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" bgcolor=3D"f5ebdc" style=3D"background-colo=
+r: #f5ebdc; width: 100%; max-width: 560px; min-width: 300px">
+                      <tbody>
+                        <tr>
+                          <td height=3D"40"></td>
+                        </tr>
+                        <tr>
+                          <td align=3D"center" valign=3D"bottom">
+                            <a href=3D"https://u5878285.ct.sendgrid.net/ls/=
+click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNp=
+DadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7Wyryt=
+cnpik-2BjvKVVPcRBd2u7UQ-3D-3DrpDG_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiw=
+Uu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6BFvH-2FxuIvL2RThjNL07GcXq=
+LgPy7R-2BP6ji-2BmfmfQv-2FwJzYafiNHbOzTIPB6mGkBnP57PJvEd8elZwFKS9WQipsWYO37W=
+ZIc0In-2F4CmLJygWNYMaihqz-2FZbO6vNXmo-2Fx9hkUZ9SFiXoK9F3QNY-2F4kXc-3D" targ=
+et=3D"_blank"><img src=3D"https://crm-bk-s3.burgerking.com.br/PERSONALIZACA=
+O/NPS/bk-canais/0.png" width=3D"50" border=3D"0" alt=3D"0" title=3D"0" styl=
+e=3D"display: inline-block" /></a>
+                          </td>
+                          <td align=3D"center" valign=3D"bottom">
+                            <a href=3D"https://u5878285.ct.sendgrid.net/ls/=
+click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNp=
+DadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7WyryA=
+SBWxKRhkUwXl5ZtRfl0LQ-3D-3D0gwo_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu=
+4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6PX2rKYO90BPoMdEjk5x5M8aMFy-=
+2BUTH2HyDHf-2FzLmTnZdUnA4vfzbzZoqyQqw3zjNnZuwu3tLjJpFNWRfAzFYeyc-2FEvwdnHxP=
+R4Rxzf-2FP1IQYHmt6SMJES01WjSrXcLvx5EF1zDnigTYc1xbP3dtU0c-3D" target=3D"_bla=
+nk"><img src=3D"https://crm-bk-s3.burgerking.com.br/PERSONALIZACAO/NPS/bk-c=
+anais/1.png" width=3D"50" border=3D"0" alt=3D"1" title=3D"1" style=3D"displ=
+ay: inline-block" /></a>
+                          </td>
+                          <td align=3D"center" valign=3D"bottom">
+                            <a href=3D"https://u5878285.ct.sendgrid.net/ls/=
+click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNp=
+DadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7WyryC=
+WQnJkk6WHdRYVB2cnyizQ-3D-3D9WNz_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu=
+4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6H2Iwd43-2Bp8j-2FT7rB0FoeYWP=
+1Op-2BRi1e-2BqgnaQ3-2FAZHYlsqRqg1CRz-2BlSwQY104gePOWsl1hmdrSNbyEv8iMh8L499B=
+iHYQDqdCJrphyyNE5lBI-2Beyv9wzsuEf9cUIiAdeyALrtdYCNMBsXglXKXMNM-3D" target=
+=3D"_blank"><img src=3D"https://crm-bk-s3.burgerking.com.br/PERSONALIZACAO/=
+NPS/bk-canais/2.png" width=3D"50" border=3D"0" alt=3D"2" title=3D"2" style=
+=3D"display: inline-block" /></a>
+                          </td>
+                          <td align=3D"center" valign=3D"bottom">
+                            <a href=3D"https://u5878285.ct.sendgrid.net/ls/=
+click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNp=
+DadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7WyryB=
+DDAvUKcEuIgx3fPRiuviA-3D-3DxEka_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu=
+4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6ImqTyx1yNFv4bbY2gvWFUw0877K=
+ApjeT3N-2F-2B0j-2BwrGD0U2nzkxYH-2F0Zn1-2BRzr8FFi4EQtjXNnQj1irzv8LNXZStFJild=
+V22WULwKmCEMhoHNQYDB0KiUg7jn-2FSj1EDnlLdFYt-2FEc8-2FeSZbP2O99f-2Bc-3D" targ=
+et=3D"_blank"><img src=3D"https://crm-bk-s3.burgerking.com.br/PERSONALIZACA=
+O/NPS/bk-canais/3.png" width=3D"50" border=3D"0" alt=3D"3" title=3D"3" styl=
+e=3D"display: inline-block" /></a>
+                          </td>
+                          <td align=3D"center" valign=3D"bottom">
+                            <a href=3D"https://u5878285.ct.sendgrid.net/ls/=
+click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNp=
+DadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7Wyryx=
+3MdcHC-2FK55xWR9hgeX-2BkQ-3D-3DpYae_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOP=
+iwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6ASRxgMK-2Bj8RIruoJaNMjX=
+Y5ZPDer-2FI9ot7FMryr7z-2BmxMxfRtj3zx4FVXwE0ke4S4gyAuNEJhYOwzmUMiYg9lifg70F4=
+LTwQuMqHzc-2FM83GN7eTm8UvleuIsTbX-2FnJKNIpq-2BuLyLEFMSHCsqvimWhc-3D" target=
+=3D"_blank"><img src=3D"https://crm-bk-s3.burgerking.com.br/PERSONALIZACAO/=
+NPS/bk-canais/4.png" width=3D"50" border=3D"0" alt=3D"4" title=3D"4" style=
+=3D"display: inline-block" /></a>
+                          </td>
+                          <td align=3D"center" valign=3D"bottom">
+                            <a href=3D"https://u5878285.ct.sendgrid.net/ls/=
+click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNp=
+DadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7WyryQ=
+jhkZ8-2BRc1-2FBBJijJz3pfw-3D-3DswCp_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOP=
+iwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6OWCzEd5Kp37lAu67n-2BRGT=
+E9frivdLxqPv3m8iFQzqcnAGuu1TuFLEf1QvT1xHCvm9Yz75-2BNAINQwZEl-2BUiZ0muKeHYur=
+di8leD9QMecIUfo6VFuBLTHMTd-2F85BfdYL4u2Q-2FAVwSClHzWAY6sFV9MuQ-3D" target=
+=3D"_blank"><img src=3D"https://crm-bk-s3.burgerking.com.br/PERSONALIZACAO/=
+NPS/bk-canais/5.png" width=3D"50" border=3D"0" alt=3D"5" title=3D"5" style=
+=3D"display: inline-block" /></a>
+                          </td>
+                          <td align=3D"center" valign=3D"bottom">
+                            <a href=3D"https://u5878285.ct.sendgrid.net/ls/=
+click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNp=
+DadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7Wyrye=
+ESK9Z-2F7-2B52sDZWTyyTm-2Bg-3D-3DTKpd_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RV=
+OPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6OoE9Hsh8F1oeo91Divr1j=
+iNtvuToVxI1bWHZdqJpq36R78ZNYqs8Ef6KTRm6J3T7n6gQ1hyl-2BAZqGY9cLAsi2D1CpRR5ld=
+Tc3YkekQ2bZlVYqQuHbt88xmTPKCIWfYR6yDPAurjY6MelzhQgBWpHnE-3D" target=3D"_bla=
+nk"><img src=3D"https://crm-bk-s3.burgerking.com.br/PERSONALIZACAO/NPS/bk-c=
+anais/6.png" width=3D"50" border=3D"0" alt=3D"6" title=3D"6" style=3D"displ=
+ay: inline-block" /></a>
+                          </td>
+                          <td align=3D"center" valign=3D"bottom">
+                            <a href=3D"https://u5878285.ct.sendgrid.net/ls/=
+click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNp=
+DadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7Wyryl=
+fzRfRrJkgJmhWM-2BhMLEwA-3D-3DYoFM_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiw=
+Uu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6NQWUEkbPaRKxfx5Q9eHj0abSZ=
+iDS5MeNvLG5n1dxBNN22PKyKfqyvODTjsXeCeeaXVs-2Fe9lgGnk-2BOWsjw8ANo-2FgkkusMLZ=
+DVV3dxk7xwt-2Fk0NeAVZfXXn2-2FE4jOP6RNpHrKkXjl4QO6APienM4rdzk-3D" target=3D"=
+_blank"><img src=3D"https://crm-bk-s3.burgerking.com.br/PERSONALIZACAO/NPS/=
+bk-canais/7.png" width=3D"50" border=3D"0" alt=3D"7" title=3D"7" style=3D"d=
+isplay: inline-block" /></a>
+                          </td>
+                          <td align=3D"center" valign=3D"bottom">
+                            <a href=3D"https://u5878285.ct.sendgrid.net/ls/=
+click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNp=
+DadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7WyryL=
+WY2lLgBxzAhur3HkWfxkA-3D-3DHO3S_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu=
+4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6Dg-2FmVliKYdmZ3Al1ycMXixNJO=
+EVtGemcUS36hAFCO4SG69pRDj63K6HcinVVxPfeXWbrSxq66ovBmM1QA3QqD1nYO9fn0UUx9b0T=
+YFkUtd-2B9eJI6OAGQ-2FCtpv5RvMRk0zA5iB914T6sAy2BCDMf-2BVs-3D" target=3D"_bla=
+nk"><img src=3D"https://crm-bk-s3.burgerking.com.br/PERSONALIZACAO/NPS/bk-c=
+anais/8.png" width=3D"50" border=3D"0" alt=3D"8" title=3D"8" style=3D"displ=
+ay: inline-block" /></a>
+                          </td>
+                          <td align=3D"center" valign=3D"bottom">
+                            <a href=3D"https://u5878285.ct.sendgrid.net/ls/=
+click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNp=
+DadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7Wyryy=
+F-2FoNB6JDgkd37Dh-2BBhBPA-3D-3DhpJH_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOP=
+iwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6CY-2B-2Bw0r0PgpP2kmcMmS=
+p0haJdDLPOv0plhwj3aZvmu2cwOHkQt71ouM7EDweTnXlezqE4n5NIU-2Fvvz5f3CEdhJMxdGw9=
+hgeCd1jrdsFRiCR3eMu8DtzxO1KoMOuIuJN1j4QEI-2Bp7hSaHteTtyHnQLI-3D" target=3D"=
+_blank"><img src=3D"https://crm-bk-s3.burgerking.com.br/PERSONALIZACAO/NPS/=
+bk-canais/9.png" width=3D"50" border=3D"0" alt=3D"9" title=3D"9" style=3D"d=
+isplay: inline-block" /></a>
+                          </td>
+                          <td align=3D"center" valign=3D"bottom">
+                            <a href=3D"https://u5878285.ct.sendgrid.net/ls/=
+click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJNp=
+DadoON1xUdcomc4umgYzaMzQG1Q1hRDMNqdAouw2ZzyCyr31WrbpbOqXoaOYaOnsz2a6T7Wyryd=
+z-2BM4P06Vj0ntXzuv5-2Fi6A-3D-3DH8HG_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOP=
+iwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6CO7ORwE6-2BV2NiNo0RmX8H=
+q85Oo2vfN4Wi3ayLcMJbX8KGBY85GUk1go31Yhmmglwy9yBQBEFfDZfjMzXe9p9WE3Ecd54INZ0=
+sQDFHP2-2FqDRYWxKN9wwr-2BzaB-2B4W6LC4S6vrSh6-2FvbusxN1F4BA1rdg-3D" target=
+=3D"_blank"><img src=3D"https://crm-bk-s3.burgerking.com.br/PERSONALIZACAO/=
+NPS/bk-canais/10.png" width=3D"50" border=3D"0" alt=3D"10" title=3D"10" sty=
+le=3D"display: inline-block" /></a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <table width=3D"560" align=3D"center" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" bgcolor=3D"f5ebdc" style=3D"width: 100%; ma=
+x-width: 560px; min-width: 360px; font-family: Arial, Helvetica, sans-serif=
+; font-size: 18px; line-height: 26px; color: #502314">
+                      <tbody>
+                        <tr>
+                          <td align=3D"center">
+                            <table width=3D"100%" align=3D"center" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                              <tbody>
+                                <tr>
+                                  <td align=3D"left"><strong>N=E3o recomend=
+o</strong></td>
+                                  <td align=3D"right"><strong>Recomendo mui=
+to</strong></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height=3D"30"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table width=3D"600" align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" bgcolor=3D"502314" style=3D"width: 100%; max-width=
+: 600px; min-width: 360px; font-family: Arial, Helvetica, sans-serif; font-=
+size: 21px; color: #f5ebdc">
+              <tbody>
+                <tr>
+                  <td height=3D"15"></td>
+                </tr>
+                <tr>
+                  <td bgcolor=3D"502314">
+                    <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ align=3D"center">
+                      <tbody>
+                        <tr>
+                          <td width=3D"10"></td>
+                          <td align=3D"left">
+                            <a href=3D"https://u5878285.ct.sendgrid.net/ls/=
+click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIPJe-2FyEsrdtDUfC3DzXpFEmXgwGZOCuS8l=
+lhXxFmYB1V0ruc_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5=
+Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6HNefiMLllipPVMD6Ypv2EfevEWjp5tIAY7cz4Dn5HcSY=
+L9N3zLROJJOH5GyfDys2A89X1GosjJR7RtVjdpaZJBO6pgdaPhDxKMhxhOGhf0oBBZ63rA0aTfB=
+b3HVyJp6zcrftoNboSS1oOdGcuWYQvI-3D" target=3D"_blank"><img src=3D"https://c=
+rm-bk-s3.burgerking.com.br/EMAIL/_GERAL/WORDMARK-MAYO.png" width=3D"165" ti=
+tle=3D"www.burgerking.com.br" border=3D"0" alt=3D"Logo Burger King Brasil" =
+style=3D"display: block; border: 0" /></a>
+                          </td>
+                          <td width=3D"40"></td>
+                          <td align=3D"right">
+                            <a href=3D"https://u5878285.ct.sendgrid.net/ls/=
+click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIBKM8OpqyYYVJstcmU-2Blmw90v74e3MRyWl=
+lflQYQ9R1GlFvc7R9ou5WCJ81JJT11sA-3D-3Dyoc8_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvG=
+UO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6KL9ysu7-2FIszfIC=
+5vGnRFWJSMnzKmeYc-2B-2BPA2KVVVXz3RT-2FF3dEFNEenwxeCehzIOLLi13SMi8m5bNS4a0SR=
+y1uORhzUS5dT-2BfYrIZYtZSnpBITzIjKlx8YXW9sLmxYQ8Hz1HhgED3qvzhVrdSHuRqM-3D" t=
+arget=3D"_blank"><img src=3D"https://crm-bk-s3.burgerking.com.br/EMAIL/_GER=
+AL/LOGO-YT-MAYO.png" width=3D"32" title=3D"Youtube - Burger King Brasil" bo=
+rder=3D"0" alt=3D"Logo Youtube" style=3D"display: block; border: 0" /></a>
+                          </td>
+                          <td width=3D"15"></td>
+                          <td align=3D"right">
+                            <a href=3D"https://u5878285.ct.sendgrid.net/ls/=
+click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIGPTl91Nzhq3FcMRfo5lBaA3shgLpM-2BXml=
+erHlO-2Bxoxv2R9as0FzYH-2BgA3wYzghTNQ-3D-3D9QZu_sOkiSdg45xV2z-2F2myqjOqSk8yv=
+SjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6LOj8qbz4P-2B=
+aycCmJMCrT6Ro5kDvKxeQFsimHxQpMlMRj7FtrTOjqTXyZRgmktw7HYBElasEmomHOBV8cLNkES=
+E57Ey1MNPAPTJ3V-2F33lMiqT-2BAI-2BsGPcNgg108C-2FOYukeumEBxatEVlCsnBuh-2BltzY=
+-3D" target=3D"_blank"><img src=3D"https://crm-bk-s3.burgerking.com.br/EMAI=
+L/_GERAL/LOGO-FB-MAYO.png" width=3D"32" title=3D"Facebook - Burger King Bra=
+sil" border=3D"0" alt=3D"Logo Facebook" style=3D"display: block; border: 0"=
+ /></a>
+                          </td>
+                          <td width=3D"15"></td>
+                          <td align=3D"right">
+                            <a href=3D"https://u5878285.ct.sendgrid.net/ls/=
+click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIG2AvxCBXKVRoYoS3lZqdrELYS8vskK8CFts=
+OdlJHnS1keEH_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co=
+5x2fZhP3FLEfx6h9-2B7KZFu6TMA6HhF6HCyHBVBduHWKs6ySZ4N1En2NLJViMkS-2BHbr5WpNB=
+vxjXvOuyyLopkRKSTcM-2BsYlrsCgQdetEU9hIvPBWvuxs-2FoQ55lL9mVJrw3C66Ld6rO8me8H=
+4-2Bc50HU823uJO-2BXRDCABJJcF-2BtV-2F8xZLRQ8-3D" target=3D"_blank"><img src=
+=3D"https://crm-bk-s3.burgerking.com.br/EMAIL/_GERAL/LOGO-IG-MAYO.png" widt=
+h=3D"32" title=3D"Instagram - Burger King Brasil" border=3D"0" alt=3D"Logo =
+Instagram" style=3D"display: block; border: 0" /></a>
+                          </td>
+                          <td width=3D"15"></td>
+                          <td align=3D"right">
+                            <a href=3D"https://u5878285.ct.sendgrid.net/ls/=
+click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIOmnBrprs5u9-2BSrGF0BMkY598p3fTxReBo=
+NRNjeIkMBH4MBP_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5=
+Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6PxD5U9pi18c4KTn0HwBFvgi-2F03GNkUvXGpIabivUfV=
+jO-2FPtKDBLLSal7fmkAeIqxen4JCvVc9K2bV7BUnGVVRfxG55-2BqdhoOjx-2B-2FznnYFI-2F=
+clj-2F9ISvhzFWnT-2B-2BplSrkOf4b0foHXrk4li-2FhG5iRMo-3D" target=3D"_blank"><=
+img src=3D"https://crm-bk-s3.burgerking.com.br/EMAIL/_GERAL/LOGO-TT-MAYO.pn=
+g" width=3D"32" title=3D"Twitter - Burger King Brasil" border=3D"0" alt=3D"=
+Logo Twitter" style=3D"display: block; border: 0" /></a>
+                          </td>
+                          <td width=3D"15"></td>
+                          <td align=3D"right">
+                            <a href=3D"https://u5878285.ct.sendgrid.net/ls/=
+click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIIdt2AdgS8oVyNAkE5MyRETi4ffcLOKrf5xz=
+tFE4GWPnWAa7_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4gc1-2FB3uw2Jvqi5Co=
+5x2fZhP3FLEfx6h9-2B7KZFu6TMA6CoCu76xEK1CQ8eOnCjX0daIWz8jc6PACEj1NT5woUPqpHr=
+J-2F0sD0sjz7axp3xgN4xgEApEVha67GZ8-2BugKGcuQyzfUfSqadHOWH0Zl7b8pn-2F1COQPIv=
+egLDwjMEpcJDOpsYC6bgGuhFYQqZXAjxszc-3D" target=3D"_blank"><img src=3D"https=
+://crm-bk-s3.burgerking.com.br/EMAIL/_GERAL/LOGO_TIKTOK_MAYO.png" width=3D"=
+32" title=3D"TikTok - Burger King Brasil" border=3D"0" alt=3D"Logo TikTok" =
+style=3D"display: block; border: 0" /></a>
+                          </td>
+                          <td width=3D"10"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td height=3D"15"></td>
+                </tr>
+              </tbody>
+            </table>
+            <table width=3D"600" align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"background-color: #f5ebdc; width: 100%; m=
+ax-width: 600px; min-width: 360px; font-family: Arial, Helvetica, sans-seri=
+f; font-size: 13px; line-height: 14px; color: #845f50">
+              <tbody>
+                <tr>
+                  <td>
+                    <table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"font-family: Arial, Helvetica, sans-serif; font-=
+size: 13px; color: #845f50" width=3D"100%">
+                      <tbody>
+                        <tr>
+                          <td height=3D"15"></td>
+                        </tr>
+                        <tr>
+                          <td width=3D"4%"></td>
+                          <td align=3D"center" width=3D"92%">
+                            Voc=EA est=E1 recebendo este e-mail porque est=
+=E1 cadastrado no site ou app do <strong>Burger King Brasil</strong>. Se n=
+=E3o quiser receber mais nossos emails, =E9 s=F3 clicar
+                            <strong
+                              ><a
+                                href=3D"https://u5878285.ct.sendgrid.net/ls=
+/click?upn=3Du001.vguGlUM-2FrXzOTgQ5wOAvIA592gtS7S-2BJP8K72dIPmSX3l2ciuUHJN=
+pDadoON1xUdcomc4umgYzaMzQG1Q1hRDGwNRJTKLuyBv-2FCm1Y5BQPW4ItlClYdwS7si8wUZb9=
+g2BTFW-2BX-2BdSzPb-2BFyqV7yMBw-3D-3DcfLX_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO=
+6RVOPiwUu4gc1-2FB3uw2Jvqi5Co5x2fZhP3FLEfx6h9-2B7KZFu6TMA6NFLRXr2CyvRPR4cGwf=
+hmeKSpXkjMFZXuOKeYISrUIZkFv9-2BXG48JL5tdBdsKdAJ3gT7iGHSTyzOUddPIY1n9e777Jy6=
+iTap037bO1TZhqusserd6fpqGt7jsz-2BXo96gnzIXPGbjKEP-2Bm0HxjlGsOS0-3D"
+                                style=3D"color: #502314"
+                                target=3D"_blank"
+                                title=3D"Descadastre-se!"
+                              >
+                                aqui</a
+                              ></strong
+                            >.
+                          </td>
+                          <td width=3D"4%"></td>
+                        </tr>
+                        <tr>
+                          <td height=3D"15"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]>
+              </td>
+              </tr>
+              </tbody>
+              </table>
+              <![endif]-->
+  <img src=3D"https://u5878285.ct.sendgrid.net/wf/open?upn=3Du001.Uc38NygRb=
+QhNXpXyyVB0epc8zXeETEAPvgjqk9HrZFbkIrN2pCR2Jtb74nqFH0kqIe73xnDBhh-2BDjFUX2N=
+HlGsAWhPKFRwCgy68aWBQXp3CCCFLJ8mXrCwDA8njEgTXlepawlegRwcyoXWeIWggHxk-2BTPkR=
+bznFZnVRAXHOsCBtpmf9adpe43GQ69iNoyH-2FPUgv8b9W2jO4ZQ6L12exMBTO912MhPLIZFI-2=
+FqtGC7VYM-3D" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"heigh=
+t:1px !important;width:1px !important;border-width:0 !important;margin-top:=
+0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-le=
+ft:0 !important;padding-top:0 !important;padding-bottom:0 !important;paddin=
+g-right:0 !important;padding-left:0 !important;"/></body>
+</html>
+
+--b05f78abc31e96062cc46d68d07e92128063dbf6c2fef862b00675ab056f--

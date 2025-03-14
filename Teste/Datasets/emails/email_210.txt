@@ -1,0 +1,845 @@
+X-GM-THRID: 1818809025728612776
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:9ea8:b0:29a:824b:9ec3 with SMTP id fi40csp1219917ysc;
+        Wed, 18 Dec 2024 11:50:54 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IHhjUvt2ZBc137OQrmMz2bUGlPOYp1Wgxtq07b9MyqJqxa5/8tZI2gOMCsHdcv6bicTYE+0
+X-Received: by 2002:a05:6a00:3a02:b0:725:e499:5b8b with SMTP id d2e1a72fcca58-72a8d2c43fdmr6056449b3a.17.1734551454271;
+        Wed, 18 Dec 2024 11:50:54 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1734551454; cv=none;
+        d=google.com; s=arc-20240605;
+        b=T9uN9CNB91h0LUsfpbaDGAkVW8ISnDqMUgUKwIqq/cG5qLMdsecLvTV82pwgeK8SOI
+         MJnCF518ND/L0R88L9u5HiVeWx/unw7zQxnnbVrR7Bc3oXnLgjPhXvKOlt45CoPrN0oA
+         tTb1xOqCsGjrsgYt6IuW3u17Is6QZ//SBNURYbteNbIXwH+9xeJJxwsfl8nxMiatL5Jt
+         1MQSgfiObZH/q9N06yecSz4F9Ystmbn+GLA+6U9fj5/EUveCwXdxWkmGxWC6FfNgl8o/
+         SfEY9iGL0/y8pxIgBJ6oJjjr0n12Ji5bQK8Xopkepp4gJMyRipW+pVZHrCG8nuxT8QjD
+         zb0Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=vsH6kak1uK+3sSevBDVUF2vRaqKYFm8Obdq5sRQ+fgw=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=J3C2qAbCkZMcKzEmoy1gviQeLQxp2iDcAJ2L/efYCrWKtfHJzTKXCnJnqNFipwZXkr
+         fCH2DJG8CISVrR4yqS/dEZkkVlBgDI5JOEY++0D0jJYJtrr/45IrDpfe8Gv9gsd0Zwnd
+         SALG5S/bYV7CwAbYTkRap9NxYam2PdWgTiomoX4Pa5YsSvaIbu11j9Kt7XhIajd1IrxA
+         i29E92lUsQPML+uzBlnU6HsusmXjWnHA9M1S4ac9UHWNNYFfDqPfrMfTSJj/7n0JU30Q
+         I4VegMBApuVIL0ffy4jbspc0TO01EsR4Ehgx+G7rKAAzjJFtTZ+EmW+LCTN2hB2NQEcE
+         hv7Q==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b="lUu/+6Tm";
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=SyQVDAgp;
+       spf=pass (google.com: domain of s-2tac67syxvo89lmt2abln0m6smy1vfbfs4xya11o1je3ceno6pesj12w@bounce.linkedin.com designates 108.174.6.196 as permitted sender) smtp.mailfrom=s-2tac67syxvo89lmt2abln0m6smy1vfbfs4xya11o1je3ceno6pesj12w@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-2tac67syxvo89lmt2abln0m6smy1vfbfs4xya11o1je3ceno6pesj12w@bounce.linkedin.com>
+Received: from maile-cd.linkedin.com (maile-cd.linkedin.com. [108.174.6.196])
+        by mx.google.com with ESMTPS id d2e1a72fcca58-72918add82esi11681423b3a.86.2024.12.18.11.50.53
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 18 Dec 2024 11:50:54 -0800 (PST)
+Received-SPF: pass (google.com: domain of s-2tac67syxvo89lmt2abln0m6smy1vfbfs4xya11o1je3ceno6pesj12w@bounce.linkedin.com designates 108.174.6.196 as permitted sender) client-ip=108.174.6.196;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b="lUu/+6Tm";
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=SyQVDAgp;
+       spf=pass (google.com: domain of s-2tac67syxvo89lmt2abln0m6smy1vfbfs4xya11o1je3ceno6pesj12w@bounce.linkedin.com designates 108.174.6.196 as permitted sender) smtp.mailfrom=s-2tac67syxvo89lmt2abln0m6smy1vfbfs4xya11o1je3ceno6pesj12w@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1734551450;
+	bh=vsH6kak1uK+3sSevBDVUF2vRaqKYFm8Obdq5sRQ+fgw=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=lUu/+6Tmtew5eXwfGY4YtXP1Y+tMJ4+xXpKQGHxwWKfzT6n/KynByQiragBlOw+L5
+	 TdQ2tQ0G1EHpYRr9QNFJOH6BhtjR3ARkBF/BFq7GvIVpMXYRYzXri4QPzABqZ9TQj4
+	 cQo6AaLfC6DjQu+LIS5MSGFXqKwzVPHJJsfv2ntptS1T8RPOwH3CwASfsExqawJBV6
+	 ei7bjaJMmFuthTjqawfkb+xlzzw6MwdEvbGKWUddkGyPxpR8yHXANVoKCpRLOzhuFu
+	 I7krYgTXKlbGDpq73k3jd3LbcVYIVm9DitJ/m1xUp0Ku49LE/ZqOJ0ekvy8sbm/WyX
+	 ZcHB3VVcZigbg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1734551450;
+	bh=vsH6kak1uK+3sSevBDVUF2vRaqKYFm8Obdq5sRQ+fgw=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=SyQVDAgpEZXP20/qCGUSj8cmJ62e4QDEWtOzVDDJINtiSbW4oqsH1kbasqu3ah4LG
+	 7gnGT99UvchR+Z5rLR8fxpwWZxSOtnXZXh+HQqiL1LRfsnnM3guBJFtOD0ryg2hARV
+	 rENuE4IOOqjzPIJ84mfzDQorNZeqcfpccwEcEwlFdgbeZVmDjBdPcrUOCBkXcyfuF9
+	 OQq40t6ifzSxQimXMFyi5aOjBHVj9mG5MmUsKmBbcwprp7p2Aal0/tSEBzydvo+Yx4
+	 N38vPIxMmjBD1oT+LUZoshH4mccxTu+1XfxFPoNBafwD6/F/EEPHeiARITMm9Czbm0
+	 HlLqDUieWv8FQ==
+From: SIS Innov & Tech via LinkedIn <newsletters-noreply@linkedin.com>
+Message-ID: <1095313530.7995512.1734551450117@lva1-app115597.prod.linkedin.com>
+Subject: =?UTF-8?Q?Computa=C3=A7=C3=A3o_Qu=C3=A2ntica:_Desafios,_Oportunid?=
+ =?UTF-8?Q?ades_e_Como_as_Empresas_Podem_se_Preparar?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_7995510_184833825.1734551450115"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Wed, 18 Dec 2024 19:50:50 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-aszy07lqkshq6afhfq501nxksxuzuyo505b5f5x3dmn0hnmv44f9k1rbjt7oc9a0vbkp1erym4g2qrb30a7cadi9nc6ymwg2x26uzw
+X-LinkedIn-Id: gdb74f-m4ub3mmc-rv
+List-Unsubscribe: <https://www.linkedin.com/comm/series-notifications/?action=unsubscribe&memberToken=ADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&newsletterId=7061745063541751808&newsletterTitle=SIS%20Innov%20&%20Tech%20News&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%3D&midToken=AQHxaOsdYMWJVQ&midSig=03H-S3qQ267HA1&trk=eml-email_series_follow_newsletter_01-unsub-0-unsub&trkEmail=eml-email_series_follow_newsletter_01-unsub-0-unsub-null-gdb74f~m4ub3mmc~rv-null-null&eid=gdb74f-m4ub3mmc-rv&otpToken=MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYWUyYjE4ZWNhZDQ0ODljYWE4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmE0NmZjMWVmZGI1NWJiZjIxYmFkY2NjOWY2ODM4MGM4NTU4MjM5ZmRlNjY5NjI1MCwxLDE%3D>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_7995510_184833825.1734551450115
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+SIS Innov & Tech News
+
+Por SIS Innov & Tech
+
+
+Por SIS Innov & Tech
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/computa%C3%A7%C3%A3o-qu%C3%A2ntica-desa=
+fios-oportunidades-e-como-empresas-nvoif?lipi=3Durn%3Ali%3Apage%3Aemail_ema=
+il_series_follow_newsletter_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%3D&midToken=3D=
+AQHxaOsdYMWJVQ&midSig=3D03H-S3qQ267HA1&trk=3Deml-email_series_follow_newsle=
+tter_01-null-0-read_more_banner_cta_&trkEmail=3Deml-email_series_follow_new=
+sletter_01-null-0-read_more_banner_cta_-null-gdb74f~m4ub3mmc~rv-null-null&e=
+id=3Dgdb74f-m4ub3mmc-rv&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYWUy=
+YjE4ZWNhZDQ0ODljYWE4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmE0NmZjMWVmZGI1NWJiZjI=
+xYmFkY2NjOWY2ODM4MGM4NTU4MjM5ZmRlNjY5NjI1MCwxLDE%3D
+ =20
+Por Vitor Stelari A computa=C3=A7=C3=A3o qu=C3=A2ntica =C3=A9 uma das inova=
+=C3=A7=C3=B5es mais promissoras da atualidade, com o potencial de transform=
+ar a maneira como empresas processam dados e operam em diversos setores. Co=
+ntudo, antes de alcan=C3=A7armos o pleno potencial dessa tecnologia, muitos=
+ desafios precisam ser superados. Grandes empresas, como IBM, Microsoft e G=
+oogle, lideram a pesquisa nesse campo, mas para que as empresas realmente a=
+proveitem essa revolu=C3=A7=C3=A3o, =C3=A9 essencial compreender o panorama=
+ atual e as barreiras que precisam ser enfrentadas.=C2=A0 O que =C3=A9 comp=
+uta=C3=A7=C3=A3o qu=C3=A2ntica e por que ela importa?=C2=A0 A computa=C3=A7=
+=C3=A3o qu=C3=A2ntica utiliza as leis da mec=C3=A2nica qu=C3=A2ntica para p=
+rocessar informa=C3=A7=C3=B5es de maneira exponencialmente mais r=C3=A1pida=
+ que os computadores cl=C3=A1ssicos. Enquanto os computadores tradicionais =
+operam com bits, que representam 0 ou 1, os computadores qu=C3=A2nticos uti=
+lizam qubits, que podem representar 0 e 1 simultaneamente, gra=C3=A7as ao f=
+en=C3=B4meno da superposi=C3=A7=C3=A3o. O entrela=C3=A7amento qu=C3=A2ntico=
+ =C3=A9 um fen=C3=B4meno onde part=C3=ADculas qu=C3=A2nticas compartilham e=
+stados interdependentes, de modo que alterar uma afeta instantaneamente a o=
+utra, independentemente da dist=C3=A2ncia entre elas.=C2=A0 =C2=A0Essa capa=
+cidade de realizar c=C3=A1lculos simult=C3=A2neos com enorme efici=C3=AAnci=
+a torna o processamento mais r=C3=A1pido e eficaz em problemas complexos.=
+=C2=A0 =C2=A0 Com essa tecnologia, a an=C3=A1lise de dados, a otimiza=C3=A7=
+=C3=A3o de processos e a resolu=C3=A7=C3=A3o de problemas complexos se torn=
+ar=C3=A3o muito mais eficientes. Imagine simular, em segundos, o comportame=
+nto de mol=C3=A9culas para criar novos medicamentos ou otimizar portf=C3=B3=
+lios financeiros com maior precis=C3=A3o. No entanto, apesar desse futuro p=
+romissor, h=C3=A1 obst=C3=A1culos a serem superados antes de sua aplica=C3=
+=A7=C3=A3o nos processos di=C3=A1rios das empresas.=C2=A0 Desafios para a a=
+do=C3=A7=C3=A3o da computa=C3=A7=C3=A3o qu=C3=A2ntica=C2=A0 A computa=C3=A7=
+=C3=A3o qu=C3=A2ntica ainda est=C3=A1 em fase inicial de desenvolvimento e =
+enfrenta desafios t=C3=A9cnicos e pr=C3=A1ticos para sua ado=C3=A7=C3=A3o e=
+m larga escala, como:=C2=A0 Custo e complexidade: A tecnologia =C3=A9 cara =
+e complexa, exigindo investimentos em infraestrutura e controle de temperat=
+ura criog=C3=AAnica, uma vez que os qubits s=C3=B3 operam em condi=C3=A7=C3=
+=B5es extremamente frias.=C2=A0 Estabilidade dos qubits: Os qubits s=C3=A3o=
+ altamente sens=C3=ADveis a ru=C3=ADdos externos, o que dificulta a manuten=
+=C3=A7=C3=A3o da coer=C3=AAncia qu=C3=A2ntica, necess=C3=A1ria para o proce=
+ssamento correto das informa=C3=A7=C3=B5es.=C2=A0 Escassez de profissionais=
+ qualificados: O dom=C3=ADnio dessa =C3=A1rea requer conhecimento avan=C3=
+=A7ado em f=C3=ADsica qu=C3=A2ntica, matem=C3=A1tica e ci=C3=AAncia da comp=
+uta=C3=A7=C3=A3o, e h=C3=A1 uma car=C3=AAncia de profissionais com essas ha=
+bilidades.=C2=A0 Compatibilidade com sistemas cl=C3=A1ssicos: integrar sist=
+emas qu=C3=A2nticos aos tradicionais exigir=C3=A1 novas arquiteturas de TI.=
+=C2=A0 Apesar desses desafios, os benef=C3=ADcios futuros s=C3=A3o promisso=
+res, e o investimento cont=C3=ADnuo em pesquisa e desenvolvimento =C3=A9 es=
+sencial para o avan=C3=A7o dessa tecnologia.=C2=A0 Setores que se beneficia=
+r=C3=A3o da computa=C3=A7=C3=A3o qu=C3=A2ntica=C2=A0 Alguns setores est=C3=
+=A3o mais preparados para tirar proveito da computa=C3=A7=C3=A3o qu=C3=A2nt=
+ica =C3=A0 medida que a tecnologia avan=C3=A7a:=C2=A0 Financeiro: Pode revo=
+lucionar a modelagem de risco, otimiza=C3=A7=C3=A3o de portf=C3=B3lios e de=
+tec=C3=A7=C3=A3o de fraudes, com solu=C3=A7=C3=B5es mais r=C3=A1pidas e pre=
+cisas.=C2=A0 Sa=C3=BAde e farmac=C3=AAutica: A simula=C3=A7=C3=A3o de mol=
+=C3=A9culas complexas possibilitar=C3=A1 o desenvolvimento mais r=C3=A1pido=
+ de medicamentos e tratamentos personalizados.=C2=A0 Log=C3=ADstica: Otimiz=
+a=C3=A7=C3=A3o de rotas e gest=C3=A3o de cadeias de suprimentos ser=C3=A3o =
+aprimoradas, resultando em maior efici=C3=AAncia e menores custos operacion=
+ais.=C2=A0 Energia: Simula=C3=A7=C3=B5es de rea=C3=A7=C3=B5es qu=C3=ADmicas=
+ complexas podem gerar baterias mais eficientes e melhorar a distribui=C3=
+=A7=C3=A3o de energia em redes inteligentes.=C2=A0 Agroneg=C3=B3cio: A simu=
+la=C3=A7=C3=A3o de padr=C3=B5es clim=C3=A1ticos e o desenvolvimento de seme=
+ntes mais resistentes beneficiar=C3=A3o a agricultura de precis=C3=A3o.=C2=
+=A0 =C2=A0O impacto da computa=C3=A7=C3=A3o qu=C3=A2ntica na Intelig=C3=AAn=
+cia Artificial=C2=A0 A computa=C3=A7=C3=A3o qu=C3=A2ntica promete revolucio=
+nar a intelig=C3=AAncia artificial (IA) e o aprendizado de m=C3=A1quina. Al=
+goritmos qu=C3=A2nticos, como o Quantum Support Vector Machine (QSVM) e as =
+Quantum Neural Networks (QNN), poder=C3=A3o acelerar o treinamento de model=
+os de IA, aumentando a capacidade de lidar com grandes volumes de dados e p=
+roblemas complexos.=C2=A0 Computa=C3=A7=C3=A3o qu=C3=A2ntica e seguran=C3=
+=A7a da informa=C3=A7=C3=A3o=C2=A0 Um dos maiores impactos da computa=C3=A7=
+=C3=A3o qu=C3=A2ntica ser=C3=A1 na seguran=C3=A7a cibern=C3=A9tica. Algorit=
+mos qu=C3=A2nticos, como o de Shor, podem quebrar sistemas de criptografia =
+amplamente usados atualmente, como o RSA. Para mitigar esse risco, empresas=
+ devem come=C3=A7ar a investir em criptografia p=C3=B3s-qu=C3=A2ntica, asse=
+gurando que seus dados estejam protegidos contra futuras amea=C3=A7as.=C2=
+=A0 Como sua empresa pode se preparar para a computa=C3=A7=C3=A3o qu=C3=A2n=
+tica?=C2=A0 Embora a computa=C3=A7=C3=A3o qu=C3=A2ntica ainda n=C3=A3o seja=
+ amplamente acess=C3=ADvel, sua empresa pode come=C3=A7ar a se preparar:=C2=
+=A0 Investir em P&D: Explore como a computa=C3=A7=C3=A3o qu=C3=A2ntica pode=
+ impactar seus processos. Parcerias com universidades e laborat=C3=B3rios p=
+odem acelerar a curva de aprendizado e inova=C3=A7=C3=A3o.=C2=A0 Treinament=
+o de equipe: Capacitar profissionais e contratar especialistas em computa=
+=C3=A7=C3=A3o qu=C3=A2ntica =C3=A9 essencial para garantir que sua empresa =
+esteja preparada para essa tecnologia.=C2=A0 Explorar solu=C3=A7=C3=B5es qu=
+=C3=A2nticas na nuvem: Empresas como IBM e Microsoft oferecem acesso a sist=
+emas qu=C3=A2nticos via plataformas de nuvem, permitindo que as empresas te=
+stem a tecnologia sem altos investimentos iniciais.=C2=A0 A computa=C3=A7=
+=C3=A3o qu=C3=A2ntica ainda est=C3=A1 em seus primeiros passos, mas o poten=
+cial disruptivo j=C3=A1 =C3=A9 evidente. Embora existam desafios a serem su=
+perados, as empresas que come=C3=A7arem a investir e se preparar agora ter=
+=C3=A3o uma vantagem competitiva quando a tecnologia se tornar mais acess=
+=C3=ADvel.=C2=A0 A computa=C3=A7=C3=A3o qu=C3=A2ntica est=C3=A1 transforman=
+do a maneira como enxergamos o futuro da tecnologia, e sua empresa n=C3=A3o=
+ pode ficar para tr=C3=A1s. Aqui na SIS, estamos preparados para ajud=C3=A1=
+-lo a navegar por esse novo cen=C3=A1rio. Com uma equipe experiente e espec=
+ializada, oferecemos consultoria personalizada para preparar sua empresa pa=
+ra a era da computa=C3=A7=C3=A3o qu=C3=A2ntica.=C2=A0 Quer saber mais sobre=
+ como a computa=C3=A7=C3=A3o qu=C3=A2ntica pode beneficiar seus neg=C3=B3ci=
+os?=C2=A0=C2=A0 Entre em contato com a gente e descubra como podemos ajud=
+=C3=A1-lo a estar =C3=A0 frente das inova=C3=A7=C3=B5es tecnol=C3=B3gicas. =
+Seja pioneiro na transforma=C3=A7=C3=A3o digital com o nosso apoio.=C2=A0 =
+=C2=A0
+Continue lendo no LinkedIn
+https://www.linkedin.com/comm/pulse/computa%C3%A7%C3%A3o-qu%C3%A2ntica-desa=
+fios-oportunidades-e-como-empresas-nvoif?lipi=3Durn%3Ali%3Apage%3Aemail_ema=
+il_series_follow_newsletter_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%3D&midToken=3D=
+AQHxaOsdYMWJVQ&midSig=3D03H-S3qQ267HA1&trk=3Deml-email_series_follow_newsle=
+tter_01-newsletter_content_preview_text-0-readmore_button_&trkEmail=3Deml-e=
+mail_series_follow_newsletter_01-newsletter_content_preview_text-0-readmore=
+_button_-null-gdb74f~m4ub3mmc~rv-null-null&eid=3Dgdb74f-m4ub3mmc-rv&otpToke=
+n=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYWUyYjE4ZWNhZDQ0ODljYWE4ZTYxNzljNDA=
+2NmQ0YjVkNWJmMmZlZDNkZmE0NmZjMWVmZGI1NWJiZjIxYmFkY2NjOWY2ODM4MGM4NTU4MjM5Zm=
+RlNjY5NjI1MCwxLDE%3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | Java | JS | React.js | Node.js | Python)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSi=
+g=3D03H-S3qQ267HA1&trk=3Deml-email_series_follow_newsletter_01-SecurityHelp=
+-0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Secur=
+ityHelp-0-textfooterglimmer-null-gdb74f~m4ub3mmc~rv-null-null&eid=3Dgdb74f-=
+m4ub3mmc-rv&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYWUyYjE4ZWNhZDQ0=
+ODljYWE4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmE0NmZjMWVmZGI1NWJiZjIxYmFkY2NjOWY=
+2ODM4MGM4NTU4MjM5ZmRlNjY5NjI1MCwxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/comm/series-notifica=
+tions/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y=
+9whjlY&newsletterId=3D7061745063541751808&newsletterTitle=3DSIS%20Innov%20&=
+%20Tech%20News&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslette=
+r_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D03=
+H-S3qQ267HA1&trk=3Deml-email_series_follow_newsletter_01-unsubscribe-0-foot=
+erGlimmer&trkEmail=3Deml-email_series_follow_newsletter_01-unsubscribe-0-fo=
+oterGlimmer-null-gdb74f~m4ub3mmc~rv-null-null&eid=3Dgdb74f-m4ub3mmc-rv&otpT=
+oken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYWUyYjE4ZWNhZDQ0ODljYWE4ZTYxNzlj=
+NDA2NmQ0YjVkNWJmMmZlZDNkZmE0NmZjMWVmZGI1NWJiZjIxYmFkY2NjOWY2ODM4MGM4NTU4MjM=
+5ZmRlNjY5NjI1MCwxLDE%3D=C2=A0=C2=A0=C2=B7=C2=A0=C2=A0Ajuda: https://www.lin=
+kedin.com/help/linkedin/answer/67?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_=
+email_series_follow_newsletter_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%3D&midToken=
+=3DAQHxaOsdYMWJVQ&midSig=3D03H-S3qQ267HA1&trk=3Deml-email_series_follow_new=
+sletter_01-help-0-textfooterglimmer&trkEmail=3Deml-email_series_follow_news=
+letter_01-help-0-textfooterglimmer-null-gdb74f~m4ub3mmc~rv-null-null&eid=3D=
+gdb74f-m4ub3mmc-rv&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYWUyYjE4Z=
+WNhZDQ0ODljYWE4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmE0NmZjMWVmZGI1NWJiZjIxYmFk=
+Y2NjOWY2ODM4MGM4NTU4MjM5ZmRlNjY5NjI1MCwxLDE%3D
+
+=C2=A9 2024 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_7995510_184833825.1734551450115
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+/head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-canvas w-fu=
+ll m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; padding: 0p=
+x; padding-top: 8px; font-family: -apple-system, system-ui, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Ox=
+ygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sa=
+ns-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible overflow=
+-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; max-height=
+: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" data-email-p=
+reheader=3D"true">Por Vitor Stelari A computa=C3=A7=C3=A3o qu=C3=A2ntica =
+=C3=A9 uma das inova=C3=A7=C3=B5es mais promissoras da=E2=80=A6</div> <div =
+class=3D"h-0 opacity-0 text-transparent invisible overflow-hidden w-0 max-h=
+-[0]" style=3D"visibility: hidden; height: 0px; max-height: 0; width: 0px; =
+overflow: hidden; opacity: 0; mso-hide: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+ =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <tab=
+le role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" width=3D"512" align=3D"center" class=3D"mercado-container w-[=
+512px] max-w-[512px] mx-auto my-0 p-0 " style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt; margin-left: auto; margin-right: auto; margin-top: 0px; margin-bottom:=
+ 0px; width: 512px; max-width: 512px; padding: 0px;"> <tbody> <tr> <td styl=
+e=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=
+=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" cl=
+ass=3D"bg-color-background-container " style=3D"-webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt; background-color: #ffffff;"> <tbody> <tr> <td class=3D"text-center p-3"=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; padding: 24px; text-align: center;=
+"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0" width=3D"100%" class=3D"min-w-full" style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; min-width: 100%;"> <tbody> <tr> <td align=3D"left" va=
+lign=3D"middle" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https:=
+//www.linkedin.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_f=
+ollow_newsletter_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%3D&amp;midToken=3DAQHxaOs=
+dYMWJVQ&amp;midSig=3D03H-S3qQ267HA1&amp;trk=3Deml-email_series_follow_newsl=
+etter_01-header-0-home_glimmer_dynamic_badging_high_dpi&amp;trkEmail=3Deml-=
+email_series_follow_newsletter_01-header-0-home_glimmer_dynamic_badging_hig=
+h_dpi-null-gdb74f~m4ub3mmc~rv-null-null&amp;eid=3Dgdb74f-m4ub3mmc-rv&amp;ot=
+pToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYWUyYjE4ZWNhZDQ0ODljYWE4ZTYxNz=
+ljNDA2NmQ0YjVkNWJmMmZlZDNkZmE0NmZjMWVmZGI1NWJiZjIxYmFkY2NjOWY2ODM4MGM4NTU4M=
+jM5ZmRlNjY5NjI1MCwxLDE%3D" target=3D"_blank" class=3D"w-[84px]" style=3D"co=
+lor: #0a66c2; cursor: pointer; display: inline-block; text-decoration: none=
+; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width: 84px;"=
+> <img class=3D"h-[37px] w-[101px]" alt=3D"LinkedIn" src=3D"https://www.lin=
+kedin.com/comm/dms/logo/v2?badgeTheme=3Dmercado&amp;lipi=3Durn%3Ali%3Apage%=
+3Aemail_email_series_follow_newsletter_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%3D&=
+amp;midSig=3D03H-S3qQ267HA1&amp;midToken=3DAQHxaOsdYMWJVQ&amp;trkEmail=3Dem=
+l-email_series_follow_newsletter_01-null-0-comms%7Ebadging%7Edynamic%7Eglim=
+mer%7Ev2-null-gdb74f%7Em4ub3mmc%7Erv-null-null&amp;trk=3Deml-email_series_f=
+ollow_newsletter_01-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2&amp;_si=
+g=3D3X9J4Iv5W67HA1" data-test-header-dynamic-badging-img-high-dpi style=3D"=
+outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; heig=
+ht: 37px; width: 101px;" width=3D"101" height=3D"37"> </a> </td> <td valign=
+=3D"middle" align=3D"right" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tabl=
+e role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" width=3D"100%" data-test-header-profile style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt;"> <tbody> <tr> <td align=3D"right" valign=3D"middle" clas=
+s=3D"w-[32px]" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 32px;" width=
+=3D"32"> <a href=3D"https://br.linkedin.com/comm/in/fernando-ferreira-brito=
+?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bhs3c78q=
+JSaOZlwmU%2FdmBtw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D03H-S3qQ=
+267HA1&amp;trk=3Deml-email_series_follow_newsletter_01-header-0-profile_gli=
+mmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-header-0-profile_=
+glimmer-null-gdb74f~m4ub3mmc~rv-null-null&amp;eid=3Dgdb74f-m4ub3mmc-rv&amp;=
+otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYWUyYjE4ZWNhZDQ0ODljYWE4ZTYx=
+NzljNDA2NmQ0YjVkNWJmMmZlZDNkZmE0NmZjMWVmZGI1NWJiZjIxYmFkY2NjOWY2ODM4MGM4NTU=
+4MjM5ZmRlNjY5NjI1MCwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cur=
+sor: pointer; display: inline-block; text-decoration: none; -webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%;"> <img alt=3D"Luiz Fernando Br=
+ito Ferreira" src=3D"https://media.licdn.com/dms/image/v2/D4E03AQHtWMkj43o1=
+lA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/=
+0/1724191556445?e=3D2147483647&amp;v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB=
+92xXoc9r_1IG6EIUIKB4" class=3D"rounded-[100%] w-[32px] h-[32px]" style=3D"o=
+utline: none; text-decoration: none; -ms-interpolation-mode: bicubic; heigh=
+t: 32px; width: 32px; border-radius: 100%;" width=3D"32" height=3D"32"> </a=
+> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <=
+tr> <td class=3D"px-0 pb-3" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding=
+-left: 0px; padding-right: 0px; padding-bottom: 24px;"> <div> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr=
+> <td data-test-id=3D"newsletter-entity-lockup" class=3D"px-3 pt-1" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; padding-left: 24px; padding-right: 24px;=
+ padding-top: 8px;"> <table role=3D"presentation" valign=3D"top" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"font-sans" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, system-u=
+i, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', U=
+buntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', He=
+lvetica, Arial, sans-serif;"> <tbody> <tr> <td valign=3D"top" class=3D"pr-1=
+ w-6" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 48px; padding-right: 8=
+px;" width=3D"48"> <a href=3D"https://www.linkedin.com/comm/newsletters/706=
+1745063541751808?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslet=
+ter_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;m=
+idSig=3D03H-S3qQ267HA1&amp;trk=3Deml-email_series_follow_newsletter_01-news=
+letter_entity_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-email_serie=
+s_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta-nul=
+l-gdb74f~m4ub3mmc~rv-null-null&amp;eid=3Dgdb74f-m4ub3mmc-rv&amp;otpToken=3D=
+MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYWUyYjE4ZWNhZDQ0ODljYWE4ZTYxNzljNDA2NmQ=
+0YjVkNWJmMmZlZDNkZmE0NmZjMWVmZGI1NWJiZjIxYmFkY2NjOWY2ODM4MGM4NTU4MjM5ZmRlNj=
+Y5NjI1MCwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointe=
+r; display: inline-block; text-decoration: none; -webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%;"> <img class=3D"inline-block relative bg-=
+color-entity-ghost-background w-6 h-6 rounded-md" src=3D"https://media.licd=
+n.com/dms/image/v2/D4D12AQGMppL6UNTbyA/series-logo_image-shrink_100_100/ser=
+ies-logo_image-shrink_100_100/0/1683651217603?e=3D2147483647&amp;v=3Dbeta&a=
+mp;t=3DGunRE4vYj_7ZJyr2AWLy6b1VVbvlEbGmKuxznycsPT4" alt=3D"Abrir SIS Innov =
+&amp;amp; Tech News" style=3D"outline: none; text-decoration: none; -ms-int=
+erpolation-mode: bicubic; position: relative; display: inline-block; height=
+: 48px; width: 48px; border-radius: 8px; background-color: #eae6df;" width=
+=3D"48" height=3D"48"> </a> </td> <td valign=3D"top" style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;"> <a href=3D"https://www.linkedin.com/comm/newsletters/706174506354175180=
+8?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bhs3c78=
+qJSaOZlwmU%2FdmBtw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D03H-S3q=
+Q267HA1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_entity_l=
+ockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-email_series_follow_newsle=
+tter_01-newsletter_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m4ub3m=
+mc~rv-null-null&amp;eid=3Dgdb74f-m4ub3mmc-rv&amp;otpToken=3DMWIwZDE3ZTgxMzI=
+4Y2JjM2I1MjQwNGVkNDUxYWUyYjE4ZWNhZDQ0ODljYWE4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZD=
+NkZmE0NmZjMWVmZGI1NWJiZjIxYmFkY2NjOWY2ODM4MGM4NTU4MjM5ZmRlNjY5NjI1MCwxLDE%3=
+D" target=3D"_blank" class=3D"no-underline" style=3D"color: #0a66c2; cursor=
+: pointer; display: inline-block; text-decoration: none; -webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; text-decoration-line: none;"> <di=
+v class=3D"pb-0.5" style=3D"padding-bottom: 4px;"> <span class=3D"text-md f=
+ont-bold text-color-text break-words leading-regular" style=3D"overflow-wra=
+p: break-word; font-size: 16px; font-weight: 600; line-height: 1.25; color:=
+ rgba(0, 0, 0, 0.9);"> SIS Innov &amp; Tech News </span> </div> </a> </td> =
+</tr> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https:/=
+/www.linkedin.com/comm/newsletters/7061745063541751808?lipi=3Durn%3Ali%3Apa=
+ge%3Aemail_email_series_follow_newsletter_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%=
+3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D03H-S3qQ267HA1&amp;trk=3Deml-=
+email_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_ent=
+ity_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_ent=
+ity_lockup-0-newsletter_entity_cta-null-gdb74f~m4ub3mmc~rv-null-null&amp;ei=
+d=3Dgdb74f-m4ub3mmc-rv&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY=
+WUyYjE4ZWNhZDQ0ODljYWE4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmE0NmZjMWVmZGI1NWJi=
+ZjIxYmFkY2NjOWY2ODM4MGM4NTU4MjM5ZmRlNjY5NjI1MCwxLDE%3D" target=3D"_blank" c=
+lass=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; display: in=
+line-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; text-decoration-line: none;"> <span class=3D"text-xs te=
+xt-color-text-low-emphasis leading-regular" style=3D"font-size: 12px; line-=
+height: 1.25; color: rgba(0, 0, 0, 0.6);"> Quer saber como a tecnologia pod=
+e transformar os seus neg=C3=B3cios? Ent=C3=A3o acompanhe a nossa newslette=
+r=E2=80=A6 </span> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> =
+</table> </td> </tr> <tr data-test-id=3D"newsletter-content-preview"> <td c=
+lass=3D"px-3 pt-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 24=
+px; padding-right: 24px; padding-top: 16px;"> <table role=3D"presentation" =
+valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"10=
+0%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"ove=
+rflow-hidden " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; overflow: hidden;"> =
+<table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> =
+<tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https=
+://www.linkedin.com/comm/pulse/computa%C3%A7%C3%A3o-qu%C3%A2ntica-desafios-=
+oportunidades-e-como-empresas-nvoif?lipi=3Durn%3Ali%3Apage%3Aemail_email_se=
+ries_follow_newsletter_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%3D&amp;midToken=3DA=
+QHxaOsdYMWJVQ&amp;midSig=3D03H-S3qQ267HA1&amp;trk=3Deml-email_series_follow=
+_newsletter_01-newsletter_content_preview-0-headline_&amp;trkEmail=3Deml-em=
+ail_series_follow_newsletter_01-newsletter_content_preview-0-headline_-null=
+-gdb74f~m4ub3mmc~rv-null-null&amp;eid=3Dgdb74f-m4ub3mmc-rv&amp;otpToken=3DM=
+WIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYWUyYjE4ZWNhZDQ0ODljYWE4ZTYxNzljNDA2NmQ0=
+YjVkNWJmMmZlZDNkZmE0NmZjMWVmZGI1NWJiZjIxYmFkY2NjOWY2ODM4MGM4NTU4MjM5ZmRlNjY=
+5NjI1MCwxLDE%3D" target=3D"_blank" class=3D"w-full" style=3D"color: #0a66c2=
+; cursor: pointer; display: inline-block; text-decoration: none; -webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; width: 100%;"> <img class=
+=3D"block w-full aspect-[744/400] object-cover overflow-hidden" data-test-i=
+d=3D"newsletter-content-preview__cover-image" alt=3D"Imagem de capa da news=
+letter" src=3D"https://media.licdn.com/dms/image/v2/D4D12AQEfSIqeAmaKyQ/art=
+icle-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1734=
+549712400?e=3D2147483647&amp;v=3Dbeta&amp;t=3DSBiFUR-myB9GATIpVq7UFrCLPbzk-=
+pRSdSaCOtSoJ6c" style=3D"outline: none; text-decoration: none; -ms-interpol=
+ation-mode: bicubic; display: block; aspect-ratio: 744/400; width: 100%; ov=
+erflow: hidden; object-fit: cover;"> </a> </td> </tr> <tr> <td class=3D"py-=
+2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 16px; padding-botto=
+m: 16px;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a hr=
+ef=3D"https://www.linkedin.com/comm/pulse/computa%C3%A7%C3%A3o-qu%C3%A2ntic=
+a-desafios-oportunidades-e-como-empresas-nvoif?lipi=3Durn%3Ali%3Apage%3Aema=
+il_email_series_follow_newsletter_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%3D&amp;m=
+idToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D03H-S3qQ267HA1&amp;trk=3Deml-email_se=
+ries_follow_newsletter_01-newsletter_content_preview-0-title_&amp;trkEmail=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-title=
+_-null-gdb74f~m4ub3mmc~rv-null-null&amp;eid=3Dgdb74f-m4ub3mmc-rv&amp;otpTok=
+en=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYWUyYjE4ZWNhZDQ0ODljYWE4ZTYxNzljND=
+A2NmQ0YjVkNWJmMmZlZDNkZmE0NmZjMWVmZGI1NWJiZjIxYmFkY2NjOWY2ODM4MGM4NTU4MjM5Z=
+mRlNjY5NjI1MCwxLDE%3D" target=3D"_blank" class=3D"no-underline font-medium =
+text-sm m-0 text-system-gray-90" style=3D"cursor: pointer; display: inline-=
+block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; margin: 0px; font-size: 14px; font-weight: 500; color: #2828=
+28; text-decoration-line: none;"> <h2 class=3D"m-0 text-display-sm leading-=
+regular text-color-text font-bold font-sans" style=3D"margin: 0px; font-fam=
+ily: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Hel=
+vetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid=
+ Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 24px; fo=
+nt-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Computa=C3=
+=A7=C3=A3o Qu=C3=A2ntica: Desafios, Oportunidades e Como as Empresas Podem =
+se Preparar </h2> </a> </td> </tr> <tr> <td style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"100%" data-test-id=3D"newsletter-auth=
+or-lockup-redesign" class=3D"mt-1 mb-2" style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt; margin-bottom: 16px; margin-top: 8px;"> <tbody> <tr> <td valign=3D"mid=
+dle" align=3D"left" class=3D"w-3" style=3D"-webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; w=
+idth: 24px;" width=3D"24"> <a href=3D"https://www.linkedin.com/comm/company=
+/sisinnovtech?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter=
+_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midS=
+ig=3D03H-S3qQ267HA1&amp;trk=3Deml-email_series_follow_newsletter_01-newslet=
+ter_content_preview-0-author_&amp;trkEmail=3Deml-email_series_follow_newsle=
+tter_01-newsletter_content_preview-0-author_-null-gdb74f~m4ub3mmc~rv-null-n=
+ull&amp;eid=3Dgdb74f-m4ub3mmc-rv&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQ=
+wNGVkNDUxYWUyYjE4ZWNhZDQ0ODljYWE4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmE0NmZjMW=
+VmZGI1NWJiZjIxYmFkY2NjOWY2ODM4MGM4NTU4MjM5ZmRlNjY5NjI1MCwxLDE%3D" target=3D=
+"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; t=
+ext-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%;"> <img class=3D"inline-block relative bg-color-entity-ghost-backgrou=
+nd w-4 h-4 align-middle" src=3D"https://media.licdn.com/dms/image/v2/C4D0BA=
+QHpmoet8ArItQ/company-logo_100_100/company-logo_100_100/0/1675792266863/sis=
+consultoria_logo?e=3D2147483647&amp;v=3Dbeta&amp;t=3DFWUb0STN_6Zm5ReHnviakR=
+DZPFOoASnDFoE1oufW50s" alt=3D"Imagem do autor" style=3D"outline: none; text=
+-decoration: none; -ms-interpolation-mode: bicubic; position: relative; dis=
+play: inline-block; height: 32px; width: 32px; background-color: #eae6df; v=
+ertical-align: middle;" width=3D"32" height=3D"32"> </a> </td> <td style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/=
+company/sisinnovtech?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&a=
+mp;midSig=3D03H-S3qQ267HA1&amp;trk=3Deml-email_series_follow_newsletter_01-=
+newsletter_content_preview-0-author_&amp;trkEmail=3Deml-email_series_follow=
+_newsletter_01-newsletter_content_preview-0-author_-null-gdb74f~m4ub3mmc~rv=
+-null-null&amp;eid=3Dgdb74f-m4ub3mmc-rv&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2Jj=
+M2I1MjQwNGVkNDUxYWUyYjE4ZWNhZDQ0ODljYWE4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmE=
+0NmZjMWVmZGI1NWJiZjIxYmFkY2NjOWY2ODM4MGM4NTU4MjM5ZmRlNjY5NjI1MCwxLDE%3D" ta=
+rget=3D"_blank" class=3D"no-underline ml-1" style=3D"color: #0a66c2; cursor=
+: pointer; display: inline-block; text-decoration: none; -webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; margin-left: 8px; text-decoration=
+-line: none;"> <span class=3D"font-sans font-bold text-sm mb-3 text-color-t=
+ext-low-emphasis leading-regular" style=3D"margin-bottom: 24px; font-family=
+: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvet=
+ica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sa=
+ns', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Sym=
+bol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 14px; font-=
+weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.6);"> SIS Innov &amp=
+; Tech </span> </a> </td> </tr> </tbody> </table> </td> </tr> <tr> <td clas=
+s=3D"pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px;"> <=
+div class=3D"p-3 bg-color-surface-tint rounded-md font-sans" data-test-id=
+=3D"newsletter-cta-banner" style=3D"border-radius: 8px; background-color: #=
+f5f7f9; padding: 24px; font-family: -apple-system, system-ui, BlinkMacSyste=
+mFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, '=
+Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, =
+sans-serif;"> <div class=3D"mb-1.5" style=3D"margin-bottom: 12px;"> <span c=
+lass=3D"text-md leading-regular font-bold text-color-text" style=3D"font-si=
+ze: 16px; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);">=
+ Leia este artigo no LinkedIn para participar da conversa </span> </div> <t=
+able role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0" width=3D"100%" class=3D"email-button " data-test-id=3D"emai=
+l-button" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=
+=3D"middle" align=3D"left" style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a hre=
+f=3D"https://www.linkedin.com/comm/pulse/computa%C3%A7%C3%A3o-qu%C3%A2ntica=
+-desafios-oportunidades-e-como-empresas-nvoif?lipi=3Durn%3Ali%3Apage%3Aemai=
+l_email_series_follow_newsletter_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%3D&amp;mi=
+dToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D03H-S3qQ267HA1&amp;trk=3Deml-email_ser=
+ies_follow_newsletter_01-newsletter_content_preview-0-read_more_banner_cta_=
+&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_pr=
+eview-0-read_more_banner_cta_-null-gdb74f~m4ub3mmc~rv-null-null&amp;eid=3Dg=
+db74f-m4ub3mmc-rv&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYWUyYj=
+E4ZWNhZDQ0ODljYWE4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmE0NmZjMWVmZGI1NWJiZjIxY=
+mFkY2NjOWY2ODM4MGM4NTU4MjM5ZmRlNjY5NjI1MCwxLDE%3D" target=3D"_blank" aria-l=
+abel=3D"Abrir este artigo no LinkedIn" class=3D"align-top no-underline " st=
+yle=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decorat=
+ion: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; vert=
+ical-align: top; text-decoration-line: none;"> <table role=3D"presentation"=
+ valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"a=
+uto" class=3D"border-separate " style=3D"-webkit-text-size-adjust: 100%; -m=
+s-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; bor=
+der-collapse: separate;"> <tbody> <tr> <td class=3D"btn-sm btn-primary bord=
+er-color-brand button-link leading-regular !min-h-[auto] !shadow-none borde=
+r-1 border-solid" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: min-conte=
+nt; border-radius: 24px; padding-top: 7px; padding-bottom: 7px; padding-lef=
+t: 16px; padding-right: 16px; text-align: center; font-size: 14px; font-wei=
+ght: 600; cursor: pointer; text-decoration-line: none; background-color: #0=
+a66c2; color: #ffffff; border-width: 1px; border-style: solid; border-color=
+: #0a66c2; line-height: 1.25; min-height: auto !important; box-shadow: 0 0 =
+#0000, 0 0 #0000, 0 0 #0000 !important;"> <a href=3D"https://www.linkedin.c=
+om/comm/pulse/computa%C3%A7%C3%A3o-qu%C3%A2ntica-desafios-oportunidades-e-c=
+omo-empresas-nvoif?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsl=
+etter_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp=
+;midSig=3D03H-S3qQ267HA1&amp;trk=3Deml-email_series_follow_newsletter_01-ne=
+wsletter_content_preview-0-read_more_banner_cta_&amp;trkEmail=3Deml-email_s=
+eries_follow_newsletter_01-newsletter_content_preview-0-read_more_banner_ct=
+a_-null-gdb74f~m4ub3mmc~rv-null-null&amp;eid=3Dgdb74f-m4ub3mmc-rv&amp;otpTo=
+ken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYWUyYjE4ZWNhZDQ0ODljYWE4ZTYxNzljN=
+DA2NmQ0YjVkNWJmMmZlZDNkZmE0NmZjMWVmZGI1NWJiZjIxYmFkY2NjOWY2ODM4MGM4NTU4MjM5=
+ZmRlNjY5NjI1MCwxLDE%3D" target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"tr=
+ue" class=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; displa=
+y: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; text-decoration-line: none;"> <span class=3D"no-un=
+derline text-white" style=3D"color: #ffffff; text-decoration-line: none;"> =
+Ler no LinkedIn </span> </a> </td> </tr> </tbody> </table> </a> </td> </tr>=
+ </tbody> </table> </div> </td> </tr> <tr data-test-id=3D"newsletter-conten=
+t-preview--content"> <td class=3D"series-article-body" style=3D"-webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt; font-family: -apple-system, system-ui, BlinkMacSystemFo=
+nt, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxy=
+gen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', =
+'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 1.5; color: rgba(0, 0, 0, 0.9);"> <p=
+ style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; l=
+ine-height: 1.5;">Por <a target=3D"_blank" href=3D"https://www.linkedin.com=
+/in/vitorstelari?miniProfileUrn=3Durn%3Ali%3Afs_miniProfile%3AACoAABDhNq0Bs=
+yL-F5wbx6ICCjPHpYFOH2Wy6cw" style=3D"text-decoration: none; -webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%; display: inline; cursor: point=
+er; font-weight: 600; color: #0a66c2; text-decoration-line: none;">Vitor St=
+elari</a> </p><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; f=
+ont-size: 1em; line-height: 1.5;">A computa=C3=A7=C3=A3o qu=C3=A2ntica =C3=
+=A9 uma das inova=C3=A7=C3=B5es mais promissoras da atualidade, com o poten=
+cial de transformar a maneira como empresas processam dados e operam em div=
+ersos setores. Contudo, antes de alcan=C3=A7armos o pleno potencial dessa t=
+ecnologia, muitos desafios precisam ser superados. Grandes empresas, como I=
+BM, Microsoft e Google, lideram a pesquisa nesse campo, mas para que as emp=
+resas realmente aproveitem essa revolu=C3=A7=C3=A3o, =C3=A9 essencial compr=
+eender o panorama atual e as barreiras que precisam ser enfrentadas.&nbsp;<=
+/p><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1=
+em; line-height: 1.5;"><strong>O que =C3=A9 computa=C3=A7=C3=A3o qu=C3=A2nt=
+ica e por que ela importa?</strong>&nbsp;</p><p style=3D"margin: 0; font-we=
+ight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">A computa=
+=C3=A7=C3=A3o qu=C3=A2ntica utiliza as leis da mec=C3=A2nica qu=C3=A2ntica =
+para processar informa=C3=A7=C3=B5es de maneira exponencialmente mais r=C3=
+=A1pida que os computadores cl=C3=A1ssicos. Enquanto os computadores tradic=
+ionais operam com bits, que representam 0 ou 1, os computadores qu=C3=A2nti=
+cos utilizam qubits, que podem representar 0 e 1 simultaneamente, gra=C3=A7=
+as ao fen=C3=B4meno da superposi=C3=A7=C3=A3o. O entrela=C3=A7amento qu=C3=
+=A2ntico =C3=A9 um fen=C3=B4meno onde part=C3=ADculas qu=C3=A2nticas compar=
+tilham estados interdependentes, de modo que alterar uma afeta instantaneam=
+ente a outra, independentemente da dist=C3=A2ncia entre elas.&nbsp;</p><p s=
+tyle=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; lin=
+e-height: 1.5;">&nbsp;Essa capacidade de realizar c=C3=A1lculos simult=C3=
+=A2neos com enorme efici=C3=AAncia torna o processamento mais r=C3=A1pido e=
+ eficaz em problemas complexos.&nbsp; &nbsp;</p><p style=3D"margin: 0; font=
+-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">Com ess=
+a tecnologia, a an=C3=A1lise de dados, a otimiza=C3=A7=C3=A3o de processos =
+e a resolu=C3=A7=C3=A3o de problemas complexos se tornar=C3=A3o muito mais =
+eficientes. Imagine simular, em segundos, o comportamento de...</p> </td> <=
+/tr> <tr> <td class=3D"pt-2 no-underline" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; padding-top: 16px; text-decoration-line: none;"> <table role=3D"pres=
+entation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" w=
+idth=3D"100%" class=3D"email-button series-content-preview__bottom-cta" dat=
+a-test-id=3D"email-button" style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody=
+> <tr> <td valign=3D"middle" align=3D"left" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/computa%C3%A7%C3%=
+A3o-qu%C3%A2ntica-desafios-oportunidades-e-como-empresas-nvoif?lipi=3Durn%3=
+Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bhs3c78qJSaOZlwmU%2Fd=
+mBtw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D03H-S3qQ267HA1&amp;tr=
+k=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-read=
+more_button_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newslette=
+r_content_preview-0-readmore_button_-null-gdb74f~m4ub3mmc~rv-null-null&amp;=
+eid=3Dgdb74f-m4ub3mmc-rv&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDU=
+xYWUyYjE4ZWNhZDQ0ODljYWE4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmE0NmZjMWVmZGI1NW=
+JiZjIxYmFkY2NjOWY2ODM4MGM4NTU4MjM5ZmRlNjY5NjI1MCwxLDE%3D" target=3D"_blank"=
+ aria-label=3D"Abrir SIS Innov &amp;amp; Tech News no LinkedIn" class=3D"al=
+ign-top no-underline " style=3D"color: #0a66c2; cursor: pointer; display: i=
+nline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; vertical-align: top; text-decoration-line: none; width=
+: 100%;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"border-separate " style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; border-collapse: separate; width: 100%;"=
+> <tbody> <tr> <td class=3D"btn-md btn-secondary-emphasis border-color-bran=
+d button-link leading-regular !min-h-[auto] !shadow-none border-1 border-so=
+lid font-sans" data-test-id=3D"newsletter-content-preview-redesign-bottom-c=
+ta" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt; height: min-content; border-rad=
+ius: 24px; padding-top: 12px; padding-bottom: 12px; padding-left: 24px; pad=
+ding-right: 24px; text-align: center; font-size: 16px; font-weight: 600; cu=
+rsor: pointer; text-decoration-line: none; background-color: rgba(0, 0, 0, =
+0); color: #0a66c2; border-width: 1px; border-style: solid; border-color: #=
+0a66c2; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe U=
+I', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', C=
+antarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Em=
+oji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; lin=
+e-height: 1.25; min-height: auto !important; box-shadow: 0 0 #0000, 0 0 #00=
+00, 0 0 #0000 !important;"> <a href=3D"https://www.linkedin.com/comm/pulse/=
+computa%C3%A7%C3%A3o-qu%C3%A2ntica-desafios-oportunidades-e-como-empresas-n=
+voif?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bhs3=
+c78qJSaOZlwmU%2FdmBtw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D03H-=
+S3qQ267HA1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_conte=
+nt_preview-0-readmore_button_&amp;trkEmail=3Deml-email_series_follow_newsle=
+tter_01-newsletter_content_preview-0-readmore_button_-null-gdb74f~m4ub3mmc~=
+rv-null-null&amp;eid=3Dgdb74f-m4ub3mmc-rv&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2=
+JjM2I1MjQwNGVkNDUxYWUyYjE4ZWNhZDQ0ODljYWE4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZ=
+mE0NmZjMWVmZGI1NWJiZjIxYmFkY2NjOWY2ODM4MGM4NTU4MjM5ZmRlNjY5NjI1MCwxLDE%3D" =
+target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" class=3D"no-underlin=
+e" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-de=
+coration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ text-decoration-line: none; width: 100%;"> <span class=3D"no-underline tex=
+t-color-brand" style=3D"color: #0a66c2; text-decoration-line: none;"> Conti=
+nue lendo no LinkedIn </span> </a> </td> </tr> </tbody> </table> </a> </td>=
+ </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody>=
+ </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </div=
+> </td> </tr> <tr> <td class=3D"bg-color-background-canvas p-3" style=3D"-w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt; background-color: #f3f2f0; padding: 24px;"> <t=
+able role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0" width=3D"100%" class=3D"text-xs" style=3D"-webkit-text-size=
+-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table=
+-rspace: 0pt; font-size: 12px;"> <tbody> <tr> <td class=3D"pb-1 m-0" data-t=
+est-id=3D"email-footer__intended" style=3D"-webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; m=
+argin: 0px; padding-bottom: 8px;"> Este e-mail foi enviado a Luiz Fernando =
+Brito Ferreira (Full-Stack Developer | Java | JS | React.js | Node.js | Pyt=
+hon) </td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; margin: 0px; padding-bottom: 8px;"> <a href=3D"https://www.linked=
+in.com/help/linkedin/answer/4788?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aema=
+il_email_series_follow_newsletter_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%3D&amp;m=
+idToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D03H-S3qQ267HA1&amp;trk=3Deml-email_se=
+ries_follow_newsletter_01-SecurityHelp-0-footerglimmer&amp;trkEmail=3Deml-e=
+mail_series_follow_newsletter_01-SecurityHelp-0-footerglimmer-null-gdb74f~m=
+4ub3mmc~rv-null-null&amp;eid=3Dgdb74f-m4ub3mmc-rv&amp;otpToken=3DMWIwZDE3ZT=
+gxMzI4Y2JjM2I1MjQwNGVkNDUxYWUyYjE4ZWNhZDQ0ODljYWE4ZTYxNzljNDA2NmQ0YjVkNWJmM=
+mZlZDNkZmE0NmZjMWVmZGI1NWJiZjIxYmFkY2NjOWY2ODM4MGM4NTU4MjM5ZmRlNjY5NjI1MCwx=
+LDE%3D" target=3D"_blank" class=3D"text-inherit underline" style=3D"cursor:=
+ pointer; display: inline-block; text-decoration: none; -webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; color: inherit; text-decoration-li=
+ne: underline;">Saiba por que inclu=C3=ADmos isso.</a> </td> </tr> <tr> <td=
+ class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; pa=
+dding-bottom: 8px;">Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=
+=C3=A3o do LinkedIn. Outras pessoas podem ver que voc=C3=AA =C3=A9 assinant=
+e.</td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; margin: 0px; padding-bottom: 8px;"> <a href=3D"https://www.linkedin.=
+com/comm/series-notifications/?action=3Dunsubscribe&amp;memberToken=3DADoAA=
+Dr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&amp;newsletterId=3D7061745063541751808&a=
+mp;newsletterTitle=3DSIS%20Innov%20&amp;%20Tech%20News&amp;lipi=3Durn%3Ali%=
+3Apage%3Aemail_email_series_follow_newsletter_01%3Bhs3c78qJSaOZlwmU%2FdmBtw=
+%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D03H-S3qQ267HA1&amp;trk=3D=
+eml-email_series_follow_newsletter_01-unsubscribe-0-footerGlimmer&amp;trkEm=
+ail=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGlimmer-nul=
+l-gdb74f~m4ub3mmc~rv-null-null&amp;eid=3Dgdb74f-m4ub3mmc-rv&amp;otpToken=3D=
+MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYWUyYjE4ZWNhZDQ0ODljYWE4ZTYxNzljNDA2NmQ=
+0YjVkNWJmMmZlZDNkZmE0NmZjMWVmZGI1NWJiZjIxYmFkY2NjOWY2ODM4MGM4NTU4MjM5ZmRlNj=
+Y5NjI1MCwxLDE%3D" target=3D"_blank" class=3D"text-inherit underline" style=
+=3D"cursor: pointer; display: inline-block; text-decoration: none; -webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: inherit; text-de=
+coration-line: underline;">Cancelar inscri=C3=A7=C3=A3o</a> =C2=A0=C2=A0=C2=
+=B7=C2=A0=C2=A0 <a href=3D"https://www.linkedin.com/help/linkedin/answer/67=
+?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslette=
+r_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;mid=
+Sig=3D03H-S3qQ267HA1&amp;trk=3Deml-email_series_follow_newsletter_01-help-0=
+-footerglimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-help-0-=
+footerglimmer-null-gdb74f~m4ub3mmc~rv-null-null&amp;eid=3Dgdb74f-m4ub3mmc-r=
+v&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYWUyYjE4ZWNhZDQ0ODljYW=
+E4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmE0NmZjMWVmZGI1NWJiZjIxYmFkY2NjOWY2ODM4M=
+GM4NTU4MjM5ZmRlNjY5NjI1MCwxLDE%3D" target=3D"_blank" class=3D"text-inherit =
+underline" style=3D"cursor: pointer; display: inline-block; text-decoration=
+: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: =
+inherit; text-decoration-line: underline;">Ajuda</a> </td> </tr> <tr> <td c=
+lass=3D"pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px;"=
+> <a href=3D"https://www.linkedin.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Ae=
+mail_email_series_follow_newsletter_01%3Bhs3c78qJSaOZlwmU%2FdmBtw%3D%3D&amp=
+;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D03H-S3qQ267HA1&amp;trk=3Deml-email_=
+series_follow_newsletter_01-footer-0-logoGlimmer&amp;trkEmail=3Deml-email_s=
+eries_follow_newsletter_01-footer-0-logoGlimmer-null-gdb74f~m4ub3mmc~rv-nul=
+l-null&amp;eid=3Dgdb74f-m4ub3mmc-rv&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1=
+MjQwNGVkNDUxYWUyYjE4ZWNhZDQ0ODljYWE4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmE0NmZ=
+jMWVmZGI1NWJiZjIxYmFkY2NjOWY2ODM4MGM4NTU4MjM5ZmRlNjY5NjI1MCwxLDE%3D" target=
+=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-block=
+; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%;"> <img src=3D"https://static.licdn.com/aero-v1/sc/h/9ehe6n39fa07d=
+c5edzv0rla4e" alt=3D"LinkedIn" class=3D"block h-[14px] w-[56px] image-rende=
+ring-crisp" style=3D"outline: none; text-decoration: none; image-rendering:=
+ -moz-crisp-edges; image-rendering: -o-crisp-edges; image-rendering: -webki=
+t-optimize-contrast; image-rendering: crisp-edges; -ms-interpolation-mode: =
+nearest-neighbor; display: block; height: 14px; width: 56px;" width=3D"56" =
+height=3D"14"> </a> </td> </tr> <tr> <td data-test-copyright-text style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt;"> =C2=A9 2024 LinkedIn Ireland Unlimited Com=
+pany, Wilton Plaza, Wilton Place, Dublin 2 - Irlanda. LinkedIn =C3=A9 um no=
+me comercial registrado da LinkedIn Ireland Unlimited Company. <span data-t=
+est-trademarks-text> LinkedIn e o logo do LinkedIn s=C3=A3o marcas registra=
+das do LinkedIn. </span> </td> </tr> </tbody> </table> </td> </tr> </tbody>=
+ </table> </td> </tr> </tbody> </table> <img alt role=3D"presentation" src=
+=3D"https://www.linkedin.com/emimp/ip_WjJSaU56Um1MVzAwZFdJemJXMWpMWEoyOlpXM=
+WhhV3hmYzJWeWFXVnpYMlp2Ykd4dmQxOXVaWGR6YkdWMGRHVnlYekF4OmRYSnVPbXhwT214cGJt=
+dGxaRWx1UVhKMGFXTnNaVG8zTWpjMU1qSTRPREF4T1RBeE5EZ3hPVGcw.gif" style=3D"outl=
+ine: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: 1=
+px; height: 1px;" width=3D"1" height=3D"1"> </body> </html>
+------=_Part_7995510_184833825.1734551450115--
+

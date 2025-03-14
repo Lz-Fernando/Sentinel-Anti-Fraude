@@ -1,0 +1,919 @@
+X-GM-THRID: 1825740469079469703
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:48a5:b0:29a:824b:9ec3 with SMTP id fq37csp718479ysb;
+        Wed, 5 Mar 2025 00:03:14 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IEfhPqptuapFiIEIVI8KzBeTGqmDs/VYa6JI5DfiPHhdahHrovYDBAsNuUsOS75nBMCYlQ9
+X-Received: by 2002:a05:6902:120b:b0:e5d:ac56:c3cd with SMTP id 3f1490d57ef6-e611e193ea2mr2908596276.14.1741161793955;
+        Wed, 05 Mar 2025 00:03:13 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1741161793; cv=none;
+        d=google.com; s=arc-20240605;
+        b=Jm7W+pnabLpwDX/cWWz4glLTrXyPiEmA9WPq6nNX9Dqf7FfbPT8nogl238KVQC3932
+         AHqI4d1pTj9RzpWpHEr3Aq9sYbldym2BXqaUXjy3RtLimFifHcmeG0k2eXQk2l3XbdBs
+         dMmkSAWS4njHxZznwh3Fdd3L5hDrUsUAT42DGobUy3LKBksZfEiqSCSJA9pWOkT6IMwj
+         Ya+ZYVVQShc7Hxw2EWA3O7VrcxouDHNf8+panRypwxOFTQrfNAC2WNrWoSu0Vk6DYaqH
+         sxzBwtCzlU/ITVeScrVvKJzCW9aQHVIRRNSSt+ZeazWQt9rgEDfal/Rmvk7krX4TOUGh
+         r8mA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:from:subject:list-unsubscribe-post:reply-to
+         :list-unsubscribe:mime-version:date:message-id:to:dkim-signature;
+        bh=ERjXSACsfWKnOWErwagYIJxVjSF6cU4uCWdx60W5zao=;
+        fh=/HdUdLVjKbjM7vqKQCg0R7d+Cuu352Lx86DUD6qVhEc=;
+        b=dr7saVCm+yxmlk2wjtmmqqZQ+HrY8RaRJKAWB478En4NzcayDpC+IW75Gv9whK9Sz9
+         VG80L/k+3qYzNveLhmXo5mFJx/pF4zMeBj4SGT0kBOAFDNq2vvbb54xM+wjhFLsK3vBx
+         XNQ2d0rrGLOz7w4MEDVea0qlh7jtowR6DJa1YJC0x6woZkQ6IjZamCD627wmq5cB9aJo
+         INONp6OEM8dtiYH9w2Gn9xcRg/5HclT8cR6EBInoI7bjYApAQpyumf5jUeK2N8GwxVcC
+         j5o1LoONJsqJB5hUI1MJdFj4OQmzfwC4p465ty9wNXTG9BAJEITS63SKij2HWiLb3B/T
+         DqoA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@mail.replit.com header.s=scph0623 header.b=mqzJL+D5;
+       spf=pass (google.com: domain of msprvs1=20159o-ictsak=bounces-280172-1545@bounce.replit.com designates 168.203.32.121 as permitted sender) smtp.mailfrom="msprvs1=20159O-IcTSAk=bounces-280172-1545@bounce.replit.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=replit.com
+Return-Path: <msprvs1=20159O-IcTSAk=bounces-280172-1545@bounce.replit.com>
+Received: from mta-203-32-121.sparkpostmail.com (mta-203-32-121.sparkpostmail.com. [168.203.32.121])
+        by mx.google.com with ESMTPS id 3f1490d57ef6-e60a3ac8c2dsi10770664276.585.2025.03.05.00.03.13
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 05 Mar 2025 00:03:13 -0800 (PST)
+Received-SPF: pass (google.com: domain of msprvs1=20159o-ictsak=bounces-280172-1545@bounce.replit.com designates 168.203.32.121 as permitted sender) client-ip=168.203.32.121;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.replit.com header.s=scph0623 header.b=mqzJL+D5;
+       spf=pass (google.com: domain of msprvs1=20159o-ictsak=bounces-280172-1545@bounce.replit.com designates 168.203.32.121 as permitted sender) smtp.mailfrom="msprvs1=20159O-IcTSAk=bounces-280172-1545@bounce.replit.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=replit.com
+Return-Path: <msprvs1=20159O-IcTSAk=bounces-280172-1545@bounce.replit.com>
+X-MSFBL: fcTjj4EVZHPY2vwlCO6u5/MuxRNihsMuwdZYL5M5+lc=|eyJzdWJhY2NvdW50X2l
+	kIjoiMTU0NSIsImN1c3RvbWVyX2lkIjoiMjgwMTcyIiwidGVuYW50X2lkIjoic3B
+	jIiwibWVzc2FnZV9pZCI6IjY3YmY0MTA1Yzg2NzhhZTkyN2FlIiwiciI6Im5hbmR
+	vYnJpdG9mZXJyZWlyYUBnbWFpbC5jb20ifQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mail.replit.com;
+	s=scph0623; t=1741161793; i=@mail.replit.com;
+	bh=ERjXSACsfWKnOWErwagYIJxVjSF6cU4uCWdx60W5zao=;
+	h=To:Message-ID:Date:Content-Type:List-Unsubscribe:
+	 List-Unsubscribe-Post:Subject:From:From:To:Cc:Subject;
+	b=mqzJL+D51QPwxgg3dOoeC73yyFJo+SlqdtxA1XwPx+Z0cJ3Xj5WZLJqnz8bRApE9M
+	 lxUMmKeJHyKd8F3fDtYGyzt3H8pkKIC+XDNHSDPfQaQCtpREOZ/XjmyES1iGud+oYg
+	 /m75VnICHNkWIEiAE0fB0UtupsT5q5SrNwkqY+DI=
+Received: from [10.90.41.10] ([10.90.41.10])
+	by i-0e50fed28e2f85a56.mta1vrest.sd.prd.sparkpost (ecelerity 4.8.0.74368 r(msys-ecelerity:tags/4.8.0.17)) with REST
+	id EA/72-22302-14508C76; Wed, 05 Mar 2025 08:03:13 +0000
+To: nandobritoferreira@gmail.com
+Message-ID: <EA.72.22302.14508C76@i-0e50fed28e2f85a56.mta1vrest.sd.prd.sparkpost>
+Date: Wed, 05 Mar 2025 08:03:13 +0000
+Content-Type: multipart/alternative; boundary="_----Vdvm6sW1fxj2MTCUSHRaFQ===_A9/72-22302-14508C76"
+MIME-Version: 1.0
+X-Campaign-ID: 12794671
+List-Unsubscribe: <https://links.iterable.com/s/u/wtdJs4sqEfNOeWWVTCWdGy5dwj9nDSkTYJZ2HkEWqulZKAfLoNgysucZbGOvo_8NxAG_rn6AWkVR0kephihj2clOlzOyUHHofwTF_j_rqui7rRzYIjiXC8har2nX4kDMbPCn0UvKhjYnm81JXDrzfOFF03QLzUApGCIIWIAHDMZkMVCxwfGWUgoUfSGixssv87WuAvOyd_HvvX7Y/Q8EmhG91YKq8EM6G-gP6Nb5hK6WMjoz1/6>,<mailto:unsubscribe+12794671+16758239@unsubscribe.iterable.com>
+X-Message-ID: a417d5d7f8ab450b806860b56fab0828
+X-Feedback-ID: 16758239:12794671:89164:iterable
+Reply-To: contact@replit.com
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Subject: =?utf-8?B?8J+UpSBFeGNpdGluZyBSZXBsaXQgVXBkYXRlczogTW9iaWxlLCBO?=
+	=?utf-8?B?ZXcgQWdlbnQgJiBBc3Npc3RhbnQsIGFuZCBNb3JlIQ==?=
+From: "Matt Palmer" <matt@mail.replit.com>
+Feedback-ID: 16758239:12794671:89164:iterable
+
+--_----Vdvm6sW1fxj2MTCUSHRaFQ===_A9/72-22302-14508C76
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="UTF-8"
+
+February was a whirlwind! I'm eager to share our recent updates with you. =
+=F0=9F=9A=80=0A=0A=0A=0A <https://replit.com>=0A=0A=0A=0AWednesday, March 5=
+, 2025=0A=0A=0AMatt with Replit here =E2=9C=8C=EF=B8=8F=0A=0A February was =
+an incredibly busy month=E2=80=94I'm excited to share what we've been up =
+=0Ato.=0A=0ALast month's updates include:=0A=0A=0A *  The new and improved =
+Replit Mobile App=0A * Building iOS & Android apps on Replit (from the Mobi=
+le App if you'd like!)=0A * Agent v2 =F0=9F=A4=AF=0A * Claude 3.7 Sonnet su=
+pport=0A=0Aand much, much more!=0A=0A=0A=0A=0A=F0=9F=93=B1Make an app for t=
+hat, anywhere=0A=0A=0A=0A We've completely rebuilt Replit Mobile from the g=
+round up! Our new mobile app =0Adelivers a faster, more intuitive coding ex=
+perience on the go.=0A=0A Head to https://replit.com/mobile <https://replit=
+.com/mobile> to give it a =0Ashot. You can check out a full walkthroughher=
+e. =0A<https://www.youtube.com/watch=3Fv=3D_yQmQMCoYb0>=0A=0A=0ABuild apps =
+for your phone =0A=0A=0A=0A Replit now supports iOS and Android app creatio=
+n thanks to React Native and =0AExpo.=0A=0AThis includes: enhanced iOS and =
+Android development capabilities, integrated =0Amobile preview and debuggin=
+g tools, and streamlined app store deployment via =0AExpo EAS.=0A=0A Check =
+out our tutorial further down to get started!=0A=0A=0A=F0=9F=92=AA Agent an=
+d Assistant=0A=0A=0AAssistant now supports Claude Sonnet 3.7 as the default=
+ model in "Advanced" =0Amode, allowing you to build with the latest & great=
+est models.=0A=0A=0A=0AAgent v2 (Early Access)=0A=0A=0AWe've launched a new=
+ Agent experience that is now available to all users. This =0Anew Agent is =
+faster, more accurate, and more capable than ever.=0A=0A It's also powered =
+by Claude 3.7 Sonnet, Anthropic's most advanced model yet.=0A=0A=0A=0AYou c=
+an enable the new experience with "Explorer Mode" in Replit.=0A=0A Learn ho=
+w to do so here <https://youtu.be/pE_XT2TaXCA>.=0A=0A=0AWe =E2=9D=A4=EF=B8=
+=8F databases=0A=0A=0ADatabase operations are now faster than ever, with th=
+e most expensive =0Aoperation reduced from 200ms to under 1ms.=0A=0A Our da=
+tabase viewer now uses Drizzle Studio, providing a more robust and =0Adevel=
+oper-friendly experience for interacting with your data.=0A=0A=0A=0A=F0=9F=
+=93=9A Docs improvements=0A=0A=0AWe've re-built our docs from the ground up=
+ to be more beautiful and =0Auser-friendly.=0A=0A In addition, we rolled ou=
+t new Quickstart and Introduction pages to make it =0Aeasier to get started=
+ on Replit.=0A=0A=0A=0AThe new docs also feature LLM-friendly features=E2=
+=80=94a "copy page" button that =0Acopies the current page directly to mark=
+down, as well as support for =0A/llms-full.txt and /llms.txt.=0A=0A=0A=0A=
+=0A=F0=9F=93=B9 Videos & tutorials=0A=0A=0AMake an iOS app on Replit. Learn=
+ all you need to build your first iOS app and =0Aget it running with Replit=
+ + Expo.=0A=0A=0A <https://www.youtube.com/watch=3Fv=3DwLQusAwfjdY>=0A=0AWa=
+nt to deploy a Grok 3 App=3F You can do it fast on Replit. Here's a 3 minut=
+e =0Atutorial on how to deploy an app built with Grok. We hope you like it=
+=E2=80=94Elon did =0A<https://x.com/elonmusk/status/1892818147834536253>.=
+=0A=0A=0A <https://www.youtube.com/watch=3Fv=3DpvOsDB3xUWg>=0A=0A=F0=9F=9A=
+=80 Get started and share your work=0A=0A=0AIf you've been waiting to give =
+Replit a shot there's never been a better time. =0AOur users are building f=
+aster than ever. Give it a shot today.=0A=0ATry Replit Core <> =0A=0AIf you=
+'ve already built an amazing app with Replit, share it with us =0A<https://=
+forms.gle/sAqiKGTvXYa9Hjzc9> to be featured in an upcoming email.=0A=0A=0A=
+=F0=9F=94=AE Looking Ahead=0A=0A=0AAs always, we've been shipping harder to=
+ make your experience better=E2=80=94for =0Afaster apps, & stronger results=
+.=0A=0A Stay tuned for more of the latest & greatest in building with AI.=
+=0A=0AUntil next time, <https://www.linkedin.com/in/vanessakahkesh>=0A=0AMa=
+tt <> @ Replit=0A=0A <https://x.com/mattppal>=0A=0A <https://twitter.com/Re=
+plit> <https://www.linkedin.com/company/repl-it>  =0A<https://www.youtube.c=
+om/channel/UCgoJjdR6-7AMu9fDitb6nVw> =0A<https://www.instagram.com/repl.it/=
+=3Fhl=3Den>=0A=0A=0A=0ASent by Replit=0A=0A1001 E Hillsdale Blvd, Suite 400=
+, Foster City, CA 94404 =0A=0A=0AUnsubscribe here =0A<https://links.replit.=
+com/s/u/R4L6Vwh-TFi8i-N91TL_a7VmR7HXcsNQ0O77hnP7-z7xvUbGY-QnLqv85TaBlpQ2UXf=
+lrJz5gzez4FovLVzGWmczhR3y2Rg6doy3foxJIFiBg45ph-uvsBbyOpRmyK4NoukT9dUyDyqpUa=
+l46SqgdOZ0pfHiCnNJsJMc2T-cTOat5xAMpqcRls427UrcCUFghCjCGU99yunCEsAk/YweOqbxj=
+xJsVu4hd8KTGX8jgemEAhwcu/6>
+--_----Vdvm6sW1fxj2MTCUSHRaFQ===_A9/72-22302-14508C76
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html><html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"u=
+rn:schemas-microsoft-com:office:office" lang=3D"en" style=3D"box-sizing: bo=
+rder-box;"><head><title></title><meta http-equiv=3D"Content-Type" content=
+=3D"text/html; charset=3Dutf-8"><meta name=3D"viewport" content=3D"width=3D=
+device-width,initial-scale=3D1"><!--[if mso]><xml><o:OfficeDocumentSettings=
+><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettin=
+gs></xml><![endif]--><!--[if !mso]><!--><link href=3D"https://fonts.googlea=
+pis.com/css2=3Ffamily=3DSource+Sans+Pro:wght@400;700;900&amp;display=3Dswap=
+" rel=3D"stylesheet" type=3D"text/css"><!--<![endif]--><style>*{box-sizing:=
+border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!=
+important;text-decoration:inherit!important}#MessageViewBody a{color:inheri=
+t;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide ta=
+ble{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img=
++div{display:none}sub,sup{font-size:75%;line-height:0}#converted-body .list=
+_block ol,#converted-body .list_block ul,.body [class~=3Dx_list_block] ol,.=
+body [class~=3Dx_list_block] ul,u+.body .list_block ol,u+.body .list_block =
+ul{padding-left:20px}@media(max-width:620px){.social_block.desktop_hide .so=
+cial-table{display:inline-block!important}.image_block div.fullWidth{max-wi=
+dth:100%!important}.mobile_hide{display:none}.video_block .sizer{max-width:=
+none!important}.row-content{width:100%!important}.stack .column{width:100%;=
+display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;overflow:h=
+idden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important=
+;max-height:none!important}}</style><!--[if mso ]><style>sup,sub{font-size:=
+100%!important}sup{mso-text-raise:10%}sub{mso-text-raise:-10%}</style><![en=
+dif]--></head><body class=3D"body" style=3D"box-sizing: border-box; backgro=
+und-color: #fff; margin: 0; padding: 0; -webkit-text-size-adjust: none; tex=
+t-size-adjust: none;">=0D=0A<div style=3D"color:transparent;visibility:hidd=
+en;opacity:0;font-size:0px;border:0;max-height:1px;width:1px;margin:0px;pad=
+ding:0px;border-width:0px!important;display:none!important;line-height:0px!=
+important;"><img border=3D"0" width=3D"1" height=3D"1" src=3D"http://track.=
+replit.com/q/QM9nvxlmIItjsE6Ur4dmEA~~/AARGbBA~/0XrDTTlCUPsHcHHzpEn3KixN6Al8=
+Q-vkj7EbLdWlw7OAGMMV4WzfQh4rSx98Qmb4Fr-msZn2ls-RFqyQs-4Nyg~~" alt=3D""/></d=
+iv>=0D=0A<span style=3D"color:transparent;visibility:hidden;display:none;op=
+acity:0;height:0;width:0;font-size:0;">February was a whirlwind! I'm eager =
+to share our recent updates with you. =F0=9F=9A=80</span><img src=3D"https:=
+//links.replit.com/s/eo/VllJbyDlX3D71XYYfpN3Ode6wOv6MPM-i8edgwT1kI28G5EStGL=
+gtBzxZ44lFGaG56hPa1ZKcQP1EmkqyBcIdjGvx_tBiTuzFh7caiFHaRTDhzoM4FCODBhXuG6GzX=
+9BPEgQ0-YT5LvRuF9lcc7A0Q6EHmbT6MrGEezUtEmG92H5WTQ4wHp9yCVOOZbXS9--x1rk5BUsP=
+JDFgykBGdzpMtkTIxeeBhTu4CaP/uxq3hvQ4i9qWoHbFram_PJ3rbBANL7jD/6" style=3D"bo=
+rder:0;width:1px;height:1px;border-width:0px!important;display:none!importa=
+nt;line-height:0!important;" width=3D"1" height=3D"1"/><table class=3D"nl-c=
+ontainer" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"box-sizing: border-box; mso-table-lspace: 0; =
+mso-table-rspace: 0; background-color: #fff;" bgcolor=3D"#fff"><tbody style=
+=3D"box-sizing: border-box;"><tr style=3D"box-sizing: border-box;"><td styl=
+e=3D"box-sizing: border-box;"><table class=3D"row row-1" align=3D"center" w=
+idth=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pres=
+entation" style=3D"box-sizing: border-box; mso-table-lspace: 0; mso-table-r=
+space: 0;"><tbody style=3D"box-sizing: border-box;"><tr style=3D"box-sizing=
+: border-box;"><td style=3D"box-sizing: border-box;"><table class=3D"row-co=
+ntent stack" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"box-sizing: border-box; mso-table-lspace=
+: 0; mso-table-rspace: 0; border-radius: 0; color: #000; width: 600px; marg=
+in: 0 auto;" width=3D"600"><tbody style=3D"box-sizing: border-box;"><tr sty=
+le=3D"box-sizing: border-box;"><td class=3D"column column-1" width=3D"100%"=
+ style=3D"box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;=
+ font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px;=
+ vertical-align: top;" align=3D"left" valign=3D"top"><table class=3D"image_=
+block block-1" width=3D"100%" border=3D"0" cellpadding=3D"25" cellspacing=
+=3D"0" role=3D"presentation" style=3D"box-sizing: border-box; mso-table-lsp=
+ace: 0; mso-table-rspace: 0;"><tr style=3D"box-sizing: border-box;"><td cla=
+ss=3D"pad" style=3D"box-sizing: border-box;"><div class=3D"alignment" align=
+=3D"center" style=3D"box-sizing: border-box; line-height: 10px;"><div class=
+=3D"fullWidth" style=3D"box-sizing: border-box; max-width: 270px;"> <a href=
+=3D"https://links.replit.com/s/c/OOir8XA70R_iMqxYxeI2Z5BPBHBkPsgMO8DJsjWTxr=
+-7EKCiwbRHwAPlsBq0Eb539Smg9NbJEPjw7uWfMbTb3Rq_Z3ozlKQueLoYVLPU1ETNGlWEe80cD=
+F_ZGtrZDb5Bt93XMpMGBPbb_31qfZvkb2QSB42_Noy6iDGZbe2nTkRr_ESmlosfU8nacyZB7V4u=
+q2rLlryeLS-GfeMun6gBBa82uCExrqgeJZw4FIhPKA3lC9zka2euTo7q_Y_EaitkC_eQ5_eiLG7=
+3jCW-hZaFWhspQK2fwXJQYPbRi4LYCF9Xzq85t2gx_dFoYOg-0wURFkwHR2k5cgA_FTI882nmng=
+lxKEqQxj1A7V75Ww/ZnUbuNDcrp_HjN-WTGWtm2PqIhJNNarh/6" target=3D"_blank" styl=
+e=3D"box-sizing: border-box; outline: none;" tabindex=3D"-1"><img src=3D"ht=
+tps://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-=
+46bb-bd7e-c542cff6dd6a/688a6826b9ec49299691e89a144d7cfa/Frame%202055246350.=
+png" style=3D"box-sizing: border-box; display: block; height: auto; border:=
+ 0; width: 100%;" width=3D"270" alt title height=3D"auto"></a></div></div><=
+/td></tr></table></td></tr></tbody></table></td></tr></tbody></table><table=
+ class=3D"row row-2" align=3D"center" width=3D"100%" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"box-sizing: borde=
+r-box; mso-table-lspace: 0; mso-table-rspace: 0;"><tbody style=3D"box-sizin=
+g: border-box;"><tr style=3D"box-sizing: border-box;"><td style=3D"box-sizi=
+ng: border-box;"><table class=3D"row-content stack" align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"b=
+ox-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; color: #00=
+0; width: 600px; margin: 0 auto;" width=3D"600"><tbody style=3D"box-sizing:=
+ border-box;"><tr style=3D"box-sizing: border-box;"><td class=3D"column col=
+umn-1" width=3D"100%" style=3D"box-sizing: border-box; mso-table-lspace: 0;=
+ mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 5=
+px; padding-top: 5px; vertical-align: top;" align=3D"left" valign=3D"top"><=
+table class=3D"text_block block-1" width=3D"100%" border=3D"0" cellpadding=
+=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"box-sizing: border=
+-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;"><t=
+r style=3D"box-sizing: border-box;"><td class=3D"pad" style=3D"box-sizing: =
+border-box;"><div style=3D"box-sizing: border-box; font-family: Tahoma,Verd=
+ana,sans-serif;"><div class style=3D"box-sizing: border-box; font-size: 12p=
+x; font-family: 'Source Sans Pro',Tahoma,Verdana,Segoe,sans-serif; mso-line=
+-height-alt: 14.399999999999999px; color: #797979; line-height: 1.2;"><p st=
+yle=3D"box-sizing: border-box; line-height: inherit; margin: 0; font-size: =
+12px; mso-line-height-alt: 14.399999999999999px;"><span style=3D"box-sizing=
+: border-box; word-break: break-word; font-size: 14px;">Wednesday, March 5,=
+ 2025</span></p></div></div></td></tr></table><table class=3D"paragraph_blo=
+ck block-2" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"box-sizing: border-box; mso-table-lspace: 0=
+; mso-table-rspace: 0; word-break: break-word;"><tr style=3D"box-sizing: bo=
+rder-box;"><td class=3D"pad" style=3D"box-sizing: border-box; padding-left:=
+ 10px; padding-right: 10px; padding-top: 10px;"><div style=3D"box-sizing: b=
+order-box; color: #000; direction: ltr; font-family: 'Source Sans Pro',Taho=
+ma,Verdana,Segoe,sans-serif; font-size: 16px; font-weight: 400; letter-spac=
+ing: 0; line-height: 120%; text-align: left; mso-line-height-alt: 19.2px;">=
+<p style=3D"box-sizing: border-box; line-height: inherit; margin: 0; margin=
+-bottom: 14px;">Matt with Replit here =E2=9C=8C=EF=B8=8F</p><p style=3D"box=
+-sizing: border-box; line-height: inherit; margin: 0; margin-bottom: 14px;"=
+> February was an incredibly busy month=E2=80=94I'm excited to share what w=
+e've been up to.</p><p style=3D"box-sizing: border-box; line-height: inheri=
+t; margin: 0;">Last month's updates include:</p></div></td></tr></table><ta=
+ble class=3D"list_block block-3" width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"box-sizing: border-box=
+; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word; color: =
+#000; direction: ltr; font-family: 'Source Sans Pro',Tahoma,Verdana,Segoe,s=
+ans-serif; font-size: 16px; font-weight: 400; letter-spacing: 0; line-heigh=
+t: 150%; text-align: left; mso-line-height-alt: 24px;" align=3D"left"><tr s=
+tyle=3D"box-sizing: border-box;"><td class=3D"pad" style=3D"box-sizing: bor=
+der-box; padding-left: 10px; padding-right: 10px; padding-top: 5px;"><div s=
+tyle=3D"box-sizing: border-box; margin-left: -20px;"><ul start=3D"1" style=
+=3D"box-sizing: border-box; margin-top: 0; margin-bottom: 0; list-style-typ=
+e: revert;"><li style=3D"box-sizing: border-box; Margin: 0;"> The <em style=
+=3D"box-sizing: border-box;">new and improved</em> Replit Mobile App</li><l=
+i style=3D"box-sizing: border-box; Margin: 0;">Building iOS & Android apps =
+on Replit (from the Mobile App if you'd like!)</li><li style=3D"box-sizing:=
+ border-box; Margin: 0;">Agent v2 =F0=9F=A4=AF</li><li style=3D"box-sizing:=
+ border-box; Margin: 0;">Claude 3.7 Sonnet support</li></ul></div></td></tr=
+></table><table class=3D"paragraph_block block-4" width=3D"100%" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"box-s=
+izing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: br=
+eak-word;"><tr style=3D"box-sizing: border-box;"><td class=3D"pad" style=3D=
+"box-sizing: border-box; padding-bottom: 10px; padding-left: 10px; padding-=
+right: 10px; padding-top: 5px;"><div style=3D"box-sizing: border-box; color=
+: #000; direction: ltr; font-family: 'Source Sans Pro',Tahoma,Verdana,Segoe=
+,sans-serif; font-size: 16px; font-weight: 400; letter-spacing: 0; line-hei=
+ght: 120%; text-align: left; mso-line-height-alt: 19.2px;"><p style=3D"box-=
+sizing: border-box; line-height: inherit; margin: 0;">and much, much more!<=
+/p></div></td></tr></table></td></tr></tbody></table></td></tr></tbody></ta=
+ble><table class=3D"row row-3" align=3D"center" width=3D"100%" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"box-siz=
+ing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;"><tbody style=3D=
+"box-sizing: border-box;"><tr style=3D"box-sizing: border-box;"><td style=
+=3D"box-sizing: border-box;"><table class=3D"row-content stack" align=3D"ce=
+nter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation=
+" style=3D"box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0=
+; border-radius: 0; color: #000; width: 600px; margin: 0 auto;" width=3D"60=
+0"><tbody style=3D"box-sizing: border-box;"><tr style=3D"box-sizing: border=
+-box;"><td class=3D"column column-1" width=3D"100%" style=3D"box-sizing: bo=
+rder-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-=
+align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top;" a=
+lign=3D"left" valign=3D"top"><table class=3D"heading_block block-1" width=
+=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"present=
+ation" style=3D"box-sizing: border-box; mso-table-lspace: 0; mso-table-rspa=
+ce: 0;"><tr style=3D"box-sizing: border-box;"><td class=3D"pad" style=3D"bo=
+x-sizing: border-box;"><h1 style=3D"box-sizing: border-box; margin: 0; colo=
+r: #000; direction: ltr; font-family: 'Source Sans Pro',Tahoma,Verdana,Sego=
+e,sans-serif; font-size: 21px; font-weight: 700; letter-spacing: normal; li=
+ne-height: 150%; text-align: left; margin-top: 0; margin-bottom: 0; mso-lin=
+e-height-alt: 31.5px;"><span class=3D"tinyMce-placeholder" style=3D"box-siz=
+ing: border-box; word-break: break-word;">=F0=9F=93=B1Make an app for that,=
+ anywhere</span></h1></td></tr></table><table class=3D"image_block block-2"=
+ width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"p=
+resentation" style=3D"box-sizing: border-box; mso-table-lspace: 0; mso-tabl=
+e-rspace: 0;"><tr style=3D"box-sizing: border-box;"><td class=3D"pad" style=
+=3D"box-sizing: border-box;"><div class=3D"alignment" align=3D"center" styl=
+e=3D"box-sizing: border-box; line-height: 10px;"><div style=3D"box-sizing: =
+border-box; max-width: 330px;"><img src=3D"https://d15k2d11r6t6rl.cloudfron=
+t.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/688a682=
+6b9ec49299691e89a144d7cfa/editor_images/ezgif.com-optimize%20%281%29.gif" s=
+tyle=3D"box-sizing: border-box; display: block; height: auto; border: 0; wi=
+dth: 100%;" width=3D"330" alt title height=3D"auto"></div></div></td></tr><=
+/table><table class=3D"paragraph_block block-3" width=3D"100%" border=3D"0"=
+ cellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"box-si=
+zing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: bre=
+ak-word;"><tr style=3D"box-sizing: border-box;"><td class=3D"pad" style=3D"=
+box-sizing: border-box;"><div style=3D"box-sizing: border-box; color: #000;=
+ direction: ltr; font-family: 'Source Sans Pro',Tahoma,Verdana,Segoe,sans-s=
+erif; font-size: 16px; font-weight: 400; letter-spacing: 0; line-height: 15=
+0%; text-align: left; mso-line-height-alt: 24px;"><p style=3D"box-sizing: b=
+order-box; line-height: inherit; margin: 0; margin-bottom: 16px;"> We've co=
+mpletely rebuilt Replit Mobile from the ground up! Our new mobile app deliv=
+ers a faster, more intuitive coding experience on the go.</p><p style=3D"bo=
+x-sizing: border-box; line-height: inherit; margin: 0;"> Head to <a href=3D=
+"https://links.replit.com/s/c/x8A-LXiiI0lSXN1PrIBali-NcVXy4seU8gUxEGTlWmibJ=
+12ibtwShbarLjtFRpBNzKx5g9oWgr5F5DDUmRGG6afvWcTl6oiDOnEnU1YPpzL-NV3UTL3DCjm8=
+ECHGxbVrtAh_xNMmVUQ4S9LUV6l6wqrUpRnM5V2124A2uKr6tRMDmQGdTawt1QVLMMBiikMnWYw=
+VQKlEvDOEVy4AuTyvGKIt8B1ILXkaLeSlwcjr3WtQTE41nQ_JJvLodbObo6OTeRTlZ_KaUNdmvZ=
+ZaFWH1hKZ76UUoBnUllMS0Ya30AFpDLsN62zFG23YRDiw2J9UCsSzwyghKu2KY2Xd6wdE1y3pN4=
+o0YSv9u6LmXBQvtcPOi9LE/kZZPecpRCBUW6bQL4rh8lpPIjVY0V8QO/6" target=3D"_blank=
+" style=3D"box-sizing: border-box; text-decoration: underline; color: #0068=
+a5;" rel=3D"noopener">https://replit.com/mobile</a> to give it a shot. You =
+can check out a full walkthrough <a href=3D"https://links.replit.com/s/c/Ca=
+Xs3jF-rHwhUnuJPi64aisMr287jZ-M7kj7SO-ha83vwdFxYxaU_dHFT3z6Mo1TZl0e_0TBF-lsy=
+gsgfeADNGlLemhkmp1CgK7N5xhvUB_EIKjHoXBt85ftP5UjoFF6KRZq-lrlT6tUmsOvfZUh1wFT=
+QMRPTiau96Lk4fCPdw8zgGVZp1UYAsFL33HR-Il6dmN9Gtrn2iopXPJeqcrdL09mqDQCzzjYGZB=
+cMJ0pBzdevmFmm5ic0nFzDF-rMvqNNNDaSPy5-ZH5eRoAyikuC7ZsLLAY6K5gyjbw5Gl05fbsdC=
+gQHnha8nTynsU9MJyIymr-qzAaeGskyUtbScKSbO0e2X8g5tdv3WoZxAPcnL2Ccpp_4Icv-x7FR=
+f87l7_HLfyY2bY/In3H0Oas5jQQq9qu3MqwSIFIwc8BOWrG/6" target=3D"_blank" style=
+=3D"box-sizing: border-box; text-decoration: underline; color: #0068a5;" re=
+l=3D"noopener">here.</a></p></div></td></tr></table><table class=3D"heading=
+_block block-4" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=
+=3D"0" role=3D"presentation" style=3D"box-sizing: border-box; mso-table-lsp=
+ace: 0; mso-table-rspace: 0;"><tr style=3D"box-sizing: border-box;"><td cla=
+ss=3D"pad" style=3D"box-sizing: border-box;"><h2 style=3D"box-sizing: borde=
+r-box; margin: 0; color: #555; direction: ltr; font-family: 'Source Sans Pr=
+o',Tahoma,Verdana,Segoe,sans-serif; font-size: 18px; font-weight: 700; lett=
+er-spacing: normal; line-height: 120%; text-align: left; margin-top: 0; mar=
+gin-bottom: 0; mso-line-height-alt: 21.599999999999998px;">Build apps for y=
+our phone&nbsp;</h2></td></tr></table><table class=3D"image_block block-5" =
+width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"pr=
+esentation" style=3D"box-sizing: border-box; mso-table-lspace: 0; mso-table=
+-rspace: 0;"><tr style=3D"box-sizing: border-box;"><td class=3D"pad" style=
+=3D"box-sizing: border-box;"><div class=3D"alignment" align=3D"center" styl=
+e=3D"box-sizing: border-box; line-height: 10px;"><div style=3D"box-sizing: =
+border-box; max-width: 580px;"><img src=3D"https://d15k2d11r6t6rl.cloudfron=
+t.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/688a682=
+6b9ec49299691e89a144d7cfa/editor_images/expo-ios-ezgif.com-resize.gif" styl=
+e=3D"box-sizing: border-box; display: block; height: auto; border: 0; width=
+: 100%;" width=3D"580" alt title height=3D"auto"></div> </div></td></tr></t=
+able><table class=3D"paragraph_block block-6" width=3D"100%" border=3D"0" c=
+ellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"box-sizi=
+ng: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break=
+-word;"><tr style=3D"box-sizing: border-box;"><td class=3D"pad" style=3D"bo=
+x-sizing: border-box;"><div style=3D"box-sizing: border-box; color: #000; d=
+irection: ltr; font-family: 'Source Sans Pro',Tahoma,Verdana,Segoe,sans-ser=
+if; font-size: 16px; font-weight: 400; letter-spacing: 0; line-height: 150%=
+; text-align: left; mso-line-height-alt: 24px;"><p style=3D"box-sizing: bor=
+der-box; line-height: inherit; margin: 0; margin-bottom: 16px;"> Replit now=
+ supports iOS and Android app creation thanks to React Native and Expo.</p>=
+<p style=3D"box-sizing: border-box; line-height: inherit; margin: 0; margin=
+-bottom: 16px;">This includes: enhanced iOS and Android development capabil=
+ities, integrated mobile preview and debugging tools, and s<span style=3D"b=
+ox-sizing: border-box; word-break: break-word; font-family: 'Source Sans Pr=
+o', Tahoma, Verdana, Segoe, sans-serif background-color: transparent;">trea=
+mlined app store deployment via Expo EAS.</span></p><p style=3D"box-sizing:=
+ border-box; line-height: inherit; margin: 0;"> Check out our tutorial furt=
+her down to get started!</p></div></td></tr></table><table class=3D"heading=
+_block block-7" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=
+=3D"0" role=3D"presentation" style=3D"box-sizing: border-box; mso-table-lsp=
+ace: 0; mso-table-rspace: 0;"><tr style=3D"box-sizing: border-box;"><td cla=
+ss=3D"pad" style=3D"box-sizing: border-box;"><h1 style=3D"box-sizing: borde=
+r-box; margin: 0; color: #000; direction: ltr; font-family: 'Source Sans Pr=
+o',Tahoma,Verdana,Segoe,sans-serif; font-size: 21px; font-weight: 700; lett=
+er-spacing: normal; line-height: 150%; text-align: left; margin-top: 0; mar=
+gin-bottom: 0; mso-line-height-alt: 31.5px;"><span class=3D"tinyMce-placeho=
+lder" style=3D"box-sizing: border-box; word-break: break-word;">=F0=9F=92=
+=AA Agent and Assistant</span></h1></td></tr></table><table class=3D"paragr=
+aph_block block-8" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspaci=
+ng=3D"0" role=3D"presentation" style=3D"box-sizing: border-box; mso-table-l=
+space: 0; mso-table-rspace: 0; word-break: break-word;"><tr style=3D"box-si=
+zing: border-box;"><td class=3D"pad" style=3D"box-sizing: border-box;"><div=
+ style=3D"box-sizing: border-box; color: #000; direction: ltr; font-family:=
+ 'Source Sans Pro',Tahoma,Verdana,Segoe,sans-serif; font-size: 16px; font-w=
+eight: 400; letter-spacing: 0; line-height: 150%; text-align: left; mso-lin=
+e-height-alt: 24px;"><p style=3D"box-sizing: border-box; line-height: inher=
+it; margin: 0;">Assistant now supports Claude Sonnet 3.7 as the default mod=
+el in "Advanced" mode, allowing you to build with the latest & greatest mod=
+els.</p></div></td></tr></table><table class=3D"image_block block-9" width=
+=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"present=
+ation" style=3D"box-sizing: border-box; mso-table-lspace: 0; mso-table-rspa=
+ce: 0;"><tr style=3D"box-sizing: border-box;"><td class=3D"pad" style=3D"bo=
+x-sizing: border-box;"><div class=3D"alignment" align=3D"center" style=3D"b=
+ox-sizing: border-box; line-height: 10px;"><div style=3D"box-sizing: border=
+-box; max-width: 580px;"><img src=3D"https://d15k2d11r6t6rl.cloudfront.net/=
+public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/688a6826b9ec4=
+9299691e89a144d7cfa/editor_images/Gk9f19bXIAE8UBH.jpg" style=3D"box-sizing:=
+ border-box; display: block; height: auto; border: 0; width: 100%;" width=
+=3D"580" alt title height=3D"auto"></div></div></td></tr></table><table cla=
+ss=3D"heading_block block-10" width=3D"100%" border=3D"0" cellpadding=3D"10=
+" cellspacing=3D"0" role=3D"presentation" style=3D"box-sizing: border-box; =
+mso-table-lspace: 0; mso-table-rspace: 0;"><tr style=3D"box-sizing: border-=
+box;"><td class=3D"pad" style=3D"box-sizing: border-box;"><h2 style=3D"box-=
+sizing: border-box; margin: 0; color: #555; direction: ltr; font-family: 'S=
+ource Sans Pro',Tahoma,Verdana,Segoe,sans-serif; font-size: 18px; font-weig=
+ht: 700; letter-spacing: normal; line-height: 120%; text-align: left; margi=
+n-top: 0; margin-bottom: 0; mso-line-height-alt: 21.599999999999998px;"><sp=
+an class=3D"tinyMce-placeholder" style=3D"box-sizing: border-box; word-brea=
+k: break-word;">Agent v2 (Early Access)</span></h2></td></tr></table><table=
+ class=3D"paragraph_block block-11" width=3D"100%" border=3D"0" cellpadding=
+=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"box-sizing: border=
+-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;"><t=
+r style=3D"box-sizing: border-box;"><td class=3D"pad" style=3D"box-sizing: =
+border-box;"><div style=3D"box-sizing: border-box; color: #000; direction: =
+ltr; font-family: 'Source Sans Pro',Tahoma,Verdana,Segoe,sans-serif; font-s=
+ize: 16px; font-weight: 400; letter-spacing: 0; line-height: 150%; text-ali=
+gn: left; mso-line-height-alt: 24px;"><p style=3D"box-sizing: border-box; l=
+ine-height: inherit; margin: 0; margin-bottom: 14px;">We've launched a new =
+Agent experience that is now available to all users. This new Agent is fast=
+er, more accurate, and more capable than ever.</p><p style=3D"box-sizing: b=
+order-box; line-height: inherit; margin: 0;"> It's also powered by Claude 3=
+.7 Sonnet, Anthropic's most advanced model yet.</p></div></td></tr></table=
+><table class=3D"image_block block-12" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"box-sizing: bor=
+der-box; mso-table-lspace: 0; mso-table-rspace: 0;"><tr style=3D"box-sizing=
+: border-box;"><td class=3D"pad" style=3D"box-sizing: border-box;"><div cla=
+ss=3D"alignment" align=3D"center" style=3D"box-sizing: border-box; line-hei=
+ght: 10px;"><div style=3D"box-sizing: border-box; max-width: 580px;"><img s=
+rc=3D"https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d57=
+13-9b6a-46bb-bd7e-c542cff6dd6a/688a6826b9ec49299691e89a144d7cfa/editor_imag=
+es/agent-gif.gif" style=3D"box-sizing: border-box; display: block; height: =
+auto; border: 0; width: 100%;" width=3D"580" alt title height=3D"auto"></di=
+v></div></td></tr></table><table class=3D"paragraph_block block-13" width=
+=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"present=
+ation" style=3D"box-sizing: border-box; mso-table-lspace: 0; mso-table-rspa=
+ce: 0; word-break: break-word;"><tr style=3D"box-sizing: border-box;"><td c=
+lass=3D"pad" style=3D"box-sizing: border-box;"><div style=3D"box-sizing: bo=
+rder-box; color: #000; direction: ltr; font-family: 'Source Sans Pro',Tahom=
+a,Verdana,Segoe,sans-serif; font-size: 16px; font-weight: 400; letter-spaci=
+ng: 0; line-height: 150%; text-align: left; mso-line-height-alt: 24px;"><p =
+style=3D"box-sizing: border-box; line-height: inherit; margin: 0; margin-bo=
+ttom: 14px;">You can enable the new experience with "Explorer Mode" in Repl=
+it.</p><p style=3D"box-sizing: border-box; line-height: inherit; margin: 0;=
+"> Learn how to do so <a href=3D"https://links.replit.com/s/c/CO0tZYsr_4-_e=
+MWxchHr3uXBUQbCSRfLA1r-Zbrog6lbLcv_2ZdCggGxLrxHhqQZwSDPCadiqgDOCVaMYLVIYISB=
+GUW9bEKLsfTyJl4IWikFTNZUHozeBBM3PVoEDRlxPA1AjyW--HHDCKYO4ADsCwnhFJfoycI68r8=
+2yGCGU7V9Xmoki9zFrueQmyG8-HrMf7v-Rw4b0GhKFMxQb3uNCGj-gXAJbhPnBSqvoF4zSk5oFA=
+zjBmXEYf4eYY7rxahe8FMlMXdPHa9dDwlfQnd5J-DB_iL0eO9vwsZBINlLtEJJ8L7U7z5rGYx6K=
+Fov0ThY0xmqfq4RR1uAbrE3ylYi6HiXunmXSFSkOQPM8fOoj9aQFyuip3Q/cPYy2PG-mQiQjby1=
+IrzeN0LdrnjCzmzX/6" target=3D"_blank" style=3D"box-sizing: border-box; text=
+-decoration: underline; color: #0068a5;" rel=3D"noopener">here</a>.</p></di=
+v></td></tr></table><table class=3D"heading_block block-14" width=3D"100%" =
+border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" sty=
+le=3D"box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;"><t=
+r style=3D"box-sizing: border-box;"><td class=3D"pad" style=3D"box-sizing: =
+border-box;"><h1 style=3D"box-sizing: border-box; margin: 0; color: #000; d=
+irection: ltr; font-family: 'Source Sans Pro',Tahoma,Verdana,Segoe,sans-ser=
+if; font-size: 21px; font-weight: 700; letter-spacing: normal; line-height:=
+ 150%; text-align: left; margin-top: 0; margin-bottom: 0; mso-line-height-a=
+lt: 31.5px;"><span class=3D"tinyMce-placeholder" style=3D"box-sizing: borde=
+r-box; word-break: break-word;">We =E2=9D=A4=EF=B8=8F databases</span></h1>=
+</td></tr></table><table class=3D"paragraph_block block-15" width=3D"100%" =
+border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" sty=
+le=3D"box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; wor=
+d-break: break-word;"><tr style=3D"box-sizing: border-box;"><td class=3D"pa=
+d" style=3D"box-sizing: border-box;"><div style=3D"box-sizing: border-box; =
+color: #000; direction: ltr; font-family: 'Source Sans Pro',Tahoma,Verdana,=
+Segoe,sans-serif; font-size: 16px; font-weight: 400; letter-spacing: 0; lin=
+e-height: 150%; text-align: left; mso-line-height-alt: 24px;"><p style=3D"b=
+ox-sizing: border-box; line-height: inherit; margin: 0; margin-bottom: 14px=
+;">Database operations are now faster than ever, with the most expensive op=
+eration reduced from 200ms to under 1ms.</p><p style=3D"box-sizing: border-=
+box; line-height: inherit; margin: 0;"> Our database viewer now uses <em st=
+yle=3D"box-sizing: border-box;">Drizzle Studio</em>, providing a more robus=
+t and developer-friendly experience for interacting with your data.</p></di=
+v></td></tr></table><table class=3D"image_block block-16" width=3D"100%" bo=
+rder=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" style=
+=3D"box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;"><tr =
+style=3D"box-sizing: border-box;"><td class=3D"pad" style=3D"box-sizing: bo=
+rder-box;"><div class=3D"alignment" align=3D"center" style=3D"box-sizing: b=
+order-box; line-height: 10px;"><div style=3D"box-sizing: border-box; max-wi=
+dth: 580px;"><img src=3D"https://d15k2d11r6t6rl.cloudfront.net/public/users=
+/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/688a6826b9ec49299691e89a1=
+44d7cfa/editor_images/drizzle.avif" style=3D"box-sizing: border-box; displa=
+y: block; height: auto; border: 0; width: 100%;" width=3D"580" alt title he=
+ight=3D"auto"></div></div></td></tr></table><table class=3D"heading_block b=
+lock-17" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"box-sizing: border-box; mso-table-lspace: 0; =
+mso-table-rspace: 0;"><tr style=3D"box-sizing: border-box;"><td class=3D"pa=
+d" style=3D"box-sizing: border-box;"><h1 style=3D"box-sizing: border-box; m=
+argin: 0; color: #000; direction: ltr; font-family: 'Source Sans Pro',Tahom=
+a,Verdana,Segoe,sans-serif; font-size: 23px; font-weight: 700; letter-spaci=
+ng: normal; line-height: 120%; text-align: left; margin-top: 0; margin-bott=
+om: 0; mso-line-height-alt: 27.599999999999998px;"><span class=3D"tinyMce-p=
+laceholder" style=3D"box-sizing: border-box; word-break: break-word;">=F0=
+=9F=93=9A Docs improvements</span></h1></td></tr></table><table class=3D"pa=
+ragraph_block block-18" width=3D"100%" border=3D"0" cellpadding=3D"10" cell=
+spacing=3D"0" role=3D"presentation" style=3D"box-sizing: border-box; mso-ta=
+ble-lspace: 0; mso-table-rspace: 0; word-break: break-word;"><tr style=3D"b=
+ox-sizing: border-box;"><td class=3D"pad" style=3D"box-sizing: border-box;"=
+><div style=3D"box-sizing: border-box; color: #000; direction: ltr; font-fa=
+mily: 'Source Sans Pro',Tahoma,Verdana,Segoe,sans-serif; font-size: 16px; f=
+ont-weight: 400; letter-spacing: 0; line-height: 150%; text-align: left; ms=
+o-line-height-alt: 24px;"><p style=3D"box-sizing: border-box; line-height: =
+inherit; margin: 0; margin-bottom: 16px;">We've re-built our docs from the =
+ground up to be more beautiful and user-friendly.</p><p style=3D"box-sizing=
+: border-box; line-height: inherit; margin: 0;"> In addition, we rolled out=
+ new&nbsp;<em style=3D"box-sizing: border-box;">Quickstart </em>and&nbsp;<e=
+m style=3D"box-sizing: border-box;">Introduction</em> pages to make it easi=
+er to get started on Replit.</p></div></td></tr></table><table class=3D"ima=
+ge_block block-19" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspaci=
+ng=3D"0" role=3D"presentation" style=3D"box-sizing: border-box; mso-table-l=
+space: 0; mso-table-rspace: 0;"><tr style=3D"box-sizing: border-box;"><td c=
+lass=3D"pad" style=3D"box-sizing: border-box;"><div class=3D"alignment" ali=
+gn=3D"center" style=3D"box-sizing: border-box; line-height: 10px;"><div sty=
+le=3D"box-sizing: border-box; max-width: 580px;"><img src=3D"https://d15k2d=
+11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c5=
+42cff6dd6a/688a6826b9ec49299691e89a144d7cfa/editor_images/cleanshot-2025-02=
+-27-at-1042282xpng-220848.png" style=3D"box-sizing: border-box; display: bl=
+ock; height: auto; border: 0; width: 100%;" width=3D"580" alt title height=
+=3D"auto"></div></div></td></tr></table><table class=3D"paragraph_block blo=
+ck-20" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" rol=
+e=3D"presentation" style=3D"box-sizing: border-box; mso-table-lspace: 0; ms=
+o-table-rspace: 0; word-break: break-word;"><tr style=3D"box-sizing: border=
+-box;"><td class=3D"pad" style=3D"box-sizing: border-box;"><div style=3D"bo=
+x-sizing: border-box; color: #000; direction: ltr; font-family: 'Source San=
+s Pro',Tahoma,Verdana,Segoe,sans-serif; font-size: 16px; font-weight: 400; =
+letter-spacing: 0; line-height: 150%; text-align: left; mso-line-height-alt=
+: 24px;"><p style=3D"box-sizing: border-box; line-height: inherit; margin: =
+0;">The new docs also feature LLM-friendly features=E2=80=94a "copy page" b=
+utton that copies the current page directly to markdown, as well as support=
+ for /llms-full.txt and /llms.txt.</p></div> </td></tr></table></td></tr></=
+tbody></table></td></tr></tbody></table><table class=3D"row row-4" align=3D=
+"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ro=
+le=3D"presentation" style=3D"box-sizing: border-box; mso-table-lspace: 0; m=
+so-table-rspace: 0;"><tbody style=3D"box-sizing: border-box;"><tr style=3D"=
+box-sizing: border-box;"><td style=3D"box-sizing: border-box;"><table class=
+=3D"row-content stack" align=3D"center" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" role=3D"presentation" style=3D"box-sizing: border-box; mso-ta=
+ble-lspace: 0; mso-table-rspace: 0; border-radius: 0; color: #000; width: 6=
+00px; margin: 0 auto;" width=3D"600"><tbody style=3D"box-sizing: border-box=
+;"><tr style=3D"box-sizing: border-box;"><td class=3D"column column-1" widt=
+h=3D"100%" style=3D"box-sizing: border-box; mso-table-lspace: 0; mso-table-=
+rspace: 0; font-weight: 400; text-align: left; padding-bottom: 5px; padding=
+-top: 5px; vertical-align: top;" align=3D"left" valign=3D"top"><table class=
+=3D"heading_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"10" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"box-sizing: border-box; mso=
+-table-lspace: 0; mso-table-rspace: 0;"><tr style=3D"box-sizing: border-box=
+;"><td class=3D"pad" style=3D"box-sizing: border-box;"><h1 style=3D"box-siz=
+ing: border-box; margin: 0; color: #000; direction: ltr; font-family: 'Sour=
+ce Sans Pro',Tahoma,Verdana,Segoe,sans-serif; font-size: 21px; font-weight:=
+ 700; letter-spacing: normal; line-height: 150%; text-align: left; margin-t=
+op: 0; margin-bottom: 0; mso-line-height-alt: 31.5px;">=F0=9F=93=B9 Videos =
+&amp; tutorials</h1></td></tr></table><table class=3D"paragraph_block block=
+-2" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=
+=3D"presentation" style=3D"box-sizing: border-box; mso-table-lspace: 0; mso=
+-table-rspace: 0; word-break: break-word;"><tr style=3D"box-sizing: border-=
+box;"><td class=3D"pad" style=3D"box-sizing: border-box;"> <div style=3D"bo=
+x-sizing: border-box; color: #000; direction: ltr; font-family: 'Source San=
+s Pro',Tahoma,Verdana,Segoe,sans-serif; font-size: 16px; font-weight: 400; =
+letter-spacing: 0; line-height: 150%; text-align: left; mso-line-height-alt=
+: 24px;"><p style=3D"box-sizing: border-box; line-height: inherit; margin: =
+0;"><strong style=3D"box-sizing: border-box;">Make an iOS app on Replit. </=
+strong>Learn all you need to build your first iOS app and get it running wi=
+th Replit + Expo.&nbsp;</p></div></td></tr></table><table class=3D"video_bl=
+ock block-3" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"=
+0" role=3D"presentation" style=3D"box-sizing: border-box; mso-table-lspace:=
+ 0; mso-table-rspace: 0;"><tr style=3D"box-sizing: content-box;"><td class=
+=3D"pad" style=3D"box-sizing: content-box;"><!--[if (mso)|(IE)]><table widt=
+h=3D"580" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" role=3D"pres=
+entation"><tr><td><![endif]--><div class=3D"sizer" align=3D"center" style=
+=3D"box-sizing: content-box; max-width: 580px; min-width: 300px;"><!--[if !=
+vml]><!--> <a class=3D"video-preview" tabindex=3D"0" href=3D"https://links.=
+replit.com/s/c/Vi5VFaN0pyH6iIWLttWe-vkXy1QlXsDXXBmzwVO-d8CEOIjzal3MsZHoQXgF=
+MyI8MugNikaViW86BbLLilT9f-hTeZjHXmAhv42AokTU3zbDi1O3-mHtuO-ZyBH7NvCtYrA2iGP=
+LPcQPc4hAh9J8n5_W_mNVph_WjPKUEOm4ow-KFaV0tQXZ9m2ujKBimQr3wl4yo7nLETh9JQHG5m=
+np1wbRfE_15EK6vetxH96YEuSgULtK-ZFIZMPgn-CTM6ayw_XMojwecApivRldS9-haMlfxkdQO=
+QDq2MVO5HrNRdSZpEg4lIS4-34SA5YjLj5Mk7qkHFfwU7J1hcWfavfoDvI5vMgEA5wbzrdTf-FW=
+-4SazQ3PysCGgrc0TLxkZUsTvc0Rjcw/JxOqhueLGhPBrwN7EC7bgvQlWDIx2lqv/6" target=
+=3D"_blank" title=3D"PUBLISH your mobile app with Replit and Expo - iOS / A=
+ndroid Supported" style=3D"box-sizing: content-box; background-color: #5b5f=
+66; background-image: radial-gradient(circle at center, #5b5f66, #1d1f21); =
+display: block; text-decoration: none;"><div style=3D"box-sizing: content-b=
+ox;"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"=
+ background=3D"https://img.youtube.com/vi/wLQusAwfjdY/maxresdefault.jpg" ro=
+le=3D"presentation" style=3D"mso-table-lspace: 0; mso-table-rspace: 0; box-=
+sizing: content-box; background-image: url(https://img.youtube.com/vi/wLQus=
+AwfjdY/maxresdefault.jpg); background-size: cover; background-position: cen=
+ter; min-height: 169px; min-width: 300px;"><tr style=3D"box-sizing: content=
+-box;"><td width=3D"25%" style=3D"box-sizing: content-box;"><img src=3D"htt=
+ps://app-rsrc.getbee.io/public/resources/multiparser/video_block/video_rati=
+o_16-9.gif" alt=3D"ratio" width=3D"100%" border=3D"0" style=3D"display: blo=
+ck; box-sizing: content-box; height: auto; opacity: 0; visibility: hidden;"=
+ height=3D"auto"></td><td width=3D"50%" align=3D"center" valign=3D"middle" =
+style=3D"box-sizing: content-box; vertical-align: middle;"><img src=3D"http=
+s://app-rsrc.getbee.io/public/resources/components/widgetBar/video-content-=
+icon-sets/light/type-01.png" width=3D"65" height=3D"auto" style=3D"display:=
+ block; height: auto; box-sizing: content-box;"></td><td width=3D"25%" styl=
+e=3D"box-sizing: content-box;">&#160;</td></tr></table></div></a><!--<![end=
+if]--><!--[if vml]><v:group xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns=
+:w=3D"urn:schemas-microsoft-com:office:word" coordsize=3D"580,326" coordori=
+gin=3D"0,0" href=3D"https://links.replit.com/s/c/AzlwQyhRbgjJ6O9J6LL8bJknWI=
+kYj1uAaJkxtn2B5wZcmJPew424Wdfcsxq6bJdrMW86mYPPf7qDHDgXiQ6N6KQR7X0eXTbh4uhbV=
+wSFW3SH8K6PhiheEB7jmlMCTLw2jQOshEErTHIBdDd3V9WiPGAEtivdZ3VRgXl90gEsgzfZR2bq=
+DWiKO5r32l1jszelATeSK8he01lb15mwUXN6rWLpcN6MXOzV2uhpviz5koch0ChIyIyBjlHEDQ9=
+TMDsVZX4bUrmK6BtMgUcgkeZYm8sq_EWvWcco7N2qvXUxOfjkXjW-9IyPZD-eZ5Vr9T-2CED9Pu=
+cPKSZjnNKmhZHKpF1YfjLHxNbmbwZNdfXZceNQl3NsOzcxaTEHqsdEpp5NhrPW1qI/OzeWUOfsu=
+w0Hw3P_9f6rQXed8jR-7KaB/6" style=3D"width:580px;height:326px;"> <v:rect fil=
+l=3D"t" stroked=3D"f" style=3D"position:absolute;width:580;height:326;"> <v=
+:fill src=3D"https://img.youtube.com/vi/wLQusAwfjdY/maxresdefault.jpg" type=
+=3D"frame"/> </v:rect> <v:oval fill=3D"t" strokecolor=3D"#ffffff" strokewei=
+ght=3D"3px" style=3D"position:absolute;left:258;top:131;width:65;height:65"=
+> <v:fill color=3D"#ffffff" opacity=3D"100%"/> </v:oval> <v:shape coordsize=
+=3D"24,32" path=3D"m,l,32,24,16,xe" fillcolor=3D"#000000" stroked=3D"f" sty=
+le=3D"position:absolute;left:281;top:147;width:23;height:33;"/> </v:group><=
+![endif]--></div><!--[if (mso)|(IE)]></td></tr></table><![endif]--></td></t=
+r></table><table class=3D"paragraph_block block-4" width=3D"100%" border=3D=
+"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"box=
+-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: =
+break-word;"><tr style=3D"box-sizing: border-box;"><td class=3D"pad" style=
+=3D"box-sizing: border-box;"><div style=3D"box-sizing: border-box; color: #=
+000; direction: ltr; font-family: 'Source Sans Pro',Tahoma,Verdana,Segoe,sa=
+ns-serif; font-size: 16px; font-weight: 400; letter-spacing: 0; line-height=
+: 150%; text-align: left; mso-line-height-alt: 24px;"><p style=3D"box-sizin=
+g: border-box; line-height: inherit; margin: 0;"><strong style=3D"box-sizin=
+g: border-box;">Want to deploy a Grok 3 App=3F&nbsp;</strong>You can do it =
+<em style=3D"box-sizing: border-box;">fast</em> on Replit. Here's a 3 minut=
+e tutorial on how to deploy an app built with Grok. We hope you like it=E2=
+=80=94<a href=3D"https://links.replit.com/s/c/w5dXZndrvk4HD__PXaW-b0UU_aIHk=
+Vv_tVFSl0vftRMJoGYV5hSyxysUQBBo39WKVG_W7mAJkXrMEeTlPqbCcWWqgQDM6AIrt83qBESf=
+P8OCnTX_ipY-wn7KOrrY02qH8KiWg83aGZV0JsOB2jg5fbD4z6E8t6SHEGLP1GIM3oJ8lfY4MVt=
+X2iMAmXmCTM170sA66DvJxdQVoONHvp5Z2JkixVY6c-AkBuc_HObo46k9Kohe1abmnkrLkPxOIC=
+toVE_S9J4d9qEPxuG6shGO7xjoP5T4iLRrsT37pZL5pRA61JEysyW90DsdMP_FpvmQgNtDbPGsV=
+6mp252vrsToQD5-WWLw0JGJu2JC5Y8jtbKVutSd7plhUE4pvmocjZkQ7YgEz4KyPAPl59A/Wqlf=
+sn_5m6w9vluaaRAXQH9a0nMLwRxq/6" target=3D"_blank" style=3D"box-sizing: bord=
+er-box; text-decoration: underline; color: #0068a5;" rel=3D"noopener">Elon =
+did</a>.</p></div></td></tr></table><table class=3D"video_block block-5" wi=
+dth=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"pres=
+entation" style=3D"box-sizing: border-box; mso-table-lspace: 0; mso-table-r=
+space: 0;"><tr style=3D"box-sizing: content-box;"><td class=3D"pad" style=
+=3D"box-sizing: content-box;"><!--[if (mso)|(IE)]><table width=3D"580" alig=
+n=3D"center" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation"><tr>=
+<td><![endif]--><div class=3D"sizer" align=3D"center" style=3D"box-sizing: =
+content-box; max-width: 580px; min-width: 300px;"><!--[if !vml]><!--> <a cl=
+ass=3D"video-preview" tabindex=3D"0" href=3D"https://links.replit.com/s/c/c=
+6oYwTGGJEU56EVyyT9NYbwZpABndsObX159QQDCIZbc2IxRGYEMfYxv1zpbuvBMDMmAuzn2Eyxu=
+7LuzmU80MQC7CnKpv7XAjH4CAXUaFOpvoT36-naLa0rxd_SEK18LFxVyY22y9hemZdyL6eR0ZJz=
+oUvlljr_4v5hRAAm7W6rV2pdWT3PWxYdyV9VhhrupI6bQKgaQQ1xWf_qDQPXtAcGIa1A80kxkJu=
+MplgWwgJM_DKNdNvTdipLZitqI86Wyqq6GU2UVoSxyN9G3g2lC0Ev5o77ysHTLo4Iak0_uf1tTq=
+EpeXSWInaJhmQE_5Kmo0T0svVy4PjZUCduWQ9phxYZY2V0S6_A7-SVw14dfvsgOKZwyL7E_BBbc=
+NBZGjmItL75UlYM/2rFif3a9BBRytvHPdS9r9_AQc-huSdx0/6" target=3D"_blank" title=
+=3D"Build and Deploy an app with Grok 3 (in under 3 minutes)" style=3D"box-=
+sizing: content-box; background-color: #5b5f66; background-image: radial-gr=
+adient(circle at center, #5b5f66, #1d1f21); display: block; text-decoration=
+: none;"><div style=3D"box-sizing: content-box;"><table cellpadding=3D"0" c=
+ellspacing=3D"0" border=3D"0" width=3D"100%" background=3D"https://img.yout=
+ube.com/vi/pvOsDB3xUWg/maxresdefault.jpg" role=3D"presentation" style=3D"ms=
+o-table-lspace: 0; mso-table-rspace: 0; box-sizing: content-box; background=
+-image: url(https://img.youtube.com/vi/pvOsDB3xUWg/maxresdefault.jpg); back=
+ground-size: cover; background-position: center; min-height: 169px; min-wid=
+th: 300px;"><tr style=3D"box-sizing: content-box;"><td width=3D"25%" style=
+=3D"box-sizing: content-box;"><img src=3D"https://app-rsrc.getbee.io/public=
+/resources/multiparser/video_block/video_ratio_16-9.gif" alt=3D"ratio" widt=
+h=3D"100%" border=3D"0" style=3D"display: block; box-sizing: content-box; h=
+eight: auto; opacity: 0; visibility: hidden;" height=3D"auto"></td><td widt=
+h=3D"50%" align=3D"center" valign=3D"middle" style=3D"box-sizing: content-b=
+ox; vertical-align: middle;"><img src=3D"https://app-rsrc.getbee.io/public/=
+resources/components/widgetBar/video-content-icon-sets/light/type-01.png" w=
+idth=3D"65" height=3D"auto" style=3D"display: block; height: auto; box-sizi=
+ng: content-box;"></td><td width=3D"25%" style=3D"box-sizing: content-box;"=
+>&#160;</td></tr></table></div></a><!--<![endif]--><!--[if vml]><v:group xm=
+lns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-co=
+m:office:word" coordsize=3D"580,326" coordorigin=3D"0,0" href=3D"https://li=
+nks.replit.com/s/c/sxSNI9-JlRlUbaozSwsZCwwmE9rfDDS3SQW7ntSugoL960oOdiXQJ2mO=
+wCLhiM-jFl13kBoX9HbyLM2BpDBHzN2GhsUbwjG8IIRi7V3rQvHZoRQTMq_ehsnGGQ2HRY7soYZ=
+QDAJBZCwS1MiATE_bfS9Pj9gQVF2fdPkkMpzjJhCrlBDawuw6TIz-knIk6w-bGkh9SeU0BPOtYm=
+VdlLEXd9WvpvT41ZfLfOgJUXhipJKawBXH0CtdeyZSpPioqEVVfxpxRduZNvSf9Ts-snfI6vl7c=
+f36fQTmMZR5KHRxcyVbDDGfejn2W6ptBtY9b1VoEOMmagmO82VrwwmzDCQ_uQerI_K7QqrJ5Rf-=
+umfO5DKwibIYwJ0bctEgrauTEahgEOtq3us/A1M7TVpi0AllAaLcJjpOBr8vlaI1-7Xi/6" sty=
+le=3D"width:580px;height:326px;"> <v:rect fill=3D"t" stroked=3D"f" style=3D=
+"position:absolute;width:580;height:326;"> <v:fill src=3D"https://img.youtu=
+be.com/vi/pvOsDB3xUWg/maxresdefault.jpg" type=3D"frame"/> </v:rect> <v:oval=
+ fill=3D"t" strokecolor=3D"#ffffff" strokeweight=3D"3px" style=3D"position:=
+absolute;left:258;top:131;width:65;height:65"> <v:fill color=3D"#ffffff" op=
+acity=3D"100%"/> </v:oval> <v:shape coordsize=3D"24,32" path=3D"m,l,32,24,1=
+6,xe" fillcolor=3D"#000000" stroked=3D"f" style=3D"position:absolute;left:2=
+81;top:147;width:23;height:33;"/> </v:group><![endif]--></div><!--[if (mso)=
+|(IE)]></td></tr></table><![endif]--></td></tr></table><table class=3D"head=
+ing_block block-6" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspaci=
+ng=3D"0" role=3D"presentation" style=3D"box-sizing: border-box; mso-table-l=
+space: 0; mso-table-rspace: 0;"><tr style=3D"box-sizing: border-box;"><td c=
+lass=3D"pad" style=3D"box-sizing: border-box;"><h1 style=3D"box-sizing: bor=
+der-box; margin: 0; color: #000; direction: ltr; font-family: 'Source Sans =
+Pro',Tahoma,Verdana,Segoe,sans-serif; font-size: 21px; font-weight: 700; le=
+tter-spacing: normal; line-height: 150%; text-align: left; margin-top: 0; m=
+argin-bottom: 0; mso-line-height-alt: 31.5px;"><span class=3D"tinyMce-place=
+holder" style=3D"box-sizing: border-box; word-break: break-word;">=F0=9F=9A=
+=80 Get started and share your work</span></h1></td></tr></table><table cla=
+ss=3D"paragraph_block block-7" width=3D"100%" border=3D"0" cellpadding=3D"1=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"box-sizing: border-box;=
+ mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;"><tr sty=
+le=3D"box-sizing: border-box;"><td class=3D"pad" style=3D"box-sizing: borde=
+r-box;"><div style=3D"box-sizing: border-box; color: #000; direction: ltr; =
+font-family: 'Source Sans Pro',Tahoma,Verdana,Segoe,sans-serif; font-size: =
+16px; font-weight: 400; letter-spacing: 0; line-height: 150%; text-align: l=
+eft; mso-line-height-alt: 24px;"><p style=3D"box-sizing: border-box; line-h=
+eight: inherit; margin: 0;">If you've been waiting to give Replit a shot <s=
+trong style=3D"box-sizing: border-box;">there's never been a better time. <=
+/strong>Our users are building faster than ever. Give it a shot today.</p><=
+/div></td></tr></table> <table class=3D"button_block block-8" width=3D"100%=
+" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" s=
+tyle=3D"box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">=
+<tr style=3D"box-sizing: border-box;"><td class=3D"pad" style=3D"box-sizing=
+: border-box;"><div class=3D"alignment" align=3D"center" style=3D"box-sizin=
+g: border-box;"><!--[if mso]><v:roundrect xmlns:v=3D"urn:schemas-microsoft-=
+com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" href=3D"replit.c=
+om/pricing" style=3D"height:42px;width:137px;v-text-anchor:middle;" arcsize=
+=3D"10%" stroke=3D"false" fillcolor=3D"#f26207"> <w:anchorlock/> <v:textbox=
+ inset=3D"0px,0px,0px,0px"> <center dir=3D"false" style=3D"color:#ffffff;fo=
+nt-family:Tahoma, Verdana, sans-serif;font-size:16px"><![endif]--> <a class=
+=3D"button" href=3D"replit.com/pricing" target=3D"_blank" style=3D"box-sizi=
+ng: border-box; background-color: #f26207; border-bottom: 0px solid transpa=
+rent; border-left: 0px solid transparent; border-radius: 4px; border-right:=
+ 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; =
+display: inline-block; font-family: 'Source Sans Pro', Tahoma, Verdana, Seg=
+oe, sans-serif; font-size: 16px; font-weight: 400; mso-border-alt: none; pa=
+dding-bottom: 5px; padding-top: 5px; text-align: center; text-decoration: n=
+one; width: auto; word-break: keep-all;"><span style=3D"box-sizing: border-=
+box; word-break: break-word; padding-left: 20px; padding-right: 20px; font-=
+size: 16px; display: inline-block; letter-spacing: normal;"><span style=3D"=
+box-sizing: border-box; word-break: break-word; line-height: 32px;">Try Rep=
+lit Core</span></span></a> <!--[if mso]></center></v:textbox></v:roundrect>=
+<![endif]--></div></td></tr></table><table class=3D"paragraph_block block-9=
+" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"=
+presentation" style=3D"box-sizing: border-box; mso-table-lspace: 0; mso-tab=
+le-rspace: 0; word-break: break-word;"><tr style=3D"box-sizing: border-box;=
+"><td class=3D"pad" style=3D"box-sizing: border-box;"><div style=3D"box-siz=
+ing: border-box; color: #000; direction: ltr; font-family: 'Source Sans Pro=
+',Tahoma,Verdana,Segoe,sans-serif; font-size: 16px; font-weight: 400; lette=
+r-spacing: 0; line-height: 150%; text-align: left; mso-line-height-alt: 24p=
+x;"><p style=3D"box-sizing: border-box; line-height: inherit; margin: 0;">I=
+f you've&nbsp;<em style=3D"box-sizing: border-box;">already</em><strong sty=
+le=3D"box-sizing: border-box;">&nbsp;</strong>built an amazing app with Rep=
+lit, <a href=3D"https://links.replit.com/s/c/Yw5_gC2N4cHo5PbvPRTj10HeNrmD3j=
+hIbG9pa4-pwMmu9U2sVLuu-LKc7c3-syubo7r1MyXuiWAHazXtBv8zg-V1S9dM74glJggB0PmJ1=
+EVY9j9LP93RBQW00fOpbZgTymeSdrlPxuhuQWpE0GtvH4OgG1nq7IS2XBpGespKOLTxO5o8msxt=
+8w4Ea_qRj5dxsYkEs2SXowo3V4YQV-wCPoRtCbAxsVOQLAOrDqBwv-zN2rLcrnXprUTBRiWPpKz=
+17uhrhUvo0Wb9YuUS_UgFdeqJgy_8rm6D9BW-nxrbTha9vIxEPqXsgcnX8mgXDYACy7vH06-coQ=
+fRKSYj7BV1u3W3bFl3Bs2iWiTf5lHG_lUHIYEL7TrsM7Dc7BpE/UMRSfH-jliDOCABfIbyj2WZq=
+vBlYxBQx/6" target=3D"_blank" style=3D"box-sizing: border-box; text-decorat=
+ion: underline; color: #0068a5;" rel=3D"noopener">share it with us</a> to b=
+e featured in an upcoming email.</p></div></td></tr></table><table class=3D=
+"heading_block block-10" width=3D"100%" border=3D"0" cellpadding=3D"10" cel=
+lspacing=3D"0" role=3D"presentation" style=3D"box-sizing: border-box; mso-t=
+able-lspace: 0; mso-table-rspace: 0;"> <tr style=3D"box-sizing: border-box;=
+"><td class=3D"pad" style=3D"box-sizing: border-box;"><h1 style=3D"box-sizi=
+ng: border-box; margin: 0; color: #000; direction: ltr; font-family: 'Sourc=
+e Sans Pro',Tahoma,Verdana,Segoe,sans-serif; font-size: 21px; font-weight: =
+700; letter-spacing: normal; line-height: 150%; text-align: left; margin-to=
+p: 0; margin-bottom: 0; mso-line-height-alt: 31.5px;"><strong style=3D"box-=
+sizing: border-box;">=F0=9F=94=AE Looking Ahead</strong></h1></td></tr></ta=
+ble><table class=3D"paragraph_block block-11" width=3D"100%" border=3D"0" c=
+ellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"box-sizi=
+ng: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break=
+-word;"><tr style=3D"box-sizing: border-box;"><td class=3D"pad" style=3D"bo=
+x-sizing: border-box;"><div style=3D"box-sizing: border-box; color: #000; d=
+irection: ltr; font-family: 'Source Sans Pro',Tahoma,Verdana,Segoe,sans-ser=
+if; font-size: 16px; font-weight: 400; letter-spacing: 0; line-height: 120%=
+; text-align: left; mso-line-height-alt: 19.2px;"><p style=3D"box-sizing: b=
+order-box; line-height: inherit; margin: 0; margin-bottom: 16px;">As always=
+, we've been shipping harder to make your experience better=E2=80=94for fas=
+ter apps, & stronger results.</p><p style=3D"box-sizing: border-box; line-h=
+eight: inherit; margin: 0; margin-bottom: 16px;"> Stay tuned for more of th=
+e latest & greatest in building with AI.</p><p style=3D"box-sizing: border-=
+box; line-height: inherit; margin: 0; margin-bottom: 16px;">Until next time=
+,<a href=3D"https://links.replit.com/s/c/KqAM5Nxzn5-xDadCqSpNvGNM637ztezhaJ=
+zWzPWT53dDVpYY9rmsECRBSWZjzL2vqiNS6ucEsbbJD0AHREv2NGyfnWgsnoNftJsvivMVzYky5=
+JvHyhLT9YQLLcYhlrF9LpaQoXCtP3tGAYsnbvfMyGe90h0lZlbsg5DMvqYWvZ9pl-wIBosGNlay=
+Kf1tPgoAfgc6hLTZNJwA_XrMriNHExx3YaN83BWUoCmL0JE8zxb3f-sskVx40Vg-2PXdDqD0nEt=
+X1rHRdfU-HFkz07VbvK7vDcFbhjVU63xRCsfgS3BBXgo0mkt34Faq_Ote9r43zdMqNK4o9Nboj2=
+IV0_6Cb5rpq61gokkWO4W4FpVC1XnvjNcmhip_jzbGkbXDWlJms9xp8w/XxrslaNwnbMvo13IcV=
+Anw2kYKl8k302w/6" target=3D"_blank" title=3D"Product Marketing @ Replit" re=
+l=3D"noopener" style=3D"box-sizing: border-box; text-decoration: underline;=
+ color: #0068a5;"></a></p><p style=3D"box-sizing: border-box; line-height: =
+inherit; margin: 0;"><a href=3D"x.com/mattppal" target=3D"_blank" rel=3D"no=
+opener" style=3D"box-sizing: border-box; text-decoration: underline; color:=
+ #0068a5;">Matt</a> @ Replit</p> </div></td></tr></table><table class=3D"im=
+age_block block-12" width=3D"100%" border=3D"0" cellpadding=3D"15" cellspac=
+ing=3D"0" role=3D"presentation" style=3D"box-sizing: border-box; mso-table-=
+lspace: 0; mso-table-rspace: 0;"><tr style=3D"box-sizing: border-box;"><td =
+class=3D"pad" style=3D"box-sizing: border-box;"><div class=3D"alignment" al=
+ign=3D"center" style=3D"box-sizing: border-box; line-height: 10px;"><div st=
+yle=3D"box-sizing: border-box; max-width: 90px;"><a href=3D"https://links.r=
+eplit.com/s/c/cSf9pCn6BNKbvtTnEtSVUXtUykYenvt3N_PVwRP5nKiNA_0vlOaXb0yqePWlj=
+ox8Iiqia2pghJ-0cTSg30561zT2gywg_DfsnpoPaK9EVD5cYfA6prdwsL5eNljYI4U_gSuGcc_k=
+mbg1GSEWuGIF9WxBvisSGsIeoLPyUwW3rofj1PjN17CBBefTn9cX20kL4KVD1IqMetYK6CsOBD-=
+WPbB07QgYS4rOA8ActTU1hojNjykJyhGsAL3fyhbWWuHYiPwKm3QMG9U5o74h3kO24c5XDwp18E=
+3pluerKe6wfwHWtbLd6cBMNgFJX3H2GKO-r0YntUql7KVJOrYbXax7UNdCgAJjgsot-co8vtEM5=
+rA/la2V06xJ8mUed0MqLG_HLOyTme6HBj_7/6" target=3D"_blank" style=3D"box-sizin=
+g: border-box; outline: none;" tabindex=3D"-1"><img src=3D"https://d15k2d11=
+r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542=
+cff6dd6a/688a6826b9ec49299691e89a144d7cfa/editor_images/Frame%202055246611.=
+png" style=3D"box-sizing: border-box; display: block; height: auto; border:=
+ 0; width: 100%;" width=3D"90" alt title height=3D"auto"></a></div></div></=
+td></tr></table><table class=3D"social_block block-13" width=3D"100%" borde=
+r=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D=
+"box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;"><tr sty=
+le=3D"box-sizing: border-box;"><td class=3D"pad" style=3D"box-sizing: borde=
+r-box;"><div class=3D"alignment" align=3D"center" style=3D"box-sizing: bord=
+er-box;"><table class=3D"social-table" width=3D"208px" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"box-sizing: bor=
+der-box; mso-table-lspace: 0; mso-table-rspace: 0; display: inline-block;">=
+<tr style=3D"box-sizing: border-box;"><td style=3D"box-sizing: border-box; =
+padding: 0 10px 0 10px;"><a href=3D"https://links.replit.com/s/c/01aXpgWDNA=
+hzulLSrI5S0PU_uewF4XIJdA38dUbqMVnNrzketGbHWqL7-TK9hxZVgXrmCrqLpZgiIBttIgXE2=
+lBJonPOwcJsKiPkFXBuo1YUWRvr6-8UiiXIzbTzJq5cM-E1vgGSpBzS3DiE9q_lICSGAqdwbRNq=
+bZOSpefwrUpjejt_ZASb8ELBsVWm8VmrJ3WVZm3RObXcSQDHtwXIdCWn49NuHiO-_rlEGiRT9NN=
+x-53dTpvamaQBztPeM8nu61qWQiy9J1ItL-jF_EnewyoWhxetYGqKmQfJgs9lqQjv2fMHHK5zpM=
+LI4OFUo3FnOy5Q0mGc_cths6B8UpW0ItCdDZnB6NoiHq5d7eCGXpe6WKEB/GqFxONUkCRltAmxr=
+QHyr--H4rb7Pk3Mi/6" target=3D"_blank" style=3D"box-sizing: border-box;"><im=
+g src=3D"https://app-rsrc.getbee.io/public/resources/social-networks-icon-s=
+ets/t-only-logo-dark-gray/twitter@2x.png" width=3D"32" height=3D"auto" alt=
+=3D"Twitter" title=3D"Twitter" style=3D"box-sizing: border-box; display: bl=
+ock; height: auto; border: 0;"></a></td><td style=3D"box-sizing: border-box=
+; padding: 0 10px 0 10px;"><a href=3D"https://links.replit.com/s/c/YwNo8KBt=
+HA_1_kwTZt5t7mJDYBLHdHIB5UdAEmKsPrVr0UjzRFCyIF7FPFA5Znfyc8CguJ1wNyXFUFtdZbu=
+b0q8QxtU7g6hg-gxLvoK2yNYJVHfpt8G6bFAVPNQQITKwxo4svTS74vLxU_rk4dIH9wT7_aI42V=
+kRDOohlsHf42ZDKM4tI1YzUGxTbbRwLA6Qc_JojfcITeijvLOSKOY7UFksGBMrb0_DMQA4MFB3V=
+L2h3AuAUEfQHRNG_HxRDj3rgdmeI0UTtd1SIeO5vJnzPHGBUZTnB-E_d64Cz8pwgWMjgtlUSE8e=
+Ow1S4jNo21pE2GKTuXKz9RSnE3ePhf-BWzVsxqN1ZVMOmFmWx-jxj6fNq3fRO9NVIBpxafACajU=
+C_pc/AuzwRiWtT7zLKj9QuvxYNVpJQIoI8kPE/6" target=3D"_blank" style=3D"box-siz=
+ing: border-box;"><img src=3D"https://app-rsrc.getbee.io/public/resources/s=
+ocial-networks-icon-sets/t-only-logo-dark-gray/linkedin@2x.png" width=3D"32=
+" height=3D"auto" alt=3D"LinkedIn" title=3D"LinkedIn" style=3D"box-sizing: =
+border-box; display: block; height: auto; border: 0;"></a></td><td style=3D=
+"box-sizing: border-box; padding: 0 10px 0 10px;"> <a href=3D"https://links=
+.replit.com/s/c/PuiSaWcMAhibKtddwciWpCO98jU9zdvMubv97QGY98I4ETe93J-EsPNIzB=
+ayNZLPEXeJjakQJStTew32NR2RF3-vyLsMlDsTtWhc7LNZPwkJ7GLgLBNLd3IihXObnkLgjOALy=
+GCwjJoCy2wrJH9PBghRUk-qm3mi-Lx0zvZ1e6uLS-qr9sVQEsOMVefGnsHQ8eqSkTdsvUlNQfmY=
+L9_QYcVoXlGfc0MK72ckohQpeE6SGyEYB8ka7cUrqv_mxnEnoHxkg2cziW5jrzb9GiM03aXg6lJ=
+UfUTQ3e0ko9ZsOrzaJ5tyPAQApxXqmzXeiofev2pn3-IWyQiRcrLE1APiyiGha-7L5Z-pQv1c1S=
+mcxocudHUR84Zjfl97LJ1ovZUMhurVfSBu_6T7mQp4dE8OXU5n/ptkUE-bsM7fC2xyRiHkqXLDx=
+2g4SsTqX/6" target=3D"_blank" style=3D"box-sizing: border-box;"><img src=3D=
+"https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-on=
+ly-logo-dark-gray/youtube@2x.png" width=3D"32" height=3D"auto" alt=3D"YouTu=
+be" title=3D"YouTube" style=3D"box-sizing: border-box; display: block; heig=
+ht: auto; border: 0;"></a></td><td style=3D"box-sizing: border-box; padding=
+: 0 10px 0 10px;"><a href=3D"https://links.replit.com/s/c/Uj6iGo9Ux5rhesCAj=
+Pxg3_g78WtaVF1UTjHV76ZFQnobnEIBTTStcWDEnb3CdV9LQeJmt9d1_LwCATgxP_8i62212xbq=
+Xaca1vsAe6OnlKy1jobujlNUdfgSMu106pvX4uDvW-RctGrm0PJlTSzqTbusNLrZjIxUWWtwtyM=
+58HOuupcykIphOTVHVKWcFifC0E7WKpUKAcPzivlYfUgaXSqR5CkDFa179W4s07VqcgdbxPN4fZ=
+liPOw8_Zn1wyPUBtEN_eyayT1jaFvHLRx1mFYfZM0O3yKI3kLZutZdVpT-xYsrXhdi4nBIsEQiC=
+qTwhsS9JGznZbtnXldvPOQr7mO2K1RX1d7mbSP-yBL5yy1l3H_Edo2Vo5IkYnE4HthgYY0/ZHt8=
+nw_wJSewVOQY8y9HD4p3B1plm_Ss/6" target=3D"_blank" style=3D"box-sizing: bord=
+er-box;"><img src=3D"https://app-rsrc.getbee.io/public/resources/social-net=
+works-icon-sets/t-only-logo-dark-gray/instagram@2x.png" width=3D"32" height=
+=3D"auto" alt=3D"Instagram" title=3D"Instagram" style=3D"box-sizing: border=
+-box; display: block; height: auto; border: 0;"></a></td></tr></table></div=
+></td></tr></table></td></tr></tbody></table></td></tr></tbody></table><tab=
+le class=3D"row row-5" align=3D"center" width=3D"100%" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"box-sizing: bor=
+der-box; mso-table-lspace: 0; mso-table-rspace: 0;"><tbody style=3D"box-siz=
+ing: border-box;"><tr style=3D"box-sizing: border-box;"><td style=3D"box-si=
+zing: border-box;"><table class=3D"row-content stack" align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; border-r=
+adius: 0; color: #000; width: 600px; margin: 0 auto;" width=3D"600"><tbody =
+style=3D"box-sizing: border-box;"><tr style=3D"box-sizing: border-box;"><td=
+ class=3D"column column-1" width=3D"100%" style=3D"box-sizing: border-box; =
+mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: lef=
+t; padding-bottom: 5px; padding-top: 5px; vertical-align: top;" align=3D"le=
+ft" valign=3D"top"><table class=3D"text_block block-1" width=3D"100%" borde=
+r=3D"0" cellpadding=3D"5" cellspacing=3D"0" role=3D"presentation" style=3D"=
+box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-brea=
+k: break-word;"><tr style=3D"box-sizing: border-box;"><td class=3D"pad" sty=
+le=3D"box-sizing: border-box;"><div style=3D"box-sizing: border-box; font-f=
+amily: Tahoma,Verdana,sans-serif;"><div class style=3D"box-sizing: border-b=
+ox; font-size: 14px; font-family: 'Source Sans Pro',Tahoma,Verdana,Segoe,sa=
+ns-serif; mso-line-height-alt: 16.8px; color: #555; line-height: 1.2;"><p s=
+tyle=3D"box-sizing: border-box; line-height: inherit; margin: 0; text-align=
+: center; font-size: 10px; mso-line-height-alt: 12px;"><span style=3D"box-s=
+izing: border-box; word-break: break-word; font-size: 10px;">Sent by Replit=
+</span></p><p style=3D"box-sizing: border-box; line-height: inherit; margin=
+: 0; text-align: center; font-size: 10px; mso-line-height-alt: 12px;"><span=
+ style=3D"box-sizing: border-box; word-break: break-word; font-size: 10px;"=
+>1001 E Hillsdale Blvd, Suite 400, Foster City, CA 94404&nbsp;<br style=3D"=
+box-sizing: border-box;"></span></p><p style=3D"box-sizing: border-box; lin=
+e-height: inherit; margin: 0; text-align: center; font-size: 10px; mso-line=
+-height-alt: 12px;"><span style=3D"box-sizing: border-box; word-break: brea=
+k-word; font-size: 10px;"><a href=3D"https://links.replit.com/s/u/R4L6Vwh-T=
+Fi8i-N91TL_a7VmR7HXcsNQ0O77hnP7-z7xvUbGY-QnLqv85TaBlpQ2UXflrJz5gzez4FovLVzG=
+WmczhR3y2Rg6doy3foxJIFiBg45ph-uvsBbyOpRmyK4NoukT9dUyDyqpUal46SqgdOZ0pfHiCnN=
+JsJMc2T-cTOat5xAMpqcRls427UrcCUFghCjCGU99yunCEsAk/YweOqbxjxJsVu4hd8KTGX8jge=
+mEAhwcu/6" target=3D"_blank" rel=3D"noopener" style=3D"box-sizing: border-b=
+ox; text-decoration: underline; color: #fd5402;">Unsubscribe here</a>&nbsp;=
+&nbsp;</span></p></div></div></td></tr></table></td></tr></tbody></table></=
+td></tr></tbody></table></td></tr></tbody></table><!-- End -->=0D=0A<img bo=
+rder=3D"0" width=3D"1" height=3D"1" alt=3D"" src=3D"http://track.replit.com=
+/q/PRpe3Rue_-9AVa--SXsGhQ~~/AARGbBA~/AcwWD-yl8vl7P8G-hK--E7g76ffyIhleTRZ_os=
+Gwb6rzE-IVakseQsLdlnspj-e-3x4mTuxZcFXIlpM7X_POIQ~~">=0D=0A</body></html>
+--_----Vdvm6sW1fxj2MTCUSHRaFQ===_A9/72-22302-14508C76--
+

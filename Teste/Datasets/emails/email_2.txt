@@ -1,0 +1,1352 @@
+X-GM-THRID: 1825143242042254917
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:d39a:b0:29a:824b:9ec3 with SMTP id o26csp1106074ysb;
+        Wed, 26 Feb 2025 09:50:34 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IE8cbbi3G8p+rc2RDzxbXLUUfEPur0H1f57wstZTngdBAuSedSTiiQG+M5JMOrW+S5itxWa
+X-Received: by 2002:a05:6a20:9d8f:b0:1f0:e430:43f8 with SMTP id adf61e73a8af0-1f0fbff6f36mr15009507637.1.1740592233967;
+        Wed, 26 Feb 2025 09:50:33 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1740592233; cv=none;
+        d=google.com; s=arc-20240605;
+        b=a+ThZ8MNY/zmkM6W4YzQme2nkbzcOKgexqpuqtlFHO/2IvLJsyyZQ4f1jvJBky6jyF
+         VpnYEGGXlSkJ3lku2FO6gBswzekoWT8pwsLDThWKMgA5tN4FySL5yJ4Qfw3BR5LtDU3B
+         rZg17xaI/lc/Aeqzu2FBIy1uAB9fKgTYAdQ7R+X221fXTy95q3xrS1yyjRfWY1HFdnQp
+         1SWTzjjNnc01VsK8Jmag2FZ4/vB6lQ55dCwRBEl3gotXBMYthBOHXJwZtSSJquKwUfOR
+         ABqS9cs//adaaTecgydnUXTQAS5qXv3J9xKCDb6BBfBEBwgFC8Tfio4AF0ffy8Ce/T9L
+         BzCQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=o8MA9V7D4u3W31Mz/9eThEU5tJh/1ml+63scTMkQ0P4=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=k40T6QmwkoFbmOWf0OzWjqNXnV/CYVicCjZVLqnw2p/GxP/vPReZnDJ+4zipVwAlv7
+         D1VaAtmEILDsnPPJ823jUQE4AN/poBPeldtnvDoBjCOfqpE0JPosSIk1XYuzkGHbWuQB
+         lwIu+XzsrloTZ7Zr6H0KLh9jEYpYtdCh24NFeUSyKGNQAzN2J3iHj5dnp03OibHEOoH6
+         zoCI3KV9J3CzMyNfZBuLJTv/zxoPxzrxV9y1rSlbXkuqzFJuzDtRnqj98BeRV/QH8PTF
+         373nqSJroSicejg6xx/L03Z67MllCXljx5EvWBuuq5dWv3YejZ+ZYLbfUgkGs0+JPCNf
+         QnCA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b="l/u8Pe8W";
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=QHVzLOBD;
+       spf=pass (google.com: domain of s-4vz1gwh5zz57tafkafkw5t4bkrxqstumxr74rx9w55s103084zg92z3m@bounce.linkedin.com designates 108.174.6.197 as permitted sender) smtp.mailfrom=s-4vz1gwh5zz57tafkafkw5t4bkrxqstumxr74rx9w55s103084zg92z3m@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-4vz1gwh5zz57tafkafkw5t4bkrxqstumxr74rx9w55s103084zg92z3m@bounce.linkedin.com>
+Received: from maile-ce.linkedin.com (maile-ce.linkedin.com. [108.174.6.197])
+        by mx.google.com with ESMTPS id 41be03b00d2f7-aedab50b779si5642120a12.721.2025.02.26.09.50.33
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 26 Feb 2025 09:50:33 -0800 (PST)
+Received-SPF: pass (google.com: domain of s-4vz1gwh5zz57tafkafkw5t4bkrxqstumxr74rx9w55s103084zg92z3m@bounce.linkedin.com designates 108.174.6.197 as permitted sender) client-ip=108.174.6.197;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b="l/u8Pe8W";
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=QHVzLOBD;
+       spf=pass (google.com: domain of s-4vz1gwh5zz57tafkafkw5t4bkrxqstumxr74rx9w55s103084zg92z3m@bounce.linkedin.com designates 108.174.6.197 as permitted sender) smtp.mailfrom=s-4vz1gwh5zz57tafkafkw5t4bkrxqstumxr74rx9w55s103084zg92z3m@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1740592229;
+	bh=o8MA9V7D4u3W31Mz/9eThEU5tJh/1ml+63scTMkQ0P4=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=l/u8Pe8WxVhXq8RY13b6ji54oPzWlxDtDX2wqTr+8KZ94NqZo7wc9476p1st3EuHn
+	 5zy1PylLxz3WcP1D4bDjqFQbZDweBD/bNeGo+rn/3eqc2eXinsWwVKmitUN9aqx4WW
+	 9PMSZJ7l5nOOqkZcyJtChQOVcqZyQls/nzj1yiq/mh49FUe8jemCKakSc+LlJyT4Qz
+	 PKtkHX4TuhUJiWwkf9sG+QmabV14khaMoezj34lN/uIO7ocXYEC7HxjuyCF2EdCVem
+	 +TW3EktwEGtknYJI1KXPc3PLnRR8gn/yANCE4TJXhV2M2OIY0V23P0ZcaB8rv7X/a4
+	 bxbPzvpWxIUzQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1740592229;
+	bh=o8MA9V7D4u3W31Mz/9eThEU5tJh/1ml+63scTMkQ0P4=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=QHVzLOBDwJRXCDjgJ4JIdEZqswIJ1tU3dsES+rHAmtywbITnuRJSwxWXJFKsNlRYZ
+	 50a9zdfYMT0TUr3B5SwFaKjHI7vbwpGTcFfd77Aj2NHnbcUrzCRTS+/9lyQC3mfzce
+	 8mAJQr4Blut1NCH2iWz17DrOZQFjkPFYtkhQSYmIl7Yw5OTYlaKDE7Ol6neZJc7kdP
+	 GDWkId5VuY0krAPrGlTnH4zYMJNs2CrnUv9PkGmaBBfLoj/YAjjB+FbUXHS5jW325Z
+	 nWbjD/tLkDx2MgOfBUZQwd0jYB0P6FQEYxCJhJW8IeOpVG0i5x8dxD/cakbwY2PVBn
+	 nPd/5EoamYj2A==
+From: Luciano Rocha - PCD via LinkedIn <newsletters-noreply@linkedin.com>
+Message-ID: <1337620444.7218335.1740592229580@lva1-app103130.prod.linkedin.com>
+Subject: =?UTF-8?Q?Single_responsibility_principle:_a_chave_p?=
+ =?UTF-8?Q?ara_um_c=C3=B3digo_mais_organizado_e_eficiente.?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_7218331_2140365859.1740592229575"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Wed, 26 Feb 2025 17:50:29 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-at002nl14s6ihboh0gqw0sqyvjd46ykpe1d99thmomr1p8gsqfwwluxv7nbeem6imrzyrzcwbxtc2w301rqgtt6tvcmct5t2fuhmy4
+X-LinkedIn-Id: gdb74f-m7m7mxj6-ea
+List-Unsubscribe: =?unknown-8bit?q?=3Chttps=3A//www=2Elinkedin=2Ecom/series-notifications/=3Faction=3Dunsubscribe=26memberToken=3DADoAADr=5FZc8BliE63H4nkhqY=5FTxFq4e-Y9whjlY=26newsletterId=3D7002440821278953472=26newsletterTitle=3DAssuntos_de_Programa=C3=A7=C3=A3o=26lipi=3Durn=253Ali=253Apage=253Aemail=5Femail=5Fseries=5Ffollow=5Fnewsletter=5F01=253BnsMC75p8S3aEMmsPPQdukA=253D=253D=26midToken=3DAQHxaOsdYMWJVQ=26midSig=3D1Pb1PEj6XeFXE1=26ek=3Demail=5Fseries=5Ffollow=5Fnewsletter=5F01=26e=3Dgdb74f-m7m7mxj6-ea=26eid=3Dgdb74f-m7m7mxj6-ea=26m=3Dunsub=26ts=3Dunsub=26li=3D0=26t=3Dplh=3E?=
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_7218331_2140365859.1740592229575
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Assuntos de Programa=C3=A7=C3=A3o
+
+Por Luciano Rocha - PCD
+
+
+Por Luciano Rocha - PCD
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/single-responsibility-principle-chave-p=
+ara-um-c%C3%B3digo-mais-luciano-cxxse?lipi=3Durn%3Ali%3Apage%3Aemail_email_=
+series_follow_newsletter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&midToken=3DAQHxa=
+OsdYMWJVQ&midSig=3D1Pb1PEj6XeFXE1&trk=3Deml-email_series_follow_newsletter_=
+01-null-0-read_more_banner_cta_&trkEmail=3Deml-email_series_follow_newslett=
+er_01-null-0-read_more_banner_cta_-null-gdb74f~m7m7mxj6~ea-null-null&eid=3D=
+gdb74f-m7m7mxj6-ea&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZWUyYmQ4Z=
+GNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY2UyODM0MDk5ZjE5NjM3=
+MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU1MjkyOCwxLDE%3D
+ =20
+Entenda a import=C3=A2ncia do princ=C3=ADpio da responsabilidade =C3=BAnica=
+ no design de software orientado a objetos. Continuando o projeto de public=
+ar artigos com o m=C3=A1ximo de detalhes poss=C3=ADvel sobre assuntos como =
+POO, fundamentos de algoritmos, abstra=C3=A7=C3=A3o, heran=C3=A7a, encapsul=
+amento, interface e polimorfismo, hoje vamos falar sobre o single responsib=
+ility principle (SRP). J=C3=A1 publiquei um artigo introdut=C3=B3rio sobre =
+os princ=C3=ADpios SOLID de forma geral, ent=C3=A3o recomendo fortemente qu=
+e voc=C3=AA leia esse artigo primeiro para entender o contexto completo. Ne=
+ste artigo, vou definir o que =C3=A9 o SRP e explicar sua import=C3=A2ncia =
+no design de software. Vou abordar como identificar uma responsabilidade =
+=C3=BAnica em uma classe, trazendo exemplos de responsabilidades =C3=BAnica=
+s em classes reais. Al=C3=A9m disso, vou destacar as vantagens do SRP, como=
+ a manuten=C3=A7=C3=A3o facilitada do c=C3=B3digo, a redu=C3=A7=C3=A3o do a=
+coplamento entre classes e o melhor entendimento e legibilidade do c=C3=B3d=
+igo. Vou tamb=C3=A9m apresentar exemplos pr=C3=A1ticos de c=C3=B3digo antes=
+ e depois de aplicar o SRP, incluindo casos de uso comuns onde o SRP =C3=A9=
+ =C3=BAtil. Esses exemplos ajudar=C3=A3o a visualizar como a aplica=C3=A7=
+=C3=A3o desse princ=C3=ADpio pode melhorar a estrutura e a qualidade do c=
+=C3=B3digo. Para complementar, vou discutir os desafios na aplica=C3=A7=C3=
+=A3o do SRP em projetos complexos e quando pode n=C3=A3o ser vantajoso apli=
+car esse princ=C3=ADpio. Na conclus=C3=A3o, vou recapitular os benef=C3=ADc=
+ios do SRP e fornecer dicas pr=C3=A1ticas para aplicar esse princ=C3=ADpio =
+no dia a dia da programa=C3=A7=C3=A3o. Meu objetivo =C3=A9 que voc=C3=AA sa=
+ia deste artigo com um entendimento claro e pr=C3=A1tico do SRP, pronto par=
+a aplicar esse conhecimento em seus pr=C3=B3prios projetos de software. Obr=
+igado por acompanhar at=C3=A9 aqui. Vamos juntos explorar o Single Responsi=
+bility Principle e ver como ele pode transformar seu c=C3=B3digo em algo ma=
+is robusto e f=C3=A1cil de manter. LEMBRENTE Um lembrete a voc=C3=AA, leito=
+r(a), precisa entender e =C3=A9 importante. Em alguns dos artigos publicado=
+s, gosto de explicar certas palavras que aparecem no texto. =C3=80s vezes c=
+oloco um asterisco depois das palavras que podem ser confusas. Sempre me ce=
+rtifico de explicar essas palavras no final do artigo, para que voc=C3=AA n=
+=C3=A3o perca o fluxo do pensamento. Como sempre h=C3=A1 novos leitores, us=
+u=C3=A1rios e profissionais se juntando =C3=A0 newsletter, vejo como minha =
+responsabilidade pesquisar e estudar sobre essas palavras ou termos. Para n=
+=C3=B3s, que j=C3=A1 estamos na tecnologia h=C3=A1 algum tempo, elas parece=
+m familiares, mas para os novatos, podem gerar mais perguntas do que respos=
+tas. Sempre enfatizo: n=C3=A3o se limite apenas =C3=A0 informa=C3=A7=C3=A3o=
+ que estou fornecendo. Pesquise e estude tamb=C3=A9m, porque posso cometer =
+erros. Combinado? =C3=8Dndice Defini=C3=A7=C3=A3o do SRP Import=C3=A2ncia d=
+o SRP no design de software Como identificar uma responsabilidade =C3=BAnic=
+a em uma classe? Exemplos de responsabilidades =C3=BAnicas em classes reais=
+ Vantagens Desvantagens Casos de uso comuns onde o SRP =C3=A9 =C3=BAtil Dif=
+iculdades na aplica=C3=A7=C3=A3o do SRP em projetos complexos Quando pode n=
+=C3=A3o ser vantajoso aplicar o SRP? Dicas para aplicar o SRP no dia a dia =
+da programa=C3=A7=C3=A3o Conclus=C3=A3o Defini=C3=A7=C3=A3o do SRP O Single=
+ Responsibility Principle (SRP) =C3=A9 o primeiro dos cinco princ=C3=ADpios=
+ SOLID. Ele estabelece que uma classe deve ter apenas uma =C3=BAnica respon=
+sabilidade, ou seja, uma =C3=BAnica raz=C3=A3o para mudar. Essa responsabil=
+idade =C3=BAnica refere-se a uma fun=C3=A7=C3=A3o ou um comportamento espec=
+=C3=ADfico no sistema. Quando uma classe possui v=C3=A1rias responsabilidad=
+es, torna-se mais dif=C3=ADcil de manter e adaptar a mudan=C3=A7as, pois um=
+a altera=C3=A7=C3=A3o em uma responsabilidade pode afetar outras partes da =
+classe. Seguir o SRP significa que cada classe deve ser especializada em um=
+ =C3=BAnico aspecto do comportamento do sistema. Isso facilita a compreens=
+=C3=A3o, o teste e a modifica=C3=A7=C3=A3o do c=C3=B3digo. Ao dividir respo=
+nsabilidades em diferentes classes, criamos um design mais modular, onde ca=
+da parte do sistema pode ser desenvolvida e testada independentemente. Essa=
+ separa=C3=A7=C3=A3o de responsabilidades tamb=C3=A9m ajuda a identificar c=
+laramente os pontos de falha e a reduzir o acoplamento entre as classes. No=
+ contexto da programa=C3=A7=C3=A3o orientada a objetos, o SRP promove a cri=
+a=C3=A7=C3=A3o de classes coesas e focadas. Ao aderir a esse princ=C3=ADpio=
+, os desenvolvedores garantem que as classes sejam f=C3=A1ceis de ler, ente=
+nder e modificar. Isso resulta em um c=C3=B3digo mais claro e estruturado, =
+que facilita a manuten=C3=A7=C3=A3o e a evolu=C3=A7=C3=A3o do software ao l=
+ongo do tempo. A aplica=C3=A7=C3=A3o do SRP =C3=A9 um passo essencial para =
+criar sistemas robustos e de f=C3=A1cil manuten=C3=A7=C3=A3o. Import=C3=A2n=
+cia do SRP no design de software O SRP =C3=A9 crucial no design de software=
+ porque promove a especializa=C3=A7=C3=A3o de classes em uma =C3=BAnica res=
+ponsabilidade. Isso significa que cada classe =C3=A9 respons=C3=A1vel por a=
+penas uma parte do comportamento do sistema, o que facilita a identifica=C3=
+=A7=C3=A3o de problemas e a implementa=C3=A7=C3=A3o de melhorias. Classes f=
+ocadas e bem definidas s=C3=A3o mais f=C3=A1ceis de entender e manter, o qu=
+e resulta em um c=C3=B3digo de melhor qualidade. Ao aplicar o SRP, o c=C3=
+=B3digo se torna mais modular e flex=C3=ADvel. Classes com responsabilidade=
+s =C3=BAnicas podem ser facilmente modificadas sem impactar outras partes d=
+o sistema. Isso permite que novas funcionalidades sejam adicionadas com men=
+or risco de introduzir erros. Al=C3=A9m disso, a modularidade facilita o re=
+uso de c=C3=B3digo, pois componentes independentes podem ser combinados de =
+v=C3=A1rias maneiras para atender a diferentes necessidades. O SRP tamb=C3=
+=A9m contribui para a melhoria da legibilidade do c=C3=B3digo. Quando cada =
+classe tem uma responsabilidade clara, =C3=A9 mais f=C3=A1cil para os desen=
+volvedores entenderem o prop=C3=B3sito e a fun=C3=A7=C3=A3o de cada compone=
+nte. Isso reduz o tempo necess=C3=A1rio para aprender e trabalhar com o c=
+=C3=B3digo, especialmente em projetos grandes onde v=C3=A1rias pessoas est=
+=C3=A3o colaborando. A clareza na estrutura do c=C3=B3digo =C3=A9 essencial=
+ para a manuten=C3=A7=C3=A3o a longo prazo e a adapta=C3=A7=C3=A3o a mudan=
+=C3=A7as. Em projetos complexos, a aplica=C3=A7=C3=A3o do SRP pode reduzir =
+significativamente o acoplamento entre classes. Menor acoplamento significa=
+ que mudan=C3=A7as em uma classe t=C3=AAm menos probabilidade de causar pro=
+blemas em outras partes do sistema. Isso facilita a detec=C3=A7=C3=A3o e a =
+corre=C3=A7=C3=A3o de bugs, al=C3=A9m de tornar o processo de testes mais e=
+ficiente. Um sistema com baixo acoplamento e alta coes=C3=A3o =C3=A9 mais r=
+esiliente e adapt=C3=A1vel a novas exig=C3=AAncias. Como identificar uma re=
+sponsabilidade =C3=BAnica em uma classe? Identificar uma responsabilidade =
+=C3=BAnica em uma classe pode ser um desafio, especialmente em projetos com=
+plexos. A ideia principal =C3=A9 que cada classe deve ser respons=C3=A1vel =
+por um =C3=BAnico aspecto do comportamento do sistema. Uma maneira de ident=
+ificar essa responsabilidade =C3=A9 perguntar se a classe pode ser descrita=
+ com uma =C3=BAnica frase sem a necessidade de conjun=C3=A7=C3=B5es. Se pre=
+cisar de "e" ou "ou" para descrever a fun=C3=A7=C3=A3o da classe, =C3=A9 pr=
+ov=C3=A1vel que ela tenha mais de uma responsabilidade. Outra abordagem =C3=
+=A9 analisar os m=C3=A9todos da classe e verificar se eles est=C3=A3o relac=
+ionados a uma =C3=BAnica funcionalidade. Se os m=C3=A9todos realizam tarefa=
+s distintas ou parecem n=C3=A3o estar conectados, a classe pode estar viola=
+ndo o SRP. Nesse caso, considere dividir a classe em v=C3=A1rias classes me=
+nores, cada uma focada em uma responsabilidade espec=C3=ADfica. Isso n=C3=
+=A3o apenas melhora a coes=C3=A3o, mas tamb=C3=A9m facilita a manuten=C3=A7=
+=C3=A3o do c=C3=B3digo. Uma responsabilidade =C3=BAnica =C3=A9 algo que pod=
+e mudar por uma =C3=BAnica raz=C3=A3o. Se houver m=C3=BAltiplas raz=C3=B5es=
+ para que uma classe precise ser alterada, ela tem m=C3=BAltiplas responsab=
+ilidades. Dividir essas responsabilidades em diferentes classes garante que=
+ cada classe seja afetada por apenas um tipo de mudan=C3=A7a. Isso torna o =
+sistema mais robusto e adapt=C3=A1vel a futuras altera=C3=A7=C3=B5es. Casos=
+ de uso comuns do SRP incluem a separa=C3=A7=C3=A3o de l=C3=B3gica de neg=
+=C3=B3cios, interface de usu=C3=A1rio e acesso a dados em diferentes classe=
+s. Por exemplo, em um sistema de gerenciamento de invent=C3=A1rio, voc=C3=
+=AA poderia ter uma classe para manipular a l=C3=B3gica de neg=C3=B3cios de=
+ produtos, outra para gerenciar a interface de usu=C3=A1rio e uma terceira =
+para lidar com o acesso ao banco de dados. Essa separa=C3=A7=C3=A3o de resp=
+onsabilidades torna cada componente do sistema mais focado e independente. =
+Exemplos de responsabilidades =C3=BAnicas em classes reais Em muitos sistem=
+as de software, =C3=A9 comum encontrar classes que violam o SRP ao acumular=
+ m=C3=BAltiplas responsabilidades. Um caso t=C3=ADpico =C3=A9 uma classe de=
+ usu=C3=A1rio que n=C3=A3o s=C3=B3 armazena os dados do usu=C3=A1rio, mas t=
+amb=C3=A9m lida com valida=C3=A7=C3=A3o e envio de emails. Isso pode compli=
+car a manuten=C3=A7=C3=A3o e aumentar o risco de bugs, pois altera=C3=A7=C3=
+=B5es em uma funcionalidade podem afetar outras partes da classe. Ao aplica=
+r o SRP, separamos essas responsabilidades em diferentes classes. Isso n=C3=
+=A3o s=C3=B3 melhora a modularidade, mas tamb=C3=A9m facilita o teste e a m=
+odifica=C3=A7=C3=A3o do c=C3=B3digo. No exemplo sem SRP abaixo, a classe Us=
+uario tem m=C3=BAltiplas responsabilidades, o que torna o c=C3=B3digo mais =
+dif=C3=ADcil de manter e entender. No exemplo com SRP, cada responsabilidad=
+e =C3=A9 movida para uma classe espec=C3=ADfica, resultando em um design ma=
+is limpo e organizado. Exemplo sem SRP em C#: Neste exemplo, a classe Usuar=
+io viola o SRP ao ter m=C3=BAltiplas responsabilidades: armazenar dados do =
+usu=C3=A1rio, enviar emails e validar emails. Exemplo com SRP em C#: Aqui, =
+as responsabilidades s=C3=A3o separadas em diferentes classes: Usuario apen=
+as armazena dados, EmailService envia emails e ValidadorDeEmail valida emai=
+ls. Isso melhora a modularidade e facilita a manuten=C3=A7=C3=A3o. Exemplo =
+sem SRP em PHP: Neste exemplo, a classe Usuario tamb=C3=A9m viola o SRP ao =
+misturar dados de usu=C3=A1rio com a l=C3=B3gica de envio e valida=C3=A7=C3=
+=A3o de emails. Exemplo com SRP em PHP: Ao separar as responsabilidades, a =
+manuten=C3=A7=C3=A3o do c=C3=B3digo =C3=A9 facilitada, cada classe tem uma =
+=C3=BAnica responsabilidade e mudan=C3=A7as em uma funcionalidade n=C3=A3o =
+afetam outras. Separar responsabilidades em classes distintas n=C3=A3o s=C3=
+=B3 melhora a clareza e a organiza=C3=A7=C3=A3o do c=C3=B3digo, mas tamb=C3=
+=A9m facilita a detec=C3=A7=C3=A3o e corre=C3=A7=C3=A3o de bugs. Classes fo=
+cadas em uma =C3=BAnica responsabilidade s=C3=A3o mais f=C3=A1ceis de testa=
+r, o que melhora a qualidade geral do software. Essa abordagem modular tamb=
+=C3=A9m permite que diferentes partes do sistema evoluam de forma independe=
+nte, reduzindo o impacto das mudan=C3=A7as. Vantagens Uma das principais va=
+ntagens do SRP =C3=A9 a manuten=C3=A7=C3=A3o facilitada do c=C3=B3digo. Qua=
+ndo cada classe =C3=A9 respons=C3=A1vel por apenas uma parte do comportamen=
+to do sistema, torna-se mais f=C3=A1cil localizar e corrigir problemas. Iss=
+o reduz o tempo gasto na depura=C3=A7=C3=A3o e na implementa=C3=A7=C3=A3o d=
+e novas funcionalidades. A manuten=C3=A7=C3=A3o de um c=C3=B3digo modular e=
+ bem definido =C3=A9 muito mais eficiente, pois altera=C3=A7=C3=B5es em uma=
+ =C3=A1rea espec=C3=ADfica n=C3=A3o impactam negativamente outras partes do=
+ sistema. Outra vantagem significativa =C3=A9 a redu=C3=A7=C3=A3o do acopla=
+mento entre classes. Classes que seguem o SRP t=C3=AAm responsabilidades be=
+m definidas e isoladas, o que significa que dependem menos umas das outras.=
+ Isso torna o sistema mais robusto e facilita a adapta=C3=A7=C3=A3o a novas=
+ exig=C3=AAncias, pois altera=C3=A7=C3=B5es em uma classe n=C3=A3o exigem m=
+odifica=C3=A7=C3=B5es em v=C3=A1rias outras. A redu=C3=A7=C3=A3o do acoplam=
+ento tamb=C3=A9m melhora a reutiliza=C3=A7=C3=A3o de c=C3=B3digo, permitind=
+o que classes independentes sejam usadas em diferentes contextos. O SRP tam=
+b=C3=A9m contribui para o melhor entendimento e legibilidade do c=C3=B3digo=
+. Classes com responsabilidades claras e =C3=BAnicas s=C3=A3o mais f=C3=A1c=
+eis de entender, o que facilita a leitura e a revis=C3=A3o por outros desen=
+volvedores. Isso =C3=A9 especialmente importante em projetos grandes, onde =
+v=C3=A1rias pessoas trabalham juntas. Um c=C3=B3digo mais leg=C3=ADvel redu=
+z a curva de aprendizado para novos membros da equipe e facilita a colabora=
+=C3=A7=C3=A3o, resultando em um desenvolvimento mais =C3=A1gil e eficiente.=
+ Al=C3=A9m disso, a aplica=C3=A7=C3=A3o do SRP promove boas pr=C3=A1ticas d=
+e design de software. Quando as classes t=C3=AAm uma =C3=BAnica responsabil=
+idade, =C3=A9 mais f=C3=A1cil seguir outros princ=C3=ADpios de design, como=
+ o Open/Closed Principle e o Dependency Inversion Principle. Isso resulta e=
+m um sistema bem estruturado e de f=C3=A1cil manuten=C3=A7=C3=A3o, onde cad=
+a componente desempenha um papel claro e espec=C3=ADfico. A ado=C3=A7=C3=A3=
+o do SRP =C3=A9 um passo fundamental para criar software de alta qualidade =
+e sustent=C3=A1vel a longo prazo. Desvantagens Embora o SRP ofere=C3=A7a mu=
+itos benef=C3=ADcios, h=C3=A1 algumas desvantagens que devem ser considerad=
+as. Uma delas =C3=A9 a poss=C3=ADvel complexidade adicional no design do si=
+stema. Dividir responsabilidades em v=C3=A1rias classes pode resultar em um=
+ aumento no n=C3=BAmero de classes e interfaces, o que pode tornar o c=C3=
+=B3digo mais dif=C3=ADcil de navegar e compreender, especialmente em projet=
+os grandes. Outra desvantagem =C3=A9 a curva de aprendizado para desenvolve=
+dores menos experientes. Implementar corretamente o SRP exige um entendimen=
+to s=C3=B3lido dos princ=C3=ADpios de design de software e das melhores pr=
+=C3=A1ticas. Desenvolvedores novatos podem encontrar dificuldades em identi=
+ficar responsabilidades =C3=BAnicas e em aplicar o SRP de forma eficaz, o q=
+ue pode levar a um aumento do tempo e dos recursos necess=C3=A1rios para a =
+implementa=C3=A7=C3=A3o inicial. Al=C3=A9m disso, a rigorosa ades=C3=A3o ao=
+ SRP pode resultar em um design excessivamente fragmentado. Em alguns casos=
+, seguir o SRP de forma muito estrita pode levar a uma prolifera=C3=A7=C3=
+=A3o de classes pequenas e especializadas, o que pode complicar a implement=
+a=C3=A7=C3=A3o de solu=C3=A7=C3=B5es simples e pr=C3=A1ticas. =C3=89 import=
+ante encontrar um equil=C3=ADbrio entre a aplica=C3=A7=C3=A3o do SRP e a ma=
+nuten=C3=A7=C3=A3o de um design coeso e funcional. Por fim, =C3=A9 importan=
+te lembrar que nem sempre =C3=A9 poss=C3=ADvel ou necess=C3=A1rio aplicar o=
+ SRP rigidamente. Em certos contextos, pode ser mais vantajoso adotar uma a=
+bordagem mais flex=C3=ADvel, adaptando os princ=C3=ADpios conforme as neces=
+sidades espec=C3=ADficas do projeto. A aplica=C3=A7=C3=A3o do SRP deve ser =
+avaliada caso a caso, levando em considera=C3=A7=C3=A3o os requisitos e as =
+restri=C3=A7=C3=B5es do sistema. Casos de uso comuns onde o SRP =C3=A9 =C3=
+=BAtil O SRP =C3=A9 particularmente =C3=BAtil em sistemas onde a complexida=
+de e a necessidade de manuten=C3=A7=C3=A3o s=C3=A3o altas. Em um sistema de=
+ gerenciamento de invent=C3=A1rio, por exemplo, dividir as responsabilidade=
+s entre classes distintas pode tornar o c=C3=B3digo mais f=C3=A1cil de mant=
+er e expandir. Cada classe pode ser respons=C3=A1vel por uma parte espec=C3=
+=ADfica do sistema, como a gest=C3=A3o de produtos, o controle de estoque o=
+u a gera=C3=A7=C3=A3o de relat=C3=B3rios, facilitando a identifica=C3=A7=C3=
+=A3o e corre=C3=A7=C3=A3o de problemas. Outro caso de uso comum =C3=A9 em a=
+plica=C3=A7=C3=B5es web, onde a separa=C3=A7=C3=A3o de responsabilidades po=
+de melhorar significativamente a modularidade do c=C3=B3digo. Dividir a l=
+=C3=B3gica de neg=C3=B3cios, a l=C3=B3gica de apresenta=C3=A7=C3=A3o e o ac=
+esso a dados em diferentes classes permite um desenvolvimento mais organiza=
+do e facilita a reutiliza=C3=A7=C3=A3o de c=C3=B3digo. Isso =C3=A9 especial=
+mente =C3=BAtil em equipes grandes, onde diferentes desenvolvedores podem t=
+rabalhar em partes distintas do sistema sem interferir no trabalho uns dos =
+outros. Dificuldades na aplica=C3=A7=C3=A3o do SRP em projetos complexos Ap=
+licar o SRP em projetos complexos pode apresentar algumas dificuldades devi=
+do =C3=A0 necessidade de identificar claramente as responsabilidades de cad=
+a classe. Em sistemas grandes, a defini=C3=A7=C3=A3o de responsabilidades p=
+ode n=C3=A3o ser =C3=B3bvia, e pode haver muitas interdepend=C3=AAncias ent=
+re as partes do sistema. Isso pode tornar a separa=C3=A7=C3=A3o de responsa=
+bilidades mais dif=C3=ADcil e levar a uma prolifera=C3=A7=C3=A3o de classes=
+ pequenas e especializadas, o que pode complicar o design do sistema. Outro=
+ obst=C3=A1culo =C3=A9 a necessidade de refatorar c=C3=B3digo legado que n=
+=C3=A3o segue o SRP. Em muitos projetos, o c=C3=B3digo existente pode ter s=
+ido escrito sem considerar os princ=C3=ADpios SOLID, resultando em classes =
+monol=C3=ADticas com m=C3=BAltiplas responsabilidades. Refatorar esse c=C3=
+=B3digo para aderir ao SRP pode ser uma tarefa trabalhosa e arriscada, espe=
+cialmente se n=C3=A3o houver testes adequados para garantir que as mudan=C3=
+=A7as n=C3=A3o introduzam novos bugs. Al=C3=A9m disso, a aplica=C3=A7=C3=A3=
+o do SRP pode exigir um entendimento profundo dos requisitos do sistema e d=
+a l=C3=B3gica de neg=C3=B3cios. Desenvolvedores precisam ser capazes de ide=
+ntificar quais responsabilidades podem ser separadas sem comprometer a func=
+ionalidade do sistema. Isso pode ser dif=C3=ADcil em projetos complexos, on=
+de as responsabilidades podem estar intrinsecamente ligadas. Quando pode n=
+=C3=A3o ser vantajoso aplicar o SRP? Embora o SRP seja uma pr=C3=A1tica rec=
+omendada, pode haver situa=C3=A7=C3=B5es em que aplic=C3=A1-lo rigidamente =
+n=C3=A3o =C3=A9 vantajoso. Em projetos de pequena escala ou prot=C3=B3tipos=
+, onde o objetivo =C3=A9 desenvolver rapidamente uma solu=C3=A7=C3=A3o func=
+ional, a aplica=C3=A7=C3=A3o do SRP pode adicionar complexidade desnecess=
+=C3=A1ria. Nesse contexto, pode ser mais eficiente adotar uma abordagem mai=
+s pragm=C3=A1tica e focar na entrega r=C3=A1pida de valor. Outra situa=C3=
+=A7=C3=A3o em que o SRP pode n=C3=A3o ser vantajoso =C3=A9 quando a separa=
+=C3=A7=C3=A3o de responsabilidades resulta em um design excessivamente frag=
+mentado. Se a aplica=C3=A7=C3=A3o do SRP levar =C3=A0 cria=C3=A7=C3=A3o de =
+muitas classes pequenas e altamente especializadas, pode ser mais dif=C3=AD=
+cil manter a coes=C3=A3o do sistema. Em vez de seguir o SRP estritamente, p=
+ode ser melhor encontrar um equil=C3=ADbrio que mantenha a modularidade sem=
+ comprometer a simplicidade e a clareza do design. Por fim, em sistemas ond=
+e o desempenho =C3=A9 cr=C3=ADtico, a aplica=C3=A7=C3=A3o do SRP pode intro=
+duzir overhead adicional. A cria=C3=A7=C3=A3o de m=C3=BAltiplas classes e i=
+nterfaces pode resultar em um aumento no tempo de execu=C3=A7=C3=A3o e no c=
+onsumo de mem=C3=B3ria. Nesse caso, =C3=A9 importante avaliar se os benef=
+=C3=ADcios de seguir o SRP superam os custos de desempenho e considerar alt=
+ernativas que atendam melhor aos requisitos do sistema. Dicas para aplicar =
+o SRP no dia a dia da programa=C3=A7=C3=A3o Para aplicar o SRP no dia a dia=
+ da programa=C3=A7=C3=A3o, comece por avaliar frequentemente suas classes e=
+ m=C3=A9todos para garantir que eles t=C3=AAm uma =C3=BAnica responsabilida=
+de. Pergunte a si mesmo se a classe ou m=C3=A9todo pode ser descrito em uma=
+ =C3=BAnica frase. Se precisar de mais de uma frase, talvez seja hora de re=
+fatorar. Outra dica =C3=A9 manter os m=C3=A9todos pequenos e focados em uma=
+ =C3=BAnica tarefa. M=C3=A9todos longos e complexos geralmente indicam que =
+a classe tem m=C3=BAltiplas responsabilidades. Divida esses m=C3=A9todos em=
+ m=C3=A9todos menores, cada um focado em uma parte espec=C3=ADfica da taref=
+a. Isso n=C3=A3o s=C3=B3 melhora a legibilidade do c=C3=B3digo, mas tamb=C3=
+=A9m facilita o teste e a manuten=C3=A7=C3=A3o. Utilize nomes claros e desc=
+ritivos para suas classes e m=C3=A9todos. Nomes que descrevem precisamente =
+a responsabilidade da classe ou do m=C3=A9todo ajudam a manter o foco em um=
+a =C3=BAnica responsabilidade. Evite nomes gen=C3=A9ricos que podem indicar=
+ que a classe ou m=C3=A9todo est=C3=A1 fazendo mais do que deveria. Por fim=
+, adote uma abordagem iterativa e incremental para a refatora=C3=A7=C3=A3o =
+de c=C3=B3digo. Aplicar o SRP n=C3=A3o precisa ser uma tarefa gigantesca; v=
+oc=C3=AA pode come=C3=A7ar pequeno e refatorar progressivamente. Concentre-=
+se nas =C3=A1reas mais cr=C3=ADticas do sistema primeiro e expanda gradualm=
+ente a aplica=C3=A7=C3=A3o do SRP conforme o projeto evolui. Conclus=C3=A3o=
+ Ao longo deste artigo, exploramos o SRP, um dos princ=C3=ADpios fundamenta=
+is do design de software orientado a objetos. Definimos o SRP, discutimos s=
+ua import=C3=A2ncia e como identificar responsabilidades =C3=BAnicas em uma=
+ classe. Exemplificamos casos de uso comuns e apresentamos exemplos pr=C3=
+=A1ticos de aplica=C3=A7=C3=A3o do SRP, tanto em C# quanto em PHP. Discutim=
+os tamb=C3=A9m as vantagens como manuten=C3=A7=C3=A3o facilitada do c=C3=B3=
+digo, redu=C3=A7=C3=A3o do acoplamento entre classes e melhor entendimento =
+e legibilidade do c=C3=B3digo. Apesar desses benef=C3=ADcios, identificamos=
+ algumas desvantagens, como a complexidade adicional e a curva de aprendiza=
+do para desenvolvedores menos experientes. Reconhecemos que, em certos cont=
+extos, a aplica=C3=A7=C3=A3o rigorosa do SRP pode n=C3=A3o ser vantajosa e =
+oferecemos alternativas mais pragm=C3=A1ticas. Al=C3=A9m disso, fornecemos =
+dicas pr=C3=A1ticas para aplicar o SRP no dia a dia da programa=C3=A7=C3=A3=
+o, ajudando desenvolvedores a manter m=C3=A9todos e classes pequenos, focad=
+os e com nomes descritivos. A ado=C3=A7=C3=A3o do SRP =C3=A9 um passo cruci=
+al para criar software de alta qualidade e sustent=C3=A1vel a longo prazo, =
+promovendo boas pr=C3=A1ticas de design e facilitando a manuten=C3=A7=C3=A3=
+o e evolu=C3=A7=C3=A3o do sistema. Obrigado por acompanhar at=C3=A9 aqui. E=
+spero que este artigo tenha fornecido uma compreens=C3=A3o clara e pr=C3=A1=
+tica do Single Responsibility Principle e sua aplica=C3=A7=C3=A3o no desenv=
+olvimento de software. Se voc=C3=AA gostou deste conte=C3=BAdo, continue ac=
+ompanhando nossos artigos para mais insights detalhados sobre cada um dos p=
+rinc=C3=ADpios SOLID e outros t=C3=B3picos essenciais da programa=C3=A7=C3=
+=A3o. Vamos juntos continuar explorando e aplicando os princ=C3=ADpios que =
+tornam nosso c=C3=B3digo mais robusto e eficiente. Sua jornada no mundo da =
+programa=C3=A7=C3=A3o est=C3=A1 apenas come=C3=A7ando, e estamos aqui para =
+apoiar cada passo do caminho. Fique atento aos pr=C3=B3ximos artigos e obri=
+gado por fazer parte desta jornada conosco. Cada letra do acr=C3=B4nimo SOL=
+ID ter=C3=A1 um artigo detalhado separado, fornecendo o m=C3=A1ximo de deta=
+lhes poss=C3=ADvel para ajudar voc=C3=AA a se tornar um desenvolvedor ainda=
+ melhor. AVISO Os c=C3=B3digos mencionados neste artigo e em qualquer outro=
+ veiculado nesta newsletter s=C3=A3o exemplos fict=C3=ADcios destinados exc=
+lusivamente a fins ilustrativos. =C3=89 importante ressaltar que n=C3=A3o =
+=C3=A9 recomendado compilar ou executar esses c=C3=B3digos sem antes estabe=
+lecer toda a estrutura necess=C3=A1ria para sua execu=C3=A7=C3=A3o adequada=
+. Tentativas de copiar, compilar ou depurar diretamente podem resultar em u=
+ma s=C3=A9rie de erros, mesmo que o c=C3=B3digo em si esteja corretamente e=
+scrito. Portanto, gostaria de salientar que os exemplos aqui apresentados s=
+=C3=A3o meramente did=C3=A1ticos, e n=C3=A3o assumo qualquer responsabilida=
+de por quaisquer a=C3=A7=C3=B5es tomadas com base neles. Encontrou algo de =
+errado nesse ou em outro artigo? Comente, curte e compartilhe para mais pes=
+soas terem acesso al=C3=A9m de assinar a newsletter. Aceito cr=C3=ADticas e=
+m rela=C3=A7=C3=A3o aos conte=C3=BAdos criados al=C3=A9m de sugest=C3=B5es =
+e elogios. Hashtags #SingleResponsibilityPrinciple #CleanCode #SoftwareDesi=
+gn Fontes https://en.wikipedia.org/wiki/Single-responsibility_principle htt=
+ps://www.freecodecamp.org/news/solid-principles-single-responsibility-princ=
+iple-explained/ https://dev.to/ggorantala/solid-single-responsibility-princ=
+iple-with-examples-h0f https://dotnettutorials.net/lesson/real-time-example=
+s-of-single-responsibility-principle-in-csharp/ https://dev.to/ggorantala/s=
+olid-single-responsibility-principle-with-examples-h0f
+Continue lendo no LinkedIn
+https://www.linkedin.com/comm/pulse/single-responsibility-principle-chave-p=
+ara-um-c%C3%B3digo-mais-luciano-cxxse?lipi=3Durn%3Ali%3Apage%3Aemail_email_=
+series_follow_newsletter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&midToken=3DAQHxa=
+OsdYMWJVQ&midSig=3D1Pb1PEj6XeFXE1&trk=3Deml-email_series_follow_newsletter_=
+01-newsletter_content_preview_text-0-readmore_button_&trkEmail=3Deml-email_=
+series_follow_newsletter_01-newsletter_content_preview_text-0-readmore_butt=
+on_-null-gdb74f~m7m7mxj6~ea-null-null&eid=3Dgdb74f-m7m7mxj6-ea&otpToken=3DM=
+WIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0=
+YjVkNWJmMmZlZDNkZjhhMTFjY2UyODM0MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU=
+1MjkyOCwxLDE%3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | Java | JS | React.js | PostgreSQL)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=
+=3D1Pb1PEj6XeFXE1&trk=3Deml-email_series_follow_newsletter_01-SecurityHelp-=
+0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Securi=
+tyHelp-0-textfooterglimmer-null-gdb74f~m7m7mxj6~ea-null-null&eid=3Dgdb74f-m=
+7m7mxj6-ea&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZWUyYmQ4ZGNjZDI0O=
+Dk4YWU4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY2UyODM0MDk5ZjE5NjM3MzlkYzRj=
+MTVkYTIyOWRlZTM3MWUyODU1MjkyOCwxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/series-notifications=
+/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjl=
+Y&newsletterId=3D7002440821278953472&newsletterTitle=3DAssuntos de Programa=
+=C3=A7=C3=A3o&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter=
+_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D1Pb1P=
+Ej6XeFXE1&ek=3Demail_series_follow_newsletter_01&e=3Dgdb74f-m7m7mxj6-ea&eid=
+=3Dgdb74f-m7m7mxj6-ea&m=3Dunsubscribe&ts=3DfooterGlimmer&li=3D0&t=3Dplh  =
+=C2=A0=C2=A0=C2=B7=C2=A0=C2=A0Ajuda: https://www.linkedin.com/help/linkedin=
+/answer/67?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=
+=3D1Pb1PEj6XeFXE1&trk=3Deml-email_series_follow_newsletter_01-help-0-textfo=
+oterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-help-0-textfoo=
+terglimmer-null-gdb74f~m7m7mxj6~ea-null-null&eid=3Dgdb74f-m7m7mxj6-ea&otpTo=
+ken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljN=
+DA2NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY2UyODM0MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3=
+MWUyODU1MjkyOCwxLDE%3D
+
+=C2=A9 2025 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_7218331_2140365859.1740592229575
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+/head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-canvas w-fu=
+ll m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; padding: 0p=
+x; padding-top: 8px; font-family: -apple-system, system-ui, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Ox=
+ygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sa=
+ns-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible overflow=
+-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; max-height=
+: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" data-email-p=
+reheader=3D"true">Entenda a import=C3=A2ncia do princ=C3=ADpio da responsab=
+ilidade =C3=BAnica no design de=E2=80=A6</div> <div class=3D"h-0 opacity-0 =
+text-transparent invisible overflow-hidden w-0 max-h-[0]" style=3D"visibili=
+ty: hidden; height: 0px; max-height: 0; width: 0px; overflow: hidden; opaci=
+ty: 0; mso-hide: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table role=3D"presentation"=
+ valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"5=
+12" align=3D"center" class=3D"mercado-container w-[512px] max-w-[512px] mx-=
+auto my-0 p-0 " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-left: auto; =
+margin-right: auto; margin-top: 0px; margin-bottom: 0px; width: 512px; max-=
+width: 512px; padding: 0px;"> <tbody> <tr> <td style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"bg-color-background=
+-container " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fff=
+fff;"> <tbody> <tr> <td class=3D"text-center p-3" style=3D"-webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tabl=
+e-rspace: 0pt; padding: 24px; text-align: center;"> <table role=3D"presenta=
+tion" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%" class=3D"min-w-full" style=3D"-webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-=
+width: 100%;"> <tbody> <tr> <td align=3D"left" valign=3D"middle" style=3D"-=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/fe=
+ed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BnsMC=
+75p8S3aEMmsPPQdukA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1Pb1PEj=
+6XeFXE1&amp;trk=3Deml-email_series_follow_newsletter_01-header-0-home_glimm=
+er_dynamic_badging_high_dpi&amp;trkEmail=3Deml-email_series_follow_newslett=
+er_01-header-0-home_glimmer_dynamic_badging_high_dpi-null-gdb74f~m7m7mxj6~e=
+a-null-null&amp;eid=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2J=
+jM2I1MjQwNGVkNDIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZj=
+hhMTFjY2UyODM0MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU1MjkyOCwxLDE%3D" t=
+arget=3D"_blank" class=3D"w-[84px]" style=3D"color: #0a66c2; cursor: pointe=
+r; display: inline-block; text-decoration: none; -webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; width: 84px;"> <img class=3D"h-[37px] w-[=
+101px]" alt=3D"LinkedIn" src=3D"https://www.linkedin.com/comm/dms/logo/v2?b=
+adgeTheme=3Dmercado&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_=
+newsletter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&amp;midSig=3D1Pb1PEj6XeFXE1&am=
+p;midToken=3DAQHxaOsdYMWJVQ&amp;trkEmail=3Deml-email_series_follow_newslett=
+er_01-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2-null-gdb74f%7Em7m7mxj=
+6%7Eea-null-null&amp;trk=3Deml-email_series_follow_newsletter_01-null-0-com=
+ms%7Ebadging%7Edynamic%7Eglimmer%7Ev2&amp;_sig=3D0sBLdO8qLeFXE1" data-test-=
+header-dynamic-badging-img-high-dpi style=3D"outline: none; text-decoration=
+: none; -ms-interpolation-mode: bicubic; height: 37px; width: 101px;" width=
+=3D"101" height=3D"37"> </a> </td> <td valign=3D"middle" align=3D"right" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=
+=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" da=
+ta-test-header-profile style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <t=
+r> <td align=3D"right" valign=3D"middle" class=3D"w-[32px]" style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt; width: 32px;" width=3D"32"> <a href=3D"https://br.=
+linkedin.com/comm/in/fernando-ferreira-brito?lipi=3Durn%3Ali%3Apage%3Aemail=
+_email_series_follow_newsletter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&amp;midTo=
+ken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1Pb1PEj6XeFXE1&amp;trk=3Deml-email_series=
+_follow_newsletter_01-header-0-profile_glimmer&amp;trkEmail=3Deml-email_ser=
+ies_follow_newsletter_01-header-0-profile_glimmer-null-gdb74f~m7m7mxj6~ea-n=
+ull-null&amp;eid=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2=
+I1MjQwNGVkNDIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjhhM=
+TFjY2UyODM0MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU1MjkyOCwxLDE%3D" targ=
+et=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-blo=
+ck; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%;"> <img alt=3D"Luiz Fernando Brito Ferreira" src=3D"https://medi=
+a.licdn.com/dms/image/v2/D4E03AQHtWMkj43o1lA/profile-displayphoto-shrink_20=
+0_200/profile-displayphoto-shrink_200_200/0/1724191556445?e=3D2147483647&am=
+p;v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB92xXoc9r_1IG6EIUIKB4" class=3D"ro=
+unded-[100%] w-[32px] h-[32px]" style=3D"outline: none; text-decoration: no=
+ne; -ms-interpolation-mode: bicubic; height: 32px; width: 32px; border-radi=
+us: 100%;" width=3D"32" height=3D"32"> </a> </td> </tr> </tbody> </table> <=
+/td> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"px-0 pb-3" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; padding-left: 0px; padding-right: 0px; p=
+adding-bottom: 24px;"> <div> <table role=3D"presentation" valign=3D"top" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td data-test-id=3D"newsletter-en=
+tity-lockup" class=3D"px-3 pt-1" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; pa=
+dding-left: 24px; padding-right: 24px; padding-top: 8px;"> <table role=3D"p=
+resentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" width=3D"100%" class=3D"font-sans" style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Ro=
+boto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantare=
+ll, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', =
+'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;"> <tbody>=
+ <tr> <td valign=3D"top" class=3D"pr-1 w-6" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt; width: 48px; padding-right: 8px;" width=3D"48"> <a href=3D"https:/=
+/www.linkedin.com/comm/newsletters/7002440821278953472?lipi=3Durn%3Ali%3Apa=
+ge%3Aemail_email_series_follow_newsletter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D=
+&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1Pb1PEj6XeFXE1&amp;trk=3Deml-em=
+ail_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entit=
+y_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_entit=
+y_lockup-0-newsletter_entity_cta-null-gdb74f~m7m7mxj6~ea-null-null&amp;eid=
+=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZW=
+UyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY2UyODM0MDk5Z=
+jE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU1MjkyOCwxLDE%3D" target=3D"_blank" st=
+yle=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decorat=
+ion: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <i=
+mg class=3D"inline-block relative bg-color-entity-ghost-background w-6 h-6 =
+rounded-md" src=3D"https://media.licdn.com/dms/image/v2/D4D12AQEAoFL_9ZOGaA=
+/series-logo_image-shrink_100_100/series-logo_image-shrink_100_100/0/167611=
+4493998?e=3D2147483647&amp;v=3Dbeta&amp;t=3DJ0cA9GdNyXSecho-YeWchBUEZHNz51J=
+plsM7AVSQvSQ" alt=3D"Abrir Assuntos de Programa=C3=A7=C3=A3o" style=3D"outl=
+ine: none; text-decoration: none; -ms-interpolation-mode: bicubic; position=
+: relative; display: inline-block; height: 48px; width: 48px; border-radius=
+: 8px; background-color: #eae6df;" width=3D"48" height=3D"48"> </a> </td> <=
+td valign=3D"top" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"=
+presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <t=
+d style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin=
+.com/comm/newsletters/7002440821278953472?lipi=3Durn%3Ali%3Apage%3Aemail_em=
+ail_series_follow_newsletter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&amp;midToken=
+=3DAQHxaOsdYMWJVQ&amp;midSig=3D1Pb1PEj6XeFXE1&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta&amp;trk=
+Email=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-0-ne=
+wsletter_entity_cta-null-gdb74f~m7m7mxj6~ea-null-null&amp;eid=3Dgdb74f-m7m7=
+mxj6-ea&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZWUyYmQ4ZGNjZDI0=
+ODk4YWU4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY2UyODM0MDk5ZjE5NjM3MzlkYzR=
+jMTVkYTIyOWRlZTM3MWUyODU1MjkyOCwxLDE%3D" target=3D"_blank" class=3D"no-unde=
+rline" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; tex=
+t-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; text-decoration-line: none;"> <div class=3D"pb-0.5" style=3D"padding-b=
+ottom: 4px;"> <span class=3D"text-md font-bold text-color-text break-words =
+leading-regular" style=3D"overflow-wrap: break-word; font-size: 16px; font-=
+weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Assuntos de Pr=
+ograma=C3=A7=C3=A3o </span> </div> </a> </td> </tr> <tr> <td style=3D"-webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/newsle=
+tters/7002440821278953472?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follo=
+w_newsletter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&amp;midToken=3DAQHxaOsdYMWJV=
+Q&amp;midSig=3D1Pb1PEj6XeFXE1&amp;trk=3Deml-email_series_follow_newsletter_=
+01-newsletter_entity_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-emai=
+l_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_=
+cta-null-gdb74f~m7m7mxj6~ea-null-null&amp;eid=3Dgdb74f-m7m7mxj6-ea&amp;otpT=
+oken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzlj=
+NDA2NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY2UyODM0MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM=
+3MWUyODU1MjkyOCwxLDE%3D" target=3D"_blank" class=3D"no-underline" style=3D"=
+color: #0a66c2; cursor: pointer; display: inline-block; text-decoration: no=
+ne; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decora=
+tion-line: none;"> <span class=3D"text-xs text-color-text-low-emphasis lead=
+ing-regular" style=3D"font-size: 12px; line-height: 1.25; color: rgba(0, 0,=
+ 0, 0.6);"> Uma vis=C3=A3o =C3=BAnica e acess=C3=ADvel sobre #programacao e=
+ #ti. Ideal para todos, desde iniciantes at=C3=A9=E2=80=A6 </span> </a> </t=
+d> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr da=
+ta-test-id=3D"newsletter-content-preview"> <td class=3D"px-3 pt-2" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt; padding-left: 24px; padding-right: 24px; pa=
+dding-top: 16px;"> <table role=3D"presentation" valign=3D"top" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt;"> <tbody> <tr> <td class=3D"overflow-hidden " style=3D"-we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt; overflow: hidden;"> <table role=3D"presentation=
+" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"=
+100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pu=
+lse/single-responsibility-principle-chave-para-um-c%C3%B3digo-mais-luciano-=
+cxxse?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bns=
+MC75p8S3aEMmsPPQdukA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1Pb1P=
+Ej6XeFXE1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_conten=
+t_preview-0-headline_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-=
+newsletter_content_preview-0-headline_-null-gdb74f~m7m7mxj6~ea-null-null&am=
+p;eid=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkN=
+DIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY2UyODM0=
+MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU1MjkyOCwxLDE%3D" target=3D"_blan=
+k" class=3D"w-full" style=3D"color: #0a66c2; cursor: pointer; display: inli=
+ne-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%; width: 100%;"> <img class=3D"block w-full aspect-[744/400=
+] object-cover overflow-hidden" data-test-id=3D"newsletter-content-preview_=
+_cover-image" alt=3D"Imagem de capa da newsletter" src=3D"https://media.lic=
+dn.com/dms/image/v2/D4D12AQF-z1q-N29TZw/article-cover_image-shrink_720_1280=
+/article-cover_image-shrink_720_1280/0/1739215504379?e=3D2147483647&amp;v=
+=3Dbeta&amp;t=3D49jDG7c30pAqk1loQ6BVU5mGPwukg4quqfSa4HmNdNI" style=3D"outli=
+ne: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: =
+block; aspect-ratio: 744/400; width: 100%; overflow: hidden; object-fit: co=
+ver;"> </a> </td> </tr> <tr> <td class=3D"py-2" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; padding-top: 16px; padding-bottom: 16px;"> <table role=3D"pres=
+entation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" w=
+idth=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com=
+/comm/pulse/single-responsibility-principle-chave-para-um-c%C3%B3digo-mais-=
+luciano-cxxse?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter=
+_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=
+=3D1Pb1PEj6XeFXE1&amp;trk=3Deml-email_series_follow_newsletter_01-newslette=
+r_content_preview-0-title_&amp;trkEmail=3Deml-email_series_follow_newslette=
+r_01-newsletter_content_preview-0-title_-null-gdb74f~m7m7mxj6~ea-null-null&=
+amp;eid=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGV=
+kNDIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY2UyOD=
+M0MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU1MjkyOCwxLDE%3D" target=3D"_bl=
+ank" class=3D"no-underline font-medium text-sm m-0 text-system-gray-90" sty=
+le=3D"cursor: pointer; display: inline-block; text-decoration: none; -webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0px; font-siz=
+e: 14px; font-weight: 500; color: #282828; text-decoration-line: none;"> <h=
+2 class=3D"m-0 text-display-sm leading-regular text-color-text font-bold fo=
+nt-sans" style=3D"margin: 0px; font-family: -apple-system, system-ui, Blink=
+MacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, O=
+xygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe =
+UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica,=
+ Arial, sans-serif; font-size: 24px; font-weight: 600; line-height: 1.25; c=
+olor: rgba(0, 0, 0, 0.9);"> Single responsibility principle: a chave para u=
+m c=C3=B3digo mais organizado e eficiente. </h2> </a> </td> </tr> <tr> <td =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" vali=
+gn=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" =
+data-test-id=3D"newsletter-author-lockup-redesign" class=3D"mt-1 mb-2" styl=
+e=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; margin-bottom: 16px; margin-top: 8px;">=
+ <tbody> <tr> <td valign=3D"middle" align=3D"left" class=3D"w-3" style=3D"-=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt; width: 24px;" width=3D"24"> <a href=3D"https:=
+//br.linkedin.com/comm/in/lgomesroc?lipi=3Durn%3Ali%3Apage%3Aemail_email_se=
+ries_follow_newsletter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&amp;midToken=3DAQH=
+xaOsdYMWJVQ&amp;midSig=3D1Pb1PEj6XeFXE1&amp;trk=3Deml-email_series_follow_n=
+ewsletter_01-newsletter_content_preview-0-author_&amp;trkEmail=3Deml-email_=
+series_follow_newsletter_01-newsletter_content_preview-0-author_-null-gdb74=
+f~m7m7mxj6~ea-null-null&amp;eid=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=3DMWIwZDE=
+3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0YjVkNW=
+JmMmZlZDNkZjhhMTFjY2UyODM0MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU1MjkyO=
+CwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; disp=
+lay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%;"> <img class=3D"inline-block relative bg-color-e=
+ntity-ghost-background clip-path-circle-50 rounded-full w-4 h-4 align-middl=
+e" src=3D"https://media.licdn.com/dms/image/v2/D4D35AQFdH9kF8MJeXQ/profile-=
+framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/17381860122=
+14?e=3D1741197600&amp;v=3Dbeta&amp;t=3D8P9xQBeoKofH1DXQZYSTxUk6i6oSdhX9Ix3-=
+Ft9gd9g" alt=3D"Imagem do autor" style=3D"outline: none; text-decoration: n=
+one; -ms-interpolation-mode: bicubic; position: relative; display: inline-b=
+lock; height: 32px; width: 32px; border-radius: 9999px; background-color: #=
+eae6df; vertical-align: middle; clip-path: circle(50%);" width=3D"32" heigh=
+t=3D"32"> </a> </td> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=
+=3D"https://br.linkedin.com/comm/in/lgomesroc?lipi=3Durn%3Ali%3Apage%3Aemai=
+l_email_series_follow_newsletter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&amp;midT=
+oken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1Pb1PEj6XeFXE1&amp;trk=3Deml-email_serie=
+s_follow_newsletter_01-newsletter_content_preview-0-author_&amp;trkEmail=3D=
+eml-email_series_follow_newsletter_01-newsletter_content_preview-0-author_-=
+null-gdb74f~m7m7mxj6~ea-null-null&amp;eid=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=
+=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2=
+NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY2UyODM0MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWU=
+yODU1MjkyOCwxLDE%3D" target=3D"_blank" class=3D"no-underline ml-1" style=3D=
+"color: #0a66c2; cursor: pointer; display: inline-block; text-decoration: n=
+one; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin-lef=
+t: 8px; text-decoration-line: none;"> <span class=3D"font-sans font-bold te=
+xt-sm mb-3 text-color-text-low-emphasis leading-regular" style=3D"margin-bo=
+ttom: 24px; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Seg=
+oe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans=
+', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe U=
+I Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;=
+ font-size: 14px; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0,=
+ 0.6);"> Luciano Rocha - PCD </span> </a> </td> </tr> </tbody> </table> </t=
+d> </tr> <tr> <td class=3D"pb-1" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; pa=
+dding-bottom: 8px;"> <div class=3D"p-3 bg-color-surface-tint rounded-md fon=
+t-sans" data-test-id=3D"newsletter-cta-banner" style=3D"border-radius: 8px;=
+ background-color: #f5f7f9; padding: 24px; font-family: -apple-system, syst=
+em-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans=
+', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emo=
+ji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande'=
+, Helvetica, Arial, sans-serif;"> <div class=3D"mb-1.5" style=3D"margin-bot=
+tom: 12px;"> <span class=3D"text-md leading-regular font-bold text-color-te=
+xt" style=3D"font-size: 16px; font-weight: 600; line-height: 1.25; color: r=
+gba(0, 0, 0, 0.9);"> Leia este artigo no LinkedIn para participar da conver=
+sa </span> </div> <table role=3D"presentation" valign=3D"top" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"email-button " =
+data-test-id=3D"email-button" style=3D"-webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tb=
+ody> <tr> <td valign=3D"middle" align=3D"left" style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/single-respons=
+ibility-principle-chave-para-um-c%C3%B3digo-mais-luciano-cxxse?lipi=3Durn%3=
+Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BnsMC75p8S3aEMmsPPQdu=
+kA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1Pb1PEj6XeFXE1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-read_=
+more_banner_cta_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsl=
+etter_content_preview-0-read_more_banner_cta_-null-gdb74f~m7m7mxj6~ea-null-=
+null&amp;eid=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1Mj=
+QwNGVkNDIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY=
+2UyODM0MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU1MjkyOCwxLDE%3D" target=
+=3D"_blank" aria-label=3D"Abrir este artigo no LinkedIn" class=3D"align-top=
+ no-underline " style=3D"color: #0a66c2; cursor: pointer; display: inline-b=
+lock; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; vertical-align: top; text-decoration-line: none;"> <table rol=
+e=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" width=3D"auto" class=3D"border-separate " style=3D"-webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tabl=
+e-rspace: 0pt; border-collapse: separate;"> <tbody> <tr> <td class=3D"btn-s=
+m btn-primary border-color-brand button-link leading-regular !min-h-[auto] =
+!shadow-none border-1 border-solid" style=3D"-webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ height: min-content; border-radius: 24px; padding-top: 7px; padding-bottom=
+: 7px; padding-left: 16px; padding-right: 16px; text-align: center; font-si=
+ze: 14px; font-weight: 600; cursor: pointer; text-decoration-line: none; ba=
+ckground-color: #0a66c2; color: #ffffff; border-width: 1px; border-style: s=
+olid; border-color: #0a66c2; line-height: 1.25; min-height: auto !important=
+; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;"> <a href=3D"http=
+s://www.linkedin.com/comm/pulse/single-responsibility-principle-chave-para-=
+um-c%C3%B3digo-mais-luciano-cxxse?lipi=3Durn%3Ali%3Apage%3Aemail_email_seri=
+es_follow_newsletter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&amp;midToken=3DAQHxa=
+OsdYMWJVQ&amp;midSig=3D1Pb1PEj6XeFXE1&amp;trk=3Deml-email_series_follow_new=
+sletter_01-newsletter_content_preview-0-read_more_banner_cta_&amp;trkEmail=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-read_=
+more_banner_cta_-null-gdb74f~m7m7mxj6~ea-null-null&amp;eid=3Dgdb74f-m7m7mxj=
+6-ea&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZWUyYmQ4ZGNjZDI0ODk=
+4YWU4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY2UyODM0MDk5ZjE5NjM3MzlkYzRjMT=
+VkYTIyOWRlZTM3MWUyODU1MjkyOCwxLDE%3D" target=3D"_blank" tabindex=3D"-1" ari=
+a-hidden=3D"true" class=3D"no-underline" style=3D"color: #0a66c2; cursor: p=
+ointer; display: inline-block; text-decoration: none; -webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; text-decoration-line: none;"> <span =
+class=3D"no-underline text-white" style=3D"color: #ffffff; text-decoration-=
+line: none;"> Ler no LinkedIn </span> </a> </td> </tr> </tbody> </table> </=
+a> </td> </tr> </tbody> </table> </div> </td> </tr> <tr data-test-id=3D"new=
+sletter-content-preview--content"> <td class=3D"series-article-body" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, system-ui, B=
+linkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubunt=
+u, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvet=
+ica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: rgba(0, 0=
+, 0, 0.9);"> <h3 style=3D"margin: 0; margin-left: 0px; margin-right: 0px; m=
+argin-top: 8px; margin-bottom: 4px; font-size: 16px; font-weight: 600; line=
+-height: 1.25; letter-spacing: -0.02em; color: rgba(0, 0, 0, 0.9);">Entenda=
+ a import=C3=A2ncia do princ=C3=ADpio da responsabilidade =C3=BAnica no des=
+ign de software orientado a objetos.</h3><h3 style=3D"margin: 0; margin-lef=
+t: 0px; margin-right: 0px; margin-top: 8px; margin-bottom: 4px; font-size: =
+16px; font-weight: 600; line-height: 1.25; letter-spacing: -0.02em; color: =
+rgba(0, 0, 0, 0.9);"></h3><p style=3D"margin: 0; font-weight: 400; margin-t=
+op: 0.8em; font-size: 1em; line-height: 1.5;">Continuando o projeto de publ=
+icar artigos com o m=C3=A1ximo de detalhes poss=C3=ADvel sobre assuntos com=
+o <a href=3D"https://www.linkedin.com/pulse/guia-completo-sobre-programa%C3=
+%A7%C3%A3o-orientada-objetos-poo-luciano-rocha-9dcvf?lipi=3Durn%3Ali%3Apage=
+%3Ad_flagship3_series_entity%3BAIxFjPiIROGJlaf5EiBbAg%3D%3D" target=3D"_bla=
+nk" style=3D"text-decoration: none; -webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; display: inline; cursor: pointer; font-weight: 600; co=
+lor: #0a66c2; text-decoration-line: none;"><strong>POO</strong></a>, <a hre=
+f=3D"https://www.linkedin.com/pulse/estruturas-de-algoritmos-base-para-reso=
+lver-problemas-luciano-rocha-rdlhf?lipi=3Durn%3Ali%3Apage%3Ad_flagship3_ser=
+ies_entity%3BAIxFjPiIROGJlaf5EiBbAg%3D%3D" target=3D"_blank" style=3D"text-=
+decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; display: inline; cursor: pointer; font-weight: 600; color: #0a66c2; text=
+-decoration-line: none;"><strong>fundamentos de algoritmos</strong></a>, <a=
+ href=3D"https://www.linkedin.com/pulse/abstra%C3%A7%C3%A3o-na-programa%C3%=
+A7%C3%A3o-simplificando-o-c%C3%B3digo-sem-perder-rocha-zjwlf?lipi=3Durn%3Al=
+i%3Apage%3Ad_flagship3_series_entity%3BAIxFjPiIROGJlaf5EiBbAg%3D%3D" target=
+=3D"_blank" style=3D"text-decoration: none; -webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; display: inline; cursor: pointer; font-weight:=
+ 600; color: #0a66c2; text-decoration-line: none;"><strong>abstra=C3=A7=C3=
+=A3o</strong></a>, <a href=3D"https://www.linkedin.com/pulse/o-que-%C3%A9-h=
+eran%C3%A7a-em-poo-e-quais-s%C3%A3o-os-seus-tipos-luciano-rocha-oqyqf?lipi=
+=3Durn%3Ali%3Apage%3Ad_flagship3_series_entity%3BAIxFjPiIROGJlaf5EiBbAg%3D%=
+3D" target=3D"_blank" style=3D"text-decoration: none; -webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; display: inline; cursor: pointer; fo=
+nt-weight: 600; color: #0a66c2; text-decoration-line: none;"><strong>heran=
+=C3=A7a</strong></a>, <a href=3D"https://www.linkedin.com/pulse/encapsulame=
+nto-em-programa%C3%A7%C3%A3o-orientada-objetos-estrutura-rocha-y8cyf?lipi=
+=3Durn%3Ali%3Apage%3Ad_flagship3_series_entity%3BAIxFjPiIROGJlaf5EiBbAg%3D%=
+3D" target=3D"_blank" style=3D"text-decoration: none; -webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; display: inline; cursor: pointer; fo=
+nt-weight: 600; color: #0a66c2; text-decoration-line: none;"><strong>encaps=
+ulamento</strong></a>, <a href=3D"https://www.linkedin.com/pulse/interfaces=
+-na-poo-o-segredo-para-um-c%C3%B3digo-flex%C3%ADvel-e-luciano-rocha-bbmqf?l=
+ipi=3Durn%3Ali%3Apage%3Ad_flagship3_series_entity%3BAIxFjPiIROGJlaf5EiBbAg%=
+3D%3D" target=3D"_blank" style=3D"text-decoration: none; -webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; display: inline; cursor: pointer;=
+ font-weight: 600; color: #0a66c2; text-decoration-line: none;"><strong>int=
+erface </strong></a>e <a href=3D"https://www.linkedin.com/pulse/polimorfism=
+o-o-conceito-essencial-da-programa%C3%A7%C3%A3o-orientada-rocha-nn9rf?lipi=
+=3Durn%3Ali%3Apage%3Ad_flagship3_series_entity%3BAIxFjPiIROGJlaf5EiBbAg%3D%=
+3D" target=3D"_blank" style=3D"text-decoration: none; -webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; display: inline; cursor: pointer; fo=
+nt-weight: 600; color: #0a66c2; text-decoration-line: none;"><strong>polimo=
+rfismo</strong></a>, hoje vamos falar sobre o<strong> single responsibility=
+ principle (SRP)</strong>. <a href=3D"https://www.linkedin.com/pulse/desven=
+dando-solid-o-caminho-para-um-c%C3%B3digo-limpo-e-rocha-pcd-xohqf/" target=
+=3D"_blank" style=3D"text-decoration: none; -webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; display: inline; cursor: pointer; font-weight:=
+ 600; color: #0a66c2; text-decoration-line: none;">J=C3=A1 publiquei um art=
+igo introdut=C3=B3rio sobre os princ=C3=ADpios SOLID de forma geral, ent=C3=
+=A3o recomendo fortemente que voc=C3=AA leia esse artigo primeiro para ente=
+nder o contexto completo.</a></p><p style=3D"margin: 0; font-weight: 400; m=
+argin-top: 0.8em; font-size: 1em; line-height: 1.5;">Neste artigo, vou defi=
+nir o que =C3=A9 o SRP e explicar sua import=C3=A2ncia no design de softwar=
+e. Vou abordar como identificar uma responsabilidade =C3=BAnica em uma clas=
+se, trazendo exemplos de responsabilidades =C3=BAnicas em classes reais. Al=
+=C3=A9m disso, vou destacar as vantagens do SRP, como a manuten=C3=A7=C3=A3=
+o facilitada do c=C3=B3digo, a redu=C3=A7=C3=A3o do acoplamento entre class=
+es e o melhor entendimento e legibilidade do c=C3=B3digo.</p><p style=3D"ma=
+rgin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: =
+1.5;">Vou tamb=C3=A9m apresentar exemplos pr=C3=A1ticos de c=C3=B3digo ante=
+s e depois de aplicar o SRP, incluindo casos de uso comuns onde o SRP =C3=
+=A9 =C3=BAtil. Esses exemplos ajudar=C3=A3o a visualizar como a aplica=C3=
+=A7=C3=A3o desse princ=C3=ADpio pode melhorar a estrutura e a qualidade do =
+c=C3=B3digo. Para complementar, vou discutir os desafios na aplica=C3=A7=C3=
+=A3o do SRP em projetos complexos e quando pode n=C3=A3o ser vantajoso apli=
+car esse princ=C3=ADpio.</p><p style=3D"margin: 0; font-weight: 400; margin=
+-top: 0.8em; font-size: 1em; line-height: 1.5;">Na conclus=C3=A3o, vou reca=
+pitular os benef=C3=ADcios do SRP e fornecer dicas pr=C3=A1ticas para aplic=
+ar esse princ=C3=ADpio no dia a dia da programa=C3=A7=C3=A3o. Meu objetivo =
+=C3=A9 que voc=C3=AA saia deste artigo ...</p> </td> </tr> <tr> <td class=
+=3D"pt-2 no-underline" style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top:=
+ 16px; text-decoration-line: none;"> <table role=3D"presentation" valign=3D=
+"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=
+=3D"email-button series-content-preview__bottom-cta" data-test-id=3D"email-=
+button" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=
+=3D"middle" align=3D"left" style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a hre=
+f=3D"https://www.linkedin.com/comm/pulse/single-responsibility-principle-ch=
+ave-para-um-c%C3%B3digo-mais-luciano-cxxse?lipi=3Durn%3Ali%3Apage%3Aemail_e=
+mail_series_follow_newsletter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&amp;midToke=
+n=3DAQHxaOsdYMWJVQ&amp;midSig=3D1Pb1PEj6XeFXE1&amp;trk=3Deml-email_series_f=
+ollow_newsletter_01-newsletter_content_preview-0-readmore_button_&amp;trkEm=
+ail=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-re=
+admore_button_-null-gdb74f~m7m7mxj6~ea-null-null&amp;eid=3Dgdb74f-m7m7mxj6-=
+ea&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZWUyYmQ4ZGNjZDI0ODk4Y=
+WU4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY2UyODM0MDk5ZjE5NjM3MzlkYzRjMTVk=
+YTIyOWRlZTM3MWUyODU1MjkyOCwxLDE%3D" target=3D"_blank" aria-label=3D"Abrir A=
+ssuntos de Programa=C3=A7=C3=A3o no LinkedIn" class=3D"align-top no-underli=
+ne " style=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-=
+decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; vertical-align: top; text-decoration-line: none; width: 100%;"> <table r=
+ole=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" width=3D"100%" class=3D"border-separate " style=3D"-webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt; border-collapse: separate; width: 100%;"> <tbody> <tr> <td=
+ class=3D"btn-md btn-secondary-emphasis border-color-brand button-link lead=
+ing-regular !min-h-[auto] !shadow-none border-1 border-solid font-sans" dat=
+a-test-id=3D"newsletter-content-preview-redesign-bottom-cta" style=3D"-webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt; height: min-content; border-radius: 24px; padding=
+-top: 12px; padding-bottom: 12px; padding-left: 24px; padding-right: 24px; =
+text-align: center; font-size: 16px; font-weight: 600; cursor: pointer; tex=
+t-decoration-line: none; background-color: rgba(0, 0, 0, 0); color: #0a66c2=
+; border-width: 1px; border-style: solid; border-color: #0a66c2; font-famil=
+y: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helve=
+tica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Sy=
+mbol', 'Lucida Grande', Helvetica, Arial, sans-serif; line-height: 1.25; mi=
+n-height: auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !imp=
+ortant;"> <a href=3D"https://www.linkedin.com/comm/pulse/single-responsibil=
+ity-principle-chave-para-um-c%C3%B3digo-mais-luciano-cxxse?lipi=3Durn%3Ali%=
+3Apage%3Aemail_email_series_follow_newsletter_01%3BnsMC75p8S3aEMmsPPQdukA%3=
+D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1Pb1PEj6XeFXE1&amp;trk=3Dem=
+l-email_series_follow_newsletter_01-newsletter_content_preview-0-readmore_b=
+utton_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_cont=
+ent_preview-0-readmore_button_-null-gdb74f~m7m7mxj6~ea-null-null&amp;eid=3D=
+gdb74f-m7m7mxj6-ea&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZWUyY=
+mQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY2UyODM0MDk5ZjE5=
+NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU1MjkyOCwxLDE%3D" target=3D"_blank" tabin=
+dex=3D"-1" aria-hidden=3D"true" class=3D"no-underline" style=3D"color: #0a6=
+6c2; cursor: pointer; display: inline-block; text-decoration: none; -webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decoration-line: =
+none; width: 100%;"> <span class=3D"no-underline text-color-brand" style=3D=
+"color: #0a66c2; text-decoration-line: none;"> Continue lendo no LinkedIn <=
+/span> </a> </td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </table=
+> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <=
+/tbody> </table> </td> </tr> </tbody> </table> </div> </td> </tr> <tr> <td =
+class=3D"bg-color-background-canvas p-3" style=3D"-webkit-text-size-adjust:=
+ 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt; background-color: #f3f2f0; padding: 24px;"> <table role=3D"presentati=
+on" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%" class=3D"text-xs" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-si=
+ze: 12px;"> <tbody> <tr> <td data-test-id=3D"email-footer-games-module-head=
+er" class=3D"pb-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: =
+16px;"> <h3 style=3D"margin: 0; font-weight: 500;"> Conecte-se para se dive=
+rtir com jogos de quebra-cabe=C3=A7a di=C3=A1rios </h3> </td> </tr> <tr dat=
+a-test-id=3D"email-footer-games-module-row" class=3D"pt-0.5 pb-0.5" style=
+=3D"padding-bottom: 4px; padding-top: 4px;"> <td class=3D"pb-2" style=3D"-w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt; padding-bottom: 16px;"> <table role=3D"present=
+ation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=
+=3D"pr-1 w-6 align-top" data-test-id=3D"entity-lockup-list-item-same-line--=
+image" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 48px; padding-right: =
+8px; vertical-align: top;" width=3D"48"> <table role=3D"presentation" valig=
+n=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <td class=3D"w-6 h-6 text-=
+center rounded-sm overflow-hidden" style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; =
+height: 48px; width: 48px; overflow: hidden; border-radius: 4px; text-align=
+: center;" width=3D"48" height=3D"48"> <a href=3D"https://www.linkedin.com/=
+comm/games/tango/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsle=
+tter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;mi=
+dSig=3D1Pb1PEj6XeFXE1&amp;trk=3Deml-email_series_follow_newsletter_01-tango=
+~email~footer~tap~target-0-entity~image&amp;trkEmail=3Deml-email_series_fol=
+low_newsletter_01-tango~email~footer~tap~target-0-entity~image-null-gdb74f~=
+m7m7mxj6~ea-null-null&amp;eid=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=3DMWIwZDE3Z=
+TgxMzI4Y2JjM2I1MjQwNGVkNDIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0YjVkNWJm=
+MmZlZDNkZjhhMTFjY2UyODM0MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU1MjkyOCw=
+xLDE%3D" target=3D"_blank" class=3D"align-top " style=3D"color: #0a66c2; cu=
+rsor: pointer; display: inline-block; text-decoration: none; -webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; vertical-align: top;"> <img c=
+lass=3D"inline-block relative bg-color-entity-ghost-background w-6 h-6 alig=
+n-top" src=3D"https://static.licdn.com/aero-v1/sc/h/2a6v8qkk5tu3nqmhjphm751=
+j3" alt=3D"Tango" style=3D"outline: none; text-decoration: none; -ms-interp=
+olation-mode: bicubic; position: relative; display: inline-block; height: 4=
+8px; width: 48px; background-color: #eae6df; vertical-align: top;" width=3D=
+"48" height=3D"48"> </a> </td> </tbody> </table> </td> <td class=3D"pl-1 al=
+ign-center" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 8px;"> <t=
+able role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <t=
+body> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"pre=
+sentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"auto" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td d=
+ata-test-id=3D"entity-lockup-list-item-same-line--heading" style=3D"-webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/games/ta=
+ngo/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BnsM=
+C75p8S3aEMmsPPQdukA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1Pb1PE=
+j6XeFXE1&amp;trk=3Deml-email_series_follow_newsletter_01-tango~email~footer=
+~tap~target-0-entity~heading&amp;trkEmail=3Deml-email_series_follow_newslet=
+ter_01-tango~email~footer~tap~target-0-entity~heading-null-gdb74f~m7m7mxj6~=
+ea-null-null&amp;eid=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2=
+JjM2I1MjQwNGVkNDIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZ=
+jhhMTFjY2UyODM0MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU1MjkyOCwxLDE%3D" =
+target=3D"_blank" class=3D"text-md leading-regular font-bold text-system-gr=
+ay-90" style=3D"cursor: pointer; display: inline-block; text-decoration: no=
+ne; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: =
+16px; font-weight: 600; line-height: 1.25; color: #282828;"> Tango </a> </t=
+d> </tr> </tbody> </table> </td> </tr> <tr data-test-id=3D"entity-lockup-li=
+st-item-same-line--subheading"> <td class=3D"text-sm leading-regular text-s=
+ystem-gray-90 pt-0.25 font-normal" style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; =
+padding-top: 2px; font-size: 14px; font-weight: 400; line-height: 1.25; col=
+or: #282828;">Harmonize the grid.</td> </tr> </tbody> </table> </td> <td cl=
+ass=3D"align-center w-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 0px=
+;" width=3D"0"> <table role=3D"presentation" valign=3D"top" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"email-button " da=
+ta-test-id=3D"email-button" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbod=
+y> <tr> <td valign=3D"middle" align=3D"right" style=3D"-webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/games/tango/?lipi=3Du=
+rn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BnsMC75p8S3aEMmsP=
+PQdukA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1Pb1PEj6XeFXE1&amp;=
+trk=3Deml-email_series_follow_newsletter_01-email~footer~play-0-tango&amp;t=
+rkEmail=3Deml-email_series_follow_newsletter_01-email~footer~play-0-tango-n=
+ull-gdb74f~m7m7mxj6~ea-null-null&amp;eid=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=
+=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2=
+NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY2UyODM0MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWU=
+yODU1MjkyOCwxLDE%3D" target=3D"_blank" aria-label=3D"Resolver" class=3D"ali=
+gn-top no-underline " style=3D"color: #0a66c2; cursor: pointer; display: in=
+line-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; vertical-align: top; text-decoration-line: none;"> <tab=
+le role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" width=3D"auto" class=3D"border-separate " style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; border-collapse: separate;"> <tbody> <tr> <td class=3D=
+"btn-sm btn-secondary-emphasis border-color-brand button-link leading-regul=
+ar !min-h-[auto] !shadow-none border-1 border-solid !whitespace-nowrap pt-0=
+.5 pb-0.5" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: min-content; bor=
+der-radius: 24px; padding-left: 16px; padding-right: 16px; text-align: cent=
+er; font-size: 14px; font-weight: 600; cursor: pointer; text-decoration-lin=
+e: none; background-color: rgba(0, 0, 0, 0); color: #0a66c2; border-width: =
+1px; border-style: solid; border-color: #0a66c2; padding-bottom: 4px; paddi=
+ng-top: 4px; line-height: 1.25; min-height: auto !important; white-space: n=
+owrap !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;">=
+ <a href=3D"https://www.linkedin.com/comm/games/tango/?lipi=3Durn%3Ali%3Apa=
+ge%3Aemail_email_series_follow_newsletter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D=
+&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1Pb1PEj6XeFXE1&amp;trk=3Deml-em=
+ail_series_follow_newsletter_01-email~footer~play-0-tango&amp;trkEmail=3Dem=
+l-email_series_follow_newsletter_01-email~footer~play-0-tango-null-gdb74f~m=
+7m7mxj6~ea-null-null&amp;eid=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=3DMWIwZDE3ZT=
+gxMzI4Y2JjM2I1MjQwNGVkNDIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0YjVkNWJmM=
+mZlZDNkZjhhMTFjY2UyODM0MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU1MjkyOCwx=
+LDE%3D" target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" class=3D"no-=
+underline" style=3D"color: #0a66c2; cursor: pointer; display: inline-block;=
+ text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; text-decoration-line: none;"> <span class=3D"no-underline text-col=
+or-brand" style=3D"color: #0a66c2; text-decoration-line: none;"> Resolver <=
+/span> </a> </td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </table=
+> </td> </tr> </tbody> </table> </td> </tr> <tr data-test-id=3D"email-foote=
+r-games-module-row" class=3D"pt-0.5 pb-0.5" style=3D"padding-bottom: 4px; p=
+adding-top: 4px;"> <td class=3D"pb-2" style=3D"-webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t; padding-bottom: 16px;"> <table role=3D"presentation" valign=3D"top" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"pr-1 w-6 align-top" da=
+ta-test-id=3D"entity-lockup-list-item-same-line--image" style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; width: 48px; padding-right: 8px; vertical-align: top;"=
+ width=3D"48"> <table role=3D"presentation" valign=3D"top" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt;"> <tbody> <td class=3D"w-6 h-6 text-center rounded-sm overflow=
+-hidden" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: 48px; width: 48px;=
+ overflow: hidden; border-radius: 4px; text-align: center;" width=3D"48" he=
+ight=3D"48"> <a href=3D"https://www.linkedin.com/comm/games/queens/?lipi=3D=
+urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BnsMC75p8S3aEMms=
+PPQdukA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1Pb1PEj6XeFXE1&amp=
+;trk=3Deml-email_series_follow_newsletter_01-queens~email~footer~tap~target=
+-0-entity~image&amp;trkEmail=3Deml-email_series_follow_newsletter_01-queens=
+~email~footer~tap~target-0-entity~image-null-gdb74f~m7m7mxj6~ea-null-null&a=
+mp;eid=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVk=
+NDIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY2UyODM=
+0MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU1MjkyOCwxLDE%3D" target=3D"_bla=
+nk" class=3D"align-top " style=3D"color: #0a66c2; cursor: pointer; display:=
+ inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-t=
+ext-size-adjust: 100%; vertical-align: top;"> <img class=3D"inline-block re=
+lative bg-color-entity-ghost-background w-6 h-6 align-top" src=3D"https://s=
+tatic.licdn.com/aero-v1/sc/h/1zue8oysggbn1wvb2qif32ntm" alt=3D"Queens" styl=
+e=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;=
+ position: relative; display: inline-block; height: 48px; width: 48px; back=
+ground-color: #eae6df; vertical-align: top;" width=3D"48" height=3D"48"> </=
+a> </td> </tbody> </table> </td> <td class=3D"pl-1 align-center" style=3D"-=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt; padding-left: 8px;"> <table role=3D"presentat=
+ion" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D=
+"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"auto" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td data-test-id=3D"entit=
+y-lockup-list-item-same-line--heading" style=3D"-webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt;"> <a href=3D"https://www.linkedin.com/comm/games/queens/?lipi=3Durn%3Al=
+i%3Apage%3Aemail_email_series_follow_newsletter_01%3BnsMC75p8S3aEMmsPPQdukA=
+%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1Pb1PEj6XeFXE1&amp;trk=3D=
+eml-email_series_follow_newsletter_01-queens~email~footer~tap~target-0-enti=
+ty~heading&amp;trkEmail=3Deml-email_series_follow_newsletter_01-queens~emai=
+l~footer~tap~target-0-entity~heading-null-gdb74f~m7m7mxj6~ea-null-null&amp;=
+eid=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDI=
+xZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY2UyODM0MD=
+k5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU1MjkyOCwxLDE%3D" target=3D"_blank"=
+ class=3D"text-md leading-regular font-bold text-system-gray-90" style=3D"c=
+ursor: pointer; display: inline-block; text-decoration: none; -webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; font-weight=
+: 600; line-height: 1.25; color: #282828;"> Queens </a> </td> </tr> </tbody=
+> </table> </td> </tr> <tr data-test-id=3D"entity-lockup-list-item-same-lin=
+e--subheading"> <td class=3D"text-sm leading-regular text-system-gray-90 pt=
+-0.25 font-normal" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 2px=
+; font-size: 14px; font-weight: 400; line-height: 1.25; color: #282828;">Cr=
+own every region.</td> </tr> </tbody> </table> </td> <td class=3D"align-cen=
+ter w-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 0px;" width=3D"0"> =
+<table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0" width=3D"100%" class=3D"email-button " data-test-id=3D"em=
+ail-button" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td vali=
+gn=3D"middle" align=3D"right" style=3D"-webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a =
+href=3D"https://www.linkedin.com/comm/games/queens/?lipi=3Durn%3Ali%3Apage%=
+3Aemail_email_series_follow_newsletter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&am=
+p;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1Pb1PEj6XeFXE1&amp;trk=3Deml-email=
+_series_follow_newsletter_01-email~footer~play-0-queens&amp;trkEmail=3Deml-=
+email_series_follow_newsletter_01-email~footer~play-0-queens-null-gdb74f~m7=
+m7mxj6~ea-null-null&amp;eid=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=3DMWIwZDE3ZTg=
+xMzI4Y2JjM2I1MjQwNGVkNDIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0YjVkNWJmMm=
+ZlZDNkZjhhMTFjY2UyODM0MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU1MjkyOCwxL=
+DE%3D" target=3D"_blank" aria-label=3D"Resolver" class=3D"align-top no-unde=
+rline " style=3D"color: #0a66c2; cursor: pointer; display: inline-block; te=
+xt-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; vertical-align: top; text-decoration-line: none;"> <table role=3D"pre=
+sentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"auto" class=3D"border-separate " style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; border-collapse: separate;"> <tbody> <tr> <td class=3D"btn-sm btn-se=
+condary-emphasis border-color-brand button-link leading-regular !min-h-[aut=
+o] !shadow-none border-1 border-solid !whitespace-nowrap pt-0.5 pb-0.5" sty=
+le=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; height: min-content; border-radius: 24=
+px; padding-left: 16px; padding-right: 16px; text-align: center; font-size:=
+ 14px; font-weight: 600; cursor: pointer; text-decoration-line: none; backg=
+round-color: rgba(0, 0, 0, 0); color: #0a66c2; border-width: 1px; border-st=
+yle: solid; border-color: #0a66c2; padding-bottom: 4px; padding-top: 4px; l=
+ine-height: 1.25; min-height: auto !important; white-space: nowrap !importa=
+nt; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;"> <a href=3D"ht=
+tps://www.linkedin.com/comm/games/queens/?lipi=3Durn%3Ali%3Apage%3Aemail_em=
+ail_series_follow_newsletter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&amp;midToken=
+=3DAQHxaOsdYMWJVQ&amp;midSig=3D1Pb1PEj6XeFXE1&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-email~footer~play-0-queens&amp;trkEmail=3Deml-email_seri=
+es_follow_newsletter_01-email~footer~play-0-queens-null-gdb74f~m7m7mxj6~ea-=
+null-null&amp;eid=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM=
+2I1MjQwNGVkNDIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjhh=
+MTFjY2UyODM0MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU1MjkyOCwxLDE%3D" tar=
+get=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" class=3D"no-underline" =
+style=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decor=
+ation: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; te=
+xt-decoration-line: none;"> <span class=3D"no-underline text-color-brand" s=
+tyle=3D"color: #0a66c2; text-decoration-line: none;"> Resolver </span> </a>=
+ </td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </table> </td> </t=
+r> </tbody> </table> </td> </tr> </tbody> </table> <table role=3D"presentat=
+ion" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%" class=3D"text-xs" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-si=
+ze: 12px;"> <tbody> <tr> <td class=3D"pb-1 m-0" data-test-id=3D"email-foote=
+r__intended" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-b=
+ottom: 8px;"> Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-=
+Stack Developer | Java | JS | React.js | PostgreSQL) </td> </tr> <tr> <td c=
+lass=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padd=
+ing-bottom: 8px;"> <a href=3D"https://www.linkedin.com/help/linkedin/answer=
+/4788?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_news=
+letter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;=
+midSig=3D1Pb1PEj6XeFXE1&amp;trk=3Deml-email_series_follow_newsletter_01-Sec=
+urityHelp-0-footerglimmer&amp;trkEmail=3Deml-email_series_follow_newsletter=
+_01-SecurityHelp-0-footerglimmer-null-gdb74f~m7m7mxj6~ea-null-null&amp;eid=
+=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZW=
+UyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY2UyODM0MDk5Z=
+jE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU1MjkyOCwxLDE%3D" target=3D"_blank" cl=
+ass=3D"text-inherit underline" style=3D"cursor: pointer; display: inline-bl=
+ock; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; color: inherit; text-decoration-line: underline;">Saiba por qu=
+e inclu=C3=ADmos isso.</a> </td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;">Voc=C3=
+=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn. Outra=
+s pessoas podem ver que voc=C3=AA =C3=A9 assinante.</td> </tr> <tr> <td cla=
+ss=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; paddin=
+g-bottom: 8px;"> <a href=3D"https://www.linkedin.com/series-notifications/?=
+action=3Dunsubscribe&amp;memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9wh=
+jlY&amp;newsletterId=3D7002440821278953472&amp;newsletterTitle=3DAssuntos d=
+e Programa=C3=A7=C3=A3o&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_fol=
+low_newsletter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&amp;midToken=3DAQHxaOsdYMW=
+JVQ&amp;midSig=3D1Pb1PEj6XeFXE1&amp;ek=3Demail_series_follow_newsletter_01&=
+amp;e=3Dgdb74f-m7m7mxj6-ea&amp;eid=3Dgdb74f-m7m7mxj6-ea&amp;m=3Dunsubscribe=
+&amp;ts=3DfooterGlimmer&amp;li=3D0&amp;t=3Dplh" target=3D"_blank" class=3D"=
+text-inherit underline" style=3D"cursor: pointer; display: inline-block; te=
+xt-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; color: inherit; text-decoration-line: underline;">Cancelar inscri=C3=
+=A7=C3=A3o</a> =C2=A0=C2=A0=C2=B7=C2=A0=C2=A0 <a href=3D"https://www.linked=
+in.com/help/linkedin/answer/67?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail=
+_email_series_follow_newsletter_01%3BnsMC75p8S3aEMmsPPQdukA%3D%3D&amp;midTo=
+ken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1Pb1PEj6XeFXE1&amp;trk=3Deml-email_series=
+_follow_newsletter_01-help-0-footerglimmer&amp;trkEmail=3Deml-email_series_=
+follow_newsletter_01-help-0-footerglimmer-null-gdb74f~m7m7mxj6~ea-null-null=
+&amp;eid=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNG=
+VkNDIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY2UyO=
+DM0MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWUyODU1MjkyOCwxLDE%3D" target=3D"_b=
+lank" class=3D"text-inherit underline" style=3D"cursor: pointer; display: i=
+nline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; color: inherit; text-decoration-line: underline;">Ajud=
+a</a> </td> </tr> <tr> <td class=3D"pb-1" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; padding-bottom: 8px;"> <a href=3D"https://www.linkedin.com/comm/feed=
+/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BnsMC75=
+p8S3aEMmsPPQdukA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1Pb1PEj6X=
+eFXE1&amp;trk=3Deml-email_series_follow_newsletter_01-footer-0-logoGlimmer&=
+amp;trkEmail=3Deml-email_series_follow_newsletter_01-footer-0-logoGlimmer-n=
+ull-gdb74f~m7m7mxj6~ea-null-null&amp;eid=3Dgdb74f-m7m7mxj6-ea&amp;otpToken=
+=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZWUyYmQ4ZGNjZDI0ODk4YWU4YTYxNzljNDA2=
+NmQ0YjVkNWJmMmZlZDNkZjhhMTFjY2UyODM0MDk5ZjE5NjM3MzlkYzRjMTVkYTIyOWRlZTM3MWU=
+yODU1MjkyOCwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: poi=
+nter; display: inline-block; text-decoration: none; -webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%;"> <img src=3D"https://static.licdn.com=
+/aero-v1/sc/h/9ehe6n39fa07dc5edzv0rla4e" alt=3D"LinkedIn" class=3D"block h-=
+[14px] w-[56px] image-rendering-crisp" style=3D"outline: none; text-decorat=
+ion: none; image-rendering: -moz-crisp-edges; image-rendering: -o-crisp-edg=
+es; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edge=
+s; -ms-interpolation-mode: nearest-neighbor; display: block; height: 14px; =
+width: 56px;" width=3D"56" height=3D"14"> </a> </td> </tr> <tr> <td data-te=
+st-copyright-text style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> =C2=A9 2025 Lin=
+kedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place, Dublin 2 - Irl=
+anda. LinkedIn =C3=A9 um nome comercial registrado da LinkedIn Ireland Unli=
+mited Company. <span data-test-trademarks-text> LinkedIn e o logo do Linked=
+In s=C3=A3o marcas registradas do LinkedIn. </span> </td> </tr> </tbody> </=
+table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> <img alt=
+ role=3D"presentation" src=3D"https://www.linkedin.com/emimp/ip_WjJSaU56Um1=
+MVzAzYlRkdGVHbzJMV1ZoOlpXMWhhV3hmYzJWeWFXVnpYMlp2Ykd4dmQxOXVaWGR6YkdWMGRHVn=
+lYekF4OmRYSnVPbXhwT214cGJtdGxaRWx1UVhKMGFXTnNaVG8zTWprME56azFPVGN4TVRRNE9ET=
+TJPRFkw.gif" style=3D"outline: none; text-decoration: none; -ms-interpolati=
+on-mode: bicubic; width: 1px; height: 1px;" width=3D"1" height=3D"1"> </bod=
+y> </html>
+------=_Part_7218331_2140365859.1740592229575--
+

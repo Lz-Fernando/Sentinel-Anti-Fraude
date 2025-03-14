@@ -1,0 +1,3021 @@
+X-GM-THRID: 1817506802668881777
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:2ed6:b0:298:e216:18d7 with SMTP id fl22csp108283ysc;
+        Wed, 4 Dec 2024 02:52:37 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IFJ794E4NPUz/5OmDc6mSA4YstjDrqBmb/43ucc91LQSibVrbL7lBYbCbpS+JAMxqkml3DM
+X-Received: by 2002:a05:6870:3b1b:b0:29e:5dfd:1e17 with SMTP id 586e51a60fabf-29e886bae5fmr6831089fac.23.1733309557401;
+        Wed, 04 Dec 2024 02:52:37 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1733309557; cv=none;
+        d=google.com; s=arc-20240605;
+        b=M9F+w5mA+dkhav957t2zcePviRW+hq7Y7Wp7kl2yRaFiTToyBC2kSFhccQ/Ws4/Q4N
+         1M4/bXY/GBKShdCiKKJ1A1MfcKMW0LdrK4sXgO6dP6Z/8OR9yH7PTyXxYxiKWTgPZ2tK
+         7LXd3utW1y/6YNPiMsi95cqct5HLVyqtJ7t/QRzqo24FXuJmqbHbT4RfpVmfu9Tt2Uol
+         J8Af+ZyOvATsGMvWLTbMd4uR1kTEGHtd+dSK20UnIzYUeGlom3O8qGXugRNgq4xh2dN2
+         2TcnU0gLAnT5HtgSMpDM34mX1UyvOePF69rD/uEip9CUaWfnDlXbVaO2Gc+hXKyGEclz
+         bATQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=YXY9i+8c708xjke4CNcfU25Cv2UGNubqwdVc6xoz2pg=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=WkacYkG1oOfWLVNVb+F8q2O/7oeS7i17CzmI1WJccMI3KQaHIs9T47VZFvDJSDwVzc
+         lmLBIkLdf4RKuMtu3iixc3d4OuvVhvG7DJqJvNkEE0RLIVigtqSM4B8v+U3Ey1WmO1iK
+         ZIwX6GVbJ1SucdC7HUraD11LYqVviQoNYbbdkqgT6P4jGTpt1MXTnENTA17kZZ5rCqMQ
+         /yo5PAmBjcbcfZEbQ1HGrKGYjVvCvNaT9nqebzbTjF88ta9gkX5AqR6mrCAyCs5QhLH9
+         1X/yWfQA7GUMHb7sM4+MkGM8ZwQvuwMu+GGm9pCNafs7Ov8zi0BOGb1ccmGXgrA9Hqre
+         vr2g==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=WPf2aFmz;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=ZcwlXRf7;
+       spf=pass (google.com: domain of s-4xpiznrcolth41bwewl3lcd4o3xr5xnu74c3rvkm8gxb6en4wjhndlbp@bounce.linkedin.com designates 2620:109:c003:104::193 as permitted sender) smtp.mailfrom=s-4xpiznrcolth41bwewl3lcd4o3xr5xnu74c3rvkm8gxb6en4wjhndlbp@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-4xpiznrcolth41bwewl3lcd4o3xr5xnu74c3rvkm8gxb6en4wjhndlbp@bounce.linkedin.com>
+Received: from maile-ca.linkedin.com (maile-ca.linkedin.com. [2620:109:c003:104::193])
+        by mx.google.com with ESMTPS id 41be03b00d2f7-7fc9c38a13csi16370730a12.774.2024.12.04.02.52.36
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 04 Dec 2024 02:52:37 -0800 (PST)
+Received-SPF: pass (google.com: domain of s-4xpiznrcolth41bwewl3lcd4o3xr5xnu74c3rvkm8gxb6en4wjhndlbp@bounce.linkedin.com designates 2620:109:c003:104::193 as permitted sender) client-ip=2620:109:c003:104::193;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=WPf2aFmz;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=ZcwlXRf7;
+       spf=pass (google.com: domain of s-4xpiznrcolth41bwewl3lcd4o3xr5xnu74c3rvkm8gxb6en4wjhndlbp@bounce.linkedin.com designates 2620:109:c003:104::193 as permitted sender) smtp.mailfrom=s-4xpiznrcolth41bwewl3lcd4o3xr5xnu74c3rvkm8gxb6en4wjhndlbp@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1733309556;
+	bh=YXY9i+8c708xjke4CNcfU25Cv2UGNubqwdVc6xoz2pg=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=WPf2aFmzHDrmPP3LWvlRYtPDpgdtiOJrhzKnnzQipeaf5PdyCOVb/3D/qnbd6dvep
+	 B5y3vEAEpRFK53oaggBReBedA20AoZA/V255/1x1L7bGLy1wkWNsOPGzI75RCaB19t
+	 hJHq3l0ifVlC7VCkgvvIMfd/Ns+gcn3G6CdPlkJfpntm3c79OmM/R28fRk1nEpVbbH
+	 pjY43Vh//8YiSfUtOeC/Chm1QsoSZkkevXpPDswmRNuUyNPLM0c/8unS+qUoGlN7f5
+	 +KD+tp5ROol/D4mG1gpUoj2fkVaUKwaqs2kjWQemDbOMHC3sfqi/bUn/lCOhmeHLYD
+	 /TGqAPqbZvlEQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1733309556;
+	bh=YXY9i+8c708xjke4CNcfU25Cv2UGNubqwdVc6xoz2pg=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=ZcwlXRf7cqKregYvOjQ6v9vduCqgh5SKPLKvdL2T94q/puK1RLfeXxequRMOh9hGd
+	 MkcauEYsXWkUhRKL8CV097Z0Ij6gppd8pAUg0xZSj9Qg2dgn0LweXANnQZJL9kMtN5
+	 7w1dE/wj8q0xDkZCbMshRJ2Y75skE/UAz1YQEvsYfspTuUwtvQzxljh3LZY2HlKN5/
+	 rrQ5vFHMcp5erYImv5EKJ8Dq2uxhRzvKFiDgGGnxPBDHoDp5aa64gKUiyrg1S8rSq5
+	 gMrtAxTuGbtPCi6I7/P9TqpiCSYY3fSQy/RKZC3nZ6l6XDnlCphUvPJoWo0jH56/rg
+	 OxoGOojyOruzQ==
+From: Vagas Remotas via LinkedIn <newsletters-noreply@linkedin.com>
+Message-ID: <1999614951.2055839.1733309556296@lva1-app76096.prod.linkedin.com>
+Subject: IA Generativa no Recursos Humanos: 10 dicas para otimizar
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_2055837_916188174.1733309556291"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Wed, 4 Dec 2024 10:52:36 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-asztvf9ea4yoxfd6wdawojz34ndmvrp6e0uvxl409s50m4ceww5r9sayq96ft8sfs45rfb3xszppps4q62uz3c6p06zhf6wzatvpm4
+X-LinkedIn-Id: gdb74f-m49rn901-uk
+List-Unsubscribe: <https://www.linkedin.com/comm/series-notifications/?action=unsubscribe&memberToken=ADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&newsletterId=7202681997633196033&newsletterTitle=Emprego%20&%20Tecnologia&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D%3D&midToken=AQHxaOsdYMWJVQ&midSig=2MVfjjz4iIPrw1&trk=eml-email_series_follow_newsletter_01-unsub-0-unsub&trkEmail=eml-email_series_follow_newsletter_01-unsub-0-unsub-null-gdb74f~m49rn901~uk-null-null&eid=gdb74f-m49rn901-uk&otpToken=MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4NmNiZDU0NDlmYWE4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg1NDRjN2ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1MGUzYzI2MGNhOWU3MDBmMGRiYywxLDE%3D>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_2055837_916188174.1733309556291
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Emprego & Tecnologia
+
+Por Vagas Remotas
+
+
+Por Vagas Remotas
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/ia-generativa-recursos-humanos-10-dicas=
+-para-otimizar-kkwoe?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D%3D&midToken=3DAQHxaOsdYMWJVQ&mid=
+Sig=3D2MVfjjz4iIPrw1&trk=3Deml-email_series_follow_newsletter_01-null-0-rea=
+d_more_banner_cta_&trkEmail=3Deml-email_series_follow_newsletter_01-null-0-=
+read_more_banner_cta_-null-gdb74f~m49rn901~uk-null-null&eid=3Dgdb74f-m49rn9=
+01-uk&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4NmNiZDU0NDlmYW=
+E4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg1NDRjN2ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1M=
+GUzYzI2MGNhOWU3MDBmMGRiYywxLDE%3D
+ =20
+
+Participe da conversa
+https://www.linkedin.com/comm/pulse/ia-generativa-recursos-humanos-10-dicas=
+-para-otimizar-kkwoe?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D%3D&midToken=3DAQHxaOsdYMWJVQ&mid=
+Sig=3D2MVfjjz4iIPrw1&trk=3Deml-email_series_follow_newsletter_01-newsletter=
+_content_preview_text-0-readmore_button_&trkEmail=3Deml-email_series_follow=
+_newsletter_01-newsletter_content_preview_text-0-readmore_button_-null-gdb7=
+4f~m49rn901~uk-null-null&eid=3Dgdb74f-m49rn901-uk&otpToken=3DMWIwZDE3ZTgxMz=
+I4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4NmNiZDU0NDlmYWE4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZ=
+DNkZjg1NDRjN2ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1MGUzYzI2MGNhOWU3MDBmMGRiYywxLDE%=
+3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | HTML | CSS | JS | React.js | Node.js | Python)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D%3D&midToken=3DAQHxaOsdYMWJVQ&mid=
+Sig=3D2MVfjjz4iIPrw1&trk=3Deml-email_series_follow_newsletter_01-SecurityHe=
+lp-0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Sec=
+urityHelp-0-textfooterglimmer-null-gdb74f~m49rn901~uk-null-null&eid=3Dgdb74=
+f-m49rn901-uk&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4NmNiZD=
+U0NDlmYWE4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg1NDRjN2ViYzQwMWZhZmU3MjRiMTJhY=
+2RlN2M1MGUzYzI2MGNhOWU3MDBmMGRiYywxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/comm/series-notifica=
+tions/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y=
+9whjlY&newsletterId=3D7202681997633196033&newsletterTitle=3DEmprego%20&%20T=
+ecnologia&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%=
+3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D2MVfj=
+jz4iIPrw1&trk=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerG=
+limmer&trkEmail=3Deml-email_series_follow_newsletter_01-unsubscribe-0-foote=
+rGlimmer-null-gdb74f~m49rn901~uk-null-null&eid=3Dgdb74f-m49rn901-uk&otpToke=
+n=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4NmNiZDU0NDlmYWE4YTYxNzljNDA=
+2NmQ0YjVkNWJmMmZlZDNkZjg1NDRjN2ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1MGUzYzI2MGNhOW=
+U3MDBmMGRiYywxLDE%3D=C2=A0=C2=A0=C2=B7=C2=A0=C2=A0Ajuda: https://www.linked=
+in.com/help/linkedin/answer/67?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_ema=
+il_series_follow_newsletter_01%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D%3D&midToken=
+=3DAQHxaOsdYMWJVQ&midSig=3D2MVfjjz4iIPrw1&trk=3Deml-email_series_follow_new=
+sletter_01-help-0-textfooterglimmer&trkEmail=3Deml-email_series_follow_news=
+letter_01-help-0-textfooterglimmer-null-gdb74f~m49rn901~uk-null-null&eid=3D=
+gdb74f-m49rn901-uk&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4N=
+mNiZDU0NDlmYWE4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg1NDRjN2ViYzQwMWZhZmU3MjRi=
+MTJhY2RlN2M1MGUzYzI2MGNhOWU3MDBmMGRiYywxLDE%3D
+
+=C2=A9 2024 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_2055837_916188174.1733309556291
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+style>
+@media (max-width: 480px) {
+  .inline-button,
+.inline-button table {
+    display: none !important;
+  }
+
+  .full-width-button,
+.full-width-button table {
+    display: table !important;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content,
+.pulse .article-main__content > * {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content h2,
+.pulse .article-main__content h2 span {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content p,
+.pulse .article-main__content p span {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content blockquote {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-img=
+ {
+    width: 48px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"][data-entity-typ=
+e=3D"organization"] .pub-entity-img img {
+    height: 48px;
+    width: 48px;
+    border-radius: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"][data-entity-typ=
+e=3D"member"] .pub-entity-img img {
+    height: 56px;
+    width: 56px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t {
+    padding-left: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t h1 {
+    margin-bottom: 2px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t h3 {
+    margin-bottom: 2px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t p {
+    margin-bottom: 2px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content,
+.advice .article-main__content > * {
+    font-size: 20px;
+  }
+
+  .advice .qa-redesign-article-content .article-main__content > * {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content h2,
+.advice .article-main__content h2 span {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice.redesign .article-main__content h2,
+.advice.redesign .article-main__content h2 span {
+    font-size: 32px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content p,
+.advice .article-main__content p span {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content blockquote {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar__wrapper.navbar__wrapper--x-article-split-layout {
+    margin-left: 24px;
+  }
+}
+@media (min-width: 1440px) {
+  .navbar__wrapper.navbar__wrapper--x-article-split-layout {
+    margin-left: 48px;
+  }
+}
+@media (min-width: 992px) {
+  [data-id=3D'member-nav-header__container'] {
+    margin-left: calc(40% - 8px - 392px);
+  }
+}
+@media (min-width: 1200px) {
+  [data-id=3D'member-nav-header__container'] {
+    margin-left: calc(40% - 32px - 392px);
+  }
+}
+@media (min-width: 1440px) {
+  [data-id=3D'member-nav-header__container'] {
+    margin-left: calc(40% - 64px - 392px);
+  }
+}
+@media (min-width: 992px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    width: 60%;
+  }
+}
+@media (min-width: 992px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    padding-left: 8px;
+  }
+}
+@media (min-width: 1200px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    padding-left: 32px;
+  }
+}
+@media (min-width: 1440px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    padding-left: 64px;
+  }
+}
+@media (min-width: 576px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1128px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
+@media (min-width: 1680px) {}
+@media (min-width: 1920px) {}
+@media (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media screen and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 991px) {}
+@media screen and (max-width: 991px) {}
+@media (max-width: 991px) {
+  .search-bar.isExpanded .search-bar__placeholder {
+    display: none;
+  }
+
+  .search-bar.isExpanded .base-search-bar__form {
+    display: flex;
+  }
+}
+@media screen and (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (min-width: 992px) {}
+@media (forced-colors: active) {}
+@media (-ms-high-contrast: active), (forced-colors: active) {}
+@media (min-width: 992px) {}
+@media (min-width: 576px) {}
+@media (min-width: 992px) {}
+@media (min-width: 992px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
+@media (min-width: 992px) {}
+@media (max-width: 575px) {}
+@media (max-width: 640px) {}
+@media (min-width: 992px) {}
+@media (max-width: 991px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media screen and (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (min-width: 245px) {}
+@media (min-width: 330px) {}
+@media only screen and (min-width: 30.06em) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (min-width: 992px) {
+  .papabear\:tab-vertical.tab-selected:after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:pointer-events-none::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:absolute::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:\!left-\[-19px\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:\!top-\[6px\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:bottom-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:left-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:right-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:top-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:ml-0\.5::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:ml-\[74px\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:block::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:h-full::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:w-full::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:rounded-full::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:border-1::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:border-solid::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:border-color-divider::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:bg-gradient-to-b::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:from-color-transparent::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:to-color-background-scrim::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:text-color-text-low-emphasis::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:no-underline::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:shadow-\[0_0_0_500px_var\(--color-scrim\)\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:content-\[\"\"\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:content-\[\'\'\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:content-\[\'\/\'\]::after {
+    content: "";
+  }
+}
+@media (min-width: 576px) {
+  .xs\:sticky {
+    position: sticky;
+  }
+
+  .xs\:left-\[-52px\] {
+    left: -52px;
+  }
+
+  .xs\:left-\[-56px\] {
+    left: -56px;
+  }
+
+  .xs\:top-0 {
+    top: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .sm\:m-0 {
+    margin: 0px;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:pl-0\.5 {
+    padding-left: 4px;
+  }
+
+  .sm\:text-sm {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  .md\:\!absolute {
+    position: absolute !important;
+  }
+
+  .md\:absolute {
+    position: absolute;
+  }
+
+  .md\:left-\[-44px\] {
+    left: -44px;
+  }
+
+  .md\:left-\[-52px\] {
+    left: -52px;
+  }
+
+  .md\:left-\[-53px\] {
+    left: -53px;
+  }
+
+  .md\:left-\[-60px\] {
+    left: -60px;
+  }
+
+  .md\:right-\[19px\] {
+    right: 19px;
+  }
+
+  .md\:m-2 {
+    margin: 16px;
+  }
+
+  .md\:-ml-1 {
+    margin-left: -8px;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .md\:mb-8 {
+    margin-bottom: 64px;
+  }
+
+  .md\:ml-1 {
+    margin-left: 8px;
+  }
+
+  .md\:ml-\[-12px\] {
+    margin-left: -12px;
+  }
+
+  .md\:ml-\[-41px\] {
+    margin-left: -41px;
+  }
+
+  .md\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .md\:mr-4 {
+    margin-right: 32px;
+  }
+
+  .md\:mr-6 {
+    margin-right: 48px;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:box-content {
+    box-sizing: content-box;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:inline-flex {
+    display: inline-flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:h-4 {
+    height: 32px;
+  }
+
+  .md\:h-56 {
+    height: 448px;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:w-2\/5 {
+    width: 40%;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
+  .md\:w-4 {
+    width: 32px;
+  }
+
+  .md\:w-\[280px\] {
+    width: 280px;
+  }
+
+  .md\:w-\[392px\] {
+    width: 392px;
+  }
+
+  .md\:w-\[452px\] {
+    width: 452px;
+  }
+
+  .md\:w-\[500px\] {
+    width: 500px;
+  }
+
+  .md\:w-\[calc\(100\%\+44px\)\] {
+    width: calc(100% + 44px);
+  }
+
+  .md\:w-\[calc\(37\%-40px\)\] {
+    width: calc(37% - 40px);
+  }
+
+  .md\:w-\[calc\(50\%-40px\)\] {
+    width: calc(50% - 40px);
+  }
+
+  .md\:max-w-\[392px\] {
+    max-width: 392px;
+  }
+
+  .md\:max-w-\[576px\] {
+    max-width: 576px;
+  }
+
+  .md\:flex-1 {
+    flex: 1 1 0%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+
+  .md\:whitespace-nowrap {
+    white-space: nowrap;
+  }
+
+  .md\:px-1 {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .md\:px-3 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .md\:py-1\.5 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .md\:py-4 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .md\:py-6 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .md\:pb-2 {
+    padding-bottom: 16px;
+  }
+
+  .md\:pb-6 {
+    padding-bottom: 48px;
+  }
+
+  .md\:pb-\[200px\] {
+    padding-bottom: 200px;
+  }
+
+  .md\:pl-1 {
+    padding-left: 8px;
+  }
+
+  .md\:pl-4 {
+    padding-left: 32px;
+  }
+
+  .md\:pl-\[32px\] {
+    padding-left: 32px;
+  }
+
+  .md\:pl-\[41px\] {
+    padding-left: 41px;
+  }
+
+  .md\:pl-\[56px\] {
+    padding-left: 56px;
+  }
+
+  .md\:pr-1 {
+    padding-right: 8px;
+  }
+
+  .md\:pr-\[320px\] {
+    padding-right: 320px;
+  }
+
+  .md\:pr-\[88px\] {
+    padding-right: 88px;
+  }
+
+  .md\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .md\:pt-1 {
+    padding-top: 8px;
+  }
+
+  .md\:pt-6 {
+    padding-top: 48px;
+  }
+
+  .md\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .md\:text-md {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .lg\:\!absolute {
+    position: absolute !important;
+  }
+
+  .lg\:left-\[-48px\] {
+    left: -48px;
+  }
+
+  .lg\:left-\[-56px\] {
+    left: -56px;
+  }
+
+  .lg\:left-\[-58px\] {
+    left: -58px;
+  }
+
+  .lg\:right-\[8px\] {
+    right: 8px;
+  }
+
+  .lg\:my-6 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
+  .lg\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .lg\:ml-1 {
+    margin-left: 8px;
+  }
+
+  .lg\:ml-12 {
+    margin-left: 96px;
+  }
+
+  .lg\:ml-3 {
+    margin-left: 24px;
+  }
+
+  .lg\:ml-\[-33px\] {
+    margin-left: -33px;
+  }
+
+  .lg\:ml-\[10px\] {
+    margin-left: 10px;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:inline-flex {
+    display: inline-flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:h-4 {
+    height: 32px;
+  }
+
+  .lg\:h-6 {
+    height: 48px;
+  }
+
+  .lg\:h-\[20px\] {
+    height: 20px;
+  }
+
+  .lg\:w-4 {
+    width: 32px;
+  }
+
+  .lg\:w-6 {
+    width: 48px;
+  }
+
+  .lg\:w-\[20px\] {
+    width: 20px;
+  }
+
+  .lg\:w-\[calc\(100\%\+56px\)\] {
+    width: calc(100% + 56px);
+  }
+
+  .lg\:w-\[calc\(37\%-32px\)\] {
+    width: calc(37% - 32px);
+  }
+
+  .lg\:w-\[calc\(50\%-32px\)\] {
+    width: calc(50% - 32px);
+  }
+
+  .lg\:max-w-x-article-width {
+    max-width: 816px;
+  }
+
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
+  .lg\:items-center {
+    align-items: center;
+  }
+
+  .lg\:pl-4 {
+    padding-left: 32px;
+  }
+
+  .lg\:pl-\[33px\] {
+    padding-left: 33px;
+  }
+
+  .lg\:pl-\[40px\] {
+    padding-left: 40px;
+  }
+
+  .lg\:pl-\[41px\] {
+    padding-left: 41px;
+  }
+
+  .lg\:pl-\[88px\] {
+    padding-left: 88px;
+  }
+
+  .lg\:pr-1 {
+    padding-right: 8px;
+  }
+
+  .lg\:pr-4 {
+    padding-right: 32px;
+  }
+
+  .lg\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .lg\:text-display-lg {
+    font-size: 48px;
+  }
+
+  .lg\:text-lg {
+    font-size: 20px;
+  }
+
+  .lg\:text-md {
+    font-size: 16px;
+  }
+
+  .lg\:text-sm {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1440px) {
+  .xl\:ml-6 {
+    margin-left: 48px;
+  }
+
+  .xl\:w-6 {
+    width: 48px;
+  }
+
+  .xl\:w-\[50px\] {
+    width: 50px;
+  }
+
+  .xl\:pl-8 {
+    padding-left: 64px;
+  }
+
+  .xl\:pl-\[120px\] {
+    padding-left: 120px;
+  }
+
+  .xl\:pr-8 {
+    padding-right: 64px;
+  }
+}
+@media (max-width: 767px) {
+  .babybear\:\!-top-0\.5 {
+    top: -4px !important;
+  }
+
+  .babybear\:-top-1 {
+    top: -8px;
+  }
+
+  .babybear\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .babybear\:bottom-\[120\%\] {
+    bottom: 120%;
+  }
+
+  .babybear\:left-3 {
+    left: 24px;
+  }
+
+  .babybear\:right-4 {
+    right: 32px;
+  }
+
+  .babybear\:top-0\.5 {
+    top: 4px;
+  }
+
+  .babybear\:z-0 {
+    z-index: 0;
+  }
+
+  .babybear\:order-last {
+    order: 9999;
+  }
+
+  .babybear\:m-0 {
+    margin: 0px;
+  }
+
+  .babybear\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .babybear\:mx-1\.5 {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .babybear\:my-2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .babybear\:-mt-0\.5 {
+    margin-top: -4px;
+  }
+
+  .babybear\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .babybear\:mb-0\.5 {
+    margin-bottom: 4px;
+  }
+
+  .babybear\:mb-1 {
+    margin-bottom: 8px;
+  }
+
+  .babybear\:mb-2 {
+    margin-bottom: 16px;
+  }
+
+  .babybear\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .babybear\:ml-1 {
+    margin-left: 8px;
+  }
+
+  .babybear\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .babybear\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .babybear\:mt-0\.5 {
+    margin-top: 4px;
+  }
+
+  .babybear\:mt-\[6px\] {
+    margin-top: 6px;
+  }
+
+  .babybear\:hidden {
+    display: none;
+  }
+
+  .babybear\:h-4 {
+    height: 32px;
+  }
+
+  .babybear\:h-6 {
+    height: 48px;
+  }
+
+  .babybear\:h-\[180px\] {
+    height: 180px;
+  }
+
+  .babybear\:h-\[26px\] {
+    height: 26px;
+  }
+
+  .babybear\:h-\[360px\] {
+    height: 360px;
+  }
+
+  .babybear\:h-\[59px\] {
+    height: 59px;
+  }
+
+  .babybear\:h-\[64px\] {
+    height: 64px;
+  }
+
+  .babybear\:h-\[72px\] {
+    height: 72px;
+  }
+
+  .babybear\:h-auto {
+    height: auto;
+  }
+
+  .babybear\:max-h-4 {
+    max-height: 32px;
+  }
+
+  .babybear\:max-h-\[225px\] {
+    max-height: 225px;
+  }
+
+  .babybear\:max-h-\[250px\] {
+    max-height: 250px;
+  }
+
+  .babybear\:max-h-\[400px\] {
+    max-height: 400px;
+  }
+
+  .babybear\:min-h-\[134px\] {
+    min-height: 134px;
+  }
+
+  .babybear\:w-1 {
+    width: 8px;
+  }
+
+  .babybear\:w-11\/12 {
+    width: 91.666667%;
+  }
+
+  .babybear\:w-6 {
+    width: 48px;
+  }
+
+  .babybear\:w-\[105px\] {
+    width: 105px;
+  }
+
+  .babybear\:w-\[199px\] {
+    width: 199px;
+  }
+
+  .babybear\:w-\[26px\] {
+    width: 26px;
+  }
+
+  .babybear\:w-\[360px\] {
+    width: 360px;
+  }
+
+  .babybear\:w-\[64px\] {
+    width: 64px;
+  }
+
+  .babybear\:w-\[calc\(100\%-68px\)\] {
+    width: calc(100% - 68px);
+  }
+
+  .babybear\:w-fit {
+    width: fit-content;
+  }
+
+  .babybear\:w-full {
+    width: 100%;
+  }
+
+  .babybear\:min-w-full {
+    min-width: 100%;
+  }
+
+  .babybear\:max-w-\[300px\] {
+    max-width: 300px;
+  }
+
+  .babybear\:max-w-\[32px\] {
+    max-width: 32px;
+  }
+
+  .babybear\:max-w-\[790px\] {
+    max-width: 790px;
+  }
+
+  .babybear\:max-w-md {
+    max-width: 28rem;
+  }
+
+  .babybear\:flex-auto {
+    flex: 1 1 auto;
+  }
+
+  .babybear\:flex-none {
+    flex: none;
+  }
+
+  .babybear\:basis-0 {
+    flex-basis: 0px;
+  }
+
+  .babybear\:-translate-x-50\% {
+    transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY=
+(1);
+  }
+
+  @media (max-width: 767px) {
+    .babybear\:-translate-x-50\% {
+      transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(=
+1) scaleY(1);
+    }
+
+    @media (max-width: 767px) {
+      .babybear\:-translate-x-50\% {
+        transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scale=
+X(1) scaleY(1);
+      }
+
+      @media (max-width: 767px) {
+        .babybear\:-translate-x-50\% {
+          transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) sca=
+leX(1) scaleY(1);
+        }
+
+        @media (max-width: 767px) {
+          .babybear\:-translate-x-50\% {
+            transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) s=
+caleX(1) scaleY(1);
+          }
+
+          @media (max-width: 767px) {
+            .babybear\:-translate-x-50\% {
+              transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0)=
+ scaleX(1) scaleY(1);
+            }
+
+            @media (max-width: 767px) {
+              .babybear\:-translate-x-50\% {
+                transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(=
+0) scaleX(1) scaleY(1);
+              }
+
+              @media (max-width: 767px) {
+                .babybear\:-translate-x-50\% {
+                  transform: translate(-50%, 0) rotate(90deg) skewX(0) skew=
+Y(0) scaleX(1) scaleY(1);
+                }
+
+                @media (max-width: 767px) {
+                  .babybear\:-translate-x-50\% {
+                    transform: translate(-50%, 0) rotate(90deg) skewX(0) sk=
+ewY(0) scaleX(1) scaleY(1);
+                  }
+
+                  @media (max-width: 767px) {
+                    .babybear\:-translate-x-50\% {
+                      transform: translate(-50%, 0) rotate(90deg) skewX(0) =
+skewY(0) scaleX(1) scaleY(1);
+                    }
+
+                    @media (max-width: 767px) {
+                      .babybear\:-translate-x-50\% {
+                        transform: translate(-50%, 0) rotate(90deg) skewX(0=
+) skewY(0) scaleX(1) scaleY(1);
+                      }
+
+                      @media (max-width: 767px) {
+                        .babybear\:-translate-x-50\% {
+                          transform: translate(-50%, 0) rotate(90deg) skewX=
+(0) skewY(0) scaleX(1) scaleY(1);
+                        }
+
+                        @media (max-width: 767px) {
+                          .babybear\:-translate-x-50\% {
+                            transform: translate(-50%, 0) rotate(90deg) ske=
+wX(0) skewY(0) scaleX(1) scaleY(1);
+                          }
+
+                          @media (max-width: 767px) {
+                            .babybear\:-translate-x-50\% {
+                              transform: translate(-50%, 0) rotate(90deg) s=
+kewX(0) skewY(0) scaleX(1) scaleY(1);
+                            }
+
+                            @media (max-width: 767px) {
+                              .babybear\:-translate-x-50\% {
+                                transform: translate(-50%, 0) rotate(90deg)=
+ skewX(0) skewY(0) scaleX(1) scaleY(1);
+                              }
+
+                              @media transform: translate(0, 0) rotate(0) s=
+kewX(0) skewY(0) scaleX(1) scaleY(1);
+     (max-width: 767px) {
+                                .babybear\:rotate-90 {
+                                  transform: translate(-50%, 0) rotate(90de=
+g) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                }
+
+                                @media (max-width: 767px) {
+                                  .babybear\:rotate-90 {
+                                    transform: translate(-50%, 0) rotate(90=
+deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                  }
+
+                                  @media (max-width: 767px) {
+                                    .babybear\:rotate-90 {
+                                      transform: translate(-50%, 0) rotate(=
+90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                    }
+
+                                    @media (max-width: 767px) {
+                                      .babybear\:rotate-90 {
+                                        transform: translate(-50%, 0) rotat=
+e(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                      }
+
+                                      @media (max-width: 767px) {
+                                        .babybear\:rotate-90 {
+                                          transform: translate(-50%, 0) rot=
+ate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                        }
+
+                                        @media (max-width: 767px) {
+                                          .babybear\:rotate-90 {
+                                            transform: translate(-50%, 0) r=
+otate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                          }
+
+                                          @media (max-width: 767px) {
+                                            .babybear\:rotate-90 {
+                                              transform: translate(-50%, 0)=
+ rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                            }
+
+                                            @media (max-width: 767px) {
+                                              .babybear\:rotate-90 {
+                                                transform: translate(-50%, =
+0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                              }
+
+                                              @media (max-width: 767px) {
+                                                .babybear\:rotate-90 {
+                                                  transform: translate(-50%=
+, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                }
+
+                                                @media (max-width: 767px) {
+                                                  .babybear\:rotate-90 {
+                                                    transform: translate(-5=
+0%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                  }
+
+                                                  @media (max-width: 767px)=
+ {
+                                                    .babybear\:rotate-90 {
+                                                      transform: translate(=
+-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                    }
+
+                                                    @media (max-width: 767p=
+x) {
+                                                      .babybear\:rotate-90 =
+{
+                                                        transform: translat=
+e(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                      }
+
+                                                      @media (max-width: 76=
+7px) {
+                                                        .babybear\:rotate-9=
+0 {
+                                                          transform: transl=
+ate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                        }
+
+                                                        @media (max-width: =
+767px) {
+                                                          .babybear\:rotate=
+-90 {
+                                                            transform: tran=
+slate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                          }
+
+                                                          flex-direction: r=
+ow;
+    .babybear\:flex-col {
+                                                            flex-direction:=
+ column;
+                                                          }
+
+                                                          .babybear\:flex-w=
+rap {
+                                                            flex-wrap: wrap=
+;
+                                                          }
+
+                                                          .babybear\:items-=
+start {
+                                                            align-items: fl=
+ex-start;
+                                                          }
+
+                                                          .babybear\:items-=
+center {
+                                                            align-items: ce=
+nter;
+                                                          }
+
+                                                          .babybear\:justif=
+y-start {
+                                                            justify-content=
+: flex-start;
+                                                          }
+
+                                                          .babybear\:justif=
+y-end {
+                                                            justify-content=
+: flex-end;
+                                                          }
+
+                                                          .babybear\:justif=
+y-center {
+                                                            justify-content=
+: center;
+                                                          }
+
+                                                          .babybear\:justif=
+y-between {
+                                                            justify-content=
+: space-between;
+                                                          }
+
+                                                          .babybear\:justif=
+y-around {
+                                                            justify-content=
+: space-around;
+                                                          }
+
+                                                          .babybear\:self-s=
+tart {
+                                                            align-self: fle=
+x-start;
+                                                          }
+
+                                                          .babybear\:self-c=
+enter {
+                                                            align-self: cen=
+ter;
+                                                          }
+
+                                                          .babybear\:overfl=
+ow-y-auto {
+                                                            overflow-y: aut=
+o;
+                                                          }
+
+                                                          .babybear\:rounde=
+d-\[0px\] {
+                                                            border-radius: =
+0px;
+                                                          }
+
+                                                          .babybear\:border=
+-b-1 {
+                                                            border-bottom-w=
+idth: 1px;
+                                                          }
+
+                                                          .babybear\:border=
+-r-0 {
+                                                            border-right-wi=
+dth: 0;
+                                                          }
+
+                                                          .babybear\:border=
+-solid {
+                                                            border-style: s=
+olid;
+                                                          }
+
+                                                          .babybear\:border=
+-color-border-low-emphasis {
+                                                            border-color: r=
+gba(0, 0, 0, 0.3);
+                                                          }
+
+                                                          .babybear\:bg-col=
+or-brand {
+                                                            background-colo=
+r: #0a66c2;
+                                                          }
+
+                                                          .babybear\:p-2 {
+                                                            padding: 16px;
+                                                          }
+
+                                                          .babybear\:px-0 {
+                                                            padding-left: 0=
+px;
+                                                            padding-right: =
+0px;
+                                                          }
+
+                                                          .babybear\:px-2 {
+                                                            padding-left: 1=
+6px;
+                                                            padding-right: =
+16px;
+                                                          }
+
+                                                          .babybear\:px-mob=
+ile-container-padding {
+                                                            padding-left: 1=
+6px;
+                                                            padding-right: =
+16px;
+                                                          }
+
+                                                          .babybear\:py-1 {
+                                                            padding-top: 8p=
+x;
+                                                            padding-bottom:=
+ 8px;
+                                                          }
+
+                                                          .babybear\:py-3 {
+                                                            padding-top: 24=
+px;
+                                                            padding-bottom:=
+ 24px;
+                                                          }
+
+                                                          .babybear\:pb-0 {
+                                                            padding-bottom:=
+ 0px;
+                                                          }
+
+                                                          .babybear\:pb-2 {
+                                                            padding-bottom:=
+ 16px;
+                                                          }
+
+                                                          .babybear\:pl-0\.=
+5 {
+                                                            padding-left: 4=
+px;
+                                                          }
+
+                                                          .babybear\:pr-0 {
+                                                            padding-right: =
+0px;
+                                                          }
+
+                                                          .babybear\:pr-0\.=
+5 {
+                                                            padding-right: =
+4px;
+                                                          }
+
+                                                          .babybear\:pt-0 {
+                                                            padding-top: 0p=
+x;
+                                                          }
+
+                                                          .babybear\:pt-0\.=
+5 {
+                                                            padding-top: 4p=
+x;
+                                                          }
+
+                                                          .babybear\:pt-1 {
+                                                            padding-top: 8p=
+x;
+                                                          }
+
+                                                          .babybear\:pt-4 {
+                                                            padding-top: 32=
+px;
+                                                          }
+
+                                                          .babybear\:text-\=
+[10px\] {
+                                                            font-size: 10px=
+;
+                                                          }
+
+                                                          .babybear\:text-l=
+g {
+                                                            font-size: 20px=
+;
+                                                          }
+
+                                                          .babybear\:text-m=
+d {
+                                                            font-size: 16px=
+;
+                                                          }
+
+                                                          .babybear\:text-s=
+m {
+                                                            font-size: 14px=
+;
+                                                          }
+
+                                                          .babybear\:text-x=
+l {
+                                                            font-size: 24px=
+;
+                                                          }
+
+                                                          .babybear\:text-x=
+s {
+                                                            font-size: 12px=
+;
+                                                          }
+
+                                                          .babybear\:font-b=
+old {
+                                                            font-weight: 60=
+0;
+                                                          }
+
+                                                          .babybear\:leadin=
+g-\[150px\] {
+                                                            line-height: 15=
+0px;
+                                                          }
+
+                                                          .babybear\:last\:=
+border-b-0:last-child {
+                                                            border-bottom-w=
+idth: 0;
+                                                          }
+
+                                                        }
+
+                                                      }
+
+                                                    }
+
+                                                  }
+
+                                                }
+
+                                              }
+
+                                            }
+
+                                          }
+
+                                        }
+
+                                      }
+
+                                    }
+
+                                  }
+
+                                }
+
+                              }
+
+                            }
+
+                          }
+
+                        }
+
+                      }
+
+                    }
+
+                  }
+
+                }
+
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+}
+@media (max-width: 991px) {
+  .babymamabear\:invisible {
+    visibility: hidden;
+  }
+
+  .babymamabear\:static {
+    position: static;
+  }
+
+  .babymamabear\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .babymamabear\:mx-mobile-container-padding {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .babymamabear\:mb-1\.5 {
+    margin-bottom: 12px;
+  }
+
+  .babymamabear\:ml-\[-9999px\] {
+    margin-left: -9999px;
+  }
+
+  .babymamabear\:mr-3 {
+    margin-right: 24px;
+  }
+
+  .babymamabear\:flex {
+    display: flex;
+  }
+
+  .babymamabear\:hidden {
+    display: none;
+  }
+
+  .babymamabear\:h-\[1px\] {
+    height: 1px;
+  }
+
+  .babymamabear\:h-\[48px\] {
+    height: 48px;
+  }
+
+  .babymamabear\:w-\[100vw\] {
+    width: 100vw;
+  }
+
+  .babymamabear\:w-\[1px\] {
+    width: 1px;
+  }
+
+  .babymamabear\:w-full {
+    width: 100%;
+  }
+
+  .babymamabear\:min-w-\[50px\] {
+    min-width: 50px;
+  }
+
+  .babymamabear\:basis-1\/2 {
+    flex-basis: 50%;
+  }
+
+  .babymamabear\:flex-col {
+    flex-direction: column;
+  }
+
+  .babymamabear\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .babymamabear\:bg-color-transparent {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .babymamabear\:p-0 {
+    padding: 0px;
+  }
+
+  .babymamabear\:px-mobile-container-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .babymamabear\:py-1\.5 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .mamabear\:absolute {
+    position: absolute;
+  }
+
+  .mamabear\:-top-0\.5 {
+    top: -4px;
+  }
+
+  .mamabear\:-top-1 {
+    top: -8px;
+  }
+
+  .mamabear\:right-4 {
+    right: 32px;
+  }
+
+  .mamabear\:top-\[58px\] {
+    top: 58px;
+  }
+
+  .mamabear\:mr-3 {
+    margin-right: 24px;
+  }
+
+  .mamabear\:mt-\[68px\] {
+    margin-top: 68px;
+  }
+
+  .mamabear\:hidden {
+    display: none;
+  }
+
+  .mamabear\:\!h-4 {
+    height: 32px !important;
+  }
+
+  .mamabear\:h-\[100\%\] {
+    height: 100%;
+  }
+
+  .mamabear\:\!min-h-\[32px\] {
+    min-height: 32px !important;
+  }
+
+  .mamabear\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .mamabear\:w-48 {
+    width: 384px;
+  }
+
+  .mamabear\:w-\[744px\] {
+    width: 744px;
+  }
+
+  .mamabear\:w-\[calc\(100\%-97px\)\] {
+    width: calc(100% - 97px);
+  }
+
+  .mamabear\:w-full {
+    width: 100%;
+  }
+
+  .mamabear\:min-w-0 {
+    min-width: 0px;
+  }
+
+  .mamabear\:min-w-full {
+    min-width: 100%;
+  }
+
+  .mamabear\:max-w-\[790px\] {
+    max-width: 790px;
+  }
+
+  .mamabear\:flex-shrink-0 {
+    flex-shrink: 0;
+  }
+
+  .mamabear\:flex-row {
+    flex-direction: row;
+  }
+
+  .mamabear\:items-start {
+    align-items: flex-start;
+  }
+
+  .mamabear\:items-center {
+    align-items: center;
+  }
+
+  .mamabear\:self-center {
+    align-self: center;
+  }
+
+  .mamabear\:rounded-tr-none {
+    border-top-right-radius: 0px;
+  }
+
+  .mamabear\:px-2 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .mamabear\:px-3 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .mamabear\:px-mobile-container-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .mamabear\:py-3 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .mamabear\:pt-desktop-content-top-margin {
+    padding-top: 16px;
+  }
+
+  .mamabear\:text-center {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .papamamabear\:pt-desktop-content-top-margin {
+    padding-top: 16px;
+  }
+
+  .after\:papamamabear\:\!h-\[37px\]::after {
+    content: undefined;
+    height: 37px !important;
+  }
+
+  @media (min-width: 768px) {
+    .after\:papamamabear\:\!h-\[37px\]::after {
+      content: "";
+    }
+
+    content: "".after\:papamamabear\:\!h-\[37px\]::after:content-\[\'\'\]::=
+after {
+      content: "";
+    }
+
+    .after\:papamamabear\:\!h-\[37px\]::after:content-\[\"\"\]::after {
+      content: "";
+    }
+
+    .after\:papamamabear\:up-down-divider::after {
+      display: flex;
+      height: 100%;
+      width: 1px;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.3);
+      text-align: center;
+      content: undefined;
+    }
+
+    @media (min-width: 768px) {
+      .after\:papamamabear\:up-down-divider::after {
+        content: "";
+      }
+
+      content: "".after\:papamamabear\:up-down-divider::after:content-\[\'\=
+'\]::after {
+        content: "";
+      }
+
+      .after\:papamamabear\:up-down-divider::after:content-\[\"\"\]::after =
+{
+        content: "";
+      }
+
+    }
+
+  }
+}
+@media (min-width: 992px) {
+  .papabear\:absolute {
+    position: absolute;
+  }
+
+  .papabear\:-top-1 {
+    top: -8px;
+  }
+
+  .papabear\:top-\[58px\] {
+    top: 58px;
+  }
+
+  .papabear\:\!mx-2 {
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+  }
+
+  .papabear\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .papabear\:mb-\[18px\] {
+    margin-bottom: 18px;
+  }
+
+  .papabear\:ml-column-gutter {
+    margin-left: 24px;
+  }
+
+  .papabear\:mr-2 {
+    margin-right: 16px;
+  }
+
+  .papabear\:mr-3 {
+    margin-right: 24px;
+  }
+
+  .papabear\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .papabear\:mt-0\.5 {
+    margin-top: 4px;
+  }
+
+  .papabear\:mt-\[-100px\] {
+    margin-top: -100px;
+  }
+
+  .papabear\:mt-\[68px\] {
+    margin-top: 68px;
+  }
+
+  .papabear\:inline-block {
+    display: inline-block;
+  }
+
+  .papabear\:flex {
+    display: flex;
+  }
+
+  .papabear\:hidden {
+    display: none;
+  }
+
+  .papabear\:\!h-4 {
+    height: 32px !important;
+  }
+
+  .papabear\:h-6 {
+    height: 48px;
+  }
+
+  .papabear\:h-\[100\%\] {
+    height: 100%;
+  }
+
+  .papabear\:\!min-h-\[32px\] {
+    min-height: 32px !important;
+  }
+
+  .papabear\:min-h-\[96px\] {
+    min-height: 96px;
+  }
+
+  .papabear\:w-48 {
+    width: 384px;
+  }
+
+  .papabear\:w-\[1128px\] {
+    width: 1128px;
+  }
+
+  .papabear\:w-\[219px\] {
+    width: 219px;
+  }
+
+  .papabear\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .papabear\:w-\[calc\(100\%-97px\)\] {
+    width: calc(100% - 97px);
+  }
+
+  .papabear\:w-auto {
+    width: auto;
+  }
+
+  .papabear\:w-content-max-w {
+    width: 1128px;
+  }
+
+  .papabear\:w-core-rail-width {
+    width: 784px;
+  }
+
+  .papabear\:w-right-rail-width {
+    width: calc(1128px - 24px - 784px);
+  }
+
+  .papabear\:min-w-0 {
+    min-width: 0px;
+  }
+
+  .papabear\:max-w-\[550px\] {
+    max-width: 550px;
+  }
+
+  .papabear\:flex-shrink-0 {
+    flex-shrink: 0;
+  }
+
+  .papabear\:flex-col {
+    flex-direction: column;
+  }
+
+  .papabear\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .papabear\:items-start {
+    align-items: flex-start;
+  }
+
+  .papabear\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .papabear\:justify-center {
+    justify-content: center;
+  }
+
+  .papabear\:self-start {
+    align-self: flex-start;
+  }
+
+  .papabear\:rounded-tr-none {
+    border-top-right-radius: 0px;
+  }
+
+  .papabear\:border-4 {
+    border-width: 4px;
+  }
+
+  .papabear\:p-0 {
+    padding: 0px;
+  }
+
+  .papabear\:p-details-container-padding {
+    padding: 24px;
+  }
+
+  .papabear\:py-2 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .papabear\:pt-desktop-content-top-margin {
+    padding-top: 16px;
+  }
+
+  .papabear\:text-xl {
+    font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .-md\:ml-2 {
+    margin-left: 16px;
+  }
+
+  .-md\:mt-1 {
+    margin-top: 8px;
+  }
+
+  .-md\:flex-wrap {
+    flex-wrap: wrap;
+  }
+}
+</style></head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-ca=
+nvas w-full m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; pa=
+dding: 0px; padding-top: 8px; font-family: -apple-system, system-ui, BlinkM=
+acSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Ox=
+ygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe U=
+I Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, =
+Arial, sans-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible=
+ overflow-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; m=
+ax-height: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" dat=
+a-email-preheader=3D"true"></div> <div class=3D"h-0 opacity-0 text-transpar=
+ent invisible overflow-hidden w-0 max-h-[0]" style=3D"visibility: hidden; h=
+eight: 0px; max-height: 0; width: 0px; overflow: hidden; opacity: 0; mso-hi=
+de: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table role=3D"presentation" valign=3D"t=
+op" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"512" align=3D=
+"center" class=3D"mercado-container w-[512px] max-w-[512px] mx-auto my-0 p-=
+0 bg-color-background-container" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; ma=
+rgin-left: auto; margin-right: auto; margin-top: 0px; margin-bottom: 0px; w=
+idth: 512px; max-width: 512px; background-color: #ffffff; padding: 0px;"> <=
+tbody> <tr> <td class=3D"text-center p-3" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; padding: 24px; text-align: center;"> <table role=3D"presentation" va=
+lign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" class=3D"min-w-full" style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 1=
+00%;"> <tbody> <tr> <td align=3D"left" valign=3D"middle" style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/feed/?lipi=
+=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bvv1X2%2FY7Tu=
+a12wLYioQ6%2Bw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2MVfjjz4iIP=
+rw1&amp;trk=3Deml-email_series_follow_newsletter_01-header-0-home_glimmer_d=
+ynamic_badging_high_dpi&amp;trkEmail=3Deml-email_series_follow_newsletter_0=
+1-header-0-home_glimmer_dynamic_badging_high_dpi-null-gdb74f~m49rn901~uk-nu=
+ll-null&amp;eid=3Dgdb74f-m49rn901-uk&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I=
+1MjQwNGVkNDUxZGU0YjQ4NmNiZDU0NDlmYWE4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg1ND=
+RjN2ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1MGUzYzI2MGNhOWU3MDBmMGRiYywxLDE%3D" targe=
+t=3D"_blank" class=3D"w-[84px]" style=3D"color: #0a66c2; cursor: pointer; d=
+isplay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; width: 84px;"> <img class=3D"h-[37px] w-[101p=
+x]" alt=3D"LinkedIn" src=3D"https://www.linkedin.com/comm/dms/logo/v2?badge=
+Theme=3Dmercado&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_news=
+letter_01%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D%3D&amp;midSig=3D2MVfjjz4iIPrw1&am=
+p;midToken=3DAQHxaOsdYMWJVQ&amp;trkEmail=3Deml-email_series_follow_newslett=
+er_01-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2-null-gdb74f%7Em49rn90=
+1%7Euk-null-null&amp;trk=3Deml-email_series_follow_newsletter_01-null-0-com=
+ms%7Ebadging%7Edynamic%7Eglimmer%7Ev2&amp;_sig=3D1npc0vHGGIPrw1" data-test-=
+header-dynamic-badging-img-high-dpi style=3D"outline: none; text-decoration=
+: none; -ms-interpolation-mode: bicubic; height: 37px; width: 101px;" width=
+=3D"101" height=3D"37"> </a> </td> <td valign=3D"middle" align=3D"right" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=
+=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" da=
+ta-test-header-profile style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <t=
+r> <td align=3D"right" valign=3D"middle" class=3D"w-[32px]" style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt; width: 32px;" width=3D"32"> <a href=3D"https://br.=
+linkedin.com/comm/in/fernando-ferreira-brito?lipi=3Durn%3Ali%3Apage%3Aemail=
+_email_series_follow_newsletter_01%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D%3D&amp;m=
+idToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2MVfjjz4iIPrw1&amp;trk=3Deml-email_se=
+ries_follow_newsletter_01-header-0-profile_glimmer&amp;trkEmail=3Deml-email=
+_series_follow_newsletter_01-header-0-profile_glimmer-null-gdb74f~m49rn901~=
+uk-null-null&amp;eid=3Dgdb74f-m49rn901-uk&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2=
+JjM2I1MjQwNGVkNDUxZGU0YjQ4NmNiZDU0NDlmYWE4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZ=
+jg1NDRjN2ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1MGUzYzI2MGNhOWU3MDBmMGRiYywxLDE%3D" =
+target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline=
+-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%;"> <img alt=3D"Luiz Fernando Brito Ferreira" src=3D"https://=
+media.licdn.com/dms/image/v2/D4E03AQHtWMkj43o1lA/profile-displayphoto-shrin=
+k_200_200/profile-displayphoto-shrink_200_200/0/1724191556445?e=3D214748364=
+7&amp;v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB92xXoc9r_1IG6EIUIKB4" class=
+=3D"rounded-[100%] w-[32px] h-[32px]" style=3D"outline: none; text-decorati=
+on: none; -ms-interpolation-mode: bicubic; height: 32px; width: 32px; borde=
+r-radius: 100%;" width=3D"32" height=3D"32"> </a> </td> </tr> </tbody> </ta=
+ble> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"px-0 pb-3"=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 0px; padding-right: =
+0px; padding-bottom: 24px;"> <div> <table role=3D"presentation" valign=3D"t=
+op" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td data-test-id=3D"newsl=
+etter-entity-lockup" class=3D"px-3 pt-1" style=3D"-webkit-text-size-adjust:=
+ 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt; padding-left: 24px; padding-right: 24px; padding-top: 8px;"> <table r=
+ole=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" width=3D"100%" class=3D"font-sans" style=3D"-webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe=
+ UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans',=
+ Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;">=
+ <tbody> <tr> <td valign=3D"top" class=3D"pr-1 w-6" style=3D"-webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt; width: 48px; padding-right: 8px;" width=3D"48"> <a href=3D=
+"https://www.linkedin.com/comm/newsletters/7202681997633196033?lipi=3Durn%3=
+Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bvv1X2%2FY7Tua12wLYio=
+Q6%2Bw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2MVfjjz4iIPrw1&amp;=
+trk=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-0-news=
+letter_entity_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-news=
+letter_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m49rn901~uk-null-n=
+ull&amp;eid=3Dgdb74f-m49rn901-uk&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQ=
+wNGVkNDUxZGU0YjQ4NmNiZDU0NDlmYWE4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg1NDRjN2=
+ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1MGUzYzI2MGNhOWU3MDBmMGRiYywxLDE%3D" target=3D=
+"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; t=
+ext-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%;"> <img class=3D"inline-block relative bg-color-entity-ghost-backgrou=
+nd w-6 h-6 rounded-md" src=3D"https://media.licdn.com/dms/image/v2/D4D12AQE=
+vYk0-bFZqjA/series-logo_image-shrink_100_100/series-logo_image-shrink_100_1=
+00/0/1721173757342?e=3D2147483647&amp;v=3Dbeta&amp;t=3DZfs8TCasQiCWc6FDIg9v=
+LAPekNY5_CgMU4qcOnsJmM4" alt=3D"Abrir Emprego &amp;amp; Tecnologia" style=
+=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; =
+position: relative; display: inline-block; height: 48px; width: 48px; borde=
+r-radius: 8px; background-color: #eae6df;" width=3D"48" height=3D"48"> </a>=
+ </td> <td valign=3D"top" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table =
+role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody>=
+ <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.=
+linkedin.com/comm/newsletters/7202681997633196033?lipi=3Durn%3Ali%3Apage%3A=
+email_email_series_follow_newsletter_01%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D%3D&=
+amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2MVfjjz4iIPrw1&amp;trk=3Deml-ema=
+il_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity=
+_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_entity=
+_lockup-0-newsletter_entity_cta-null-gdb74f~m49rn901~uk-null-null&amp;eid=
+=3Dgdb74f-m49rn901-uk&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZG=
+U0YjQ4NmNiZDU0NDlmYWE4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg1NDRjN2ViYzQwMWZhZ=
+mU3MjRiMTJhY2RlN2M1MGUzYzI2MGNhOWU3MDBmMGRiYywxLDE%3D" target=3D"_blank" cl=
+ass=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; display: inl=
+ine-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; text-decoration-line: none;"> <div class=3D"pb-0.5" styl=
+e=3D"padding-bottom: 4px;"> <span class=3D"text-md font-bold text-color-tex=
+t break-words leading-regular" style=3D"overflow-wrap: break-word; font-siz=
+e: 16px; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> =
+Emprego &amp; Tecnologia </span> </div> </a> </td> </tr> <tr> <td style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/n=
+ewsletters/7202681997633196033?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_=
+follow_newsletter_01%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D%3D&amp;midToken=3DAQHx=
+aOsdYMWJVQ&amp;midSig=3D2MVfjjz4iIPrw1&amp;trk=3Deml-email_series_follow_ne=
+wsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta&amp;trkEmail=
+=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-0-newslet=
+ter_entity_cta-null-gdb74f~m49rn901~uk-null-null&amp;eid=3Dgdb74f-m49rn901-=
+uk&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4NmNiZDU0NDlmY=
+WE4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg1NDRjN2ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1=
+MGUzYzI2MGNhOWU3MDBmMGRiYywxLDE%3D" target=3D"_blank" class=3D"no-underline=
+" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-dec=
+oration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+text-decoration-line: none;"> <span class=3D"text-xs text-color-text-low-em=
+phasis leading-regular" style=3D"font-size: 12px; line-height: 1.25; color:=
+ rgba(0, 0, 0, 0.6);"> Not=C3=ADcias sobre emprego remoto, mercado de traba=
+lho, empregabilidade e afins </span> </a> </td> </tr> </tbody> </table> </t=
+d> </tr> </tbody> </table> </td> </tr> <tr data-test-id=3D"newsletter-conte=
+nt-preview"> <td class=3D"px-3 pt-2" style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; padding-left: 24px; padding-right: 24px; padding-top: 16px;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr=
+> <td class=3D"overflow-hidden " style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; ov=
+erflow: hidden;"> <table role=3D"presentation" valign=3D"top" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tab=
+le-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"=
+> <a href=3D"https://www.linkedin.com/comm/pulse/ia-generativa-recursos-hum=
+anos-10-dicas-para-otimizar-kkwoe?lipi=3Durn%3Ali%3Apage%3Aemail_email_seri=
+es_follow_newsletter_01%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D%3D&amp;midToken=3DA=
+QHxaOsdYMWJVQ&amp;midSig=3D2MVfjjz4iIPrw1&amp;trk=3Deml-email_series_follow=
+_newsletter_01-newsletter_content_preview-0-headline_&amp;trkEmail=3Deml-em=
+ail_series_follow_newsletter_01-newsletter_content_preview-0-headline_-null=
+-gdb74f~m49rn901~uk-null-null&amp;eid=3Dgdb74f-m49rn901-uk&amp;otpToken=3DM=
+WIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4NmNiZDU0NDlmYWE4YTYxNzljNDA2NmQ0=
+YjVkNWJmMmZlZDNkZjg1NDRjN2ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1MGUzYzI2MGNhOWU3MDB=
+mMGRiYywxLDE%3D" target=3D"_blank" class=3D"w-full" style=3D"color: #0a66c2=
+; cursor: pointer; display: inline-block; text-decoration: none; -webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; width: 100%;"> <img class=
+=3D"block w-full aspect-[744/400] object-cover overflow-hidden" data-test-i=
+d=3D"newsletter-content-preview__cover-image" alt=3D"Imagem de capa da news=
+letter" src=3D"https://media.licdn.com/dms/image/v2/D4E12AQET8gCi7xQ4Rg/art=
+icle-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1733=
+248397318?e=3D2147483647&amp;v=3Dbeta&amp;t=3DEDra0OH_gMWLvlrJ2xGH6iDANAUYY=
+QbG3OrUAs-QtNg" style=3D"outline: none; text-decoration: none; -ms-interpol=
+ation-mode: bicubic; display: block; aspect-ratio: 744/400; width: 100%; ov=
+erflow: hidden; object-fit: cover;"> </a> </td> </tr> <tr> <td class=3D"py-=
+2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 16px; padding-botto=
+m: 16px;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a hr=
+ef=3D"https://www.linkedin.com/comm/pulse/ia-generativa-recursos-humanos-10=
+-dicas-para-otimizar-kkwoe?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_foll=
+ow_newsletter_01%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D%3D&amp;midToken=3DAQHxaOsd=
+YMWJVQ&amp;midSig=3D2MVfjjz4iIPrw1&amp;trk=3Deml-email_series_follow_newsle=
+tter_01-newsletter_content_preview-0-title_&amp;trkEmail=3Deml-email_series=
+_follow_newsletter_01-newsletter_content_preview-0-title_-null-gdb74f~m49rn=
+901~uk-null-null&amp;eid=3Dgdb74f-m49rn901-uk&amp;otpToken=3DMWIwZDE3ZTgxMz=
+I4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4NmNiZDU0NDlmYWE4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZ=
+DNkZjg1NDRjN2ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1MGUzYzI2MGNhOWU3MDBmMGRiYywxLDE%=
+3D" target=3D"_blank" class=3D"no-underline font-medium text-sm m-0 text-sy=
+stem-gray-90" style=3D"cursor: pointer; display: inline-block; text-decorat=
+ion: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; marg=
+in: 0px; font-size: 14px; font-weight: 500; color: #282828; text-decoration=
+-line: none;"> <h2 class=3D"m-0 text-display-sm leading-regular text-color-=
+text font-bold font-sans" style=3D"margin: 0px; font-family: -apple-system,=
+ system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira=
+ Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Colo=
+r Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Gr=
+ande', Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 600; lin=
+e-height: 1.25; color: rgba(0, 0, 0, 0.9);"> IA Generativa no Recursos Huma=
+nos: 10 dicas para otimizar </h2> </a> </td> </tr> <tr> <td style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D"top" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" data-test-id=3D=
+"newsletter-author-lockup-redesign" class=3D"mt-1 mb-2" style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; margin-bottom: 16px; margin-top: 8px;"> <tbody> <tr> <=
+td valign=3D"middle" align=3D"left" class=3D"w-3" style=3D"-webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tabl=
+e-rspace: 0pt; width: 24px;" width=3D"24"> <a href=3D"https://www.linkedin.=
+com/comm/company/vagas-remotas-net?lipi=3Durn%3Ali%3Apage%3Aemail_email_ser=
+ies_follow_newsletter_01%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D%3D&amp;midToken=3D=
+AQHxaOsdYMWJVQ&amp;midSig=3D2MVfjjz4iIPrw1&amp;trk=3Deml-email_series_follo=
+w_newsletter_01-newsletter_content_preview-0-author_&amp;trkEmail=3Deml-ema=
+il_series_follow_newsletter_01-newsletter_content_preview-0-author_-null-gd=
+b74f~m49rn901~uk-null-null&amp;eid=3Dgdb74f-m49rn901-uk&amp;otpToken=3DMWIw=
+ZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4NmNiZDU0NDlmYWE4YTYxNzljNDA2NmQ0YjV=
+kNWJmMmZlZDNkZjg1NDRjN2ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1MGUzYzI2MGNhOWU3MDBmMG=
+RiYywxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; d=
+isplay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%;"> <img class=3D"inline-block relative bg-colo=
+r-entity-ghost-background w-4 h-4 align-middle" src=3D"https://media.licdn.=
+com/dms/image/v2/D4D0BAQF-pKv8RCGa_w/company-logo_100_100/company-logo_100_=
+100/0/1686408381536?e=3D2147483647&amp;v=3Dbeta&amp;t=3DsmrhYnygldxlXBqsVTU=
+8Y6hT5pJlox0U9AsTNbNB-Ks" alt=3D"Imagem do autor" style=3D"outline: none; t=
+ext-decoration: none; -ms-interpolation-mode: bicubic; position: relative; =
+display: inline-block; height: 32px; width: 32px; background-color: #eae6df=
+; vertical-align: middle;" width=3D"32" height=3D"32"> </a> </td> <td style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/co=
+mm/company/vagas-remotas-net?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_fo=
+llow_newsletter_01%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D%3D&amp;midToken=3DAQHxaO=
+sdYMWJVQ&amp;midSig=3D2MVfjjz4iIPrw1&amp;trk=3Deml-email_series_follow_news=
+letter_01-newsletter_content_preview-0-author_&amp;trkEmail=3Deml-email_ser=
+ies_follow_newsletter_01-newsletter_content_preview-0-author_-null-gdb74f~m=
+49rn901~uk-null-null&amp;eid=3Dgdb74f-m49rn901-uk&amp;otpToken=3DMWIwZDE3ZT=
+gxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4NmNiZDU0NDlmYWE4YTYxNzljNDA2NmQ0YjVkNWJmM=
+mZlZDNkZjg1NDRjN2ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1MGUzYzI2MGNhOWU3MDBmMGRiYywx=
+LDE%3D" target=3D"_blank" class=3D"no-underline ml-1" style=3D"color: #0a66=
+c2; cursor: pointer; display: inline-block; text-decoration: none; -webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin-left: 8px; text-=
+decoration-line: none;"> <span class=3D"font-sans font-bold text-sm mb-3 te=
+xt-color-text-low-emphasis leading-regular" style=3D"margin-bottom: 24px; f=
+ont-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Robot=
+o, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell,=
+ 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Se=
+goe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 1=
+4px; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.6);"> Vaga=
+s Remotas </span> </a> </td> </tr> </tbody> </table> </td> </tr> <tr> <td c=
+lass=3D"pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px;"=
+> <div class=3D"p-3 bg-color-surface-tint rounded-md font-sans" data-test-i=
+d=3D"newsletter-cta-banner" style=3D"border-radius: 8px; background-color: =
+#f5f7f9; padding: 24px; font-family: -apple-system, system-ui, BlinkMacSyst=
+emFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, =
+'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial,=
+ sans-serif;"> <div class=3D"mb-1.5" style=3D"margin-bottom: 12px;"> <span =
+class=3D"text-md leading-regular font-bold text-color-text" style=3D"font-s=
+ize: 16px; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"=
+> Leia este artigo no LinkedIn para participar da conversa </span> </div> <=
+table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" width=3D"100%" class=3D"email-button " data-test-id=3D"ema=
+il-button" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td valig=
+n=3D"middle" align=3D"left" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a hr=
+ef=3D"https://www.linkedin.com/comm/pulse/ia-generativa-recursos-humanos-10=
+-dicas-para-otimizar-kkwoe?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_foll=
+ow_newsletter_01%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D%3D&amp;midToken=3DAQHxaOsd=
+YMWJVQ&amp;midSig=3D2MVfjjz4iIPrw1&amp;trk=3Deml-email_series_follow_newsle=
+tter_01-newsletter_content_preview-0-read_more_banner_cta_&amp;trkEmail=3De=
+ml-email_series_follow_newsletter_01-newsletter_content_preview-0-read_more=
+_banner_cta_-null-gdb74f~m49rn901~uk-null-null&amp;eid=3Dgdb74f-m49rn901-uk=
+&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4NmNiZDU0NDlmYWE=
+4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg1NDRjN2ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1MG=
+UzYzI2MGNhOWU3MDBmMGRiYywxLDE%3D" target=3D"_blank" aria-label=3D"Abrir est=
+e artigo no LinkedIn" class=3D"align-top no-underline " style=3D"color: #0a=
+66c2; cursor: pointer; display: inline-block; text-decoration: none; -webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; vertical-align: top; =
+text-decoration-line: none;"> <table role=3D"presentation" valign=3D"top" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"auto" class=3D"bor=
+der-separate " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: sep=
+arate;"> <tbody> <tr> <td class=3D"btn-sm btn-primary border-color-brand bu=
+tton-link leading-regular !min-h-[auto] !shadow-none border-1 border-solid"=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; height: min-content; border-radius=
+: 24px; padding-top: 7px; padding-bottom: 7px; padding-left: 16px; padding-=
+right: 16px; text-align: center; font-size: 14px; font-weight: 600; cursor:=
+ pointer; text-decoration-line: none; background-color: #0a66c2; color: #ff=
+ffff; border-width: 1px; border-style: solid; border-color: #0a66c2; line-h=
+eight: 1.25; min-height: auto !important; box-shadow: 0 0 #0000, 0 0 #0000,=
+ 0 0 #0000 !important;"> <a href=3D"https://www.linkedin.com/comm/pulse/ia-=
+generativa-recursos-humanos-10-dicas-para-otimizar-kkwoe?lipi=3Durn%3Ali%3A=
+page%3Aemail_email_series_follow_newsletter_01%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw=
+%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2MVfjjz4iIPrw1&amp;trk=3D=
+eml-email_series_follow_newsletter_01-newsletter_content_preview-0-read_mor=
+e_banner_cta_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newslett=
+er_content_preview-0-read_more_banner_cta_-null-gdb74f~m49rn901~uk-null-nul=
+l&amp;eid=3Dgdb74f-m49rn901-uk&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwN=
+GVkNDUxZGU0YjQ4NmNiZDU0NDlmYWE4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg1NDRjN2Vi=
+YzQwMWZhZmU3MjRiMTJhY2RlN2M1MGUzYzI2MGNhOWU3MDBmMGRiYywxLDE%3D" target=3D"_=
+blank" tabindex=3D"-1" aria-hidden=3D"true" class=3D"no-underline" style=3D=
+"color: #0a66c2; cursor: pointer; display: inline-block; text-decoration: n=
+one; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decor=
+ation-line: none;"> <span class=3D"no-underline text-white" style=3D"color:=
+ #ffffff; text-decoration-line: none;"> Ler no LinkedIn </span> </a> </td> =
+</tr> </tbody> </table> </a> </td> </tr> </tbody> </table> </div> </td> </t=
+r> <tr data-test-id=3D"newsletter-content-preview--content"> <td class=3D"s=
+eries-article-body" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -a=
+pple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica =
+Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans',=
+ 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'=
+, 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 16px; line-heig=
+ht: 1.5; color: rgba(0, 0, 0, 0.9);"> <h3 style=3D"margin: 0; margin-left: =
+0px; margin-right: 0px; margin-top: 8px; margin-bottom: 4px; font-size: 16p=
+x; font-weight: 600; line-height: 1.25; letter-spacing: -0.02em; color: rgb=
+a(0, 0, 0, 0.9);">Hosana Azevedo destaca as melhores pr=C3=A1ticas para emp=
+resas que buscam equilibrar o uso de IA Generativa no Recursos Humanos</h3>=
+<p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em;=
+ line-height: 1.5;">Com a IA generativa se tornando uma ferramenta cada vez=
+ mais usada nas empresas, o controle dos custos dessa tecnologia passa a se=
+r uma quest=C3=A3o estrat=C3=A9gica. Segundo&nbsp;<a href=3D"https://webina=
+r.gartner.com/640679/agenda/session/1416903?login=3DML" target=3D"_blank" r=
+el=3D"nofollow noopener" style=3D"text-decoration: none; -webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; display: inline; cursor: pointer;=
+ font-weight: 600; color: #0a66c2; text-decoration-line: none;">levantament=
+o da Gartner</a>, as maiores barreiras para implementar IA incluem desafios=
+ t=C3=A9cnicos (28%), custos (26%) e necessidade de m=C3=A3o de obra qualif=
+icada (26%). Embora essa tecnologia traga benef=C3=ADcios em automa=C3=A7=
+=C3=A3o e personaliza=C3=A7=C3=A3o, seu uso intenso pode gerar custos altos=
+, impactando o or=C3=A7amento.</p><p style=3D"margin: 0; font-weight: 400; =
+margin-top: 0.8em; font-size: 1em; line-height: 1.5;">Ent=C3=A3o, para gara=
+ntir que os investimentos tragam os retornos esperados, =C3=A9 fundamental =
+adotar estrat=C3=A9gias que maximizem a efici=C3=AAncia sem comprometer o o=
+r=C3=A7amento. Hosana Azevedo, Head de Recursos Humanos do Infojobs e porta=
+-voz do Pandap=C3=A9, comenta sobre as t=C3=A9cnicas recomendadas pela Gart=
+ner para que empresas implementem essa tecnologia de forma mais segura e su=
+stent=C3=A1vel.</p><h3 style=3D"margin: 0; margin-left: 0px; margin-right: =
+0px; margin-top: 8px; margin-bottom: 4px; font-size: 16px; font-weight: 600=
+; line-height: 1.25; letter-spacing: -0.02em; color: rgba(0, 0, 0, 0.9);">1=
+ - Avalie o equil=C3=ADbrio entre custo, precis=C3=A3o e desempenho do mode=
+lo</h3><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-siz=
+e: 1em; line-height: 1.5;">"Nos processos de RH, como an=C3=A1lise de desem=
+penho ou feedback de clima organizacional, a precis=C3=A3o =C3=A9 important=
+e, mas nem sempre vale a pena pagar a mais por modelos super avan=C3=A7ados=
+ para tarefas mais simples. Escolher o n=C3=ADvel certo de precis=C3=A3o pa=
+ra cada caso pode representar uma grande economia, sem comprometer a qualid=
+ade das an=C3=A1lises. =C3=89 como escolher entre um servi=C3=A7o premium e=
+ um intermedi=C3=A1rio para a tarefa: muitas vezes, o intermedi=C3=A1rio j=
+=C3=A1 atende bem =C3=A0 necessidade," explica Hosana.</p><h3 style=3D"marg=
+in: 0; margin-left: 0px; margin-right: 0px; margin-top: 8px; margin-bottom:=
+ 4px; font-size: 16px; font-weight: 600; line-height: 1.25; letter-spacing:=
+ -0.02em; color: rgba(0, 0, 0, 0.9);">2 - Tenha diferentes op=C3=A7=C3=B5es=
+ de modelos para escolher a mais adequada</h3><p style=3D"margin: 0; font-w=
+eight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">Para a es=
+pecialista, "Ter diferentes op=C3=A7=C3=B5es de modelos de IA =C3=A9 uma fo=
+rma estrat=C3=A9gica de otimizar os custos. Em vez de usar sempre o modelo =
+mais sofisticado, que pode ser caro e excessivo para tarefas simples, voc=
+=C3=AA pode escolher a solu=C3=A7=C3=A3o mais eficiente para cada tipo de a=
+tividade. Isso permite que voc=C3=AA alavanque a tecnologia de forma mais e=
+con=C3=B4mica, aplicando o modelo adequado =C3=A0 complexidade de cada tare=
+fa e evitando gastos desnecess=C3=A1rios com recursos que n=C3=A3o s=C3=A3o=
+ necess=C3=A1rios".</p><h3 style=3D"margin: 0; margin-left: 0px; margin-rig=
+ht: 0px; margin-top: 8px; margin-bottom: 4px; font-size: 16px; font-weight:=
+ 600; line-height: 1.25; letter-spacing: -0.02em; color: rgba(0, 0, 0, 0.9)=
+;">3 - Equilibre custos iniciais e custos de manuten=C3=A7=C3=A3o</h3><p st=
+yle=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line=
+-height: 1.5;">"=C3=89 comum focar apenas no investimento inicial e esquece=
+r os custos cont=C3=ADnuos de manuten=C3=A7=C3=A3o da IA. Por=C3=A9m, ao ad=
+otar essa tecnologia, =C3=A9 importante considerar tamb=C3=A9m os custos de=
+ opera=C3=A7=C3=A3o, como o consumo de energia, atualiza=C3=A7=C3=B5es freq=
+uentes, suporte t=C3=A9cnico e poss=C3=ADveis ajustes ao longo do tempo. Es=
+ses custos recorrentes podem impactar o or=C3=A7amento significativamente; =
+por isso, =C3=A9 essencial planejar e ter uma vis=C3=A3o equilibrada entre =
+o que voc=C3=AA gasta para implementar a IA e o que ela demandar=C3=A1 ao l=
+ongo do tempo. Esse planejamento estrat=C3=A9gico ajuda a evitar surpresas =
+financeiras e a garantir que a IA seja uma ferramenta sustent=C3=A1vel e al=
+inhada com as necessidades de sua empresa=E2=80=9D.</p><h3 style=3D"margin:=
+ 0; margin-left: 0px; margin-right: 0px; margin-top: 8px; margin-bottom: 4p=
+x; font-size: 16px; font-weight: 600; line-height: 1.25; letter-spacing: -0=
+.02em; color: rgba(0, 0, 0, 0.9);">4 - Considere as vantagens e desvantagen=
+s de manter a IA internamente</h3><p style=3D"margin: 0; font-weight: 400; =
+margin-top: 0.8em; font-size: 1em; line-height: 1.5;">"Optar por auto-hospe=
+dagem, ou seja, gerenciar internamente os servidores e sistemas de IA, pode=
+ inicialmente parecer uma solu=C3=A7=C3=A3o mais econ=C3=B4mica. No entanto=
+, essa decis=C3=A3o exige que a empresa assuma a responsabilidade pela inst=
+ala=C3=A7=C3=A3o, manuten=C3=A7=C3=A3o e atualiza=C3=A7=C3=A3o constante do=
+s sistemas, al=C3=A9m de ter uma equipe t=C3=A9cnica qualificada para lidar=
+ com eventuais problemas. Isso pode gerar custos ocultos e imprevistos, tor=
+nando-se uma solu=C3=A7=C3=A3o cara a longo prazo. Por outro lado, muitas e=
+mpresas, especialmente aquelas sem uma equipe t=C3=A9cnica dedicada, prefer=
+em contratar servi=C3=A7os de hospedagem externa. Embora esse modelo envolv=
+a um custo fixo mensal, ele oferece maior seguran=C3=A7a, escalabilidade e =
+um suporte cont=C3=ADnuo. Esse investimento, muitas vezes, se revela mais v=
+antajoso, permitindo que a empresa foque em suas opera=C3=A7=C3=B5es princi=
+pais sem se preocupar com as complexidades da infraestrutura," sugere Hosan=
+a.</p><h3 style=3D"margin: 0; margin-left: 0px; margin-right: 0px; margin-t=
+op: 8px; margin-bottom: 4px; font-size: 16px; font-weight: 600; line-height=
+: 1.25; letter-spacing: -0.02em; color: rgba(0, 0, 0, 0.9);">5 - Defina pro=
+mpts claros para reduzir custos com ajustes</h3><p style=3D"margin: 0; font=
+-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">"Criar =
+prompts bem definidos =C3=A9 como dar =C3=A0 IA um mapa claro do que voc=C3=
+=AA espera dela. Quanto mais espec=C3=ADficos e claros forem os prompts, me=
+nos ajustes ser=C3=A3o necess=C3=A1rios depois. Por exemplo, ao solicitar u=
+m relat=C3=B3rio de desempenho dos talentos, em vez de pedir algo gen=C3=A9=
+rico como 'relat=C3=B3rio de desempenho', seja mais espec=C3=ADfico: 'crie =
+um relat=C3=B3rio detalhado sobre o desempenho dos profissionais do time de=
+ vendas, destacando as metas atingidas e os feedbacks recebidos no =C3=BAlt=
+imo trimestre.' Na pr=C3=A1tica, isso significa que sua equipe economizar=
+=C3=A1 tempo e esfor=C3=A7o, e a IA entregar=C3=A1 resultados mais precisos=
+ desde o in=C3=ADcio. Com menos corre=C3=A7=C3=B5es e retrabalho, a empresa=
+ economiza recursos valiosos,".</p><h3 style=3D"margin: 0; margin-left: 0px=
+; margin-right: 0px; margin-top: 8px; margin-bottom: 4px; font-size: 16px; =
+font-weight: 600; line-height: 1.25; letter-spacing: -0.02em; color: rgba(0=
+, 0, 0, 0.9);">6 - Utilize a =E2=80=98mem=C3=B3ria de respostas=E2=80=99 pa=
+ra perguntas comuns</h3><p style=3D"margin: 0; font-weight: 400; margin-top=
+: 0.8em; font-size: 1em; line-height: 1.5;">"Utilizar 'mem=C3=B3ria de resp=
+ostas' =C3=A9 uma =C3=B3tima forma de otimizar os custos da IA em situa=C3=
+=A7=C3=B5es de perguntas repetidas. Quando a IA responde as mesmas pergunta=
+s com frequ=C3=AAncia, usar uma mem=C3=B3ria de respostas significa que, ao=
+ inv=C3=A9s de gerar uma nova resposta toda vez, ela utiliza uma resposta j=
+=C3=A1 armazenada. Isso n=C3=A3o s=C3=B3 economiza no processamento, como t=
+amb=C3=A9m reduz o tempo de resposta, o que =C3=A9 especialmente =C3=BAtil =
+para empresas que lidam com grandes volumes de atendimento. Essa estrat=C3=
+=A9gia torna a IA mais eficiente e diminui custos operacionais, sem perder =
+qualidade na intera=C3=A7=C3=A3o," destaca Hosana.</p><h3 style=3D"margin: =
+0; margin-left: 0px; margin-right: 0px; margin-top: 8px; margin-bottom: 4px=
+; font-size: 16px; font-weight: 600; line-height: 1.25; letter-spacing: -0.=
+02em; color: rgba(0, 0, 0, 0.9);">7 - Automatize a escolha dos modelos para=
+ tarefas espec=C3=ADficas&nbsp;</h3><p style=3D"margin: 0; font-weight: 400=
+; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">"Em vez de depender=
+ de decis=C3=B5es manuais para escolher modelos, invista em sistemas que au=
+tomatizam esse processo. Isso n=C3=A3o s=C3=B3 economiza tempo, mas tamb=C3=
+=A9m garante que voc=C3=AA esteja utilizando cada ferramenta no momento cer=
+to, com base na complexidade da tarefa. Ao evitar o uso excessivo de solu=
+=C3=A7=C3=B5es avan=C3=A7adas, voc=C3=AA controla custos de forma mais inte=
+ligente e foca o poder da IA nas =C3=A1reas que realmente precisam".</p><h3=
+ style=3D"margin: 0; margin-left: 0px; margin-right: 0px; margin-top: 8px; =
+margin-bottom: 4px; font-size: 16px; font-weight: 600; line-height: 1.25; l=
+etter-spacing: -0.02em; color: rgba(0, 0, 0, 0.9);">8 - Monitore o uso e su=
+pervisione os gastos</h3><p style=3D"margin: 0; font-weight: 400; margin-to=
+p: 0.8em; font-size: 1em; line-height: 1.5;">Para Hosana, =E2=80=9CGovernan=
+=C3=A7a =C3=A9, basicamente, controle e supervis=C3=A3o. Se voc=C3=AA n=C3=
+=A3o monitora quanto est=C3=A1 usando a IA, pode acabar gastando mais do qu=
+e deveria, como quando se usa mais eletricidade sem perceber. Existem ferra=
+mentas que ajudam a monitorar o uso da IA em tempo real, garantindo que voc=
+=C3=AA n=C3=A3o gaste mais do que o planejado. Mas n=C3=A3o se trata apenas=
+ de controlar os gastos. A supervis=C3=A3o ativa permite que voc=C3=AA iden=
+tifique inefici=C3=AAncias e descubra onde a IA pode ser aplicada de forma =
+mais eficaz, sem desperd=C3=ADcio. Dessa forma, voc=C3=AA garante que os re=
+cursos da IA sejam direcionados para as =C3=A1reas que realmente geram impa=
+cto estrat=C3=A9gico, potencializando o retorno sobre o investimento e mant=
+endo os custos sempre alinhados com os resultados desejados".</p><h3 style=
+=3D"margin: 0; margin-left: 0px; margin-right: 0px; margin-top: 8px; margin=
+-bottom: 4px; font-size: 16px; font-weight: 600; line-height: 1.25; letter-=
+spacing: -0.02em; color: rgba(0, 0, 0, 0.9);">9 - Capacite a equipe para o =
+uso econ=C3=B4mico da IA&nbsp;</h3><p style=3D"margin: 0; font-weight: 400;=
+ margin-top: 0.8em; font-size: 1em; line-height: 1.5;">"Capacitar sua equip=
+e para o uso eficiente da IA vai al=C3=A9m de simplesmente ensinar o b=C3=
+=A1sico. Ao investir em treinamentos e criar guias claros, voc=C3=AA evita =
+que a IA seja usada de maneira inadequada, o que pode gerar custos extras. =
+O RH e a equipe de DP, por exemplo, podem ter processos que podem ser mais =
+automatizados ou otimizados, economizando tempo e dinheiro. Uma equipe bem =
+treinada sabe exatamente quando e como usar a IA de forma estrat=C3=A9gica,=
+ garantindo que ela seja utilizada para gerar o maior retorno poss=C3=ADvel=
+, sem desperd=C3=ADcios. Isso n=C3=A3o s=C3=B3 maximiza o potencial da IA, =
+como tamb=C3=A9m contribui para um ambiente de trabalho mais produtivo e co=
+laborativo", sugere.</p><h3 style=3D"margin: 0; margin-left: 0px; margin-ri=
+ght: 0px; margin-top: 8px; margin-bottom: 4px; font-size: 16px; font-weight=
+: 600; line-height: 1.25; letter-spacing: -0.02em; color: rgba(0, 0, 0, 0.9=
+);">10 - Revise e analise todos os custos, inclusive os ocultos</h3><p styl=
+e=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-h=
+eight: 1.5;">Enquanto os custos diretos, como o valor da ferramenta, s=C3=
+=A3o f=C3=A1ceis de identificar, os custos ocultos, como customiza=C3=A7=C3=
+=B5es, atualiza=C3=A7=C3=B5es n=C3=A3o previstas e despesas com manuten=C3=
+=A7=C3=A3o, podem surgir inesperadamente, impactando o or=C3=A7amento. Por =
+isso, =C3=A9 crucial ter uma vis=C3=A3o abrangente desde o in=C3=ADcio, con=
+siderando esses custos adicionais ao planejar o uso da IA. Al=C3=A9m disso,=
+ realizar revis=C3=B5es peri=C3=B3dicas permite ajustar o planejamento conf=
+orme as necessidades da empresa evoluem, garantindo que a IA seja um invest=
+imento sustent=C3=A1vel a longo prazo. Ao controlar essas vari=C3=A1veis de=
+ forma estrat=C3=A9gica, sua empresa consegue alinhar o uso da IA com os ob=
+jetivos financeiros, otimizando os recursos e evitando surpresas no futuro"=
+, conclui a Head de RH.</p><p style=3D"margin: 0; font-weight: 400; margin-=
+top: 0.8em; font-size: 1em; line-height: 1.5;">A IA veio para ficar, e sua =
+presen=C3=A7a nas empresas vai s=C3=B3 aumentar nos pr=C3=B3ximos anos. Mas=
+, se n=C3=A3o tomarmos as r=C3=A9deas do seu uso, ela pode acabar pesando n=
+o bolso mais do que imaginamos. Sem um controle estrat=C3=A9gico, o que pod=
+eria ser uma vantagem competitiva se transforma em um custo elevado e dif=
+=C3=ADcil de justificar. A chave =C3=A9 fazer a IA trabalhar a favor da emp=
+resa, e n=C3=A3o deixar que ela vire um fardo financeiro.</p><figure style=
+=3D"margin: 0px;"><img data-media-urn data-li-src=3D"https://media.licdn.co=
+m/dms/image/v2/D4E12AQHh02CTSqbDUA/article-inline_image-shrink_1500_2232/ar=
+ticle-inline_image-shrink_1500_2232/0/1733248456917?e=3D1738800000&amp;v=3D=
+beta&amp;t=3Du2SlnM_MlGkEyKQqckQn0oV9Uz8i9eBMRXw12vrCqYs" src=3D"https://me=
+dia.licdn.com/dms/image/v2/D4E12AQHh02CTSqbDUA/article-inline_image-shrink_=
+1500_2232/article-inline_image-shrink_1500_2232/0/1733248456917?e=3D1738800=
+000&amp;v=3Dbeta&amp;t=3Du2SlnM_MlGkEyKQqckQn0oV9Uz8i9eBMRXw12vrCqYs" width=
+=3D"480" style=3D"outline: none; text-decoration: none; -ms-interpolation-m=
+ode: bicubic; margin-top: 1em; display: block; max-width: 100%; margin-left=
+: auto; margin-right: auto; width: 100%;"><figcaption style=3D"margin-top: =
+8px; text-align: center; font-family: -apple-system, system-ui, BlinkMacSys=
+temFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen,=
+ 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emo=
+ji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial=
+, sans-serif; font-size: 14px; line-height: 1.25; color: rgba(0, 0, 0, 0.6)=
+;">Hosana Azevedo, Head de Recursos Humanos do Infojobs e porta-voz do Pand=
+ap=C3=A9. Foto: Divulga=C3=A7=C3=A3o</figcaption></figure><h3 style=3D"marg=
+in: 0; margin-left: 0px; margin-right: 0px; margin-top: 8px; margin-bottom:=
+ 4px; font-size: 16px; font-weight: 600; line-height: 1.25; letter-spacing:=
+ -0.02em; color: rgba(0, 0, 0, 0.9);">Sobre o Pandap=C3=A9</h3><p style=3D"=
+margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height=
+: 1.5;">Pandap=C3=A9 =C3=A9 o software de RH l=C3=ADder na Am=C3=A9rica Lat=
+ina, com mais de 8 mil clientes ativos. O <a target=3D"_blank" href=3D"http=
+s://www.linkedin.com/company/pandape/" style=3D"text-decoration: none; -web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; display: inline; cu=
+rsor: pointer; font-weight: 600; color: #0a66c2; text-decoration-line: none=
+;">Pandap=C3=A9 Brasil</a> se destaca por sua integra=C3=A7=C3=A3o exclusiv=
+a com os maiores portais de emprego do Brasil, Infojobs e Catho, oferecendo=
+ acesso a uma base combinada de 68 milh=C3=B5es de curr=C3=ADculos.</p><p s=
+tyle=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; lin=
+e-height: 1.5;">Al=C3=A9m disso, conta com integra=C3=A7=C3=A3o a mais 18 c=
+anais de multipublica=C3=A7=C3=A3o, ampliando ainda mais a abrang=C3=AAncia=
+ na busca por talentos. Utilizando intelig=C3=AAncia artificial, o Pandap=
+=C3=A9 otimiza cada etapa do processo seletivo, garantindo efici=C3=AAncia,=
+ assertividade nas contrata=C3=A7=C3=B5es e uma excelente experi=C3=AAncia =
+para as pessoas candidatas. O software tamb=C3=A9m auxilia na gest=C3=A3o d=
+e pessoas com an=C3=A1lise de desempenho e engajamento, promovendo um ambie=
+nte saud=C3=A1vel e reduzindo o turnover. Com tecnologia de ponta, o Pandap=
+=C3=A9 =C3=A9 uma solu=C3=A7=C3=A3o estrat=C3=A9gica que impulsiona os resu=
+ltados do RH.</p> </td> </tr> <tr> <td class=3D"pt-2 no-underline" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt; padding-top: 16px; text-decoration-line: no=
+ne;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"email-button series-conten=
+t-preview__bottom-cta" data-test-id=3D"email-button" style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt;"> <tbody> <tr> <td valign=3D"middle" align=3D"left" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/co=
+mm/pulse/ia-generativa-recursos-humanos-10-dicas-para-otimizar-kkwoe?lipi=
+=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bvv1X2%2FY7Tu=
+a12wLYioQ6%2Bw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2MVfjjz4iIP=
+rw1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_content_prev=
+iew-0-readmore_button_&amp;trkEmail=3Deml-email_series_follow_newsletter_01=
+-newsletter_content_preview-0-readmore_button_-null-gdb74f~m49rn901~uk-null=
+-null&amp;eid=3Dgdb74f-m49rn901-uk&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1M=
+jQwNGVkNDUxZGU0YjQ4NmNiZDU0NDlmYWE4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg1NDRj=
+N2ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1MGUzYzI2MGNhOWU3MDBmMGRiYywxLDE%3D" target=
+=3D"_blank" aria-label=3D"Abrir Emprego &amp;amp; Tecnologia no LinkedIn" c=
+lass=3D"align-top no-underline " style=3D"color: #0a66c2; cursor: pointer; =
+display: inline-block; text-decoration: none; -webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; vertical-align: top; text-decoration-line: n=
+one; width: 100%;"> <table role=3D"presentation" valign=3D"top" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"border-separa=
+te " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: separate; wid=
+th: 100%;"> <tbody> <tr> <td class=3D"btn-md btn-secondary-emphasis border-=
+color-brand button-link leading-regular !min-h-[auto] !shadow-none border-1=
+ border-solid font-sans" data-test-id=3D"newsletter-content-preview-redesig=
+n-bottom-cta" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: min-content; =
+border-radius: 24px; padding-top: 12px; padding-bottom: 12px; padding-left:=
+ 24px; padding-right: 24px; text-align: center; font-size: 16px; font-weigh=
+t: 600; cursor: pointer; text-decoration-line: none; background-color: rgba=
+(0, 0, 0, 0); color: #0a66c2; border-width: 1px; border-style: solid; borde=
+r-color: #0a66c2; font-family: -apple-system, system-ui, BlinkMacSystemFont=
+, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxyge=
+n Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'S=
+egoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-=
+serif; line-height: 1.25; min-height: auto !important; box-shadow: 0 0 #000=
+0, 0 0 #0000, 0 0 #0000 !important;"> <a href=3D"https://www.linkedin.com/c=
+omm/pulse/ia-generativa-recursos-humanos-10-dicas-para-otimizar-kkwoe?lipi=
+=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bvv1X2%2FY7Tu=
+a12wLYioQ6%2Bw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2MVfjjz4iIP=
+rw1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_content_prev=
+iew-0-readmore_button_&amp;trkEmail=3Deml-email_series_follow_newsletter_01=
+-newsletter_content_preview-0-readmore_button_-null-gdb74f~m49rn901~uk-null=
+-null&amp;eid=3Dgdb74f-m49rn901-uk&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1M=
+jQwNGVkNDUxZGU0YjQ4NmNiZDU0NDlmYWE4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg1NDRj=
+N2ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1MGUzYzI2MGNhOWU3MDBmMGRiYywxLDE%3D" target=
+=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" class=3D"no-underline" sty=
+le=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decorati=
+on: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-=
+decoration-line: none; width: 100%;"> <span class=3D"no-underline text-colo=
+r-brand" style=3D"color: #0a66c2; text-decoration-line: none;"> Participe d=
+a conversa </span> </a> </td> </tr> </tbody> </table> </a> </td> </tr> </tb=
+ody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> <=
+/td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </div> </td> </t=
+r> <tr> <td class=3D"bg-color-background-canvas p-3" style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt; background-color: #f3f2f0; padding: 24px;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" class=3D"text-xs" style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt; font-size: 12px;"> <tbody> <tr> <td class=3D"pb-1 m-0" data-test-id=3D=
+"email-footer__intended" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0p=
+x; padding-bottom: 8px;"> Este e-mail foi enviado a Luiz Fernando Brito Fer=
+reira (Full-Stack Developer | HTML | CSS | JS | React.js | Node.js | Python=
+) </td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; margin: 0px; padding-bottom: 8px;"> <a href=3D"https://www.linkedin.=
+com/help/linkedin/answer/4788?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_=
+email_series_follow_newsletter_01%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D%3D&amp;mi=
+dToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2MVfjjz4iIPrw1&amp;trk=3Deml-email_ser=
+ies_follow_newsletter_01-SecurityHelp-0-footerglimmer&amp;trkEmail=3Deml-em=
+ail_series_follow_newsletter_01-SecurityHelp-0-footerglimmer-null-gdb74f~m4=
+9rn901~uk-null-null&amp;eid=3Dgdb74f-m49rn901-uk&amp;otpToken=3DMWIwZDE3ZTg=
+xMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4NmNiZDU0NDlmYWE4YTYxNzljNDA2NmQ0YjVkNWJmMm=
+ZlZDNkZjg1NDRjN2ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1MGUzYzI2MGNhOWU3MDBmMGRiYywxL=
+DE%3D" target=3D"_blank" class=3D"text-inherit underline" style=3D"cursor: =
+pointer; display: inline-block; text-decoration: none; -webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; color: inherit; text-decoration-lin=
+e: underline;">Saiba por que inclu=C3=ADmos isso.</a> </td> </tr> <tr> <td =
+class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; pad=
+ding-bottom: 8px;">Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=
+=C3=A3o do LinkedIn. Outras pessoas podem ver que voc=C3=AA =C3=A9 assinant=
+e.</td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; margin: 0px; padding-bottom: 8px;"> <a href=3D"https://www.linkedin.=
+com/comm/series-notifications/?action=3Dunsubscribe&amp;memberToken=3DADoAA=
+Dr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&amp;newsletterId=3D7202681997633196033&a=
+mp;newsletterTitle=3DEmprego%20&amp;%20Tecnologia&amp;lipi=3Durn%3Ali%3Apag=
+e%3Aemail_email_series_follow_newsletter_01%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D=
+%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2MVfjjz4iIPrw1&amp;trk=3Deml=
+-email_series_follow_newsletter_01-unsubscribe-0-footerGlimmer&amp;trkEmail=
+=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGlimmer-null-g=
+db74f~m49rn901~uk-null-null&amp;eid=3Dgdb74f-m49rn901-uk&amp;otpToken=3DMWI=
+wZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4NmNiZDU0NDlmYWE4YTYxNzljNDA2NmQ0Yj=
+VkNWJmMmZlZDNkZjg1NDRjN2ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1MGUzYzI2MGNhOWU3MDBmM=
+GRiYywxLDE%3D" target=3D"_blank" class=3D"text-inherit underline" style=3D"=
+cursor: pointer; display: inline-block; text-decoration: none; -webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; color: inherit; text-decora=
+tion-line: underline;">Cancelar inscri=C3=A7=C3=A3o</a> =C2=A0=C2=A0=C2=B7=
+=C2=A0=C2=A0 <a href=3D"https://www.linkedin.com/help/linkedin/answer/67?la=
+ng=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_0=
+1%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midS=
+ig=3D2MVfjjz4iIPrw1&amp;trk=3Deml-email_series_follow_newsletter_01-help-0-=
+footerglimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-help-0-f=
+ooterglimmer-null-gdb74f~m49rn901~uk-null-null&amp;eid=3Dgdb74f-m49rn901-uk=
+&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4NmNiZDU0NDlmYWE=
+4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg1NDRjN2ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1MG=
+UzYzI2MGNhOWU3MDBmMGRiYywxLDE%3D" target=3D"_blank" class=3D"text-inherit u=
+nderline" style=3D"cursor: pointer; display: inline-block; text-decoration:=
+ none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: i=
+nherit; text-decoration-line: underline;">Ajuda</a> </td> </tr> <tr> <td cl=
+ass=3D"pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px;">=
+ <a href=3D"https://www.linkedin.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Aem=
+ail_email_series_follow_newsletter_01%3Bvv1X2%2FY7Tua12wLYioQ6%2Bw%3D%3D&am=
+p;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2MVfjjz4iIPrw1&amp;trk=3Deml-email=
+_series_follow_newsletter_01-footer-0-logoGlimmer&amp;trkEmail=3Deml-email_=
+series_follow_newsletter_01-footer-0-logoGlimmer-null-gdb74f~m49rn901~uk-nu=
+ll-null&amp;eid=3Dgdb74f-m49rn901-uk&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I=
+1MjQwNGVkNDUxZGU0YjQ4NmNiZDU0NDlmYWE4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg1ND=
+RjN2ViYzQwMWZhZmU3MjRiMTJhY2RlN2M1MGUzYzI2MGNhOWU3MDBmMGRiYywxLDE%3D" targe=
+t=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-bloc=
+k; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%;"> <img src=3D"https://static.licdn.com/aero-v1/sc/h/9ehe6n39fa07=
+dc5edzv0rla4e" alt=3D"LinkedIn" class=3D"block h-[14px] w-[56px] image-rend=
+ering-crisp" style=3D"outline: none; text-decoration: none; image-rendering=
+: -moz-crisp-edges; image-rendering: -o-crisp-edges; image-rendering: -webk=
+it-optimize-contrast; image-rendering: crisp-edges; -ms-interpolation-mode:=
+ nearest-neighbor; display: block; height: 14px; width: 56px;" width=3D"56"=
+ height=3D"14"> </a> </td> </tr> <tr> <td data-test-copyright-text style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt;"> =C2=A9 2024 LinkedIn Ireland Unlimited Co=
+mpany, Wilton Plaza, Wilton Place, Dublin 2 - Irlanda. LinkedIn =C3=A9 um n=
+ome comercial registrado da LinkedIn Ireland Unlimited Company. <span data-=
+test-trademarks-text> LinkedIn e o logo do LinkedIn s=C3=A3o marcas registr=
+adas do LinkedIn. </span> </td> </tr> </tbody> </table> </td> </tr> </tbody=
+> </table> <img alt role=3D"presentation" src=3D"https://www.linkedin.com/e=
+mimp/ip_WjJSaU56Um1MVzAwT1hKdU9UQXhMWFZyOlpXMWhhV3hmYzJWeWFXVnpYMlp2Ykd4dmQ=
+xOXVaWGR6YkdWMGRHVnlYekF4OmRYSnVPbXhwT214cGJtdGxaRWx1UVhKMGFXTnNaVG8zTWpZNU=
+56WTVNRFkwTXpBMU1ERTJPRE16.gif" style=3D"outline: none; text-decoration: no=
+ne; -ms-interpolation-mode: bicubic; width: 1px; height: 1px;" width=3D"1" =
+height=3D"1"> </body> </html>
+------=_Part_2055837_916188174.1733309556291--
+

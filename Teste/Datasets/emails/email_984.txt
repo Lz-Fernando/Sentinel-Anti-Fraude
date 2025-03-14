@@ -1,0 +1,897 @@
+X-GM-THRID: 1825973694615555299
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:37c7:b0:2cd:a3c7:5e5d with SMTP id o7csp224564ysp;
+        Fri, 7 Mar 2025 13:50:15 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IGVNyLrD04glsGXVuK3OoZ8UKQpNmAJoGmk9k64juk8vqzqcdfMVb5Z3jB3jQ2sD5EFdvnE
+X-Received: by 2002:a05:620a:1b87:b0:7c5:3cf6:782b with SMTP id af79cd13be357-7c53cf67a14mr213207285a.54.1741384214724;
+        Fri, 07 Mar 2025 13:50:14 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1741384214; cv=none;
+        d=google.com; s=arc-20240605;
+        b=HnrJPEuOmmSB+2ZTgn5CVc3B0wxqAku7c6ZrxbuKo2fBgLU2PO5x5sRZgBUOYU+aCH
+         RqON2/FlwUEbuEh/wwa/CsTENmQHg6L7UB45+QyeaZG7jYd2sFYJiqUL8uMvMijYdm37
+         UStCB9tJiHErXq7q23bymmI1GxAPlu21KHVPqw8oNxLK0+3G79jnzznxJcx1ALMzg9Pv
+         Vrajgy7GzzuZY4fxyShPcYBrYl0grgxR0EGus47NHTlo25GKFo22OweGtwXGfRggQP6A
+         0BSH0Y0315RkbJRb5x8NUpjJh7pc7fRTwYtaDq5B+5y13w8RlNXdUxpKmFpkfYe8qDJF
+         egnQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=EW9eeTKyORN5ZXNjMAd1He5IFo7sVTs/YVHN+8DdifQ=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=dCCyPSi6zICRPC6NHQEh2U4kcWBc8WenUojkUicyMhKqZf4bXNzGIXaB7GMxRZ+g13
+         ksZywsQHhEDWUB4/gLXGWr9Gy5X2odU81YyxbbaQnLLjo+K71WB8hS8l1BDKlUdsay+n
+         pZiGkakyg4Vn8NIQ935KZfajCRhgCVqQRgKJ2TX9vxvLsiSNEo3iCv8KfSJPsXF6dJDH
+         wI4Z40ycRUWpY9aW+if4CtZkarcGyLKAadr/jQOY6W4tq2tR2lDrnvCqMZGjoOJp3S/C
+         +OkPNrJrJhMBdb28pd5PO+QSAJGVtXGfDMTPtIW86nZOKn7tkQ8O8mcogyWrx4yuUoZS
+         juOw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=k3NMBYZk;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=cloCgqoD;
+       spf=pass (google.com: domain of s-2ddhihami4eurwp8drgp3qzmnlze1mv33r3651s2lpl20v48en4jjlf4@bounce.linkedin.com designates 108.174.3.201 as permitted sender) smtp.mailfrom=s-2ddhihami4eurwp8drgp3qzmnlze1mv33r3651s2lpl20v48en4jjlf4@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-2ddhihami4eurwp8drgp3qzmnlze1mv33r3651s2lpl20v48en4jjlf4@bounce.linkedin.com>
+Received: from maile-ba.linkedin.com (maile-ba.linkedin.com. [108.174.3.201])
+        by mx.google.com with ESMTPS id af79cd13be357-7c53f0c994bsi2039185a.439.2025.03.07.13.50.14
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 07 Mar 2025 13:50:14 -0800 (PST)
+Received-SPF: pass (google.com: domain of s-2ddhihami4eurwp8drgp3qzmnlze1mv33r3651s2lpl20v48en4jjlf4@bounce.linkedin.com designates 108.174.3.201 as permitted sender) client-ip=108.174.3.201;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=k3NMBYZk;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=cloCgqoD;
+       spf=pass (google.com: domain of s-2ddhihami4eurwp8drgp3qzmnlze1mv33r3651s2lpl20v48en4jjlf4@bounce.linkedin.com designates 108.174.3.201 as permitted sender) smtp.mailfrom=s-2ddhihami4eurwp8drgp3qzmnlze1mv33r3651s2lpl20v48en4jjlf4@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1741384212;
+	bh=EW9eeTKyORN5ZXNjMAd1He5IFo7sVTs/YVHN+8DdifQ=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=k3NMBYZkunmT1libScWRWEaaChJSAhk1olllc36J2968EAc5ovlw3ig/BpNRZHUpi
+	 pr251ilFJ73d1RrGomwHb21T0TVcThNBII6ijW9lJxf6ufNWECn/olyc8NgCONFObp
+	 mjCfkP/3sXEvJ8qTzEHCqOWIBBTPrJEGBSo7wRHW4cpgOiwyeV7nL9/xnvqkeKelj5
+	 0+HbDJjvlpJXhDyWcvaXcY5yLxzEon5L1mGOErYYKvehmCcUZo9fHfecAoIEzLPkY/
+	 7h2XRLzrBiSgo++J2H0FqWUqbKElpmaf7piJzWsk9RFpqzyQKMwx/ZUwHc0lK95HcM
+	 lpz9zpVymYbsA==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1741384212;
+	bh=EW9eeTKyORN5ZXNjMAd1He5IFo7sVTs/YVHN+8DdifQ=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=cloCgqoDa9tSrKlH28iIlah2+FtMO9FBuDncbucXHZftGBmb4kjrbCtFCBYs2nsaz
+	 Mb0FnyAh3nUWimRMRBvxf2z59EH6kKJPVKfXgiUjYKVjjhlc7vmNmbJmzWmQe1c4US
+	 fIuK+1mhXnzZs+95yurktTHB3vj/2mHLc/ty7TUS7rGBevrQ0vVFHdmj7SSouTFTD7
+	 9Oqi9G3TIM7ByPuaPIgNcBFmwlzQswShcNN8BWyxPDD3wKRp9ImskI4M5m7vmmORmu
+	 CahLCOmyPYRaw51FnPPR3dnShyKmsTs0j7D0d8rlYztem4hUlZGp4479gzknZ3cJ30
+	 XUR0TalM6NEoQ==
+From: Leandro Brito Bastos via LinkedIn <newsletters-noreply@linkedin.com>
+Message-ID: <384372844.4075376.1741384212951@lva1-app87508.prod.linkedin.com>
+Subject: =?UTF-8?Q?Cyberseguran=C3=A7a_no_Cinema:_Hollywood_Acert?=
+ =?UTF-8?Q?ou_ou_S=C3=B3_Fez_Mais_Um?=
+ =?UTF-8?Q?_Ctrl+C,_Ctrl+V=3F_=F0=9F=8E=AC=F0=9F=92=BB?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_4075374_1149680482.1741384212948"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Fri, 7 Mar 2025 21:50:12 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-aszwjq4g5z1xasfyrjgbaxkee63qazvv5tzyadvh9dz0ublzzju7dduc2dx0h9lmtgn8tn7gbij7nh5wlm9hvgtbymavuzr4ucvsz0
+X-LinkedIn-Id: gdb74f-m7zb68vl-5u
+List-Unsubscribe: <https://www.linkedin.com/series-notifications/?action=unsubscribe&memberToken=ADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&newsletterId=7206051779325632512&newsletterTitle=Resumo Tech&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BMcdxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3D&midToken=AQHxaOsdYMWJVQ&midSig=10g1Y7nJZuSXE1&ek=email_series_follow_newsletter_01&e=gdb74f-m7zb68vl-5u&eid=gdb74f-m7zb68vl-5u&m=unsub&ts=unsub&li=0&t=plh>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_4075374_1149680482.1741384212948
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Resumo Tech
+
+Por Leandro Brito Bastos
+
+
+Por Leandro Brito Bastos
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/cyberseguran%C3%A7a-cinema-hollywood-ac=
+ertou-ou-s%C3%B3-fez-um-brito-bastos-gcjrf?lipi=3Durn%3Ali%3Apage%3Aemail_e=
+mail_series_follow_newsletter_01%3BMcdxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3D&mid=
+Token=3DAQHxaOsdYMWJVQ&midSig=3D10g1Y7nJZuSXE1&trk=3Deml-email_series_follo=
+w_newsletter_01-null-0-read_more_banner_cta_&trkEmail=3Deml-email_series_fo=
+llow_newsletter_01-null-0-read_more_banner_cta_-null-gdb74f~m7zb68vl~5u-nul=
+l-null&eid=3Dgdb74f-m7zb68vl-5u&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVk=
+NDIxZmU0YmM4YmNjZDE0MzljYWE4ZjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjllNDZmM2I4ZTc=
+3OGExZmM4MTc1NzdlMzhlMzY1NzM5ZjZiZTc5NjE1ZTc4ODQyYywxLDE%3D
+ =20
+Ah, Hollywood... sempre nos brindando com sua vis=C3=A3o =E2=80=9Cprecisa=
+=E2=80=9D sobre tecnologia, hackers e ciberseguran=C3=A7a. Quem nunca assis=
+tiu a um filme onde um nerd de moletom resolve uma vulnerabilidade de 12 ca=
+madas com um =C3=BAnico ENTER e um =E2=80=9CEstou dentro=E2=80=9D? Sim, cla=
+ro, porque =C3=A9 assim que funciona no mundo real. Mas sejamos justos, h=
+=C3=A1 sim algumas produ=C3=A7=C3=B5es que captam (ou tentam captar) a ess=
+=C3=AAncia desse universo. Se voc=C3=AA trabalha com TI, j=C3=A1 deve ter r=
+olado os olhos para certas cenas, mas tamb=C3=A9m deve ter se empolgado com=
+ outras. Vamos dar uma olhada nessa lista: =F0=9F=8E=A5 Cl=C3=A1ssicos e os=
+ primeiros alertas sobre ciberseguran=C3=A7a "Jogos de Guerra" (1983) =E2=
+=80=93 Esse foi um dos primeiros filmes a trazer a ciberseguran=C3=A7a para=
+ o mainstream. Um jovem hacker (interpretado por Matthew Broderick) acident=
+almente acessa um sistema militar e quase inicia a Terceira Guerra Mundial.=
+ Simplesmente uma aula sobre os perigos da automa=C3=A7=C3=A3o e da falta d=
+e autentica=C3=A7=C3=A3o nos sistemas cr=C3=ADticos. "Sneakers" (1992) =E2=
+=80=93 Aqui temos um grupo de especialistas em seguran=C3=A7a que trabalha =
+testando sistemas... at=C3=A9 que acabam envolvidos numa conspira=C3=A7=C3=
+=A3o. Um dos primeiros filmes a mostrar que hackers n=C3=A3o s=C3=A3o apena=
+s jovens solit=C3=A1rios em por=C3=B5es, mas podem formar equipes sofistica=
+das. "Hackers" (1995) =E2=80=93 Esse aqui virou cult entre os amantes da te=
+cnologia, mas convenhamos, a parte t=C3=A9cnica =C3=A9 um del=C3=ADrio cybe=
+rpunk. A hist=C3=B3ria segue um grupo de adolescentes que descobre uma cons=
+pira=C3=A7=C3=A3o enquanto brinca com sistemas corporativos. O grande m=C3=
+=A9rito? Ter influenciado uma gera=C3=A7=C3=A3o de jovens a olhar para a te=
+cnologia como um campo cheio de possibilidades. "A Rede" (1995) =E2=80=93 S=
+andra Bullock como analista de sistemas que descobre uma conspira=C3=A7=C3=
+=A3o e tem sua identidade apagada. Um =C3=B3timo alerta sobre como a manipu=
+la=C3=A7=C3=A3o digital pode ser usada para destruir a vida de uma pessoa. =
+Um pouco exagerado? Talvez. Mas, olhando para os golpes de deepfake e roubo=
+ de identidade hoje... talvez nem tanto. =F0=9F=94=A5 A=C3=A7=C3=A3o e cons=
+pira=C3=A7=C3=A3o: hackers sob amea=C3=A7a constante "Inimigo do Estado" (1=
+998) =E2=80=93 Esse thriller estrelado por Will Smith mostra um advogado se=
+ndo perseguido pelo governo ap=C3=B3s receber, sem saber, um v=C3=ADdeo com=
+prometer de um assassinato pol=C3=ADtico. A quest=C3=A3o da vigil=C3=A2ncia=
+ governamental j=C3=A1 estava ali, muito antes do esc=C3=A2ndalo Snowden. "=
+Takedown" (2000) =E2=80=93 Baseado na hist=C3=B3ria real de Kevin Mitnick, =
+um dos hackers mais famosos do mundo. Aqui, Hollywood tentou trazer um pouc=
+o mais de realismo ao universo da ciberseguran=C3=A7a. O resultado? Um film=
+e interessante, mas que n=C3=A3o chega perto da complexidade da hist=C3=B3r=
+ia real. "Duro de Matar 4.0" (2007) =E2=80=93 John McClane enfrentando um a=
+taque cibern=C3=A9tico que amea=C3=A7a derrubar os Estados Unidos. Preciso =
+dizer mais? Entretenimento puro, com um realismo muito question=C3=A1vel, m=
+as ao menos popularizou o conceito de =E2=80=9Cataques =C3=A0 infraestrutur=
+a cr=C3=ADtica=E2=80=9D. "Who Am I" (2014) =E2=80=93 Um dos poucos filmes q=
+ue realmente tentaram retratar o hacking de forma mais realista. A hist=C3=
+=B3ria acompanha um grupo de hackers an=C3=B4nimos que ganha notoriedade, m=
+as logo percebe que est=C3=A1 lidando com for=C3=A7as muito maiores do que =
+imaginavam. =F0=9F=93=BA S=C3=A9ries e miniss=C3=A9ries que retrataram o un=
+iverso hacker "Mr. Robot" (2015) =E2=80=93 Esse aqui dispensa apresenta=C3=
+=A7=C3=B5es. Uma das representa=C3=A7=C3=B5es mais precisas da cultura hack=
+er e da ciberseguran=C3=A7a. Se voc=C3=AA ainda n=C3=A3o assistiu, pare tud=
+o e v=C3=A1 ver agora. "Millennium" (2011) =E2=80=93 Adapta=C3=A7=C3=A3o da=
+ trilogia de Stieg Larsson, que apresenta Lisbeth Salander, uma hacker bril=
+hante e socialmente deslocada que ajuda um jornalista a desvendar um mist=
+=C3=A9rio. "Scorpion" (2014) =E2=80=93 Inspirada na vida do g=C3=AAnio Walt=
+er O'Brien (que alega ter um QI de 197), a s=C3=A9rie traz uma equipe de es=
+pecialistas resolvendo crises tecnol=C3=B3gicas. Drama, a=C3=A7=C3=A3o e ex=
+ageros t=C3=A9cnicos na medida certa para entreter. "Zero Day" (2025) =E2=
+=80=93 Uma s=C3=A9rie que promete trazer uma vis=C3=A3o realista de um ataq=
+ue cibern=C3=A9tico devastador. Se for bem-feita, pode se tornar refer=C3=
+=AAncia na =C3=A1rea. Se for exagerada, vai direto para a gaveta de =E2=80=
+=9Cmais do mesmo=E2=80=9D. =F0=9F=8E=9E=EF=B8=8F Document=C3=A1rios: quando=
+ a realidade supera a fic=C3=A7=C3=A3o "O Menino da Internet" (2014) =E2=80=
+=93 A hist=C3=B3ria de Aaron Swartz, um g=C3=AAnio da computa=C3=A7=C3=A3o =
+que lutou pelo acesso livre =C3=A0 informa=C3=A7=C3=A3o e pagou um pre=C3=
+=A7o alto por isso. "Privacidade Hackeada" (2019) =E2=80=93 Mostra como dad=
+os de milh=C3=B5es de usu=C3=A1rios do Facebook foram explorados pela Cambr=
+idge Analytica para manipular elei=C3=A7=C3=B5es. "Zero Days" (2016) =E2=80=
+=93 Um mergulho no Stuxnet, um dos v=C3=ADrus mais sofisticados j=C3=A1 des=
+cobertos, usado contra instala=C3=A7=C3=B5es nucleares iranianas. "Deep Web=
+" (2015) =E2=80=93 Uma an=C3=A1lise sobre a dark web, a venda de drogas onl=
+ine e o pol=C3=AAmico caso do Silk Road. "Citizenfour" (2014) =E2=80=93 Um =
+dos document=C3=A1rios mais importantes sobre vigil=C3=A2ncia governamental=
+, estrelado pelo pr=C3=B3prio Edward Snowden. "O Dilema das Redes" (2020) =
+=E2=80=93 Se voc=C3=AA ainda acha que tem controle sobre seu tempo na inter=
+net, assista a esse document=C3=A1rio e repense. =F0=9F=92=A1 Entreteniment=
+o ou alerta real? Agora, fica a pergunta: estamos consumindo esses conte=C3=
+=BAdos como entretenimento puro ou estamos aprendendo algo com eles? Se nem=
+ filmes e s=C3=A9ries conseguem capturar a complexidade da ciberseguran=C3=
+=A7a, ser=C3=A1 que o p=C3=BAblico geral entende a gravidade do que est=C3=
+=A1 acontecendo no mundo real? Se voc=C3=AA trabalha com tecnologia, sabe q=
+ue a fic=C3=A7=C3=A3o est=C3=A1 cada vez mais parecida com a realidade. Ent=
+=C3=A3o, qual desses filmes ou s=C3=A9ries voc=C3=AA acha que realmente ace=
+rtou na mosca? Ou ser=C3=A1 que estamos condenados a um looping eterno de =
+=E2=80=9CHack the Gibson=E2=80=9D e c=C3=B3digo verde rolando na tela? Come=
+nta a=C3=AD! Vamos ver quem realmente est=C3=A1 dentro dessa discuss=C3=A3o=
+. =F0=9F=9A=80=F0=9F=91=BE Leandro Brito =C3=A9 um profissional de tecnolog=
+ia com mais de 20 anos de experi=C3=AAncia em lideran=C3=A7a e consultoria =
+em TI, novos neg=C3=B3cios, relacionamento e ciberseguran=C3=A7a. Atualment=
+e, ocupa a posi=C3=A7=C3=A3o de Chief Information Officer em uma multinacio=
+nal, sendo respons=C3=A1vel pelo planejamento estrat=C3=A9gico dos sistemas=
+ de TI e ciberseguran=C3=A7a. Ele possui ampla experi=C3=AAncia em recupera=
+=C3=A7=C3=A3o de desastres, conscientiza=C3=A7=C3=A3o em seguran=C3=A7a da =
+informa=C3=A7=C3=A3o e lideran=C3=A7a t=C3=A9cnica. Leandro =C3=A9 co-apres=
+entador do Hyperdrive podcast , onde discute temas de tecnologia, pol=C3=AD=
+tica e cultura nerd. Com sua vasta experi=C3=AAncia, ele ajuda empresas a f=
+ortalecer a seguran=C3=A7a da informa=C3=A7=C3=A3o, melhorar a resili=C3=AA=
+ncia e promover a inova=C3=A7=C3=A3o tecnol=C3=B3gica. #Ciberseguran=C3=A7a=
+ #Hacker #Tech #Seguran=C3=A7aDigital #Cybersecurity #Tecnologia #Filmes #S=
+=C3=A9ries #Hollywood #TI #DataPrivacy #Privacidade #Hackers #Infosec #AI #=
+DeepWeb #DarkWeb #CyberThreats #Anon #EdwardSnowden #Stuxnet #Malware #Soci=
+alEngineering #DigitalPrivacy #CambridgeAnalytica #DilemaDasRedes #IA #Zero=
+Day #MrRobot #CyberAttack
+Continue lendo no LinkedIn
+https://www.linkedin.com/comm/pulse/cyberseguran%C3%A7a-cinema-hollywood-ac=
+ertou-ou-s%C3%B3-fez-um-brito-bastos-gcjrf?lipi=3Durn%3Ali%3Apage%3Aemail_e=
+mail_series_follow_newsletter_01%3BMcdxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3D&mid=
+Token=3DAQHxaOsdYMWJVQ&midSig=3D10g1Y7nJZuSXE1&trk=3Deml-email_series_follo=
+w_newsletter_01-newsletter_content_preview_text-0-readmore_button_&trkEmail=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview_text-0-=
+readmore_button_-null-gdb74f~m7zb68vl~5u-null-null&eid=3Dgdb74f-m7zb68vl-5u=
+&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4YmNjZDE0MzljYWE4ZjY=
+xNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjllNDZmM2I4ZTc3OGExZmM4MTc1NzdlMzhlMzY1NzM5Zj=
+ZiZTc5NjE1ZTc4ODQyYywxLDE%3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | Java | JS | React.js | PostgreSQL)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3BMcdxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3D&midToken=3DAQHxaOsdYMWJVQ=
+&midSig=3D10g1Y7nJZuSXE1&trk=3Deml-email_series_follow_newsletter_01-Securi=
+tyHelp-0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01=
+-SecurityHelp-0-textfooterglimmer-null-gdb74f~m7zb68vl~5u-null-null&eid=3Dg=
+db74f-m7zb68vl-5u&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4Ym=
+NjZDE0MzljYWE4ZjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjllNDZmM2I4ZTc3OGExZmM4MTc1N=
+zdlMzhlMzY1NzM5ZjZiZTc5NjE1ZTc4ODQyYywxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/series-notifications=
+/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjl=
+Y&newsletterId=3D7206051779325632512&newsletterTitle=3DResumo Tech&lipi=3Du=
+rn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BMcdxvW3%2BQv%2BR=
+NK%2FMihvj%2FQ%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D10g1Y7nJZuSXE1&ek=
+=3Demail_series_follow_newsletter_01&e=3Dgdb74f-m7zb68vl-5u&eid=3Dgdb74f-m7=
+zb68vl-5u&m=3Dunsubscribe&ts=3DfooterGlimmer&li=3D0&t=3Dplh  =C2=A0=C2=A0=
+=C2=B7=C2=A0=C2=A0Ajuda: https://www.linkedin.com/help/linkedin/answer/67?l=
+ang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3=
+BMcdxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D10=
+g1Y7nJZuSXE1&trk=3Deml-email_series_follow_newsletter_01-help-0-textfooterg=
+limmer&trkEmail=3Deml-email_series_follow_newsletter_01-help-0-textfootergl=
+immer-null-gdb74f~m7zb68vl~5u-null-null&eid=3Dgdb74f-m7zb68vl-5u&otpToken=
+=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4YmNjZDE0MzljYWE4ZjYxNzljNDA2=
+NmQ0YjVkNWJmMmZlZDNkZjllNDZmM2I4ZTc3OGExZmM4MTc1NzdlMzhlMzY1NzM5ZjZiZTc5NjE=
+1ZTc4ODQyYywxLDE%3D
+
+=C2=A9 2025 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_4075374_1149680482.1741384212948
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+/head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-canvas w-fu=
+ll m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; padding: 0p=
+x; padding-top: 8px; font-family: -apple-system, system-ui, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Ox=
+ygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sa=
+ns-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible overflow=
+-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; max-height=
+: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" data-email-p=
+reheader=3D"true">Ah, Hollywood... sempre nos brindando com sua vis=C3=A3o =
+=E2=80=9Cprecisa=E2=80=9D sobre tecnologia,=E2=80=A6</div> <div class=3D"h-=
+0 opacity-0 text-transparent invisible overflow-hidden w-0 max-h-[0]" style=
+=3D"visibility: hidden; height: 0px; max-height: 0; width: 0px; overflow: h=
+idden; opacity: 0; mso-hide: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+ =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table role=3D"p=
+resentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" width=3D"512" align=3D"center" class=3D"mercado-container w-[512px] max-w=
+-[512px] mx-auto my-0 p-0 " style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-=
+left: auto; margin-right: auto; margin-top: 0px; margin-bottom: 0px; width:=
+ 512px; max-width: 512px; padding: 0px;"> <tbody> <tr> <td style=3D"-webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D"top" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"bg-colo=
+r-background-container " style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background=
+-color: #ffffff;"> <tbody> <tr> <td class=3D"text-center p-3" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; padding: 24px; text-align: center;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" class=3D"min-w-full" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt; min-width: 100%;"> <tbody> <tr> <td align=3D"left" valign=3D"middle=
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin=
+.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslett=
+er_01%3BMcdxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&=
+amp;midSig=3D10g1Y7nJZuSXE1&amp;trk=3Deml-email_series_follow_newsletter_01=
+-header-0-home_glimmer_dynamic_badging_high_dpi&amp;trkEmail=3Deml-email_se=
+ries_follow_newsletter_01-header-0-home_glimmer_dynamic_badging_high_dpi-nu=
+ll-gdb74f~m7zb68vl~5u-null-null&amp;eid=3Dgdb74f-m7zb68vl-5u&amp;otpToken=
+=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4YmNjZDE0MzljYWE4ZjYxNzljNDA2=
+NmQ0YjVkNWJmMmZlZDNkZjllNDZmM2I4ZTc3OGExZmM4MTc1NzdlMzhlMzY1NzM5ZjZiZTc5NjE=
+1ZTc4ODQyYywxLDE%3D" target=3D"_blank" class=3D"w-[84px]" style=3D"color: #=
+0a66c2; cursor: pointer; display: inline-block; text-decoration: none; -web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width: 84px;"> <img=
+ class=3D"h-[37px] w-[101px]" alt=3D"LinkedIn" src=3D"https://www.linkedin.=
+com/comm/dms/logo/v2?badgeTheme=3Dmercado&amp;lipi=3Durn%3Ali%3Apage%3Aemai=
+l_email_series_follow_newsletter_01%3BMcdxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3D&=
+amp;midSig=3D10g1Y7nJZuSXE1&amp;midToken=3DAQHxaOsdYMWJVQ&amp;trkEmail=3Dem=
+l-email_series_follow_newsletter_01-null-0-comms%7Ebadging%7Edynamic%7Eglim=
+mer%7Ev2-null-gdb74f%7Em7zb68vl%7E5u-null-null&amp;trk=3Deml-email_series_f=
+ollow_newsletter_01-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2&amp;_si=
+g=3D230rfAkgNuSXE1" data-test-header-dynamic-badging-img-high-dpi style=3D"=
+outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; heig=
+ht: 37px; width: 101px;" width=3D"101" height=3D"37"> </a> </td> <td valign=
+=3D"middle" align=3D"right" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tabl=
+e role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" width=3D"100%" data-test-header-profile style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt;"> <tbody> <tr> <td align=3D"right" valign=3D"middle" clas=
+s=3D"w-[32px]" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 32px;" width=
+=3D"32"> <a href=3D"https://br.linkedin.com/comm/in/fernando-ferreira-brito=
+?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BMcdxvW3=
+%2BQv%2BRNK%2FMihvj%2FQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D10=
+g1Y7nJZuSXE1&amp;trk=3Deml-email_series_follow_newsletter_01-header-0-profi=
+le_glimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-header-0-pr=
+ofile_glimmer-null-gdb74f~m7zb68vl~5u-null-null&amp;eid=3Dgdb74f-m7zb68vl-5=
+u&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4YmNjZDE0MzljYW=
+E4ZjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjllNDZmM2I4ZTc3OGExZmM4MTc1NzdlMzhlMzY1N=
+zM5ZjZiZTc5NjE1ZTc4ODQyYywxLDE%3D" target=3D"_blank" style=3D"color: #0a66c=
+2; cursor: pointer; display: inline-block; text-decoration: none; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img alt=3D"Luiz Ferna=
+ndo Brito Ferreira" src=3D"https://media.licdn.com/dms/image/v2/D4E03AQHtWM=
+kj43o1lA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_20=
+0_200/0/1724191556445?e=3D2147483647&amp;v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8c=
+onB5wB92xXoc9r_1IG6EIUIKB4" class=3D"rounded-[100%] w-[32px] h-[32px]" styl=
+e=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;=
+ height: 32px; width: 32px; border-radius: 100%;" width=3D"32" height=3D"32=
+"> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> <=
+/tr> <tr> <td class=3D"px-0 pb-3" style=3D"-webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; p=
+adding-left: 0px; padding-right: 0px; padding-bottom: 24px;"> <div> <table =
+role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody>=
+ <tr> <td data-test-id=3D"newsletter-entity-lockup" class=3D"px-3 pt-1" sty=
+le=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 24px; padding-right: 24p=
+x; padding-top: 8px;"> <table role=3D"presentation" valign=3D"top" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"font-san=
+s" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, syst=
+em-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans=
+', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emo=
+ji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande'=
+, Helvetica, Arial, sans-serif;"> <tbody> <tr> <td valign=3D"top" class=3D"=
+pr-1 w-6" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 48px; padding-righ=
+t: 8px;" width=3D"48"> <a href=3D"https://www.linkedin.com/comm/newsletters=
+/7206051779325632512?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3BMcdxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3D&amp;midToken=3DAQHxaOsdYM=
+WJVQ&amp;midSig=3D10g1Y7nJZuSXE1&amp;trk=3Deml-email_series_follow_newslett=
+er_01-newsletter_entity_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-e=
+mail_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_enti=
+ty_cta-null-gdb74f~m7zb68vl~5u-null-null&amp;eid=3Dgdb74f-m7zb68vl-5u&amp;o=
+tpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4YmNjZDE0MzljYWE4ZjYxN=
+zljNDA2NmQ0YjVkNWJmMmZlZDNkZjllNDZmM2I4ZTc3OGExZmM4MTc1NzdlMzhlMzY1NzM5ZjZi=
+ZTc5NjE1ZTc4ODQyYywxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; curs=
+or: pointer; display: inline-block; text-decoration: none; -webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%;"> <img class=3D"inline-block re=
+lative bg-color-entity-ghost-background w-6 h-6 rounded-md" src=3D"https://=
+media.licdn.com/dms/image/v2/D4D12AQE51UkcAwiVyA/series-logo_image-shrink_1=
+00_100/series-logo_image-shrink_100_100/0/1733941462746?e=3D2147483647&amp;=
+v=3Dbeta&amp;t=3DgLEU0ar_iVsbVo2Om7KjNEd-SpGNgtZhN6feMHn3wMU" alt=3D"Abrir =
+Resumo Tech" style=3D"outline: none; text-decoration: none; -ms-interpolati=
+on-mode: bicubic; position: relative; display: inline-block; height: 48px; =
+width: 48px; border-radius: 8px; background-color: #eae6df;" width=3D"48" h=
+eight=3D"48"> </a> </td> <td valign=3D"top" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a hr=
+ef=3D"https://www.linkedin.com/comm/newsletters/7206051779325632512?lipi=3D=
+urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BMcdxvW3%2BQv%2B=
+RNK%2FMihvj%2FQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D10g1Y7nJZu=
+SXE1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_entity_lock=
+up-0-newsletter_entity_cta&amp;trkEmail=3Deml-email_series_follow_newslette=
+r_01-newsletter_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m7zb68vl~=
+5u-null-null&amp;eid=3Dgdb74f-m7zb68vl-5u&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2=
+JjM2I1MjQwNGVkNDIxZmU0YmM4YmNjZDE0MzljYWE4ZjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZ=
+jllNDZmM2I4ZTc3OGExZmM4MTc1NzdlMzhlMzY1NzM5ZjZiZTc5NjE1ZTc4ODQyYywxLDE%3D" =
+target=3D"_blank" class=3D"no-underline" style=3D"color: #0a66c2; cursor: p=
+ointer; display: inline-block; text-decoration: none; -webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; text-decoration-line: none;"> <div c=
+lass=3D"pb-0.5" style=3D"padding-bottom: 4px;"> <span class=3D"text-md font=
+-bold text-color-text break-words leading-regular" style=3D"overflow-wrap: =
+break-word; font-size: 16px; font-weight: 600; line-height: 1.25; color: rg=
+ba(0, 0, 0, 0.9);"> Resumo Tech </span> </div> </a> </td> </tr> <tr> <td st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com=
+/comm/newsletters/7206051779325632512?lipi=3Durn%3Ali%3Apage%3Aemail_email_=
+series_follow_newsletter_01%3BMcdxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3D&amp;midT=
+oken=3DAQHxaOsdYMWJVQ&amp;midSig=3D10g1Y7nJZuSXE1&amp;trk=3Deml-email_serie=
+s_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta&amp=
+;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-=
+0-newsletter_entity_cta-null-gdb74f~m7zb68vl~5u-null-null&amp;eid=3Dgdb74f-=
+m7zb68vl-5u&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4YmNj=
+ZDE0MzljYWE4ZjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjllNDZmM2I4ZTc3OGExZmM4MTc1Nzd=
+lMzhlMzY1NzM5ZjZiZTc5NjE1ZTc4ODQyYywxLDE%3D" target=3D"_blank" class=3D"no-=
+underline" style=3D"color: #0a66c2; cursor: pointer; display: inline-block;=
+ text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; text-decoration-line: none;"> <span class=3D"text-xs text-color-te=
+xt-low-emphasis leading-regular" style=3D"font-size: 12px; line-height: 1.2=
+5; color: rgba(0, 0, 0, 0.6);"> Conecte-se com o futuro do mundo corporativ=
+o.An=C3=A1lises,insights que ir=C3=A3o fazer diferen=C3=A7a para=E2=80=A6 <=
+/span> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </t=
+d> </tr> <tr data-test-id=3D"newsletter-content-preview"> <td class=3D"px-3=
+ pt-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 24px; padding-=
+right: 24px; padding-top: 16px;"> <table role=3D"presentation" valign=3D"to=
+p" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"overflow-hidden=
+ " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt; overflow: hidden;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr=
+> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.link=
+edin.com/comm/pulse/cyberseguran%C3%A7a-cinema-hollywood-acertou-ou-s%C3%B3=
+-fez-um-brito-bastos-gcjrf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_foll=
+ow_newsletter_01%3BMcdxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3D&amp;midToken=3DAQHx=
+aOsdYMWJVQ&amp;midSig=3D10g1Y7nJZuSXE1&amp;trk=3Deml-email_series_follow_ne=
+wsletter_01-newsletter_content_preview-0-headline_&amp;trkEmail=3Deml-email=
+_series_follow_newsletter_01-newsletter_content_preview-0-headline_-null-gd=
+b74f~m7zb68vl~5u-null-null&amp;eid=3Dgdb74f-m7zb68vl-5u&amp;otpToken=3DMWIw=
+ZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4YmNjZDE0MzljYWE4ZjYxNzljNDA2NmQ0YjV=
+kNWJmMmZlZDNkZjllNDZmM2I4ZTc3OGExZmM4MTc1NzdlMzhlMzY1NzM5ZjZiZTc5NjE1ZTc4OD=
+QyYywxLDE%3D" target=3D"_blank" class=3D"w-full" style=3D"color: #0a66c2; c=
+ursor: pointer; display: inline-block; text-decoration: none; -webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; width: 100%;"> <img class=3D=
+"block w-full aspect-[744/400] object-cover overflow-hidden" data-test-id=
+=3D"newsletter-content-preview__cover-image" alt=3D"Imagem de capa da newsl=
+etter" src=3D"https://media.licdn.com/dms/image/v2/D4D12AQGiGKmC1zariw/arti=
+cle-cover_image-shrink_720_1280/B4DZVyWMGQHkAI-/0/1741380175800?e=3D2147483=
+647&amp;v=3Dbeta&amp;t=3DWgPUhLSD5wpcf8TX4gISaULVNeZxLhSl5d3MJr0G6qc" style=
+=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; =
+display: block; aspect-ratio: 744/400; width: 100%; overflow: hidden; objec=
+t-fit: cover;"> </a> </td> </tr> <tr> <td class=3D"py-2" style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; padding-top: 16px; padding-bottom: 16px;"> <table rol=
+e=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <t=
+r> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.lin=
+kedin.com/comm/pulse/cyberseguran%C3%A7a-cinema-hollywood-acertou-ou-s%C3%B=
+3-fez-um-brito-bastos-gcjrf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_fol=
+low_newsletter_01%3BMcdxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3D&amp;midToken=3DAQH=
+xaOsdYMWJVQ&amp;midSig=3D10g1Y7nJZuSXE1&amp;trk=3Deml-email_series_follow_n=
+ewsletter_01-newsletter_content_preview-0-title_&amp;trkEmail=3Deml-email_s=
+eries_follow_newsletter_01-newsletter_content_preview-0-title_-null-gdb74f~=
+m7zb68vl~5u-null-null&amp;eid=3Dgdb74f-m7zb68vl-5u&amp;otpToken=3DMWIwZDE3Z=
+TgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4YmNjZDE0MzljYWE4ZjYxNzljNDA2NmQ0YjVkNWJm=
+MmZlZDNkZjllNDZmM2I4ZTc3OGExZmM4MTc1NzdlMzhlMzY1NzM5ZjZiZTc5NjE1ZTc4ODQyYyw=
+xLDE%3D" target=3D"_blank" class=3D"no-underline font-medium text-sm m-0 te=
+xt-system-gray-90" style=3D"cursor: pointer; display: inline-block; text-de=
+coration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ margin: 0px; font-size: 14px; font-weight: 500; color: #282828; text-decor=
+ation-line: none;"> <h2 class=3D"m-0 text-display-sm leading-regular text-c=
+olor-text font-bold font-sans" style=3D"margin: 0px; font-family: -apple-sy=
+stem, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', =
+'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple=
+ Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Luci=
+da Grande', Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 600=
+; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Cyberseguran=C3=A7a no Ci=
+nema: Hollywood Acertou ou S=C3=B3 Fez Mais Um Ctrl+C, Ctrl+V? =F0=9F=8E=AC=
+=F0=9F=92=BB </h2> </a> </td> </tr> <tr> <td style=3D"-webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" width=3D"100%" data-test-id=3D"newsletter-aut=
+hor-lockup-redesign" class=3D"mt-1 mb-2" style=3D"-webkit-text-size-adjust:=
+ 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt; margin-bottom: 16px; margin-top: 8px;"> <tbody> <tr> <td valign=3D"mi=
+ddle" align=3D"left" class=3D"w-3" style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; =
+width: 24px;" width=3D"24"> <a href=3D"https://br.linkedin.com/comm/in/iaml=
+eandrobrito?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_0=
+1%3BMcdxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;=
+midSig=3D10g1Y7nJZuSXE1&amp;trk=3Deml-email_series_follow_newsletter_01-new=
+sletter_content_preview-0-author_&amp;trkEmail=3Deml-email_series_follow_ne=
+wsletter_01-newsletter_content_preview-0-author_-null-gdb74f~m7zb68vl~5u-nu=
+ll-null&amp;eid=3Dgdb74f-m7zb68vl-5u&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I=
+1MjQwNGVkNDIxZmU0YmM4YmNjZDE0MzljYWE4ZjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjllND=
+ZmM2I4ZTc3OGExZmM4MTc1NzdlMzhlMzY1NzM5ZjZiZTc5NjE1ZTc4ODQyYywxLDE%3D" targe=
+t=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-bloc=
+k; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%;"> <img class=3D"inline-block relative bg-color-entity-ghost-back=
+ground clip-path-circle-50 rounded-full w-4 h-4 align-middle" src=3D"https:=
+//media.licdn.com/dms/image/v2/D4D03AQFLGBTtz3PKSg/profile-displayphoto-shr=
+ink_800_800/B4DZUfohIwHIAc-/0/1739992470571?e=3D2147483647&amp;v=3Dbeta&amp=
+;t=3Dg_5lckkVMFuCHA3K2Z1bfxz6eFmyAEK3ChOOmKfXQ8g" alt=3D"Imagem do autor" s=
+tyle=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicub=
+ic; position: relative; display: inline-block; height: 32px; width: 32px; b=
+order-radius: 9999px; background-color: #eae6df; vertical-align: middle; cl=
+ip-path: circle(50%);" width=3D"32" height=3D"32"> </a> </td> <td style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://br.linkedin.com/comm/in=
+/iamleandrobrito?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslet=
+ter_01%3BMcdxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ=
+&amp;midSig=3D10g1Y7nJZuSXE1&amp;trk=3Deml-email_series_follow_newsletter_0=
+1-newsletter_content_preview-0-author_&amp;trkEmail=3Deml-email_series_foll=
+ow_newsletter_01-newsletter_content_preview-0-author_-null-gdb74f~m7zb68vl~=
+5u-null-null&amp;eid=3Dgdb74f-m7zb68vl-5u&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2=
+JjM2I1MjQwNGVkNDIxZmU0YmM4YmNjZDE0MzljYWE4ZjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZ=
+jllNDZmM2I4ZTc3OGExZmM4MTc1NzdlMzhlMzY1NzM5ZjZiZTc5NjE1ZTc4ODQyYywxLDE%3D" =
+target=3D"_blank" class=3D"no-underline ml-1" style=3D"color: #0a66c2; curs=
+or: pointer; display: inline-block; text-decoration: none; -webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; margin-left: 8px; text-decorati=
+on-line: none;"> <span class=3D"font-sans font-bold text-sm mb-3 text-color=
+-text-low-emphasis leading-regular" style=3D"margin-bottom: 24px; font-fami=
+ly: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helv=
+etica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid =
+Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI S=
+ymbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 14px; fon=
+t-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.6);"> Leandro Brit=
+o Bastos </span> </a> </td> </tr> </tbody> </table> </td> </tr> <tr> <td cl=
+ass=3D"pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px;">=
+ <div class=3D"p-3 bg-color-surface-tint rounded-md font-sans" data-test-id=
+=3D"newsletter-cta-banner" style=3D"border-radius: 8px; background-color: #=
+f5f7f9; padding: 24px; font-family: -apple-system, system-ui, BlinkMacSyste=
+mFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, '=
+Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, =
+sans-serif;"> <div class=3D"mb-1.5" style=3D"margin-bottom: 12px;"> <span c=
+lass=3D"text-md leading-regular font-bold text-color-text" style=3D"font-si=
+ze: 16px; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);">=
+ Leia este artigo no LinkedIn para participar da conversa </span> </div> <t=
+able role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0" width=3D"100%" class=3D"email-button " data-test-id=3D"emai=
+l-button" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=
+=3D"middle" align=3D"left" style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a hre=
+f=3D"https://www.linkedin.com/comm/pulse/cyberseguran%C3%A7a-cinema-hollywo=
+od-acertou-ou-s%C3%B3-fez-um-brito-bastos-gcjrf?lipi=3Durn%3Ali%3Apage%3Aem=
+ail_email_series_follow_newsletter_01%3BMcdxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3=
+D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D10g1Y7nJZuSXE1&amp;trk=3Deml-e=
+mail_series_follow_newsletter_01-newsletter_content_preview-0-read_more_ban=
+ner_cta_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_co=
+ntent_preview-0-read_more_banner_cta_-null-gdb74f~m7zb68vl~5u-null-null&amp=
+;eid=3Dgdb74f-m7zb68vl-5u&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkND=
+IxZmU0YmM4YmNjZDE0MzljYWE4ZjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjllNDZmM2I4ZTc3O=
+GExZmM4MTc1NzdlMzhlMzY1NzM5ZjZiZTc5NjE1ZTc4ODQyYywxLDE%3D" target=3D"_blank=
+" aria-label=3D"Abrir este artigo no LinkedIn" class=3D"align-top no-underl=
+ine " style=3D"color: #0a66c2; cursor: pointer; display: inline-block; text=
+-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; vertical-align: top; text-decoration-line: none;"> <table role=3D"prese=
+ntation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" wi=
+dth=3D"auto" class=3D"border-separate " style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt; border-collapse: separate;"> <tbody> <tr> <td class=3D"btn-sm btn-prim=
+ary border-color-brand button-link leading-regular !min-h-[auto] !shadow-no=
+ne border-1 border-solid" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: m=
+in-content; border-radius: 24px; padding-top: 7px; padding-bottom: 7px; pad=
+ding-left: 16px; padding-right: 16px; text-align: center; font-size: 14px; =
+font-weight: 600; cursor: pointer; text-decoration-line: none; background-c=
+olor: #0a66c2; color: #ffffff; border-width: 1px; border-style: solid; bord=
+er-color: #0a66c2; line-height: 1.25; min-height: auto !important; box-shad=
+ow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;"> <a href=3D"https://www.li=
+nkedin.com/comm/pulse/cyberseguran%C3%A7a-cinema-hollywood-acertou-ou-s%C3%=
+B3-fez-um-brito-bastos-gcjrf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_fo=
+llow_newsletter_01%3BMcdxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3D&amp;midToken=3DAQ=
+HxaOsdYMWJVQ&amp;midSig=3D10g1Y7nJZuSXE1&amp;trk=3Deml-email_series_follow_=
+newsletter_01-newsletter_content_preview-0-read_more_banner_cta_&amp;trkEma=
+il=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-rea=
+d_more_banner_cta_-null-gdb74f~m7zb68vl~5u-null-null&amp;eid=3Dgdb74f-m7zb6=
+8vl-5u&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4YmNjZDE0M=
+zljYWE4ZjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjllNDZmM2I4ZTc3OGExZmM4MTc1NzdlMzhl=
+MzY1NzM5ZjZiZTc5NjE1ZTc4ODQyYywxLDE%3D" target=3D"_blank" tabindex=3D"-1" a=
+ria-hidden=3D"true" class=3D"no-underline" style=3D"color: #0a66c2; cursor:=
+ pointer; display: inline-block; text-decoration: none; -webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; text-decoration-line: none;"> <spa=
+n class=3D"no-underline text-white" style=3D"color: #ffffff; text-decoratio=
+n-line: none;"> Ler no LinkedIn </span> </a> </td> </tr> </tbody> </table> =
+</a> </td> </tr> </tbody> </table> </div> </td> </tr> <tr data-test-id=3D"n=
+ewsletter-content-preview--content"> <td class=3D"font-sans text-md leading=
+-open text-system-gray-90" style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-fam=
+ily: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Hel=
+vetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid=
+ Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 16px; li=
+ne-height: 1.5; color: #282828;"> <div data-test-id=3D"publishing-text-bloc=
+k"> <p class=3D"m-0 mt-1.5 text-md leading-open" style=3D"font-weight: 400;=
+ margin: 0px; margin-top: 12px; font-size: 16px; line-height: 1.5;"> <span =
+class data-test-id=3D"little-text-block">Ah, Hollywood... sempre nos brinda=
+ndo com sua vis=C3=A3o =E2=80=9Cprecisa=E2=80=9D sobre tecnologia, hackers =
+e ciberseguran=C3=A7a. Quem nunca assistiu a um filme onde um nerd de molet=
+om resolve uma vulnerabilidade de 12 camadas com um =C3=BAnico </span><span=
+ class=3D"italic" data-test-id=3D"little-text-block" style=3D"font-style: i=
+talic;">ENTER</span><span class data-test-id=3D"little-text-block"> e um =
+=E2=80=9CEstou dentro=E2=80=9D? Sim, claro, porque =C3=A9 assim que funcion=
+a no mundo real.</span> </p> </div> <div data-test-id=3D"publishing-text-bl=
+ock"> <p class=3D"m-0 mt-1.5 text-md leading-open" style=3D"font-weight: 40=
+0; margin: 0px; margin-top: 12px; font-size: 16px; line-height: 1.5;"> <spa=
+n class data-test-id=3D"little-text-block">Mas sejamos justos, h=C3=A1 sim =
+algumas produ=C3=A7=C3=B5es que captam (ou tentam captar) a ess=C3=AAncia d=
+esse universo. Se voc=C3=AA trabalha com TI, j=C3=A1 deve ter rolado os olh=
+os para certas cenas, mas tamb=C3=A9m deve ter se empolgado com outras. </s=
+pan> </p> </div> <div class=3D"pt-2" data-test-id=3D"publishing-image-block=
+" style=3D"padding-top: 16px;"> <figure class=3D"m-0" style=3D"margin: 0px;=
+"> <img class=3D"w-full block max-w-full" src=3D"https://media.licdn.com/dm=
+s/image/v2/D4D12AQE3lxQJNX8O0Q/article-inline_image-shrink_1500_2232/B4DZVy=
+W421G8AU-/0/1741380359158?e=3D2147483647&amp;v=3Dbeta&amp;t=3Dmkqy_lnlMN75c=
+hfgakKGHLF5zZYb1UPhc0E7OHbSOOM" style=3D"outline: none; text-decoration: no=
+ne; -ms-interpolation-mode: bicubic; display: block; width: 100%; max-width=
+: 100%;"> </figure> </div> <div data-test-id=3D"publishing-text-block"> <p =
+class=3D"m-0 mt-1.5 text-md leading-open" style=3D"font-weight: 400; margin=
+: 0px; margin-top: 12px; font-size: 16px; line-height: 1.5;"> <span class d=
+ata-test-id=3D"little-text-block">Vamos dar uma olhada nessa lista:</span> =
+</p> </div> <div data-test-id=3D"publishing-text-block"> <h3 class=3D"m-0 t=
+ext-md text-system-gray-90 pt-1 pb-0.5 leading-regular font-bold" data-test=
+-id=3D"publishing-text-block-h2" style=3D"margin: 0px; padding-bottom: 4px;=
+ padding-top: 8px; font-size: 16px; font-weight: 600; line-height: 1.25; co=
+lor: #282828;"> <span class data-test-id=3D"little-text-block">=F0=9F=8E=A5=
+ Cl=C3=A1ssicos e os primeiros alertas sobre ciberseguran=C3=A7a</span> </h=
+3> </div> <div data-test-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1=
+.5 text-md leading-open" style=3D"font-weight: 400; margin: 0px; margin-top=
+: 12px; font-size: 16px; line-height: 1.5;"> <span class data-test-id=3D"li=
+ttle-text-block"> <ul class=3D"block mt-2 mr-0 ml-3 p-0" data-test-id=3D"li=
+ttle-template-list-unordered" style=3D"margin-left: 24px; margin-right: 0px=
+; margin-top: 16px; display: block; padding: 0px;"> <li class=3D"mt-1.5 ml-=
+2 text-md leading-open text-system-gray-90" style=3D"margin-left: 16px; mar=
+gin-top: 12px; font-size: 16px; line-height: 1.5; color: #282828;"> <span c=
+lass=3D"font-[700]" data-test-id=3D"little-text-block" style=3D"font-weight=
+: 700;">"Jogos de Guerra" (1983)</span><span class data-test-id=3D"little-t=
+ext-block"> =E2=80=93 Esse foi um dos primeiros filmes a trazer a cibersegu=
+ran=C3=A7a para o mainstream. Um jovem hacker (interpretado por Matthew Bro=
+derick) acidentalmente acessa um sistema militar e quase inicia a Terceira =
+Guerra Mundial. Simplesmente uma aula sobre os perigos da automa=C3=A7=C3=
+=A3o e da falta de autentica=C3=A7=C3=A3o nos sistemas cr=C3=ADticos.</span=
+> </li> </ul> </span> </p> </div> <div class=3D"pt-2" data-test-id=3D"publi=
+shing-image-block" style=3D"padding-top: 16px;"> <figure class=3D"m-0" styl=
+e=3D"margin: 0px;"> <img class=3D"w-full block max-w-full" src=3D"https://m=
+edia.licdn.com/dms/image/v2/D4D12AQGhdXdtWN-eGQ/article-inline_image-shrink=
+_400_744/B4DZVyXOenHYAY-/0/1741380447298?e=3D2147483647&amp;v=3Dbeta&amp;t=
+=3DnkK5JqPW8AYD1uTDkmTG1lpTPOlOD4cVGKjkj-MlaKw" style=3D"outline: none; tex=
+t-decoration: none; -ms-interpolation-mode: bicubic; display: block; width:=
+ 100%; max-width: 100%;"> </figure> </div> <div data-test-id=3D"publishing-=
+text-block"> <p class=3D"m-0 mt-1.5 text-md leading-open" style=3D"font-wei=
+ght: 400; margin: 0px; margin-top: 12px; font-size: 16px; line-height: 1.5;=
+"> <span class data-test-id=3D"little-text-block"> <ul class=3D"block mt-2 =
+mr-0 ml-3 p-0" data-test-id=3D"little-template-list-unordered" style=3D"mar=
+gin-left: 24px; margin-right: 0px; margin-top: 16px; display: block; paddin=
+g: 0px;"> <li class=3D"mt-1.5 ml-2 text-md leading-open text-system-gray-90=
+" style=3D"margin-left: 16px; margin-top: 12px; font-size: 16px; line-heigh=
+t: 1.5; color: #282828;"> <span class=3D"font-[700]" data-test-id=3D"little=
+-text-block" style=3D"font-weight: 700;">"Sneakers" (1992)</span><span clas=
+s data-test-id=3D"little-text-block"> =E2=80=93 Aqui temos um grupo de espe=
+cialistas em seguran=C3=A7a que trabalha testando sistemas... at=C3=A9 que =
+acabam envolvidos numa conspira=C3=A7=C3=A3o. Um dos primeiros filmes a mos=
+trar que hackers n=C3=A3o s=C3=A3o apenas jovens solit=C3=A1rios em por=C3=
+=B5es, mas podem formar equipes sofisticadas.</span> </li> </ul> </span> </=
+p> </div> <div data-test-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1=
+.5 text-md leading-open" style=3D"font-weight: 400; margin: 0px; margin-top=
+: 12px; font-size: 16px; line-height: 1.5;"> <span class data-test-id=3D"li=
+ttle-text-block"> <ul class=3D"block mt-2 mr-0 ml-3 p-0" data-test-id=3D"li=
+ttle-template-list-unordered" style=3D"margin-left: 24px; margin-right: 0px=
+; margin-top: 16px; display: block; padding: 0px;"> <li class=3D"mt-1.5 ml-=
+2 text-md leading-open text-system-gray-90" style=3D"margin-left: 16px; mar=
+gin-top: 12px; font-size: 16px; line-height: 1.5; color: #282828;"> <span c=
+lass=3D"font-[700]" data-test-id=3D"little-text-block" style=3D"font-weight=
+: 700;">"Hackers" (1995)</span><span class data-test-id=3D"little-text-bloc=
+k"> =E2=80=93 Esse aqui virou cult entre os amantes da tecnologia, mas conv=
+enhamos, a parte t=C3=A9cnica =C3=A9 um </span><span class=3D"italic" data-=
+test-id=3D"little-text-block" style=3D"font-style: italic;">del=C3=ADrio cy=
+berpunk</span><span class data-test-id=3D"little-text-block">. A hist=C3=B3=
+ria segue um grupo de adolescentes que descobre uma conspira=C3=A7=C3=A3o e=
+nquanto brinca com sistemas corporativos. O grande m=C3=A9rito? Ter influen=
+ciado uma gera=C3=A7=C3=A3o de jovens a olhar para a tecnologia como um cam=
+po cheio de possibilidades.</span> </li> </ul> </span> </p> </div> <span>..=
+.</span> </td> </tr> <tr> <td class=3D"pt-2 no-underline" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding-top: 16px; text-decoration-line: none;"> <ta=
+ble role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" width=3D"100%" class=3D"email-button series-content-preview_=
+_bottom-cta" data-test-id=3D"email-button" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;"> <tbody> <tr> <td valign=3D"middle" align=3D"left" style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/c=
+yberseguran%C3%A7a-cinema-hollywood-acertou-ou-s%C3%B3-fez-um-brito-bastos-=
+gcjrf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BMc=
+dxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=
+=3D10g1Y7nJZuSXE1&amp;trk=3Deml-email_series_follow_newsletter_01-newslette=
+r_content_preview-0-readmore_button_&amp;trkEmail=3Deml-email_series_follow=
+_newsletter_01-newsletter_content_preview-0-readmore_button_-null-gdb74f~m7=
+zb68vl~5u-null-null&amp;eid=3Dgdb74f-m7zb68vl-5u&amp;otpToken=3DMWIwZDE3ZTg=
+xMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4YmNjZDE0MzljYWE4ZjYxNzljNDA2NmQ0YjVkNWJmMm=
+ZlZDNkZjllNDZmM2I4ZTc3OGExZmM4MTc1NzdlMzhlMzY1NzM5ZjZiZTc5NjE1ZTc4ODQyYywxL=
+DE%3D" target=3D"_blank" aria-label=3D"Abrir Resumo Tech no LinkedIn" class=
+=3D"align-top no-underline " style=3D"color: #0a66c2; cursor: pointer; disp=
+lay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; vertical-align: top; text-decoration-line: none;=
+ width: 100%;"> <table role=3D"presentation" valign=3D"top" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"border-separate "=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: separate; width: =
+100%;"> <tbody> <tr> <td class=3D"btn-md btn-secondary-emphasis border-colo=
+r-brand button-link leading-regular !min-h-[auto] !shadow-none border-1 bor=
+der-solid font-sans" data-test-id=3D"newsletter-content-preview-redesign-bo=
+ttom-cta" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: min-content; bord=
+er-radius: 24px; padding-top: 12px; padding-bottom: 12px; padding-left: 24p=
+x; padding-right: 24px; text-align: center; font-size: 16px; font-weight: 6=
+00; cursor: pointer; text-decoration-line: none; background-color: rgba(0, =
+0, 0, 0); color: #0a66c2; border-width: 1px; border-style: solid; border-co=
+lor: #0a66c2; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'S=
+egoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sa=
+ns', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-seri=
+f; line-height: 1.25; min-height: auto !important; box-shadow: 0 0 #0000, 0=
+ 0 #0000, 0 0 #0000 !important;"> <a href=3D"https://www.linkedin.com/comm/=
+pulse/cyberseguran%C3%A7a-cinema-hollywood-acertou-ou-s%C3%B3-fez-um-brito-=
+bastos-gcjrf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_=
+01%3BMcdxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp=
+;midSig=3D10g1Y7nJZuSXE1&amp;trk=3Deml-email_series_follow_newsletter_01-ne=
+wsletter_content_preview-0-readmore_button_&amp;trkEmail=3Deml-email_series=
+_follow_newsletter_01-newsletter_content_preview-0-readmore_button_-null-gd=
+b74f~m7zb68vl~5u-null-null&amp;eid=3Dgdb74f-m7zb68vl-5u&amp;otpToken=3DMWIw=
+ZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4YmNjZDE0MzljYWE4ZjYxNzljNDA2NmQ0YjV=
+kNWJmMmZlZDNkZjllNDZmM2I4ZTc3OGExZmM4MTc1NzdlMzhlMzY1NzM5ZjZiZTc5NjE1ZTc4OD=
+QyYywxLDE%3D" target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" class=
+=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; display: inline=
+-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; text-decoration-line: none; width: 100%;"> <span class=3D"n=
+o-underline text-color-brand" style=3D"color: #0a66c2; text-decoration-line=
+: none;"> Continue lendo no LinkedIn </span> </a> </td> </tr> </tbody> </ta=
+ble> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td>=
+ </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody>=
+ </table> </div> </td> </tr> <tr> <td class=3D"bg-color-background-canvas p=
+-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f3f2f0; padd=
+ing: 24px;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"text-xs" style=3D"-w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt; font-size: 12px;"> <tbody> <tr> <td class=3D"p=
+b-1 m-0" data-test-id=3D"email-footer__intended" style=3D"-webkit-text-size=
+-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table=
+-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> Este e-mail foi enviado a=
+ Luiz Fernando Brito Ferreira (Full-Stack Developer | Java | JS | React.js =
+| PostgreSQL) </td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> <a href=3D"https://w=
+ww.linkedin.com/help/linkedin/answer/4788?lang=3Dpt&amp;lipi=3Durn%3Ali%3Ap=
+age%3Aemail_email_series_follow_newsletter_01%3BMcdxvW3%2BQv%2BRNK%2FMihvj%=
+2FQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D10g1Y7nJZuSXE1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-SecurityHelp-0-footerglimmer&amp;t=
+rkEmail=3Deml-email_series_follow_newsletter_01-SecurityHelp-0-footerglimme=
+r-null-gdb74f~m7zb68vl~5u-null-null&amp;eid=3Dgdb74f-m7zb68vl-5u&amp;otpTok=
+en=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4YmNjZDE0MzljYWE4ZjYxNzljND=
+A2NmQ0YjVkNWJmMmZlZDNkZjllNDZmM2I4ZTc3OGExZmM4MTc1NzdlMzhlMzY1NzM5ZjZiZTc5N=
+jE1ZTc4ODQyYywxLDE%3D" target=3D"_blank" class=3D"text-inherit underline" s=
+tyle=3D"cursor: pointer; display: inline-block; text-decoration: none; -web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: inherit; tex=
+t-decoration-line: underline;">Saiba por que inclu=C3=ADmos isso.</a> </td>=
+ </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; =
+margin: 0px; padding-bottom: 8px;">Voc=C3=AA est=C3=A1 recebendo e-mails de=
+ notifica=C3=A7=C3=A3o do LinkedIn. Outras pessoas podem ver que voc=C3=AA =
+=C3=A9 assinante.</td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> <a href=3D"https:=
+//www.linkedin.com/series-notifications/?action=3Dunsubscribe&amp;memberTok=
+en=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&amp;newsletterId=3D72060517793=
+25632512&amp;newsletterTitle=3DResumo Tech&amp;lipi=3Durn%3Ali%3Apage%3Aema=
+il_email_series_follow_newsletter_01%3BMcdxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3D=
+&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D10g1Y7nJZuSXE1&amp;ek=3Demail_s=
+eries_follow_newsletter_01&amp;e=3Dgdb74f-m7zb68vl-5u&amp;eid=3Dgdb74f-m7zb=
+68vl-5u&amp;m=3Dunsubscribe&amp;ts=3DfooterGlimmer&amp;li=3D0&amp;t=3Dplh" =
+target=3D"_blank" class=3D"text-inherit underline" style=3D"cursor: pointer=
+; display: inline-block; text-decoration: none; -webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; color: inherit; text-decoration-line: unde=
+rline;">Cancelar inscri=C3=A7=C3=A3o</a> =C2=A0=C2=A0=C2=B7=C2=A0=C2=A0 <a =
+href=3D"https://www.linkedin.com/help/linkedin/answer/67?lang=3Dpt&amp;lipi=
+=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BMcdxvW3%2BQv=
+%2BRNK%2FMihvj%2FQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D10g1Y7n=
+JZuSXE1&amp;trk=3Deml-email_series_follow_newsletter_01-help-0-footerglimme=
+r&amp;trkEmail=3Deml-email_series_follow_newsletter_01-help-0-footerglimmer=
+-null-gdb74f~m7zb68vl~5u-null-null&amp;eid=3Dgdb74f-m7zb68vl-5u&amp;otpToke=
+n=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4YmNjZDE0MzljYWE4ZjYxNzljNDA=
+2NmQ0YjVkNWJmMmZlZDNkZjllNDZmM2I4ZTc3OGExZmM4MTc1NzdlMzhlMzY1NzM5ZjZiZTc5Nj=
+E1ZTc4ODQyYywxLDE%3D" target=3D"_blank" class=3D"text-inherit underline" st=
+yle=3D"cursor: pointer; display: inline-block; text-decoration: none; -webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: inherit; text=
+-decoration-line: underline;">Ajuda</a> </td> </tr> <tr> <td class=3D"pb-1"=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px;"> <a href=3D"=
+https://www.linkedin.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_se=
+ries_follow_newsletter_01%3BMcdxvW3%2BQv%2BRNK%2FMihvj%2FQ%3D%3D&amp;midTok=
+en=3DAQHxaOsdYMWJVQ&amp;midSig=3D10g1Y7nJZuSXE1&amp;trk=3Deml-email_series_=
+follow_newsletter_01-footer-0-logoGlimmer&amp;trkEmail=3Deml-email_series_f=
+ollow_newsletter_01-footer-0-logoGlimmer-null-gdb74f~m7zb68vl~5u-null-null&=
+amp;eid=3Dgdb74f-m7zb68vl-5u&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGV=
+kNDIxZmU0YmM4YmNjZDE0MzljYWE4ZjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjllNDZmM2I4ZT=
+c3OGExZmM4MTc1NzdlMzhlMzY1NzM5ZjZiZTc5NjE1ZTc4ODQyYywxLDE%3D" target=3D"_bl=
+ank" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-=
+decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%;"> <img src=3D"https://static.licdn.com/aero-v1/sc/h/9ehe6n39fa07dc5edzv0=
+rla4e" alt=3D"LinkedIn" class=3D"block h-[14px] w-[56px] image-rendering-cr=
+isp" style=3D"outline: none; text-decoration: none; image-rendering: -moz-c=
+risp-edges; image-rendering: -o-crisp-edges; image-rendering: -webkit-optim=
+ize-contrast; image-rendering: crisp-edges; -ms-interpolation-mode: nearest=
+-neighbor; display: block; height: 14px; width: 56px;" width=3D"56" height=
+=3D"14"> </a> </td> </tr> <tr> <td data-test-copyright-text style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt;"> =C2=A9 2025 LinkedIn Ireland Unlimited Company, =
+Wilton Plaza, Wilton Place, Dublin 2 - Irlanda. LinkedIn =C3=A9 um nome com=
+ercial registrado da LinkedIn Ireland Unlimited Company. <span data-test-tr=
+ademarks-text> LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do=
+ LinkedIn. </span> </td> </tr> </tbody> </table> </td> </tr> </tbody> </tab=
+le> </td> </tr> </tbody> </table> <img alt role=3D"presentation" src=3D"htt=
+ps://www.linkedin.com/emimp/ip_WjJSaU56Um1MVzAzZW1JMk9IWnNMVFYxOlpXMWhhV3hm=
+YzJWeWFXVnpYMlp2Ykd4dmQxOXVaWGR6YkdWMGRHVnlYekF4OmRYSnVPbXhwT214cGJtdGxaRWx=
+1UVhKMGFXTnNaVG8zTXpBek9EYzNPRE00Tnpjd056TXpNRFUy.gif" style=3D"outline: no=
+ne; text-decoration: none; -ms-interpolation-mode: bicubic; width: 1px; hei=
+ght: 1px;" width=3D"1" height=3D"1"> </body> </html>
+------=_Part_4075374_1149680482.1741384212948--
+

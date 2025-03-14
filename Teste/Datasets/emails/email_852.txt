@@ -1,0 +1,853 @@
+X-GM-THRID: 1825977715094118835
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:37c7:b0:2cd:a3c7:5e5d with SMTP id o7csp250639ysp;
+        Fri, 7 Mar 2025 14:54:09 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IF12QJYjwAfNe8LQDErbkOBgb/Dp94iProJmxI+5iWTSgfai7vNw+lqLxh6BcP/uGan+sHP
+X-Received: by 2002:a17:903:22c8:b0:224:23be:c569 with SMTP id d9443c01a7336-22428a8cdcamr96340165ad.22.1741388048976;
+        Fri, 07 Mar 2025 14:54:08 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1741388048; cv=none;
+        d=google.com; s=arc-20240605;
+        b=Iu0H8KtTYY3Pu5SxUkEzUFGCT4kBZ02OhJ/l5YynVe7BX6XgVbsDoGla9KfGSgcoR8
+         m2RDYSqTAKKu556mhYQnphMr187nBGzZbNGAUYjdzIomRzQLKCrKOKDAz1QkfxqsMlev
+         SZnO48FVkfENl/hMrt47ZDKEko2P9Fb3RG+LffHsiujhlrF6aI+Fmr8YzSyle/tOIKZo
+         2x/kFKMoSRuv8kVPjgK+sV+t97nh++xQPG7kGtOGc8EGwBjRMuut9obHoTW2RHB1HUfp
+         OGzmG/etDAPz1I/ERJIfe9roDoOahCDT3V+GzQyENYXHT393/JhNBHcyrQGxQPNU48W0
+         bd2Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=B6EgQTWz1C355FXz+0lL5Yyhbuxw69urq9wXrjDcvBg=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=h0SqscmHeuJsrCsn+Jep3kVrszv2pmm9etSDyxowmMvwloY5jHIERzIcNzUxOC8rjR
+         2V4o7/3SF9axfYj3Kk5Ei8nX2G0a88Q1LhhtXHKv9+j/mOwYEVJGYVHfgfTgcfCX8ag0
+         xmNABwM/tlCS5wjSFeInNRJ9Ka+ROhRCh8XATqkGr03jiSM5JshUNpny8bjxbUbEdz9g
+         36OSQxNjVc4hO5Js+S4McRhykad7tR+RVLWyK/2aN+J6Jpr9wsoDd/FqAWw6LYC7CUGq
+         fQujh4LCb3k5kdwPT7W0hRUxudQ87LEXs1SrYlKEIM2n+YVMxS9+03sl71U0brtNT2Nj
+         8nUw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=JZKIKSpn;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b="Gb/ix3J2";
+       spf=pass (google.com: domain of s-4xebqpzy2adxoyzuxrjcpftkfjyg8xwwyvtpqoh2xh5jzde5531c3wa8@bounce.linkedin.com designates 108.174.0.206 as permitted sender) smtp.mailfrom=s-4xebqpzy2adxoyzuxrjcpftkfjyg8xwwyvtpqoh2xh5jzde5531c3wa8@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-4xebqpzy2adxoyzuxrjcpftkfjyg8xwwyvtpqoh2xh5jzde5531c3wa8@bounce.linkedin.com>
+Received: from maile-hf.linkedin.com (maile-hf.linkedin.com. [108.174.0.206])
+        by mx.google.com with ESMTPS id d9443c01a7336-22410aef305si68505625ad.500.2025.03.07.14.54.08
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 07 Mar 2025 14:54:08 -0800 (PST)
+Received-SPF: pass (google.com: domain of s-4xebqpzy2adxoyzuxrjcpftkfjyg8xwwyvtpqoh2xh5jzde5531c3wa8@bounce.linkedin.com designates 108.174.0.206 as permitted sender) client-ip=108.174.0.206;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=JZKIKSpn;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b="Gb/ix3J2";
+       spf=pass (google.com: domain of s-4xebqpzy2adxoyzuxrjcpftkfjyg8xwwyvtpqoh2xh5jzde5531c3wa8@bounce.linkedin.com designates 108.174.0.206 as permitted sender) smtp.mailfrom=s-4xebqpzy2adxoyzuxrjcpftkfjyg8xwwyvtpqoh2xh5jzde5531c3wa8@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1741388045;
+	bh=B6EgQTWz1C355FXz+0lL5Yyhbuxw69urq9wXrjDcvBg=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=JZKIKSpnuZY9+H6a3Up6NChiQhSFKSjaVEHf7GiJQpxwq1v0Jtu9Efj2Fe5Jqi0K2
+	 6A0oP6ujFii6UXVkS++9e22Tea0zWi/f5iHhO9InZSpV2k5OIW7UVGR/2S3MhTfLeN
+	 FCoVt848xz++qqahOnLrC0Vc/GoNQr4EdBgJFynE4Duf7Ed8iKLT8kpxlHyKRIFyKX
+	 PnFmWkH4pfXYlbbZCZ0VI7VfmVIlX6GoygEvkqzbeWN/rCT9afOUnIRHzSWstvRL82
+	 fnYbFZcfbSc00ovSZprCNbu1fBtfW0KInCaI90oXqbHVaWVn1kVLUTUL+rk6oAs2LD
+	 gcJjKtKHTGLiA==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1741388045;
+	bh=B6EgQTWz1C355FXz+0lL5Yyhbuxw69urq9wXrjDcvBg=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=Gb/ix3J252mO/Lha7lDqJuP4qQAPoOCP5cO/T8zmTfXByZQgINwaTfLWFJAZG7SrN
+	 VtpgiEk7rGd11C/DBbs6MR91VbhBmupcLzkJmc4oddMJgheQk/isefEigjPrXsdWtd
+	 RyjIHdtk6q/voUZOZHng14ncCf95U8MJeBoqEFVBNrdyG9mDIr52f1ToGlrHwgA6Qe
+	 Si4fNqbp7YmiybYHRo5EBcq71W0kPE+CJHeQE2tPZLpuF8lzZulsNe/MxK8qXZ/WJm
+	 bSL9g8TRs1wez6xNMSlaZCymcRNjcTQGifjWekm2dFx+ajPnD/8kRqgMQtA/O8zBww
+	 cXXmzYXUcVgOw==
+From: CTA Smart via LinkedIn <newsletters-noreply@linkedin.com>
+Message-ID: <2049556684.4012316.1741388045189@lva1-app92701.prod.linkedin.com>
+Subject: Smart News - Boletim Semanal
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_4012313_555727987.1741388045186"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Fri, 7 Mar 2025 22:54:05 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-aszv47t5ln5jfohbit8e7rhmg9knkak0dzoclmw4r8rokkatphso14ff55ku3iohrq2j2p73d2x0vaevsq63ztpcxoqikxepd8z3ho
+X-LinkedIn-Id: gdb74f-m7zdgjzl-dj
+List-Unsubscribe: <https://www.linkedin.com/series-notifications/?action=unsubscribe&memberToken=ADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&newsletterId=7065345482239131648&newsletterTitle=Smart News - Boletim Semanal&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BD0cun329Szi1c5nOtOGZmA%3D%3D&midToken=AQHxaOsdYMWJVQ&midSig=0st2WKW9-uSXE1&ek=email_series_follow_newsletter_01&e=gdb74f-m7zdgjzl-dj&eid=gdb74f-m7zdgjzl-dj&m=unsub&ts=unsub&li=0&t=plh>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_4012313_555727987.1741388045186
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Smart News - Boletim Semanal
+
+Por CTA Smart
+
+
+Por CTA Smart
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/smart-news-boletim-semanal-ctasmart-gx3=
+3f?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BD0cun=
+329Szi1c5nOtOGZmA%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D0st2WKW9-uSXE1&t=
+rk=3Deml-email_series_follow_newsletter_01-null-0-read_more_banner_cta_&trk=
+Email=3Deml-email_series_follow_newsletter_01-null-0-read_more_banner_cta_-=
+null-gdb74f~m7zdgjzl~dj-null-null&eid=3Dgdb74f-m7zdgjzl-dj&otpToken=3DMWIwZ=
+DE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4N2NlZDQ0NTkxYWE4NzYxNzljNDA2NmQ0YjVk=
+NWJmMmZlZDNkZjg2NzFmNWZlZGI1OGY5Y2YyODNhM2ZiNThjYmZkOGZiNjFkZjU2N2Y3ODIxMDc=
+wNiwxLDE%3D
+ =20
+Ol=C3=A1, leitor! Chegamos com mais uma edi=C3=A7=C3=A3o da Smart News por =
+aqui! O seu boletim semanal, atualizado sobre tudo que aconteceu de mais re=
+levante durante os dias 03 a 07 de mar=C3=A7o. Fique de olho no nosso balan=
+=C3=A7o semanal e tenha a informa=C3=A7=C3=A3o na palma da sua m=C3=A3o! Sm=
+art News, a semana resumida, a informa=C3=A7=C3=A3o completa. Boa Leitura! =
+COLHEITA DA SOJA: SAIBA O PANOR=C3=82MA PELO BRASIL=C2=A0 A colheita da saf=
+ra 2024/25 de soja avan=C3=A7a rapidamente nas principais regi=C3=B5es prod=
+utoras do Brasil. Segundo o levantamento mais recente da consultoria Safras=
+ & Mercados, cerca de 50% da =C3=A1rea cultivada j=C3=A1 foi colhida.=C2=A0=
+ No Paran=C3=A1, a safra de soja deve sofrer uma redu=C3=A7=C3=A3o de 4% em=
+ rela=C3=A7=C3=A3o =C3=A0 previs=C3=A3o inicial, resultando em preju=C3=ADz=
+os bilion=C3=A1rios, segundo a Secretaria de Agricultura e Abastecimento do=
+ Estado. As maiores quedas ocorrem na regi=C3=A3o de Campo Mour=C3=A3o, com=
+ redu=C3=A7=C3=A3o de 376 mil toneladas, e no oeste do estado, com 317 mil =
+toneladas. At=C3=A9 o momento, 49% das lavouras j=C3=A1 foram colhidas, com=
+ 80% das planta=C3=A7=C3=B5es em boas condi=C3=A7=C3=B5es. Na regi=C3=A3o s=
+ul, que concentra a maior =C3=A1rea de cultivo, ainda n=C3=A3o houve perdas=
+, e a expectativa =C3=A9 de aumento na produtividade, o que pode compensar =
+as quedas em outras =C3=A1reas. Em Mato Grosso, a colheita de soja alcan=C3=
+=A7ou 82,3% da =C3=A1rea total, superando a m=C3=A9dia hist=C3=B3rica de ci=
+nco anos (77,44%), mas ainda atr=C3=A1s do ritmo do ano passado, quando 85%=
+ j=C3=A1 haviam sido colhidos. A regi=C3=A3o M=C3=A9dio Norte lidera com qu=
+ase 93% da =C3=A1rea colhida, enquanto a nordeste =C3=A9 a mais atrasada, c=
+om 70%. Na Bahia, a colheita avan=C3=A7a em ritmo mais acelerado do que na =
+safra anterior, quando o El Ni=C3=B1o causou atrasos. Neste ciclo, o cen=C3=
+=A1rio =C3=A9 positivo, com cerca de 700 mil hectares j=C3=A1 colhidos. No =
+Tocantins, a colheita atingiu 28% da =C3=A1rea plantada, um avan=C3=A7o sig=
+nificativo em rela=C3=A7=C3=A3o ao ano passado, quando apenas 15% havia sid=
+o colhido. A produtividade se mant=C3=A9m dentro da m=C3=A9dia esperada, em=
+ torno de 60 sacas por hectare. No Maranh=C3=A3o, 25% da =C3=A1rea j=C3=A1 =
+foi colhida, com condi=C3=A7=C3=B5es satisfat=C3=B3rias e perdas m=C3=ADnim=
+as, conforme dados da Aprosoja. Fonte: Canal Rural=C2=A0 OPEP+ ANUNCIA AUME=
+NTO NA PRODU=C3=87=C3=83O DE PETR=C3=93LEO A PARTIR DE ABRIL A Opep+ anunci=
+ou que elevar=C3=A1 a produ=C3=A7=C3=A3o de petr=C3=B3leo a partir de abril=
+, justificando a decis=C3=A3o com a estabilidade dos fundamentos do mercado=
+. Em comunicado, a organiza=C3=A7=C3=A3o destacou que o aumento ser=C3=A1 g=
+radual e poder=C3=A1 ser suspenso ou revertido caso seja necess=C3=A1rio. O=
+ aumento da produ=C3=A7=C3=A3o de petr=C3=B3leo ocorrer=C3=A1 de forma grad=
+ual na Ar=C3=A1bia Saudita, Arg=C3=A9lia, Cazaquist=C3=A3o, Emirados =C3=81=
+rabes, Iraque, Kuwait, Om=C3=A3 e R=C3=BAssia, com incrementos mensais infe=
+riores a 0,5%. A expectativa =C3=A9 que a produ=C3=A7=C3=A3o desses pa=C3=
+=ADses atinja 31,650 milh=C3=B5es de barris por dia (bpd) at=C3=A9 o final =
+de 2025 e 32,880 milh=C3=B5es at=C3=A9 o fim de 2026. De acordo com a Ag=C3=
+=AAncia Internacional de Energia (AIE), em janeiro, esses pa=C3=ADses produ=
+ziram 31,240 milh=C3=B5es de bpd, ultrapassando o limite de 30,554 milh=C3=
+=B5es previsto para abril. O aumento ocorreu porque alguns membros excedera=
+m os tetos acordados. Em comunicado, os pa=C3=ADses reafirmaram o compromis=
+so com o pacto de produ=C3=A7=C3=A3o e prometeram compensar qualquer volume=
+ extra produzido desde janeiro de 2024 at=C3=A9 junho de 2026. A decis=C3=
+=A3o pode levar a uma queda nos pre=C3=A7os do petr=C3=B3leo caso a economi=
+a global desacelere. Alguns economistas acreditam que a atividade econ=C3=
+=B4mica pode diminuir neste ano devido =C3=A0s tarifas impostas por Donald =
+Trump. Fonte: Fecombust=C3=ADveis=C2=A0 VALOR DO DIESEL COMUM SOBE 4,65%, E=
+NQUANTO O S-10 TEM AUMENTO DE 4,60% EM FEVEREIRO Segundo IPTL, em fevereiro=
+, o pre=C3=A7o m=C3=A9dio do diesel comum no Brasil foi de R$ 6,52, represe=
+ntando um aumento de 4,65% em rela=C3=A7=C3=A3o =C3=A0 m=C3=A9dia de janeir=
+o. O diesel S-10, por sua vez, atingiu o valor m=C3=A9dio de R$ 6,60 no mes=
+mo per=C3=ADodo, registrando um acr=C3=A9scimo de 4,60%.=C2=A0=C2=A0 O aume=
+nto no pre=C3=A7o do diesel comum e do S-10 em fevereiro era esperado devid=
+o ao reajuste do ICMS, segundo Douglas Pina, diretor-geral de Mobilidade da=
+ Edenred Brasil. Al=C3=A9m disso, a valoriza=C3=A7=C3=A3o do petr=C3=B3leo =
+e a instabilidade cambial v=C3=AAm elevando os custos dos combust=C3=ADveis=
+ desde dezembro. Todas as regi=C3=B5es do pa=C3=ADs registraram alta nos pr=
+e=C3=A7os do diesel na compara=C3=A7=C3=A3o com janeiro. No Sul, os combust=
+=C3=ADveis tiveram os maiores aumentos percentuais, com o diesel comum subi=
+ndo 4,96% e o S-10, 5,07%. Apesar disso, a regi=C3=A3o manteve os menores p=
+re=C3=A7os m=C3=A9dios do pa=C3=ADs, sendo R$ 6,35 para o diesel comum e R$=
+ 6,43 para o S-10. Em contraste, o Norte registrou os valores mais altos, c=
+om m=C3=A9dias de R$ 7,08 e R$ 6,91, respectivamente. Entre os estados, o A=
+cre teve os pre=C3=A7os mais elevados para ambos os combust=C3=ADveis, com =
+o diesel comum a R$ 7,79 e o S-10 a R$ 7,81. J=C3=A1 o Rio Grande do Sul ap=
+resentou os menores pre=C3=A7os, com o diesel comum a R$ 6,32 e o S-10 a R$=
+ 6,40. Rond=C3=B4nia teve o maior aumento para o diesel comum, de 9,35%, en=
+quanto o Distrito Federal registrou a maior alta para o S-10, de 7,26%. A B=
+ahia foi o =C3=BAnico estado a registrar queda no pre=C3=A7o do diesel comu=
+m, com redu=C3=A7=C3=A3o de 0,16%. Fonte: Mundo Log=C3=ADstica=C2=A0 PRODUT=
+ORES RURAIS DOS EUA SE PREOCUPARAM COM OS IMPACTOS=C2=A0 DA =E2=80=9CGUERRA=
+ TARIF=C3=81RIA=E2=80=9D Segundo sites especializados dos EUA, um dos fator=
+es centrais =C3=A9 o impacto na demanda por produtos agr=C3=ADcolas america=
+nos, justamente quando os produtores est=C3=A3o planejando o plantio para a=
+ safra 2025/26. A incerteza sobre quais mercados ir=C3=A3o absorver os prod=
+utos agr=C3=ADcolas dos EUA e a que pre=C3=A7os preocupa produtores como Ma=
+rty Marr, de Illinois. A regi=C3=A3o onde ele atua =C3=A9 beneficiada por u=
+ma linha f=C3=A9rrea que transporta milho para a Bartlett, fornecedora do g=
+r=C3=A3o ao M=C3=A9xico. No entanto, com a imposi=C3=A7=C3=A3o de uma tarif=
+a de 25% pelo governo americano sobre produtos mexicanos, os agricultores t=
+emem repres=C3=A1lias que possam reduzir suas exporta=C3=A7=C3=B5es para o =
+pa=C3=ADs vizinho. A guerra comercial se intensificou com retalia=C3=A7=C3=
+=B5es do Canad=C3=A1 e da China, que impuseram tarifas de at=C3=A9 15% sobr=
+e produtos agr=C3=ADcolas dos EUA, incluindo milho, trigo, carne su=C3=ADna=
+ e soja. Al=C3=A9m disso, a China suspendeu compras de soja de tr=C3=AAs em=
+presas americanas. Com isso, h=C3=A1 o receio de que o M=C3=A9xico busque f=
+ornecedores sul-americanos, prejudicando especialmente produtores de Illino=
+is, onde um ter=C3=A7o da safra de milho =C3=A9 exportado. O presidente do =
+American Farm Bureau, Zippy Duvall, reconhece que os agricultores apoiam a =
+busca por um com=C3=A9rcio mais justo, mas alerta que tarifas adicionais e =
+as repres=C3=A1lias previstas impactar=C3=A3o negativamente o setor agr=C3=
+=ADcola. Em 2024, os EUA exportaram mais de US$ 83 bilh=C3=B5es em produtos=
+ agr=C3=ADcolas para os pa=C3=ADses agora afetados pelas novas tarifas, o q=
+ue pode comprometer significativamente a economia rural americana. Fonte: G=
+lobo Rural
+Continue lendo no LinkedIn
+https://www.linkedin.com/comm/pulse/smart-news-boletim-semanal-ctasmart-gx3=
+3f?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BD0cun=
+329Szi1c5nOtOGZmA%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D0st2WKW9-uSXE1&t=
+rk=3Deml-email_series_follow_newsletter_01-newsletter_content_preview_text-=
+0-readmore_button_&trkEmail=3Deml-email_series_follow_newsletter_01-newslet=
+ter_content_preview_text-0-readmore_button_-null-gdb74f~m7zdgjzl~dj-null-nu=
+ll&eid=3Dgdb74f-m7zdgjzl-dj&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIx=
+ZmU0YmM4N2NlZDQ0NTkxYWE4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NzFmNWZlZGI1OGY=
+5Y2YyODNhM2ZiNThjYmZkOGZiNjFkZjU2N2Y3ODIxMDcwNiwxLDE%3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | Java | JS | React.js | PostgreSQL)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3BD0cun329Szi1c5nOtOGZmA%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=
+=3D0st2WKW9-uSXE1&trk=3Deml-email_series_follow_newsletter_01-SecurityHelp-=
+0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Securi=
+tyHelp-0-textfooterglimmer-null-gdb74f~m7zdgjzl~dj-null-null&eid=3Dgdb74f-m=
+7zdgjzl-dj&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4N2NlZDQ0N=
+TkxYWE4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NzFmNWZlZGI1OGY5Y2YyODNhM2ZiNThj=
+YmZkOGZiNjFkZjU2N2Y3ODIxMDcwNiwxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/series-notifications=
+/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjl=
+Y&newsletterId=3D7065345482239131648&newsletterTitle=3DSmart News - Boletim=
+ Semanal&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3=
+BD0cun329Szi1c5nOtOGZmA%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D0st2WKW9-u=
+SXE1&ek=3Demail_series_follow_newsletter_01&e=3Dgdb74f-m7zdgjzl-dj&eid=3Dgd=
+b74f-m7zdgjzl-dj&m=3Dunsubscribe&ts=3DfooterGlimmer&li=3D0&t=3Dplh  =C2=A0=
+=C2=A0=C2=B7=C2=A0=C2=A0Ajuda: https://www.linkedin.com/help/linkedin/answe=
+r/67?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslette=
+r_01%3BD0cun329Szi1c5nOtOGZmA%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D0st2=
+WKW9-uSXE1&trk=3Deml-email_series_follow_newsletter_01-help-0-textfootergli=
+mmer&trkEmail=3Deml-email_series_follow_newsletter_01-help-0-textfooterglim=
+mer-null-gdb74f~m7zdgjzl~dj-null-null&eid=3Dgdb74f-m7zdgjzl-dj&otpToken=3DM=
+WIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4N2NlZDQ0NTkxYWE4NzYxNzljNDA2NmQ0=
+YjVkNWJmMmZlZDNkZjg2NzFmNWZlZGI1OGY5Y2YyODNhM2ZiNThjYmZkOGZiNjFkZjU2N2Y3ODI=
+xMDcwNiwxLDE%3D
+
+=C2=A9 2025 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_4012313_555727987.1741388045186
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+/head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-canvas w-fu=
+ll m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; padding: 0p=
+x; padding-top: 8px; font-family: -apple-system, system-ui, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Ox=
+ygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sa=
+ns-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible overflow=
+-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; max-height=
+: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" data-email-p=
+reheader=3D"true">Ol=C3=A1, leitor! Chegamos com mais uma edi=C3=A7=C3=A3o =
+da Smart News por aqui! O seu boletim=E2=80=A6</div> <div class=3D"h-0 opac=
+ity-0 text-transparent invisible overflow-hidden w-0 max-h-[0]" style=3D"vi=
+sibility: hidden; height: 0px; max-height: 0; width: 0px; overflow: hidden;=
+ opacity: 0; mso-hide: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+ =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table role=3D"present=
+ation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"512" align=3D"center" class=3D"mercado-container w-[512px] max-w-[512p=
+x] mx-auto my-0 p-0 " style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-left: =
+auto; margin-right: auto; margin-top: 0px; margin-bottom: 0px; width: 512px=
+; max-width: 512px; padding: 0px;"> <tbody> <tr> <td style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"bg-color-back=
+ground-container " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color=
+: #ffffff;"> <tbody> <tr> <td class=3D"text-center p-3" style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; padding: 24px; text-align: center;"> <table role=3D"pr=
+esentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ width=3D"100%" class=3D"min-w-full" style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; min-width: 100%;"> <tbody> <tr> <td align=3D"left" valign=3D"middle" styl=
+e=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/c=
+omm/feed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%=
+3BD0cun329Szi1c5nOtOGZmA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0=
+st2WKW9-uSXE1&amp;trk=3Deml-email_series_follow_newsletter_01-header-0-home=
+_glimmer_dynamic_badging_high_dpi&amp;trkEmail=3Deml-email_series_follow_ne=
+wsletter_01-header-0-home_glimmer_dynamic_badging_high_dpi-null-gdb74f~m7zd=
+gjzl~dj-null-null&amp;eid=3Dgdb74f-m7zdgjzl-dj&amp;otpToken=3DMWIwZDE3ZTgxM=
+zI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4N2NlZDQ0NTkxYWE4NzYxNzljNDA2NmQ0YjVkNWJmMmZl=
+ZDNkZjg2NzFmNWZlZGI1OGY5Y2YyODNhM2ZiNThjYmZkOGZiNjFkZjU2N2Y3ODIxMDcwNiwxLDE=
+%3D" target=3D"_blank" class=3D"w-[84px]" style=3D"color: #0a66c2; cursor: =
+pointer; display: inline-block; text-decoration: none; -webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; width: 84px;"> <img class=3D"h-[37p=
+x] w-[101px]" alt=3D"LinkedIn" src=3D"https://www.linkedin.com/comm/dms/log=
+o/v2?badgeTheme=3Dmercado&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_f=
+ollow_newsletter_01%3BD0cun329Szi1c5nOtOGZmA%3D%3D&amp;midSig=3D0st2WKW9-uS=
+XE1&amp;midToken=3DAQHxaOsdYMWJVQ&amp;trkEmail=3Deml-email_series_follow_ne=
+wsletter_01-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2-null-gdb74f%7Em=
+7zdgjzl%7Edj-null-null&amp;trk=3Deml-email_series_follow_newsletter_01-null=
+-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2&amp;_sig=3D2lIDSk-GGuSXE1" data=
+-test-header-dynamic-badging-img-high-dpi style=3D"outline: none; text-deco=
+ration: none; -ms-interpolation-mode: bicubic; height: 37px; width: 101px;"=
+ width=3D"101" height=3D"37"> </a> </td> <td valign=3D"middle" align=3D"rig=
+ht" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" =
+valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"10=
+0%" data-test-header-profile style=3D"-webkit-text-size-adjust: 100%; -ms-t=
+ext-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbo=
+dy> <tr> <td align=3D"right" valign=3D"middle" class=3D"w-[32px]" style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt; width: 32px;" width=3D"32"> <a href=3D"https=
+://br.linkedin.com/comm/in/fernando-ferreira-brito?lipi=3Durn%3Ali%3Apage%3=
+Aemail_email_series_follow_newsletter_01%3BD0cun329Szi1c5nOtOGZmA%3D%3D&amp=
+;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0st2WKW9-uSXE1&amp;trk=3Deml-email_=
+series_follow_newsletter_01-header-0-profile_glimmer&amp;trkEmail=3Deml-ema=
+il_series_follow_newsletter_01-header-0-profile_glimmer-null-gdb74f~m7zdgjz=
+l~dj-null-null&amp;eid=3Dgdb74f-m7zdgjzl-dj&amp;otpToken=3DMWIwZDE3ZTgxMzI4=
+Y2JjM2I1MjQwNGVkNDIxZmU0YmM4N2NlZDQ0NTkxYWE4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDN=
+kZjg2NzFmNWZlZGI1OGY5Y2YyODNhM2ZiNThjYmZkOGZiNjFkZjU2N2Y3ODIxMDcwNiwxLDE%3D=
+" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inli=
+ne-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%;"> <img alt=3D"Luiz Fernando Brito Ferreira" src=3D"https:=
+//media.licdn.com/dms/image/v2/D4E03AQHtWMkj43o1lA/profile-displayphoto-shr=
+ink_200_200/profile-displayphoto-shrink_200_200/0/1724191556445?e=3D2147483=
+647&amp;v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB92xXoc9r_1IG6EIUIKB4" class=
+=3D"rounded-[100%] w-[32px] h-[32px]" style=3D"outline: none; text-decorati=
+on: none; -ms-interpolation-mode: bicubic; height: 32px; width: 32px; borde=
+r-radius: 100%;" width=3D"32" height=3D"32"> </a> </td> </tr> </tbody> </ta=
+ble> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"px-0 pb-3"=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 0px; padding-right: =
+0px; padding-bottom: 24px;"> <div> <table role=3D"presentation" valign=3D"t=
+op" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td data-test-id=3D"newsl=
+etter-entity-lockup" class=3D"px-3 pt-1" style=3D"-webkit-text-size-adjust:=
+ 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt; padding-left: 24px; padding-right: 24px; padding-top: 8px;"> <table r=
+ole=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" width=3D"100%" class=3D"font-sans" style=3D"-webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe=
+ UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans',=
+ Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;">=
+ <tbody> <tr> <td valign=3D"top" class=3D"pr-1 w-6" style=3D"-webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt; width: 48px; padding-right: 8px;" width=3D"48"> <a href=3D=
+"https://www.linkedin.com/comm/newsletters/7065345482239131648?lipi=3Durn%3=
+Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BD0cun329Szi1c5nOtOGZ=
+mA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0st2WKW9-uSXE1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-0-newslet=
+ter_entity_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newslet=
+ter_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m7zdgjzl~dj-null-null=
+&amp;eid=3Dgdb74f-m7zdgjzl-dj&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNG=
+VkNDIxZmU0YmM4N2NlZDQ0NTkxYWE4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NzFmNWZlZ=
+GI1OGY5Y2YyODNhM2ZiNThjYmZkOGZiNjFkZjU2N2Y3ODIxMDcwNiwxLDE%3D" target=3D"_b=
+lank" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; text=
+-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%;"> <img class=3D"inline-block relative bg-color-entity-ghost-background =
+w-6 h-6 rounded-md" src=3D"https://media.licdn.com/dms/image/v2/D4D12AQFVR9=
+dy8JxCEg/series-logo_image-shrink_100_100/series-logo_image-shrink_100_100/=
+0/1684509606539?e=3D2147483647&amp;v=3Dbeta&amp;t=3DnPA-Xr5_muIboAVh_56pjbd=
+w7sl-qXgWg1WET_-OSuE" alt=3D"Abrir Smart News - Boletim Semanal" style=3D"o=
+utline: none; text-decoration: none; -ms-interpolation-mode: bicubic; posit=
+ion: relative; display: inline-block; height: 48px; width: 48px; border-rad=
+ius: 8px; background-color: #eae6df;" width=3D"48" height=3D"48"> </a> </td=
+> <td valign=3D"top" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr=
+> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.link=
+edin.com/comm/newsletters/7065345482239131648?lipi=3Durn%3Ali%3Apage%3Aemai=
+l_email_series_follow_newsletter_01%3BD0cun329Szi1c5nOtOGZmA%3D%3D&amp;midT=
+oken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0st2WKW9-uSXE1&amp;trk=3Deml-email_serie=
+s_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta&amp=
+;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-=
+0-newsletter_entity_cta-null-gdb74f~m7zdgjzl~dj-null-null&amp;eid=3Dgdb74f-=
+m7zdgjzl-dj&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4N2Nl=
+ZDQ0NTkxYWE4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NzFmNWZlZGI1OGY5Y2YyODNhM2Z=
+iNThjYmZkOGZiNjFkZjU2N2Y3ODIxMDcwNiwxLDE%3D" target=3D"_blank" class=3D"no-=
+underline" style=3D"color: #0a66c2; cursor: pointer; display: inline-block;=
+ text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; text-decoration-line: none;"> <div class=3D"pb-0.5" style=3D"paddi=
+ng-bottom: 4px;"> <span class=3D"text-md font-bold text-color-text break-wo=
+rds leading-regular" style=3D"overflow-wrap: break-word; font-size: 16px; f=
+ont-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Smart News=
+ - Boletim Semanal </span> </div> </a> </td> </tr> <tr> <td style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/newslet=
+ters/7065345482239131648?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow=
+_newsletter_01%3BD0cun329Szi1c5nOtOGZmA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ=
+&amp;midSig=3D0st2WKW9-uSXE1&amp;trk=3Deml-email_series_follow_newsletter_0=
+1-newsletter_entity_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-email=
+_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_c=
+ta-null-gdb74f~m7zdgjzl~dj-null-null&amp;eid=3Dgdb74f-m7zdgjzl-dj&amp;otpTo=
+ken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4N2NlZDQ0NTkxYWE4NzYxNzljN=
+DA2NmQ0YjVkNWJmMmZlZDNkZjg2NzFmNWZlZGI1OGY5Y2YyODNhM2ZiNThjYmZkOGZiNjFkZjU2=
+N2Y3ODIxMDcwNiwxLDE%3D" target=3D"_blank" class=3D"no-underline" style=3D"c=
+olor: #0a66c2; cursor: pointer; display: inline-block; text-decoration: non=
+e; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decorat=
+ion-line: none;"> <span class=3D"text-xs text-color-text-low-emphasis leadi=
+ng-regular" style=3D"font-size: 12px; line-height: 1.25; color: rgba(0, 0, =
+0, 0.6);"> Todas as sextas-feiras, ao meio dia. </span> </a> </td> </tr> </=
+tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr data-test-id=
+=3D"newsletter-content-preview"> <td class=3D"px-3 pt-2" style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; padding-left: 24px; padding-right: 24px; padding-top:=
+ 16px;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt;"> <tbody> <tr> <td class=3D"overflow-hidden " style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt; overflow: hidden;"> <table role=3D"presentation" valign=
+=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/smar=
+t-news-boletim-semanal-ctasmart-gx33f?lipi=3Durn%3Ali%3Apage%3Aemail_email_=
+series_follow_newsletter_01%3BD0cun329Szi1c5nOtOGZmA%3D%3D&amp;midToken=3DA=
+QHxaOsdYMWJVQ&amp;midSig=3D0st2WKW9-uSXE1&amp;trk=3Deml-email_series_follow=
+_newsletter_01-newsletter_content_preview-0-headline_&amp;trkEmail=3Deml-em=
+ail_series_follow_newsletter_01-newsletter_content_preview-0-headline_-null=
+-gdb74f~m7zdgjzl~dj-null-null&amp;eid=3Dgdb74f-m7zdgjzl-dj&amp;otpToken=3DM=
+WIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4N2NlZDQ0NTkxYWE4NzYxNzljNDA2NmQ0=
+YjVkNWJmMmZlZDNkZjg2NzFmNWZlZGI1OGY5Y2YyODNhM2ZiNThjYmZkOGZiNjFkZjU2N2Y3ODI=
+xMDcwNiwxLDE%3D" target=3D"_blank" class=3D"w-full" style=3D"color: #0a66c2=
+; cursor: pointer; display: inline-block; text-decoration: none; -webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; width: 100%;"> <img class=
+=3D"block w-full aspect-[744/400] object-cover overflow-hidden" data-test-i=
+d=3D"newsletter-content-preview__cover-image" alt=3D"Imagem de capa da news=
+letter" src=3D"https://media.licdn.com/dms/image/v2/D4D12AQERJZZ798xgPg/art=
+icle-cover_image-shrink_720_1280/B4DZVxSbc8GkAI-/0/1741362416084?e=3D214748=
+3647&amp;v=3Dbeta&amp;t=3D2E9SyuEsOuQxbLzgIOW2Y0DDdWcSvfu_XvXhXfB2y7g" styl=
+e=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;=
+ display: block; aspect-ratio: 744/400; width: 100%; overflow: hidden; obje=
+ct-fit: cover;"> </a> </td> </tr> <tr> <td class=3D"py-2" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; padding-top: 16px; padding-bottom: 16px;"> <table ro=
+le=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <=
+tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.li=
+nkedin.com/comm/pulse/smart-news-boletim-semanal-ctasmart-gx33f?lipi=3Durn%=
+3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BD0cun329Szi1c5nOtOG=
+ZmA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0st2WKW9-uSXE1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-title=
+_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_p=
+review-0-title_-null-gdb74f~m7zdgjzl~dj-null-null&amp;eid=3Dgdb74f-m7zdgjzl=
+-dj&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4N2NlZDQ0NTkx=
+YWE4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NzFmNWZlZGI1OGY5Y2YyODNhM2ZiNThjYmZ=
+kOGZiNjFkZjU2N2Y3ODIxMDcwNiwxLDE%3D" target=3D"_blank" class=3D"no-underlin=
+e font-medium text-sm m-0 text-system-gray-90" style=3D"cursor: pointer; di=
+splay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; margin: 0px; font-size: 14px; font-weight: 500=
+; color: #282828; text-decoration-line: none;"> <h2 class=3D"m-0 text-displ=
+ay-sm leading-regular text-color-text font-bold font-sans" style=3D"margin:=
+ 0px; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Can=
+tarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-=
+size: 24px; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);=
+"> Smart News - Boletim Semanal </h2> </a> </td> </tr> <tr> <td style=3D"-w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D"top" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" data-test-i=
+d=3D"newsletter-author-lockup-redesign" class=3D"mt-1 mb-2" style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt; margin-bottom: 16px; margin-top: 8px;"> <tbody> <t=
+r> <td valign=3D"middle" align=3D"left" class=3D"w-3" style=3D"-webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt; width: 24px;" width=3D"24"> <a href=3D"https://www.linke=
+din.com/comm/company/ctasmart?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_f=
+ollow_newsletter_01%3BD0cun329Szi1c5nOtOGZmA%3D%3D&amp;midToken=3DAQHxaOsdY=
+MWJVQ&amp;midSig=3D0st2WKW9-uSXE1&amp;trk=3Deml-email_series_follow_newslet=
+ter_01-newsletter_content_preview-0-author_&amp;trkEmail=3Deml-email_series=
+_follow_newsletter_01-newsletter_content_preview-0-author_-null-gdb74f~m7zd=
+gjzl~dj-null-null&amp;eid=3Dgdb74f-m7zdgjzl-dj&amp;otpToken=3DMWIwZDE3ZTgxM=
+zI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4N2NlZDQ0NTkxYWE4NzYxNzljNDA2NmQ0YjVkNWJmMmZl=
+ZDNkZjg2NzFmNWZlZGI1OGY5Y2YyODNhM2ZiNThjYmZkOGZiNjFkZjU2N2Y3ODIxMDcwNiwxLDE=
+%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: i=
+nline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%;"> <img class=3D"inline-block relative bg-color-entity-=
+ghost-background w-4 h-4 align-middle" src=3D"https://media.licdn.com/dms/i=
+mage/v2/D4D0BAQHKSyTOGNz13A/company-logo_100_100/company-logo_100_100/0/170=
+0488854651/ctasmart_logo?e=3D2147483647&amp;v=3Dbeta&amp;t=3DHdj6IpnvbJirA_=
+JSrF5hx8gegRW2mjDcNFYMwxxR034" alt=3D"Imagem do autor" style=3D"outline: no=
+ne; text-decoration: none; -ms-interpolation-mode: bicubic; position: relat=
+ive; display: inline-block; height: 32px; width: 32px; background-color: #e=
+ae6df; vertical-align: middle;" width=3D"32" height=3D"32"> </a> </td> <td =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.c=
+om/comm/company/ctasmart?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow=
+_newsletter_01%3BD0cun329Szi1c5nOtOGZmA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ=
+&amp;midSig=3D0st2WKW9-uSXE1&amp;trk=3Deml-email_series_follow_newsletter_0=
+1-newsletter_content_preview-0-author_&amp;trkEmail=3Deml-email_series_foll=
+ow_newsletter_01-newsletter_content_preview-0-author_-null-gdb74f~m7zdgjzl~=
+dj-null-null&amp;eid=3Dgdb74f-m7zdgjzl-dj&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2=
+JjM2I1MjQwNGVkNDIxZmU0YmM4N2NlZDQ0NTkxYWE4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZ=
+jg2NzFmNWZlZGI1OGY5Y2YyODNhM2ZiNThjYmZkOGZiNjFkZjU2N2Y3ODIxMDcwNiwxLDE%3D" =
+target=3D"_blank" class=3D"no-underline ml-1" style=3D"color: #0a66c2; curs=
+or: pointer; display: inline-block; text-decoration: none; -webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; margin-left: 8px; text-decorati=
+on-line: none;"> <span class=3D"font-sans font-bold text-sm mb-3 text-color=
+-text-low-emphasis leading-regular" style=3D"margin-bottom: 24px; font-fami=
+ly: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helv=
+etica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid =
+Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI S=
+ymbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 14px; fon=
+t-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.6);"> CTA Smart </=
+span> </a> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"pb-1=
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px;"> <div class=
+=3D"p-3 bg-color-surface-tint rounded-md font-sans" data-test-id=3D"newslet=
+ter-cta-banner" style=3D"border-radius: 8px; background-color: #f5f7f9; pad=
+ding: 24px; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Seg=
+oe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans=
+', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe U=
+I Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;=
+"> <div class=3D"mb-1.5" style=3D"margin-bottom: 12px;"> <span class=3D"tex=
+t-md leading-regular font-bold text-color-text" style=3D"font-size: 16px; f=
+ont-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Leia este =
+artigo no LinkedIn para participar da conversa </span> </div> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" class=3D"email-button " data-test-id=3D"email-button"=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=3D"middl=
+e" align=3D"left" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"http=
+s://www.linkedin.com/comm/pulse/smart-news-boletim-semanal-ctasmart-gx33f?l=
+ipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BD0cun329S=
+zi1c5nOtOGZmA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0st2WKW9-uSX=
+E1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_content_previ=
+ew-0-read_more_banner_cta_&amp;trkEmail=3Deml-email_series_follow_newslette=
+r_01-newsletter_content_preview-0-read_more_banner_cta_-null-gdb74f~m7zdgjz=
+l~dj-null-null&amp;eid=3Dgdb74f-m7zdgjzl-dj&amp;otpToken=3DMWIwZDE3ZTgxMzI4=
+Y2JjM2I1MjQwNGVkNDIxZmU0YmM4N2NlZDQ0NTkxYWE4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDN=
+kZjg2NzFmNWZlZGI1OGY5Y2YyODNhM2ZiNThjYmZkOGZiNjFkZjU2N2Y3ODIxMDcwNiwxLDE%3D=
+" target=3D"_blank" aria-label=3D"Abrir este artigo no LinkedIn" class=3D"a=
+lign-top no-underline " style=3D"color: #0a66c2; cursor: pointer; display: =
+inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; vertical-align: top; text-decoration-line: none;"> <t=
+able role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0" width=3D"auto" class=3D"border-separate " style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; border-collapse: separate;"> <tbody> <tr> <td class=
+=3D"btn-sm btn-primary border-color-brand button-link leading-regular !min-=
+h-[auto] !shadow-none border-1 border-solid" style=3D"-webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; height: min-content; border-radius: 24px; padding-top: 7px; paddi=
+ng-bottom: 7px; padding-left: 16px; padding-right: 16px; text-align: center=
+; font-size: 14px; font-weight: 600; cursor: pointer; text-decoration-line:=
+ none; background-color: #0a66c2; color: #ffffff; border-width: 1px; border=
+-style: solid; border-color: #0a66c2; line-height: 1.25; min-height: auto !=
+important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;"> <a hre=
+f=3D"https://www.linkedin.com/comm/pulse/smart-news-boletim-semanal-ctasmar=
+t-gx33f?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B=
+D0cun329Szi1c5nOtOGZmA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0st=
+2WKW9-uSXE1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_cont=
+ent_preview-0-read_more_banner_cta_&amp;trkEmail=3Deml-email_series_follow_=
+newsletter_01-newsletter_content_preview-0-read_more_banner_cta_-null-gdb74=
+f~m7zdgjzl~dj-null-null&amp;eid=3Dgdb74f-m7zdgjzl-dj&amp;otpToken=3DMWIwZDE=
+3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4N2NlZDQ0NTkxYWE4NzYxNzljNDA2NmQ0YjVkNW=
+JmMmZlZDNkZjg2NzFmNWZlZGI1OGY5Y2YyODNhM2ZiNThjYmZkOGZiNjFkZjU2N2Y3ODIxMDcwN=
+iwxLDE%3D" target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" class=3D"=
+no-underline" style=3D"color: #0a66c2; cursor: pointer; display: inline-blo=
+ck; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; text-decoration-line: none;"> <span class=3D"no-underline text-=
+white" style=3D"color: #ffffff; text-decoration-line: none;"> Ler no Linked=
+In </span> </a> </td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </t=
+able> </div> </td> </tr> <tr data-test-id=3D"newsletter-content-preview--co=
+ntent"> <td class=3D"font-sans text-md leading-open text-system-gray-90" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, system-ui=
+, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ub=
+untu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Hel=
+vetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #28282=
+8;"> <div data-test-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1.5 te=
+xt-md leading-open" style=3D"font-weight: 400; margin: 0px; margin-top: 12p=
+x; font-size: 16px; line-height: 1.5;"> <span class data-test-id=3D"little-=
+text-block">Ol=C3=A1, leitor! Chegamos com mais uma edi=C3=A7=C3=A3o da Sma=
+rt News por aqui!</span> </p> </div> <div data-test-id=3D"publishing-text-b=
+lock"> <p class=3D"m-0 mt-1.5 text-md leading-open" style=3D"font-weight: 4=
+00; margin: 0px; margin-top: 12px; font-size: 16px; line-height: 1.5;"> <sp=
+an class data-test-id=3D"little-text-block">O seu boletim semanal, atualiza=
+do sobre tudo que aconteceu de mais relevante durante os dias 03 a 07 de ma=
+r=C3=A7o.</span> </p> </div> <div data-test-id=3D"publishing-text-block"> <=
+p class=3D"m-0 mt-1.5 text-md leading-open" style=3D"font-weight: 400; marg=
+in: 0px; margin-top: 12px; font-size: 16px; line-height: 1.5;"> <span class=
+ data-test-id=3D"little-text-block">Fique de olho no nosso balan=C3=A7o sem=
+anal e tenha a informa=C3=A7=C3=A3o na palma da sua m=C3=A3o!</span> </p> <=
+/div> <div data-test-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1.5 t=
+ext-md leading-open" style=3D"font-weight: 400; margin: 0px; margin-top: 12=
+px; font-size: 16px; line-height: 1.5;"> <span class data-test-id=3D"little=
+-text-block">Smart News, a semana resumida, a informa=C3=A7=C3=A3o completa=
+.</span> </p> </div> <div data-test-id=3D"publishing-text-block"> <p class=
+=3D"m-0 mt-1.5 text-md leading-open" style=3D"font-weight: 400; margin: 0px=
+; margin-top: 12px; font-size: 16px; line-height: 1.5;"> <span class data-t=
+est-id=3D"little-text-block">Boa Leitura!</span> </p> </div> <div data-test=
+-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1.5 text-md leading-open"=
+ style=3D"font-weight: 400; margin: 0px; margin-top: 12px; font-size: 16px;=
+ line-height: 1.5;"> <span class=3D"font-[700]" data-test-id=3D"little-text=
+-block" style=3D"font-weight: 700;">COLHEITA DA SOJA: SAIBA O PANOR=C3=82MA=
+ PELO BRASIL=C2=A0</span> </p> </div> <div data-test-id=3D"publishing-text-=
+block"> <p class=3D"m-0 mt-1.5 text-md leading-open" style=3D"font-weight: =
+400; margin: 0px; margin-top: 12px; font-size: 16px; line-height: 1.5;"> <s=
+pan class data-test-id=3D"little-text-block">A colheita da safra 2024/25 de=
+ soja avan=C3=A7a rapidamente nas principais regi=C3=B5es produtoras do Bra=
+sil. Segundo o levantamento mais recente da consultoria Safras &amp; Mercad=
+os, cerca de 50% da =C3=A1rea cultivada j=C3=A1 foi colhida.=C2=A0</span> <=
+/p> </div> <div data-test-id=3D"publishing-text-block"> <p class=3D"m-0 mt-=
+1.5 text-md leading-open" style=3D"font-weight: 400; margin: 0px; margin-to=
+p: 12px; font-size: 16px; line-height: 1.5;"> <span class data-test-id=3D"l=
+ittle-text-block">No Paran=C3=A1, a safra de soja deve sofrer uma redu=C3=
+=A7=C3=A3o de 4% em rela=C3=A7=C3=A3o =C3=A0 previs=C3=A3o inicial, resulta=
+ndo em preju=C3=ADzos bilion=C3=A1rios, segundo a Secretaria de Agricultura=
+ e Abastecimento do Estado. As maiores quedas ocorrem na regi=C3=A3o de Cam=
+po Mour=C3=A3o, com redu=C3=A7=C3=A3o de 376 mil toneladas, e no oeste do e=
+stado, com 317 mil toneladas. At=C3=A9 o momento, 49% das lavouras j=C3=A1 =
+foram colhidas, com 80% das planta=C3=A7=C3=B5es em boas condi=C3=A7=C3=B5e=
+s. Na regi=C3=A3o sul, que concentra a maior =C3=A1rea de cultivo, ainda n=
+=C3=A3o houve perdas, e a expectativa =C3=A9 de aumento na produtividade, o=
+ que pode compensar as quedas em outras =C3=A1reas.</span> </p> </div> <div=
+ data-test-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1.5 text-md lea=
+ding-open" style=3D"font-weight: 400; margin: 0px; margin-top: 12px; font-s=
+ize: 16px; line-height: 1.5;"> <span class data-test-id=3D"little-text-bloc=
+k">Em Mato Grosso, a colheita de soja alcan=C3=A7ou 82,3% da =C3=A1rea tota=
+l, superando a m=C3=A9dia hist=C3=B3rica de cinco anos (77,44%), mas ainda =
+atr=C3=A1s do ritmo do ano passado, quando 85% j=C3=A1 haviam sido colhidos=
+. A regi=C3=A3o M=C3=A9dio Norte lidera com quase 93% da =C3=A1rea colhida,=
+ enquanto a nordeste =C3=A9 a mais atrasada, com 70%. Na Bahia, a colheita =
+avan=C3=A7a em ritmo mais acelerado do que na safra anterior, quando o El N=
+i=C3=B1o causou atrasos. Neste ciclo, o cen=C3=A1rio =C3=A9 positivo, com c=
+erca de 700 mil hectares j=C3=A1 colhidos.</span> </p> </div> <span>...</sp=
+an> </td> </tr> <tr> <td class=3D"pt-2 no-underline" style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt; padding-top: 16px; text-decoration-line: none;"> <table r=
+ole=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" width=3D"100%" class=3D"email-button series-content-preview__bott=
+om-cta" data-test-id=3D"email-button" style=3D"-webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t;"> <tbody> <tr> <td valign=3D"middle" align=3D"left" style=3D"-webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/smart-=
+news-boletim-semanal-ctasmart-gx33f?lipi=3Durn%3Ali%3Apage%3Aemail_email_se=
+ries_follow_newsletter_01%3BD0cun329Szi1c5nOtOGZmA%3D%3D&amp;midToken=3DAQH=
+xaOsdYMWJVQ&amp;midSig=3D0st2WKW9-uSXE1&amp;trk=3Deml-email_series_follow_n=
+ewsletter_01-newsletter_content_preview-0-readmore_button_&amp;trkEmail=3De=
+ml-email_series_follow_newsletter_01-newsletter_content_preview-0-readmore_=
+button_-null-gdb74f~m7zdgjzl~dj-null-null&amp;eid=3Dgdb74f-m7zdgjzl-dj&amp;=
+otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4N2NlZDQ0NTkxYWE4NzYx=
+NzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NzFmNWZlZGI1OGY5Y2YyODNhM2ZiNThjYmZkOGZiNjF=
+kZjU2N2Y3ODIxMDcwNiwxLDE%3D" target=3D"_blank" aria-label=3D"Abrir Smart Ne=
+ws - Boletim Semanal no LinkedIn" class=3D"align-top no-underline " style=
+=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decoration=
+: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; vertica=
+l-align: top; text-decoration-line: none; width: 100%;"> <table role=3D"pre=
+sentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" class=3D"border-separate " style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; border-collapse: separate; width: 100%;"> <tbody> <tr> <td class=3D"=
+btn-md btn-secondary-emphasis border-color-brand button-link leading-regula=
+r !min-h-[auto] !shadow-none border-1 border-solid font-sans" data-test-id=
+=3D"newsletter-content-preview-redesign-bottom-cta" style=3D"-webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt; height: min-content; border-radius: 24px; padding-top: 12p=
+x; padding-bottom: 12px; padding-left: 24px; padding-right: 24px; text-alig=
+n: center; font-size: 16px; font-weight: 600; cursor: pointer; text-decorat=
+ion-line: none; background-color: rgba(0, 0, 0, 0); color: #0a66c2; border-=
+width: 1px; border-style: solid; border-color: #0a66c2; font-family: -apple=
+-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue=
+', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Ap=
+ple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'L=
+ucida Grande', Helvetica, Arial, sans-serif; line-height: 1.25; min-height:=
+ auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;">=
+ <a href=3D"https://www.linkedin.com/comm/pulse/smart-news-boletim-semanal-=
+ctasmart-gx33f?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslette=
+r_01%3BD0cun329Szi1c5nOtOGZmA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSi=
+g=3D0st2WKW9-uSXE1&amp;trk=3Deml-email_series_follow_newsletter_01-newslett=
+er_content_preview-0-readmore_button_&amp;trkEmail=3Deml-email_series_follo=
+w_newsletter_01-newsletter_content_preview-0-readmore_button_-null-gdb74f~m=
+7zdgjzl~dj-null-null&amp;eid=3Dgdb74f-m7zdgjzl-dj&amp;otpToken=3DMWIwZDE3ZT=
+gxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4N2NlZDQ0NTkxYWE4NzYxNzljNDA2NmQ0YjVkNWJmM=
+mZlZDNkZjg2NzFmNWZlZGI1OGY5Y2YyODNhM2ZiNThjYmZkOGZiNjFkZjU2N2Y3ODIxMDcwNiwx=
+LDE%3D" target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" class=3D"no-=
+underline" style=3D"color: #0a66c2; cursor: pointer; display: inline-block;=
+ text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; text-decoration-line: none; width: 100%;"> <span class=3D"no-under=
+line text-color-brand" style=3D"color: #0a66c2; text-decoration-line: none;=
+"> Continue lendo no LinkedIn </span> </a> </td> </tr> </tbody> </table> </=
+a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> =
+</tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </tabl=
+e> </div> </td> </tr> <tr> <td class=3D"bg-color-background-canvas p-3" sty=
+le=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f3f2f0; padding: 24=
+px;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"text-xs" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; font-size: 12px;"> <tbody> <tr> <td class=3D"pb-1 m-=
+0" data-test-id=3D"email-footer__intended" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt; margin: 0px; padding-bottom: 8px;"> Este e-mail foi enviado a Luiz =
+Fernando Brito Ferreira (Full-Stack Developer | Java | JS | React.js | Post=
+greSQL) </td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; margin: 0px; padding-bottom: 8px;"> <a href=3D"https://www.lin=
+kedin.com/help/linkedin/answer/4788?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3A=
+email_email_series_follow_newsletter_01%3BD0cun329Szi1c5nOtOGZmA%3D%3D&amp;=
+midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0st2WKW9-uSXE1&amp;trk=3Deml-email_s=
+eries_follow_newsletter_01-SecurityHelp-0-footerglimmer&amp;trkEmail=3Deml-=
+email_series_follow_newsletter_01-SecurityHelp-0-footerglimmer-null-gdb74f~=
+m7zdgjzl~dj-null-null&amp;eid=3Dgdb74f-m7zdgjzl-dj&amp;otpToken=3DMWIwZDE3Z=
+TgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4N2NlZDQ0NTkxYWE4NzYxNzljNDA2NmQ0YjVkNWJm=
+MmZlZDNkZjg2NzFmNWZlZGI1OGY5Y2YyODNhM2ZiNThjYmZkOGZiNjFkZjU2N2Y3ODIxMDcwNiw=
+xLDE%3D" target=3D"_blank" class=3D"text-inherit underline" style=3D"cursor=
+: pointer; display: inline-block; text-decoration: none; -webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; color: inherit; text-decoration-l=
+ine: underline;">Saiba por que inclu=C3=ADmos isso.</a> </td> </tr> <tr> <t=
+d class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; p=
+adding-bottom: 8px;">Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=
+=A7=C3=A3o do LinkedIn. Outras pessoas podem ver que voc=C3=AA =C3=A9 assin=
+ante.</td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; margin: 0px; padding-bottom: 8px;"> <a href=3D"https://www.linked=
+in.com/series-notifications/?action=3Dunsubscribe&amp;memberToken=3DADoAADr=
+_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&amp;newsletterId=3D7065345482239131648&amp=
+;newsletterTitle=3DSmart News - Boletim Semanal&amp;lipi=3Durn%3Ali%3Apage%=
+3Aemail_email_series_follow_newsletter_01%3BD0cun329Szi1c5nOtOGZmA%3D%3D&am=
+p;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0st2WKW9-uSXE1&amp;ek=3Demail_seri=
+es_follow_newsletter_01&amp;e=3Dgdb74f-m7zdgjzl-dj&amp;eid=3Dgdb74f-m7zdgjz=
+l-dj&amp;m=3Dunsubscribe&amp;ts=3DfooterGlimmer&amp;li=3D0&amp;t=3Dplh" tar=
+get=3D"_blank" class=3D"text-inherit underline" style=3D"cursor: pointer; d=
+isplay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; color: inherit; text-decoration-line: underli=
+ne;">Cancelar inscri=C3=A7=C3=A3o</a> =C2=A0=C2=A0=C2=B7=C2=A0=C2=A0 <a hre=
+f=3D"https://www.linkedin.com/help/linkedin/answer/67?lang=3Dpt&amp;lipi=3D=
+urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BD0cun329Szi1c5n=
+OtOGZmA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0st2WKW9-uSXE1&amp=
+;trk=3Deml-email_series_follow_newsletter_01-help-0-footerglimmer&amp;trkEm=
+ail=3Deml-email_series_follow_newsletter_01-help-0-footerglimmer-null-gdb74=
+f~m7zdgjzl~dj-null-null&amp;eid=3Dgdb74f-m7zdgjzl-dj&amp;otpToken=3DMWIwZDE=
+3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4N2NlZDQ0NTkxYWE4NzYxNzljNDA2NmQ0YjVkNW=
+JmMmZlZDNkZjg2NzFmNWZlZGI1OGY5Y2YyODNhM2ZiNThjYmZkOGZiNjFkZjU2N2Y3ODIxMDcwN=
+iwxLDE%3D" target=3D"_blank" class=3D"text-inherit underline" style=3D"curs=
+or: pointer; display: inline-block; text-decoration: none; -webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; color: inherit; text-decoration=
+-line: underline;">Ajuda</a> </td> </tr> <tr> <td class=3D"pb-1" style=3D"-=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px;"> <a href=3D"https://www=
+.linkedin.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow=
+_newsletter_01%3BD0cun329Szi1c5nOtOGZmA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ=
+&amp;midSig=3D0st2WKW9-uSXE1&amp;trk=3Deml-email_series_follow_newsletter_0=
+1-footer-0-logoGlimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01=
+-footer-0-logoGlimmer-null-gdb74f~m7zdgjzl~dj-null-null&amp;eid=3Dgdb74f-m7=
+zdgjzl-dj&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmU0YmM4N2NlZD=
+Q0NTkxYWE4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NzFmNWZlZGI1OGY5Y2YyODNhM2ZiN=
+ThjYmZkOGZiNjFkZjU2N2Y3ODIxMDcwNiwxLDE%3D" target=3D"_blank" style=3D"color=
+: #0a66c2; cursor: pointer; display: inline-block; text-decoration: none; -=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img src=3D"ht=
+tps://static.licdn.com/aero-v1/sc/h/9ehe6n39fa07dc5edzv0rla4e" alt=3D"Linke=
+dIn" class=3D"block h-[14px] w-[56px] image-rendering-crisp" style=3D"outli=
+ne: none; text-decoration: none; image-rendering: -moz-crisp-edges; image-r=
+endering: -o-crisp-edges; image-rendering: -webkit-optimize-contrast; image=
+-rendering: crisp-edges; -ms-interpolation-mode: nearest-neighbor; display:=
+ block; height: 14px; width: 56px;" width=3D"56" height=3D"14"> </a> </td> =
+</tr> <tr> <td data-test-copyright-text style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;"> =C2=A9 2025 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton=
+ Place, Dublin 2 - Irlanda. LinkedIn =C3=A9 um nome comercial registrado da=
+ LinkedIn Ireland Unlimited Company. <span data-test-trademarks-text> Linke=
+dIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn. </span> <=
+/td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tb=
+ody> </table> <img alt role=3D"presentation" src=3D"https://www.linkedin.co=
+m/emimp/ip_WjJSaU56Um1MVzAzZW1SbmFucHNMV1JxOlpXMWhhV3hmYzJWeWFXVnpYMlp2Ykd4=
+dmQxOXVaWGR6YkdWMGRHVnlYekF4OmRYSnVPbXhwT214cGJtdGxaRWx1UVhKMGFXTnNaVG8zTXp=
+Bek9EQXpNek01TWpnM01qSTROREUz.gif" style=3D"outline: none; text-decoration:=
+ none; -ms-interpolation-mode: bicubic; width: 1px; height: 1px;" width=3D"=
+1" height=3D"1"> </body> </html>
+------=_Part_4012313_555727987.1741388045186--
+

@@ -1,0 +1,200 @@
+X-GM-THRID: 1826023239106979562
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categoria:_pessoal,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:37c7:b0:2cd:a3c7:5e5d with SMTP id o7csp494878ysp;
+        Sat, 8 Mar 2025 02:57:44 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IHH4eP71TQYn7En+uCDTWK5hX6ZQcxlcI/lU5RuFTqHszZE2b2ul4WvCVNVsTqdifX2UMJh
+X-Received: by 2002:a05:6402:518a:b0:5d9:82bc:ad06 with SMTP id 4fb4d7f45d1cf-5e5e22bf16amr8115543a12.3.1741431464160;
+        Sat, 08 Mar 2025 02:57:44 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1741431464; cv=none;
+        d=google.com; s=arc-20240605;
+        b=gXvb8vpNh0l4MjbotvI2zdstME6Tkw/im3k+d7bOtPyRQonevQl/kzVfLV2awtHtpA
+         ZxdzZGbiDaeiilcE/9oQFa6+xcEAXN1KkJDYYRSbQeHmn3p6ostm+DHS6AC34n/0reen
+         fXO9j0DMxIcLATQE/mlX7F9mYGY0+gIY0vdeM4WS6TS1WoqzOTuthslln5Z/pMQ0nFp4
+         WELXd3rU1X7zymRa8nLKZ7ad7MOqA3zwlH2+VN78Np4tx/8KkY+mjdxSep9IeUXWX+dw
+         +XWrLVrxEU/0tqQpMkvKT3/jDcsFBvF61cV2iRVMAciGVQe0wiMgeM1kt8Ih81mct5rK
+         SGwQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:from:message-id:subject:to:mime-version:date
+         :dkim-signature:dkim-signature;
+        bh=S4CSj+FU66hFD3y7OebJMqUFjbQBE4E9foV1++f7IjM=;
+        fh=/HdUdLVjKbjM7vqKQCg0R7d+Cuu352Lx86DUD6qVhEc=;
+        b=ewMqQI8BlrPrb/P49Qnofux1EYBOrZwsr5oyDyWJDZ3vWp0kLMIxckdgsUeq9yMH0u
+         RqFG4Y2YLtWncnMtYgmNb/Dfqiwc9KPp9i/PfTBPVInJJkQzodjOfMIqQ/l8zyHjutXD
+         LbYw4YubF0ugTdj78H8xf7p4PZhM0w5cEh2joMrOSIMcvUDNHOencXGUwgHHPRGW0dbi
+         ljKB+nePL1aS+QfuCnYViiZ9MkRVMJpD7OVBKJ9ComEJ+tPf1CG9iuOv7nnbwXSDMVCx
+         NadEeSWjgikmWGCKD0YaePZyY0O+sId+UgulG6AcHpJeoVbXOdZ81p09zYEwgU3j9OFz
+         0Xpw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@eneba.com header.s=rlwi2k3wok5pc2cgzwkzbqgz6c3llhsl header.b=pKL8tFJO;
+       dkim=pass header.i=@amazonses.com header.s=uku4taia5b5tsbglxyj6zym32efj7xqv header.b=ShJZO4Dh;
+       spf=pass (google.com: domain of 0102019575675f6e-f3b3a31c-5a96-46dc-920a-0b255db1d4bc-000000@email.eneba.com designates 54.240.7.35 as permitted sender) smtp.mailfrom=0102019575675f6e-f3b3a31c-5a96-46dc-920a-0b255db1d4bc-000000@email.eneba.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=eneba.com
+Return-Path: <0102019575675f6e-f3b3a31c-5a96-46dc-920a-0b255db1d4bc-000000@email.eneba.com>
+Received: from a7-35.smtp-out.eu-west-1.amazonses.com (a7-35.smtp-out.eu-west-1.amazonses.com. [54.240.7.35])
+        by mx.google.com with ESMTPS id 4fb4d7f45d1cf-5e5c768bbb3si4927812a12.529.2025.03.08.02.57.43
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sat, 08 Mar 2025 02:57:44 -0800 (PST)
+Received-SPF: pass (google.com: domain of 0102019575675f6e-f3b3a31c-5a96-46dc-920a-0b255db1d4bc-000000@email.eneba.com designates 54.240.7.35 as permitted sender) client-ip=54.240.7.35;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@eneba.com header.s=rlwi2k3wok5pc2cgzwkzbqgz6c3llhsl header.b=pKL8tFJO;
+       dkim=pass header.i=@amazonses.com header.s=uku4taia5b5tsbglxyj6zym32efj7xqv header.b=ShJZO4Dh;
+       spf=pass (google.com: domain of 0102019575675f6e-f3b3a31c-5a96-46dc-920a-0b255db1d4bc-000000@email.eneba.com designates 54.240.7.35 as permitted sender) smtp.mailfrom=0102019575675f6e-f3b3a31c-5a96-46dc-920a-0b255db1d4bc-000000@email.eneba.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=eneba.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=rlwi2k3wok5pc2cgzwkzbqgz6c3llhsl; d=eneba.com; t=1741431463;
+	h=Date:Mime-Version:Content-Type:To:Subject:Message-Id:From;
+	bh=puNwCblGSnoDRhtGsaxakBc6xYp6SuTNCvz/e69lv6Y=;
+	b=pKL8tFJOYKIiSYfnyhM7k9S+8omHD8nCiFHmjXDLrxREzAiH+tOKjCuUayASxp1t
+	yk4WWk6jY2xQIZ5LaCS7cKlT5F9fkDp26IX/shVtfgCLS2ZGPhcoaotEAW/bYPwBGJQ
+	HBIcCVkazIFVNwApX7zT7K+ZGyLalfln3itd7q7o=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=uku4taia5b5tsbglxyj6zym32efj7xqv; d=amazonses.com; t=1741431463;
+	h=Date:Mime-Version:Content-Type:To:Subject:Message-Id:From:Feedback-ID;
+	bh=puNwCblGSnoDRhtGsaxakBc6xYp6SuTNCvz/e69lv6Y=;
+	b=ShJZO4DhdzHgMJ8fsxilf3HNrj5KVxiEIpo3Uklri1uqO/G91VHdj9Rjf8b1yxb3
+	uejpFcdNe++HSFk3uBqGLFQIj+o7L7SP9uB2nGdRvfMtiAMkK0Dcj8/l+E9szZbThkS
+	QeRh+5Vs0adf/uZ3aWlKPp37ZjsYo2V4rCWAxeXA=
+Date: Sat, 8 Mar 2025 10:57:43 +0000
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary=cffde2480877517977f6e3262daa44d00cc5b62a26aa344fe4e6a995fc72
+To: nandobritoferreira@gmail.com
+Subject: Action required: Change your 2FA authentication method on Eneba
+Message-ID: <0102019575675f6e-f3b3a31c-5a96-46dc-920a-0b255db1d4bc-000000@eu-west-1.amazonses.com>
+From: Eneba <noreply@eneba.com>
+Feedback-ID: ::1.eu-west-1.OJgb2QEzT3DauH+dkPWzB39C5cegJpuzZz/ZXllz/Fw=:AmazonSES
+X-SES-Outgoing: 2025.03.08-54.240.7.35
+
+--cffde2480877517977f6e3262daa44d00cc5b62a26aa344fe4e6a995fc72
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+
+Action required: Change your 2FA authentication method on Eneba
+
+Hey gamer, we&#x27;re removing the SMS 2FA authentication method option on =
+March 31, 2025, due to unreliable SMS delivery and our safety concerns abou=
+t their vulnerability to phishing attacks. Your action is required.
+
+What you need to do:
+
+Let=E2=80=99s keep your account protected with a 2FA authentication app. Ap=
+p-based authentication is significantly more secure and reliable than SMS v=
+erification. We highly encourage you to set up the 2FA authentication app f=
+or enhanced protection. Without 2FA authentication, the security of your ac=
+count and accumulated Eneba Wallet funds will rely solely on the strength o=
+f your password.
+
+Trusted and free apps we recommend:
+
+Google Authenticator
+Authy
+Microsoft Authenticator
+Duo Mobile
+
+All these apps are compatible with both Android and IOS devices.
+
+How to change your 2FA authentication?
+
+Log in to your Eneba profile
+Click on the Profile icon
+Go to Settings &gt; Multi factor authentication
+
+You can also use this link https://my.eneba.com/2fa to improve your securit=
+y right away!
+
+Thank you.
+Eneba
+--cffde2480877517977f6e3262daa44d00cc5b62a26aa344fe4e6a995fc72
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html><html dir=3D"ltr" lang=3D"en">  <head>    <meta http-equiv=
+=3D"content-type" content=3D"text/html; charset=3DUTF-8" />    <meta name=
+=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1" />    <me=
+ta http-equiv=3D"x-ua-compatible" content=3D"IE=3Dedge" />    <title data-r=
+h=3D"true">Action required: Change your 2FA authentication method on Eneba<=
+/title>  </head>  <body style=3D"background:#F4F4F6;margin:0"><table style=
+=3D"width:100%;border-spacing:0;background:#F4F4F6;color:#797189;font-famil=
+y:&#x27;Arial&#x27;, sans-serif;margin:0;padding:0;font-size:14px;line-heig=
+ht:1.6em;min-width:100%!important;padding-bottom:20px"><tbody><tr><td style=
+=3D"padding:20px 0 0"><table style=3D"width:100%;border-spacing:0;max-width=
+:550px;background:#4618AC;margin:0 auto"><tbody><tr><td><table style=3D"wid=
+th:100%;border-spacing:0;color:#FFFFFF;max-width:490px;margin:0 auto;paddin=
+g:10px"><tbody><tr><td><a style=3D"color:#4618AC;text-decoration:none" href=
+=3D"https://www.eneba.com" target=3D"_blank" rel=3D"noreferrer noopener"><i=
+mg style=3D"display:block;max-width:100%" alt=3D"" width=3D"130" height=3D"=
+40" src=3D"https://email.eneba.games/f9aa7dcad13fe332f9d1.png"/></a></td></=
+tr></tbody></table></td></tr></tbody></table><table style=3D"width:100%;bor=
+der-spacing:0;background:#FFFFFF;max-width:550px;margin:0 auto;margin-botto=
+m:10px"><tbody><tr><td><table style=3D"width:100%;border-spacing:0;max-widt=
+h:490px;margin:0 auto;padding:30px 10px"><tbody><tr><td><h1 style=3D"font-w=
+eight:600;color:#1F0A4E;font-size:18px;margin-top:0;margin-bottom:10px;disp=
+lay:block">Action required: Change your 2FA authentication method on Eneba<=
+/h1><div style=3D"display:block;height:20px"></div><p style=3D"font-weight:=
+400;margin-bottom:10px;display:block;font-size:14px;margin-top:0">Hey gamer=
+, <strong style=3D"color:#544D60">we&#x27;re removing the SMS 2FA authentic=
+ation method option on</strong> <strong style=3D"color:#544D60">March 31, 2=
+025,</strong> due to unreliable SMS delivery and our safety concerns about =
+their vulnerability to phishing attacks. <strong style=3D"color:#544D60">Yo=
+ur action is required.</strong></p><div style=3D"display:block;height:20px"=
+></div><strong style=3D"color:#544D60">What you need to do:</strong><div st=
+yle=3D"display:block;height:20px"></div><p style=3D"font-weight:400;margin-=
+bottom:10px;display:block;font-size:14px;margin-top:0">Let=E2=80=99s keep y=
+our account protected with a <strong style=3D"color:#544D60">2FA authentica=
+tion app.</strong> App-based authentication is <strong style=3D"color:#544D=
+60">significantly more secure and reliable</strong> than SMS verification. =
+We highly encourage you to set up the 2FA authentication app for enhanced p=
+rotection. Without 2FA authentication, the security of your account and acc=
+umulated Eneba Wallet funds will rely solely on the strength of your passwo=
+rd.</p><div style=3D"display:block;height:20px"></div><strong style=3D"colo=
+r:#544D60">Trusted and free apps we recommend:</strong><span><ul><li>Google=
+ Authenticator</li><li>Authy</li><li>Microsoft Authenticator</li><li>Duo Mo=
+bile</li></ul></span><p style=3D"font-weight:400;margin-bottom:10px;display=
+:block;font-size:14px;margin-top:0">All these apps are compatible with both=
+ Android and IOS devices.</p><div style=3D"display:block;height:20px"></div=
+><strong style=3D"color:#544D60">How to change your 2FA authentication?</st=
+rong><span><ul><li>Log in to your Eneba profile</li><li>Click on the Profil=
+e icon</li><li>Go to Settings &gt; Multi factor authentication</li></ul></s=
+pan><p style=3D"font-weight:400;margin-bottom:10px;display:block;font-size:=
+14px;margin-top:0">You can also use <a style=3D"color:#4618AC;text-decorati=
+on:none" href=3D"https://my.eneba.com/2fa" target=3D"_blank" rel=3D"norefer=
+rer noopener">this link</a> to improve your security right away!</p><div st=
+yle=3D"display:block;height:20px"></div><p style=3D"font-weight:400;margin-=
+bottom:10px;display:block;font-size:14px;margin-top:0">Thank you.</p><img s=
+tyle=3D"display:block;max-width:100%" alt=3D"Eneba" width=3D"90" src=3D"htt=
+ps://email.eneba.games/730ff81475c430765275.png"/></td></tr></tbody></table=
+></td></tr></tbody></table><table style=3D"width:initial;border-spacing:0;m=
+argin:0 auto"><tbody><tr><td><table style=3D"width:100%;border-spacing:0;pa=
+dding:0 10px;max-width:280px;margin:0 auto;text-align:center"><tbody><tr><t=
+d><a style=3D"color:#4618AC;text-decoration:none;display:inline-block" href=
+=3D"https://www.facebook.com/enebaglobal/" target=3D"_blank" rel=3D"norefer=
+rer noopener"><img style=3D"display:block;max-width:100%" alt=3D"Facebook p=
+age" width=3D"30" height=3D"30" src=3D"https://email.eneba.games/9940de894c=
+86c018d010.png"/></a></td><td><a style=3D"color:#4618AC;text-decoration:non=
+e;display:inline-block" href=3D"https://twitter.com/eneba_games" target=3D"=
+_blank" rel=3D"noreferrer noopener"><img style=3D"display:block;max-width:1=
+00%" alt=3D"Twitter page" width=3D"30" height=3D"30" src=3D"https://email.e=
+neba.games/8c651a706598f3e66a44.png"/></a></td><td><a style=3D"color:#4618A=
+C;text-decoration:none;display:inline-block" href=3D"https://www.instagram.=
+com/enebagames/" target=3D"_blank" rel=3D"noreferrer noopener"><img style=
+=3D"display:block;max-width:100%" alt=3D"Instagram page" width=3D"30" heigh=
+t=3D"30" src=3D"https://email.eneba.games/76125b525229d49682d2.png"/></a></=
+td><td><a style=3D"color:#4618AC;text-decoration:none;display:inline-block"=
+ href=3D"https://discord.gg/J8w8R4U3jD" target=3D"_blank" rel=3D"noreferrer=
+ noopener"><img style=3D"display:block;max-width:100%" alt=3D"Discord page"=
+ width=3D"30" height=3D"30" src=3D"https://email.eneba.games/bd9a782f049b89=
+0d41ad.png"/></a></td></tr></tbody></table><table style=3D"width:100%;borde=
+r-spacing:0;padding:0 10px;max-width:570px;margin:0 auto;text-align:center"=
+><tbody><tr><td><div style=3D"text-align:center">For support requests, plea=
+se <a style=3D"color:#4618AC;text-decoration:none" href=3D"https://www.eneb=
+a.com/support" target=3D"_blank" rel=3D"noreferrer noopener">create a ticke=
+t</a></div></td></tr><tr><td><div style=3D"text-align:center">Copyright =C2=
+=A9 2025 Eneba. All rights reserved.</div></td></tr></tbody></table></td></=
+tr></tbody></table></td></tr></tbody></table><img width=3D"0" height=3D"0" =
+src=3D"https://www.google-analytics.com/collect?v=3D1&amp;tid=3DG-DLP0VZCBX=
+J&amp;cid=3D1&amp;t=3Devent&amp;ec=3DEmails&amp;ea=3DOpen&amp;el=3Dsms2faRe=
+moval&amp;cs=3Demail&amp;cm=3Demail"/></body></html>
+--cffde2480877517977f6e3262daa44d00cc5b62a26aa344fe4e6a995fc72--

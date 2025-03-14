@@ -1,0 +1,1002 @@
+X-GM-THRID: 1826290761674657576
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6919:ec10:b0:2cd:a3c7:5e5d with SMTP id si16csp1632975ysc;
+        Tue, 11 Mar 2025 02:49:54 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IHfnPwdaVcT9SCpRGpVA7lcjQESTn5o3BLeKb/YUGqRFFXauPZlA/DhXYio66tppwE1QcKI
+X-Received: by 2002:a05:620a:6193:b0:7c5:5b42:3584 with SMTP id af79cd13be357-7c55b4236ebmr903770485a.53.1741686593767;
+        Tue, 11 Mar 2025 02:49:53 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1741686593; cv=none;
+        d=google.com; s=arc-20240605;
+        b=KdLhnoLFC/1lST/wez6ohv8ung1PZqFFSXM0W9owEUhUx4UJrWahnucy90H2GtqGOl
+         8VFkEAKbfgkcpgcml3C8Nf21tz2hmnaGtxJtAaQ9a3W2JQ7MCIZ4TOxCVZhSlM8+bQ5k
+         OIwD0P43pU4riVoIq087/EW6I4Th1En1Tv9V6Z9zKfJ53lmHPfkZc2Epbmts3WP/fkdi
+         zfXO374+dvVbSaEu2itWWpdTWNk633PFktsUWy/mSplQIQXKGf33QASK8yBje8pjIyJg
+         8l/BSn6EnMpoPPR5hfvuUKMkqnutl6ffdH3OYSGPwFyYIhxYRsLyNs0yJJ0LUTTU8s7v
+         Rp0A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=yxZrQYsb7OSxeDuW14m1mE73n30jigcdyZqfipO/VAM=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=DJ7Jvf83+4JjL2j0VBbZnxTPJyViqAjXqxiisAy/mAvWMDKAVu67a25anFRFnwUQQx
+         zLX3JrK3D8tI/EUVjraGzNEQbKARCinqmKX/iQlKTVO0fuPK2MmfVYVOeXz79LvDOozF
+         2ZCOKpYShf0qPDBV/nu65+Cqw2ZR+/BNi2BVHWK7CdpIhsMUpEABTPp9q9s9hGsvftSL
+         W1UsK7gA2tNrA7F08PYBEVXDlc/BvLWgy9PP81+YCPGKG/2sm9iaDEdqDTNwisgrSQbC
+         Xp9FM7AqQfyNAZ+8YL92lbYCekwfLOPdxt9WRI3UOh5ozg73KQs3iCGlYbk26T0cI02Y
+         AuYA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=V4pEDGBK;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b="rFcfO/aq";
+       spf=pass (google.com: domain of s-4s2x9lm712tl6b0qzbwae6707p4zqy8bsnbeytgnaafotmo8xol9fy9g@bounce.linkedin.com designates 108.174.3.204 as permitted sender) smtp.mailfrom=s-4s2x9lm712tl6b0qzbwae6707p4zqy8bsnbeytgnaafotmo8xol9fy9g@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-4s2x9lm712tl6b0qzbwae6707p4zqy8bsnbeytgnaafotmo8xol9fy9g@bounce.linkedin.com>
+Received: from maile-bd.linkedin.com (maile-bd.linkedin.com. [108.174.3.204])
+        by mx.google.com with ESMTPS id af79cd13be357-7c55008440dsi414946885a.294.2025.03.11.02.49.53
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 11 Mar 2025 02:49:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of s-4s2x9lm712tl6b0qzbwae6707p4zqy8bsnbeytgnaafotmo8xol9fy9g@bounce.linkedin.com designates 108.174.3.204 as permitted sender) client-ip=108.174.3.204;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=V4pEDGBK;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b="rFcfO/aq";
+       spf=pass (google.com: domain of s-4s2x9lm712tl6b0qzbwae6707p4zqy8bsnbeytgnaafotmo8xol9fy9g@bounce.linkedin.com designates 108.174.3.204 as permitted sender) smtp.mailfrom=s-4s2x9lm712tl6b0qzbwae6707p4zqy8bsnbeytgnaafotmo8xol9fy9g@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1741686592;
+	bh=yxZrQYsb7OSxeDuW14m1mE73n30jigcdyZqfipO/VAM=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=V4pEDGBK7UIdEByiEKvXuoy8OpjKhb4ip06KAMXfjTiO2tPfpf2BXY4uG3SOqiWR7
+	 Qnb+NkfJ5cKfcN2VmXPl3DaFKlKWuBxMjdJRv+J9Ildo6Swnx9Ic2eerbvlLTti/pb
+	 tCJMUIx8Wgz4ZW3J6Fs5sRgmbO+2rtTiHti31AsBoUC3MkYUAqO/9IMSOfTNuTOYBa
+	 KoAy1RgQ2DrLGqSIzNYsSwzZuJe5SVg6eKvjMqYmY9q4dv+ZqMztX3JOnPeJA8gTQ+
+	 Jhl/GeEwxYHX2kPatTS0z4paV2zcEG66wBz5v0UVtUbNKU7oPZs5PpQYp0OZyCTVAn
+	 //ZsUTvs5E+fQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1741686592;
+	bh=yxZrQYsb7OSxeDuW14m1mE73n30jigcdyZqfipO/VAM=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=rFcfO/aqeL2X9HA6Ky+t4hm1ooL0Rm9AzNkZE+7ZzPVrINi/daq9Acni/aRk++q3H
+	 y/0BVuN973iKbuBKaqjNMf0a84BAIqi9wiCVRCQbpsc2Tfu9H+5bVqxskUwt+ozHmZ
+	 UF4gNJ26wgUeBMn24QMQxWGFh/ly83j9NbSUD2BwwSR2TiejlxVMlHvFbN0t1hhSlz
+	 6byCMH4F2tSW23szRI87E/EBNPFD6RAXI/Q9Sp6yPxqz+NGXDDQxZlcr/w2m00LZ6d
+	 0eKzhfMQL/9q0a+Ktk8bkffGCoZF8Tl9FiB1q6S0ncsZMfTsnienv9oVCP+K0srhoc
+	 CDs6Aa8vKvs8A==
+From: Luciano Rocha - PCD via LinkedIn <newsletters-noreply@linkedin.com>
+Message-ID: <867779026.1181610.1741686592216@lva1-app84436.prod.linkedin.com>
+Subject: =?UTF-8?Q?Sequ=C3=AAncia_de_Fibonacci:_um_estudo_sobre_a_?=
+ =?UTF-8?Q?matem=C3=A1tica_e_a_implementa=C3=A7=C3=A3o_em_algoritmos?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_1181608_308920081.1741686592213"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Tue, 11 Mar 2025 09:49:52 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-aszpebjqeleh61ikievevmyskingntqlzsxen86o987zhtmjsyjkkftt509wtld671wz5abfi8mrytzcyuccowbkexvn3q25jc8964
+X-LinkedIn-Id: gdb74f-m84b7pqz-ld
+List-Unsubscribe: =?unknown-8bit?q?=3Chttps=3A//www=2Elinkedin=2Ecom/series-notifications/=3Faction=3Dunsubscribe=26memberToken=3DADoAADr=5FZc8BliE63H4nkhqY=5FTxFq4e-Y9whjlY=26newsletterId=3D7002440821278953472=26newsletterTitle=3DAssuntos_de_Programa=C3=A7=C3=A3o=26lipi=3Durn=253Ali=253Apage=253Aemail=5Femail=5Fseries=5Ffollow=5Fnewsletter=5F01=253BHLzQwJMIQEira3j1pqnDDg=253D=253D=26midToken=3DAQHxaOsdYMWJVQ=26midSig=3D1zbYM2yo8dXXE1=26ek=3Demail=5Fseries=5Ffollow=5Fnewsletter=5F01=26e=3Dgdb74f-m84b7pqz-ld=26eid=3Dgdb74f-m84b7pqz-ld=26m=3Dunsub=26ts=3Dunsub=26li=3D0=26t=3Dplh=3E?=
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_1181608_308920081.1741686592213
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Assuntos de Programa=C3=A7=C3=A3o
+
+Por Luciano Rocha - PCD
+
+
+Por Luciano Rocha - PCD
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/sequ%C3%AAncia-de-fibonacci-um-estudo-s=
+obre-matem%C3%A1tica-e-em-rocha-pcd-a95lf?lipi=3Durn%3Ali%3Apage%3Aemail_em=
+ail_series_follow_newsletter_01%3BHLzQwJMIQEira3j1pqnDDg%3D%3D&midToken=3DA=
+QHxaOsdYMWJVQ&midSig=3D1zbYM2yo8dXXE1&trk=3Deml-email_series_follow_newslet=
+ter_01-null-0-read_more_banner_cta_&trkEmail=3Deml-email_series_follow_news=
+letter_01-null-0-read_more_banner_cta_-null-gdb74f~m84b7pqz~ld-null-null&ei=
+d=3Dgdb74f-m84b7pqz-ld&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUxY=
+mM4OWNiZDk0MDkxYWU4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmExMTNkNmM3YzM0NGEzZWU5=
+OTM4ZGE2ZWJhMzdlZjgxOWM0MmY0YzllMTQ1MjQ2YSwxLDE%3D
+ =20
+Entenda sobre tudo da sequencia que mais ca=C3=AD em processos seletivos e =
+h=C3=A1 curiosidade sobre o assunto. A sequ=C3=AAncia de Fibonacci =C3=A9 m=
+ais do que uma curiosidade matem=C3=A1tica; ela =C3=A9 um conceito fundamen=
+tal que encontra aplica=C3=A7=C3=A3o em diversas =C3=A1reas do conhecimento=
+. Sua simplicidade e eleg=C3=A2ncia fazem dela um t=C3=B3pico recorrente n=
+=C3=A3o apenas em aulas de matem=C3=A1tica, mas tamb=C3=A9m em quest=C3=B5e=
+s de provas e processos seletivos. Ao entend=C3=AA-la, o leitor =C3=A9 intr=
+oduzido ao racioc=C3=ADnio l=C3=B3gico por tr=C3=A1s de padr=C3=B5es que se=
+ repetem na natureza e na ci=C3=AAncia. =C3=89 comum encontrar a sequ=C3=AA=
+ncia de Fibonacci como tema em concursos p=C3=BAblicos e no ENEM devido =C3=
+=A0 sua combina=C3=A7=C3=A3o de acessibilidade e profundidade. Ela permite =
+abordar tanto conceitos b=C3=A1sicos de aritm=C3=A9tica quanto no=C3=A7=C3=
+=B5es mais avan=C3=A7adas, como recursividade e an=C3=A1lise de algoritmos.=
+ Al=C3=A9m disso, ela serve como um excelente exerc=C3=ADcio de interpreta=
+=C3=A7=C3=A3o de problemas e aplica=C3=A7=C3=A3o de conceitos te=C3=B3ricos=
+. Ao conectar matem=C3=A1tica e programa=C3=A7=C3=A3o, a sequ=C3=AAncia de =
+Fibonacci se torna uma ferramenta pedag=C3=B3gica poderosa. Ela exemplifica=
+ como problemas complexos podem ser divididos em partes menores e resolvido=
+s de forma sistem=C3=A1tica. Programadores muitas vezes utilizam Fibonacci =
+para testar algoritmos e explorar a efici=C3=AAncia de abordagens distintas=
+, como recurs=C3=A3o e itera=C3=A7=C3=A3o. Este artigo tem como objetivo ex=
+plicar o que =C3=A9 a sequ=C3=AAncia de Fibonacci, sua import=C3=A2ncia e c=
+omo ela pode ser implementada em diferentes linguagens de programa=C3=A7=C3=
+=A3o. Al=C3=A9m disso, destacar=C3=A1 porque ela =C3=A9 frequentemente util=
+izada em contextos educativos e profissionais. A leitura busca transformar =
+um tema aparentemente espec=C3=ADfico em um aprendizado acess=C3=ADvel e fu=
+ncional. =C3=8Dndice Defini=C3=A7=C3=A3o da sequ=C3=AAncia de Fibonacci e s=
+ua import=C3=A2ncia na matem=C3=A1tica Relev=C3=A2ncia em concursos p=C3=BA=
+blicos, ENEM e processos seletivos Por que =C3=A9 recorrente? Como =C3=A9 u=
+sada na programa=C3=A7=C3=A3o? Recursividade Exemplos de implementa=C3=A7=
+=C3=A3o em diferentes linguagens Curiosidade: o dia da sequ=C3=AAncia de Fi=
+bonacci Conclus=C3=A3o Defini=C3=A7=C3=A3o da sequ=C3=AAncia de Fibonacci e=
+ sua import=C3=A2ncia na matem=C3=A1tica A sequ=C3=AAncia de Fibonacci =C3=
+=A9 definida como uma progress=C3=A3o num=C3=A9rica em que cada termo =C3=
+=A9 a soma dos dois anteriores. A s=C3=A9rie se inicia com os n=C3=BAmeros =
+0 e 1, seguindo com 1, 2, 3, 5, 8, 13, e assim por diante. Essa progress=C3=
+=A3o apresenta propriedades =C3=BAnicas, tornando-se fundamental no estudo =
+de padr=C3=B5es, probabilidades e na compreens=C3=A3o de estruturas que eme=
+rgem tanto na matem=C3=A1tica quanto em fen=C3=B4menos naturais. Dentro do =
+contexto matem=C3=A1tico, a sequ=C3=AAncia de Fibonacci possui uma relev=C3=
+=A2ncia =C3=ADmpar, pois demonstra a conex=C3=A3o entre n=C3=BAmeros e padr=
+=C3=B5es existentes na natureza e em diversas =C3=A1reas cient=C3=ADficas. =
+Suas propriedades aparecem em campos como geometria, =C3=A1lgebra e c=C3=A1=
+lculo, sendo essencial para a an=C3=A1lise de s=C3=A9ries e progress=C3=B5e=
+s. Essa caracter=C3=ADstica fez com que Fibonacci se consolidasse como um d=
+os pilares para o racioc=C3=ADnio l=C3=B3gico e a resolu=C3=A7=C3=A3o de pr=
+oblemas. Relev=C3=A2ncia em concursos p=C3=BAblicos, ENEM e processos selet=
+ivos Os concursos p=C3=BAblicos e provas como o ENEM frequentemente explora=
+m a sequ=C3=AAncia de Fibonacci devido =C3=A0 sua versatilidade e abrang=C3=
+=AAncia. O tema permite que quest=C3=B5es sejam desenvolvidas para avaliar =
+desde conceitos b=C3=A1sicos de aritm=C3=A9tica at=C3=A9 t=C3=B3picos mais =
+avan=C3=A7ados, como l=C3=B3gica de recorr=C3=AAncia e an=C3=A1lise de sequ=
+=C3=AAncias. Essa abrang=C3=AAncia garante que o candidato demonstre habili=
+dades fundamentais, como interpreta=C3=A7=C3=A3o e racioc=C3=ADnio l=C3=B3g=
+ico. Al=C3=A9m disso, a sequ=C3=AAncia =C3=A9 uma ferramenta importante par=
+a abordar problemas mais complexos de forma gradual e estruturada. Ao ser i=
+nclu=C3=ADda em provas, ela desafia o participante a identificar padr=C3=B5=
+es e aplicar conceitos matem=C3=A1ticos de maneira pr=C3=A1tica. Essa abord=
+agem ressalta o qu=C3=A3o essencial =C3=A9 dominar as t=C3=A9cnicas e conhe=
+cimentos que envolvem Fibonacci para o sucesso em avalia=C3=A7=C3=B5es comp=
+etitivas. Por que =C3=A9 recorrente? A sequ=C3=AAncia de Fibonacci =C3=A9 u=
+m tema frequente em provas gra=C3=A7as =C3=A0 sua versatilidade em testar d=
+iferentes habilidades matem=C3=A1ticas. Ela possibilita aos examinadores av=
+aliar compet=C3=AAncias como o racioc=C3=ADnio l=C3=B3gico, o dom=C3=ADnio =
+de sequ=C3=AAncias num=C3=A9ricas e a capacidade de interpretar problemas. =
+Al=C3=A9m disso, a simplicidade de sua formula=C3=A7=C3=A3o facilita a elab=
+ora=C3=A7=C3=A3o de quest=C3=B5es para diferentes n=C3=ADveis de dificuldad=
+e, tornando-a acess=C3=ADvel tanto para estudantes do ensino m=C3=A9dio qua=
+nto para candidatos de concursos mais avan=C3=A7ados. Outro motivo para sua=
+ recorr=C3=AAncia est=C3=A1 na capacidade de conectar conceitos te=C3=B3ric=
+os a aplica=C3=A7=C3=B5es pr=C3=A1ticas. A sequ=C3=AAncia de Fibonacci apar=
+ece em contextos como otimiza=C3=A7=C3=A3o de problemas e padr=C3=B5es natu=
+rais, o que desperta o interesse dos candidatos e facilita sua compreens=C3=
+=A3o. Ao explorar este tema, os exames promovem um aprendizado que vai al=
+=C3=A9m da resolu=C3=A7=C3=A3o de quest=C3=B5es, incentivando a aplica=C3=
+=A7=C3=A3o l=C3=B3gica e estruturada de conhecimentos matem=C3=A1ticos. Com=
+o =C3=A9 usada na programa=C3=A7=C3=A3o? A sequ=C3=AAncia de Fibonacci dese=
+mpenha um papel importante em testes de algoritmos, funcionando como uma fe=
+rramenta pr=C3=A1tica para avaliar a efici=C3=AAncia de diferentes abordage=
+ns de implementa=C3=A7=C3=A3o. Programadores utilizam Fibonacci para testar=
+ estruturas como recurs=C3=A3o, itera=C3=A7=C3=A3o e programa=C3=A7=C3=A3o =
+din=C3=A2mica, identificando qual delas oferece o melhor desempenho para de=
+terminados cen=C3=A1rios. Sua simplicidade permite que algoritmos sejam ana=
+lisados de forma clara, destacando pontos de otimiza=C3=A7=C3=A3o e gargalo=
+s. Al=C3=A9m dos testes b=C3=A1sicos, a sequ=C3=AAncia =C3=A9 aplicada em p=
+roblemas de otimiza=C3=A7=C3=A3o e an=C3=A1lise de complexidade que surgem =
+em situa=C3=A7=C3=B5es reais. Fibonacci, por exemplo, =C3=A9 utilizada para=
+ modelar o crescimento de estruturas hier=C3=A1rquicas, como =C3=A1rvores b=
+in=C3=A1rias, ou para identificar padr=C3=B5es que simplifiquem o processam=
+ento de informa=C3=A7=C3=B5es. Essas aplica=C3=A7=C3=B5es n=C3=A3o apenas i=
+lustram a relev=C3=A2ncia da sequ=C3=AAncia no desenvolvimento de solu=C3=
+=A7=C3=B5es computacionais, mas tamb=C3=A9m ajudam a explorar diferentes es=
+trat=C3=A9gias para lidar com grandes volumes de dados. A versatilidade da =
+sequ=C3=AAncia de Fibonacci nos algoritmos tamb=C3=A9m a torna uma escolha =
+ideal para avaliar sistemas em contexto controlado. Ela permite que desenvo=
+lvedores testem o comportamento de solu=C3=A7=C3=B5es em ambientes onde os =
+resultados s=C3=A3o previs=C3=ADveis, mas exigem refinamentos constantes. E=
+sse tipo de teste =C3=A9 essencial para detectar problemas de desempenho e =
+implementar melhorias em tempo h=C3=A1bil. Al=C3=A9m disso, a sequ=C3=AAnci=
+a =C3=A9 amplamente explorada na cria=C3=A7=C3=A3o de heur=C3=ADsticas, esp=
+ecialmente em algoritmos de busca e sele=C3=A7=C3=A3o. A an=C3=A1lise de pa=
+dr=C3=B5es gerados por Fibonacci contribui para tornar os sistemas mais rob=
+ustos e eficientes, minimizando desperd=C3=ADcio de recursos computacionais=
+. Seu uso como recurso educativo e pr=C3=A1tico refor=C3=A7a sua import=C3=
+=A2ncia n=C3=A3o s=C3=B3 como uma ferramenta matem=C3=A1tica, mas tamb=C3=
+=A9m como um componente chave na programa=C3=A7=C3=A3o moderna. Recursivida=
+de A recursividade =C3=A9 um conceito fundamental na programa=C3=A7=C3=A3o =
+que se baseia em fun=C3=A7=C3=B5es que se chamam repetidamente at=C3=A9 ati=
+ngir uma condi=C3=A7=C3=A3o de parada. Sua rela=C3=A7=C3=A3o com a sequ=C3=
+=AAncia de Fibonacci =C3=A9 direta, pois a estrutura da sequ=C3=AAncia, em =
+que cada termo depende dos dois anteriores, se alinha perfeitamente ao func=
+ionamento recursivo. Neste artigo, n=C3=A3o entraremos em detalhes mais pro=
+fundos sobre recursividade, j=C3=A1 que ser=C3=A1 tema de um texto exclusiv=
+o que abordar=C3=A1 suas nuances de forma completa. A implementa=C3=A7=C3=
+=A3o da sequ=C3=AAncia de Fibonacci por meio da recursividade destaca a sim=
+plicidade do conceito. Uma fun=C3=A7=C3=A3o recursiva que calcula Fibonacci=
+ replica diretamente a defini=C3=A7=C3=A3o matem=C3=A1tica da sequ=C3=AAnci=
+a, tornando o c=C3=B3digo f=C3=A1cil de entender e compactar. O processo co=
+nsiste em retornar o valor correspondente para os casos-base (quando o =C3=
+=ADndice =C3=A9 0 ou 1) e, para demais valores, somar os resultados das cha=
+madas recursivas para os dois =C3=ADndices anteriores. Essa abordagem demon=
+stra como a recursividade traduz naturalmente uma f=C3=B3rmula matem=C3=A1t=
+ica em l=C3=B3gica computacional. Al=C3=A9m de sua simplicidade estrutural,=
+ a recursividade refor=C3=A7a a clareza do racioc=C3=ADnio algor=C3=ADtmico=
+. Ela permite que programadores decomponham problemas maiores em partes men=
+ores, o que =C3=A9 particularmente =C3=BAtil para ensinar e aprender concei=
+tos fundamentais de programa=C3=A7=C3=A3o. Embora outras estrat=C3=A9gias p=
+ossam oferecer maior desempenho, a implementa=C3=A7=C3=A3o recursiva tem pa=
+pel did=C3=A1tico e representa um =C3=B3timo ponto de partida para iniciant=
+es. Uma vantagem significativa da recursividade =C3=A9 a eleg=C3=A2ncia e c=
+lareza que oferece na escrita de c=C3=B3digo. Por replicar diretamente a de=
+fini=C3=A7=C3=A3o da sequ=C3=AAncia, ela facilita a compreens=C3=A3o de com=
+o a l=C3=B3gica do problema =C3=A9 resolvida. Al=C3=A9m disso, serve como p=
+onto inicial para comparar outras t=C3=A9cnicas, como itera=C3=A7=C3=A3o ou=
+ programa=C3=A7=C3=A3o din=C3=A2mica, abrindo espa=C3=A7o para discuss=C3=
+=B5es sobre otimiza=C3=A7=C3=A3o. Por outro lado, a desvantagem mais eviden=
+te =C3=A9 o impacto no desempenho em c=C3=A1lculos mais complexos. A aborda=
+gem recursiva pura na sequ=C3=AAncia de Fibonacci n=C3=A3o armazena resulta=
+dos intermedi=C3=A1rios, causando chamadas redundantes e aumento exponencia=
+l do tempo de execu=C3=A7=C3=A3o. Problemas como estouro de pilha (stack ov=
+erflow) em fun=C3=A7=C3=B5es recursivas profundas tamb=C3=A9m evidenciam a =
+necessidade de cautela ao aplic=C3=A1-la sem otimiza=C3=A7=C3=B5es, como me=
+moization*. Exemplos de implementa=C3=A7=C3=A3o em diferentes linguagens Se=
+i que essa =C3=A9 a parte que muitos mais esperam: os exemplos em c=C3=B3di=
+go. Vou demonstrar a sequ=C3=AAncia de Fibonacci em tr=C3=AAs linguagens de=
+ programa=C3=A7=C3=A3o diferentes para ilustrar como cada uma delas aborda =
+o conceito. Vamos explorar C#, JavaScript e PHP. No C#, a recursividade =C3=
+=A9 amplamente utilizada para implementar Fibonacci, aproveitando a clareza=
+ da linguagem e seus m=C3=A9todos. Aqui est=C3=A1 um exemplo: Esse c=C3=B3d=
+igo utiliza uma fun=C3=A7=C3=A3o recursiva para calcular Fibonacci, retorna=
+ndo valores para os casos-base (0 e 1) e somando os dois n=C3=BAmeros anter=
+iores para outros =C3=ADndices. Em JavaScript, a recursividade tamb=C3=A9m =
+=C3=A9 comum, mas a linguagem permite outras abordagens, como fun=C3=A7=C3=
+=B5es an=C3=B4nimas e iterativas. Veja a implementa=C3=A7=C3=A3o recursiva:=
+ A simplicidade do JavaScript torna o c=C3=B3digo mais enxuto, e a flexibil=
+idade da linguagem permite trabalhar com paradigmas variados, inclusive oti=
+mizando a recursividade. Em PHP, o conceito de Fibonacci =C3=A9 implementad=
+o de maneira semelhante =C3=A0s outras linguagens, com algumas particularid=
+ades da sintaxe. Confira: A implementa=C3=A7=C3=A3o em PHP destaca a simpli=
+cidade da linguagem para manipula=C3=A7=C3=A3o de fun=C3=A7=C3=B5es e demon=
+stra como algoritmos matem=C3=A1ticos podem ser aplicados no desenvolviment=
+o web. Curiosidade: o dia da sequ=C3=AAncia de Fibonacci O "dia da sequ=C3=
+=AAncia de Fibonacci" =C3=A9 celebrado em 23 de novembro, uma data que home=
+nageia essa importante progress=C3=A3o matem=C3=A1tica e sua relev=C3=A2nci=
+a tanto na ci=C3=AAncia quanto na cultura. A celebra=C3=A7=C3=A3o tem como =
+objetivo destacar o impacto da sequ=C3=AAncia de Fibonacci em diversas =C3=
+=A1reas, desde a natureza at=C3=A9 a tecnologia, fomentando o interesse pel=
+o racioc=C3=ADnio l=C3=B3gico e pelos padr=C3=B5es que ela representa. A es=
+colha dessa data espec=C3=ADfica est=C3=A1 relacionada ao formato de data u=
+tilizado nos Estados Unidos, onde o m=C3=AAs precede o dia: 11/23. Esses n=
+=C3=BAmeros correspondem =C3=A0 ordem inicial da sequ=C3=AAncia (1, 1, 2, 3=
+), estabelecendo uma liga=C3=A7=C3=A3o simb=C3=B3lica e direta com o tema. =
+A data serve como um lembrete da beleza e da aplicabilidade da matem=C3=A1t=
+ica em nosso cotidiano. Memoization Memoization =C3=A9 uma t=C3=A9cnica de =
+otimiza=C3=A7=C3=A3o que armazena os resultados de c=C3=A1lculos j=C3=A1 re=
+alizados para evitar repeti=C3=A7=C3=B5es desnecess=C3=A1rias. No contexto =
+de algoritmos recursivos, como o c=C3=A1lculo da sequ=C3=AAncia de Fibonacc=
+i, memoization salva os resultados das chamadas anteriores em uma estrutura=
+ de dados, como um dicion=C3=A1rio ou uma tabela, permitindo que o programa=
+ reutilize esses valores em vez de recalcul=C3=A1-los. Por exemplo, em uma =
+implementa=C3=A7=C3=A3o recursiva comum de Fibonacci, o mesmo n=C3=BAmero p=
+ode ser recalculado v=C3=A1rias vezes, aumentando exponencialmente o tempo =
+de execu=C3=A7=C3=A3o. Com memoization, essas chamadas redundantes s=C3=A3o=
+ eliminadas, o que melhora significativamente a efici=C3=AAncia do algoritm=
+o, especialmente para =C3=ADndices maiores da sequ=C3=AAncia. =C3=89 uma es=
+trat=C3=A9gia essencial quando se busca balancear clareza de c=C3=B3digo e =
+desempenho computacional. Conclus=C3=A3o A sequ=C3=AAncia de Fibonacci ocup=
+a um lugar central na matem=C3=A1tica devido =C3=A0 sua aplica=C3=A7=C3=A3o=
+ em diversas =C3=A1reas e sua presen=C3=A7a em padr=C3=B5es naturais. Ao lo=
+ngo dos s=C3=A9culos, ela inspirou cientistas, matem=C3=A1ticos e programad=
+ores por oferecer uma perspectiva =C3=BAnica sobre rela=C3=A7=C3=B5es num=
+=C3=A9ricas e recorr=C3=AAncia. Al=C3=A9m disso, sua simplicidade de formul=
+a=C3=A7=C3=A3o a torna acess=C3=ADvel para explicar conceitos complexos, co=
+mo s=C3=A9ries e progress=C3=B5es. Na programa=C3=A7=C3=A3o, Fibonacci =C3=
+=A9 uma ferramenta pr=C3=A1tica para ensinar e testar estruturas algor=C3=
+=ADtmicas, permitindo a transi=C3=A7=C3=A3o fluida entre a teoria matem=C3=
+=A1tica e sua implementa=C3=A7=C3=A3o pr=C3=A1tica. Na computa=C3=A7=C3=A3o=
+, a sequ=C3=AAncia n=C3=A3o se limita =C3=A0 teoria; sua import=C3=A2ncia r=
+eside no impacto direto no design e an=C3=A1lise de algoritmos. Com ela, pr=
+ogramadores exploram o potencial de otimiza=C3=A7=C3=A3o e aprendem a super=
+ar desafios t=C3=A9cnicos, como desempenho em grande escala. Seu uso em alg=
+oritmos ressalta a conex=C3=A3o entre matem=C3=A1tica abstrata e solu=C3=A7=
+=C3=B5es funcionais para problemas reais, reafirmando a relev=C3=A2ncia con=
+t=C3=ADnua dessa sequ=C3=AAncia. Dentro do ambiente de concursos p=C3=BAbli=
+cos, ENEM e processos seletivos, Fibonacci representa mais do que uma simpl=
+es sequ=C3=AAncia num=C3=A9rica: ela =C3=A9 um verdadeiro exemplo de interd=
+isciplinaridade. Seu estudo combina aritm=C3=A9tica, l=C3=B3gica e an=C3=A1=
+lise de problemas, elementos cruciais avaliados em exames competitivos. A a=
+bordagem de Fibonacci nas provas permite que candidatos desenvolvam habilid=
+ades anal=C3=ADticas e compreendam como padr=C3=B5es se aplicam a diferente=
+s contextos. Ao mesmo tempo, sua recorr=C3=AAncia em provas reflete a neces=
+sidade de compreender conceitos que extrapolam o curr=C3=ADculo escolar b=
+=C3=A1sico. A sequ=C3=AAncia de Fibonacci n=C3=A3o apenas testa o conhecime=
+nto t=C3=A9cnico, mas tamb=C3=A9m a capacidade do candidato de conectar mat=
+em=C3=A1tica a situa=C3=A7=C3=B5es pr=C3=A1ticas e racioc=C3=ADnios abstrat=
+os. Esse atributo refor=C3=A7a sua relev=C3=A2ncia como uma ferramenta educ=
+acional e avaliativa. A rela=C3=A7=C3=A3o entre Fibonacci, recursividade e =
+otimiza=C3=A7=C3=A3o de algoritmos exemplifica a converg=C3=AAncia entre te=
+oria e pr=C3=A1tica na programa=C3=A7=C3=A3o. A recursividade, embora elega=
+nte, apresenta limita=C3=A7=C3=B5es que s=C3=A3o superadas por t=C3=A9cnica=
+s como memoization, permitindo que Fibonacci seja aplicada de maneira mais =
+eficiente em algoritmos. Essas conex=C3=B5es ilustram como a sequ=C3=AAncia=
+ impulsiona n=C3=A3o apenas a matem=C3=A1tica, mas tamb=C3=A9m o desenvolvi=
+mento de solu=C3=A7=C3=B5es computacionais mais robustas. Por outro lado, o=
+ estudo de Fibonacci na programa=C3=A7=C3=A3o transcende seu papel como fer=
+ramenta algor=C3=ADtmica. Ele promove a reflex=C3=A3o sobre escolhas arquit=
+eturais e estrat=C3=A9gias de otimiza=C3=A7=C3=A3o, alinhando-se aos objeti=
+vos de criar sistemas mais eficientes e adapt=C3=A1veis. Assim, Fibonacci c=
+ontinua sendo um elo essencial entre a matem=C3=A1tica cl=C3=A1ssica e as n=
+ecessidades modernas da computa=C3=A7=C3=A3o. Por fim, quero agradecer a vo=
+c=C3=AA, leitor ou leitora, por dedicar seu tempo a explorar este tema t=C3=
+=A3o fascinante e relevante. Espero que este artigo tenha esclarecido de fo=
+rma acess=C3=ADvel e completa os conceitos apresentados e demonstrado o imp=
+acto que a sequ=C3=AAncia de Fibonacci tem na matem=C3=A1tica e na programa=
+=C3=A7=C3=A3o. Seu interesse e curiosidade s=C3=A3o fundamentais para mante=
+r viva a busca por conhecimento, e fico =C3=A0 disposi=C3=A7=C3=A3o para fu=
+turas reflex=C3=B5es e aprendizados juntos. Hashtags #Fibonacci #Algorithms=
+ #Programming #TechSkills Fontes https://brasilescola.uol.com.br/matematica=
+/sequencia-fibonacci.htm?utm_source=3Dchatgpt.com https://www.todamateria.c=
+om.br/sequencia-de-fibonacci/?utm_source=3Dchatgpt.com https://smartconsult=
+ing.com.br/english-us/sequencia-de-fibonacci-como-e-utilizada-na-ai/?utm_so=
+urce=3Dchatgpt.com https://www.bosontreinamentos.com.br/logica-de-programac=
+ao/algoritmo-para-fibonacci-recursivo-e-iterativo-logica-de-programacao/?ut=
+m_source=3Dchatgpt.com
+Continue lendo no LinkedIn
+https://www.linkedin.com/comm/pulse/sequ%C3%AAncia-de-fibonacci-um-estudo-s=
+obre-matem%C3%A1tica-e-em-rocha-pcd-a95lf?lipi=3Durn%3Ali%3Apage%3Aemail_em=
+ail_series_follow_newsletter_01%3BHLzQwJMIQEira3j1pqnDDg%3D%3D&midToken=3DA=
+QHxaOsdYMWJVQ&midSig=3D1zbYM2yo8dXXE1&trk=3Deml-email_series_follow_newslet=
+ter_01-newsletter_content_preview_text-0-readmore_button_&trkEmail=3Deml-em=
+ail_series_follow_newsletter_01-newsletter_content_preview_text-0-readmore_=
+button_-null-gdb74f~m84b7pqz~ld-null-null&eid=3Dgdb74f-m84b7pqz-ld&otpToken=
+=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUxYmM4OWNiZDk0MDkxYWU4YzYxNzljNDA2=
+NmQ0YjVkNWJmMmZlZDNkZmExMTNkNmM3YzM0NGEzZWU5OTM4ZGE2ZWJhMzdlZjgxOWM0MmY0Yzl=
+lMTQ1MjQ2YSwxLDE%3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | Java | JS | React.js | PostgreSQL)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3BHLzQwJMIQEira3j1pqnDDg%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=
+=3D1zbYM2yo8dXXE1&trk=3Deml-email_series_follow_newsletter_01-SecurityHelp-=
+0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Securi=
+tyHelp-0-textfooterglimmer-null-gdb74f~m84b7pqz~ld-null-null&eid=3Dgdb74f-m=
+84b7pqz-ld&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUxYmM4OWNiZDk0M=
+DkxYWU4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmExMTNkNmM3YzM0NGEzZWU5OTM4ZGE2ZWJh=
+MzdlZjgxOWM0MmY0YzllMTQ1MjQ2YSwxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/series-notifications=
+/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjl=
+Y&newsletterId=3D7002440821278953472&newsletterTitle=3DAssuntos de Programa=
+=C3=A7=C3=A3o&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter=
+_01%3BHLzQwJMIQEira3j1pqnDDg%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D1zbYM=
+2yo8dXXE1&ek=3Demail_series_follow_newsletter_01&e=3Dgdb74f-m84b7pqz-ld&eid=
+=3Dgdb74f-m84b7pqz-ld&m=3Dunsubscribe&ts=3DfooterGlimmer&li=3D0&t=3Dplh  =
+=C2=A0=C2=A0=C2=B7=C2=A0=C2=A0Ajuda: https://www.linkedin.com/help/linkedin=
+/answer/67?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3BHLzQwJMIQEira3j1pqnDDg%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=
+=3D1zbYM2yo8dXXE1&trk=3Deml-email_series_follow_newsletter_01-help-0-textfo=
+oterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-help-0-textfoo=
+terglimmer-null-gdb74f~m84b7pqz~ld-null-null&eid=3Dgdb74f-m84b7pqz-ld&otpTo=
+ken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUxYmM4OWNiZDk0MDkxYWU4YzYxNzljN=
+DA2NmQ0YjVkNWJmMmZlZDNkZmExMTNkNmM3YzM0NGEzZWU5OTM4ZGE2ZWJhMzdlZjgxOWM0MmY0=
+YzllMTQ1MjQ2YSwxLDE%3D
+
+=C2=A9 2025 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_1181608_308920081.1741686592213
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+/head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-canvas w-fu=
+ll m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; padding: 0p=
+x; padding-top: 8px; font-family: -apple-system, system-ui, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Ox=
+ygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sa=
+ns-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible overflow=
+-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; max-height=
+: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" data-email-p=
+reheader=3D"true">Entenda sobre tudo da sequencia que mais ca=C3=AD em proc=
+essos seletivos e h=C3=A1=E2=80=A6</div> <div class=3D"h-0 opacity-0 text-t=
+ransparent invisible overflow-hidden w-0 max-h-[0]" style=3D"visibility: hi=
+dden; height: 0px; max-height: 0; width: 0px; overflow: hidden; opacity: 0;=
+ mso-hide: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table role=3D"presentation" valig=
+n=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"512" al=
+ign=3D"center" class=3D"mercado-container w-[512px] max-w-[512px] mx-auto m=
+y-0 p-0 " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-left: auto; margin=
+-right: auto; margin-top: 0px; margin-bottom: 0px; width: 512px; max-width:=
+ 512px; padding: 0px;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust:=
+ 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"bg-color-background-conta=
+iner " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff;">=
+ <tbody> <tr> <td class=3D"text-center p-3" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt; padding: 24px; text-align: center;"> <table role=3D"presentation" =
+valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"10=
+0%" class=3D"min-w-full" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width:=
+ 100%;"> <tbody> <tr> <td align=3D"left" valign=3D"middle" style=3D"-webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/feed/?li=
+pi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BHLzQwJMIQE=
+ira3j1pqnDDg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1zbYM2yo8dXXE=
+1&amp;trk=3Deml-email_series_follow_newsletter_01-header-0-home_glimmer_dyn=
+amic_badging_high_dpi&amp;trkEmail=3Deml-email_series_follow_newsletter_01-=
+header-0-home_glimmer_dynamic_badging_high_dpi-null-gdb74f~m84b7pqz~ld-null=
+-null&amp;eid=3Dgdb74f-m84b7pqz-ld&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1M=
+jQwNGVkNDIxZmUxYmM4OWNiZDk0MDkxYWU4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmExMTNk=
+NmM3YzM0NGEzZWU5OTM4ZGE2ZWJhMzdlZjgxOWM0MmY0YzllMTQ1MjQ2YSwxLDE%3D" target=
+=3D"_blank" class=3D"w-[84px]" style=3D"color: #0a66c2; cursor: pointer; di=
+splay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; width: 84px;"> <img class=3D"h-[37px] w-[101px=
+]" alt=3D"LinkedIn" src=3D"https://www.linkedin.com/comm/dms/logo/v2?badgeT=
+heme=3Dmercado&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsl=
+etter_01%3BHLzQwJMIQEira3j1pqnDDg%3D%3D&amp;midSig=3D1zbYM2yo8dXXE1&amp;mid=
+Token=3DAQHxaOsdYMWJVQ&amp;trkEmail=3Deml-email_series_follow_newsletter_01=
+-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2-null-gdb74f%7Em84b7pqz%7El=
+d-null-null&amp;trk=3Deml-email_series_follow_newsletter_01-null-0-comms%7E=
+badging%7Edynamic%7Eglimmer%7Ev2&amp;_sig=3D36O6zOb88dXXE1" data-test-heade=
+r-dynamic-badging-img-high-dpi style=3D"outline: none; text-decoration: non=
+e; -ms-interpolation-mode: bicubic; height: 37px; width: 101px;" width=3D"1=
+01" height=3D"37"> </a> </td> <td valign=3D"middle" align=3D"right" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D=
+"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" data-=
+test-header-profile style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> =
+<td align=3D"right" valign=3D"middle" class=3D"w-[32px]" style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; width: 32px;" width=3D"32"> <a href=3D"https://br.lin=
+kedin.com/comm/in/fernando-ferreira-brito?lipi=3Durn%3Ali%3Apage%3Aemail_em=
+ail_series_follow_newsletter_01%3BHLzQwJMIQEira3j1pqnDDg%3D%3D&amp;midToken=
+=3DAQHxaOsdYMWJVQ&amp;midSig=3D1zbYM2yo8dXXE1&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-header-0-profile_glimmer&amp;trkEmail=3Deml-email_series=
+_follow_newsletter_01-header-0-profile_glimmer-null-gdb74f~m84b7pqz~ld-null=
+-null&amp;eid=3Dgdb74f-m84b7pqz-ld&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1M=
+jQwNGVkNDIxZmUxYmM4OWNiZDk0MDkxYWU4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmExMTNk=
+NmM3YzM0NGEzZWU5OTM4ZGE2ZWJhMzdlZjgxOWM0MmY0YzllMTQ1MjQ2YSwxLDE%3D" target=
+=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-block=
+; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%;"> <img alt=3D"Luiz Fernando Brito Ferreira" src=3D"https://media.=
+licdn.com/dms/image/v2/D4E03AQHtWMkj43o1lA/profile-displayphoto-shrink_200_=
+200/profile-displayphoto-shrink_200_200/0/1724191556445?e=3D2147483647&amp;=
+v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB92xXoc9r_1IG6EIUIKB4" class=3D"roun=
+ded-[100%] w-[32px] h-[32px]" style=3D"outline: none; text-decoration: none=
+; -ms-interpolation-mode: bicubic; height: 32px; width: 32px; border-radius=
+: 100%;" width=3D"32" height=3D"32"> </a> </td> </tr> </tbody> </table> </t=
+d> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"px-0 pb-3" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; padding-left: 0px; padding-right: 0px; p=
+adding-bottom: 24px;"> <div> <table role=3D"presentation" valign=3D"top" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td data-test-id=3D"newsletter-en=
+tity-lockup" class=3D"px-3 pt-1" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; pa=
+dding-left: 24px; padding-right: 24px; padding-top: 8px;"> <table role=3D"p=
+resentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" width=3D"100%" class=3D"font-sans" style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Ro=
+boto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantare=
+ll, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', =
+'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;"> <tbody>=
+ <tr> <td valign=3D"top" class=3D"pr-1 w-6" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt; width: 48px; padding-right: 8px;" width=3D"48"> <a href=3D"https:/=
+/www.linkedin.com/comm/newsletters/7002440821278953472?lipi=3Durn%3Ali%3Apa=
+ge%3Aemail_email_series_follow_newsletter_01%3BHLzQwJMIQEira3j1pqnDDg%3D%3D=
+&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1zbYM2yo8dXXE1&amp;trk=3Deml-em=
+ail_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entit=
+y_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_entit=
+y_lockup-0-newsletter_entity_cta-null-gdb74f~m84b7pqz~ld-null-null&amp;eid=
+=3Dgdb74f-m84b7pqz-ld&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZm=
+UxYmM4OWNiZDk0MDkxYWU4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmExMTNkNmM3YzM0NGEzZ=
+WU5OTM4ZGE2ZWJhMzdlZjgxOWM0MmY0YzllMTQ1MjQ2YSwxLDE%3D" target=3D"_blank" st=
+yle=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decorat=
+ion: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <i=
+mg class=3D"inline-block relative bg-color-entity-ghost-background w-6 h-6 =
+rounded-md" src=3D"https://media.licdn.com/dms/image/v2/D4D12AQEAoFL_9ZOGaA=
+/series-logo_image-shrink_100_100/series-logo_image-shrink_100_100/0/167611=
+4493998?e=3D2147483647&amp;v=3Dbeta&amp;t=3DJ0cA9GdNyXSecho-YeWchBUEZHNz51J=
+plsM7AVSQvSQ" alt=3D"Abrir Assuntos de Programa=C3=A7=C3=A3o" style=3D"outl=
+ine: none; text-decoration: none; -ms-interpolation-mode: bicubic; position=
+: relative; display: inline-block; height: 48px; width: 48px; border-radius=
+: 8px; background-color: #eae6df;" width=3D"48" height=3D"48"> </a> </td> <=
+td valign=3D"top" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"=
+presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <t=
+d style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin=
+.com/comm/newsletters/7002440821278953472?lipi=3Durn%3Ali%3Apage%3Aemail_em=
+ail_series_follow_newsletter_01%3BHLzQwJMIQEira3j1pqnDDg%3D%3D&amp;midToken=
+=3DAQHxaOsdYMWJVQ&amp;midSig=3D1zbYM2yo8dXXE1&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta&amp;trk=
+Email=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-0-ne=
+wsletter_entity_cta-null-gdb74f~m84b7pqz~ld-null-null&amp;eid=3Dgdb74f-m84b=
+7pqz-ld&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUxYmM4OWNiZDk0=
+MDkxYWU4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmExMTNkNmM3YzM0NGEzZWU5OTM4ZGE2ZWJ=
+hMzdlZjgxOWM0MmY0YzllMTQ1MjQ2YSwxLDE%3D" target=3D"_blank" class=3D"no-unde=
+rline" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; tex=
+t-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; text-decoration-line: none;"> <div class=3D"pb-0.5" style=3D"padding-b=
+ottom: 4px;"> <span class=3D"text-md font-bold text-color-text break-words =
+leading-regular" style=3D"overflow-wrap: break-word; font-size: 16px; font-=
+weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Assuntos de Pr=
+ograma=C3=A7=C3=A3o </span> </div> </a> </td> </tr> <tr> <td style=3D"-webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/newsle=
+tters/7002440821278953472?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follo=
+w_newsletter_01%3BHLzQwJMIQEira3j1pqnDDg%3D%3D&amp;midToken=3DAQHxaOsdYMWJV=
+Q&amp;midSig=3D1zbYM2yo8dXXE1&amp;trk=3Deml-email_series_follow_newsletter_=
+01-newsletter_entity_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-emai=
+l_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_=
+cta-null-gdb74f~m84b7pqz~ld-null-null&amp;eid=3Dgdb74f-m84b7pqz-ld&amp;otpT=
+oken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUxYmM4OWNiZDk0MDkxYWU4YzYxNzlj=
+NDA2NmQ0YjVkNWJmMmZlZDNkZmExMTNkNmM3YzM0NGEzZWU5OTM4ZGE2ZWJhMzdlZjgxOWM0MmY=
+0YzllMTQ1MjQ2YSwxLDE%3D" target=3D"_blank" class=3D"no-underline" style=3D"=
+color: #0a66c2; cursor: pointer; display: inline-block; text-decoration: no=
+ne; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decora=
+tion-line: none;"> <span class=3D"text-xs text-color-text-low-emphasis lead=
+ing-regular" style=3D"font-size: 12px; line-height: 1.25; color: rgba(0, 0,=
+ 0, 0.6);"> Uma vis=C3=A3o =C3=BAnica e acess=C3=ADvel sobre #programming e=
+ #IT. Ideal para todos, desde iniciantes at=C3=A9=E2=80=A6 </span> </a> </t=
+d> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr da=
+ta-test-id=3D"newsletter-content-preview"> <td class=3D"px-3 pt-2" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt; padding-left: 24px; padding-right: 24px; pa=
+dding-top: 16px;"> <table role=3D"presentation" valign=3D"top" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt;"> <tbody> <tr> <td class=3D"overflow-hidden " style=3D"-we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt; overflow: hidden;"> <table role=3D"presentation=
+" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"=
+100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pu=
+lse/sequ%C3%AAncia-de-fibonacci-um-estudo-sobre-matem%C3%A1tica-e-em-rocha-=
+pcd-a95lf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%=
+3BHLzQwJMIQEira3j1pqnDDg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1=
+zbYM2yo8dXXE1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_co=
+ntent_preview-0-headline_&amp;trkEmail=3Deml-email_series_follow_newsletter=
+_01-newsletter_content_preview-0-headline_-null-gdb74f~m84b7pqz~ld-null-nul=
+l&amp;eid=3Dgdb74f-m84b7pqz-ld&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwN=
+GVkNDIxZmUxYmM4OWNiZDk0MDkxYWU4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmExMTNkNmM3=
+YzM0NGEzZWU5OTM4ZGE2ZWJhMzdlZjgxOWM0MmY0YzllMTQ1MjQ2YSwxLDE%3D" target=3D"_=
+blank" class=3D"w-full" style=3D"color: #0a66c2; cursor: pointer; display: =
+inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; width: 100%;"> <img class=3D"block w-full aspect-[744=
+/400] object-cover overflow-hidden" data-test-id=3D"newsletter-content-prev=
+iew__cover-image" alt=3D"Imagem de capa da newsletter" src=3D"https://media=
+.licdn.com/dms/image/v2/D4D12AQEHV1xNEq0uaw/article-cover_image-shrink_600_=
+2000/article-cover_image-shrink_600_2000/0/1737900715278?e=3D2147483647&amp=
+;v=3Dbeta&amp;t=3DjbGDqheqi8ad4niN-fWfWoJJz4EYuepObdI_C_pfYfo" style=3D"out=
+line: none; text-decoration: none; -ms-interpolation-mode: bicubic; display=
+: block; aspect-ratio: 744/400; width: 100%; overflow: hidden; object-fit: =
+cover;"> </a> </td> </tr> <tr> <td class=3D"py-2" style=3D"-webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tabl=
+e-rspace: 0pt; padding-top: 16px; padding-bottom: 16px;"> <table role=3D"pr=
+esentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.c=
+om/comm/pulse/sequ%C3%AAncia-de-fibonacci-um-estudo-sobre-matem%C3%A1tica-e=
+-em-rocha-pcd-a95lf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_news=
+letter_01%3BHLzQwJMIQEira3j1pqnDDg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;=
+midSig=3D1zbYM2yo8dXXE1&amp;trk=3Deml-email_series_follow_newsletter_01-new=
+sletter_content_preview-0-title_&amp;trkEmail=3Deml-email_series_follow_new=
+sletter_01-newsletter_content_preview-0-title_-null-gdb74f~m84b7pqz~ld-null=
+-null&amp;eid=3Dgdb74f-m84b7pqz-ld&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1M=
+jQwNGVkNDIxZmUxYmM4OWNiZDk0MDkxYWU4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmExMTNk=
+NmM3YzM0NGEzZWU5OTM4ZGE2ZWJhMzdlZjgxOWM0MmY0YzllMTQ1MjQ2YSwxLDE%3D" target=
+=3D"_blank" class=3D"no-underline font-medium text-sm m-0 text-system-gray-=
+90" style=3D"cursor: pointer; display: inline-block; text-decoration: none;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0px; f=
+ont-size: 14px; font-weight: 500; color: #282828; text-decoration-line: non=
+e;"> <h2 class=3D"m-0 text-display-sm leading-regular text-color-text font-=
+bold font-sans" style=3D"margin: 0px; font-family: -apple-system, system-ui=
+, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ub=
+untu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Hel=
+vetica, Arial, sans-serif; font-size: 24px; font-weight: 600; line-height: =
+1.25; color: rgba(0, 0, 0, 0.9);"> Sequ=C3=AAncia de Fibonacci: um estudo s=
+obre a matem=C3=A1tica e a implementa=C3=A7=C3=A3o em algoritmos </h2> </a>=
+ </td> </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" data-test-id=3D"newsletter-author-lockup-redesign" cl=
+ass=3D"mt-1 mb-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-bottom: 16=
+px; margin-top: 8px;"> <tbody> <tr> <td valign=3D"middle" align=3D"left" cl=
+ass=3D"w-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 24px;" width=3D"=
+24"> <a href=3D"https://br.linkedin.com/comm/in/lgomesroc?lipi=3Durn%3Ali%3=
+Apage%3Aemail_email_series_follow_newsletter_01%3BHLzQwJMIQEira3j1pqnDDg%3D=
+%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1zbYM2yo8dXXE1&amp;trk=3Deml=
+-email_series_follow_newsletter_01-newsletter_content_preview-0-author_&amp=
+;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_previe=
+w-0-author_-null-gdb74f~m84b7pqz~ld-null-null&amp;eid=3Dgdb74f-m84b7pqz-ld&=
+amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUxYmM4OWNiZDk0MDkxYWU4=
+YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmExMTNkNmM3YzM0NGEzZWU5OTM4ZGE2ZWJhMzdlZjg=
+xOWM0MmY0YzllMTQ1MjQ2YSwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2;=
+ cursor: pointer; display: inline-block; text-decoration: none; -webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img class=3D"inline-blo=
+ck relative bg-color-entity-ghost-background clip-path-circle-50 rounded-fu=
+ll w-4 h-4 align-middle" src=3D"https://media.licdn.com/dms/image/v2/D4D35A=
+QFdH9kF8MJeXQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink=
+_400_400/0/1738186012214?e=3D1742292000&amp;v=3Dbeta&amp;t=3DL2DVPTcpdPRMxV=
+LfU82YpvgspOoeT9Hdn7BLK1vTIj4" alt=3D"Imagem do autor" style=3D"outline: no=
+ne; text-decoration: none; -ms-interpolation-mode: bicubic; position: relat=
+ive; display: inline-block; height: 32px; width: 32px; border-radius: 9999p=
+x; background-color: #eae6df; vertical-align: middle; clip-path: circle(50%=
+);" width=3D"32" height=3D"32"> </a> </td> <td style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;"> <a href=3D"https://br.linkedin.com/comm/in/lgomesroc?lipi=3Du=
+rn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BHLzQwJMIQEira3j1=
+pqnDDg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1zbYM2yo8dXXE1&amp;=
+trk=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-au=
+thor_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_conte=
+nt_preview-0-author_-null-gdb74f~m84b7pqz~ld-null-null&amp;eid=3Dgdb74f-m84=
+b7pqz-ld&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUxYmM4OWNiZDk=
+0MDkxYWU4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmExMTNkNmM3YzM0NGEzZWU5OTM4ZGE2ZW=
+JhMzdlZjgxOWM0MmY0YzllMTQ1MjQ2YSwxLDE%3D" target=3D"_blank" class=3D"no-und=
+erline ml-1" style=3D"color: #0a66c2; cursor: pointer; display: inline-bloc=
+k; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; margin-left: 8px; text-decoration-line: none;"> <span class=3D"f=
+ont-sans font-bold text-sm mb-3 text-color-text-low-emphasis leading-regula=
+r" style=3D"margin-bottom: 24px; font-family: -apple-system, system-ui, Bli=
+nkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu,=
+ Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Sego=
+e UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetic=
+a, Arial, sans-serif; font-size: 14px; font-weight: 600; line-height: 1.25;=
+ color: rgba(0, 0, 0, 0.6);"> Luciano Rocha - PCD </span> </a> </td> </tr> =
+</tbody> </table> </td> </tr> <tr> <td class=3D"pb-1" style=3D"-webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt; padding-bottom: 8px;"> <div class=3D"p-3 bg-color-surfac=
+e-tint rounded-md font-sans" data-test-id=3D"newsletter-cta-banner" style=
+=3D"border-radius: 8px; background-color: #f5f7f9; padding: 24px; font-fami=
+ly: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helv=
+etica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid =
+Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI S=
+ymbol', 'Lucida Grande', Helvetica, Arial, sans-serif;"> <div class=3D"mb-1=
+.5" style=3D"margin-bottom: 12px;"> <span class=3D"text-md leading-regular =
+font-bold text-color-text" style=3D"font-size: 16px; font-weight: 600; line=
+-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Leia este artigo no LinkedIn pa=
+ra participar da conversa </span> </div> <table role=3D"presentation" valig=
+n=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" c=
+lass=3D"email-button " data-test-id=3D"email-button" style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt;"> <tbody> <tr> <td valign=3D"middle" align=3D"left" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/co=
+mm/pulse/sequ%C3%AAncia-de-fibonacci-um-estudo-sobre-matem%C3%A1tica-e-em-r=
+ocha-pcd-a95lf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslette=
+r_01%3BHLzQwJMIQEira3j1pqnDDg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSi=
+g=3D1zbYM2yo8dXXE1&amp;trk=3Deml-email_series_follow_newsletter_01-newslett=
+er_content_preview-0-read_more_banner_cta_&amp;trkEmail=3Deml-email_series_=
+follow_newsletter_01-newsletter_content_preview-0-read_more_banner_cta_-nul=
+l-gdb74f~m84b7pqz~ld-null-null&amp;eid=3Dgdb74f-m84b7pqz-ld&amp;otpToken=3D=
+MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUxYmM4OWNiZDk0MDkxYWU4YzYxNzljNDA2NmQ=
+0YjVkNWJmMmZlZDNkZmExMTNkNmM3YzM0NGEzZWU5OTM4ZGE2ZWJhMzdlZjgxOWM0MmY0YzllMT=
+Q1MjQ2YSwxLDE%3D" target=3D"_blank" aria-label=3D"Abrir este artigo no Link=
+edIn" class=3D"align-top no-underline " style=3D"color: #0a66c2; cursor: po=
+inter; display: inline-block; text-decoration: none; -webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; vertical-align: top; text-decoration-=
+line: none;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" width=3D"auto" class=3D"border-separate " s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: separate;"> <tbody>=
+ <tr> <td class=3D"btn-sm btn-primary border-color-brand button-link leadin=
+g-regular !min-h-[auto] !shadow-none border-1 border-solid" style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt; height: min-content; border-radius: 24px; padding-=
+top: 7px; padding-bottom: 7px; padding-left: 16px; padding-right: 16px; tex=
+t-align: center; font-size: 14px; font-weight: 600; cursor: pointer; text-d=
+ecoration-line: none; background-color: #0a66c2; color: #ffffff; border-wid=
+th: 1px; border-style: solid; border-color: #0a66c2; line-height: 1.25; min=
+-height: auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !impo=
+rtant;"> <a href=3D"https://www.linkedin.com/comm/pulse/sequ%C3%AAncia-de-f=
+ibonacci-um-estudo-sobre-matem%C3%A1tica-e-em-rocha-pcd-a95lf?lipi=3Durn%3A=
+li%3Apage%3Aemail_email_series_follow_newsletter_01%3BHLzQwJMIQEira3j1pqnDD=
+g%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1zbYM2yo8dXXE1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-read_=
+more_banner_cta_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsl=
+etter_content_preview-0-read_more_banner_cta_-null-gdb74f~m84b7pqz~ld-null-=
+null&amp;eid=3Dgdb74f-m84b7pqz-ld&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1Mj=
+QwNGVkNDIxZmUxYmM4OWNiZDk0MDkxYWU4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmExMTNkN=
+mM3YzM0NGEzZWU5OTM4ZGE2ZWJhMzdlZjgxOWM0MmY0YzllMTQ1MjQ2YSwxLDE%3D" target=
+=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" class=3D"no-underline" sty=
+le=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decorati=
+on: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-=
+decoration-line: none;"> <span class=3D"no-underline text-white" style=3D"c=
+olor: #ffffff; text-decoration-line: none;"> Ler no LinkedIn </span> </a> <=
+/td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </table> </div> </td=
+> </tr> <tr data-test-id=3D"newsletter-content-preview--content"> <td class=
+=3D"font-sans text-md leading-open text-system-gray-90" style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; font-family: -apple-system, system-ui, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Ox=
+ygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sa=
+ns-serif; font-size: 16px; line-height: 1.5; color: #282828;"> <div data-te=
+st-id=3D"publishing-text-block"> <h3 class=3D"m-0 text-md text-system-gray-=
+90 pt-1 pb-0.5 leading-regular font-bold" data-test-id=3D"publishing-text-b=
+lock-h2" style=3D"margin: 0px; padding-bottom: 4px; padding-top: 8px; font-=
+size: 16px; font-weight: 600; line-height: 1.25; color: #282828;"> <span cl=
+ass data-test-id=3D"little-text-block">Entenda sobre tudo da sequencia que =
+mais ca=C3=AD em processos seletivos e h=C3=A1 curiosidade sobre o assunto.=
+</span> </h3> </div> <div data-test-id=3D"publishing-text-block"> <p class=
+=3D"m-0 mt-1.5 text-md leading-open" style=3D"font-weight: 400; margin: 0px=
+; margin-top: 12px; font-size: 16px; line-height: 1.5;"> <br> </p> </div> <=
+div data-test-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1.5 text-md =
+leading-open" style=3D"font-weight: 400; margin: 0px; margin-top: 12px; fon=
+t-size: 16px; line-height: 1.5;"> <span class=3D"font-[700]" data-test-id=
+=3D"little-text-block" style=3D"font-weight: 700;">A sequ=C3=AAncia de Fibo=
+nacci =C3=A9 mais do que uma curiosidade matem=C3=A1tica; ela =C3=A9 um con=
+ceito fundamental que encontra aplica=C3=A7=C3=A3o em diversas =C3=A1reas d=
+o conhecimento.</span><span class data-test-id=3D"little-text-block"> Sua s=
+implicidade e eleg=C3=A2ncia fazem dela um t=C3=B3pico recorrente n=C3=A3o =
+apenas em aulas de matem=C3=A1tica, mas tamb=C3=A9m em quest=C3=B5es de pro=
+vas e processos seletivos. Ao entend=C3=AA-la, o leitor =C3=A9 introduzido =
+ao racioc=C3=ADnio l=C3=B3gico por tr=C3=A1s de padr=C3=B5es que se repetem=
+ na natureza e na ci=C3=AAncia.</span> </p> </div> <div data-test-id=3D"pub=
+lishing-text-block"> <p class=3D"m-0 mt-1.5 text-md leading-open" style=3D"=
+font-weight: 400; margin: 0px; margin-top: 12px; font-size: 16px; line-heig=
+ht: 1.5;"> <span class=3D"font-[700]" data-test-id=3D"little-text-block" st=
+yle=3D"font-weight: 700;">=C3=89 comum encontrar a sequ=C3=AAncia de Fibona=
+cci como tema em concursos p=C3=BAblicos e no ENEM devido =C3=A0 sua combin=
+a=C3=A7=C3=A3o de acessibilidade e profundidade.</span><span class data-tes=
+t-id=3D"little-text-block"> Ela permite abordar tanto conceitos b=C3=A1sico=
+s de aritm=C3=A9tica quanto no=C3=A7=C3=B5es mais avan=C3=A7adas, como recu=
+rsividade e an=C3=A1lise de algoritmos. Al=C3=A9m disso, ela serve como um =
+excelente exerc=C3=ADcio de interpreta=C3=A7=C3=A3o de problemas e aplica=
+=C3=A7=C3=A3o de conceitos te=C3=B3ricos.</span> </p> </div> <div data-test=
+-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1.5 text-md leading-open"=
+ style=3D"font-weight: 400; margin: 0px; margin-top: 12px; font-size: 16px;=
+ line-height: 1.5;"> <span class=3D"font-[700]" data-test-id=3D"little-text=
+-block" style=3D"font-weight: 700;">Ao conectar matem=C3=A1tica e programa=
+=C3=A7=C3=A3o, a sequ=C3=AAncia de Fibonacci se torna uma ferramenta pedag=
+=C3=B3gica poderosa.</span><span class data-test-id=3D"little-text-block"> =
+Ela exemplifica como problemas complexos podem ser divididos em partes meno=
+res e resolvidos de forma sistem=C3=A1tica. Programadores muitas vezes util=
+izam Fibonacci para testar algoritmos e explorar a efici=C3=AAncia de abord=
+agens distintas, como recurs=C3=A3o e itera=C3=A7=C3=A3o.</span> </p> </div=
+> <div data-test-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1.5 text-=
+md leading-open" style=3D"font-weight: 400; margin: 0px; margin-top: 12px; =
+font-size: 16px; line-height: 1.5;"> <span class=3D"font-[700]" data-test-i=
+d=3D"little-text-block" style=3D"font-weight: 700;">Este artigo tem como ob=
+jetivo explicar o que =C3=A9 a sequ=C3=AAncia de Fibonacci, sua import=C3=
+=A2ncia e como ela pode ser implementada em diferentes linguagens de progra=
+ma=C3=A7=C3=A3o.</span><span class data-test-id=3D"little-text-block"> Al=
+=C3=A9m disso, destacar=C3=A1 porque ela =C3=A9 frequentemente utilizada em=
+ contextos educativos e profissionais. </span><span class=3D"font-[700]" da=
+ta-test-id=3D"little-text-block" style=3D"font-weight: 700;">A leitura busc=
+a transformar um tema aparentemente espec=C3=ADfico em um aprendizado acess=
+=C3=ADvel e funcional.</span> </p> </div> <span>...</span> </td> </tr> <tr>=
+ <td class=3D"pt-2 no-underline" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; pa=
+dding-top: 16px; text-decoration-line: none;"> <table role=3D"presentation"=
+ valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"1=
+00%" class=3D"email-button series-content-preview__bottom-cta" data-test-id=
+=3D"email-button" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <t=
+d valign=3D"middle" align=3D"left" style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"=
+> <a href=3D"https://www.linkedin.com/comm/pulse/sequ%C3%AAncia-de-fibonacc=
+i-um-estudo-sobre-matem%C3%A1tica-e-em-rocha-pcd-a95lf?lipi=3Durn%3Ali%3Apa=
+ge%3Aemail_email_series_follow_newsletter_01%3BHLzQwJMIQEira3j1pqnDDg%3D%3D=
+&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1zbYM2yo8dXXE1&amp;trk=3Deml-em=
+ail_series_follow_newsletter_01-newsletter_content_preview-0-readmore_butto=
+n_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_=
+preview-0-readmore_button_-null-gdb74f~m84b7pqz~ld-null-null&amp;eid=3Dgdb7=
+4f-m84b7pqz-ld&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUxYmM4O=
+WNiZDk0MDkxYWU4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmExMTNkNmM3YzM0NGEzZWU5OTM4=
+ZGE2ZWJhMzdlZjgxOWM0MmY0YzllMTQ1MjQ2YSwxLDE%3D" target=3D"_blank" aria-labe=
+l=3D"Abrir Assuntos de Programa=C3=A7=C3=A3o no LinkedIn" class=3D"align-to=
+p no-underline " style=3D"color: #0a66c2; cursor: pointer; display: inline-=
+block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; vertical-align: top; text-decoration-line: none; width: 100%=
+;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" width=3D"100%" class=3D"border-separate " style=3D"-w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt; border-collapse: separate; width: 100%;"> <tbo=
+dy> <tr> <td class=3D"btn-md btn-secondary-emphasis border-color-brand butt=
+on-link leading-regular !min-h-[auto] !shadow-none border-1 border-solid fo=
+nt-sans" data-test-id=3D"newsletter-content-preview-redesign-bottom-cta" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt; height: min-content; border-radius: 2=
+4px; padding-top: 12px; padding-bottom: 12px; padding-left: 24px; padding-r=
+ight: 24px; text-align: center; font-size: 16px; font-weight: 600; cursor: =
+pointer; text-decoration-line: none; background-color: rgba(0, 0, 0, 0); co=
+lor: #0a66c2; border-width: 1px; border-style: solid; border-color: #0a66c2=
+; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Ro=
+boto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantare=
+ll, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', =
+'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; line-heig=
+ht: 1.25; min-height: auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 =
+0 #0000 !important;"> <a href=3D"https://www.linkedin.com/comm/pulse/sequ%C=
+3%AAncia-de-fibonacci-um-estudo-sobre-matem%C3%A1tica-e-em-rocha-pcd-a95lf?=
+lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BHLzQwJMI=
+QEira3j1pqnDDg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1zbYM2yo8dX=
+XE1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_content_prev=
+iew-0-readmore_button_&amp;trkEmail=3Deml-email_series_follow_newsletter_01=
+-newsletter_content_preview-0-readmore_button_-null-gdb74f~m84b7pqz~ld-null=
+-null&amp;eid=3Dgdb74f-m84b7pqz-ld&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1M=
+jQwNGVkNDIxZmUxYmM4OWNiZDk0MDkxYWU4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmExMTNk=
+NmM3YzM0NGEzZWU5OTM4ZGE2ZWJhMzdlZjgxOWM0MmY0YzllMTQ1MjQ2YSwxLDE%3D" target=
+=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" class=3D"no-underline" sty=
+le=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decorati=
+on: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-=
+decoration-line: none; width: 100%;"> <span class=3D"no-underline text-colo=
+r-brand" style=3D"color: #0a66c2; text-decoration-line: none;"> Continue le=
+ndo no LinkedIn </span> </a> </td> </tr> </tbody> </table> </a> </td> </tr>=
+ </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </tab=
+le> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </div> </td=
+> </tr> <tr> <td class=3D"bg-color-background-canvas p-3" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; background-color: #f3f2f0; padding: 24px;"> <table r=
+ole=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" width=3D"100%" class=3D"text-xs" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt; font-size: 12px;"> <tbody> <tr> <td class=3D"pb-1 m-0" data-test-id=
+=3D"email-footer__intended" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin:=
+ 0px; padding-bottom: 8px;"> Este e-mail foi enviado a Luiz Fernando Brito =
+Ferreira (Full-Stack Developer | Java | JS | React.js | PostgreSQL) </td> <=
+/tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; ma=
+rgin: 0px; padding-bottom: 8px;"> <a href=3D"https://www.linkedin.com/help/=
+linkedin/answer/4788?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_ser=
+ies_follow_newsletter_01%3BHLzQwJMIQEira3j1pqnDDg%3D%3D&amp;midToken=3DAQHx=
+aOsdYMWJVQ&amp;midSig=3D1zbYM2yo8dXXE1&amp;trk=3Deml-email_series_follow_ne=
+wsletter_01-SecurityHelp-0-footerglimmer&amp;trkEmail=3Deml-email_series_fo=
+llow_newsletter_01-SecurityHelp-0-footerglimmer-null-gdb74f~m84b7pqz~ld-nul=
+l-null&amp;eid=3Dgdb74f-m84b7pqz-ld&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1=
+MjQwNGVkNDIxZmUxYmM4OWNiZDk0MDkxYWU4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmExMTN=
+kNmM3YzM0NGEzZWU5OTM4ZGE2ZWJhMzdlZjgxOWM0MmY0YzllMTQ1MjQ2YSwxLDE%3D" target=
+=3D"_blank" class=3D"text-inherit underline" style=3D"cursor: pointer; disp=
+lay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; color: inherit; text-decoration-line: underline;=
+">Saiba por que inclu=C3=ADmos isso.</a> </td> </tr> <tr> <td class=3D"pb-1=
+ m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: =
+8px;">Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do Lin=
+kedIn. Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.</td> </tr> =
+<tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin:=
+ 0px; padding-bottom: 8px;"> <a href=3D"https://www.linkedin.com/series-not=
+ifications/?action=3Dunsubscribe&amp;memberToken=3DADoAADr_Zc8BliE63H4nkhqY=
+_TxFq4e-Y9whjlY&amp;newsletterId=3D7002440821278953472&amp;newsletterTitle=
+=3DAssuntos de Programa=C3=A7=C3=A3o&amp;lipi=3Durn%3Ali%3Apage%3Aemail_ema=
+il_series_follow_newsletter_01%3BHLzQwJMIQEira3j1pqnDDg%3D%3D&amp;midToken=
+=3DAQHxaOsdYMWJVQ&amp;midSig=3D1zbYM2yo8dXXE1&amp;ek=3Demail_series_follow_=
+newsletter_01&amp;e=3Dgdb74f-m84b7pqz-ld&amp;eid=3Dgdb74f-m84b7pqz-ld&amp;m=
+=3Dunsubscribe&amp;ts=3DfooterGlimmer&amp;li=3D0&amp;t=3Dplh" target=3D"_bl=
+ank" class=3D"text-inherit underline" style=3D"cursor: pointer; display: in=
+line-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; color: inherit; text-decoration-line: underline;">Cance=
+lar inscri=C3=A7=C3=A3o</a> =C2=A0=C2=A0=C2=B7=C2=A0=C2=A0 <a href=3D"https=
+://www.linkedin.com/help/linkedin/answer/67?lang=3Dpt&amp;lipi=3Durn%3Ali%3=
+Apage%3Aemail_email_series_follow_newsletter_01%3BHLzQwJMIQEira3j1pqnDDg%3D=
+%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1zbYM2yo8dXXE1&amp;trk=3Deml=
+-email_series_follow_newsletter_01-help-0-footerglimmer&amp;trkEmail=3Deml-=
+email_series_follow_newsletter_01-help-0-footerglimmer-null-gdb74f~m84b7pqz=
+~ld-null-null&amp;eid=3Dgdb74f-m84b7pqz-ld&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y=
+2JjM2I1MjQwNGVkNDIxZmUxYmM4OWNiZDk0MDkxYWU4YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNk=
+ZmExMTNkNmM3YzM0NGEzZWU5OTM4ZGE2ZWJhMzdlZjgxOWM0MmY0YzllMTQ1MjQ2YSwxLDE%3D"=
+ target=3D"_blank" class=3D"text-inherit underline" style=3D"cursor: pointe=
+r; display: inline-block; text-decoration: none; -webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; color: inherit; text-decoration-line: und=
+erline;">Ajuda</a> </td> </tr> <tr> <td class=3D"pb-1" style=3D"-webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt; padding-bottom: 8px;"> <a href=3D"https://www.linkedin.=
+com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslette=
+r_01%3BHLzQwJMIQEira3j1pqnDDg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSi=
+g=3D1zbYM2yo8dXXE1&amp;trk=3Deml-email_series_follow_newsletter_01-footer-0=
+-logoGlimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-footer-0-=
+logoGlimmer-null-gdb74f~m84b7pqz~ld-null-null&amp;eid=3Dgdb74f-m84b7pqz-ld&=
+amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmUxYmM4OWNiZDk0MDkxYWU4=
+YzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmExMTNkNmM3YzM0NGEzZWU5OTM4ZGE2ZWJhMzdlZjg=
+xOWM0MmY0YzllMTQ1MjQ2YSwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2;=
+ cursor: pointer; display: inline-block; text-decoration: none; -webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img src=3D"https://stat=
+ic.licdn.com/aero-v1/sc/h/9ehe6n39fa07dc5edzv0rla4e" alt=3D"LinkedIn" class=
+=3D"block h-[14px] w-[56px] image-rendering-crisp" style=3D"outline: none; =
+text-decoration: none; image-rendering: -moz-crisp-edges; image-rendering: =
+-o-crisp-edges; image-rendering: -webkit-optimize-contrast; image-rendering=
+: crisp-edges; -ms-interpolation-mode: nearest-neighbor; display: block; he=
+ight: 14px; width: 56px;" width=3D"56" height=3D"14"> </a> </td> </tr> <tr>=
+ <td data-test-copyright-text style=3D"-webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> =C2=
+=A9 2025 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place, Du=
+blin 2 - Irlanda. LinkedIn =C3=A9 um nome comercial registrado da LinkedIn =
+Ireland Unlimited Company. <span data-test-trademarks-text> LinkedIn e o lo=
+go do LinkedIn s=C3=A3o marcas registradas do LinkedIn. </span> </td> </tr>=
+ </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </tab=
+le> <img alt role=3D"presentation" src=3D"https://www.linkedin.com/emimp/ip=
+_WjJSaU56Um1MVzA0TkdJM2NIRjZMV3hrOlpXMWhhV3hmYzJWeWFXVnpYMlp2Ykd4dmQxOXVaWG=
+R6YkdWMGRHVnlYekF4OmRYSnVPbXhwT214cGJtdGxaRWx1UVhKMGFXTnNaVG8zTVRjNU1ESTJOa=
+kExTmpNeU1EWTFOVE0y.gif" style=3D"outline: none; text-decoration: none; -ms=
+-interpolation-mode: bicubic; width: 1px; height: 1px;" width=3D"1" height=
+=3D"1"> </body> </html>
+------=_Part_1181608_308920081.1741686592213--
+

@@ -1,0 +1,932 @@
+X-GM-THRID: 1820435914413964381
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:9ea8:b0:29a:824b:9ec3 with SMTP id fi40csp11852530ysc;
+        Sun, 5 Jan 2025 10:49:36 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IHKB1z6vj8EDGdO5jkHEjNYzUYTfbSx2GMQ/uAIOG1IrDBSiKq8SPFB8CWaJiGCRo7G5BbQ
+X-Received: by 2002:a05:6a20:d49b:b0:1e0:c7cf:bc1f with SMTP id adf61e73a8af0-1e5e0447f12mr89641553637.9.1736102976205;
+        Sun, 05 Jan 2025 10:49:36 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1736102976; cv=none;
+        d=google.com; s=arc-20240605;
+        b=PO85kwYgJeoC9C0F/WsuAqUND4d3FKGFRXqA6ZrD5Cac43VS3A6CopFwpIW32VeLOJ
+         BqnUQlD6xxAAUdtm4VC3siQbxJUzhH6hongqlMifjmnCjPu3cAu55b8uEEndg0OvTkws
+         H/JQVPq/b0ejlkuUOIexB1JqOPauVZq3bytFrAXDEwGwUGkQHo46S9fEVVxmN3UqcLBj
+         UAJGsl0ESFIVo28gFYVeszQp4bywrE1TulDfoFWbbeVEngwZlbY7uDnX+Xgj7c0uAbi8
+         v2tOYEVbpEMLtNe+vEaZ2g0IkNY/m/Rgfk26/WsDpuArsPV0t7a+QBVahXTNzYUxqkNs
+         n6Fg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=C3JB3zuyQbom+GSLLQ9AjEWHMKsl831xTAw8PyWjovg=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=GmJZxcdd1aPt5tZ+A9z7OaHVFI/ojWfcBtnZNCn+oL6H5p+XE3BZP5F2k4Ghcj66RV
+         YvYfZWR1Ux6GIYBl2DokinEVl/6WgKz63ed3wbUcRVPyHqzRKsLgqdCI8OucvPQMPIvr
+         LMPf1AptUk17G7+0cPkGACsBUQ52+UkvCElUlD/8wvvbxG92/I/+QTRG1/lHYubSHo7d
+         y5k05/goxgpXPBdVkhc1cYvEPtqhkZAQur5IdQz+sLXuNITxP58WNDmQ0WeKkEFaKQVo
+         T9KVUZCV91GAgvMCZk5qav29dEsNa4TcJ70Tc8H9hGVTy3rNejujgRWHx4UPHLXorMp3
+         oxtw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b="EEMMEXM/";
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=bu3f98KR;
+       spf=pass (google.com: domain of s-2mi2f68susx6k68saqupdhytzu7kg5cw9ddhqbtqwr6vgf7tikqqkkdv@bounce.linkedin.com designates 108.174.0.193 as permitted sender) smtp.mailfrom=s-2mi2f68susx6k68saqupdhytzu7kg5cw9ddhqbtqwr6vgf7tikqqkkdv@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-2mi2f68susx6k68saqupdhytzu7kg5cw9ddhqbtqwr6vgf7tikqqkkdv@bounce.linkedin.com>
+Received: from maile-ga.linkedin.com (maile-ga.linkedin.com. [108.174.0.193])
+        by mx.google.com with ESMTPS id 41be03b00d2f7-842f936b206si40475735a12.677.2025.01.05.10.49.34
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 05 Jan 2025 10:49:36 -0800 (PST)
+Received-SPF: pass (google.com: domain of s-2mi2f68susx6k68saqupdhytzu7kg5cw9ddhqbtqwr6vgf7tikqqkkdv@bounce.linkedin.com designates 108.174.0.193 as permitted sender) client-ip=108.174.0.193;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b="EEMMEXM/";
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=bu3f98KR;
+       spf=pass (google.com: domain of s-2mi2f68susx6k68saqupdhytzu7kg5cw9ddhqbtqwr6vgf7tikqqkkdv@bounce.linkedin.com designates 108.174.0.193 as permitted sender) smtp.mailfrom=s-2mi2f68susx6k68saqupdhytzu7kg5cw9ddhqbtqwr6vgf7tikqqkkdv@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1736102973;
+	bh=C3JB3zuyQbom+GSLLQ9AjEWHMKsl831xTAw8PyWjovg=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=EEMMEXM/tPMkRlBTRfoiaOuioTTXciGKt6UY0coUp1TyWnJvFfR5SljOrpf+GA8YB
+	 M3wZC41LWQyhcjxuYiovkQHOS0GWj4CMo9mIhQcTejOtPAH0qGBjQms9/ShaAUXYPp
+	 rPSHD3WCwUJalrrsbZSjZGlH+GiYAPUvsLmyQFIFSMl1yGwQRS0QKz1C/qLLmprUn/
+	 1eFqNu6e+IgzMUpEppwxV7ireX75LudIRODMccbfkhX2+8wr/uVhvHnNJ8nijsOAsj
+	 4rOEq3dpNeIbYd8TpxxbGhEGkxMqvE5EqN2GxYV0PGF5dunS6wyANskwUr1R4nJs1D
+	 YCNeO5PHTAbaA==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1736102973;
+	bh=C3JB3zuyQbom+GSLLQ9AjEWHMKsl831xTAw8PyWjovg=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=bu3f98KRlewKRxTUynpyRdWnOJFA7YiBVapDklj6jFfutVJ73FE43ZOHGCkERHwWV
+	 SmZ4u42l+ctRq72fy9WTWgFcCW7jR3jZnFd4yNlAqogudVVHsqEVF0pssJfzCkehWh
+	 x9WlP5aeM3muNG/+GxrhLC8IM8N2Qpx8DGUVa+7BNi7tgh97iyMTN/MnLvPLaKWKtj
+	 aAKNQipbw2suzq4eCLDz2YEvvp8UuSl5GZhQKLvvp0Yx45FUVZPrdjjPs4BKyBg0IH
+	 8NS/PnBRTTk82iVRguU6YnHcWfGBqk5HNduzHzJ7Y+qe9eiM7Keu+eF2UCVSOcOyLD
+	 lISC1aS9s3GUg==
+From: Luciano Rocha via LinkedIn <newsletters-noreply@linkedin.com>
+Message-ID: <408977171.9415146.1736102972844@lva1-app105928.prod.linkedin.com>
+Subject: =?UTF-8?Q?O_que_=C3=A9_estabilidade_m=C3=ADnima_no_Composer=3F?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_9415143_2100400223.1736102972840"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Sun, 5 Jan 2025 18:49:32 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-aszz3bimwmf1g4694i8ije8b81yyzlny187p9qnecbdmr9vh5mgkj1orfsh31ial69kaxbi8fw4059lgs0lrku9gpjlyod0lf5y6wc
+X-LinkedIn-Id: gdb74f-m5jyvtj2-t0
+List-Unsubscribe: <https://www.linkedin.com/comm/series-notifications/?action=unsubscribe&memberToken=ADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&newsletterId=7002440821278953472&newsletterTitle=Assuntos%20de%20Programa%C3%A7%C3%A3o&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&midToken=AQHxaOsdYMWJVQ&midSig=2qAD6GTM29wXA1&trk=eml-email_series_follow_newsletter_01-unsub-0-unsub&trkEmail=eml-email_series_follow_newsletter_01-unsub-0-unsub-null-gdb74f~m5jyvtj2~t0-null-null&eid=gdb74f-m5jyvtj2-t0&otpToken=MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU2YjQ4ZGM3ZDc0MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjkyMWJkOWM3YzE0ZTliYWI0MmNmOThiYzhjNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_9415143_2100400223.1736102972840
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Assuntos de Programa=C3=A7=C3=A3o
+
+Por Luciano Rocha
+
+
+Por Luciano Rocha
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/o-que-%C3%A9-estabilidade-m%C3%ADnima-c=
+omposer-luciano-rocha-bzchf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_fol=
+low_newsletter_01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&midToken=3DAQHxaOsdYMWJV=
+Q&midSig=3D2qAD6GTM29wXA1&trk=3Deml-email_series_follow_newsletter_01-null-=
+0-read_more_banner_cta_&trkEmail=3Deml-email_series_follow_newsletter_01-nu=
+ll-0-read_more_banner_cta_-null-gdb74f~m5jyvtj2~t0-null-null&eid=3Dgdb74f-m=
+5jyvtj2-t0&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU2YjQ4ZGM3ZDc0M=
+zliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjkyMWJkOWM3YzE0ZTliYWI0MmNmOThiYzhj=
+NTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D
+ =20
+Entenda como a estabilidade m=C3=ADnima afeta os projetos PHP. Comece 2025 =
+com o p=C3=A9 direito: adquire 3 cursos e paga s=C3=B3 1 por R$39,99. Voc=
+=C3=AA vai dominar .NET 8 WEB API RESTful 2024 completo com EFCore 8, Blazo=
+r .NET 8 - 2024 com EntityFramework e C# Linguagem B=C3=A1sico e Avan=C3=A7=
+ado. Garanta o seu lugar! =F0=9F=91=89 Link: https://lnkd.in/dWCyKSXg A est=
+abilidade m=C3=ADnima no Composer =C3=A9 um conceito que muitas vezes gera =
+d=C3=BAvidas entre desenvolvedores, especialmente aqueles que est=C3=A3o co=
+me=C3=A7ando a explorar o ecossistema PHP. Embora pare=C3=A7a algo t=C3=A9c=
+nico, sua compreens=C3=A3o =C3=A9 fundamental para garantir a seguran=C3=A7=
+a e a confiabilidade das depend=C3=AAncias em um projeto. Este artigo busca=
+ explicar o que =C3=A9 a estabilidade m=C3=ADnima no Composer, suas caracte=
+r=C3=ADsticas, para que serve, como configurar, seus benef=C3=ADcios, desva=
+ntagens e apresentar exemplos pr=C3=A1ticos. Assim, ao final da leitura, vo=
+c=C3=AA ter=C3=A1 uma vis=C3=A3o clara e objetiva sobre o tema, eliminando =
+qualquer confus=C3=A3o. LEMBRENTE Um lembrete a voc=C3=AA, leitor(a), preci=
+sa entender e =C3=A9 importante. Em alguns dos artigos publicados, gosto de=
+ explicar certas palavras que aparecem no texto. =C3=80s vezes coloco um as=
+terisco depois das palavras que podem ser confusas. Sempre me certifico de =
+explicar essas palavras no final do artigo, para que voc=C3=AA n=C3=A3o per=
+ca o fluxo do pensamento. Como sempre h=C3=A1 novos leitores, usu=C3=A1rios=
+ e profissionais se juntando =C3=A0 newsletter, vejo como minha responsabil=
+idade pesquisar e estudar sobre essas palavras ou termos. Para n=C3=B3s, qu=
+e j=C3=A1 estamos na tecnologia h=C3=A1 algum tempo, elas parecem familiare=
+s, mas para os novatos, podem gerar mais perguntas do que respostas. Sempre=
+ enfatizo: n=C3=A3o se limite apenas =C3=A0 informa=C3=A7=C3=A3o que estou =
+fornecendo. Pesquise e estude tamb=C3=A9m, porque posso cometer erros. Comb=
+inado? =C3=8Dndice O que =C3=A9 o Composer? O que =C3=A9 estabilidade m=C3=
+=ADnima? Caracter=C3=ADsticas Para que serve? Sintaxe para configurar Benef=
+=C3=ADcios Desvantagens Exemplos pr=C3=A1ticos Conclus=C3=A3o O que =C3=A9 =
+o Composer? O Composer =C3=A9 um gerenciador de depend=C3=AAncias para PHP =
+que permite aos desenvolvedores declarar as bibliotecas que seu projeto pre=
+cisa e gerenci=C3=A1-las de maneira eficiente. Ele facilita o processo de i=
+nstala=C3=A7=C3=A3o, atualiza=C3=A7=C3=A3o e organiza=C3=A7=C3=A3o das depe=
+nd=C3=AAncias, garantindo que o projeto tenha exatamente as vers=C3=B5es co=
+rretas de cada biblioteca. Ao utilizar o Composer, voc=C3=AA trabalha com u=
+m arquivo chamado composer.json, que define as depend=C3=AAncias do projeto=
+ e outras configura=C3=A7=C3=B5es importantes, como a estabilidade m=C3=ADn=
+ima. Com um simples comando, o Composer resolve automaticamente todas as de=
+pend=C3=AAncias e as instala no projeto. Uma das principais vantagens do Co=
+mposer =C3=A9 sua abordagem centralizada. Ele n=C3=A3o apenas gerencia as d=
+epend=C3=AAncias do projeto principal, mas tamb=C3=A9m resolve depend=C3=AA=
+ncias transitivas, ou seja, as depend=C3=AAncias das bibliotecas que voc=C3=
+=AA est=C3=A1 utilizando. Isso elimina a necessidade de gerenciar manualmen=
+te cada pacote. Al=C3=A9m disso, o Composer permite a reutiliza=C3=A7=C3=A3=
+o de c=C3=B3digo, integrando pacotes da comunidade ou solu=C3=A7=C3=B5es pr=
+=C3=B3prias, otimizando o tempo de desenvolvimento. Ele tamb=C3=A9m =C3=A9 =
+amplamente utilizado devido =C3=A0 sua compatibilidade com o Packagist, o r=
+eposit=C3=B3rio padr=C3=A3o de pacotes PHP. Por fim, o Composer =C3=A9 uma =
+ferramenta essencial para desenvolvedores PHP que desejam criar projetos ro=
+bustos e escal=C3=A1veis, simplificando a gest=C3=A3o de bibliotecas e prom=
+ovendo boas pr=C3=A1ticas no desenvolvimento. O que =C3=A9 estabilidade m=
+=C3=ADnima? A estabilidade m=C3=ADnima =C3=A9 uma configura=C3=A7=C3=A3o do=
+ Composer que define o n=C3=ADvel m=C3=ADnimo de estabilidade permitido par=
+a as depend=C3=AAncias em um projeto PHP. Isso significa que ela controla q=
+uais vers=C3=B5es de pacotes podem ser instaladas, considerando os est=C3=
+=A1gios de desenvolvimento das vers=C3=B5es dispon=C3=ADveis. No Composer, =
+os pacotes podem ter diferentes n=C3=ADveis de estabilidade, como stable (e=
+st=C3=A1vel), beta, alpha, e dev (desenvolvimento). Esses n=C3=ADveis indic=
+am o qu=C3=A3o testado e confi=C3=A1vel um pacote =C3=A9 para uso em produ=
+=C3=A7=C3=A3o. Por padr=C3=A3o, a configura=C3=A7=C3=A3o de estabilidade m=
+=C3=ADnima em um projeto =C3=A9 definida como stable. Isso significa que, s=
+em altera=C3=A7=C3=B5es, o Composer instalar=C3=A1 apenas pacotes que estej=
+am marcados como est=C3=A1veis. Essa escolha =C3=A9 ideal para a maioria do=
+s projetos, pois reduz os riscos de erros ou instabilidades. Al=C3=A9m diss=
+o, a estabilidade m=C3=ADnima pode ser configurada de forma personalizada, =
+permitindo que projetos espec=C3=ADficos utilizem pacotes em desenvolviment=
+o ou vers=C3=B5es de teste, quando necess=C3=A1rio. Essa flexibilidade =C3=
+=A9 essencial para projetos que precisam de recursos ainda n=C3=A3o dispon=
+=C3=ADveis em vers=C3=B5es est=C3=A1veis. Portanto, a estabilidade m=C3=ADn=
+ima =C3=A9 uma ferramenta que equilibra seguran=C3=A7a e flexibilidade, per=
+mitindo que os desenvolvedores ajustem o n=C3=ADvel de risco de acordo com =
+as necessidades do projeto. Caracter=C3=ADsticas Uma das principais caracte=
+r=C3=ADsticas da estabilidade m=C3=ADnima =C3=A9 a hierarquia dos n=C3=ADve=
+is de estabilidade. Essa hierarquia define a progress=C3=A3o entre vers=C3=
+=B5es menos testadas e mais testadas, seguindo esta ordem: dev, alpha, beta=
+, RC (release candidate) e stable. Outra caracter=C3=ADstica importante =C3=
+=A9 a capacidade de sobrescrever a configura=C3=A7=C3=A3o padr=C3=A3o de es=
+tabilidade para pacotes espec=C3=ADficos. Isso pode ser feito diretamente n=
+o arquivo composer.json, utilizando a propriedade "minimum-stability" ou co=
+nfigurando pacotes individualmente com "prefer-stable". A estabilidade m=C3=
+=ADnima tamb=C3=A9m interage com o conceito de "prefer-stable". Quando essa=
+ configura=C3=A7=C3=A3o est=C3=A1 ativada, o Composer prioriza vers=C3=B5es=
+ est=C3=A1veis, mesmo que a estabilidade m=C3=ADnima permita pacotes em des=
+envolvimento. Isso garante mais controle sobre as depend=C3=AAncias do proj=
+eto. Por fim, =C3=A9 importante destacar que a estabilidade m=C3=ADnima afe=
+ta n=C3=A3o apenas as depend=C3=AAncias diretas, mas tamb=C3=A9m as transit=
+ivas. Ou seja, se uma depend=C3=AAncia de sua depend=C3=AAncia n=C3=A3o ate=
+nder ao crit=C3=A9rio de estabilidade, ela ser=C3=A1 ignorada pelo Composer=
+. Essas caracter=C3=ADsticas tornam a estabilidade m=C3=ADnima uma ferramen=
+ta robusta para gerenciar vers=C3=B5es de pacotes em projetos PHP, oferecen=
+do seguran=C3=A7a e flexibilidade. Para que serve? A estabilidade m=C3=ADni=
+ma serve como um mecanismo de controle de qualidade para depend=C3=AAncias =
+em projetos PHP. Seu principal objetivo =C3=A9 garantir que apenas vers=C3=
+=B5es confi=C3=A1veis e adequadas sejam instaladas, reduzindo os riscos de =
+problemas durante o desenvolvimento ou em produ=C3=A7=C3=A3o. Com essa conf=
+igura=C3=A7=C3=A3o, os desenvolvedores podem evitar a instala=C3=A7=C3=A3o =
+acidental de pacotes inst=C3=A1veis ou em desenvolvimento, que podem conter=
+ bugs ou altera=C3=A7=C3=B5es ainda n=C3=A3o testadas. Isso =C3=A9 particul=
+armente importante em projetos cr=C3=ADticos, onde a estabilidade =C3=A9 es=
+sencial. Al=C3=A9m disso, a estabilidade m=C3=ADnima permite que projetos e=
+xperimentais ou inovadores utilizem pacotes em desenvolvimento. Por exemplo=
+, se um recurso necess=C3=A1rio est=C3=A1 dispon=C3=ADvel apenas em uma ver=
+s=C3=A3o beta, a configura=C3=A7=C3=A3o pode ser ajustada para permitir sua=
+ instala=C3=A7=C3=A3o. Outro uso importante =C3=A9 durante o desenvolviment=
+o de bibliotecas ou frameworks, onde os desenvolvedores precisam testar sua=
+s cria=C3=A7=C3=B5es com diferentes vers=C3=B5es de depend=C3=AAncias, incl=
+uindo aquelas ainda em est=C3=A1gio de desenvolvimento. Portanto, a estabil=
+idade m=C3=ADnima serve como um ponto de equil=C3=ADbrio entre seguran=C3=
+=A7a e inova=C3=A7=C3=A3o, adaptando-se =C3=A0s necessidades espec=C3=ADfic=
+as de cada projeto. Quer ficar atualizado sobre TI e programa=C3=A7=C3=A3o?=
+ Assine a nossa newsletter "Assuntos de Programa=C3=A7=C3=A3o" e receba con=
+te=C3=BAdos diretamente na sua feed! Assine aqui. =F0=9F=91=89 Link: https:=
+//lnkd.in/dW6Qt5JP Sintaxe para configurar A configura=C3=A7=C3=A3o da esta=
+bilidade m=C3=ADnima =C3=A9 feita no arquivo composer.json. Essa configura=
+=C3=A7=C3=A3o pode ser global para o projeto ou espec=C3=ADfica para pacote=
+s individuais. Abaixo est=C3=A3o as formas mais comuns de configurar a esta=
+bilidade m=C3=ADnima: Configura=C3=A7=C3=A3o global: Nesse exemplo, o Compo=
+ser permitir=C3=A1 a instala=C3=A7=C3=A3o de pacotes no n=C3=ADvel dev ou s=
+uperior. Configura=C3=A7=C3=A3o com prefer-stable: Aqui, o Composer prioriz=
+a vers=C3=B5es est=C3=A1veis, mesmo permitindo pacotes no n=C3=ADvel beta. =
+Configura=C3=A7=C3=A3o espec=C3=ADfica para pacotes: Esse exemplo permite q=
+ue um pacote espec=C3=ADfico seja instalado na vers=C3=A3o dev-master, igno=
+rando a configura=C3=A7=C3=A3o global. Essas op=C3=A7=C3=B5es oferecem flex=
+ibilidade para gerenciar depend=C3=AAncias de forma eficiente e adaptada =
+=C3=A0s necessidades do projeto. Benef=C3=ADcios A configura=C3=A7=C3=A3o d=
+e estabilidade m=C3=ADnima traz diversos benef=C3=ADcios para projetos PHP.=
+ O primeiro deles =C3=A9 a seguran=C3=A7a, pois garante que apenas pacotes =
+confi=C3=A1veis e testados sejam instalados por padr=C3=A3o, reduzindo o ri=
+sco de problemas. Outro benef=C3=ADcio =C3=A9 a flexibilidade. A possibilid=
+ade de ajustar a configura=C3=A7=C3=A3o para pacotes espec=C3=ADficos permi=
+te que os desenvolvedores utilizem recursos em desenvolvimento sem comprome=
+ter a estabilidade geral do projeto. Al=C3=A9m disso, a estabilidade m=C3=
+=ADnima facilita o gerenciamento de depend=C3=AAncias transitivas, assegura=
+ndo que todas as bibliotecas utilizadas atendam aos crit=C3=A9rios de quali=
+dade definidos. Por fim, essa configura=C3=A7=C3=A3o melhora a previsibilid=
+ade do comportamento do Composer, evitando surpresas durante a instala=C3=
+=A7=C3=A3o ou atualiza=C3=A7=C3=A3o de pacotes. Desvantagens Apesar dos ben=
+ef=C3=ADcios, a estabilidade m=C3=ADnima tamb=C3=A9m apresenta algumas desv=
+antagens. Uma delas =C3=A9 a complexidade adicional, especialmente para ini=
+ciantes, que podem se confundir ao configurar diferentes n=C3=ADveis de est=
+abilidade. Outra desvantagem =C3=A9 o risco de instalar pacotes inst=C3=A1v=
+eis quando a configura=C3=A7=C3=A3o n=C3=A3o =C3=A9 feita corretamente. Iss=
+o pode causar problemas durante o desenvolvimento ou em produ=C3=A7=C3=A3o.=
+ Al=C3=A9m disso, em projetos colaborativos, configura=C3=A7=C3=B5es incons=
+istentes de estabilidade m=C3=ADnima podem gerar conflitos entre membros da=
+ equipe, dificultando o alinhamento. Por fim, o uso de pacotes em desenvolv=
+imento pode levar a atualiza=C3=A7=C3=B5es frequentes e inesperadas, aument=
+ando o trabalho necess=C3=A1rio para manter o projeto funcional. Exemplos p=
+r=C3=A1ticos Exemplo simples: Neste caso, apenas pacotes est=C3=A1veis ser=
+=C3=A3o instalados, garantindo m=C3=A1xima seguran=C3=A7a e confiabilidade.=
+ Exemplo avan=C3=A7ado: Aqui, o Composer permite pacotes em desenvolvimento=
+, mas prioriza vers=C3=B5es est=C3=A1veis. Al=C3=A9m disso, um pacote espec=
+=C3=ADfico =C3=A9 configurado para usar a vers=C3=A3o dev-master. E se voc=
+=C3=AA quer saber mais sobre as soft skills mais procuradas em TI, temos um=
+a newsletter espec=C3=ADfica para isso: "O Poder das Soft Skills no TI". In=
+screva-se aqui. =F0=9F=91=89 Link: https://lnkd.in/djb2Rdi5 Conclus=C3=A3o =
+A estabilidade m=C3=ADnima no Composer =C3=A9 uma ferramenta essencial para=
+ gerenciar depend=C3=AAncias em projetos PHP, oferecendo um equil=C3=ADbrio=
+ entre seguran=C3=A7a e flexibilidade. Compreender e configurar essa funcio=
+nalidade de forma adequada pode evitar muitos problemas durante o desenvolv=
+imento. Esperamos que este artigo tenha esclarecido o conceito de estabilid=
+ade m=C3=ADnima e suas aplica=C3=A7=C3=B5es pr=C3=A1ticas. Se voc=C3=AA ain=
+da tiver d=C3=BAvidas ou experi=C3=AAncias para compartilhar, n=C3=A3o hesi=
+te em comentar. Sua opini=C3=A3o =C3=A9 muito importante para enriquecer o =
+debate. Acompanhe nossos pr=C3=B3ximos artigos para mais dicas e insights s=
+obre desenvolvimento, tecnologias diversas e ferramentas relacionadas ao un=
+iverso da programa=C3=A7=C3=A3o. =C2=A0 AVISO Os c=C3=B3digos mencionados n=
+este artigo e em qualquer outro veiculado nesta newsletter s=C3=A3o exemplo=
+s fict=C3=ADcios destinados exclusivamente a fins ilustrativos. =C3=89 impo=
+rtante ressaltar que n=C3=A3o =C3=A9 recomendado compilar ou executar esses=
+ c=C3=B3digos sem antes estabelecer toda a estrutura necess=C3=A1ria para s=
+ua execu=C3=A7=C3=A3o adequada. Tentativas de copiar, compilar ou depurar d=
+iretamente podem resultar em uma s=C3=A9rie de erros, mesmo que o c=C3=B3di=
+go em si esteja corretamente escrito. Portanto, gostaria de salientar que o=
+s exemplos aqui apresentados s=C3=A3o meramente did=C3=A1ticos, e n=C3=A3o =
+assumo qualquer responsabilidade por quaisquer a=C3=A7=C3=B5es tomadas com =
+base neles. Encontrou algo de errado nesse ou em outro artigo? Comente, cur=
+te e compartilhe para mais pessoas terem acesso al=C3=A9m de assinar a news=
+letter. Aceito cr=C3=ADticas em rela=C3=A7=C3=A3o aos conte=C3=BAdos criado=
+s al=C3=A9m de sugest=C3=B5es e elogios. Hashtags #PHP #Composer #Developme=
+nt Fonte https://www.freecodecamp.org/news/what-is-minimum-stability-in-com=
+poser/
+Continue lendo no LinkedIn
+https://www.linkedin.com/comm/pulse/o-que-%C3%A9-estabilidade-m%C3%ADnima-c=
+omposer-luciano-rocha-bzchf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_fol=
+low_newsletter_01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&midToken=3DAQHxaOsdYMWJV=
+Q&midSig=3D2qAD6GTM29wXA1&trk=3Deml-email_series_follow_newsletter_01-newsl=
+etter_content_preview_text-0-readmore_button_&trkEmail=3Deml-email_series_f=
+ollow_newsletter_01-newsletter_content_preview_text-0-readmore_button_-null=
+-gdb74f~m5jyvtj2~t0-null-null&eid=3Dgdb74f-m5jyvtj2-t0&otpToken=3DMWIwZDE3Z=
+TgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU2YjQ4ZGM3ZDc0MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJm=
+MmZlZDNkZjkyMWJkOWM3YzE0ZTliYWI0MmNmOThiYzhjNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSw=
+xLDE%3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | Java | JS | React.js | Node.js | Python)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSi=
+g=3D2qAD6GTM29wXA1&trk=3Deml-email_series_follow_newsletter_01-SecurityHelp=
+-0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Secur=
+ityHelp-0-textfooterglimmer-null-gdb74f~m5jyvtj2~t0-null-null&eid=3Dgdb74f-=
+m5jyvtj2-t0&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU2YjQ4ZGM3ZDc0=
+MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjkyMWJkOWM3YzE0ZTliYWI0MmNmOThiYzh=
+jNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/comm/series-notifica=
+tions/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y=
+9whjlY&newsletterId=3D7002440821278953472&newsletterTitle=3DAssuntos%20de%2=
+0Programa%C3%A7%C3%A3o&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_n=
+ewsletter_01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&midToken=3DAQHxaOsdYMWJVQ&mid=
+Sig=3D2qAD6GTM29wXA1&trk=3Deml-email_series_follow_newsletter_01-unsubscrib=
+e-0-footerGlimmer&trkEmail=3Deml-email_series_follow_newsletter_01-unsubscr=
+ibe-0-footerGlimmer-null-gdb74f~m5jyvtj2~t0-null-null&eid=3Dgdb74f-m5jyvtj2=
+-t0&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU2YjQ4ZGM3ZDc0MzliYWY4=
+ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjkyMWJkOWM3YzE0ZTliYWI0MmNmOThiYzhjNTlhZDJ=
+kNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D=C2=A0=C2=A0=C2=B7=C2=A0=C2=A0Ajuda: https:/=
+/www.linkedin.com/help/linkedin/answer/67?lang=3Dpt&lipi=3Durn%3Ali%3Apage%=
+3Aemail_email_series_follow_newsletter_01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&=
+midToken=3DAQHxaOsdYMWJVQ&midSig=3D2qAD6GTM29wXA1&trk=3Deml-email_series_fo=
+llow_newsletter_01-help-0-textfooterglimmer&trkEmail=3Deml-email_series_fol=
+low_newsletter_01-help-0-textfooterglimmer-null-gdb74f~m5jyvtj2~t0-null-nul=
+l&eid=3Dgdb74f-m5jyvtj2-t0&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxO=
+GU2YjQ4ZGM3ZDc0MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjkyMWJkOWM3YzE0ZTli=
+YWI0MmNmOThiYzhjNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D
+
+=C2=A9 2025 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_9415143_2100400223.1736102972840
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+/head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-canvas w-fu=
+ll m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; padding: 0p=
+x; padding-top: 8px; font-family: -apple-system, system-ui, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Ox=
+ygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sa=
+ns-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible overflow=
+-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; max-height=
+: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" data-email-p=
+reheader=3D"true">Entenda como a estabilidade m=C3=ADnima afeta os projetos=
+ PHP. Comece 2025 com o p=C3=A9=E2=80=A6</div> <div class=3D"h-0 opacity-0 =
+text-transparent invisible overflow-hidden w-0 max-h-[0]" style=3D"visibili=
+ty: hidden; height: 0px; max-height: 0; width: 0px; overflow: hidden; opaci=
+ty: 0; mso-hide: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table role=3D"presentation"=
+ valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"5=
+12" align=3D"center" class=3D"mercado-container w-[512px] max-w-[512px] mx-=
+auto my-0 p-0 " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-left: auto; =
+margin-right: auto; margin-top: 0px; margin-bottom: 0px; width: 512px; max-=
+width: 512px; padding: 0px;"> <tbody> <tr> <td style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"bg-color-background=
+-container " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fff=
+fff;"> <tbody> <tr> <td class=3D"text-center p-3" style=3D"-webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tabl=
+e-rspace: 0pt; padding: 24px; text-align: center;"> <table role=3D"presenta=
+tion" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%" class=3D"min-w-full" style=3D"-webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-=
+width: 100%;"> <tbody> <tr> <td align=3D"left" valign=3D"middle" style=3D"-=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/fe=
+ed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BMim%=
+2FZV64QoCHs4V5IVr8yQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2qAD6=
+GTM29wXA1&amp;trk=3Deml-email_series_follow_newsletter_01-header-0-home_gli=
+mmer_dynamic_badging_high_dpi&amp;trkEmail=3Deml-email_series_follow_newsle=
+tter_01-header-0-home_glimmer_dynamic_badging_high_dpi-null-gdb74f~m5jyvtj2=
+~t0-null-null&amp;eid=3Dgdb74f-m5jyvtj2-t0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y=
+2JjM2I1MjQwNGVkNDUxOGU2YjQ4ZGM3ZDc0MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNk=
+ZjkyMWJkOWM3YzE0ZTliYWI0MmNmOThiYzhjNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D"=
+ target=3D"_blank" class=3D"w-[84px]" style=3D"color: #0a66c2; cursor: poin=
+ter; display: inline-block; text-decoration: none; -webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; width: 84px;"> <img class=3D"h-[37px] w=
+-[101px]" alt=3D"LinkedIn" src=3D"https://www.linkedin.com/comm/dms/logo/v2=
+?badgeTheme=3Dmercado&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follo=
+w_newsletter_01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&amp;midSig=3D2qAD6GTM29wXA=
+1&amp;midToken=3DAQHxaOsdYMWJVQ&amp;trkEmail=3Deml-email_series_follow_news=
+letter_01-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2-null-gdb74f%7Em5j=
+yvtj2%7Et0-null-null&amp;trk=3Deml-email_series_follow_newsletter_01-null-0=
+-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2&amp;_sig=3D0_3PmF4mG9wXA1" data-t=
+est-header-dynamic-badging-img-high-dpi style=3D"outline: none; text-decora=
+tion: none; -ms-interpolation-mode: bicubic; height: 37px; width: 101px;" w=
+idth=3D"101" height=3D"37"> </a> </td> <td valign=3D"middle" align=3D"right=
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" va=
+lign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" data-test-header-profile style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody=
+> <tr> <td align=3D"right" valign=3D"middle" class=3D"w-[32px]" style=3D"-w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt; width: 32px;" width=3D"32"> <a href=3D"https:/=
+/br.linkedin.com/comm/in/fernando-ferreira-brito?lipi=3Durn%3Ali%3Apage%3Ae=
+mail_email_series_follow_newsletter_01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&amp=
+;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2qAD6GTM29wXA1&amp;trk=3Deml-email_=
+series_follow_newsletter_01-header-0-profile_glimmer&amp;trkEmail=3Deml-ema=
+il_series_follow_newsletter_01-header-0-profile_glimmer-null-gdb74f~m5jyvtj=
+2~t0-null-null&amp;eid=3Dgdb74f-m5jyvtj2-t0&amp;otpToken=3DMWIwZDE3ZTgxMzI4=
+Y2JjM2I1MjQwNGVkNDUxOGU2YjQ4ZGM3ZDc0MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDN=
+kZjkyMWJkOWM3YzE0ZTliYWI0MmNmOThiYzhjNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D=
+" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inli=
+ne-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%;"> <img alt=3D"Luiz Fernando Brito Ferreira" src=3D"https:=
+//media.licdn.com/dms/image/v2/D4E03AQHtWMkj43o1lA/profile-displayphoto-shr=
+ink_200_200/profile-displayphoto-shrink_200_200/0/1724191556445?e=3D2147483=
+647&amp;v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB92xXoc9r_1IG6EIUIKB4" class=
+=3D"rounded-[100%] w-[32px] h-[32px]" style=3D"outline: none; text-decorati=
+on: none; -ms-interpolation-mode: bicubic; height: 32px; width: 32px; borde=
+r-radius: 100%;" width=3D"32" height=3D"32"> </a> </td> </tr> </tbody> </ta=
+ble> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"px-0 pb-3"=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 0px; padding-right: =
+0px; padding-bottom: 24px;"> <div> <table role=3D"presentation" valign=3D"t=
+op" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td data-test-id=3D"newsl=
+etter-entity-lockup" class=3D"px-3 pt-1" style=3D"-webkit-text-size-adjust:=
+ 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt; padding-left: 24px; padding-right: 24px; padding-top: 8px;"> <table r=
+ole=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" width=3D"100%" class=3D"font-sans" style=3D"-webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe=
+ UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans',=
+ Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;">=
+ <tbody> <tr> <td valign=3D"top" class=3D"pr-1 w-6" style=3D"-webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt; width: 48px; padding-right: 8px;" width=3D"48"> <a href=3D=
+"https://www.linkedin.com/comm/newsletters/7002440821278953472?lipi=3Durn%3=
+Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BMim%2FZV64QoCHs4V5IV=
+r8yQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2qAD6GTM29wXA1&amp;tr=
+k=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-0-newsle=
+tter_entity_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsle=
+tter_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m5jyvtj2~t0-null-nul=
+l&amp;eid=3Dgdb74f-m5jyvtj2-t0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwN=
+GVkNDUxOGU2YjQ4ZGM3ZDc0MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjkyMWJkOWM3=
+YzE0ZTliYWI0MmNmOThiYzhjNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D" target=3D"_=
+blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; tex=
+t-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%;"> <img class=3D"inline-block relative bg-color-entity-ghost-background=
+ w-6 h-6 rounded-md" src=3D"https://media.licdn.com/dms/image/v2/D4D12AQEAo=
+FL_9ZOGaA/series-logo_image-shrink_100_100/series-logo_image-shrink_100_100=
+/0/1676114493998?e=3D2147483647&amp;v=3Dbeta&amp;t=3DJ0cA9GdNyXSecho-YeWchB=
+UEZHNz51JplsM7AVSQvSQ" alt=3D"Abrir Assuntos de Programa=C3=A7=C3=A3o" styl=
+e=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;=
+ position: relative; display: inline-block; height: 48px; width: 48px; bord=
+er-radius: 8px; background-color: #eae6df;" width=3D"48" height=3D"48"> </a=
+> </td> <td valign=3D"top" style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table=
+ role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody=
+> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www=
+.linkedin.com/comm/newsletters/7002440821278953472?lipi=3Durn%3Ali%3Apage%3=
+Aemail_email_series_follow_newsletter_01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&a=
+mp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2qAD6GTM29wXA1&amp;trk=3Deml-emai=
+l_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_=
+cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_entity_=
+lockup-0-newsletter_entity_cta-null-gdb74f~m5jyvtj2~t0-null-null&amp;eid=3D=
+gdb74f-m5jyvtj2-t0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU2Y=
+jQ4ZGM3ZDc0MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjkyMWJkOWM3YzE0ZTliYWI0=
+MmNmOThiYzhjNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D" target=3D"_blank" class=
+=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; display: inline=
+-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; text-decoration-line: none;"> <div class=3D"pb-0.5" style=
+=3D"padding-bottom: 4px;"> <span class=3D"text-md font-bold text-color-text=
+ break-words leading-regular" style=3D"overflow-wrap: break-word; font-size=
+: 16px; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> A=
+ssuntos de Programa=C3=A7=C3=A3o </span> </div> </a> </td> </tr> <tr> <td s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.co=
+m/comm/newsletters/7002440821278953472?lipi=3Durn%3Ali%3Apage%3Aemail_email=
+_series_follow_newsletter_01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&amp;midToken=
+=3DAQHxaOsdYMWJVQ&amp;midSig=3D2qAD6GTM29wXA1&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta&amp;trk=
+Email=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-0-ne=
+wsletter_entity_cta-null-gdb74f~m5jyvtj2~t0-null-null&amp;eid=3Dgdb74f-m5jy=
+vtj2-t0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU2YjQ4ZGM3ZDc0=
+MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjkyMWJkOWM3YzE0ZTliYWI0MmNmOThiYzh=
+jNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D" target=3D"_blank" class=3D"no-unde=
+rline" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; tex=
+t-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; text-decoration-line: none;"> <span class=3D"text-xs text-color-text-l=
+ow-emphasis leading-regular" style=3D"font-size: 12px; line-height: 1.25; c=
+olor: rgba(0, 0, 0, 0.6);"> Uma vis=C3=A3o =C3=BAnica e acess=C3=ADvel sobr=
+e #programacao e #ti. Ideal para todos, desde iniciantes at=C3=A9=E2=80=A6 =
+</span> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </=
+td> </tr> <tr data-test-id=3D"newsletter-content-preview"> <td class=3D"px-=
+3 pt-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 24px; padding=
+-right: 24px; padding-top: 16px;"> <table role=3D"presentation" valign=3D"t=
+op" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"overflow-hid=
+den " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; overflow: hidden;"> <table ro=
+le=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <=
+tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.li=
+nkedin.com/comm/pulse/o-que-%C3%A9-estabilidade-m%C3%ADnima-composer-lucian=
+o-rocha-bzchf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter=
+_01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midS=
+ig=3D2qAD6GTM29wXA1&amp;trk=3Deml-email_series_follow_newsletter_01-newslet=
+ter_content_preview-0-headline_&amp;trkEmail=3Deml-email_series_follow_news=
+letter_01-newsletter_content_preview-0-headline_-null-gdb74f~m5jyvtj2~t0-nu=
+ll-null&amp;eid=3Dgdb74f-m5jyvtj2-t0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I=
+1MjQwNGVkNDUxOGU2YjQ4ZGM3ZDc0MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjkyMW=
+JkOWM3YzE0ZTliYWI0MmNmOThiYzhjNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D" targe=
+t=3D"_blank" class=3D"w-full" style=3D"color: #0a66c2; cursor: pointer; dis=
+play: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; width: 100%;"> <img class=3D"block w-full aspec=
+t-[744/400] object-cover overflow-hidden" data-test-id=3D"newsletter-conten=
+t-preview__cover-image" alt=3D"Imagem de capa da newsletter" src=3D"https:/=
+/media.licdn.com/dms/image/v2/D4D12AQGl9tlRxbUsNQ/article-cover_image-shrin=
+k_720_1280/article-cover_image-shrink_720_1280/0/1734205831068?e=3D21474836=
+47&amp;v=3Dbeta&amp;t=3DCy2dxgSgAZZQRKvzPNpruVjSQReNkqnWylxpZNEUk4s" style=
+=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; =
+display: block; aspect-ratio: 744/400; width: 100%; overflow: hidden; objec=
+t-fit: cover;"> </a> </td> </tr> <tr> <td class=3D"py-2" style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; padding-top: 16px; padding-bottom: 16px;"> <table rol=
+e=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <t=
+r> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.lin=
+kedin.com/comm/pulse/o-que-%C3%A9-estabilidade-m%C3%ADnima-composer-luciano=
+-rocha-bzchf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_=
+01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSi=
+g=3D2qAD6GTM29wXA1&amp;trk=3Deml-email_series_follow_newsletter_01-newslett=
+er_content_preview-0-title_&amp;trkEmail=3Deml-email_series_follow_newslett=
+er_01-newsletter_content_preview-0-title_-null-gdb74f~m5jyvtj2~t0-null-null=
+&amp;eid=3Dgdb74f-m5jyvtj2-t0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNG=
+VkNDUxOGU2YjQ4ZGM3ZDc0MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjkyMWJkOWM3Y=
+zE0ZTliYWI0MmNmOThiYzhjNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D" target=3D"_b=
+lank" class=3D"no-underline font-medium text-sm m-0 text-system-gray-90" st=
+yle=3D"cursor: pointer; display: inline-block; text-decoration: none; -webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0px; font-si=
+ze: 14px; font-weight: 500; color: #282828; text-decoration-line: none;"> <=
+h2 class=3D"m-0 text-display-sm leading-regular text-color-text font-bold f=
+ont-sans" style=3D"margin: 0px; font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, =
+Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif; font-size: 24px; font-weight: 600; line-height: 1.25; =
+color: rgba(0, 0, 0, 0.9);"> O que =C3=A9 estabilidade m=C3=ADnima no Compo=
+ser? </h2> </a> </td> </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" width=3D"100%" data-test-id=3D"newsletter-author-lock=
+up-redesign" class=3D"mt-1 mb-2" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; ma=
+rgin-bottom: 16px; margin-top: 8px;"> <tbody> <tr> <td valign=3D"middle" al=
+ign=3D"left" class=3D"w-3" style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 2=
+4px;" width=3D"24"> <a href=3D"https://br.linkedin.com/comm/in/lgomesroc?li=
+pi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BMim%2FZV64=
+QoCHs4V5IVr8yQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2qAD6GTM29w=
+XA1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_content_prev=
+iew-0-author_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newslett=
+er_content_preview-0-author_-null-gdb74f~m5jyvtj2~t0-null-null&amp;eid=3Dgd=
+b74f-m5jyvtj2-t0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU2YjQ=
+4ZGM3ZDc0MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjkyMWJkOWM3YzE0ZTliYWI0Mm=
+NmOThiYzhjNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D" target=3D"_blank" style=
+=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decoration=
+: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img =
+class=3D"inline-block relative bg-color-entity-ghost-background clip-path-c=
+ircle-50 rounded-full w-4 h-4 align-middle" src=3D"https://media.licdn.com/=
+dms/image/v2/D4D35AQHbqbt3YOp_fg/profile-framedphoto-shrink_400_400/profile=
+-framedphoto-shrink_400_400/0/1734810564416?e=3D1736708400&amp;v=3Dbeta&amp=
+;t=3Dx9BJRhBSANMqF4TrjgleooFrZsaFKWybsL8Lc9bAQUc" alt=3D"Imagem do autor" s=
+tyle=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicub=
+ic; position: relative; display: inline-block; height: 32px; width: 32px; b=
+order-radius: 9999px; background-color: #eae6df; vertical-align: middle; cl=
+ip-path: circle(50%);" width=3D"32" height=3D"32"> </a> </td> <td style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://br.linkedin.com/comm/in=
+/lgomesroc?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01=
+%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=
+=3D2qAD6GTM29wXA1&amp;trk=3Deml-email_series_follow_newsletter_01-newslette=
+r_content_preview-0-author_&amp;trkEmail=3Deml-email_series_follow_newslett=
+er_01-newsletter_content_preview-0-author_-null-gdb74f~m5jyvtj2~t0-null-nul=
+l&amp;eid=3Dgdb74f-m5jyvtj2-t0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwN=
+GVkNDUxOGU2YjQ4ZGM3ZDc0MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjkyMWJkOWM3=
+YzE0ZTliYWI0MmNmOThiYzhjNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D" target=3D"_=
+blank" class=3D"no-underline ml-1" style=3D"color: #0a66c2; cursor: pointer=
+; display: inline-block; text-decoration: none; -webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; margin-left: 8px; text-decoration-line: no=
+ne;"> <span class=3D"font-sans font-bold text-sm mb-3 text-color-text-low-e=
+mphasis leading-regular" style=3D"margin-bottom: 24px; font-family: -apple-=
+system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue'=
+, 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'App=
+le Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lu=
+cida Grande', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 6=
+00; line-height: 1.25; color: rgba(0, 0, 0, 0.6);"> Luciano Rocha </span> <=
+/a> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"pb-1" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px;"> <div class=3D"p-3=
+ bg-color-surface-tint rounded-md font-sans" data-test-id=3D"newsletter-cta=
+-banner" style=3D"border-radius: 8px; background-color: #f5f7f9; padding: 2=
+4px; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cant=
+arell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;"> <div=
+ class=3D"mb-1.5" style=3D"margin-bottom: 12px;"> <span class=3D"text-md le=
+ading-regular font-bold text-color-text" style=3D"font-size: 16px; font-wei=
+ght: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Leia este artigo =
+no LinkedIn para participar da conversa </span> </div> <table role=3D"prese=
+ntation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" wi=
+dth=3D"100%" class=3D"email-button " data-test-id=3D"email-button" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=3D"middle" align=
+=3D"left" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.=
+linkedin.com/comm/pulse/o-que-%C3%A9-estabilidade-m%C3%ADnima-composer-luci=
+ano-rocha-bzchf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslett=
+er_01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;mi=
+dSig=3D2qAD6GTM29wXA1&amp;trk=3Deml-email_series_follow_newsletter_01-newsl=
+etter_content_preview-0-read_more_banner_cta_&amp;trkEmail=3Deml-email_seri=
+es_follow_newsletter_01-newsletter_content_preview-0-read_more_banner_cta_-=
+null-gdb74f~m5jyvtj2~t0-null-null&amp;eid=3Dgdb74f-m5jyvtj2-t0&amp;otpToken=
+=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU2YjQ4ZGM3ZDc0MzliYWY4ZTYxNzljNDA2=
+NmQ0YjVkNWJmMmZlZDNkZjkyMWJkOWM3YzE0ZTliYWI0MmNmOThiYzhjNTlhZDJkNzc1NzZjMGQ=
+3NWMxMTE5ZSwxLDE%3D" target=3D"_blank" aria-label=3D"Abrir este artigo no L=
+inkedIn" class=3D"align-top no-underline " style=3D"color: #0a66c2; cursor:=
+ pointer; display: inline-block; text-decoration: none; -webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; vertical-align: top; text-decorati=
+on-line: none;"> <table role=3D"presentation" valign=3D"top" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" width=3D"auto" class=3D"border-separate =
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: separate;"> <tbo=
+dy> <tr> <td class=3D"btn-sm btn-primary border-color-brand button-link lea=
+ding-regular !min-h-[auto] !shadow-none border-1 border-solid" style=3D"-we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt; height: min-content; border-radius: 24px; paddi=
+ng-top: 7px; padding-bottom: 7px; padding-left: 16px; padding-right: 16px; =
+text-align: center; font-size: 14px; font-weight: 600; cursor: pointer; tex=
+t-decoration-line: none; background-color: #0a66c2; color: #ffffff; border-=
+width: 1px; border-style: solid; border-color: #0a66c2; line-height: 1.25; =
+min-height: auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !i=
+mportant;"> <a href=3D"https://www.linkedin.com/comm/pulse/o-que-%C3%A9-est=
+abilidade-m%C3%ADnima-composer-luciano-rocha-bzchf?lipi=3Durn%3Ali%3Apage%3=
+Aemail_email_series_follow_newsletter_01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&a=
+mp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2qAD6GTM29wXA1&amp;trk=3Deml-emai=
+l_series_follow_newsletter_01-newsletter_content_preview-0-read_more_banner=
+_cta_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_conte=
+nt_preview-0-read_more_banner_cta_-null-gdb74f~m5jyvtj2~t0-null-null&amp;ei=
+d=3Dgdb74f-m5jyvtj2-t0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxO=
+GU2YjQ4ZGM3ZDc0MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjkyMWJkOWM3YzE0ZTli=
+YWI0MmNmOThiYzhjNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D" target=3D"_blank" t=
+abindex=3D"-1" aria-hidden=3D"true" class=3D"no-underline" style=3D"color: =
+#0a66c2; cursor: pointer; display: inline-block; text-decoration: none; -we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decoration-li=
+ne: none;"> <span class=3D"no-underline text-white" style=3D"color: #ffffff=
+; text-decoration-line: none;"> Ler no LinkedIn </span> </a> </td> </tr> </=
+tbody> </table> </a> </td> </tr> </tbody> </table> </div> </td> </tr> <tr d=
+ata-test-id=3D"newsletter-content-preview--content"> <td class=3D"series-ar=
+ticle-body" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-sys=
+tem, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', '=
+Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple =
+Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucid=
+a Grande', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5;=
+ color: rgba(0, 0, 0, 0.9);"> <h3 style=3D"margin: 0; margin-left: 0px; mar=
+gin-right: 0px; margin-top: 8px; margin-bottom: 4px; font-size: 16px; font-=
+weight: 600; line-height: 1.25; letter-spacing: -0.02em; color: rgba(0, 0, =
+0, 0.9);">Entenda como a estabilidade m=C3=ADnima afeta os projetos PHP.</h=
+3><hr><h2 style=3D"margin: 0; margin-left: 0px; margin-right: 0px; margin-t=
+op: 8px; margin-bottom: 8px; font-size: 20px; font-weight: 600; line-height=
+: 1.25; letter-spacing: -0.02em; color: rgba(0, 0, 0, 0.9);">Comece 2025 co=
+m o p=C3=A9 direito: adquire 3 cursos e paga s=C3=B3 1 por R$39,99. Voc=C3=
+=AA vai dominar .NET 8 WEB API RESTful 2024 completo com EFCore 8, Blazor .=
+NET 8 - 2024 com EntityFramework e C# Linguagem B=C3=A1sico e Avan=C3=A7ado=
+.</h2><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size=
+: 1em; line-height: 1.5;"><strong>Garanta o seu lugar! =F0=9F=91=89 Link: <=
+/strong><a href=3D"https://lnkd.in/dWCyKSXg" target=3D"_blank" rel=3D"nofol=
+low noopener" style=3D"text-decoration: none; -webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; display: inline; cursor: pointer; font-weigh=
+t: 600; color: #0a66c2; text-decoration-line: none;"><strong>https://lnkd.i=
+n/dWCyKSXg</strong></a></p><hr><p style=3D"margin: 0; font-weight: 400; mar=
+gin-top: 0.8em; font-size: 1em; line-height: 1.5;">A estabilidade m=C3=ADni=
+ma no Composer =C3=A9 um conceito que muitas vezes gera d=C3=BAvidas entre =
+desenvolvedores, especialmente aqueles que est=C3=A3o come=C3=A7ando a expl=
+orar o ecossistema PHP. Embora pare=C3=A7a algo t=C3=A9cnico, sua compreens=
+=C3=A3o =C3=A9 <strong>fundamental para garantir a seguran=C3=A7a e a confi=
+abilidade</strong> das depend=C3=AAncias em um projeto.</p><p style=3D"marg=
+in: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.=
+5;">Este artigo busca explicar o que =C3=A9 a estabilidade m=C3=ADnima no C=
+omposer, suas caracter=C3=ADsticas, para que serve, como configurar, seus b=
+enef=C3=ADcios, desvantagens e apresentar exemplos pr=C3=A1ticos. Assim, ao=
+ final da leitura, voc=C3=AA ter=C3=A1 uma vis=C3=A3o clara e objetiva sobr=
+e o tema, eliminando qualquer confus=C3=A3o.</p><hr><h3 style=3D"margin: 0;=
+ margin-left: 0px; margin-right: 0px; margin-top: 8px; margin-bottom: 4px; =
+font-size: 16px; font-weight: 600; line-height: 1.25; letter-spacing: -0.02=
+em; color: rgba(0, 0, 0, 0.9);">LEMBRENTE</h3><h3 style=3D"margin: 0; margi=
+n-left: 0px; margin-right: 0px; margin-top: 8px; margin-bottom: 4px; font-s=
+ize: 16px; font-weight: 600; line-height: 1.25; letter-spacing: -0.02em; co=
+lor: rgba(0, 0, 0, 0.9);">Um lembrete a voc=C3=AA, leitor(a), precisa enten=
+der e =C3=A9 importante. Em alguns dos artigos publicados, gosto de explica=
+r certas palavras que aparecem no texto. =C3=80s vezes coloco um asterisco =
+depois das palavras que podem ser confusas. Sempre me certifico de explicar=
+ essas palavras no final do artigo, para que voc=C3=AA n=C3=A3o perca o flu=
+xo do pensamento. Como sempre h=C3=A1 novos leitores, usu=C3=A1rios e profi=
+ssionais se juntando =C3=A0 newsletter, vejo como minha responsabilidade pe=
+squisar e estudar sobre essas palavras ou termos. Para n=C3=B3s, que j=C3=
+=A1 estamos na tecnologia h=C3=A1 algum tempo, e...</h3> </td> </tr> <tr> <=
+td class=3D"pt-2 no-underline" style=3D"-webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padd=
+ing-top: 16px; text-decoration-line: none;"> <table role=3D"presentation" v=
+align=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100=
+%" class=3D"email-button series-content-preview__bottom-cta" data-test-id=
+=3D"email-button" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <t=
+d valign=3D"middle" align=3D"left" style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"=
+> <a href=3D"https://www.linkedin.com/comm/pulse/o-que-%C3%A9-estabilidade-=
+m%C3%ADnima-composer-luciano-rocha-bzchf?lipi=3Durn%3Ali%3Apage%3Aemail_ema=
+il_series_follow_newsletter_01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&amp;midToke=
+n=3DAQHxaOsdYMWJVQ&amp;midSig=3D2qAD6GTM29wXA1&amp;trk=3Deml-email_series_f=
+ollow_newsletter_01-newsletter_content_preview-0-readmore_button_&amp;trkEm=
+ail=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-re=
+admore_button_-null-gdb74f~m5jyvtj2~t0-null-null&amp;eid=3Dgdb74f-m5jyvtj2-=
+t0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU2YjQ4ZGM3ZDc0MzliY=
+WY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjkyMWJkOWM3YzE0ZTliYWI0MmNmOThiYzhjNTlh=
+ZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D" target=3D"_blank" aria-label=3D"Abrir A=
+ssuntos de Programa=C3=A7=C3=A3o no LinkedIn" class=3D"align-top no-underli=
+ne " style=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-=
+decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; vertical-align: top; text-decoration-line: none; width: 100%;"> <table r=
+ole=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" width=3D"100%" class=3D"border-separate " style=3D"-webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt; border-collapse: separate; width: 100%;"> <tbody> <tr> <td=
+ class=3D"btn-md btn-secondary-emphasis border-color-brand button-link lead=
+ing-regular !min-h-[auto] !shadow-none border-1 border-solid font-sans" dat=
+a-test-id=3D"newsletter-content-preview-redesign-bottom-cta" style=3D"-webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt; height: min-content; border-radius: 24px; padding=
+-top: 12px; padding-bottom: 12px; padding-left: 24px; padding-right: 24px; =
+text-align: center; font-size: 16px; font-weight: 600; cursor: pointer; tex=
+t-decoration-line: none; background-color: rgba(0, 0, 0, 0); color: #0a66c2=
+; border-width: 1px; border-style: solid; border-color: #0a66c2; font-famil=
+y: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helve=
+tica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Sy=
+mbol', 'Lucida Grande', Helvetica, Arial, sans-serif; line-height: 1.25; mi=
+n-height: auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !imp=
+ortant;"> <a href=3D"https://www.linkedin.com/comm/pulse/o-que-%C3%A9-estab=
+ilidade-m%C3%ADnima-composer-luciano-rocha-bzchf?lipi=3Durn%3Ali%3Apage%3Ae=
+mail_email_series_follow_newsletter_01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&amp=
+;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2qAD6GTM29wXA1&amp;trk=3Deml-email_=
+series_follow_newsletter_01-newsletter_content_preview-0-readmore_button_&a=
+mp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_prev=
+iew-0-readmore_button_-null-gdb74f~m5jyvtj2~t0-null-null&amp;eid=3Dgdb74f-m=
+5jyvtj2-t0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU2YjQ4ZGM3Z=
+Dc0MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjkyMWJkOWM3YzE0ZTliYWI0MmNmOThi=
+YzhjNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D" target=3D"_blank" tabindex=3D"-=
+1" aria-hidden=3D"true" class=3D"no-underline" style=3D"color: #0a66c2; cur=
+sor: pointer; display: inline-block; text-decoration: none; -webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%; text-decoration-line: none; wi=
+dth: 100%;"> <span class=3D"no-underline text-color-brand" style=3D"color: =
+#0a66c2; text-decoration-line: none;"> Continue lendo no LinkedIn </span> <=
+/a> </td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </table> </td> =
+</tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> =
+</table> </td> </tr> </tbody> </table> </div> </td> </tr> <tr> <td class=3D=
+"bg-color-background-canvas p-3" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; ba=
+ckground-color: #f3f2f0; padding: 24px;"> <table role=3D"presentation" vali=
+gn=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" =
+class=3D"text-xs" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 12px;"=
+> <tbody> <tr> <td class=3D"pb-1 m-0" data-test-id=3D"email-footer__intende=
+d" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px=
+;"> Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Deve=
+loper | Java | JS | React.js | Node.js | Python) </td> </tr> <tr> <td class=
+=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-=
+bottom: 8px;"> <a href=3D"https://www.linkedin.com/help/linkedin/answer/478=
+8?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslett=
+er_01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;mi=
+dSig=3D2qAD6GTM29wXA1&amp;trk=3Deml-email_series_follow_newsletter_01-Secur=
+ityHelp-0-footerglimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_0=
+1-SecurityHelp-0-footerglimmer-null-gdb74f~m5jyvtj2~t0-null-null&amp;eid=3D=
+gdb74f-m5jyvtj2-t0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU2Y=
+jQ4ZGM3ZDc0MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjkyMWJkOWM3YzE0ZTliYWI0=
+MmNmOThiYzhjNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D" target=3D"_blank" class=
+=3D"text-inherit underline" style=3D"cursor: pointer; display: inline-block=
+; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%; color: inherit; text-decoration-line: underline;">Saiba por que i=
+nclu=C3=ADmos isso.</a> </td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;">Voc=C3=AA e=
+st=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn. Outras pes=
+soas podem ver que voc=C3=AA =C3=A9 assinante.</td> </tr> <tr> <td class=3D=
+"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bot=
+tom: 8px;"> <a href=3D"https://www.linkedin.com/comm/series-notifications/?=
+action=3Dunsubscribe&amp;memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9wh=
+jlY&amp;newsletterId=3D7002440821278953472&amp;newsletterTitle=3DAssuntos%2=
+0de%20Programa%C3%A7%C3%A3o&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series=
+_follow_newsletter_01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&amp;midToken=3DAQHxa=
+OsdYMWJVQ&amp;midSig=3D2qAD6GTM29wXA1&amp;trk=3Deml-email_series_follow_new=
+sletter_01-unsubscribe-0-footerGlimmer&amp;trkEmail=3Deml-email_series_foll=
+ow_newsletter_01-unsubscribe-0-footerGlimmer-null-gdb74f~m5jyvtj2~t0-null-n=
+ull&amp;eid=3Dgdb74f-m5jyvtj2-t0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQ=
+wNGVkNDUxOGU2YjQ4ZGM3ZDc0MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjkyMWJkOW=
+M3YzE0ZTliYWI0MmNmOThiYzhjNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D" target=3D=
+"_blank" class=3D"text-inherit underline" style=3D"cursor: pointer; display=
+: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; color: inherit; text-decoration-line: underline;">C=
+ancelar inscri=C3=A7=C3=A3o</a> =C2=A0=C2=A0=C2=B7=C2=A0=C2=A0 <a href=3D"h=
+ttps://www.linkedin.com/help/linkedin/answer/67?lang=3Dpt&amp;lipi=3Durn%3A=
+li%3Apage%3Aemail_email_series_follow_newsletter_01%3BMim%2FZV64QoCHs4V5IVr=
+8yQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D2qAD6GTM29wXA1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-help-0-footerglimmer&amp;trkEmail=
+=3Deml-email_series_follow_newsletter_01-help-0-footerglimmer-null-gdb74f~m=
+5jyvtj2~t0-null-null&amp;eid=3Dgdb74f-m5jyvtj2-t0&amp;otpToken=3DMWIwZDE3ZT=
+gxMzI4Y2JjM2I1MjQwNGVkNDUxOGU2YjQ4ZGM3ZDc0MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmM=
+mZlZDNkZjkyMWJkOWM3YzE0ZTliYWI0MmNmOThiYzhjNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwx=
+LDE%3D" target=3D"_blank" class=3D"text-inherit underline" style=3D"cursor:=
+ pointer; display: inline-block; text-decoration: none; -webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; color: inherit; text-decoration-li=
+ne: underline;">Ajuda</a> </td> </tr> <tr> <td class=3D"pb-1" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; padding-bottom: 8px;"> <a href=3D"https://www.li=
+nkedin.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_ne=
+wsletter_01%3BMim%2FZV64QoCHs4V5IVr8yQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&=
+amp;midSig=3D2qAD6GTM29wXA1&amp;trk=3Deml-email_series_follow_newsletter_01=
+-footer-0-logoGlimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-=
+footer-0-logoGlimmer-null-gdb74f~m5jyvtj2~t0-null-null&amp;eid=3Dgdb74f-m5j=
+yvtj2-t0&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU2YjQ4ZGM3ZDc=
+0MzliYWY4ZTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjkyMWJkOWM3YzE0ZTliYWI0MmNmOThiYz=
+hjNTlhZDJkNzc1NzZjMGQ3NWMxMTE5ZSwxLDE%3D" target=3D"_blank" style=3D"color:=
+ #0a66c2; cursor: pointer; display: inline-block; text-decoration: none; -w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img src=3D"htt=
+ps://static.licdn.com/aero-v1/sc/h/9ehe6n39fa07dc5edzv0rla4e" alt=3D"Linked=
+In" class=3D"block h-[14px] w-[56px] image-rendering-crisp" style=3D"outlin=
+e: none; text-decoration: none; image-rendering: -moz-crisp-edges; image-re=
+ndering: -o-crisp-edges; image-rendering: -webkit-optimize-contrast; image-=
+rendering: crisp-edges; -ms-interpolation-mode: nearest-neighbor; display: =
+block; height: 14px; width: 56px;" width=3D"56" height=3D"14"> </a> </td> <=
+/tr> <tr> <td data-test-copyright-text style=3D"-webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt;"> =C2=A9 2025 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton =
+Place, Dublin 2 - Irlanda. LinkedIn =C3=A9 um nome comercial registrado da =
+LinkedIn Ireland Unlimited Company. <span data-test-trademarks-text> Linked=
+In e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn. </span> </=
+td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbo=
+dy> </table> <img alt role=3D"presentation" src=3D"https://www.linkedin.com=
+/emimp/ip_WjJSaU56Um1MVzAxYW5sMmRHb3lMWFF3OlpXMWhhV3hmYzJWeWFXVnpYMlp2Ykd4d=
+mQxOXVaWGR6YkdWMGRHVnlYekF4OmRYSnVPbXhwT214cGJtdGxaRWx1UVhKMGFXTnNaVG8zTWpZ=
+ek1UVTJOelUwT1RReE5qZzVPRFUy.gif" style=3D"outline: none; text-decoration: =
+none; -ms-interpolation-mode: bicubic; width: 1px; height: 1px;" width=3D"1=
+" height=3D"1"> </body> </html>
+------=_Part_9415143_2100400223.1736102972840--
+

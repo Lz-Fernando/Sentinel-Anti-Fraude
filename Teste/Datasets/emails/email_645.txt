@@ -1,0 +1,3116 @@
+X-GM-THRID: 1817502936113188692
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:2ed6:b0:298:e216:18d7 with SMTP id fl22csp80679ysc;
+        Wed, 4 Dec 2024 01:51:10 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IGNAtt2GkeD8G4tB+1xPmhmQnxwF1m0AJbMYXbyq/rq6of7DeUlXoMB1J2GmN+HcX90dlkR
+X-Received: by 2002:a05:6808:220d:b0:3e6:5b89:de24 with SMTP id 5614622812f47-3eae4f3b638mr6518303b6e.11.1733305870072;
+        Wed, 04 Dec 2024 01:51:10 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1733305870; cv=none;
+        d=google.com; s=arc-20240605;
+        b=JhPR7fFfVIOslcxtxP07ewdolvMDu/YSoBu9h67uC90vGx7iu7Xj/eS6IB6dw6uO9A
+         ETH788fbMmsWWQSm7gOE2n7lBt8hv+rijVoiPHXw1kpQxdK15vxzHQ5gnxlLZ3WHeDKr
+         zsvFy0MfgNX4QyixCysQ4tceTiX2rfEyn2sP7fe08dF3FctnRirZv7go0Uke9MenaUdN
+         822RT2CXUBUDtRpUNBM4nzJIVUg89DugGit09aAmhFnESmWOjT0epXDUsnuEvnlIfRm2
+         bmaEbWs0rZnbmV395nXMMwLMVWFeLDpl9yQ3M/GaDXfsH2fprjiHSFapgUIa1h88K7wA
+         rfcA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=qdzSbqGc4N1lpWOMGfU9GlJkwPih8T3FWw+8IH85jI8=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=YL6TtUDNhMqpaF3uIft61GQb6wc0nTyy0s4R6XdIVZGnMOHycZgjNLwNzWFE2Odtxh
+         2ueXsARMESK+PbqMvz3S+BRzkb5qbQdTkK09NWkXb+lcGJXNkjR64w8xWUgjlyoFGZrQ
+         p5PEAZ0Ps9f+jz+ri+RglYbFFLXM6Hs/zs8f+cbzJHfmTSq7SqPNilMTESYsWlCSfUsE
+         kGmVa45DTy3Ac0XPwZbH81n9SARtVQ2rKYth0cRJrjdKhHxHOZAyKBQVq+D4Jy1MQQpQ
+         /rVTq4rYskIw7h3zfhcLDPy74/aaqN3FeIfM0UKEGVGdjc29k7wOQ+B86iUivVRCVKug
+         7kGg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=WSR+Srlr;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=WgwP0doK;
+       spf=pass (google.com: domain of s-2nzcbop6jd68fr6jt44dewlvcb7qgcxyrysv8iz3ojq09pdes825371e@bounce.linkedin.com designates 2620:119:50c0:207::196 as permitted sender) smtp.mailfrom=s-2nzcbop6jd68fr6jt44dewlvcb7qgcxyrysv8iz3ojq09pdes825371e@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-2nzcbop6jd68fr6jt44dewlvcb7qgcxyrysv8iz3ojq09pdes825371e@bounce.linkedin.com>
+Received: from maile-gd.linkedin.com (maile-gd.linkedin.com. [2620:119:50c0:207::196])
+        by mx.google.com with ESMTPS id 41be03b00d2f7-7fcfca8efd4si1531684a12.808.2024.12.04.01.51.09
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 04 Dec 2024 01:51:10 -0800 (PST)
+Received-SPF: pass (google.com: domain of s-2nzcbop6jd68fr6jt44dewlvcb7qgcxyrysv8iz3ojq09pdes825371e@bounce.linkedin.com designates 2620:119:50c0:207::196 as permitted sender) client-ip=2620:119:50c0:207::196;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=WSR+Srlr;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=WgwP0doK;
+       spf=pass (google.com: domain of s-2nzcbop6jd68fr6jt44dewlvcb7qgcxyrysv8iz3ojq09pdes825371e@bounce.linkedin.com designates 2620:119:50c0:207::196 as permitted sender) smtp.mailfrom=s-2nzcbop6jd68fr6jt44dewlvcb7qgcxyrysv8iz3ojq09pdes825371e@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1733305866;
+	bh=qdzSbqGc4N1lpWOMGfU9GlJkwPih8T3FWw+8IH85jI8=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=WSR+Srlr1yf1eMkOx6CVgzq4N3jhhk5QxiBhRJNhasZbTHcTJFJwUwvsnFIjmvj9L
+	 SxkuSB/AQ6/ZllXo6Qm2T2/ENHjeRd/aN5iCc/Em+433Z7nm4TCGkSiLeb6FNgVtAN
+	 dZvengGp3BSXKolPYXH2KhWbGRHCbndqEW6eB/0nJ+2NvhvWBEa+OC3xSzWP7qaQEL
+	 xfARFOoHki9EPAEnZbewwWVL/FnNJaSboPPzhBm/WdavEiI7t8jEFXEGL2jbkx4SmF
+	 yR4DF5AZ5mFI5HAyqeNDT7Aj0WEKJA2Dk5gkdNM1oH5JLb/hFycB1Xz3s1KKbLMj+A
+	 KUwjdrlSaSA3A==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1733305866;
+	bh=qdzSbqGc4N1lpWOMGfU9GlJkwPih8T3FWw+8IH85jI8=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=WgwP0doKdV/cwKhJ0YfvbuA2sluhaJW0fvKiKJ0n7oSuhBEywANets4hj42Xf7Lht
+	 ielRHPK90CtMjwSrSjTNRKF5or9vYFSVAuqdDus/XZPYm0koB1vqgfbdEZRI6dBh7P
+	 /Aeg9SLYMBMkmHoH+Rl90ddL/dfhK8IH7/a/PpwCEHyo4FcxRquGUqMazETv9bKWix
+	 Vjfk1RYC/HiyO75h/ZBwtWlyZDrvoMFx5bKj5rHv0Dg619qpzr1xnxK9nR9eV44Iom
+	 3B9dLekCf1jtPZVwAjKp9qPXlCwHP05HKYQffZTCQ16ZoUCLmIMZD7tO/xKqpJMWRf
+	 Gtpehn1VrXGGg==
+From: Luciano Rocha via LinkedIn <newsletters-noreply@linkedin.com>
+Message-ID: <1738668068.1764985.1733305866211@lva1-app80387.prod.linkedin.com>
+Subject: =?UTF-8?Q?Backup:_uma_pr=C3=A1tica_antiga,_ma?=
+ =?UTF-8?Q?s_essencial._Entenda_e_conhe=C3=A7a.?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_1764981_561859979.1733305866205"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Wed, 4 Dec 2024 09:51:06 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-aszzr6kqpaybzd9gfso4s7939dy6k9qaeskmktizktj381v4jq9xn9y6xpy1tcycgke5jq7ch24ymqtlhvmm720gpa7f3uls8qw7l8
+X-LinkedIn-Id: gdb74f-m49pi3b1-p7
+List-Unsubscribe: <https://www.linkedin.com/comm/series-notifications/?action=unsubscribe&memberToken=ADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&newsletterId=7002440821278953472&newsletterTitle=Assuntos%20de%20Programa%C3%A7%C3%A3o&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B7xr8kOuqRHavlysY%2F4t2Tg%3D%3D&midToken=AQHxaOsdYMWJVQ&midSig=0vOI1p0tdLPrw1&trk=eml-email_series_follow_newsletter_01-unsub-0-unsub&trkEmail=eml-email_series_follow_newsletter_01-unsub-0-unsub-null-gdb74f~m49pi3b1~p7-null-null&eid=gdb74f-m49pi3b1-p7&otpToken=MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4YWM2ZDY0NDljYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk5NGFmNmQ5ZDk3MmJlZDkzY2JjZGJiZTFmOTVhNGEwYTAzMDdkOTUzM2IxMWNmMSwxLDE%3D>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_1764981_561859979.1733305866205
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Assuntos de Programa=C3=A7=C3=A3o
+
+Por Luciano Rocha
+
+
+Por Luciano Rocha
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/backup-uma-pr%C3%A1tica-antiga-mas-esse=
+ncial-entenda-e-conhe%C3%A7a-rocha-jl3pf?lipi=3Durn%3Ali%3Apage%3Aemail_ema=
+il_series_follow_newsletter_01%3B7xr8kOuqRHavlysY%2F4t2Tg%3D%3D&midToken=3D=
+AQHxaOsdYMWJVQ&midSig=3D0vOI1p0tdLPrw1&trk=3Deml-email_series_follow_newsle=
+tter_01-null-0-read_more_banner_cta_&trkEmail=3Deml-email_series_follow_new=
+sletter_01-null-0-read_more_banner_cta_-null-gdb74f~m49pi3b1~p7-null-null&e=
+id=3Dgdb74f-m49pi3b1-p7&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0=
+YjQ4YWM2ZDY0NDljYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk5NGFmNmQ5ZDk3MmJlZDk=
+zY2JjZGJiZTFmOTVhNGEwYTAzMDdkOTUzM2IxMWNmMSwxLDE%3D
+ =20
+Uma an=C3=A1lise detalhada do backup, sua evolu=C3=A7=C3=A3o e por que =C3=
+=A9 mais relevante do que nunca em 2024 Promo=C3=A7=C3=A3o imperd=C3=ADvel:=
+ adquire 3 cursos e paga s=C3=B3 1 por R$39,99. Voc=C3=AA vai dominar .NET =
+8 WEB API RESTful 2024 completo com EFCore 8, Blazor .NET 8 - 2024 com Enti=
+tyFramework e C# Linguagem B=C3=A1sico e Avan=C3=A7ado. Garanta o seu lugar=
+! =F0=9F=91=89 Link: https://lnkd.in/dWCyKSXg O backup, uma pr=C3=A1tica an=
+tiga, mas vital, continua sendo uma das melhores solu=C3=A7=C3=B5es de TI p=
+ara suporte, desenvolvimento e programa=C3=A7=C3=A3o. Com o recente apag=C3=
+=A3o cibern=C3=A9tico, a necessidade de realizar backups regulares tornou-s=
+e mais evidente do que nunca. No entanto, a frequ=C3=AAncia desses backups,=
+ no entanto, depende da pol=C3=ADtica da empresa e da disposi=C3=A7=C3=A3o =
+dos profissionais de TI e usu=C3=A1rios. Infelizmente, a realidade =C3=A9 q=
+ue muitas empresas e indiv=C3=ADduos negligenciam a import=C3=A2ncia dos ba=
+ckups at=C3=A9 que seja tarde demais. Este artigo visa destacar a import=C3=
+=A2ncia dos backups e fornecer uma vis=C3=A3o detalhada de suas v=C3=A1rias=
+ facetas. LEMBRENTE Um lembrete a voc=C3=AA, leitor(a), precisa entender e =
+=C3=A9 importante. Em alguns dos artigos publicados, gosto de explicar cert=
+as palavras que aparecem no texto. =C3=80s vezes coloco um asterisco depois=
+ das palavras que podem ser confusas. Sempre me certifico de explicar essas=
+ palavras no final do artigo, para que voc=C3=AA n=C3=A3o perca o fluxo do =
+pensamento. Como sempre h=C3=A1 novos leitores, usu=C3=A1rios e profissiona=
+is se juntando =C3=A0 newsletter, vejo como minha responsabilidade pesquisa=
+r e estudar sobre essas palavras ou termos. Para n=C3=B3s, que j=C3=A1 esta=
+mos na tecnologia h=C3=A1 algum tempo, elas parecem familiares, mas para os=
+ novatos, podem gerar mais perguntas do que respostas. Sempre enfatizo: n=
+=C3=A3o se limite apenas =C3=A0 informa=C3=A7=C3=A3o que estou fornecendo. =
+Pesquise e estude tamb=C3=A9m, porque posso cometer erros. Combinado? =C3=
+=8Dndice O que =C3=A9 backup? Tipos de backups Vantagens e desvantagens dos=
+ backups Benef=C3=ADcios dos backups Rotinas de atualiza=C3=A7=C3=A3o Evolu=
+=C3=A7=C3=A3o dos backups Conclus=C3=A3o O que =C3=A9 backup? Backup =C3=A9=
+ o processo de criar uma c=C3=B3pia dos dados originais para possibilitar a=
+ recupera=C3=A7=C3=A3o desses dados em caso de perda, corrup=C3=A7=C3=A3o o=
+u falha do sistema. Esse processo =C3=A9 fundamental para garantir a integr=
+idade e seguran=C3=A7a da informa=C3=A7=C3=A3o em empresas e usu=C3=A1rios =
+individuais. Embora o conceito de backup seja utilizado h=C3=A1 d=C3=A9cada=
+s, ele continua sendo uma das solu=C3=A7=C3=B5es mais confi=C3=A1veis e ess=
+enciais no campo da Tecnologia da Informa=C3=A7=C3=A3o. A c=C3=B3pia de seg=
+uran=C3=A7a serve como uma rede de prote=C3=A7=C3=A3o contra falhas inesper=
+adas e eventos imprevistos que podem prejudicar os dados importantes, como =
+documentos, imagens, e-mails e sistemas inteiros. Com o avan=C3=A7o das ame=
+a=C3=A7as digitais, como ataques cibern=C3=A9ticos, ransomware e outras for=
+mas de viola=C3=A7=C3=A3o de dados, o backup se tornou ainda mais crucial. =
+Ele =C3=A9 comparado a uma ap=C3=B3lice de seguro, pois, assim como um segu=
+ro protege os bens materiais, o backup protege a integridade dos dados. Em =
+muitas situa=C3=A7=C3=B5es, como a perda de dados importantes devido a falh=
+as t=C3=A9cnicas ou erros humanos, o backup =C3=A9 a =C3=BAnica solu=C3=A7=
+=C3=A3o vi=C3=A1vel para restaurar as informa=C3=A7=C3=B5es essenciais, man=
+tendo a continuidade dos neg=C3=B3cios e atividades pessoais. Al=C3=A9m dis=
+so, ele permite que as organiza=C3=A7=C3=B5es evitem preju=C3=ADzos finance=
+iros e danos =C3=A0 reputa=C3=A7=C3=A3o, ao garantirem que possam restaurar=
+ rapidamente suas opera=C3=A7=C3=B5es. Outro aspecto importante do backup =
+=C3=A9 a sua flexibilidade, permitindo que a c=C3=B3pia de dados seja reali=
+zada de diversas formas, seja localmente em dispositivos f=C3=ADsicos, como=
+ discos r=C3=ADgidos e fitas magn=C3=A9ticas, ou de forma remota, como na n=
+uvem. A escolha do tipo de backup depende de fatores como o volume de dados=
+, a criticidade das informa=C3=A7=C3=B5es e a capacidade de armazenamento. =
+As empresas de TI e usu=C3=A1rios individuais precisam avaliar essas op=C3=
+=A7=C3=B5es para encontrar o equil=C3=ADbrio entre custo, velocidade e segu=
+ran=C3=A7a no processo de backup. Com o aumento das regulamenta=C3=A7=C3=B5=
+es de prote=C3=A7=C3=A3o de dados, como o GDPR, realizar backups adequados =
+tornou-se tamb=C3=A9m uma exig=C3=AAncia legal para muitos setores. Tipos d=
+e backups Existem v=C3=A1rios tipos de backups, incluindo backups completos=
+, incrementais e diferenciais. Cada tipo de backup possui caracter=C3=ADsti=
+cas distintas, com suas pr=C3=B3prias vantagens e desvantagens, sendo essen=
+cial que as organiza=C3=A7=C3=B5es escolham o tipo que melhor atenda =C3=A0=
+s suas necessidades espec=C3=ADficas. A escolha do tipo de backup deve cons=
+iderar fatores como tempo de recupera=C3=A7=C3=A3o, volume de dados e frequ=
+=C3=AAncia de altera=C3=A7=C3=A3o das informa=C3=A7=C3=B5es. O backup compl=
+eto =C3=A9 o tipo mais simples e direto. Ele envolve a c=C3=B3pia de todos =
+os dados selecionados, sem exce=C3=A7=C3=A3o. A principal vantagem desse ti=
+po de backup =C3=A9 a facilidade de restaura=C3=A7=C3=A3o, pois todos os ar=
+quivos est=C3=A3o contidos em um =C3=BAnico ponto de recupera=C3=A7=C3=A3o.=
+ No entanto, a desvantagem =C3=A9 que o processo de cria=C3=A7=C3=A3o de um=
+ backup completo pode ser demorado e exigir muito espa=C3=A7o de armazename=
+nto, especialmente para grandes volumes de dados. Por ser uma c=C3=B3pia in=
+tegral dos dados, o backup completo =C3=A9 ideal para ambientes cr=C3=ADtic=
+os, onde a confiabilidade na recupera=C3=A7=C3=A3o =C3=A9 fundamental, mas =
+o tempo de backup pode ser um fator limitante. Por outro lado, o backup inc=
+remental realiza a c=C3=B3pia apenas dos dados alterados ou novos desde o =
+=C3=BAltimo backup, seja ele completo ou incremental. Isso torna o processo=
+ mais r=C3=A1pido e eficiente, consumindo menos espa=C3=A7o de armazenament=
+o. A vantagem do backup incremental =C3=A9 a sua efici=C3=AAncia de recurso=
+s, j=C3=A1 que somente as altera=C3=A7=C3=B5es precisam ser copiadas. Por=
+=C3=A9m, a restaura=C3=A7=C3=A3o pode ser mais complexa, pois =C3=A9 necess=
+=C3=A1rio restaurar o =C3=BAltimo backup completo e, em seguida, aplicar to=
+dos os backups incrementais subsequentes. Esse processo pode ser mais demor=
+ado, dependendo do n=C3=BAmero de incrementos realizados. O backup diferenc=
+ial =C3=A9 um meio-termo entre o completo e o incremental. Ele realiza a c=
+=C3=B3pia de todos os dados modificados desde o =C3=BAltimo backup completo=
+. Isso significa que, ao contr=C3=A1rio do backup incremental, que s=C3=B3 =
+copia as altera=C3=A7=C3=B5es feitas desde o =C3=BAltimo backup (seja ele c=
+ompleto ou incremental), o backup diferencial copia todas as altera=C3=A7=
+=C3=B5es feitas desde o =C3=BAltimo backup completo. A vantagem desse tipo =
+=C3=A9 que, ao restaurar os dados, =C3=A9 necess=C3=A1rio apenas o =C3=BAlt=
+imo backup completo e o =C3=BAltimo backup diferencial, tornando o processo=
+ de restaura=C3=A7=C3=A3o mais r=C3=A1pido do que o do backup incremental. =
+Contudo, =C3=A0 medida que mais dados s=C3=A3o alterados ao longo do tempo,=
+ o backup diferencial pode se tornar t=C3=A3o grande quanto um backup compl=
+eto, consumindo mais espa=C3=A7o de armazenamento. Quer ficar atualizado so=
+bre TI e programa=C3=A7=C3=A3o? Assine a nossa newsletter "Assuntos de Prog=
+rama=C3=A7=C3=A3o" e receba conte=C3=BAdos diretamente na sua feed! Assine =
+aqui. =F0=9F=91=89 Link: https://lnkd.in/dW6Qt5JP Vantagens e desvantagens =
+dos backups Cada tipo de backup tem suas pr=C3=B3prias vantagens e desvanta=
+gens. Por exemplo, os backups completos s=C3=A3o os mais simples e abrangen=
+tes, pois copiam todos os dados selecionados, garantindo uma restaura=C3=A7=
+=C3=A3o r=C3=A1pida e eficiente. Eles s=C3=A3o a op=C3=A7=C3=A3o preferida =
+em ambientes onde a confiabilidade e a integridade dos dados s=C3=A3o prior=
+idades, j=C3=A1 que todos os arquivos est=C3=A3o contidos em um =C3=BAnico =
+ponto de recupera=C3=A7=C3=A3o. No entanto, a principal desvantagem dos bac=
+kups completos =C3=A9 que eles s=C3=A3o demorados para serem realizados e e=
+xigem uma grande quantidade de espa=C3=A7o de armazenamento, o que pode ser=
+ um desafio, especialmente para grandes volumes de dados. Al=C3=A9m disso, =
+o tempo necess=C3=A1rio para realizar backups completos frequentemente afet=
+a a frequ=C3=AAncia com que eles podem ser feitos, levando =C3=A0 necessida=
+de de alternativas complementares. Por outro lado, os backups incrementais =
+e diferenciais s=C3=A3o op=C3=A7=C3=B5es mais r=C3=A1pidas e que consomem m=
+enos espa=C3=A7o de armazenamento. Ambos realizam a c=C3=B3pia apenas dos d=
+ados alterados, o que torna o processo mais eficiente. Os backups increment=
+ais, em particular, copiam apenas os dados que foram modificados desde o =
+=C3=BAltimo backup, o que reduz significativamente o tempo necess=C3=A1rio =
+para a execu=C3=A7=C3=A3o do processo. Os backups diferenciais, embora mais=
+ pesados que os incrementais, ainda oferecem uma alternativa mais r=C3=A1pi=
+da do que os completos. No entanto, a principal desvantagem desses tipos de=
+ backup =C3=A9 a complexidade no processo de restaura=C3=A7=C3=A3o, especia=
+lmente no caso dos backups incrementais. Para restaurar os dados, =C3=A9 ne=
+cess=C3=A1rio primeiro restaurar o =C3=BAltimo backup completo e, em seguid=
+a, aplicar todos os backups incrementais realizados desde ent=C3=A3o, o que=
+ pode ser um processo demorado e propenso a erros. Al=C3=A9m disso, =C3=A9 =
+importante notar que nenhum tipo de backup =C3=A9 perfeito. Todos eles poss=
+uem limita=C3=A7=C3=B5es e dificuldades. Por exemplo, os backups completos =
+podem ser extremamente demorados e consumir muito espa=C3=A7o, o que pode s=
+er um desafio em sistemas que possuem grandes quantidades de dados. Por out=
+ro lado, os backups incrementais e diferenciais podem ser mais dif=C3=ADcei=
+s de restaurar de maneira eficiente, j=C3=A1 que requerem m=C3=BAltiplos po=
+ntos de recupera=C3=A7=C3=A3o. Al=C3=A9m disso, a falha no backup de algum =
+ponto intermedi=C3=A1rio, como no caso de backups incrementais, pode compro=
+meter a recupera=C3=A7=C3=A3o total dos dados. Outro ponto a ser considerad=
+o =C3=A9 o impacto no tempo de execu=C3=A7=C3=A3o dos backups, especialment=
+e em ambientes de produ=C3=A7=C3=A3o, onde =C3=A9 crucial minimizar o impac=
+to nas opera=C3=A7=C3=B5es cotidianas. Cart=C3=A3o perfurado, disquete de 5=
+"=C2=BC e CD como backups antigos. Benef=C3=ADcios dos backups Os backups o=
+ferecem v=C3=A1rios benef=C3=ADcios cruciais para a continuidade dos neg=C3=
+=B3cios e a prote=C3=A7=C3=A3o de dados. Eles permitem que as empresas e in=
+div=C3=ADduos recuperem seus dados no caso de um desastre, seja ele causado=
+ por erro humano, ataques cibern=C3=A9ticos ou desastres naturais, minimiza=
+ndo o impacto negativo. Al=C3=A9m disso, os backups ajudam a minimizar o te=
+mpo de inatividade ao possibilitar uma recupera=C3=A7=C3=A3o r=C3=A1pida e =
+eficiente, o que =C3=A9 vital para manter a produtividade e operacionalidad=
+e. Eles tamb=C3=A9m desempenham um papel fundamental em ajudar as empresas =
+a cumprir com as regulamenta=C3=A7=C3=B5es de conformidade, garantindo que =
+as pr=C3=A1ticas de prote=C3=A7=C3=A3o de dados atendam aos requisitos lega=
+is e regulamentares. Al=C3=A9m disso, os backups proporcionam uma grande se=
+nsa=C3=A7=C3=A3o de seguran=C3=A7a e tranquilidade, pois garantem que, mesm=
+o ap=C3=B3s uma falha catastr=C3=B3fica, os dados essenciais possam ser res=
+taurados de forma confi=C3=A1vel. A paz de esp=C3=ADrito que um backup adeq=
+uado oferece =C3=A9 inestim=C3=A1vel, especialmente quando se trata de dado=
+s pessoais ou empresariais cr=C3=ADticos. As organiza=C3=A7=C3=B5es podem f=
+icar confiantes de que seus dados est=C3=A3o protegidos, sabendo que poder=
+=C3=A3o ser acessados rapidamente em caso de perda ou dano. Essa seguran=C3=
+=A7a =C3=A9 especialmente importante em ambientes altamente regulados, onde=
+ a recupera=C3=A7=C3=A3o de dados pode ser uma exig=C3=AAncia para manter a=
+ credibilidade e a conformidade legal. Al=C3=A9m de proteger contra a perda=
+ de dados causada por falhas internas ou externas, os backups ajudam a redu=
+zir os impactos de erros humanos e ataques cibern=C3=A9ticos, como ransomwa=
+re ou phishing, que t=C3=AAm se tornado cada vez mais frequentes e sofistic=
+ados. Mesmo quando as empresas enfrentam amea=C3=A7as externas ou imprevist=
+os, a capacidade de restaurar dados a partir de backups confi=C3=A1veis aju=
+da a reduzir os danos financeiros e operacionais. Outro benef=C3=ADcio impo=
+rtante =C3=A9 que, ao manter backups atualizados e seguros, as empresas pod=
+em proteger melhor seus dados contra desastres naturais como inc=C3=AAndios=
+, inunda=C3=A7=C3=B5es ou terremotos, que podem destruir equipamentos ou in=
+stala=C3=A7=C3=B5es f=C3=ADsicas. Al=C3=A9m disso, backups eficientes ajuda=
+m as empresas a cumprir com as regulamenta=C3=A7=C3=B5es de conformidade, a=
+ssegurando que os dados sejam armazenados de maneira adequada e que possam =
+ser recuperados rapidamente em caso de auditorias ou investiga=C3=A7=C3=B5e=
+s legais. Rotinas de atualiza=C3=A7=C3=A3o As rotinas de atualiza=C3=A7=C3=
+=A3o s=C3=A3o essenciais para garantir que os backups estejam sempre atuali=
+zados e prontos para uso em caso de emerg=C3=AAncia. Em um mundo onde os da=
+dos est=C3=A3o em constante mudan=C3=A7a e evolu=C3=A7=C3=A3o, a frequ=C3=
+=AAncia com que as atualiza=C3=A7=C3=B5es de backup s=C3=A3o feitas pode fa=
+zer toda a diferen=C3=A7a na integridade e na recupera=C3=A7=C3=A3o eficaz =
+dos dados. Um backup desatualizado pode ser in=C3=BAtil quando mais se prec=
+isa dele, especialmente em casos de erros humanos, falhas de sistema ou ata=
+ques cibern=C3=A9ticos. Por isso, garantir que os backups sejam atualizados=
+ regularmente =C3=A9 crucial para minimizar o risco de perda de dados e pro=
+teger informa=C3=A7=C3=B5es valiosas. Al=C3=A9m disso, a frequ=C3=AAncia e =
+a estrat=C3=A9gia de atualiza=C3=A7=C3=A3o dependem das necessidades espec=
+=C3=ADficas de cada organiza=C3=A7=C3=A3o. Empresas com dados altamente din=
+=C3=A2micos, como aquelas da =C3=A1rea de tecnologia, finan=C3=A7as e sa=C3=
+=BAde, podem precisar de atualiza=C3=A7=C3=B5es mais frequentes, at=C3=A9 m=
+esmo em tempo real, enquanto outras organiza=C3=A7=C3=B5es podem realizar b=
+ackups mais espa=C3=A7ados. Implementar rotinas de atualiza=C3=A7=C3=A3o au=
+tomatizadas =C3=A9 uma forma eficiente de garantir que os dados sejam const=
+antemente copiados e protegidos sem a necessidade de interven=C3=A7=C3=A3o =
+manual, reduzindo o risco de erro humano. A automa=C3=A7=C3=A3o tamb=C3=A9m=
+ pode ajudar a garantir que os backups sejam feitos durante hor=C3=A1rios d=
+e menor impacto nas opera=C3=A7=C3=B5es di=C3=A1rias da empresa, como =C3=
+=A0 noite ou nos fins de semana, o que minimiza o tempo de inatividade e me=
+lhora a efici=C3=AAncia operacional. Al=C3=A9m disso, as rotinas de atualiz=
+a=C3=A7=C3=A3o n=C3=A3o devem se limitar apenas =C3=A0 c=C3=B3pia de dados.=
+ Elas tamb=C3=A9m devem incluir testes regulares para garantir que os backu=
+ps podem ser restaurados com sucesso. Realizar simula=C3=A7=C3=B5es de rest=
+aura=C3=A7=C3=A3o permite que as equipes de TI verifiquem se os dados est=
+=C3=A3o sendo salvos corretamente e se a integridade dos arquivos foi manti=
+da. Isso ajuda a identificar falhas antes que elas se tornem um problema re=
+al. A valida=C3=A7=C3=A3o e o monitoramento cont=C3=ADnuo dessas rotinas de=
+ atualiza=C3=A7=C3=A3o s=C3=A3o igualmente importantes, pois qualquer falha=
+ no processo de backup pode resultar em uma perda significativa de dados no=
+ futuro, com consequ=C3=AAncias potencialmente devastadoras para os neg=C3=
+=B3cios. Evolu=C3=A7=C3=A3o dos backups Os backups evolu=C3=ADram considera=
+velmente ao longo dos anos, acompanhando o avan=C3=A7o da tecnologia e as n=
+ecessidades de armazenamento de dados. No in=C3=ADcio, os backups eram real=
+izados em m=C3=ADdias f=C3=ADsicas, como fitas e disquetes, que eram as op=
+=C3=A7=C3=B5es mais acess=C3=ADveis na =C3=A9poca. Embora esses formatos te=
+nham sido fundamentais para a preserva=C3=A7=C3=A3o de dados em seus primei=
+ros est=C3=A1gios, eles possu=C3=ADam limita=C3=A7=C3=B5es significativas, =
+como a capacidade limitada de armazenamento e a fragilidade das m=C3=ADdias=
+, o que tornava o processo de recupera=C3=A7=C3=A3o de dados mais demorado =
+e arriscado. No entanto, essas tecnologias foram importantes para estabelec=
+er os primeiros sistemas de backup e armazenamento de dados de maneira orga=
+nizada. Com o passar do tempo, surgiram novos formatos, como os zip drives,=
+ pendrives, CDs, DVDs e Blu-Rays, cada um trazendo melhorias em termos de c=
+apacidade de armazenamento e facilidade de uso. Esses dispositivos foram ma=
+rcos na transi=C3=A7=C3=A3o de m=C3=ADdias f=C3=ADsicas para solu=C3=A7=C3=
+=B5es mais compactas e com maior capacidade de backup. Embora ainda fossem =
+limitados em rela=C3=A7=C3=A3o =C3=A0 quantidade de dados que poderiam arma=
+zenar, esses formatos eram bastante populares para backups pessoais e de pe=
+quenas empresas, pois ofereciam mobilidade e a possibilidade de armazenamen=
+to de dados de forma mais pr=C3=A1tica e eficiente. Hoje, os backups na nuv=
+em s=C3=A3o a norma, proporcionando uma solu=C3=A7=C3=A3o escal=C3=A1vel e =
+segura para armazenar grandes volumes de dados sem a necessidade de m=C3=AD=
+dia f=C3=ADsica. A nuvem tamb=C3=A9m oferece vantagens como acesso remoto, =
+redund=C3=A2ncia e recupera=C3=A7=C3=A3o r=C3=A1pida, al=C3=A9m de permitir=
+ que as empresas e indiv=C3=ADduos fa=C3=A7am backups autom=C3=A1ticos e ar=
+mazenem seus dados em servidores distribu=C3=ADdos geograficamente, o que r=
+eduz o risco de perda de dados devido a falhas locais. Curiosamente, o Jap=
+=C3=A3o, um pa=C3=ADs conhecido por sua paix=C3=A3o pela tecnologia e inova=
+=C3=A7=C3=A3o, =C3=A9 um dos poucos pa=C3=ADses do mundo que ainda faz uso =
+de disquetes em algumas opera=C3=A7=C3=B5es espec=C3=ADficas, apesar de sua=
+ obsolesc=C3=AAncia em muitas outras partes do mundo. Isso reflete a persis=
+t=C3=AAncia de algumas pr=C3=A1ticas em nichos espec=C3=ADficos, onde a tec=
+nologia antiga ainda pode ser =C3=BAtil devido a quest=C3=B5es de compatibi=
+lidade ou custos mais baixos para certos usos. E se voc=C3=AA quer saber ma=
+is sobre as soft skills mais procuradas em TI, temos uma newsletter espec=
+=C3=ADfica para isso: "O Poder das Soft Skills no TI". Inscreva-se aqui. =
+=F0=9F=91=89 Link: https://lnkd.in/djb2Rdi5 Conclus=C3=A3o O backup =C3=A9 =
+uma pr=C3=A1tica essencial que todos devem adotar, independentemente de ser=
+em uma empresa, um profissional de TI ou um usu=C3=A1rio comum. Com o recen=
+te apag=C3=A3o cibern=C3=A9tico, a import=C3=A2ncia do backup nunca foi t=
+=C3=A3o evidente. Portanto, =C3=A9 crucial que todos fa=C3=A7am backups reg=
+ulares de seus dados para garantir sua seguran=C3=A7a e integridade. Al=C3=
+=A9m disso, =C3=A9 importante lembrar que os backups s=C3=A3o apenas uma pa=
+rte de uma estrat=C3=A9gia de prote=C3=A7=C3=A3o de dados mais ampla. Eles =
+devem ser complementados com outras pr=C3=A1ticas, como a seguran=C3=A7a ci=
+bern=C3=A9tica, para garantir a prote=C3=A7=C3=A3o completa dos dados. Enco=
+ntrou algo de errado nesse ou em outro artigo? Comente, curte e compartilhe=
+ para mais pessoas terem acesso al=C3=A9m de assinar a newsletter. Aceito c=
+r=C3=ADticas em rela=C3=A7=C3=A3o aos conte=C3=BAdos criados al=C3=A9m de s=
+ugest=C3=B5es e elogios. Hashtags #backup #seguran=C3=A7adedados #tecnologi=
+a #cloud Fontes https://conosco.com/industry-insights/blog/10-undeniable-re=
+asons-why-data-backup-is-so-important https://www.centraldatatech.com/blog-=
+news/understanding-what-data-backup-is-the-benefits-and-methods-of-data-bac=
+kup/ http://www.rubrik.com/insights/the-importance-of-data-backup-and-recov=
+ery
+Continue lendo no LinkedIn
+https://www.linkedin.com/comm/pulse/backup-uma-pr%C3%A1tica-antiga-mas-esse=
+ncial-entenda-e-conhe%C3%A7a-rocha-jl3pf?lipi=3Durn%3Ali%3Apage%3Aemail_ema=
+il_series_follow_newsletter_01%3B7xr8kOuqRHavlysY%2F4t2Tg%3D%3D&midToken=3D=
+AQHxaOsdYMWJVQ&midSig=3D0vOI1p0tdLPrw1&trk=3Deml-email_series_follow_newsle=
+tter_01-newsletter_content_preview_text-0-readmore_button_&trkEmail=3Deml-e=
+mail_series_follow_newsletter_01-newsletter_content_preview_text-0-readmore=
+_button_-null-gdb74f~m49pi3b1~p7-null-null&eid=3Dgdb74f-m49pi3b1-p7&otpToke=
+n=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4YWM2ZDY0NDljYWM4YTYxNzljNDA=
+2NmQ0YjVkNWJmMmZlZDNkZjk5NGFmNmQ5ZDk3MmJlZDkzY2JjZGJiZTFmOTVhNGEwYTAzMDdkOT=
+UzM2IxMWNmMSwxLDE%3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | HTML | CSS | JS | React.js | Node.js | Python)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3B7xr8kOuqRHavlysY%2F4t2Tg%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSi=
+g=3D0vOI1p0tdLPrw1&trk=3Deml-email_series_follow_newsletter_01-SecurityHelp=
+-0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Secur=
+ityHelp-0-textfooterglimmer-null-gdb74f~m49pi3b1~p7-null-null&eid=3Dgdb74f-=
+m49pi3b1-p7&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4YWM2ZDY0=
+NDljYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk5NGFmNmQ5ZDk3MmJlZDkzY2JjZGJiZTF=
+mOTVhNGEwYTAzMDdkOTUzM2IxMWNmMSwxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/comm/series-notifica=
+tions/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y=
+9whjlY&newsletterId=3D7002440821278953472&newsletterTitle=3DAssuntos%20de%2=
+0Programa%C3%A7%C3%A3o&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_n=
+ewsletter_01%3B7xr8kOuqRHavlysY%2F4t2Tg%3D%3D&midToken=3DAQHxaOsdYMWJVQ&mid=
+Sig=3D0vOI1p0tdLPrw1&trk=3Deml-email_series_follow_newsletter_01-unsubscrib=
+e-0-footerGlimmer&trkEmail=3Deml-email_series_follow_newsletter_01-unsubscr=
+ibe-0-footerGlimmer-null-gdb74f~m49pi3b1~p7-null-null&eid=3Dgdb74f-m49pi3b1=
+-p7&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4YWM2ZDY0NDljYWM4=
+YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk5NGFmNmQ5ZDk3MmJlZDkzY2JjZGJiZTFmOTVhNGE=
+wYTAzMDdkOTUzM2IxMWNmMSwxLDE%3D=C2=A0=C2=A0=C2=B7=C2=A0=C2=A0Ajuda: https:/=
+/www.linkedin.com/help/linkedin/answer/67?lang=3Dpt&lipi=3Durn%3Ali%3Apage%=
+3Aemail_email_series_follow_newsletter_01%3B7xr8kOuqRHavlysY%2F4t2Tg%3D%3D&=
+midToken=3DAQHxaOsdYMWJVQ&midSig=3D0vOI1p0tdLPrw1&trk=3Deml-email_series_fo=
+llow_newsletter_01-help-0-textfooterglimmer&trkEmail=3Deml-email_series_fol=
+low_newsletter_01-help-0-textfooterglimmer-null-gdb74f~m49pi3b1~p7-null-nul=
+l&eid=3Dgdb74f-m49pi3b1-p7&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZ=
+GU0YjQ4YWM2ZDY0NDljYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk5NGFmNmQ5ZDk3MmJl=
+ZDkzY2JjZGJiZTFmOTVhNGEwYTAzMDdkOTUzM2IxMWNmMSwxLDE%3D
+
+=C2=A9 2024 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_1764981_561859979.1733305866205
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+style>
+@media (max-width: 480px) {
+  .inline-button,
+.inline-button table {
+    display: none !important;
+  }
+
+  .full-width-button,
+.full-width-button table {
+    display: table !important;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content,
+.pulse .article-main__content > * {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content h2,
+.pulse .article-main__content h2 span {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content p,
+.pulse .article-main__content p span {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content blockquote {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-img=
+ {
+    width: 48px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"][data-entity-typ=
+e=3D"organization"] .pub-entity-img img {
+    height: 48px;
+    width: 48px;
+    border-radius: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"][data-entity-typ=
+e=3D"member"] .pub-entity-img img {
+    height: 56px;
+    width: 56px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t {
+    padding-left: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t h1 {
+    margin-bottom: 2px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t h3 {
+    margin-bottom: 2px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t p {
+    margin-bottom: 2px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content,
+.advice .article-main__content > * {
+    font-size: 20px;
+  }
+
+  .advice .qa-redesign-article-content .article-main__content > * {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content h2,
+.advice .article-main__content h2 span {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice.redesign .article-main__content h2,
+.advice.redesign .article-main__content h2 span {
+    font-size: 32px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content p,
+.advice .article-main__content p span {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content blockquote {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar__wrapper.navbar__wrapper--x-article-split-layout {
+    margin-left: 24px;
+  }
+}
+@media (min-width: 1440px) {
+  .navbar__wrapper.navbar__wrapper--x-article-split-layout {
+    margin-left: 48px;
+  }
+}
+@media (min-width: 992px) {
+  [data-id=3D'member-nav-header__container'] {
+    margin-left: calc(40% - 8px - 392px);
+  }
+}
+@media (min-width: 1200px) {
+  [data-id=3D'member-nav-header__container'] {
+    margin-left: calc(40% - 32px - 392px);
+  }
+}
+@media (min-width: 1440px) {
+  [data-id=3D'member-nav-header__container'] {
+    margin-left: calc(40% - 64px - 392px);
+  }
+}
+@media (min-width: 992px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    width: 60%;
+  }
+}
+@media (min-width: 992px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    padding-left: 8px;
+  }
+}
+@media (min-width: 1200px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    padding-left: 32px;
+  }
+}
+@media (min-width: 1440px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    padding-left: 64px;
+  }
+}
+@media (min-width: 576px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1128px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
+@media (min-width: 1680px) {}
+@media (min-width: 1920px) {}
+@media (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media screen and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 991px) {}
+@media screen and (max-width: 991px) {}
+@media (max-width: 991px) {
+  .search-bar.isExpanded .search-bar__placeholder {
+    display: none;
+  }
+
+  .search-bar.isExpanded .base-search-bar__form {
+    display: flex;
+  }
+}
+@media screen and (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (min-width: 992px) {}
+@media (forced-colors: active) {}
+@media (-ms-high-contrast: active), (forced-colors: active) {}
+@media (min-width: 992px) {}
+@media (min-width: 576px) {}
+@media (min-width: 992px) {}
+@media (min-width: 992px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
+@media (min-width: 992px) {}
+@media (max-width: 575px) {}
+@media (max-width: 640px) {}
+@media (min-width: 992px) {}
+@media (max-width: 991px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media screen and (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (min-width: 245px) {}
+@media (min-width: 330px) {}
+@media only screen and (min-width: 30.06em) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (min-width: 992px) {
+  .papabear\:tab-vertical.tab-selected:after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:pointer-events-none::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:absolute::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:\!left-\[-19px\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:\!top-\[6px\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:bottom-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:left-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:right-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:top-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:ml-0\.5::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:ml-\[74px\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:block::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:h-full::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:w-full::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:rounded-full::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:border-1::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:border-solid::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:border-color-divider::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:bg-gradient-to-b::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:from-color-transparent::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:to-color-background-scrim::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:text-color-text-low-emphasis::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:no-underline::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:shadow-\[0_0_0_500px_var\(--color-scrim\)\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:content-\[\"\"\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:content-\[\'\'\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:content-\[\'\/\'\]::after {
+    content: "";
+  }
+}
+@media (min-width: 576px) {
+  .xs\:sticky {
+    position: sticky;
+  }
+
+  .xs\:left-\[-52px\] {
+    left: -52px;
+  }
+
+  .xs\:left-\[-56px\] {
+    left: -56px;
+  }
+
+  .xs\:top-0 {
+    top: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .sm\:m-0 {
+    margin: 0px;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:pl-0\.5 {
+    padding-left: 4px;
+  }
+
+  .sm\:text-sm {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  .md\:\!absolute {
+    position: absolute !important;
+  }
+
+  .md\:absolute {
+    position: absolute;
+  }
+
+  .md\:left-\[-44px\] {
+    left: -44px;
+  }
+
+  .md\:left-\[-52px\] {
+    left: -52px;
+  }
+
+  .md\:left-\[-53px\] {
+    left: -53px;
+  }
+
+  .md\:left-\[-60px\] {
+    left: -60px;
+  }
+
+  .md\:right-\[19px\] {
+    right: 19px;
+  }
+
+  .md\:m-2 {
+    margin: 16px;
+  }
+
+  .md\:-ml-1 {
+    margin-left: -8px;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .md\:mb-8 {
+    margin-bottom: 64px;
+  }
+
+  .md\:ml-1 {
+    margin-left: 8px;
+  }
+
+  .md\:ml-\[-12px\] {
+    margin-left: -12px;
+  }
+
+  .md\:ml-\[-41px\] {
+    margin-left: -41px;
+  }
+
+  .md\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .md\:mr-4 {
+    margin-right: 32px;
+  }
+
+  .md\:mr-6 {
+    margin-right: 48px;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:box-content {
+    box-sizing: content-box;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:inline-flex {
+    display: inline-flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:h-4 {
+    height: 32px;
+  }
+
+  .md\:h-56 {
+    height: 448px;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:w-2\/5 {
+    width: 40%;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
+  .md\:w-4 {
+    width: 32px;
+  }
+
+  .md\:w-\[280px\] {
+    width: 280px;
+  }
+
+  .md\:w-\[392px\] {
+    width: 392px;
+  }
+
+  .md\:w-\[452px\] {
+    width: 452px;
+  }
+
+  .md\:w-\[500px\] {
+    width: 500px;
+  }
+
+  .md\:w-\[calc\(100\%\+44px\)\] {
+    width: calc(100% + 44px);
+  }
+
+  .md\:w-\[calc\(37\%-40px\)\] {
+    width: calc(37% - 40px);
+  }
+
+  .md\:w-\[calc\(50\%-40px\)\] {
+    width: calc(50% - 40px);
+  }
+
+  .md\:max-w-\[392px\] {
+    max-width: 392px;
+  }
+
+  .md\:max-w-\[576px\] {
+    max-width: 576px;
+  }
+
+  .md\:flex-1 {
+    flex: 1 1 0%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+
+  .md\:whitespace-nowrap {
+    white-space: nowrap;
+  }
+
+  .md\:px-1 {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .md\:px-3 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .md\:py-1\.5 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .md\:py-4 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .md\:py-6 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .md\:pb-2 {
+    padding-bottom: 16px;
+  }
+
+  .md\:pb-6 {
+    padding-bottom: 48px;
+  }
+
+  .md\:pb-\[200px\] {
+    padding-bottom: 200px;
+  }
+
+  .md\:pl-1 {
+    padding-left: 8px;
+  }
+
+  .md\:pl-4 {
+    padding-left: 32px;
+  }
+
+  .md\:pl-\[32px\] {
+    padding-left: 32px;
+  }
+
+  .md\:pl-\[41px\] {
+    padding-left: 41px;
+  }
+
+  .md\:pl-\[56px\] {
+    padding-left: 56px;
+  }
+
+  .md\:pr-1 {
+    padding-right: 8px;
+  }
+
+  .md\:pr-\[320px\] {
+    padding-right: 320px;
+  }
+
+  .md\:pr-\[88px\] {
+    padding-right: 88px;
+  }
+
+  .md\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .md\:pt-1 {
+    padding-top: 8px;
+  }
+
+  .md\:pt-6 {
+    padding-top: 48px;
+  }
+
+  .md\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .md\:text-md {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .lg\:\!absolute {
+    position: absolute !important;
+  }
+
+  .lg\:left-\[-48px\] {
+    left: -48px;
+  }
+
+  .lg\:left-\[-56px\] {
+    left: -56px;
+  }
+
+  .lg\:left-\[-58px\] {
+    left: -58px;
+  }
+
+  .lg\:right-\[8px\] {
+    right: 8px;
+  }
+
+  .lg\:my-6 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
+  .lg\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .lg\:ml-1 {
+    margin-left: 8px;
+  }
+
+  .lg\:ml-12 {
+    margin-left: 96px;
+  }
+
+  .lg\:ml-3 {
+    margin-left: 24px;
+  }
+
+  .lg\:ml-\[-33px\] {
+    margin-left: -33px;
+  }
+
+  .lg\:ml-\[10px\] {
+    margin-left: 10px;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:inline-flex {
+    display: inline-flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:h-4 {
+    height: 32px;
+  }
+
+  .lg\:h-6 {
+    height: 48px;
+  }
+
+  .lg\:h-\[20px\] {
+    height: 20px;
+  }
+
+  .lg\:w-4 {
+    width: 32px;
+  }
+
+  .lg\:w-6 {
+    width: 48px;
+  }
+
+  .lg\:w-\[20px\] {
+    width: 20px;
+  }
+
+  .lg\:w-\[calc\(100\%\+56px\)\] {
+    width: calc(100% + 56px);
+  }
+
+  .lg\:w-\[calc\(37\%-32px\)\] {
+    width: calc(37% - 32px);
+  }
+
+  .lg\:w-\[calc\(50\%-32px\)\] {
+    width: calc(50% - 32px);
+  }
+
+  .lg\:max-w-x-article-width {
+    max-width: 816px;
+  }
+
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
+  .lg\:items-center {
+    align-items: center;
+  }
+
+  .lg\:pl-4 {
+    padding-left: 32px;
+  }
+
+  .lg\:pl-\[33px\] {
+    padding-left: 33px;
+  }
+
+  .lg\:pl-\[40px\] {
+    padding-left: 40px;
+  }
+
+  .lg\:pl-\[41px\] {
+    padding-left: 41px;
+  }
+
+  .lg\:pl-\[88px\] {
+    padding-left: 88px;
+  }
+
+  .lg\:pr-1 {
+    padding-right: 8px;
+  }
+
+  .lg\:pr-4 {
+    padding-right: 32px;
+  }
+
+  .lg\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .lg\:text-display-lg {
+    font-size: 48px;
+  }
+
+  .lg\:text-lg {
+    font-size: 20px;
+  }
+
+  .lg\:text-md {
+    font-size: 16px;
+  }
+
+  .lg\:text-sm {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1440px) {
+  .xl\:ml-6 {
+    margin-left: 48px;
+  }
+
+  .xl\:w-6 {
+    width: 48px;
+  }
+
+  .xl\:w-\[50px\] {
+    width: 50px;
+  }
+
+  .xl\:pl-8 {
+    padding-left: 64px;
+  }
+
+  .xl\:pl-\[120px\] {
+    padding-left: 120px;
+  }
+
+  .xl\:pr-8 {
+    padding-right: 64px;
+  }
+}
+@media (max-width: 767px) {
+  .babybear\:\!-top-0\.5 {
+    top: -4px !important;
+  }
+
+  .babybear\:-top-1 {
+    top: -8px;
+  }
+
+  .babybear\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .babybear\:bottom-\[120\%\] {
+    bottom: 120%;
+  }
+
+  .babybear\:left-3 {
+    left: 24px;
+  }
+
+  .babybear\:right-4 {
+    right: 32px;
+  }
+
+  .babybear\:top-0\.5 {
+    top: 4px;
+  }
+
+  .babybear\:z-0 {
+    z-index: 0;
+  }
+
+  .babybear\:order-last {
+    order: 9999;
+  }
+
+  .babybear\:m-0 {
+    margin: 0px;
+  }
+
+  .babybear\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .babybear\:mx-1\.5 {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .babybear\:my-2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .babybear\:-mt-0\.5 {
+    margin-top: -4px;
+  }
+
+  .babybear\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .babybear\:mb-0\.5 {
+    margin-bottom: 4px;
+  }
+
+  .babybear\:mb-1 {
+    margin-bottom: 8px;
+  }
+
+  .babybear\:mb-2 {
+    margin-bottom: 16px;
+  }
+
+  .babybear\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .babybear\:ml-1 {
+    margin-left: 8px;
+  }
+
+  .babybear\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .babybear\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .babybear\:mt-0\.5 {
+    margin-top: 4px;
+  }
+
+  .babybear\:mt-\[6px\] {
+    margin-top: 6px;
+  }
+
+  .babybear\:hidden {
+    display: none;
+  }
+
+  .babybear\:h-4 {
+    height: 32px;
+  }
+
+  .babybear\:h-6 {
+    height: 48px;
+  }
+
+  .babybear\:h-\[180px\] {
+    height: 180px;
+  }
+
+  .babybear\:h-\[26px\] {
+    height: 26px;
+  }
+
+  .babybear\:h-\[360px\] {
+    height: 360px;
+  }
+
+  .babybear\:h-\[59px\] {
+    height: 59px;
+  }
+
+  .babybear\:h-\[64px\] {
+    height: 64px;
+  }
+
+  .babybear\:h-\[72px\] {
+    height: 72px;
+  }
+
+  .babybear\:h-auto {
+    height: auto;
+  }
+
+  .babybear\:max-h-4 {
+    max-height: 32px;
+  }
+
+  .babybear\:max-h-\[225px\] {
+    max-height: 225px;
+  }
+
+  .babybear\:max-h-\[250px\] {
+    max-height: 250px;
+  }
+
+  .babybear\:max-h-\[400px\] {
+    max-height: 400px;
+  }
+
+  .babybear\:min-h-\[134px\] {
+    min-height: 134px;
+  }
+
+  .babybear\:w-1 {
+    width: 8px;
+  }
+
+  .babybear\:w-11\/12 {
+    width: 91.666667%;
+  }
+
+  .babybear\:w-6 {
+    width: 48px;
+  }
+
+  .babybear\:w-\[105px\] {
+    width: 105px;
+  }
+
+  .babybear\:w-\[199px\] {
+    width: 199px;
+  }
+
+  .babybear\:w-\[26px\] {
+    width: 26px;
+  }
+
+  .babybear\:w-\[360px\] {
+    width: 360px;
+  }
+
+  .babybear\:w-\[64px\] {
+    width: 64px;
+  }
+
+  .babybear\:w-\[calc\(100\%-68px\)\] {
+    width: calc(100% - 68px);
+  }
+
+  .babybear\:w-fit {
+    width: fit-content;
+  }
+
+  .babybear\:w-full {
+    width: 100%;
+  }
+
+  .babybear\:min-w-full {
+    min-width: 100%;
+  }
+
+  .babybear\:max-w-\[300px\] {
+    max-width: 300px;
+  }
+
+  .babybear\:max-w-\[32px\] {
+    max-width: 32px;
+  }
+
+  .babybear\:max-w-\[790px\] {
+    max-width: 790px;
+  }
+
+  .babybear\:max-w-md {
+    max-width: 28rem;
+  }
+
+  .babybear\:flex-auto {
+    flex: 1 1 auto;
+  }
+
+  .babybear\:flex-none {
+    flex: none;
+  }
+
+  .babybear\:basis-0 {
+    flex-basis: 0px;
+  }
+
+  .babybear\:-translate-x-50\% {
+    transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY=
+(1);
+  }
+
+  @media (max-width: 767px) {
+    .babybear\:-translate-x-50\% {
+      transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(=
+1) scaleY(1);
+    }
+
+    @media (max-width: 767px) {
+      .babybear\:-translate-x-50\% {
+        transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scale=
+X(1) scaleY(1);
+      }
+
+      @media (max-width: 767px) {
+        .babybear\:-translate-x-50\% {
+          transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) sca=
+leX(1) scaleY(1);
+        }
+
+        @media (max-width: 767px) {
+          .babybear\:-translate-x-50\% {
+            transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) s=
+caleX(1) scaleY(1);
+          }
+
+          @media (max-width: 767px) {
+            .babybear\:-translate-x-50\% {
+              transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0)=
+ scaleX(1) scaleY(1);
+            }
+
+            @media (max-width: 767px) {
+              .babybear\:-translate-x-50\% {
+                transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(=
+0) scaleX(1) scaleY(1);
+              }
+
+              @media (max-width: 767px) {
+                .babybear\:-translate-x-50\% {
+                  transform: translate(-50%, 0) rotate(90deg) skewX(0) skew=
+Y(0) scaleX(1) scaleY(1);
+                }
+
+                @media (max-width: 767px) {
+                  .babybear\:-translate-x-50\% {
+                    transform: translate(-50%, 0) rotate(90deg) skewX(0) sk=
+ewY(0) scaleX(1) scaleY(1);
+                  }
+
+                  @media (max-width: 767px) {
+                    .babybear\:-translate-x-50\% {
+                      transform: translate(-50%, 0) rotate(90deg) skewX(0) =
+skewY(0) scaleX(1) scaleY(1);
+                    }
+
+                    @media (max-width: 767px) {
+                      .babybear\:-translate-x-50\% {
+                        transform: translate(-50%, 0) rotate(90deg) skewX(0=
+) skewY(0) scaleX(1) scaleY(1);
+                      }
+
+                      @media (max-width: 767px) {
+                        .babybear\:-translate-x-50\% {
+                          transform: translate(-50%, 0) rotate(90deg) skewX=
+(0) skewY(0) scaleX(1) scaleY(1);
+                        }
+
+                        @media (max-width: 767px) {
+                          .babybear\:-translate-x-50\% {
+                            transform: translate(-50%, 0) rotate(90deg) ske=
+wX(0) skewY(0) scaleX(1) scaleY(1);
+                          }
+
+                          @media (max-width: 767px) {
+                            .babybear\:-translate-x-50\% {
+                              transform: translate(-50%, 0) rotate(90deg) s=
+kewX(0) skewY(0) scaleX(1) scaleY(1);
+                            }
+
+                            @media (max-width: 767px) {
+                              .babybear\:-translate-x-50\% {
+                                transform: translate(-50%, 0) rotate(90deg)=
+ skewX(0) skewY(0) scaleX(1) scaleY(1);
+                              }
+
+                              @media transform: translate(0, 0) rotate(0) s=
+kewX(0) skewY(0) scaleX(1) scaleY(1);
+     (max-width: 767px) {
+                                .babybear\:rotate-90 {
+                                  transform: translate(-50%, 0) rotate(90de=
+g) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                }
+
+                                @media (max-width: 767px) {
+                                  .babybear\:rotate-90 {
+                                    transform: translate(-50%, 0) rotate(90=
+deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                  }
+
+                                  @media (max-width: 767px) {
+                                    .babybear\:rotate-90 {
+                                      transform: translate(-50%, 0) rotate(=
+90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                    }
+
+                                    @media (max-width: 767px) {
+                                      .babybear\:rotate-90 {
+                                        transform: translate(-50%, 0) rotat=
+e(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                      }
+
+                                      @media (max-width: 767px) {
+                                        .babybear\:rotate-90 {
+                                          transform: translate(-50%, 0) rot=
+ate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                        }
+
+                                        @media (max-width: 767px) {
+                                          .babybear\:rotate-90 {
+                                            transform: translate(-50%, 0) r=
+otate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                          }
+
+                                          @media (max-width: 767px) {
+                                            .babybear\:rotate-90 {
+                                              transform: translate(-50%, 0)=
+ rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                            }
+
+                                            @media (max-width: 767px) {
+                                              .babybear\:rotate-90 {
+                                                transform: translate(-50%, =
+0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                              }
+
+                                              @media (max-width: 767px) {
+                                                .babybear\:rotate-90 {
+                                                  transform: translate(-50%=
+, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                }
+
+                                                @media (max-width: 767px) {
+                                                  .babybear\:rotate-90 {
+                                                    transform: translate(-5=
+0%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                  }
+
+                                                  @media (max-width: 767px)=
+ {
+                                                    .babybear\:rotate-90 {
+                                                      transform: translate(=
+-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                    }
+
+                                                    @media (max-width: 767p=
+x) {
+                                                      .babybear\:rotate-90 =
+{
+                                                        transform: translat=
+e(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                      }
+
+                                                      @media (max-width: 76=
+7px) {
+                                                        .babybear\:rotate-9=
+0 {
+                                                          transform: transl=
+ate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                        }
+
+                                                        @media (max-width: =
+767px) {
+                                                          .babybear\:rotate=
+-90 {
+                                                            transform: tran=
+slate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                          }
+
+                                                          flex-direction: r=
+ow;
+    .babybear\:flex-col {
+                                                            flex-direction:=
+ column;
+                                                          }
+
+                                                          .babybear\:flex-w=
+rap {
+                                                            flex-wrap: wrap=
+;
+                                                          }
+
+                                                          .babybear\:items-=
+start {
+                                                            align-items: fl=
+ex-start;
+                                                          }
+
+                                                          .babybear\:items-=
+center {
+                                                            align-items: ce=
+nter;
+                                                          }
+
+                                                          .babybear\:justif=
+y-start {
+                                                            justify-content=
+: flex-start;
+                                                          }
+
+                                                          .babybear\:justif=
+y-end {
+                                                            justify-content=
+: flex-end;
+                                                          }
+
+                                                          .babybear\:justif=
+y-center {
+                                                            justify-content=
+: center;
+                                                          }
+
+                                                          .babybear\:justif=
+y-between {
+                                                            justify-content=
+: space-between;
+                                                          }
+
+                                                          .babybear\:justif=
+y-around {
+                                                            justify-content=
+: space-around;
+                                                          }
+
+                                                          .babybear\:self-s=
+tart {
+                                                            align-self: fle=
+x-start;
+                                                          }
+
+                                                          .babybear\:self-c=
+enter {
+                                                            align-self: cen=
+ter;
+                                                          }
+
+                                                          .babybear\:overfl=
+ow-y-auto {
+                                                            overflow-y: aut=
+o;
+                                                          }
+
+                                                          .babybear\:rounde=
+d-\[0px\] {
+                                                            border-radius: =
+0px;
+                                                          }
+
+                                                          .babybear\:border=
+-b-1 {
+                                                            border-bottom-w=
+idth: 1px;
+                                                          }
+
+                                                          .babybear\:border=
+-r-0 {
+                                                            border-right-wi=
+dth: 0;
+                                                          }
+
+                                                          .babybear\:border=
+-solid {
+                                                            border-style: s=
+olid;
+                                                          }
+
+                                                          .babybear\:border=
+-color-border-low-emphasis {
+                                                            border-color: r=
+gba(0, 0, 0, 0.3);
+                                                          }
+
+                                                          .babybear\:bg-col=
+or-brand {
+                                                            background-colo=
+r: #0a66c2;
+                                                          }
+
+                                                          .babybear\:p-2 {
+                                                            padding: 16px;
+                                                          }
+
+                                                          .babybear\:px-0 {
+                                                            padding-left: 0=
+px;
+                                                            padding-right: =
+0px;
+                                                          }
+
+                                                          .babybear\:px-2 {
+                                                            padding-left: 1=
+6px;
+                                                            padding-right: =
+16px;
+                                                          }
+
+                                                          .babybear\:px-mob=
+ile-container-padding {
+                                                            padding-left: 1=
+6px;
+                                                            padding-right: =
+16px;
+                                                          }
+
+                                                          .babybear\:py-1 {
+                                                            padding-top: 8p=
+x;
+                                                            padding-bottom:=
+ 8px;
+                                                          }
+
+                                                          .babybear\:py-3 {
+                                                            padding-top: 24=
+px;
+                                                            padding-bottom:=
+ 24px;
+                                                          }
+
+                                                          .babybear\:pb-0 {
+                                                            padding-bottom:=
+ 0px;
+                                                          }
+
+                                                          .babybear\:pb-2 {
+                                                            padding-bottom:=
+ 16px;
+                                                          }
+
+                                                          .babybear\:pl-0\.=
+5 {
+                                                            padding-left: 4=
+px;
+                                                          }
+
+                                                          .babybear\:pr-0 {
+                                                            padding-right: =
+0px;
+                                                          }
+
+                                                          .babybear\:pr-0\.=
+5 {
+                                                            padding-right: =
+4px;
+                                                          }
+
+                                                          .babybear\:pt-0 {
+                                                            padding-top: 0p=
+x;
+                                                          }
+
+                                                          .babybear\:pt-0\.=
+5 {
+                                                            padding-top: 4p=
+x;
+                                                          }
+
+                                                          .babybear\:pt-1 {
+                                                            padding-top: 8p=
+x;
+                                                          }
+
+                                                          .babybear\:pt-4 {
+                                                            padding-top: 32=
+px;
+                                                          }
+
+                                                          .babybear\:text-\=
+[10px\] {
+                                                            font-size: 10px=
+;
+                                                          }
+
+                                                          .babybear\:text-l=
+g {
+                                                            font-size: 20px=
+;
+                                                          }
+
+                                                          .babybear\:text-m=
+d {
+                                                            font-size: 16px=
+;
+                                                          }
+
+                                                          .babybear\:text-s=
+m {
+                                                            font-size: 14px=
+;
+                                                          }
+
+                                                          .babybear\:text-x=
+l {
+                                                            font-size: 24px=
+;
+                                                          }
+
+                                                          .babybear\:text-x=
+s {
+                                                            font-size: 12px=
+;
+                                                          }
+
+                                                          .babybear\:font-b=
+old {
+                                                            font-weight: 60=
+0;
+                                                          }
+
+                                                          .babybear\:leadin=
+g-\[150px\] {
+                                                            line-height: 15=
+0px;
+                                                          }
+
+                                                          .babybear\:last\:=
+border-b-0:last-child {
+                                                            border-bottom-w=
+idth: 0;
+                                                          }
+
+                                                        }
+
+                                                      }
+
+                                                    }
+
+                                                  }
+
+                                                }
+
+                                              }
+
+                                            }
+
+                                          }
+
+                                        }
+
+                                      }
+
+                                    }
+
+                                  }
+
+                                }
+
+                              }
+
+                            }
+
+                          }
+
+                        }
+
+                      }
+
+                    }
+
+                  }
+
+                }
+
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+}
+@media (max-width: 991px) {
+  .babymamabear\:invisible {
+    visibility: hidden;
+  }
+
+  .babymamabear\:static {
+    position: static;
+  }
+
+  .babymamabear\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .babymamabear\:mx-mobile-container-padding {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .babymamabear\:mb-1\.5 {
+    margin-bottom: 12px;
+  }
+
+  .babymamabear\:ml-\[-9999px\] {
+    margin-left: -9999px;
+  }
+
+  .babymamabear\:mr-3 {
+    margin-right: 24px;
+  }
+
+  .babymamabear\:flex {
+    display: flex;
+  }
+
+  .babymamabear\:hidden {
+    display: none;
+  }
+
+  .babymamabear\:h-\[1px\] {
+    height: 1px;
+  }
+
+  .babymamabear\:h-\[48px\] {
+    height: 48px;
+  }
+
+  .babymamabear\:w-\[100vw\] {
+    width: 100vw;
+  }
+
+  .babymamabear\:w-\[1px\] {
+    width: 1px;
+  }
+
+  .babymamabear\:w-full {
+    width: 100%;
+  }
+
+  .babymamabear\:min-w-\[50px\] {
+    min-width: 50px;
+  }
+
+  .babymamabear\:basis-1\/2 {
+    flex-basis: 50%;
+  }
+
+  .babymamabear\:flex-col {
+    flex-direction: column;
+  }
+
+  .babymamabear\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .babymamabear\:bg-color-transparent {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .babymamabear\:p-0 {
+    padding: 0px;
+  }
+
+  .babymamabear\:px-mobile-container-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .babymamabear\:py-1\.5 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .mamabear\:absolute {
+    position: absolute;
+  }
+
+  .mamabear\:-top-0\.5 {
+    top: -4px;
+  }
+
+  .mamabear\:-top-1 {
+    top: -8px;
+  }
+
+  .mamabear\:right-4 {
+    right: 32px;
+  }
+
+  .mamabear\:top-\[58px\] {
+    top: 58px;
+  }
+
+  .mamabear\:mr-3 {
+    margin-right: 24px;
+  }
+
+  .mamabear\:mt-\[68px\] {
+    margin-top: 68px;
+  }
+
+  .mamabear\:hidden {
+    display: none;
+  }
+
+  .mamabear\:\!h-4 {
+    height: 32px !important;
+  }
+
+  .mamabear\:h-\[100\%\] {
+    height: 100%;
+  }
+
+  .mamabear\:\!min-h-\[32px\] {
+    min-height: 32px !important;
+  }
+
+  .mamabear\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .mamabear\:w-48 {
+    width: 384px;
+  }
+
+  .mamabear\:w-\[744px\] {
+    width: 744px;
+  }
+
+  .mamabear\:w-\[calc\(100\%-97px\)\] {
+    width: calc(100% - 97px);
+  }
+
+  .mamabear\:w-full {
+    width: 100%;
+  }
+
+  .mamabear\:min-w-0 {
+    min-width: 0px;
+  }
+
+  .mamabear\:min-w-full {
+    min-width: 100%;
+  }
+
+  .mamabear\:max-w-\[790px\] {
+    max-width: 790px;
+  }
+
+  .mamabear\:flex-shrink-0 {
+    flex-shrink: 0;
+  }
+
+  .mamabear\:flex-row {
+    flex-direction: row;
+  }
+
+  .mamabear\:items-start {
+    align-items: flex-start;
+  }
+
+  .mamabear\:items-center {
+    align-items: center;
+  }
+
+  .mamabear\:self-center {
+    align-self: center;
+  }
+
+  .mamabear\:rounded-tr-none {
+    border-top-right-radius: 0px;
+  }
+
+  .mamabear\:px-2 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .mamabear\:px-3 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .mamabear\:px-mobile-container-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .mamabear\:py-3 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .mamabear\:pt-desktop-content-top-margin {
+    padding-top: 16px;
+  }
+
+  .mamabear\:text-center {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .papamamabear\:pt-desktop-content-top-margin {
+    padding-top: 16px;
+  }
+
+  .after\:papamamabear\:\!h-\[37px\]::after {
+    content: undefined;
+    height: 37px !important;
+  }
+
+  @media (min-width: 768px) {
+    .after\:papamamabear\:\!h-\[37px\]::after {
+      content: "";
+    }
+
+    content: "".after\:papamamabear\:\!h-\[37px\]::after:content-\[\'\'\]::=
+after {
+      content: "";
+    }
+
+    .after\:papamamabear\:\!h-\[37px\]::after:content-\[\"\"\]::after {
+      content: "";
+    }
+
+    .after\:papamamabear\:up-down-divider::after {
+      display: flex;
+      height: 100%;
+      width: 1px;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.3);
+      text-align: center;
+      content: undefined;
+    }
+
+    @media (min-width: 768px) {
+      .after\:papamamabear\:up-down-divider::after {
+        content: "";
+      }
+
+      content: "".after\:papamamabear\:up-down-divider::after:content-\[\'\=
+'\]::after {
+        content: "";
+      }
+
+      .after\:papamamabear\:up-down-divider::after:content-\[\"\"\]::after =
+{
+        content: "";
+      }
+
+    }
+
+  }
+}
+@media (min-width: 992px) {
+  .papabear\:absolute {
+    position: absolute;
+  }
+
+  .papabear\:-top-1 {
+    top: -8px;
+  }
+
+  .papabear\:top-\[58px\] {
+    top: 58px;
+  }
+
+  .papabear\:\!mx-2 {
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+  }
+
+  .papabear\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .papabear\:mb-\[18px\] {
+    margin-bottom: 18px;
+  }
+
+  .papabear\:ml-column-gutter {
+    margin-left: 24px;
+  }
+
+  .papabear\:mr-2 {
+    margin-right: 16px;
+  }
+
+  .papabear\:mr-3 {
+    margin-right: 24px;
+  }
+
+  .papabear\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .papabear\:mt-0\.5 {
+    margin-top: 4px;
+  }
+
+  .papabear\:mt-\[-100px\] {
+    margin-top: -100px;
+  }
+
+  .papabear\:mt-\[68px\] {
+    margin-top: 68px;
+  }
+
+  .papabear\:inline-block {
+    display: inline-block;
+  }
+
+  .papabear\:flex {
+    display: flex;
+  }
+
+  .papabear\:hidden {
+    display: none;
+  }
+
+  .papabear\:\!h-4 {
+    height: 32px !important;
+  }
+
+  .papabear\:h-6 {
+    height: 48px;
+  }
+
+  .papabear\:h-\[100\%\] {
+    height: 100%;
+  }
+
+  .papabear\:\!min-h-\[32px\] {
+    min-height: 32px !important;
+  }
+
+  .papabear\:min-h-\[96px\] {
+    min-height: 96px;
+  }
+
+  .papabear\:w-48 {
+    width: 384px;
+  }
+
+  .papabear\:w-\[1128px\] {
+    width: 1128px;
+  }
+
+  .papabear\:w-\[219px\] {
+    width: 219px;
+  }
+
+  .papabear\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .papabear\:w-\[calc\(100\%-97px\)\] {
+    width: calc(100% - 97px);
+  }
+
+  .papabear\:w-auto {
+    width: auto;
+  }
+
+  .papabear\:w-content-max-w {
+    width: 1128px;
+  }
+
+  .papabear\:w-core-rail-width {
+    width: 784px;
+  }
+
+  .papabear\:w-right-rail-width {
+    width: calc(1128px - 24px - 784px);
+  }
+
+  .papabear\:min-w-0 {
+    min-width: 0px;
+  }
+
+  .papabear\:max-w-\[550px\] {
+    max-width: 550px;
+  }
+
+  .papabear\:flex-shrink-0 {
+    flex-shrink: 0;
+  }
+
+  .papabear\:flex-col {
+    flex-direction: column;
+  }
+
+  .papabear\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .papabear\:items-start {
+    align-items: flex-start;
+  }
+
+  .papabear\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .papabear\:justify-center {
+    justify-content: center;
+  }
+
+  .papabear\:self-start {
+    align-self: flex-start;
+  }
+
+  .papabear\:rounded-tr-none {
+    border-top-right-radius: 0px;
+  }
+
+  .papabear\:border-4 {
+    border-width: 4px;
+  }
+
+  .papabear\:p-0 {
+    padding: 0px;
+  }
+
+  .papabear\:p-details-container-padding {
+    padding: 24px;
+  }
+
+  .papabear\:py-2 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .papabear\:pt-desktop-content-top-margin {
+    padding-top: 16px;
+  }
+
+  .papabear\:text-xl {
+    font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .-md\:ml-2 {
+    margin-left: 16px;
+  }
+
+  .-md\:mt-1 {
+    margin-top: 8px;
+  }
+
+  .-md\:flex-wrap {
+    flex-wrap: wrap;
+  }
+}
+</style></head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-ca=
+nvas w-full m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; pa=
+dding: 0px; padding-top: 8px; font-family: -apple-system, system-ui, BlinkM=
+acSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Ox=
+ygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe U=
+I Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, =
+Arial, sans-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible=
+ overflow-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; m=
+ax-height: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" dat=
+a-email-preheader=3D"true">Uma an=C3=A1lise detalhada do backup, sua evolu=
+=C3=A7=C3=A3o e por que =C3=A9 mais relevante do que=E2=80=A6</div> <div cl=
+ass=3D"h-0 opacity-0 text-transparent invisible overflow-hidden w-0 max-h-[=
+0]" style=3D"visibility: hidden; height: 0px; max-height: 0; width: 0px; ov=
+erflow: hidden; opacity: 0; mso-hide: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table =
+role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0" width=3D"512" align=3D"center" class=3D"mercado-container w-[512=
+px] max-w-[512px] mx-auto my-0 p-0 bg-color-background-container" style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt; margin-left: auto; margin-right: auto; margi=
+n-top: 0px; margin-bottom: 0px; width: 512px; max-width: 512px; background-=
+color: #ffffff; padding: 0px;"> <tbody> <tr> <td class=3D"text-center p-3" =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; padding: 24px; text-align: center;"=
+> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" width=3D"100%" class=3D"min-w-full" style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; min-width: 100%;"> <tbody> <tr> <td align=3D"left" val=
+ign=3D"middle" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https:/=
+/www.linkedin.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_fo=
+llow_newsletter_01%3B7xr8kOuqRHavlysY%2F4t2Tg%3D%3D&amp;midToken=3DAQHxaOsd=
+YMWJVQ&amp;midSig=3D0vOI1p0tdLPrw1&amp;trk=3Deml-email_series_follow_newsle=
+tter_01-header-0-home_glimmer_dynamic_badging_high_dpi&amp;trkEmail=3Deml-e=
+mail_series_follow_newsletter_01-header-0-home_glimmer_dynamic_badging_high=
+_dpi-null-gdb74f~m49pi3b1~p7-null-null&amp;eid=3Dgdb74f-m49pi3b1-p7&amp;otp=
+Token=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4YWM2ZDY0NDljYWM4YTYxNzl=
+jNDA2NmQ0YjVkNWJmMmZlZDNkZjk5NGFmNmQ5ZDk3MmJlZDkzY2JjZGJiZTFmOTVhNGEwYTAzMD=
+dkOTUzM2IxMWNmMSwxLDE%3D" target=3D"_blank" class=3D"w-[84px]" style=3D"col=
+or: #0a66c2; cursor: pointer; display: inline-block; text-decoration: none;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width: 84px;">=
+ <img class=3D"h-[37px] w-[101px]" alt=3D"LinkedIn" src=3D"https://www.link=
+edin.com/comm/dms/logo/v2?badgeTheme=3Dmercado&amp;lipi=3Durn%3Ali%3Apage%3=
+Aemail_email_series_follow_newsletter_01%3B7xr8kOuqRHavlysY%2F4t2Tg%3D%3D&a=
+mp;midSig=3D0vOI1p0tdLPrw1&amp;midToken=3DAQHxaOsdYMWJVQ&amp;trkEmail=3Deml=
+-email_series_follow_newsletter_01-null-0-comms%7Ebadging%7Edynamic%7Eglimm=
+er%7Ev2-null-gdb74f%7Em49pi3b1%7Ep7-null-null&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2&amp;_sig=
+=3D3gLyeAo2tLPrw1" data-test-header-dynamic-badging-img-high-dpi style=3D"o=
+utline: none; text-decoration: none; -ms-interpolation-mode: bicubic; heigh=
+t: 37px; width: 101px;" width=3D"101" height=3D"37"> </a> </td> <td valign=
+=3D"middle" align=3D"right" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tabl=
+e role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" width=3D"100%" data-test-header-profile style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt;"> <tbody> <tr> <td align=3D"right" valign=3D"middle" clas=
+s=3D"w-[32px]" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 32px;" width=
+=3D"32"> <a href=3D"https://br.linkedin.com/comm/in/fernando-ferreira-brito=
+?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B7xr8kOu=
+qRHavlysY%2F4t2Tg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0vOI1p0t=
+dLPrw1&amp;trk=3Deml-email_series_follow_newsletter_01-header-0-profile_gli=
+mmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-header-0-profile_=
+glimmer-null-gdb74f~m49pi3b1~p7-null-null&amp;eid=3Dgdb74f-m49pi3b1-p7&amp;=
+otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4YWM2ZDY0NDljYWM4YTYx=
+NzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk5NGFmNmQ5ZDk3MmJlZDkzY2JjZGJiZTFmOTVhNGEwYTA=
+zMDdkOTUzM2IxMWNmMSwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cur=
+sor: pointer; display: inline-block; text-decoration: none; -webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%;"> <img alt=3D"Luiz Fernando Br=
+ito Ferreira" src=3D"https://media.licdn.com/dms/image/v2/D4E03AQHtWMkj43o1=
+lA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/=
+0/1724191556445?e=3D2147483647&amp;v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB=
+92xXoc9r_1IG6EIUIKB4" class=3D"rounded-[100%] w-[32px] h-[32px]" style=3D"o=
+utline: none; text-decoration: none; -ms-interpolation-mode: bicubic; heigh=
+t: 32px; width: 32px; border-radius: 100%;" width=3D"32" height=3D"32"> </a=
+> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <=
+tr> <td class=3D"px-0 pb-3" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding=
+-left: 0px; padding-right: 0px; padding-bottom: 24px;"> <div> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr=
+> <td data-test-id=3D"newsletter-entity-lockup" class=3D"px-3 pt-1" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; padding-left: 24px; padding-right: 24px;=
+ padding-top: 8px;"> <table role=3D"presentation" valign=3D"top" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"font-sans" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, system-u=
+i, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', U=
+buntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', He=
+lvetica, Arial, sans-serif;"> <tbody> <tr> <td valign=3D"top" class=3D"pr-1=
+ w-6" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 48px; padding-right: 8=
+px;" width=3D"48"> <a href=3D"https://www.linkedin.com/comm/newsletters/700=
+2440821278953472?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslet=
+ter_01%3B7xr8kOuqRHavlysY%2F4t2Tg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;m=
+idSig=3D0vOI1p0tdLPrw1&amp;trk=3Deml-email_series_follow_newsletter_01-news=
+letter_entity_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-email_serie=
+s_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta-nul=
+l-gdb74f~m49pi3b1~p7-null-null&amp;eid=3Dgdb74f-m49pi3b1-p7&amp;otpToken=3D=
+MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4YWM2ZDY0NDljYWM4YTYxNzljNDA2NmQ=
+0YjVkNWJmMmZlZDNkZjk5NGFmNmQ5ZDk3MmJlZDkzY2JjZGJiZTFmOTVhNGEwYTAzMDdkOTUzM2=
+IxMWNmMSwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointe=
+r; display: inline-block; text-decoration: none; -webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%;"> <img class=3D"inline-block relative bg-=
+color-entity-ghost-background w-6 h-6 rounded-md" src=3D"https://media.licd=
+n.com/dms/image/v2/D4D12AQEAoFL_9ZOGaA/series-logo_image-shrink_100_100/ser=
+ies-logo_image-shrink_100_100/0/1676114493998?e=3D2147483647&amp;v=3Dbeta&a=
+mp;t=3DJ0cA9GdNyXSecho-YeWchBUEZHNz51JplsM7AVSQvSQ" alt=3D"Abrir Assuntos d=
+e Programa=C3=A7=C3=A3o" style=3D"outline: none; text-decoration: none; -ms=
+-interpolation-mode: bicubic; position: relative; display: inline-block; he=
+ight: 48px; width: 48px; border-radius: 8px; background-color: #eae6df;" wi=
+dth=3D"48" height=3D"48"> </a> </td> <td valign=3D"top" style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D"top" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt;"> <a href=3D"https://www.linkedin.com/comm/newsletters/7002440821278=
+953472?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B7=
+xr8kOuqRHavlysY%2F4t2Tg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0v=
+OI1p0tdLPrw1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_ent=
+ity_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-email_series_follow_n=
+ewsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m=
+49pi3b1~p7-null-null&amp;eid=3Dgdb74f-m49pi3b1-p7&amp;otpToken=3DMWIwZDE3ZT=
+gxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4YWM2ZDY0NDljYWM4YTYxNzljNDA2NmQ0YjVkNWJmM=
+mZlZDNkZjk5NGFmNmQ5ZDk3MmJlZDkzY2JjZGJiZTFmOTVhNGEwYTAzMDdkOTUzM2IxMWNmMSwx=
+LDE%3D" target=3D"_blank" class=3D"no-underline" style=3D"color: #0a66c2; c=
+ursor: pointer; display: inline-block; text-decoration: none; -webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; text-decoration-line: none;"=
+> <div class=3D"pb-0.5" style=3D"padding-bottom: 4px;"> <span class=3D"text=
+-md font-bold text-color-text break-words leading-regular" style=3D"overflo=
+w-wrap: break-word; font-size: 16px; font-weight: 600; line-height: 1.25; c=
+olor: rgba(0, 0, 0, 0.9);"> Assuntos de Programa=C3=A7=C3=A3o </span> </div=
+> </a> </td> </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a hr=
+ef=3D"https://www.linkedin.com/comm/newsletters/7002440821278953472?lipi=3D=
+urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B7xr8kOuqRHavlys=
+Y%2F4t2Tg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0vOI1p0tdLPrw1&a=
+mp;trk=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-0-n=
+ewsletter_entity_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-n=
+ewsletter_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m49pi3b1~p7-nul=
+l-null&amp;eid=3Dgdb74f-m49pi3b1-p7&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1=
+MjQwNGVkNDUxZGU0YjQ4YWM2ZDY0NDljYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk5NGF=
+mNmQ5ZDk3MmJlZDkzY2JjZGJiZTFmOTVhNGEwYTAzMDdkOTUzM2IxMWNmMSwxLDE%3D" target=
+=3D"_blank" class=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer=
+; display: inline-block; text-decoration: none; -webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; text-decoration-line: none;"> <span class=
+=3D"text-xs text-color-text-low-emphasis leading-regular" style=3D"font-siz=
+e: 12px; line-height: 1.25; color: rgba(0, 0, 0, 0.6);"> Uma vis=C3=A3o =C3=
+=BAnica e acess=C3=ADvel sobre #programacao e #ti. Ideal para todos, desde =
+iniciantes at=C3=A9=E2=80=A6 </span> </a> </td> </tr> </tbody> </table> </t=
+d> </tr> </tbody> </table> </td> </tr> <tr data-test-id=3D"newsletter-conte=
+nt-preview"> <td class=3D"px-3 pt-2" style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; padding-left: 24px; padding-right: 24px; padding-top: 16px;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr=
+> <td class=3D"overflow-hidden " style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; ov=
+erflow: hidden;"> <table role=3D"presentation" valign=3D"top" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tab=
+le-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"=
+> <a href=3D"https://www.linkedin.com/comm/pulse/backup-uma-pr%C3%A1tica-an=
+tiga-mas-essencial-entenda-e-conhe%C3%A7a-rocha-jl3pf?lipi=3Durn%3Ali%3Apag=
+e%3Aemail_email_series_follow_newsletter_01%3B7xr8kOuqRHavlysY%2F4t2Tg%3D%3=
+D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0vOI1p0tdLPrw1&amp;trk=3Deml-e=
+mail_series_follow_newsletter_01-newsletter_content_preview-0-headline_&amp=
+;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_previe=
+w-0-headline_-null-gdb74f~m49pi3b1~p7-null-null&amp;eid=3Dgdb74f-m49pi3b1-p=
+7&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4YWM2ZDY0NDljYW=
+M4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk5NGFmNmQ5ZDk3MmJlZDkzY2JjZGJiZTFmOTVhN=
+GEwYTAzMDdkOTUzM2IxMWNmMSwxLDE%3D" target=3D"_blank" class=3D"w-full" style=
+=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decoration=
+: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width: =
+100%;"> <img class=3D"block w-full aspect-[744/400] object-cover overflow-h=
+idden" data-test-id=3D"newsletter-content-preview__cover-image" alt=3D"Imag=
+em de capa da newsletter" src=3D"https://media.licdn.com/dms/image/v2/D4E12=
+AQGZFBNdElpwkg/article-cover_image-shrink_600_2000/article-cover_image-shri=
+nk_600_2000/0/1733247863635?e=3D2147483647&amp;v=3Dbeta&amp;t=3DretOXI9c2y6=
+V2UG4yvQDHdnB_N4uX_d-vbgLEH4iB-0" style=3D"outline: none; text-decoration: =
+none; -ms-interpolation-mode: bicubic; display: block; aspect-ratio: 744/40=
+0; width: 100%; overflow: hidden; object-fit: cover;"> </a> </td> </tr> <tr=
+> <td class=3D"py-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 1=
+6px; padding-bottom: 16px;"> <table role=3D"presentation" valign=3D"top" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/backup-uma-pr%C=
+3%A1tica-antiga-mas-essencial-entenda-e-conhe%C3%A7a-rocha-jl3pf?lipi=3Durn=
+%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B7xr8kOuqRHavlysY%2=
+F4t2Tg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0vOI1p0tdLPrw1&amp;=
+trk=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-ti=
+tle_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_conten=
+t_preview-0-title_-null-gdb74f~m49pi3b1~p7-null-null&amp;eid=3Dgdb74f-m49pi=
+3b1-p7&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4YWM2ZDY0N=
+DljYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk5NGFmNmQ5ZDk3MmJlZDkzY2JjZGJiZTFm=
+OTVhNGEwYTAzMDdkOTUzM2IxMWNmMSwxLDE%3D" target=3D"_blank" class=3D"no-under=
+line font-medium text-sm m-0 text-system-gray-90" style=3D"cursor: pointer;=
+ display: inline-block; text-decoration: none; -webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; margin: 0px; font-size: 14px; font-weight: =
+500; color: #282828; text-decoration-line: none;"> <h2 class=3D"m-0 text-di=
+splay-sm leading-regular text-color-text font-bold font-sans" style=3D"marg=
+in: 0px; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe =
+UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', =
+Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI E=
+moji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; fo=
+nt-size: 24px; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.=
+9);"> Backup: uma pr=C3=A1tica antiga, mas essencial. Entenda e conhe=C3=A7=
+a. </h2> </a> </td> </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"=
+> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" width=3D"100%" data-test-id=3D"newsletter-author-lockup=
+-redesign" class=3D"mt-1 mb-2" style=3D"-webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; marg=
+in-bottom: 16px; margin-top: 8px;"> <tbody> <tr> <td valign=3D"middle" alig=
+n=3D"left" class=3D"w-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 24p=
+x;" width=3D"24"> <a href=3D"https://br.linkedin.com/comm/in/lgomesroc?lipi=
+=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B7xr8kOuqRHav=
+lysY%2F4t2Tg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0vOI1p0tdLPrw=
+1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_content_previe=
+w-0-author_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter=
+_content_preview-0-author_-null-gdb74f~m49pi3b1~p7-null-null&amp;eid=3Dgdb7=
+4f-m49pi3b1-p7&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4Y=
+WM2ZDY0NDljYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk5NGFmNmQ5ZDk3MmJlZDkzY2Jj=
+ZGJiZTFmOTVhNGEwYTAzMDdkOTUzM2IxMWNmMSwxLDE%3D" target=3D"_blank" style=3D"=
+color: #0a66c2; cursor: pointer; display: inline-block; text-decoration: no=
+ne; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img clas=
+s=3D"inline-block relative bg-color-entity-ghost-background clip-path-circl=
+e-50 rounded-full w-4 h-4 align-middle" src=3D"https://media.licdn.com/dms/=
+image/v2/D4D03AQGBKzwwGCtO8w/profile-displayphoto-shrink_400_400/profile-di=
+splayphoto-shrink_400_400/0/1724512888489?e=3D2147483647&amp;v=3Dbeta&amp;t=
+=3Df_F8B0V_td8yAyAD-TWA-cA4NYBQXlFvWOf0W7VO-H0" alt=3D"Imagem do autor" sty=
+le=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicubic=
+; position: relative; display: inline-block; height: 32px; width: 32px; bor=
+der-radius: 9999px; background-color: #eae6df; vertical-align: middle; clip=
+-path: circle(50%);" width=3D"32" height=3D"32"> </a> </td> <td style=3D"-w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://br.linkedin.com/comm/in/l=
+gomesroc?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3=
+B7xr8kOuqRHavlysY%2F4t2Tg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D=
+0vOI1p0tdLPrw1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_c=
+ontent_preview-0-author_&amp;trkEmail=3Deml-email_series_follow_newsletter_=
+01-newsletter_content_preview-0-author_-null-gdb74f~m49pi3b1~p7-null-null&a=
+mp;eid=3Dgdb74f-m49pi3b1-p7&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVk=
+NDUxZGU0YjQ4YWM2ZDY0NDljYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk5NGFmNmQ5ZDk=
+3MmJlZDkzY2JjZGJiZTFmOTVhNGEwYTAzMDdkOTUzM2IxMWNmMSwxLDE%3D" target=3D"_bla=
+nk" class=3D"no-underline ml-1" style=3D"color: #0a66c2; cursor: pointer; d=
+isplay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; margin-left: 8px; text-decoration-line: none;=
+"> <span class=3D"font-sans font-bold text-sm mb-3 text-color-text-low-emph=
+asis leading-regular" style=3D"margin-bottom: 24px; font-family: -apple-sys=
+tem, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', '=
+Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple =
+Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucid=
+a Grande', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600;=
+ line-height: 1.25; color: rgba(0, 0, 0, 0.6);"> Luciano Rocha </span> </a>=
+ </td> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"pb-1" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px;"> <div class=3D"p-3 bg=
+-color-surface-tint rounded-md font-sans" data-test-id=3D"newsletter-cta-ba=
+nner" style=3D"border-radius: 8px; background-color: #f5f7f9; padding: 24px=
+; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Ro=
+boto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantare=
+ll, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', =
+'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;"> <div cl=
+ass=3D"mb-1.5" style=3D"margin-bottom: 12px;"> <span class=3D"text-md leadi=
+ng-regular font-bold text-color-text" style=3D"font-size: 16px; font-weight=
+: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Leia este artigo no =
+LinkedIn para participar da conversa </span> </div> <table role=3D"presenta=
+tion" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%" class=3D"email-button " data-test-id=3D"email-button" style=3D"-w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=3D"middle" align=3D"=
+left" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.link=
+edin.com/comm/pulse/backup-uma-pr%C3%A1tica-antiga-mas-essencial-entenda-e-=
+conhe%C3%A7a-rocha-jl3pf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow=
+_newsletter_01%3B7xr8kOuqRHavlysY%2F4t2Tg%3D%3D&amp;midToken=3DAQHxaOsdYMWJ=
+VQ&amp;midSig=3D0vOI1p0tdLPrw1&amp;trk=3Deml-email_series_follow_newsletter=
+_01-newsletter_content_preview-0-read_more_banner_cta_&amp;trkEmail=3Deml-e=
+mail_series_follow_newsletter_01-newsletter_content_preview-0-read_more_ban=
+ner_cta_-null-gdb74f~m49pi3b1~p7-null-null&amp;eid=3Dgdb74f-m49pi3b1-p7&amp=
+;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4YWM2ZDY0NDljYWM4YTY=
+xNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk5NGFmNmQ5ZDk3MmJlZDkzY2JjZGJiZTFmOTVhNGEwYT=
+AzMDdkOTUzM2IxMWNmMSwxLDE%3D" target=3D"_blank" aria-label=3D"Abrir este ar=
+tigo no LinkedIn" class=3D"align-top no-underline " style=3D"color: #0a66c2=
+; cursor: pointer; display: inline-block; text-decoration: none; -webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; vertical-align: top; text=
+-decoration-line: none;"> <table role=3D"presentation" valign=3D"top" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"auto" class=3D"border-=
+separate " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: separat=
+e;"> <tbody> <tr> <td class=3D"btn-sm btn-primary border-color-brand button=
+-link leading-regular !min-h-[auto] !shadow-none border-1 border-solid" sty=
+le=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; height: min-content; border-radius: 24=
+px; padding-top: 7px; padding-bottom: 7px; padding-left: 16px; padding-righ=
+t: 16px; text-align: center; font-size: 14px; font-weight: 600; cursor: poi=
+nter; text-decoration-line: none; background-color: #0a66c2; color: #ffffff=
+; border-width: 1px; border-style: solid; border-color: #0a66c2; line-heigh=
+t: 1.25; min-height: auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0=
+ #0000 !important;"> <a href=3D"https://www.linkedin.com/comm/pulse/backup-=
+uma-pr%C3%A1tica-antiga-mas-essencial-entenda-e-conhe%C3%A7a-rocha-jl3pf?li=
+pi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B7xr8kOuqRH=
+avlysY%2F4t2Tg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0vOI1p0tdLP=
+rw1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_content_prev=
+iew-0-read_more_banner_cta_&amp;trkEmail=3Deml-email_series_follow_newslett=
+er_01-newsletter_content_preview-0-read_more_banner_cta_-null-gdb74f~m49pi3=
+b1~p7-null-null&amp;eid=3Dgdb74f-m49pi3b1-p7&amp;otpToken=3DMWIwZDE3ZTgxMzI=
+4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4YWM2ZDY0NDljYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZD=
+NkZjk5NGFmNmQ5ZDk3MmJlZDkzY2JjZGJiZTFmOTVhNGEwYTAzMDdkOTUzM2IxMWNmMSwxLDE%3=
+D" target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" class=3D"no-under=
+line" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; text=
+-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; text-decoration-line: none;"> <span class=3D"no-underline text-white" s=
+tyle=3D"color: #ffffff; text-decoration-line: none;"> Ler no LinkedIn </spa=
+n> </a> </td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </table> </=
+div> </td> </tr> <tr data-test-id=3D"newsletter-content-preview--content"> =
+<td class=3D"series-article-body" style=3D"-webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; f=
+ont-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Robot=
+o, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell,=
+ 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Se=
+goe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 1=
+6px; line-height: 1.5; color: rgba(0, 0, 0, 0.9);"> <h2 style=3D"margin: 0;=
+ margin-left: 0px; margin-right: 0px; margin-top: 8px; margin-bottom: 8px; =
+font-size: 20px; font-weight: 600; line-height: 1.25; letter-spacing: -0.02=
+em; color: rgba(0, 0, 0, 0.9);">Uma an=C3=A1lise detalhada do backup, sua e=
+volu=C3=A7=C3=A3o e por que =C3=A9 mais relevante do que nunca em 2024</h2>=
+<hr><h2 style=3D"margin: 0; margin-left: 0px; margin-right: 0px; margin-top=
+: 8px; margin-bottom: 8px; font-size: 20px; font-weight: 600; line-height: =
+1.25; letter-spacing: -0.02em; color: rgba(0, 0, 0, 0.9);">Promo=C3=A7=C3=
+=A3o imperd=C3=ADvel: adquire 3 cursos e paga s=C3=B3 1 por R$39,99. Voc=C3=
+=AA vai dominar .NET 8 WEB API RESTful 2024 completo com EFCore 8, Blazor .=
+NET 8 - 2024 com EntityFramework e C# Linguagem B=C3=A1sico e Avan=C3=A7ado=
+. </h2><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-siz=
+e: 1em; line-height: 1.5;"><strong>Garanta o seu lugar! =F0=9F=91=89 Link:<=
+/strong> <a href=3D"https://lnkd.in/dWCyKSXg" target=3D"_blank" rel=3D"nofo=
+llow noopener" style=3D"text-decoration: none; -webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; display: inline; cursor: pointer; font-weig=
+ht: 600; color: #0a66c2; text-decoration-line: none;">https://lnkd.in/dWCyK=
+SXg</a></p><hr><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; =
+font-size: 1em; line-height: 1.5;">O backup, uma pr=C3=A1tica antiga, mas v=
+ital, continua sendo <strong>uma das melhores solu=C3=A7=C3=B5es de TI para=
+ suporte, desenvolvimento e programa=C3=A7=C3=A3o.</strong> Com o recente a=
+pag=C3=A3o cibern=C3=A9tico, a necessidade de realizar backups regulares to=
+rnou-se mais evidente do que nunca. No entanto, a frequ=C3=AAncia desses ba=
+ckups, no entanto, depende da pol=C3=ADtica da empresa e da disposi=C3=A7=
+=C3=A3o dos profissionais de TI e usu=C3=A1rios.</p><p style=3D"margin: 0; =
+font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">Inf=
+elizmente, a realidade =C3=A9 que muitas empresas e indiv=C3=ADduos <strong=
+>negligenciam</strong> a import=C3=A2ncia dos backups at=C3=A9 que seja tar=
+de demais. Este artigo visa destacar a import=C3=A2ncia dos backups e forne=
+cer uma vis=C3=A3o detalhada de suas v=C3=A1rias facetas.</p><hr><h3 style=
+=3D"margin: 0; margin-left: 0px; margin-right: 0px; margin-top: 8px; margin=
+-bottom: 4px; font-size: 16px; font-weight: 600; line-height: 1.25; letter-=
+spacing: -0.02em; color: rgba(0, 0, 0, 0.9);">LEMBRENTE</h3><h3 style=3D"ma=
+rgin: 0; margin-left: 0px; margin-right: 0px; margin-top: 8px; margin-botto=
+m: 4px; font-size: 16px; font-weight: 600; line-height: 1.25; letter-spacin=
+g: -0.02em; color: rgba(0, 0, 0, 0.9);">Um lembrete a voc=C3=AA, leitor(a),=
+ precisa entender e =C3=A9 importante. Em alguns dos artigos publicados, go=
+sto de explicar certas palavras que aparecem no texto. =C3=80s vezes coloco=
+ um asterisco depois das palavras que podem ser confusas. Sempre me certifi=
+co de explicar essas palavras no final do artigo, para que voc=C3=AA n=C3=
+=A3o perca o fluxo do pensamento. Como sempre h=C3=A1 novos leitores, usu=
+=C3=A1rios e profissionais se juntando =C3=A0 newsletter, vejo como minha r=
+esponsabilidade pesquisar e estudar sobre essas palavras ou termos. Para n=
+=C3=B3s, que...</h3> </td> </tr> <tr> <td class=3D"pt-2 no-underline" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; padding-top: 16px; text-decoration-line:=
+ none;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"email-button series-cont=
+ent-preview__bottom-cta" data-test-id=3D"email-button" style=3D"-webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt;"> <tbody> <tr> <td valign=3D"middle" align=3D"left" sty=
+le=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/=
+comm/pulse/backup-uma-pr%C3%A1tica-antiga-mas-essencial-entenda-e-conhe%C3%=
+A7a-rocha-jl3pf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslett=
+er_01%3B7xr8kOuqRHavlysY%2F4t2Tg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;mi=
+dSig=3D0vOI1p0tdLPrw1&amp;trk=3Deml-email_series_follow_newsletter_01-newsl=
+etter_content_preview-0-readmore_button_&amp;trkEmail=3Deml-email_series_fo=
+llow_newsletter_01-newsletter_content_preview-0-readmore_button_-null-gdb74=
+f~m49pi3b1~p7-null-null&amp;eid=3Dgdb74f-m49pi3b1-p7&amp;otpToken=3DMWIwZDE=
+3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4YWM2ZDY0NDljYWM4YTYxNzljNDA2NmQ0YjVkNW=
+JmMmZlZDNkZjk5NGFmNmQ5ZDk3MmJlZDkzY2JjZGJiZTFmOTVhNGEwYTAzMDdkOTUzM2IxMWNmM=
+SwxLDE%3D" target=3D"_blank" aria-label=3D"Abrir Assuntos de Programa=C3=A7=
+=C3=A3o no LinkedIn" class=3D"align-top no-underline " style=3D"color: #0a6=
+6c2; cursor: pointer; display: inline-block; text-decoration: none; -webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; vertical-align: top; t=
+ext-decoration-line: none; width: 100%;"> <table role=3D"presentation" vali=
+gn=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" =
+class=3D"border-separate " style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-c=
+ollapse: separate; width: 100%;"> <tbody> <tr> <td class=3D"btn-md btn-seco=
+ndary-emphasis border-color-brand button-link leading-regular !min-h-[auto]=
+ !shadow-none border-1 border-solid font-sans" data-test-id=3D"newsletter-c=
+ontent-preview-redesign-bottom-cta" style=3D"-webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ height: min-content; border-radius: 24px; padding-top: 12px; padding-botto=
+m: 12px; padding-left: 24px; padding-right: 24px; text-align: center; font-=
+size: 16px; font-weight: 600; cursor: pointer; text-decoration-line: none; =
+background-color: rgba(0, 0, 0, 0); color: #0a66c2; border-width: 1px; bord=
+er-style: solid; border-color: #0a66c2; font-family: -apple-system, system-=
+ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', =
+Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', H=
+elvetica, Arial, sans-serif; line-height: 1.25; min-height: auto !important=
+; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;"> <a href=3D"http=
+s://www.linkedin.com/comm/pulse/backup-uma-pr%C3%A1tica-antiga-mas-essencia=
+l-entenda-e-conhe%C3%A7a-rocha-jl3pf?lipi=3Durn%3Ali%3Apage%3Aemail_email_s=
+eries_follow_newsletter_01%3B7xr8kOuqRHavlysY%2F4t2Tg%3D%3D&amp;midToken=3D=
+AQHxaOsdYMWJVQ&amp;midSig=3D0vOI1p0tdLPrw1&amp;trk=3Deml-email_series_follo=
+w_newsletter_01-newsletter_content_preview-0-readmore_button_&amp;trkEmail=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-readm=
+ore_button_-null-gdb74f~m49pi3b1~p7-null-null&amp;eid=3Dgdb74f-m49pi3b1-p7&=
+amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4YWM2ZDY0NDljYWM4=
+YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk5NGFmNmQ5ZDk3MmJlZDkzY2JjZGJiZTFmOTVhNGE=
+wYTAzMDdkOTUzM2IxMWNmMSwxLDE%3D" target=3D"_blank" tabindex=3D"-1" aria-hid=
+den=3D"true" class=3D"no-underline" style=3D"color: #0a66c2; cursor: pointe=
+r; display: inline-block; text-decoration: none; -webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; text-decoration-line: none; width: 100%;"=
+> <span class=3D"no-underline text-color-brand" style=3D"color: #0a66c2; te=
+xt-decoration-line: none;"> Continue lendo no LinkedIn </span> </a> </td> <=
+/tr> </tbody> </table> </a> </td> </tr> </tbody> </table> </td> </tr> </tbo=
+dy> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </=
+td> </tr> </tbody> </table> </div> </td> </tr> <tr> <td class=3D"bg-color-b=
+ackground-canvas p-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-co=
+lor: #f3f2f0; padding: 24px;"> <table role=3D"presentation" valign=3D"top" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"te=
+xt-xs" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 12px;"> <tbody> <=
+tr> <td class=3D"pb-1 m-0" data-test-id=3D"email-footer__intended" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> Este e-=
+mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Developer | HTM=
+L | CSS | JS | React.js | Node.js | Python) </td> </tr> <tr> <td class=3D"p=
+b-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-botto=
+m: 8px;"> <a href=3D"https://www.linkedin.com/help/linkedin/answer/4788?lan=
+g=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01=
+%3B7xr8kOuqRHavlysY%2F4t2Tg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=
+=3D0vOI1p0tdLPrw1&amp;trk=3Deml-email_series_follow_newsletter_01-SecurityH=
+elp-0-footerglimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-Se=
+curityHelp-0-footerglimmer-null-gdb74f~m49pi3b1~p7-null-null&amp;eid=3Dgdb7=
+4f-m49pi3b1-p7&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4Y=
+WM2ZDY0NDljYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk5NGFmNmQ5ZDk3MmJlZDkzY2Jj=
+ZGJiZTFmOTVhNGEwYTAzMDdkOTUzM2IxMWNmMSwxLDE%3D" target=3D"_blank" class=3D"=
+text-inherit underline" style=3D"cursor: pointer; display: inline-block; te=
+xt-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; color: inherit; text-decoration-line: underline;">Saiba por que inclu=
+=C3=ADmos isso.</a> </td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;">Voc=C3=AA est=
+=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn. Outras pesso=
+as podem ver que voc=C3=AA =C3=A9 assinante.</td> </tr> <tr> <td class=3D"p=
+b-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-botto=
+m: 8px;"> <a href=3D"https://www.linkedin.com/comm/series-notifications/?ac=
+tion=3Dunsubscribe&amp;memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjl=
+Y&amp;newsletterId=3D7002440821278953472&amp;newsletterTitle=3DAssuntos%20d=
+e%20Programa%C3%A7%C3%A3o&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_f=
+ollow_newsletter_01%3B7xr8kOuqRHavlysY%2F4t2Tg%3D%3D&amp;midToken=3DAQHxaOs=
+dYMWJVQ&amp;midSig=3D0vOI1p0tdLPrw1&amp;trk=3Deml-email_series_follow_newsl=
+etter_01-unsubscribe-0-footerGlimmer&amp;trkEmail=3Deml-email_series_follow=
+_newsletter_01-unsubscribe-0-footerGlimmer-null-gdb74f~m49pi3b1~p7-null-nul=
+l&amp;eid=3Dgdb74f-m49pi3b1-p7&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwN=
+GVkNDUxZGU0YjQ4YWM2ZDY0NDljYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk5NGFmNmQ5=
+ZDk3MmJlZDkzY2JjZGJiZTFmOTVhNGEwYTAzMDdkOTUzM2IxMWNmMSwxLDE%3D" target=3D"_=
+blank" class=3D"text-inherit underline" style=3D"cursor: pointer; display: =
+inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; color: inherit; text-decoration-line: underline;">Can=
+celar inscri=C3=A7=C3=A3o</a> =C2=A0=C2=A0=C2=B7=C2=A0=C2=A0 <a href=3D"htt=
+ps://www.linkedin.com/help/linkedin/answer/67?lang=3Dpt&amp;lipi=3Durn%3Ali=
+%3Apage%3Aemail_email_series_follow_newsletter_01%3B7xr8kOuqRHavlysY%2F4t2T=
+g%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0vOI1p0tdLPrw1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-help-0-footerglimmer&amp;trkEmail=
+=3Deml-email_series_follow_newsletter_01-help-0-footerglimmer-null-gdb74f~m=
+49pi3b1~p7-null-null&amp;eid=3Dgdb74f-m49pi3b1-p7&amp;otpToken=3DMWIwZDE3ZT=
+gxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4YWM2ZDY0NDljYWM4YTYxNzljNDA2NmQ0YjVkNWJmM=
+mZlZDNkZjk5NGFmNmQ5ZDk3MmJlZDkzY2JjZGJiZTFmOTVhNGEwYTAzMDdkOTUzM2IxMWNmMSwx=
+LDE%3D" target=3D"_blank" class=3D"text-inherit underline" style=3D"cursor:=
+ pointer; display: inline-block; text-decoration: none; -webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; color: inherit; text-decoration-li=
+ne: underline;">Ajuda</a> </td> </tr> <tr> <td class=3D"pb-1" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; padding-bottom: 8px;"> <a href=3D"https://www.li=
+nkedin.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_ne=
+wsletter_01%3B7xr8kOuqRHavlysY%2F4t2Tg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&=
+amp;midSig=3D0vOI1p0tdLPrw1&amp;trk=3Deml-email_series_follow_newsletter_01=
+-footer-0-logoGlimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-=
+footer-0-logoGlimmer-null-gdb74f~m49pi3b1~p7-null-null&amp;eid=3Dgdb74f-m49=
+pi3b1-p7&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxZGU0YjQ4YWM2ZDY=
+0NDljYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk5NGFmNmQ5ZDk3MmJlZDkzY2JjZGJiZT=
+FmOTVhNGEwYTAzMDdkOTUzM2IxMWNmMSwxLDE%3D" target=3D"_blank" style=3D"color:=
+ #0a66c2; cursor: pointer; display: inline-block; text-decoration: none; -w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img src=3D"htt=
+ps://static.licdn.com/aero-v1/sc/h/9ehe6n39fa07dc5edzv0rla4e" alt=3D"Linked=
+In" class=3D"block h-[14px] w-[56px] image-rendering-crisp" style=3D"outlin=
+e: none; text-decoration: none; image-rendering: -moz-crisp-edges; image-re=
+ndering: -o-crisp-edges; image-rendering: -webkit-optimize-contrast; image-=
+rendering: crisp-edges; -ms-interpolation-mode: nearest-neighbor; display: =
+block; height: 14px; width: 56px;" width=3D"56" height=3D"14"> </a> </td> <=
+/tr> <tr> <td data-test-copyright-text style=3D"-webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt;"> =C2=A9 2024 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton =
+Place, Dublin 2 - Irlanda. LinkedIn =C3=A9 um nome comercial registrado da =
+LinkedIn Ireland Unlimited Company. <span data-test-trademarks-text> Linked=
+In e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn. </span> </=
+td> </tr> </tbody> </table> </td> </tr> </tbody> </table> <img alt role=3D"=
+presentation" src=3D"https://www.linkedin.com/emimp/ip_WjJSaU56Um1MVzAwT1hC=
+cE0ySXhMWEEzOlpXMWhhV3hmYzJWeWFXVnpYMlp2Ykd4dmQxOXVaWGR6YkdWMGRHVnlYekF4OmR=
+YSnVPbXhwT214cGJtdGxaRWx1UVhKMGFXTnNaVG8zTWpJek5qa3hPVGsyTnpjM09EazNPVGcw.g=
+if" style=3D"outline: none; text-decoration: none; -ms-interpolation-mode: =
+bicubic; width: 1px; height: 1px;" width=3D"1" height=3D"1"> </body> </html=
+>
+------=_Part_1764981_561859979.1733305866205--
+

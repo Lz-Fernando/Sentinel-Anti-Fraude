@@ -1,0 +1,823 @@
+X-GM-THRID: 1826521296601586410
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:7789:b0:2cd:a3c7:5e5d with SMTP id u9csp295138yso;
+        Thu, 13 Mar 2025 15:54:09 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IHQGyZ9OFkPyu2Y5Yreuc7a/Hw3XmOT2TdLVv9wRQ7EUwwlIFTMQuONqG/QLJnRUgwHcxmO
+X-Received: by 2002:a05:6830:6485:b0:727:2f79:ce3a with SMTP id 46e09a7af769-72bbc23ae3amr120400a34.12.1741906449269;
+        Thu, 13 Mar 2025 15:54:09 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1741906449; cv=none;
+        d=google.com; s=arc-20240605;
+        b=B6BhyPMpufaHmunfN7u0ooMoZtfFCpU88UPH8O2s2sMZJZWpDkt3IP68jCXsqnhudG
+         4YF3aOcMTkSMQcHnpnTsmItB9ehHU0dsjVY1EKTubAJUZAvJ12wEp+Dou2K2z7iArB8B
+         32+lEM4qbQXrrG9Ph7/Pehpw3ZKzHA5e9wa3eA+IpDIIWm9KcFyfN3Y3oHf9cvKsC6nI
+         VQdnrpEjo8QUUnshuaTXcaZwQ9AYkhVYpVnT6/zxF1yFb9nKPJfrqXcbAFap4n+YhQ1D
+         Lv+hIkn3mDjVohUvv3uMbOKu1+bxIMqWQDKD3XCLwm261MEj79TWy3FDo70JVtbfvbep
+         6ixw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=6M0RSZnZMBJs+875CBoW/uW4zZmhNKTtmwuuBnBZTiQ=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=IzBXmN5uF3gnVlOIdCDDUwkIMvIRj9gK+dcSf/RWJfYz9nx0cmHN1cR4O/9jKqRuto
+         WsH2/Qy54kvoa2fxVL+vZoTvTdn6wfyn10xyWcoRW3Iq3f24d1aeCgCO8QL0Ny6VVcK6
+         x9v/e+DdU7pC9SUXU7zpm3NrRITT2IG9rVnhoDuSMQm61Yp2UWjTVSqUhocphneQhDMU
+         4tqvTBEkV35oAcjHXOvKe7ixCR7iCZDIIEv55zsngDF6gAthxqfhe32CQbzq0QUJHfBy
+         SdpldjcJYgKH8wnWB8wPIfbYGzG+ZKDaA8iaILwlrHiNJk1QY+53VhmqBNQnC6oFZ8Ix
+         zbYA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b="AVEJWqg/";
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=kh+XYDGG;
+       spf=pass (google.com: domain of s-4s4d5o0nx4t6z3gh92yobt1fkg2ha45qtkdq4emj9m5t3z94cp8ktnw4@bounce.linkedin.com designates 108.174.6.202 as permitted sender) smtp.mailfrom=s-4s4d5o0nx4t6z3gh92yobt1fkg2ha45qtkdq4emj9m5t3z94cp8ktnw4@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-4s4d5o0nx4t6z3gh92yobt1fkg2ha45qtkdq4emj9m5t3z94cp8ktnw4@bounce.linkedin.com>
+Received: from maile-db.linkedin.com (maile-db.linkedin.com. [108.174.6.202])
+        by mx.google.com with ESMTPS id 006d021491bc7-601db67a0ecsi1419646eaf.25.2025.03.13.15.54.09
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 13 Mar 2025 15:54:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of s-4s4d5o0nx4t6z3gh92yobt1fkg2ha45qtkdq4emj9m5t3z94cp8ktnw4@bounce.linkedin.com designates 108.174.6.202 as permitted sender) client-ip=108.174.6.202;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b="AVEJWqg/";
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=kh+XYDGG;
+       spf=pass (google.com: domain of s-4s4d5o0nx4t6z3gh92yobt1fkg2ha45qtkdq4emj9m5t3z94cp8ktnw4@bounce.linkedin.com designates 108.174.6.202 as permitted sender) smtp.mailfrom=s-4s4d5o0nx4t6z3gh92yobt1fkg2ha45qtkdq4emj9m5t3z94cp8ktnw4@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1741906447;
+	bh=6M0RSZnZMBJs+875CBoW/uW4zZmhNKTtmwuuBnBZTiQ=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=AVEJWqg/pbpOdbGZmqQhjSsWJjO19Jpo1XB/76KGwOMuOFkMkDYkzYo273xbKxuzi
+	 eHS3xLau8V7NgCr4jnjP0bESKz2DDj5kX4z1E9qaoBUFkQVIi0dRFtrH3QC5k11G63
+	 IzV9+qEwdqsmwAEPQLrXJSbd32IZ/edYYcGlm3dnaBLZAKNSqRKGAoVwUXBqQAikZf
+	 wt50TR2xY/0PxTj/5wJQsZksdcA3+bzmXpWMFVKrhW6nLQvYjWKVVy4cm/ZBU4/FvL
+	 gND1OQvAnUJiWh3VqUyO7Xsn4Xbbrlh7aHvz0Tgy3wnFJzLjjzD5nmdoUBlnCVTv2h
+	 Kyy4sNwe4WO0w==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1741906447;
+	bh=6M0RSZnZMBJs+875CBoW/uW4zZmhNKTtmwuuBnBZTiQ=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=kh+XYDGGbKeo5+uyVcoEVaZwZr+8f7NqSgymgQ7E2gDvFyhgyCd2uzRKUPyHTzycL
+	 kBrLTo+5Ae0wXbuLnz/bWWY5iES1RkvSgcqGKnhDcSUNbBOiw5KSs/NSsXfhN1XmYU
+	 ZyGGoyJ6jNw3gNP86mm+agKu/ccUG4bJ8gTAuZM3pfOgdX3uOSkulwWjNnT4CCCNAh
+	 rZajpFX9VcwOYlnDUAuDoTSm9tbM/BfGjph68VcANCFGJ1Hb+qkCZocOtQGu3QS0cZ
+	 OLXQWwKon7coc3u592vki7GSheGC6SAriNYlxp48Fv0bf4ju41YGLh1PRUUbykHkGg
+	 o+eyhVMJwY1qw==
+From: SIS Innov & Tech via LinkedIn <newsletters-noreply@linkedin.com>
+Message-ID: <1315396840.10080565.1741906447359@lva1-app47457.prod.linkedin.com>
+Subject: =?UTF-8?Q?SaaS_na_Ind=C3=BAstria_Farmac=C3=AAutica:_A_Chave?=
+ =?UTF-8?Q?_para_Inova=C3=A7=C3=A3o_e_Efici=C3=AAncia_Operacional?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_10080563_1772153691.1741906447357"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Thu, 13 Mar 2025 22:54:07 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-aszxouidyk8wajvvju8cxth4say4jfuko9y2ebefmybohjw13jo2zdreu3umzg94cgc7fdumvqow1yonh2afadilwgk15igu8jah64
+X-LinkedIn-Id: gdb74f-m87y3nm4-g
+List-Unsubscribe: <https://www.linkedin.com/series-notifications/?action=unsubscribe&memberToken=ADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&newsletterId=7061745063541751808&newsletterTitle=SIS Innov & Tech News&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BGalWG3K4Qb2mEPX1AavclA%3D%3D&midToken=AQHxaOsdYMWJVQ&midSig=3AGUZ3rO1u_rE1&ek=email_series_follow_newsletter_01&e=gdb74f-m87y3nm4-g&eid=gdb74f-m87y3nm4-g&m=unsub&ts=unsub&li=0&t=plh>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_10080563_1772153691.1741906447357
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+SIS Innov & Tech News
+
+Por SIS Innov & Tech
+
+
+Por SIS Innov & Tech
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/saas-na-ind%C3%BAstria-farmac%C3%AAutic=
+a-chave-para-inova%C3%A7%C3%A3o-e-efici%C3%AAncia-ltqof?lipi=3Durn%3Ali%3Ap=
+age%3Aemail_email_series_follow_newsletter_01%3BGalWG3K4Qb2mEPX1AavclA%3D%3=
+D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D3AGUZ3rO1u_rE1&trk=3Deml-email_series_=
+follow_newsletter_01-null-0-read_more_banner_cta_&trkEmail=3Deml-email_seri=
+es_follow_newsletter_01-null-0-read_more_banner_cta_-null-gdb74f~m87y3nm4~g=
+-null-null&eid=3Dgdb74f-m87y3nm4-g&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwN=
+GVkNDIxZmVlYjQ4OWNhZDQ0NzkxYWY4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg0NjRiOWJl=
+Y2IwZjkwZjg2YmY5NWM4MGVkZGMxYzgzY2EwZGJmNTgwOGI3ODRlOSwxLDE%3D
+ =20
+O que =C3=A9 SaaS e como ele est=C3=A1 transformando empresas? SaaS, ou Sof=
+tware as a Service, =C3=A9 um modelo de software em que as aplica=C3=A7=C3=
+=B5es s=C3=A3o oferecidas pela internet, permitindo que usu=C3=A1rios as ac=
+essem de qualquer lugar, sem precisar instalar sistemas localmente. Esse fo=
+rmato oferece uma s=C3=A9rie de benef=C3=ADcios que v=C3=AAm transformando =
+a maneira como as empresas, especialmente no setor farmac=C3=AAutico, geren=
+ciam suas opera=C3=A7=C3=B5es.=C2=A0 Com SaaS, n=C3=A3o h=C3=A1 necessidade=
+ de investir em servidores ou infraestrutura local, o que reduz drasticamen=
+te o custo inicial. Isso significa que as empresas podem se concentrar no q=
+ue realmente importa: crescer e inovar. Al=C3=A9m disso, solu=C3=A7=C3=B5es=
+ SaaS como a nossa, voltada para a gest=C3=A3o de bulas digitais, permitem =
+uma flexibilidade que outras op=C3=A7=C3=B5es n=C3=A3o oferecem. O cliente =
+pode adaptar o uso da plataforma conforme a necessidade, sem se preocupar c=
+om a infraestrutura. Desenvolvendo uma solu=C3=A7=C3=A3o SaaS: Muito al=C3=
+=A9m da nuvem O desenvolvimento de uma solu=C3=A7=C3=A3o SaaS n=C3=A3o =C3=
+=A9 apenas sobre disponibilizar um aplicativo na nuvem. A jornada come=C3=
+=A7a com o levantamento de requisitos espec=C3=ADficos do cliente, passando=
+ por escolhas tecnol=C3=B3gicas que garantem a escalabilidade e seguran=C3=
+=A7a da solu=C3=A7=C3=A3o. Aqui, na nossa equipe, utilizamos uma variedade =
+de tecnologias que s=C3=A3o selecionadas com base nas demandas de cada proj=
+eto. N=C3=A3o seguimos uma "receita de bolo". Cada solu=C3=A7=C3=A3o =C3=A9=
+ pensada para o cliente, seja para escalar rapidamente conforme o crescimen=
+to da empresa, ou garantir que os dados sens=C3=ADveis sejam mantidos segur=
+os e em conformidade com todas as regulamenta=C3=A7=C3=B5es aplic=C3=A1veis=
+, especialmente no setor farmac=C3=AAutico, que exige um alto n=C3=ADvel de=
+ seguran=C3=A7a. Ap=C3=B3s o desenvolvimento, os testes s=C3=A3o parte fund=
+amental para garantir a performance da aplica=C3=A7=C3=A3o. Realizamos test=
+es unit=C3=A1rios, funcionais, de carga, e de usabilidade para assegurar qu=
+e o sistema esteja preparado para enfrentar qualquer desafio, desde picos d=
+e acessos at=C3=A9 poss=C3=ADveis falhas. A seguran=C3=A7a tamb=C3=A9m =C3=
+=A9 uma prioridade constante, com pr=C3=A1ticas de autentica=C3=A7=C3=A3o r=
+obustas, prote=C3=A7=C3=A3o de dados, e monitoramento cont=C3=ADnuo da apli=
+ca=C3=A7=C3=A3o para identificar e mitigar poss=C3=ADveis vulnerabilidades.=
+ Os benef=C3=ADcios de uma solu=C3=A7=C3=A3o SaaS para o setor farmac=C3=AA=
+utico Quando pensamos no setor farmac=C3=AAutico, que lida com uma enorme q=
+uantidade de dados sens=C3=ADveis, as solu=C3=A7=C3=B5es SaaS oferecem bene=
+f=C3=ADcios claros. Uma das maiores vantagens =C3=A9 o fato de que a empres=
+a n=C3=A3o precisa mais investir em infraestrutura f=C3=ADsica (como servid=
+ores locais) para manter os dados em conformidade com regulamentos exigente=
+s. Plataformas como AWS, Azure e Google Cloud, que utilizamos, j=C3=A1 poss=
+uem certifica=C3=A7=C3=B5es de seguran=C3=A7a de alto n=C3=ADvel, o que fac=
+ilita o cumprimento das normas exigidas.=C2=A0 Al=C3=A9m disso, com solu=C3=
+=A7=C3=B5es SaaS, empresas podem reduzir custos operacionais por meio de um=
+ modelo de assinatura, seja mensal ou anual. Isso permite que o cliente esc=
+ale conforme sua necessidade e, se for preciso, ajuste seu plano sem preju=
+=C3=ADzo financeiro, garantindo flexibilidade e previsibilidade no or=C3=A7=
+amento.=C2=A0 Seguran=C3=A7a e conformidade: dois pilares essenciais No set=
+or farmac=C3=AAutico, as preocupa=C3=A7=C3=B5es com seguran=C3=A7a e confor=
+midade s=C3=A3o constantes, especialmente com o aumento de ataques hackers =
+e amea=C3=A7as de ransomware. A prote=C3=A7=C3=A3o de dados sens=C3=ADveis =
+=C3=A9 fundamental, e com o SaaS conseguimos garantir n=C3=A3o s=C3=B3 a se=
+guran=C3=A7a, mas tamb=C3=A9m a conformidade com as regulamenta=C3=A7=C3=B5=
+es mais exigentes. Por exemplo, uma de nossas principais solu=C3=A7=C3=B5es=
+ =C3=A9 a SmartBula, uma plataforma criada especificamente para a gest=C3=
+=A3o de bulas digitais. Com a SmartBula, empresas farmac=C3=AAuticas podem =
+gerenciar e distribuir informa=C3=A7=C3=B5es essenciais de seus medicamento=
+s de forma segura, em conformidade com as diretrizes da Anvisa. Tudo isso c=
+om o benef=C3=ADcio de uma solu=C3=A7=C3=A3o em nuvem que se ajusta =C3=A0s=
+ demandas da empresa, sem comprometer a seguran=C3=A7a dos dados. SaaS e a =
+Inova=C3=A7=C3=A3o no setor farmac=C3=AAutico A inova=C3=A7=C3=A3o no setor=
+ farmac=C3=AAutico vai muito al=C3=A9m de novos medicamentos. As empresas e=
+st=C3=A3o cada vez mais focadas em transformar suas opera=C3=A7=C3=B5es par=
+a serem mais =C3=A1geis e eficientes. =C3=89 aqui que as solu=C3=A7=C3=B5es=
+ SaaS desempenham um papel vital. Ao permitir que empresas acessem tecnolog=
+ias de ponta sem o custo e a complexidade da infraestrutura local, o SaaS e=
+st=C3=A1 abrindo portas para a inova=C3=A7=C3=A3o.=C2=A0 Com solu=C3=A7=C3=
+=B5es como a SmartBula, estamos permitindo que as empresas farmac=C3=AAutic=
+as, grandes e pequenas, automatizem processos, melhorem a conformidade regu=
+lat=C3=B3ria e ofere=C3=A7am uma experi=C3=AAncia mais =C3=A1gil aos seus u=
+su=C3=A1rios. Acreditamos que essa =C3=A9 apenas a ponta do iceberg quando =
+falamos sobre o impacto do SaaS nesse setor. O futuro =C3=A9 SaaS Quando ol=
+hamos para o futuro, est=C3=A1 claro que o SaaS continuar=C3=A1 sendo um mo=
+tor de inova=C3=A7=C3=A3o para muitas ind=C3=BAstrias, incluindo a farmac=
+=C3=AAutica. A capacidade de acessar solu=C3=A7=C3=B5es seguras e escal=C3=
+=A1veis a um custo acess=C3=ADvel est=C3=A1 mudando a maneira como as empre=
+sas operam, e estamos entusiasmados em fazer parte dessa transforma=C3=A7=
+=C3=A3o com produtos como a SmartBula. Conhe=C3=A7a mais sobre a SmartBula =
+e como ela pode transformar a gest=C3=A3o de bulas digitais na sua empresa =
+acessando nosso site SmartBula.
+Continue lendo no LinkedIn
+https://www.linkedin.com/comm/pulse/saas-na-ind%C3%BAstria-farmac%C3%AAutic=
+a-chave-para-inova%C3%A7%C3%A3o-e-efici%C3%AAncia-ltqof?lipi=3Durn%3Ali%3Ap=
+age%3Aemail_email_series_follow_newsletter_01%3BGalWG3K4Qb2mEPX1AavclA%3D%3=
+D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D3AGUZ3rO1u_rE1&trk=3Deml-email_series_=
+follow_newsletter_01-newsletter_content_preview_text-0-readmore_button_&trk=
+Email=3Deml-email_series_follow_newsletter_01-newsletter_content_preview_te=
+xt-0-readmore_button_-null-gdb74f~m87y3nm4~g-null-null&eid=3Dgdb74f-m87y3nm=
+4-g&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVlYjQ4OWNhZDQ0NzkxYWY4=
+ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg0NjRiOWJlY2IwZjkwZjg2YmY5NWM4MGVkZGMxYzg=
+zY2EwZGJmNTgwOGI3ODRlOSwxLDE%3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | Java | JS | React.js | PostgreSQL)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3BGalWG3K4Qb2mEPX1AavclA%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=
+=3D3AGUZ3rO1u_rE1&trk=3Deml-email_series_follow_newsletter_01-SecurityHelp-=
+0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Securi=
+tyHelp-0-textfooterglimmer-null-gdb74f~m87y3nm4~g-null-null&eid=3Dgdb74f-m8=
+7y3nm4-g&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVlYjQ4OWNhZDQ0Nzk=
+xYWY4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg0NjRiOWJlY2IwZjkwZjg2YmY5NWM4MGVkZG=
+MxYzgzY2EwZGJmNTgwOGI3ODRlOSwxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/series-notifications=
+/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjl=
+Y&newsletterId=3D7061745063541751808&newsletterTitle=3DSIS Innov & Tech New=
+s&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BGalWG3=
+K4Qb2mEPX1AavclA%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D3AGUZ3rO1u_rE1&ek=
+=3Demail_series_follow_newsletter_01&e=3Dgdb74f-m87y3nm4-g&eid=3Dgdb74f-m87=
+y3nm4-g&m=3Dunsubscribe&ts=3DfooterGlimmer&li=3D0&t=3Dplh  =C2=A0=C2=A0=C2=
+=B7=C2=A0=C2=A0Ajuda: https://www.linkedin.com/help/linkedin/answer/67?lang=
+=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BGa=
+lWG3K4Qb2mEPX1AavclA%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D3AGUZ3rO1u_rE=
+1&trk=3Deml-email_series_follow_newsletter_01-help-0-textfooterglimmer&trkE=
+mail=3Deml-email_series_follow_newsletter_01-help-0-textfooterglimmer-null-=
+gdb74f~m87y3nm4~g-null-null&eid=3Dgdb74f-m87y3nm4-g&otpToken=3DMWIwZDE3ZTgx=
+MzI4Y2JjM2I1MjQwNGVkNDIxZmVlYjQ4OWNhZDQ0NzkxYWY4ZDYxNzljNDA2NmQ0YjVkNWJmMmZ=
+lZDNkZjg0NjRiOWJlY2IwZjkwZjg2YmY5NWM4MGVkZGMxYzgzY2EwZGJmNTgwOGI3ODRlOSwxLD=
+E%3D
+
+=C2=A9 2025 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_10080563_1772153691.1741906447357
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+/head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-canvas w-fu=
+ll m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; padding: 0p=
+x; padding-top: 8px; font-family: -apple-system, system-ui, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Ox=
+ygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sa=
+ns-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible overflow=
+-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; max-height=
+: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" data-email-p=
+reheader=3D"true">O que =C3=A9 SaaS e como ele est=C3=A1 transformando empr=
+esas? SaaS, ou Software as a=E2=80=A6</div> <div class=3D"h-0 opacity-0 tex=
+t-transparent invisible overflow-hidden w-0 max-h-[0]" style=3D"visibility:=
+ hidden; height: 0px; max-height: 0; width: 0px; overflow: hidden; opacity:=
+ 0; mso-hide: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+ =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table role=3D"presentation" va=
+lign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"512"=
+ align=3D"center" class=3D"mercado-container w-[512px] max-w-[512px] mx-aut=
+o my-0 p-0 " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-left: auto; mar=
+gin-right: auto; margin-top: 0px; margin-bottom: 0px; width: 512px; max-wid=
+th: 512px; padding: 0px;"> <tbody> <tr> <td style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"bg-color-background-co=
+ntainer " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff=
+;"> <tbody> <tr> <td class=3D"text-center p-3" style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt; padding: 24px; text-align: center;"> <table role=3D"presentatio=
+n" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D=
+"100%" class=3D"min-w-full" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-wid=
+th: 100%;"> <tbody> <tr> <td align=3D"left" valign=3D"middle" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/feed/=
+?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BGalWG3K=
+4Qb2mEPX1AavclA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3AGUZ3rO1u=
+_rE1&amp;trk=3Deml-email_series_follow_newsletter_01-header-0-home_glimmer_=
+static_badging_with_count&amp;trkEmail=3Deml-email_series_follow_newsletter=
+_01-header-0-home_glimmer_static_badging_with_count-null-gdb74f~m87y3nm4~g-=
+null-null&amp;eid=3Dgdb74f-m87y3nm4-g&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2=
+I1MjQwNGVkNDIxZmVlYjQ4OWNhZDQ0NzkxYWY4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg0N=
+jRiOWJlY2IwZjkwZjg2YmY5NWM4MGVkZGMxYzgzY2EwZGJmNTgwOGI3ODRlOSwxLDE%3D" targ=
+et=3D"_blank" class=3D"w-[84px]" style=3D"color: #0a66c2; cursor: pointer; =
+display: inline-block; text-decoration: none; -webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; width: 84px;"> <img class=3D"h-[37px] w-[101=
+px]" alt=3D"LinkedIn" src=3D"https://static.licdn.com/aero-v1/sc/h/2huuis1k=
+3beio0p1e40la2gcs" data-test-header-static-badging-img style=3D"outline: no=
+ne; text-decoration: none; -ms-interpolation-mode: bicubic; height: 37px; w=
+idth: 101px;" width=3D"101" height=3D"37"> </a> </td> <td valign=3D"middle"=
+ align=3D"right" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"p=
+resentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" width=3D"100%" data-test-header-profile style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt;"> <tbody> <tr> <td align=3D"right" valign=3D"middle" class=3D"w-[32p=
+x]" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt; width: 32px;" width=3D"32"> <a =
+href=3D"https://br.linkedin.com/comm/in/fernando-ferreira-brito?lipi=3Durn%=
+3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BGalWG3K4Qb2mEPX1Aav=
+clA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3AGUZ3rO1u_rE1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-header-0-profile_glimmer&amp;trkEm=
+ail=3Deml-email_series_follow_newsletter_01-header-0-profile_glimmer-null-g=
+db74f~m87y3nm4~g-null-null&amp;eid=3Dgdb74f-m87y3nm4-g&amp;otpToken=3DMWIwZ=
+DE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVlYjQ4OWNhZDQ0NzkxYWY4ZDYxNzljNDA2NmQ0YjVk=
+NWJmMmZlZDNkZjg0NjRiOWJlY2IwZjkwZjg2YmY5NWM4MGVkZGMxYzgzY2EwZGJmNTgwOGI3ODR=
+lOSwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; di=
+splay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%;"> <img alt=3D"Luiz Fernando Brito Ferreira" sr=
+c=3D"https://media.licdn.com/dms/image/v2/D4E03AQHtWMkj43o1lA/profile-displ=
+ayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724191556445?=
+e=3D2147483647&amp;v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB92xXoc9r_1IG6EIU=
+IKB4" class=3D"rounded-[100%] w-[32px] h-[32px]" style=3D"outline: none; te=
+xt-decoration: none; -ms-interpolation-mode: bicubic; height: 32px; width: =
+32px; border-radius: 100%;" width=3D"32" height=3D"32"> </a> </td> </tr> </=
+tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D=
+"px-0 pb-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 0px; padd=
+ing-right: 0px; padding-bottom: 24px;"> <div> <table role=3D"presentation" =
+valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"10=
+0%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td data-test-id=
+=3D"newsletter-entity-lockup" class=3D"px-3 pt-1" style=3D"-webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tabl=
+e-rspace: 0pt; padding-left: 24px; padding-right: 24px; padding-top: 8px;">=
+ <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" width=3D"100%" class=3D"font-sans" style=3D"-webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt; font-family: -apple-system, system-ui, BlinkMacSystemFon=
+t, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxyg=
+en Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', '=
+Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans=
+-serif;"> <tbody> <tr> <td valign=3D"top" class=3D"pr-1 w-6" style=3D"-webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt; width: 48px; padding-right: 8px;" width=3D"48"> <=
+a href=3D"https://www.linkedin.com/comm/newsletters/7061745063541751808?lip=
+i=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BGalWG3K4Qb2=
+mEPX1AavclA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3AGUZ3rO1u_rE1=
+&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-0=
+-newsletter_entity_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01=
+-newsletter_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m87y3nm4~g-nu=
+ll-null&amp;eid=3Dgdb74f-m87y3nm4-g&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1=
+MjQwNGVkNDIxZmVlYjQ4OWNhZDQ0NzkxYWY4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg0NjR=
+iOWJlY2IwZjkwZjg2YmY5NWM4MGVkZGMxYzgzY2EwZGJmNTgwOGI3ODRlOSwxLDE%3D" target=
+=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-block=
+; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%;"> <img class=3D"inline-block relative bg-color-entity-ghost-backg=
+round w-6 h-6 rounded-md" src=3D"https://media.licdn.com/dms/image/v2/D4D12=
+AQGMppL6UNTbyA/series-logo_image-shrink_100_100/series-logo_image-shrink_10=
+0_100/0/1683651217603?e=3D2147483647&amp;v=3Dbeta&amp;t=3DGunRE4vYj_7ZJyr2A=
+WLy6b1VVbvlEbGmKuxznycsPT4" alt=3D"Abrir SIS Innov &amp;amp; Tech News" sty=
+le=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicubic=
+; position: relative; display: inline-block; height: 48px; width: 48px; bor=
+der-radius: 8px; background-color: #eae6df;" width=3D"48" height=3D"48"> </=
+a> </td> <td valign=3D"top" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tabl=
+e role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbod=
+y> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://ww=
+w.linkedin.com/comm/newsletters/7061745063541751808?lipi=3Durn%3Ali%3Apage%=
+3Aemail_email_series_follow_newsletter_01%3BGalWG3K4Qb2mEPX1AavclA%3D%3D&am=
+p;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3AGUZ3rO1u_rE1&amp;trk=3Deml-email=
+_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_c=
+ta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_entity_l=
+ockup-0-newsletter_entity_cta-null-gdb74f~m87y3nm4~g-null-null&amp;eid=3Dgd=
+b74f-m87y3nm4-g&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVlYjQ4=
+OWNhZDQ0NzkxYWY4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg0NjRiOWJlY2IwZjkwZjg2YmY=
+5NWM4MGVkZGMxYzgzY2EwZGJmNTgwOGI3ODRlOSwxLDE%3D" target=3D"_blank" class=3D=
+"no-underline" style=3D"color: #0a66c2; cursor: pointer; display: inline-bl=
+ock; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; text-decoration-line: none;"> <div class=3D"pb-0.5" style=3D"p=
+adding-bottom: 4px;"> <span class=3D"text-md font-bold text-color-text brea=
+k-words leading-regular" style=3D"overflow-wrap: break-word; font-size: 16p=
+x; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> SIS In=
+nov &amp; Tech News </span> </div> </a> </td> </tr> <tr> <td style=3D"-webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/newsle=
+tters/7061745063541751808?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follo=
+w_newsletter_01%3BGalWG3K4Qb2mEPX1AavclA%3D%3D&amp;midToken=3DAQHxaOsdYMWJV=
+Q&amp;midSig=3D3AGUZ3rO1u_rE1&amp;trk=3Deml-email_series_follow_newsletter_=
+01-newsletter_entity_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-emai=
+l_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_=
+cta-null-gdb74f~m87y3nm4~g-null-null&amp;eid=3Dgdb74f-m87y3nm4-g&amp;otpTok=
+en=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVlYjQ4OWNhZDQ0NzkxYWY4ZDYxNzljND=
+A2NmQ0YjVkNWJmMmZlZDNkZjg0NjRiOWJlY2IwZjkwZjg2YmY5NWM4MGVkZGMxYzgzY2EwZGJmN=
+TgwOGI3ODRlOSwxLDE%3D" target=3D"_blank" class=3D"no-underline" style=3D"co=
+lor: #0a66c2; cursor: pointer; display: inline-block; text-decoration: none=
+; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decorati=
+on-line: none;"> <span class=3D"text-xs text-color-text-low-emphasis leadin=
+g-regular" style=3D"font-size: 12px; line-height: 1.25; color: rgba(0, 0, 0=
+, 0.6);"> Quer saber como a tecnologia pode transformar os seus neg=C3=B3ci=
+os? Ent=C3=A3o acompanhe a nossa newsletter=E2=80=A6 </span> </a> </td> </t=
+r> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr data-tes=
+t-id=3D"newsletter-content-preview"> <td class=3D"px-3 pt-2" style=3D"-webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt; padding-left: 24px; padding-right: 24px; padding-=
+top: 16px;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;"> <tbody> <tr> <td class=3D"overflow-hidden " style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; overflow: hidden;"> <table role=3D"presentation" vali=
+gn=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/sa=
+as-na-ind%C3%BAstria-farmac%C3%AAutica-chave-para-inova%C3%A7%C3%A3o-e-efic=
+i%C3%AAncia-ltqof?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsle=
+tter_01%3BGalWG3K4Qb2mEPX1AavclA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;mi=
+dSig=3D3AGUZ3rO1u_rE1&amp;trk=3Deml-email_series_follow_newsletter_01-newsl=
+etter_content_preview-0-headline_&amp;trkEmail=3Deml-email_series_follow_ne=
+wsletter_01-newsletter_content_preview-0-headline_-null-gdb74f~m87y3nm4~g-n=
+ull-null&amp;eid=3Dgdb74f-m87y3nm4-g&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I=
+1MjQwNGVkNDIxZmVlYjQ4OWNhZDQ0NzkxYWY4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg0Nj=
+RiOWJlY2IwZjkwZjg2YmY5NWM4MGVkZGMxYzgzY2EwZGJmNTgwOGI3ODRlOSwxLDE%3D" targe=
+t=3D"_blank" class=3D"w-full" style=3D"color: #0a66c2; cursor: pointer; dis=
+play: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; width: 100%;"> <img class=3D"block w-full aspec=
+t-[744/400] object-cover overflow-hidden" data-test-id=3D"newsletter-conten=
+t-preview__cover-image" alt=3D"Imagem de capa da newsletter" src=3D"https:/=
+/media.licdn.com/dms/image/v2/D4D12AQG4wQGFl9JPLg/article-cover_image-shrin=
+k_720_1280/B4DZWP1JYsG4AM-/0/1741874833492?e=3D2147483647&amp;v=3Dbeta&amp;=
+t=3DZmStd0cnf8cUZ9brixWE7Jmnvj3abSbKyv5_md7CovM" style=3D"outline: none; te=
+xt-decoration: none; -ms-interpolation-mode: bicubic; display: block; aspec=
+t-ratio: 744/400; width: 100%; overflow: hidden; object-fit: cover;"> </a> =
+</td> </tr> <tr> <td class=3D"py-2" style=3D"-webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ padding-top: 16px; padding-bottom: 16px;"> <table role=3D"presentation" va=
+lign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%=
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/=
+saas-na-ind%C3%BAstria-farmac%C3%AAutica-chave-para-inova%C3%A7%C3%A3o-e-ef=
+ici%C3%AAncia-ltqof?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_news=
+letter_01%3BGalWG3K4Qb2mEPX1AavclA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;=
+midSig=3D3AGUZ3rO1u_rE1&amp;trk=3Deml-email_series_follow_newsletter_01-new=
+sletter_content_preview-0-title_&amp;trkEmail=3Deml-email_series_follow_new=
+sletter_01-newsletter_content_preview-0-title_-null-gdb74f~m87y3nm4~g-null-=
+null&amp;eid=3Dgdb74f-m87y3nm4-g&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQ=
+wNGVkNDIxZmVlYjQ4OWNhZDQ0NzkxYWY4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg0NjRiOW=
+JlY2IwZjkwZjg2YmY5NWM4MGVkZGMxYzgzY2EwZGJmNTgwOGI3ODRlOSwxLDE%3D" target=3D=
+"_blank" class=3D"no-underline font-medium text-sm m-0 text-system-gray-90"=
+ style=3D"cursor: pointer; display: inline-block; text-decoration: none; -w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0px; font=
+-size: 14px; font-weight: 500; color: #282828; text-decoration-line: none;"=
+> <h2 class=3D"m-0 text-display-sm leading-regular text-color-text font-bol=
+d font-sans" style=3D"margin: 0px; font-family: -apple-system, system-ui, B=
+linkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubunt=
+u, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvet=
+ica, Arial, sans-serif; font-size: 24px; font-weight: 600; line-height: 1.2=
+5; color: rgba(0, 0, 0, 0.9);"> SaaS na Ind=C3=BAstria Farmac=C3=AAutica: A=
+ Chave para Inova=C3=A7=C3=A3o e Efici=C3=AAncia Operacional </h2> </a> </t=
+d> </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"=
+presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%" data-test-id=3D"newsletter-author-lockup-redesign" class=
+=3D"mt-1 mb-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-bottom: 16px;=
+ margin-top: 8px;"> <tbody> <tr> <td valign=3D"middle" align=3D"left" class=
+=3D"w-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 24px;" width=3D"24"=
+> <a href=3D"https://www.linkedin.com/comm/company/sisinnovtech?lipi=3Durn%=
+3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BGalWG3K4Qb2mEPX1Aav=
+clA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3AGUZ3rO1u_rE1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-autho=
+r_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_=
+preview-0-author_-null-gdb74f~m87y3nm4~g-null-null&amp;eid=3Dgdb74f-m87y3nm=
+4-g&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVlYjQ4OWNhZDQ0Nzkx=
+YWY4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg0NjRiOWJlY2IwZjkwZjg2YmY5NWM4MGVkZGM=
+xYzgzY2EwZGJmNTgwOGI3ODRlOSwxLDE%3D" target=3D"_blank" style=3D"color: #0a6=
+6c2; cursor: pointer; display: inline-block; text-decoration: none; -webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img class=3D"inline=
+-block relative bg-color-entity-ghost-background w-4 h-4 align-middle" src=
+=3D"https://media.licdn.com/dms/image/v2/C4D0BAQHpmoet8ArItQ/company-logo_1=
+00_100/company-logo_100_100/0/1675792266863/sisconsultoria_logo?e=3D2147483=
+647&amp;v=3Dbeta&amp;t=3DFWUb0STN_6Zm5ReHnviakRDZPFOoASnDFoE1oufW50s" alt=
+=3D"Imagem do autor" style=3D"outline: none; text-decoration: none; -ms-int=
+erpolation-mode: bicubic; position: relative; display: inline-block; height=
+: 32px; width: 32px; background-color: #eae6df; vertical-align: middle;" wi=
+dth=3D"32" height=3D"32"> </a> </td> <td style=3D"-webkit-text-size-adjust:=
+ 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt;"> <a href=3D"https://www.linkedin.com/comm/company/sisinnovtech?lipi=
+=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BGalWG3K4Qb2m=
+EPX1AavclA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3AGUZ3rO1u_rE1&=
+amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-=
+0-author_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_c=
+ontent_preview-0-author_-null-gdb74f~m87y3nm4~g-null-null&amp;eid=3Dgdb74f-=
+m87y3nm4-g&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVlYjQ4OWNhZ=
+DQ0NzkxYWY4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg0NjRiOWJlY2IwZjkwZjg2YmY5NWM4=
+MGVkZGMxYzgzY2EwZGJmNTgwOGI3ODRlOSwxLDE%3D" target=3D"_blank" class=3D"no-u=
+nderline ml-1" style=3D"color: #0a66c2; cursor: pointer; display: inline-bl=
+ock; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; margin-left: 8px; text-decoration-line: none;"> <span class=3D=
+"font-sans font-bold text-sm mb-3 text-color-text-low-emphasis leading-regu=
+lar" style=3D"margin-bottom: 24px; font-family: -apple-system, system-ui, B=
+linkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubunt=
+u, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvet=
+ica, Arial, sans-serif; font-size: 14px; font-weight: 600; line-height: 1.2=
+5; color: rgba(0, 0, 0, 0.6);"> SIS Innov &amp; Tech </span> </a> </td> </t=
+r> </tbody> </table> </td> </tr> <tr> <td class=3D"pb-1" style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; padding-bottom: 8px;"> <div class=3D"p-3 bg-color-sur=
+face-tint rounded-md font-sans" data-test-id=3D"newsletter-cta-banner" styl=
+e=3D"border-radius: 8px; background-color: #f5f7f9; padding: 24px; font-fam=
+ily: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Hel=
+vetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid=
+ Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;"> <div class=3D"mb-=
+1.5" style=3D"margin-bottom: 12px;"> <span class=3D"text-md leading-regular=
+ font-bold text-color-text" style=3D"font-size: 16px; font-weight: 600; lin=
+e-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Leia este artigo no LinkedIn p=
+ara participar da conversa </span> </div> <table role=3D"presentation" vali=
+gn=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" =
+class=3D"email-button " data-test-id=3D"email-button" style=3D"-webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt;"> <tbody> <tr> <td valign=3D"middle" align=3D"left" styl=
+e=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/c=
+omm/pulse/saas-na-ind%C3%BAstria-farmac%C3%AAutica-chave-para-inova%C3%A7%C=
+3%A3o-e-efici%C3%AAncia-ltqof?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_f=
+ollow_newsletter_01%3BGalWG3K4Qb2mEPX1AavclA%3D%3D&amp;midToken=3DAQHxaOsdY=
+MWJVQ&amp;midSig=3D3AGUZ3rO1u_rE1&amp;trk=3Deml-email_series_follow_newslet=
+ter_01-newsletter_content_preview-0-read_more_banner_cta_&amp;trkEmail=3Dem=
+l-email_series_follow_newsletter_01-newsletter_content_preview-0-read_more_=
+banner_cta_-null-gdb74f~m87y3nm4~g-null-null&amp;eid=3Dgdb74f-m87y3nm4-g&am=
+p;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVlYjQ4OWNhZDQ0NzkxYWY4ZD=
+YxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg0NjRiOWJlY2IwZjkwZjg2YmY5NWM4MGVkZGMxYzgzY=
+2EwZGJmNTgwOGI3ODRlOSwxLDE%3D" target=3D"_blank" aria-label=3D"Abrir este a=
+rtigo no LinkedIn" class=3D"align-top no-underline " style=3D"color: #0a66c=
+2; cursor: pointer; display: inline-block; text-decoration: none; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; vertical-align: top; tex=
+t-decoration-line: none;"> <table role=3D"presentation" valign=3D"top" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"auto" class=3D"border=
+-separate " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: separa=
+te;"> <tbody> <tr> <td class=3D"btn-sm btn-primary border-color-brand butto=
+n-link leading-regular !min-h-[auto] !shadow-none border-1 border-solid" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt; height: min-content; border-radius: 2=
+4px; padding-top: 7px; padding-bottom: 7px; padding-left: 16px; padding-rig=
+ht: 16px; text-align: center; font-size: 14px; font-weight: 600; cursor: po=
+inter; text-decoration-line: none; background-color: #0a66c2; color: #fffff=
+f; border-width: 1px; border-style: solid; border-color: #0a66c2; line-heig=
+ht: 1.25; min-height: auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 =
+0 #0000 !important;"> <a href=3D"https://www.linkedin.com/comm/pulse/saas-n=
+a-ind%C3%BAstria-farmac%C3%AAutica-chave-para-inova%C3%A7%C3%A3o-e-efici%C3=
+%AAncia-ltqof?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter=
+_01%3BGalWG3K4Qb2mEPX1AavclA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=
+=3D3AGUZ3rO1u_rE1&amp;trk=3Deml-email_series_follow_newsletter_01-newslette=
+r_content_preview-0-read_more_banner_cta_&amp;trkEmail=3Deml-email_series_f=
+ollow_newsletter_01-newsletter_content_preview-0-read_more_banner_cta_-null=
+-gdb74f~m87y3nm4~g-null-null&amp;eid=3Dgdb74f-m87y3nm4-g&amp;otpToken=3DMWI=
+wZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVlYjQ4OWNhZDQ0NzkxYWY4ZDYxNzljNDA2NmQ0Yj=
+VkNWJmMmZlZDNkZjg0NjRiOWJlY2IwZjkwZjg2YmY5NWM4MGVkZGMxYzgzY2EwZGJmNTgwOGI3O=
+DRlOSwxLDE%3D" target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" class=
+=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; display: inline=
+-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; text-decoration-line: none;"> <span class=3D"no-underline t=
+ext-white" style=3D"color: #ffffff; text-decoration-line: none;"> Ler no Li=
+nkedIn </span> </a> </td> </tr> </tbody> </table> </a> </td> </tr> </tbody>=
+ </table> </div> </td> </tr> <tr data-test-id=3D"newsletter-content-preview=
+--content"> <td class=3D"font-sans text-md leading-open text-system-gray-90=
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, syste=
+m-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans'=
+, Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoj=
+i', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande',=
+ Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #2=
+82828;"> <div data-test-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1.=
+5 text-md leading-open" style=3D"font-weight: 400; margin: 0px; margin-top:=
+ 12px; font-size: 16px; line-height: 1.5;"> <span class=3D"font-[700]" data=
+-test-id=3D"little-text-block" style=3D"font-weight: 700;">O que =C3=A9 Saa=
+S e como ele est=C3=A1 transformando empresas?</span> </p> </div> <div data=
+-test-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1.5 text-md leading-=
+open" style=3D"font-weight: 400; margin: 0px; margin-top: 12px; font-size: =
+16px; line-height: 1.5;"> <span class data-test-id=3D"little-text-block">Sa=
+aS, ou Software as a Service, =C3=A9 um modelo de software em que as aplica=
+=C3=A7=C3=B5es s=C3=A3o oferecidas pela internet, permitindo que usu=C3=A1r=
+ios as acessem de qualquer lugar, sem precisar instalar sistemas localmente=
+. Esse formato oferece uma s=C3=A9rie de benef=C3=ADcios que v=C3=AAm trans=
+formando a maneira como as empresas, especialmente no setor farmac=C3=AAuti=
+co, gerenciam suas opera=C3=A7=C3=B5es.=C2=A0</span> </p> </div> <div data-=
+test-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1.5 text-md leading-o=
+pen" style=3D"font-weight: 400; margin: 0px; margin-top: 12px; font-size: 1=
+6px; line-height: 1.5;"> <span class data-test-id=3D"little-text-block">Com=
+ SaaS, n=C3=A3o h=C3=A1 necessidade de investir em servidores ou infraestru=
+tura local, o que reduz drasticamente o custo inicial. Isso significa que a=
+s empresas podem se concentrar no que realmente importa: crescer e inovar. =
+Al=C3=A9m disso, solu=C3=A7=C3=B5es SaaS como a nossa, voltada para a gest=
+=C3=A3o de bulas digitais, permitem uma flexibilidade que outras op=C3=A7=
+=C3=B5es n=C3=A3o oferecem. O cliente pode adaptar o uso da plataforma conf=
+orme a necessidade, sem se preocupar com a infraestrutura.</span> </p> </di=
+v> <div data-test-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1.5 text=
+-md leading-open" style=3D"font-weight: 400; margin: 0px; margin-top: 12px;=
+ font-size: 16px; line-height: 1.5;"> <span class=3D"font-[700]" data-test-=
+id=3D"little-text-block" style=3D"font-weight: 700;">Desenvolvendo uma solu=
+=C3=A7=C3=A3o SaaS: Muito al=C3=A9m da nuvem</span> </p> </div> <div data-t=
+est-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1.5 text-md leading-op=
+en" style=3D"font-weight: 400; margin: 0px; margin-top: 12px; font-size: 16=
+px; line-height: 1.5;"> <span class data-test-id=3D"little-text-block">O de=
+senvolvimento de uma solu=C3=A7=C3=A3o SaaS n=C3=A3o =C3=A9 apenas sobre di=
+sponibilizar um aplicativo na nuvem. A jornada come=C3=A7a com o levantamen=
+to de requisitos espec=C3=ADficos do cliente, passando por escolhas tecnol=
+=C3=B3gicas que garantem a escalabilidade e seguran=C3=A7a da solu=C3=A7=C3=
+=A3o.</span> </p> </div> <div data-test-id=3D"publishing-text-block"> <p cl=
+ass=3D"m-0 mt-1.5 text-md leading-open" style=3D"font-weight: 400; margin: =
+0px; margin-top: 12px; font-size: 16px; line-height: 1.5;"> <span class dat=
+a-test-id=3D"little-text-block">Aqui, na nossa equipe, utilizamos uma varie=
+dade de tecnologias que s=C3=A3o selecionadas com base nas demandas de cada=
+ projeto. N=C3=A3o seguimos uma "receita de bolo". Cada solu=C3=A7=C3=A3o =
+=C3=A9 pensada para o cliente, seja para escalar rapidamente conforme o cre=
+scimento da empresa, ou garantir que os dados sens=C3=ADveis sejam mantidos=
+ seguros e em conformidade com todas as regulamenta=C3=A7=C3=B5es aplic=C3=
+=A1veis, especialmente no setor farmac=C3=AAutico, que exige um alto n=C3=
+=ADvel de seguran=C3=A7a.</span> </p> </div> <span>...</span> </td> </tr> <=
+tr> <td class=3D"pt-2 no-underline" style=3D"-webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ padding-top: 16px; text-decoration-line: none;"> <table role=3D"presentati=
+on" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%" class=3D"email-button series-content-preview__bottom-cta" data-te=
+st-id=3D"email-button" style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <t=
+r> <td valign=3D"middle" align=3D"left" style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/saas-na-ind%C3%BAstri=
+a-farmac%C3%AAutica-chave-para-inova%C3%A7%C3%A3o-e-efici%C3%AAncia-ltqof?l=
+ipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BGalWG3K4Q=
+b2mEPX1AavclA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3AGUZ3rO1u_r=
+E1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_content_previ=
+ew-0-readmore_button_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-=
+newsletter_content_preview-0-readmore_button_-null-gdb74f~m87y3nm4~g-null-n=
+ull&amp;eid=3Dgdb74f-m87y3nm4-g&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQw=
+NGVkNDIxZmVlYjQ4OWNhZDQ0NzkxYWY4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg0NjRiOWJ=
+lY2IwZjkwZjg2YmY5NWM4MGVkZGMxYzgzY2EwZGJmNTgwOGI3ODRlOSwxLDE%3D" target=3D"=
+_blank" aria-label=3D"Abrir SIS Innov &amp;amp; Tech News no LinkedIn" clas=
+s=3D"align-top no-underline " style=3D"color: #0a66c2; cursor: pointer; dis=
+play: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; vertical-align: top; text-decoration-line: none=
+; width: 100%;"> <table role=3D"presentation" valign=3D"top" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"border-separate =
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: separate; width:=
+ 100%;"> <tbody> <tr> <td class=3D"btn-md btn-secondary-emphasis border-col=
+or-brand button-link leading-regular !min-h-[auto] !shadow-none border-1 bo=
+rder-solid font-sans" data-test-id=3D"newsletter-content-preview-redesign-b=
+ottom-cta" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: min-content; bor=
+der-radius: 24px; padding-top: 12px; padding-bottom: 12px; padding-left: 24=
+px; padding-right: 24px; text-align: center; font-size: 16px; font-weight: =
+600; cursor: pointer; text-decoration-line: none; background-color: rgba(0,=
+ 0, 0, 0); color: #0a66c2; border-width: 1px; border-style: solid; border-c=
+olor: #0a66c2; font-family: -apple-system, system-ui, BlinkMacSystemFont, '=
+Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen S=
+ans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Sego=
+e UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-ser=
+if; line-height: 1.25; min-height: auto !important; box-shadow: 0 0 #0000, =
+0 0 #0000, 0 0 #0000 !important;"> <a href=3D"https://www.linkedin.com/comm=
+/pulse/saas-na-ind%C3%BAstria-farmac%C3%AAutica-chave-para-inova%C3%A7%C3%A=
+3o-e-efici%C3%AAncia-ltqof?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_foll=
+ow_newsletter_01%3BGalWG3K4Qb2mEPX1AavclA%3D%3D&amp;midToken=3DAQHxaOsdYMWJ=
+VQ&amp;midSig=3D3AGUZ3rO1u_rE1&amp;trk=3Deml-email_series_follow_newsletter=
+_01-newsletter_content_preview-0-readmore_button_&amp;trkEmail=3Deml-email_=
+series_follow_newsletter_01-newsletter_content_preview-0-readmore_button_-n=
+ull-gdb74f~m87y3nm4~g-null-null&amp;eid=3Dgdb74f-m87y3nm4-g&amp;otpToken=3D=
+MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVlYjQ4OWNhZDQ0NzkxYWY4ZDYxNzljNDA2NmQ=
+0YjVkNWJmMmZlZDNkZjg0NjRiOWJlY2IwZjkwZjg2YmY5NWM4MGVkZGMxYzgzY2EwZGJmNTgwOG=
+I3ODRlOSwxLDE%3D" target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" cl=
+ass=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; display: inl=
+ine-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; text-decoration-line: none; width: 100%;"> <span class=
+=3D"no-underline text-color-brand" style=3D"color: #0a66c2; text-decoration=
+-line: none;"> Continue lendo no LinkedIn </span> </a> </td> </tr> </tbody>=
+ </table> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> =
+</td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </t=
+body> </table> </div> </td> </tr> <tr> <td class=3D"bg-color-background-can=
+vas p-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f3f2f0;=
+ padding: 24px;"> <table role=3D"presentation" valign=3D"top" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"text-xs" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; font-size: 12px;"> <tbody> <tr> <td clas=
+s=3D"pb-1 m-0" data-test-id=3D"email-footer__intended" style=3D"-webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> Este e-mail foi env=
+iado a Luiz Fernando Brito Ferreira (Full-Stack Developer | Java | JS | Rea=
+ct.js | PostgreSQL) </td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> <a href=3D"htt=
+ps://www.linkedin.com/help/linkedin/answer/4788?lang=3Dpt&amp;lipi=3Durn%3A=
+li%3Apage%3Aemail_email_series_follow_newsletter_01%3BGalWG3K4Qb2mEPX1Aavcl=
+A%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3AGUZ3rO1u_rE1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-SecurityHelp-0-footerglimmer&amp;t=
+rkEmail=3Deml-email_series_follow_newsletter_01-SecurityHelp-0-footerglimme=
+r-null-gdb74f~m87y3nm4~g-null-null&amp;eid=3Dgdb74f-m87y3nm4-g&amp;otpToken=
+=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVlYjQ4OWNhZDQ0NzkxYWY4ZDYxNzljNDA2=
+NmQ0YjVkNWJmMmZlZDNkZjg0NjRiOWJlY2IwZjkwZjg2YmY5NWM4MGVkZGMxYzgzY2EwZGJmNTg=
+wOGI3ODRlOSwxLDE%3D" target=3D"_blank" class=3D"text-inherit underline" sty=
+le=3D"cursor: pointer; display: inline-block; text-decoration: none; -webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: inherit; text-=
+decoration-line: underline;">Saiba por que inclu=C3=ADmos isso.</a> </td> <=
+/tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; ma=
+rgin: 0px; padding-bottom: 8px;">Voc=C3=AA est=C3=A1 recebendo e-mails de n=
+otifica=C3=A7=C3=A3o do LinkedIn. Outras pessoas podem ver que voc=C3=AA =
+=C3=A9 assinante.</td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> <a href=3D"https:=
+//www.linkedin.com/series-notifications/?action=3Dunsubscribe&amp;memberTok=
+en=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&amp;newsletterId=3D70617450635=
+41751808&amp;newsletterTitle=3DSIS Innov &amp; Tech News&amp;lipi=3Durn%3Al=
+i%3Apage%3Aemail_email_series_follow_newsletter_01%3BGalWG3K4Qb2mEPX1AavclA=
+%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3AGUZ3rO1u_rE1&amp;ek=3De=
+mail_series_follow_newsletter_01&amp;e=3Dgdb74f-m87y3nm4-g&amp;eid=3Dgdb74f=
+-m87y3nm4-g&amp;m=3Dunsubscribe&amp;ts=3DfooterGlimmer&amp;li=3D0&amp;t=3Dp=
+lh" target=3D"_blank" class=3D"text-inherit underline" style=3D"cursor: poi=
+nter; display: inline-block; text-decoration: none; -webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; color: inherit; text-decoration-line: =
+underline;">Cancelar inscri=C3=A7=C3=A3o</a> =C2=A0=C2=A0=C2=B7=C2=A0=C2=A0=
+ <a href=3D"https://www.linkedin.com/help/linkedin/answer/67?lang=3Dpt&amp;=
+lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BGalWG3K4=
+Qb2mEPX1AavclA%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3AGUZ3rO1u_=
+rE1&amp;trk=3Deml-email_series_follow_newsletter_01-help-0-footerglimmer&am=
+p;trkEmail=3Deml-email_series_follow_newsletter_01-help-0-footerglimmer-nul=
+l-gdb74f~m87y3nm4~g-null-null&amp;eid=3Dgdb74f-m87y3nm4-g&amp;otpToken=3DMW=
+IwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVlYjQ4OWNhZDQ0NzkxYWY4ZDYxNzljNDA2NmQ0Y=
+jVkNWJmMmZlZDNkZjg0NjRiOWJlY2IwZjkwZjg2YmY5NWM4MGVkZGMxYzgzY2EwZGJmNTgwOGI3=
+ODRlOSwxLDE%3D" target=3D"_blank" class=3D"text-inherit underline" style=3D=
+"cursor: pointer; display: inline-block; text-decoration: none; -webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; color: inherit; text-decor=
+ation-line: underline;">Ajuda</a> </td> </tr> <tr> <td class=3D"pb-1" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px;"> <a href=3D"https:=
+//www.linkedin.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_f=
+ollow_newsletter_01%3BGalWG3K4Qb2mEPX1AavclA%3D%3D&amp;midToken=3DAQHxaOsdY=
+MWJVQ&amp;midSig=3D3AGUZ3rO1u_rE1&amp;trk=3Deml-email_series_follow_newslet=
+ter_01-footer-0-logoGlimmer&amp;trkEmail=3Deml-email_series_follow_newslett=
+er_01-footer-0-logoGlimmer-null-gdb74f~m87y3nm4~g-null-null&amp;eid=3Dgdb74=
+f-m87y3nm4-g&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVlYjQ4OWN=
+hZDQ0NzkxYWY4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg0NjRiOWJlY2IwZjkwZjg2YmY5NW=
+M4MGVkZGMxYzgzY2EwZGJmNTgwOGI3ODRlOSwxLDE%3D" target=3D"_blank" style=3D"co=
+lor: #0a66c2; cursor: pointer; display: inline-block; text-decoration: none=
+; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img src=3D=
+"https://static.licdn.com/aero-v1/sc/h/9ehe6n39fa07dc5edzv0rla4e" alt=3D"Li=
+nkedIn" class=3D"block h-[14px] w-[56px] image-rendering-crisp" style=3D"ou=
+tline: none; text-decoration: none; image-rendering: -moz-crisp-edges; imag=
+e-rendering: -o-crisp-edges; image-rendering: -webkit-optimize-contrast; im=
+age-rendering: crisp-edges; -ms-interpolation-mode: nearest-neighbor; displ=
+ay: block; height: 14px; width: 56px;" width=3D"56" height=3D"14"> </a> </t=
+d> </tr> <tr> <td data-test-copyright-text style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;"> =C2=A9 2025 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wil=
+ton Place, Dublin 2 - Irlanda. LinkedIn =C3=A9 um nome comercial registrado=
+ da LinkedIn Ireland Unlimited Company. <span data-test-trademarks-text> Li=
+nkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn. </span=
+> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <=
+/tbody> </table> <img alt role=3D"presentation" src=3D"https://www.linkedin=
+.com/emimp/ip_WjJSaU56Um1MVzA0TjNremJtMDBMV2M9OlpXMWhhV3hmYzJWeWFXVnpYMlp2Y=
+kd4dmQxOXVaWGR6YkdWMGRHVnlYekF4OmRYSnVPbXhwT214cGJtdGxaRWx1UVhKMGFXTnNaVG8z=
+TXpBMU9UVXlORGd4TmpFd05UVTFNemt5.gif" style=3D"outline: none; text-decorati=
+on: none; -ms-interpolation-mode: bicubic; width: 1px; height: 1px;" width=
+=3D"1" height=3D"1"> </body> </html>
+------=_Part_10080563_1772153691.1741906447357--
+

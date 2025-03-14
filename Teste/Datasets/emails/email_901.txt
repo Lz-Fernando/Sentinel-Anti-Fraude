@@ -1,0 +1,543 @@
+X-GM-THRID: 1824675516494505059
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Aberto,Categoria:_atualiza=C3=A7=C3=B5es?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:821c:b0:29a:824b:9ec3 with SMTP id g28csp263456ysr;
+        Fri, 21 Feb 2025 05:56:16 -0800 (PST)
+X-Received: by 2002:a05:690c:4b88:b0:6f9:8605:ec98 with SMTP id 00721157ae682-6fbcc37b256mr25093237b3.28.1740146175861;
+        Fri, 21 Feb 2025 05:56:15 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1740146175; cv=none;
+        d=google.com; s=arc-20240605;
+        b=C4kgziS3tZNUEoUBylm+KI7OFSfHiKS39EUj40XzsojCDBsQMptSVIDu8oFCV/biOl
+         1Zgu6ABv2pEiw3Ortx0CjtIRiRbl9YH/Lmj6F5cKCMR6vms9lWJD2WkZH13po0OaNgZq
+         W4nOMjtAYiGd8D65hdTmO6rxvwZoBNYC2fC+37AYLZzoMCY9wEtXKhrb/G8ZdxyK5giI
+         kr/JxEJidx3P/x5wWIYJkGGLvR5Cll5aQ0NuI4iKmnjR0u0/PjdeC/U/kcvD9pUWShkQ
+         SfzoHVN23asGKtvJ9IruKnzLL97M0VQxk1Sl4kGe8jG1macQO/NthHJEvM5Y+pBDLfit
+         1eFQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:from:subject:date:message-id:feedback-id:mime-version
+         :dkim-signature;
+        bh=4PwPY1ontNDgREtza2YBPYooX+mofCiUNj5g1sYdNqM=;
+        fh=/HdUdLVjKbjM7vqKQCg0R7d+Cuu352Lx86DUD6qVhEc=;
+        b=RZAZ/ysYgs8nQxHKh3jJwclFwaoemWFIRpuKa1QgdPbhER46YNY4ibzJ4aV2ACOB1Y
+         9vN3L6Xzhwym5A4WDI52/IL9Nu+LQmT+pbtTnOKdmKgYz3muGg1IBKfPHEHgelFMqzSS
+         JDfUnkvZhpMy+bxmA296w/KncvDXmfX/nBJWqM5w5bSYUkja8YSQkyeyqZSA0HEkSdgC
+         O8DbPh6EJb0QNNdH0FOiwR90jfEM98m2y7+orTKHHSM1vsa6N0OxAVazHdjd/UVAqOIt
+         OYemXn8zdDBlBxGsk2uYwH0L+RmogISeoqZrXOsEiZJXZmOW0sbOXQJSk/fgeGmb2xKg
+         atXA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@google.com header.s=20230601 header.b=21SSDq2w;
+       spf=pass (google.com: domain of 3_4w4zxykaditcfag-fsqswdhg-bcfsdzmuccuzs.qca@trix.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3_4W4ZxYKADITcfag-fSQSWdhg-bcfSdZmUccUZS.Qca@trix.bounces.google.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <3_4W4ZxYKADITcfag-fSQSWdhg-bcfSdZmUccUZS.Qca@trix.bounces.google.com>
+Received: from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])
+        by mx.google.com with SMTPS id 00721157ae682-6fb3619cbcesor113774977b3.13.2025.02.21.05.56.15
+        for <nandobritoferreira@gmail.com>
+        (Google Transport Security);
+        Fri, 21 Feb 2025 05:56:15 -0800 (PST)
+Received-SPF: pass (google.com: domain of 3_4w4zxykaditcfag-fsqswdhg-bcfsdzmuccuzs.qca@trix.bounces.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@google.com header.s=20230601 header.b=21SSDq2w;
+       spf=pass (google.com: domain of 3_4w4zxykaditcfag-fsqswdhg-bcfsdzmuccuzs.qca@trix.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3_4W4ZxYKADITcfag-fSQSWdhg-bcfSdZmUccUZS.Qca@trix.bounces.google.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;
+       dara=pass header.i=@gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20230601; t=1740146175; x=1740750975; dara=google.com;
+        h=to:from:subject:date:message-id:feedback-id:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=4PwPY1ontNDgREtza2YBPYooX+mofCiUNj5g1sYdNqM=;
+        b=21SSDq2wuSowtGEkg+Gp4qSk63vWE7Zn1Zc9LOvSsAPSVon0QlFALLMwHXGB+HEXBT
+         Cv2WEw5YOfJbt1DHFMdY9T/9KezPGhNbX2r1jkTKZRgkqrqNf5re4HNRyXw44MY22g3p
+         meQ5yHROIDb9FAqvNmofHOX/sCfF9qnTHLB6M7oD9+o1HnRHVPG98CXOmVdixlHp5Tm5
+         GD5YR3dfGsnFMdFcA2WN2Td++QskBOhpdbpnFg9Y56WJ/inbNRABBwgbNY9Qd5h6oeyP
+         C/dWD4SniIMtF6FEG+xWUqEsf/1ESOdVRFEKyavfs3NgY7Go4k8uwL5tAhenpA0xYWcM
+         rjYA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1740146175; x=1740750975;
+        h=to:from:subject:date:message-id:feedback-id:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=4PwPY1ontNDgREtza2YBPYooX+mofCiUNj5g1sYdNqM=;
+        b=swm8sZ0tUVWYhgvR+cscc2PuuNvUA7yZ6KhkfS28lRWVcpXGdOeHognnjfhlcYgugL
+         enqC3ZNnXigtSR1KyjIBlqq+Hmp07mygAvp+GJF6M80qBCzHEdxKsbNOsW+LlJUXRqxa
+         /LFQPyT/Gv6hM5bze1i2UZdp/WPf5u2QTH23DGQye57i9JbJ7RDlVUKyqPK758sfwano
+         0reXr3MpgDozhp001NzRE/Xb/vNbTy7KkvWJ2JDl8S/Tlx1lw7nLqektVu9QEIK8t0PV
+         8Npo9JvDE1meHVUlhks2qhQk8UNDJjEoDYbz26D4bH2oddn9dIjDihxf0qZOdPrIZVBh
+         jbyA==
+X-Gm-Message-State: AOJu0YyeDFdn8/tn3tR2q5Ac+6CUGqpG9xWMBLpKmoFTx0piHIXmOY6P
+	3wm93KlSGdCJpdP+rpAkNCOkQwrEXxuuR1zXXozPFvpr7RCjv/AQf4SET8qugalKojMW8KiGQbk
+	LiXQq8aii7WCgFEj7xPp/lGa3X5N3Xfj7Yu8=
+X-Google-Smtp-Source: AGHT+IFz/BqygU0JAWSTPalPgNwYDCeQEy11ZuJxCAi2eK8mn2Vxjh9q4lZ4OxyTbXTK9ylGX8uNc39IQHb7uAd2kv/yaA==
+MIME-Version: 1.0
+X-Received: by 2002:a05:690c:6d13:b0:6e9:e097:718c with SMTP id
+ 00721157ae682-6fbcc1eef1emr30160787b3.6.1740146175516; Fri, 21 Feb 2025
+ 05:56:15 -0800 (PST)
+Feedback-ID: MailTypeResponseReceipt:GoogleForms
+X-GoogleForms-FormId: e/1FAIpQLSeiucdI8hjBOdjvkMrrizLJUJAETyrPii_qzU6WRsx_y1yu6g
+X-GoogleForms-IsConsumerForm: true
+Message-ID: <autogen-java-f07751aa-4d24-437f-acc5-90f14190cadc@google.com>
+Date: Fri, 21 Feb 2025 13:56:15 +0000
+Subject: Processo Seletivo PGE/SE - fevereiro de 2025
+From: =?UTF-8?Q?Formul=C3=A1rios_Google?= <forms-receipts-noreply@google.com>
+To: nandobritoferreira@gmail.com
+Content-Type: multipart/alternative; boundary="000000000000a62aa6062ea75a85"
+
+--000000000000a62aa6062ea75a85
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+Rm9ybXVsw6FyaW9zIEdvb2dsZQ0KDQoNCkFncmFkZWNlbW9zIG8gcHJlZW5jaGltZW50byBkZSBQ
+cm9jZXNzbyBTZWxldGl2byBQR0UvU0UgLSBmZXZlcmVpcm8gZGUgMjAyNQ0KVmVqYSBhcyByZXNw
+b3N0YXMgZW52aWFkYXMuDQoNCg0KUHJvY2Vzc28gU2VsZXRpdm8gUEdFL1NFIC0gZmV2ZXJlaXJv
+IGRlIDIwMjUNCg0KRXN0w6NvIGFiZXJ0YXMgYXMgaW5zY3Jpw6fDtWVzIHBhcmEgbm92YXMgdmFn
+YXMgZGUgZXN0w6FnaW8gZW0gY29tcHV0YcOnw6NvIHBhcmEgIA0KYXR1YXIgbmEgQ29vcmRlbmFk
+b3JpYSBkZSBJbmZvcm3DoXRpY2EgKENPRElOKSBkYSBQcm9jdXJhZG9yaWEtR2VyYWwgZG8gIA0K
+RXN0YWRvIGRlIFNlcmdpcGUuDQoNCg0KDQpObyBwcm9jZXNzbyBzZWxldGl2byBkZSBmZXZlcmVp
+cm8gZGUgMjAyNSwgZXN0w6NvIGFiZXJ0YXMgNCAocXVhdHJvKSB2YWdhcyAgDQpkZSBlc3TDoWdp
+byBhY2Fkw6ptaWNvIChuw6NvIG9icmlnYXTDs3JpbyBvdSBvYnJpZ2F0w7NyaW8pLCBzZW5kbzoN
+Cg0KDQoNCjMgKHRyw6pzKSB2YWdhcyBlbSBEZXNlbnZvbHZpbWVudG8gZGUgU29mdHdhcmUNCjEg
+KHVtYSkgdmFnYSBDacOqbmNpYSBkZSBEYWRvcyBlIElBDQoNCkFtYmFzIGFzIHZhZ2FzIHBvc3N1
+ZW0gYSBjYXJnYSBob3LDoXJpYSBkZSAyMGgvc2VtYW5haXMuIFNlcsOjbyAgDQpkaXNwb25pYmls
+aXphZGFzIHZhZ2FzIHRhbnRvIHBhcmEgbyB0dXJubyBkYSBtYW5ow6MgcXVhbnRvIGRhIHRhcmRl
+LiBBcyAgDQp2YWdhcyBzw6NvIGRlc3RpbmFkYXMgcGFyYSBhY2Fkw6ptaWNvcyBkbyAzwrAgdGVy
+Y2Vpcm8gcGVyw61vZG8gZW0gZGlhbnRlIG5vcyAgDQpjdXJzb3MgZGUgQ2nDqm5jaWEgZGEgQ29t
+cHV0YcOnw6NvLCBFbmdlbmhhcmlhIGRhIENvbXB1dGHDp8OjbywgU2lzdGVtYSBkZSAgDQpJbmZv
+cm1hw6fDo28sIEVuZ2VuaGFyaWEgZGUgU29mdHdhcmUsIENpw6puY2lhIGRlIERhZG9zLCBBbsOh
+bGlzZSBlICANCkRlc2Vudm9sdmltZW50byBkZSBTaXN0ZW1hcyBvdSBjdXJzb3MgY29ycmVsYXRv
+cy4NCg0KDQoNClBhcmEgZXZlbnR1YWlzIGTDunZpZGFzLCBjb250YXRlIGRpcmV0YW1lbnRlIGEg
+Q09ESU4gcG9yIG1laW8gZG8gZS1tYWlsOiAgDQp0ZWNub2xvZ2lhQHBnZS5zZS5nb3YuYnIuDQoN
+Cg0KDQpTZXUgZS1tYWlsIChuYW5kb2JyaXRvZmVycmVpcmFAZ21haWwuY29tKSBmb2kgcmVnaXN0
+cmFkbyBxdWFuZG8gdm9jw6ogZW52aW91ICANCmVzdGUgZm9ybXVsw6FyaW8uDQoNCg0KRGFzIHZh
+Z2FzDQoNCk5lc3RhIHNlw6fDo28sIHPDo28gYXByZXNlbnRhZGFzIGRlIG1hbmVpcmEgZGV0YWxo
+YWRhIGFzIHZhZ2FzIGVtIGFiZXJ0bywgY29tICANCm8gb2JqZXRpdm8gZGUgaWRlbnRpZmljYXIg
+byBpbnRlcmVzc2UgZG9zIGNhbmRpZGF0b3MuDQoNClJlcXVpc2l0b3MgcGVzc29haXMgZSBwcm9m
+aXNzaW9uYWlzIGdlcmFpczoNCi0gUGVuc2FtZW50byBhbmFsw610aWNvOw0KLSBDb211bmljYcOn
+w6NvIGNsYXJhOw0KLSBCb20gcmVsYWNpb25hbWVudG8gaW50ZXJwZXNzb2FsOw0KLSBQcsOpLWRp
+c3Bvc2nDp8OjbyBwYXJhIHRyYWJhbGhvIGVtIGVxdWlwZTsNCi0gSW5nbMOqcyB0w6ljbmljbyBl
+IGRvbcOtbmlvIGRhIGzDrW5ndWEgcG9ydHVndWVzYTsNCi0gT3JnYW5pemHDp8OjbyBlIHBsYW5l
+amFtZW50byBkZSB0cmFiYWxobzsNCi0gUG9kZXIgZGUgYWJzdHJhw6fDo28gZSBzw61udGVzZSwg
+ZSBwcmluY2lwYWxtZW50ZQ0KLSBWb250YWRlIGRlIGFwcmVuZGVyLg0KDQoNClNlbGVjaW9uZSBh
+KHMpIHZhZ2EocykgYXMgcXVhaXMgZGVzZWphIHNlIGFwbGljYXIuICoNCg0KVmFnYSBwYXJhIENp
+w6puY2lhIGRlIERhZG9zIGUgSW50ZWxpZ8OqbmNpYSBBcnRpZmljaWFsIChJQSkNClJlc3BvbnNh
+YmlsaWRhZGVzOg0KLSBEZXNlbnZvbHZpbWVudG8gZGUgbm92YXMgZnVuY2lvbmFsaWRhZGVzIHBh
+cmEgc2lzdGVtYXMgZGl2ZXJzb3M7DQotIE1hbnV0ZW7Dp8OjbyBlbSBXZWJBcHBzIG91IGFwbGlj
+YcOnw7VlcyBiYWNrLWVuZDsNCi0gRGVzZW52b2x2aW1lbnRvIGVtIEFQSSdzIG5vIHBhZHLDo28g
+UkVTVDsNCi0gQ3JpYcOnw6NvIGRlIGRhc2hib2FyZHM7DQotIEF1dG9tYcOnw6NvIGUgcm90aW5h
+cyBkZSBwcm9jZXNzb3MgZW0gZ2VyYWw7IGUNCi0gRW52b2x2aW1lbnRvIG5hIGNyaWHDp8OjbyBl
+IG1hbnV0ZW7Dp8OjbyBkZSBzaXN0ZW1hcyBpbnRlbGlnZW50ZXMgIA0KKEFwcmVuZGl6YWRvIGRl
+IE3DoXF1aW5hIFN1cGVydmlzaW9uYWRvIGUgTkxQKS4NCkRpZmVyZW5jaWFpczoNCi0gRG9tw61u
+aW8gZGUgR2l0IGUgZGEgcGxhdGFmb3JtYSBHaXRodWI7DQotIENvbmhlY2ltZW50byBkZSBiYW5j
+byBkZSBkYWRvcyByZWxhY2lvbmFpcyBjb21vIE15U1FMIG91IFNRTCBTZXJ2ZXIgZSAgDQpiYW5j
+byBuw6NvIHJlbGFjaW9uYWwgY29tbyBNb25nb0RCOw0KLSBDb25oZWNpbWVudG8gZW0gYmlibGlv
+dGVjYXMgY29tbyBGYXN0QVBJLCBwYW5kYXMgZSBzY2lraXQtbGVhcm47DQotIENvbmhlY2ltZW50
+byBlbSBmZXJyYW1lbnRhcyBkZSBjcmlhw6fDo28gZGUgZGFzaGJvYXJkczsNCi0gRmFtaWxpYXJp
+ZGFkZSBBUEkgUkVTVC4NCg0KVmFnYXMgcGFyYSBEZXNlbnZvbHZpbWVudG8gZGUgU29mdHdhcmUN
+ClJlc3BvbnNhYmlsaWRhZGVzOg0KLSBEZXNlbnZvbHZpbWVudG8gZGUgbm92YXMgZnVuY2lvbmFs
+aWRhZGVzIHBhcmEgc2lzdGVtYXMgZGl2ZXJzb3M7DQotIE1hbnV0ZW7Dp8OjbyBlbSBXZWJBcHBz
+IG91IGFwbGljYcOnw7VlcyBiYWNrLWVuZDsNCi0gRGVzZW52b2x2aW1lbnRvIGRlIG5vdmFzIGlu
+dGVyZmFjZXMgaW5jbHVpbmRvIGRlc2lnbiBlIHByb3RvdGlwYcOnw6NvOw0KLSBEZXNlbnZvbHZp
+bWVudG8gZGUgYmFja2dyb3VuZCBzZXJ2aWNlczsNCi0gRGVzZW52b2x2aW1lbnRvIGVtIEFQSSdz
+IG5vIHBhZHLDo28gUkVTVC4NCkRpZmVyZW5jaWFpczoNCi0gQ29uaGVjaW1lbnRvIGRlIGJhbmNv
+IGRlIGRhZG9zIHJlbGFjaW9uYWlzIGNvbW8gTXlTUUwgb3UgU1FMIFNlcnZlcjsNCi0gRG9tw61u
+aW8gZGUgR2l0IGUgZGEgcGxhdGFmb3JtYSBHaXRodWI7DQotIENvbmhlY2ltZW50byBlbSBmcmFt
+ZXdvcmtzXyBjb21vIFJlYWN0LCBWdWUuanMsIFNDUlVNIGUgLk5FVDsgZQ0KLSBGYW1pbGlhcmlk
+YWRlIEFQSSBSRVNULg0KDQoNCg0K4pyTDQpDacOqbmNpYSBkZSBEYWRvcyBlIEludGVsaWfDqm5j
+aWEgQXJ0aWZpY2lhbCAoSUEpDQoNCg0K4pyTDQpEZXNlbnZvbHZpbWVudG8gZGUgU29mdHdhcmUg
+Y29tIGZvY28gZW0gZnJvbnQtZW5kDQoNCg0K4pyTDQpEZXNlbnZvbHZpbWVudG8gZGUgU29mdHdh
+cmUgY29tIGZvY28gZW0gYmFjay1lbmQNCg0KDQpDYXNvIHRlbmhhIHNlbGVjaW9uYWRvIG1haXMg
+ZGUgdW1hIGFudGVyaW9ybWVudGUsIGV4cGxpcXVlIG8gcG9yIHF1ZSAgDQphY3JlZGl0YSBlc3Rh
+ciBhcHRvIG91IGNvbSBuw612ZWwgdMOpY25pY28gcGFyYSBhdHVhciBlbSBtYWlzIGRlIHVtYSAg
+DQplc3BlY2lhbGl6YcOnw6NvLg0KDQoNCkF0dWFsbWVudGUsIGN1cnNvIENpw6puY2lhIGRhIENv
+bXB1dGHDp8OjbyBlIGVzdG91IG5vIDjCuiBzZW1lc3RyZS4gVGVuaG8gIA0KZXhwZXJpw6puY2lh
+IGVtIGRlc2Vudm9sdmltZW50byBiYWNrLWVuZCBlIGZyb250LWVuZCwgdHJhYmFsaGFuZG8gY29t
+ICANCnRlY25vbG9naWFzIGNvbW8gUmVhY3QsIEphdmEgZSBQb3N0Z3JlU1FMLiBQYXJ0aWNpcGVp
+IGRlIHByb2pldG9zICANCmVudm9sdmVuZG8gZGVzaWduIGRlIGludGVyZmFjZXMgZSBpbnRlZ3Jh
+w6fDo28gZGUgc2lzdGVtYXMsIGFsw6ltIGRlIHRlciAgDQpmYW1pbGlhcmlkYWRlIGNvbSBHaXQs
+IGJhbmNvcyBkZSBkYWRvcyByZWxhY2lvbmFpcyBlIGNvbmNlaXRvcyBkZSBTQ1JVTS4gIA0KQWzD
+qW0gZGlzc28sIHRlbmhvIGdyYW5kZSBpbnRlcmVzc2UgZW0gYXByZW5kZXIgbWFpcyBzb2JyZSBD
+acOqbmNpYSBkZSBEYWRvcyAgDQplIEludGVsaWfDqm5jaWEgQXJ0aWZpY2lhbC4gTm8gbWV1IHBy
+b2pldG8gdW5pdmVyc2l0w6FyaW8gZGEgZGlzY2lwbGluYSAgDQpQcm9qZWN0IExhYiwgZmlxdWVp
+IHJlc3BvbnPDoXZlbCBwZWxvIGRlc2Vudm9sdmltZW50byBkZSB1bWEgSUEsIG8gcXVlIG1lICAN
+CnByb3BvcmNpb25vdSB1bSBwcmltZWlybyBjb250YXRvIHByw6F0aWNvIGNvbSBlc3NhIMOhcmVh
+LiBUYW1iw6ltIGrDoSBlc3R1ZGVpICANCmZlcnJhbWVudGFzIGRlIHZpc3VhbGl6YcOnw6NvIGRl
+IGRhZG9zIGNvbW8gUG93ZXIgQkksIFRhYmxlYXUgZSBNYXRwbG90bGliIGUgIA0KZXN0b3UgbWUg
+YXByb2Z1bmRhbmRvIGVtIGJpYmxpb3RlY2FzIGNvbW8gcGFuZGFzIGUgc2Npa2l0LWxlYXJuLg0K
+DQoNCkluZm9ybWUgZW0gcXVhbCB0dXJubyBwb3NzdWkgcHJlZmVyw6puY2lhIHBhcmEgZXN0YWdp
+YXIuICoNCg0KDQpNYXR1dGlubw0KDQoNClZlc3BlcnRpbm8NCg0KDQpOw6NvIHBvc3N1byBwcmVm
+ZXLDqm5jaWENCg0KDQpEbyBjYW5kaWRhdG8NCg0KQXRlbnRlLXNlIGEgdG9kb3Mgb3MgY2FtcG9z
+IGUgcmVzcGVpdGUgYXMgaW5zdHJ1w6fDtWVzLiBQcmVlbmNoYSBjb20gIA0KaW5mb3JtYcOnw7Vl
+cyB2ZXJkYWRlaXJhcyBlIG7Do28gdGVuaGEgcHJlc3NhIHBhcmEgdGVybWluYXIgbyBmb3JtdWzD
+oXJpby4NCg0KDQpJbmZvcm1lIHNldSBub21lIGNvbXBsZXRvLiBFc2NyZXZhIGVtIGNhaXhhIGFs
+dGEsIHNlbSBhY2VudG9zIG91IGNhcmFjdGVyZXMgIA0KZXNwZWNpYWlzLiAqDQoNCg0KTFVJWiBG
+RVJOQU5ETyBCUklUTyBGRVJSRUlSQQ0KDQoNCkluZm9ybWUgc3VhIGRhdGEgZGUgbmFzY2ltZW50
+by4gKg0KDQoNCkREDQoNCjEzDQoNCg0KLw0KDQoNCk1NDQoNCjA0DQoNCg0KLw0KDQoNCkFBQUEN
+Cg0KMjAwMw0KDQoNCkluZm9ybWUgc2V1IENQRi4gQXBlbmFzIG7Dum1lcm9zLiAqDQoNCg0KMDg5
+MTg3NDE1MTANCg0KDQpJbmZvcm1lIHF1YWwgbm9tZSBkbyBjdXJzbyBkZSBncmFkdWHDp8OjbyBv
+dSB0ZWNuw7Nsb2dvIGF0dWFsbWVudGUgZXN0w6EgIA0KbWF0cmljdWxhZG8uIEVzY3JldmEgZW0g
+Y2FpeGEgYWx0YSwgc2VtIGFjZW50b3Mgb3UgY2FyYWN0ZXJlcyBlc3BlY2lhaXMuICoNCg0KDQpD
+SUVOQ0lBIERBIENPTVBVVEFDQU8NCg0KDQpJbmZvcm1lIG8gcGVyw61vZG8gZW0gcXVlIHNlIGVu
+Y29udHJhLiBBcGVuYXMgbsO6bWVyb3MuICoNCg0KDQo4DQoNCg0KSW5mb3JtZSBvIG5vbWUgY29t
+cGxldG8gZGEgaW5zdGl0dWnDp8OjbyBkZSBlbnNpbm8gZW0gcXVlIGVzdMOhIG1hdHJpY3VsYWRv
+LiAgDQpFc2NyZXZhIGVtIGNhaXhhIGFsdGEsIHNlbSBhY2VudG9zIG91IGNhcmFjdGVyZXMgZXNw
+ZWNpYWlzLiAqDQoNCg0KVU5JVkVSU0lEQURFIFRJUkFERU5URVMNCg0KDQpJbmZvcm1lIHVtIGUt
+bWFpbCBwYXJhIGNvbnRhdG8uICoNCg0KDQpuYW5kb2JyaXRvZmVycmVpcmFAaG90bWFpbC5jb20N
+Cg0KDQpJbmZvcm1lIHVtIHRlbGVmb25lIHBhcmEgY29udGF0by4gQXBlbmFzIG7Dum1lcm9zLiAq
+DQoNCg0KNzU5OTEzMzg1NzUNCg0KDQpJbnNpcmEgbyBsaW5rIGRlIHNldSBwZXJmaWwgZG8gTGlu
+a2VkSW4sIGNhc28gcG9zc3VhLg0KDQoNCmh0dHBzOi8vd3d3LmxpbmtlZGluLmNvbS9pbi9mZXJu
+YW5kby1mZXJyZWlyYS1icml0bw0KDQoNCkluc2lyYSBvIGxpbmsgZGUgc2V1IHBlcmZpbCBkbyBH
+aXRodWIsIGNhc28gcG9zc3VhLg0KDQoNCmh0dHBzOi8vZ2l0aHViLmNvbS9Mei1GZXJuYW5kbw0K
+DQoNClBvciBmaW0sIGFuZXhlIHNldSBjdXJyw61jdWxvIGVtIGZvcm1hdG8gLnBkZi4gKg0KDQoN
+CkFycXVpdm9zIGVudmlhZG9zDQoNCg0KDQpQREYgQ1VSUklDVUxPIExVSVogRkVSTkFORE8gQlJJ
+VE8oMSkgLSBGZXJuYW5kbyBGZXJyZWlyYS5wZGYNCg0KDQpDcmllIHNldSBwcsOzcHJpbyBmb3Jt
+dWzDoXJpbyBkbyBHb29nbGUuDQoNCkRvZXMgdGhpcyBmb3JtIGxvb2sgc3VzcGljaW91cz8gUmVs
+YXTDs3Jpbw0KDQoNCg==
+--000000000000a62aa6062ea75a85
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style nonce=3D"dwMtLZkRL5N4eGBC5912gg">@import url(https://fon=
+ts.googleapis.com/css?family=3DGoogle+Sans_old:400,500|Roboto_old:300,400,4=
+00i,500,700&subset=3Dlatin,vietnamese,latin-ext,cyrillic,greek,cyrillic-ext=
+,greek-ext);</style><style nonce=3D"dwMtLZkRL5N4eGBC5912gg">[class=3D"x_bod=
+y-content-wrapper"] * {white-space: normal !important;}</style></head><body=
+ dir=3D"ltr" style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sa=
+ns-serif;font-size: 14px; font-weight: 400; line-height: 20px;text-align: s=
+tart; word-wrap: break-word; margin: 0; padding: 0; height: 100%; width: 10=
+0%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"backg=
+round-color:rgb(71,79,126);" width=3D"100%" role=3D"presentation"><tbody><t=
+r height=3D"64px"><td style=3D"padding: 0 24px;"><img alt=3D"Formul=C3=A1ri=
+os Google" height=3D"26px" style=3D"display: inline-block; margin: 0; verti=
+cal-align: middle;" width=3D"143px" src=3D"https://www.gstatic.com/docs/for=
+ms/google_forms_logo_lockup_white_2x.png"></td></tr></tbody></table><div cl=
+ass=3D"body-content-wrapper" style=3D"padding: 12px; background-color: rgb(=
+200,202,216);"><div style=3D"margin: 0 auto; max-width: 640px; min-width: 1=
+54px;"><div style=3D"border: 1px solid #dadce0; padding: 20px 12px;backgrou=
+nd-color: #fff; border-radius: 8px; margin-bottom: 12px;padding: 20px;"><h1=
+ style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;fon=
+t-size: 20px; font-weight: 400; line-height: 28px;margin: 0 0 12px;">Agrade=
+cemos o preenchimento de <a href=3D"https://docs.google.com/forms/d/e/1FAIp=
+QLSeiucdI8hjBOdjvkMrrizLJUJAETyrPii_qzU6WRsx_y1yu6g/viewform?usp=3Dmail_for=
+m_link" target=3D"_blank" style=3D"white-space: pre-wrap;">Processo Seletiv=
+o PGE/SE - fevereiro de 2025</a></h1>Veja as respostas enviadas.</div><div =
+style=3D"border-bottom: 1px solid #dadce0; border-left: 1px solid #dadce0; =
+border-right: 1px solid #dadce0; border-top: 8px solid rgb(71,79,126); padd=
+ing: 20px;background-color: #fff; border-radius: 8px; margin-bottom: 12px;"=
+><h1 dir=3D"ltr" style=3D"font-family: Roboto,Helvetica,Arial,sans-serif;fo=
+nt-size: 32px; font-weight: 400; line-height: 42px;white-space: pre-wrap;ma=
+rgin: 0 0 12px;">Processo Seletivo PGE/SE - fevereiro de 2025</h1><div styl=
+e=3D"white-space: pre-wrap;margin-bottom: 12px;">Est=C3=A3o abertas as insc=
+ri=C3=A7=C3=B5es para novas vagas de est=C3=A1gio em computa=C3=A7=C3=A3o p=
+ara atuar na <b>Coordenadoria de Inform=C3=A1tica (CODIN)</b> da Procurador=
+ia-Geral do Estado de Sergipe.=C2=A0<div><br></div><div>No processo seletiv=
+o de fevereiro de 2025, est=C3=A3o abertas <b>4 (quatro) vagas de est=C3=A1=
+gio acad=C3=AAmico (n=C3=A3o obrigat=C3=B3rio ou obrigat=C3=B3rio)</b>, sen=
+do:</div><div><ul><li><b>3 (tr=C3=AAs) vagas</b>=C2=A0em=C2=A0Desenvolvimen=
+to de <i>S</i><i>oftware</i></li><li><b>1 (uma) vaga</b> Ci=C3=AAncia de Da=
+dos e I.A</li></ul><div>Ambas as vagas possuem a carga hor=C3=A1ria de<b> 2=
+0h/semanais</b>. <b>Ser=C3=A3o disponibilizadas vagas tanto para o turno da=
+ manh=C3=A3 quanto da tarde</b>. As vagas s=C3=A3o destinadas para acad=C3=
+=AAmicos do <b>3=C2=B0 terceiro per=C3=ADodo em diante</b> nos cursos de Ci=
+=C3=AAncia da Computa=C3=A7=C3=A3o, Engenharia da Computa=C3=A7=C3=A3o, Sis=
+tema de Informa=C3=A7=C3=A3o, Engenharia de Software, Ci=C3=AAncia de Dados=
+, An=C3=A1lise e Desenvolvimento de Sistemas ou cursos correlatos.</div><di=
+v><br></div><div>Para eventuais d=C3=BAvidas, contate diretamente a CODIN p=
+or meio do e-mail: <a href=3D"mailto:tecnologia@pge.se.gov.br">tecnologia@p=
+ge.se.gov.br</a>.</div><div><br></div><b></b></div></div><div dir=3D"ltr">S=
+eu e-mail (<b>nandobritoferreira@gmail.com</b>) foi registrado quando voc=
+=C3=AA enviou este formul=C3=A1rio.</div></div><div style=3D"border-bottom:=
+ 1px solid #dadce0; border-left: 1px solid #dadce0; border-right: 1px solid=
+ #dadce0; border-top: 8px solid rgb(71,79,126); padding: 0;background-color=
+: #fff; border-radius: 8px; margin-bottom: 12px;margin-bottom: 12px;"><div =
+style=3D"padding: 0 ;"><h2 dir=3D"auto" style=3D"color: #fff;font-family: R=
+oboto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight: 400; line-he=
+ight: 24px;background-color: rgb(71,79,126); margin: 0; padding: 4px 24px 1=
+2px;"><b>Das vagas</b></h2><div dir=3D"auto" style=3D"color: #202124;font-f=
+amily: Roboto,Helvetica,Arial,sans-serif;font-size: 12px; font-weight: 400;=
+ letter-spacing: .25px; line-height: 16px;white-space: pre-wrap;margin: 24p=
+x 17px;">Nesta se=C3=A7=C3=A3o, s=C3=A3o apresentadas de maneira detalhada =
+as vagas em aberto, com o objetivo de identificar o interesse dos candidato=
+s.<br><br><b>Requisitos pessoais e profissionais gerais:</b><br>- Pensament=
+o anal=C3=ADtico;<br>- Comunica=C3=A7=C3=A3o clara;<br>- Bom relacionamento=
+ interpessoal;<br>- Pr=C3=A9-disposi=C3=A7=C3=A3o para trabalho em equipe;<=
+br>- Ingl=C3=AAs t=C3=A9cnico e dom=C3=ADnio da l=C3=ADngua portuguesa;<br>=
+- Organiza=C3=A7=C3=A3o e planejamento de trabalho;<br>- Poder de abstra=C3=
+=A7=C3=A3o e s=C3=ADntese, e principalmente<br>- Vontade de aprender.</div>=
+</div><div style=3D"padding: 0 12px;"></div></div><div style=3D"border: 1px=
+ solid #dadce0; padding: 20px 12px;background-color: #fff; border-radius: 8=
+px; margin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 12px=
+;"><h2 dir=3D"auto" style=3D"color: #202124;font-family: Roboto,Helvetica,A=
+rial,sans-serif;font-size: 16px; font-weight: 400; line-height: 24px;white-=
+space: pre-wrap;margin: 0;"><b>Selecione a(s) vaga(s) as quais deseja se ap=
+licar.</b><span style=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=
+=B3ria"> *</span></h2><div style=3D"color: #202124;font-family: Roboto,Helv=
+etica,Arial,sans-serif;font-size: 12px; font-weight: 400; letter-spacing: .=
+25px; line-height: 16px;white-space: pre-wrap;margin: 4px 0 20px;" dir=3D"a=
+uto"><b>Vaga para Ci=C3=AAncia de Dados e Intelig=C3=AAncia Artificial (I.A=
+)</b><br><b>Responsabilidades:</b><br>- Desenvolvimento de novas funcionali=
+dades para sistemas diversos;<br>- Manuten=C3=A7=C3=A3o em WebApps ou aplic=
+a=C3=A7=C3=B5es back-end;<br>- Desenvolvimento em API=E2=80=99s no padr=C3=
+=A3o REST;<br>- Cria=C3=A7=C3=A3o de dashboards;<br>- Automa=C3=A7=C3=A3o e=
+ rotinas de processos em geral; e<br>- Envolvimento na cria=C3=A7=C3=A3o e =
+manuten=C3=A7=C3=A3o de sistemas inteligentes (Aprendizado de M=C3=A1quina =
+Supervisionado e NLP).<br><b>Diferenciais:</b><br>- Dom=C3=ADnio de Git e d=
+a plataforma Github;<br>- Conhecimento de banco de dados relacionais como M=
+ySQL ou SQL Server e banco n=C3=A3o relacional como MongoDB;<br>- Conhecime=
+nto em bibliotecas como FastAPI, pandas e scikit-learn;<br>- Conhecimento e=
+m ferramentas de cria=C3=A7=C3=A3o de dashboards;<br>- Familiaridade API RE=
+ST.<br><br><b>Vagas para Desenvolvimento de Software</b><br><b>Responsabili=
+dades:</b><br>- Desenvolvimento de novas funcionalidades para sistemas dive=
+rsos;<br>- Manuten=C3=A7=C3=A3o em WebApps ou aplica=C3=A7=C3=B5es back-end=
+;<br>- Desenvolvimento de novas interfaces incluindo design e prototipa=C3=
+=A7=C3=A3o;<br>- Desenvolvimento de background services;<br>- Desenvolvimen=
+to em API=E2=80=99s no padr=C3=A3o REST.<br><b>Diferenciais:</b><br>- Conhe=
+cimento de banco de dados relacionais como MySQL ou SQL Server;<br>- Dom=C3=
+=ADnio de Git e da plataforma Github;<br>- Conhecimento em frameworks_ como=
+ React, Vue.js, SCRUM e .NET; e<br>- Familiaridade API REST.<br><br></div><=
+/div><div style=3D"padding: 0 12px;"><div style=3D"margin-top: 16px;"><tabl=
+e style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;fo=
+nt-size: 14px; font-weight: 400; line-height: 20px;margin-top: 8px; table-l=
+ayout: fixed;"><tr><td><div role=3D"checkbox" aria-checked=3D"true" aria-la=
+bel=3D"Ci=C3=AAncia de Dados e Intelig=C3=AAncia Artificial (I.A)" style=3D=
+"border: solid 2px #5f6368; border-radius: 3px; height: 16px; width: 16px;b=
+ackground-color: #5f6368; color: #fff; font-size: 14px; line-height: 16px; =
+text-align: center;">&#10003;</div></td><td style=3D"min-width: 8px;"></td>=
+<td style=3D"word-break: break-word;">Ci=C3=AAncia de Dados e Intelig=C3=AA=
+ncia Artificial (I.A)</td></tr></table></div><div style=3D"margin-top: 16px=
+;"><table style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-=
+serif;font-size: 14px; font-weight: 400; line-height: 20px;margin-top: 8px;=
+ table-layout: fixed;"><tr><td><div role=3D"checkbox" aria-checked=3D"true"=
+ aria-label=3D"Desenvolvimento de Software com foco em front-end" style=3D"=
+border: solid 2px #5f6368; border-radius: 3px; height: 16px; width: 16px;ba=
+ckground-color: #5f6368; color: #fff; font-size: 14px; line-height: 16px; t=
+ext-align: center;">&#10003;</div></td><td style=3D"min-width: 8px;"></td><=
+td style=3D"word-break: break-word;">Desenvolvimento de Software com foco e=
+m front-end</td></tr></table></div><div style=3D"margin-top: 16px;"><table =
+style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif;font=
+-size: 14px; font-weight: 400; line-height: 20px;margin-top: 8px; table-lay=
+out: fixed;"><tr><td><div role=3D"checkbox" aria-checked=3D"true" aria-labe=
+l=3D"Desenvolvimento de Software com foco em back-end" style=3D"border: sol=
+id 2px #5f6368; border-radius: 3px; height: 16px; width: 16px;background-co=
+lor: #5f6368; color: #fff; font-size: 14px; line-height: 16px; text-align: =
+center;">&#10003;</div></td><td style=3D"min-width: 8px;"></td><td style=3D=
+"word-break: break-word;">Desenvolvimento de Software com foco em back-end<=
+/td></tr></table></div></div></div><div style=3D"border: 1px solid #dadce0;=
+ padding: 20px 12px;background-color: #fff; border-radius: 8px; margin-bott=
+om: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"a=
+uto" style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-serif=
+;font-size: 16px; font-weight: 400; line-height: 24px;white-space: pre-wrap=
+;margin: 0 0 16px;"><b>Caso tenha selecionado mais de uma anteriormente, ex=
+plique o por que acredita estar apto ou com n=C3=ADvel t=C3=A9cnico para at=
+uar em mais de uma especializa=C3=A7=C3=A3o.</b></h2></div><div style=3D"pa=
+dding: 0 12px;"><div dir=3D"auto" style=3D"white-space: pre-wrap;border-bot=
+tom: 1px dotted rgba(0,0,0,0.38);margin: 12px 0 8px; min-height: 20px;width=
+: 100%;">Atualmente, curso Ci=C3=AAncia da Computa=C3=A7=C3=A3o e estou no =
+8=C2=BA semestre. Tenho experi=C3=AAncia em desenvolvimento back-end e fron=
+t-end, trabalhando com tecnologias como React, Java e PostgreSQL. Participe=
+i de projetos envolvendo design de interfaces e integra=C3=A7=C3=A3o de sis=
+temas, al=C3=A9m de ter familiaridade com Git, bancos de dados relacionais =
+e conceitos de SCRUM.
+
+Al=C3=A9m disso, tenho grande interesse em aprender mais sobre Ci=C3=AAncia=
+ de Dados e Intelig=C3=AAncia Artificial. No meu projeto universit=C3=A1rio=
+ da disciplina Project Lab, fiquei respons=C3=A1vel pelo desenvolvimento de=
+ uma IA, o que me proporcionou um primeiro contato pr=C3=A1tico com essa =
+=C3=A1rea. Tamb=C3=A9m j=C3=A1 estudei ferramentas de visualiza=C3=A7=C3=A3=
+o de dados como Power BI, Tableau e Matplotlib e estou me aprofundando em b=
+ibliotecas como pandas e scikit-learn.</div></div></div><div style=3D"borde=
+r: 1px solid #dadce0; padding: 20px 12px;background-color: #fff; border-rad=
+ius: 8px; margin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padding: =
+0 12px;"><h2 dir=3D"auto" style=3D"color: #202124;font-family: Roboto,Helve=
+tica,Arial,sans-serif;font-size: 16px; font-weight: 400; line-height: 24px;=
+white-space: pre-wrap;margin: 0 0 16px;"><b>Informe em qual turno possui pr=
+efer=C3=AAncia para estagiar.</b><span style=3D"color: #d93025;" aria-label=
+=3D"Pergunta obrigat=C3=B3ria"> *</span></h2></div><div style=3D"padding: 0=
+ 12px;"><div style=3D"margin-top: 16px;"><table style=3D"color: #202124;fon=
+t-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-weight: 4=
+00; line-height: 20px;margin-top: 8px; table-layout: fixed;"><tr><td><div r=
+ole=3D"radio" aria-checked=3D"true" aria-label=3D"Matutino" style=3D"border=
+: solid 2px #5f6368; height: 16px; width: 16px; border-radius: 50%;"><div s=
+tyle=3D"background-color: #5f6368; border: solid 5px #5f6368; border-radius=
+: 50%; margin: 3px; height: 0; width: 0;"></div></div></td><td style=3D"min=
+-width: 8px;"></td><td style=3D"word-break: break-word;">Matutino</td></tr>=
+</table></div><div style=3D"margin-top: 16px;"><table style=3D"color: #2021=
+24;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 14px; font-wei=
+ght: 400; line-height: 20px;color: #70757a;margin-top: 8px; table-layout: f=
+ixed;"><tr><td><div role=3D"radio" aria-checked=3D"false" aria-label=3D"Ves=
+pertino" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; bor=
+der-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=
+=3D"word-break: break-word;">Vespertino</td></tr></table></div><div style=
+=3D"margin-top: 16px;"><table style=3D"color: #202124;font-family: Roboto,H=
+elvetica,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 2=
+0px;color: #70757a;margin-top: 8px; table-layout: fixed;"><tr><td><div role=
+=3D"radio" aria-checked=3D"false" aria-label=3D"N=C3=A3o possuo prefer=C3=
+=AAncia" style=3D"border: solid 2px #9aa0a6; height: 16px; width: 16px; bor=
+der-radius: 50%;"></div></td><td style=3D"min-width: 8px;"></td><td style=
+=3D"word-break: break-word;">N=C3=A3o possuo prefer=C3=AAncia</td></tr></ta=
+ble></div></div></div><div style=3D"border-bottom: 1px solid #dadce0; borde=
+r-left: 1px solid #dadce0; border-right: 1px solid #dadce0; border-top: 8px=
+ solid rgb(71,79,126); padding: 0;background-color: #fff; border-radius: 8p=
+x; margin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 ;"><h=
+2 dir=3D"auto" style=3D"color: #fff;font-family: Roboto,Helvetica,Arial,san=
+s-serif;font-size: 16px; font-weight: 400; line-height: 24px;background-col=
+or: rgb(71,79,126); margin: 0; padding: 4px 24px 12px;"><b>Do candidato</b>=
+</h2><div dir=3D"auto" style=3D"color: #202124;font-family: Roboto,Helvetic=
+a,Arial,sans-serif;font-size: 12px; font-weight: 400; letter-spacing: .25px=
+; line-height: 16px;white-space: pre-wrap;margin: 24px 17px;">Atente-se a t=
+odos os campos e respeite as instru=C3=A7=C3=B5es. Preencha com informa=C3=
+=A7=C3=B5es verdadeiras e n=C3=A3o tenha pressa para terminar o formul=C3=
+=A1rio.</div></div><div style=3D"padding: 0 12px;"></div></div><div style=
+=3D"border: 1px solid #dadce0; padding: 20px 12px;background-color: #fff; b=
+order-radius: 8px; margin-bottom: 12px;margin-bottom: 12px;"><div style=3D"=
+padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: #202124;font-family: Rob=
+oto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight: 400; line-heig=
+ht: 24px;white-space: pre-wrap;margin: 0 0 16px;"><b>Informe seu nome compl=
+eto. Escreva em caixa alta, sem acentos ou caracteres especiais.</b><span s=
+tyle=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *</span>=
+</h2></div><div style=3D"padding: 0 12px;"><div style=3D"width: 100%;"><div=
+ dir=3D"auto" style=3D"white-space: pre-wrap;border-bottom: 1px dotted rgba=
+(0,0,0,0.38);margin: 12px 0 8px; min-height: 20px;display: inline-block; ma=
+x-width: 100%; min-width: 50%;">LUIZ FERNANDO BRITO FERREIRA </div></div></=
+div></div><div style=3D"border: 1px solid #dadce0; padding: 20px 12px;backg=
+round-color: #fff; border-radius: 8px; margin-bottom: 12px;margin-bottom: 1=
+2px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: #202=
+124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 16px; font-we=
+ight: 400; line-height: 24px;white-space: pre-wrap;margin: 0;"><b>Informe s=
+ua data de nascimento.</b><span style=3D"color: #d93025;" aria-label=3D"Per=
+gunta obrigat=C3=B3ria"> *</span></h2></div><div style=3D"padding: 0 12px;"=
+><div style=3D"display: inline-block; margin-top: 20px;"><div style=3D"disp=
+lay: inline-block; margin: 0 2px; min-width: 14px; text-align: center;"><di=
+v style=3D"color: #70757a;font-family: Roboto,Helvetica,Arial,sans-serif;fo=
+nt-size: 12px; font-weight: 400; letter-spacing: .25px; line-height: 16px;m=
+argin-bottom: 12px; text-align: start;" aria-label=3D"Dia do m=C3=AAs">DD</=
+div><div style=3D"border-bottom: 1px solid rgba(0, 0, 0, 0.12);height: 20px=
+; letter-spacing: 0.2px; white-space: pre;">13</div></div> <div style=3D"di=
+splay: inline-block; margin: 0 2px; min-width: 5px; text-align: center;"><d=
+iv style=3D"font-weight: 700;">/</div></div> <div style=3D"display: inline-=
+block; margin: 0 2px; min-width: 14px; text-align: center;"><div style=3D"c=
+olor: #70757a;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 12p=
+x; font-weight: 400; letter-spacing: .25px; line-height: 16px;margin-bottom=
+: 12px; text-align: start;" aria-label=3D"M=C3=AAs">MM</div><div style=3D"b=
+order-bottom: 1px solid rgba(0, 0, 0, 0.12);height: 20px; letter-spacing: 0=
+.2px; white-space: pre;">04</div></div> <div style=3D"display: inline-block=
+; margin: 0 2px; min-width: 5px; text-align: center;"><div style=3D"font-we=
+ight: 700;">/</div></div> <div style=3D"display: inline-block; margin: 0 2p=
+x; min-width: 28px; text-align: center;"><div style=3D"color: #70757a;font-=
+family: Roboto,Helvetica,Arial,sans-serif;font-size: 12px; font-weight: 400=
+; letter-spacing: .25px; line-height: 16px;margin-bottom: 12px; text-align:=
+ start;" aria-label=3D"Ano">AAAA</div><div style=3D"border-bottom: 1px soli=
+d rgba(0, 0, 0, 0.12);height: 20px; letter-spacing: 0.2px; white-space: pre=
+;">2003</div></div></div></div></div><div style=3D"border: 1px solid #dadce=
+0; padding: 20px 12px;background-color: #fff; border-radius: 8px; margin-bo=
+ttom: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D=
+"auto" style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-ser=
+if;font-size: 16px; font-weight: 400; line-height: 24px;white-space: pre-wr=
+ap;margin: 0 0 16px;"><b>Informe seu CPF. Apenas n=C3=BAmeros.</b><span sty=
+le=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *</span></=
+h2></div><div style=3D"padding: 0 12px;"><div style=3D"width: 100%;"><div d=
+ir=3D"auto" style=3D"white-space: pre-wrap;border-bottom: 1px dotted rgba(0=
+,0,0,0.38);margin: 12px 0 8px; min-height: 20px;display: inline-block; max-=
+width: 100%; min-width: 50%;">08918741510</div></div></div></div><div style=
+=3D"border: 1px solid #dadce0; padding: 20px 12px;background-color: #fff; b=
+order-radius: 8px; margin-bottom: 12px;margin-bottom: 12px;"><div style=3D"=
+padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: #202124;font-family: Rob=
+oto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight: 400; line-heig=
+ht: 24px;white-space: pre-wrap;margin: 0 0 16px;"><b>Informe qual nome do c=
+urso de gradua=C3=A7=C3=A3o ou tecn=C3=B3logo atualmente est=C3=A1 matricul=
+ado.=C2=A0</b><b>Escreva em caixa alta, sem acentos ou caracteres especiais=
+.</b><span style=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ri=
+a"> *</span></h2></div><div style=3D"padding: 0 12px;"><div style=3D"width:=
+ 100%;"><div dir=3D"auto" style=3D"white-space: pre-wrap;border-bottom: 1px=
+ dotted rgba(0,0,0,0.38);margin: 12px 0 8px; min-height: 20px;display: inli=
+ne-block; max-width: 100%; min-width: 50%;">CIENCIA DA COMPUTACAO</div></di=
+v></div></div><div style=3D"border: 1px solid #dadce0; padding: 20px 12px;b=
+ackground-color: #fff; border-radius: 8px; margin-bottom: 12px;margin-botto=
+m: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: =
+#202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 16px; fon=
+t-weight: 400; line-height: 24px;white-space: pre-wrap;margin: 0 0 16px;"><=
+b>Informe o per=C3=ADodo em que se encontra. Apenas n=C3=BAmeros.</b><span =
+style=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *</span=
+></h2></div><div style=3D"padding: 0 12px;"><div style=3D"width: 100%;"><di=
+v dir=3D"auto" style=3D"white-space: pre-wrap;border-bottom: 1px dotted rgb=
+a(0,0,0,0.38);margin: 12px 0 8px; min-height: 20px;display: inline-block; m=
+ax-width: 100%; min-width: 50%;">8</div></div></div></div><div style=3D"bor=
+der: 1px solid #dadce0; padding: 20px 12px;background-color: #fff; border-r=
+adius: 8px; margin-bottom: 12px;margin-bottom: 12px;"><div style=3D"padding=
+: 0 12px;"><h2 dir=3D"auto" style=3D"color: #202124;font-family: Roboto,Hel=
+vetica,Arial,sans-serif;font-size: 16px; font-weight: 400; line-height: 24p=
+x;white-space: pre-wrap;margin: 0 0 16px;"><b>Informe o nome completo da in=
+stitui=C3=A7=C3=A3o de ensino em que est=C3=A1 matriculado.=C2=A0</b><b>Esc=
+reva em caixa alta, sem acentos ou caracteres especiais.</b><span style=3D"=
+color: #d93025;" aria-label=3D"Pergunta obrigat=C3=B3ria"> *</span></h2></d=
+iv><div style=3D"padding: 0 12px;"><div style=3D"width: 100%;"><div dir=3D"=
+auto" style=3D"white-space: pre-wrap;border-bottom: 1px dotted rgba(0,0,0,0=
+.38);margin: 12px 0 8px; min-height: 20px;display: inline-block; max-width:=
+ 100%; min-width: 50%;">UNIVERSIDADE TIRADENTES</div></div></div></div><div=
+ style=3D"border: 1px solid #dadce0; padding: 20px 12px;background-color: #=
+fff; border-radius: 8px; margin-bottom: 12px;margin-bottom: 12px;"><div sty=
+le=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: #202124;font-famil=
+y: Roboto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight: 400; lin=
+e-height: 24px;white-space: pre-wrap;margin: 0 0 16px;"><b>Informe um e-mai=
+l para contato.</b><span style=3D"color: #d93025;" aria-label=3D"Pergunta o=
+brigat=C3=B3ria"> *</span></h2></div><div style=3D"padding: 0 12px;"><div s=
+tyle=3D"width: 100%;"><div dir=3D"auto" style=3D"white-space: pre-wrap;bord=
+er-bottom: 1px dotted rgba(0,0,0,0.38);margin: 12px 0 8px; min-height: 20px=
+;display: inline-block; max-width: 100%; min-width: 50%;">nandobritoferreir=
+a@hotmail.com</div></div></div></div><div style=3D"border: 1px solid #dadce=
+0; padding: 20px 12px;background-color: #fff; border-radius: 8px; margin-bo=
+ttom: 12px;margin-bottom: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D=
+"auto" style=3D"color: #202124;font-family: Roboto,Helvetica,Arial,sans-ser=
+if;font-size: 16px; font-weight: 400; line-height: 24px;white-space: pre-wr=
+ap;margin: 0 0 16px;"><b>Informe um telefone para contato. Apenas n=C3=BAme=
+ros.</b><span style=3D"color: #d93025;" aria-label=3D"Pergunta obrigat=C3=
+=B3ria"> *</span></h2></div><div style=3D"padding: 0 12px;"><div style=3D"w=
+idth: 100%;"><div dir=3D"auto" style=3D"white-space: pre-wrap;border-bottom=
+: 1px dotted rgba(0,0,0,0.38);margin: 12px 0 8px; min-height: 20px;display:=
+ inline-block; max-width: 100%; min-width: 50%;">75991338575</div></div></d=
+iv></div><div style=3D"border: 1px solid #dadce0; padding: 20px 12px;backgr=
+ound-color: #fff; border-radius: 8px; margin-bottom: 12px;margin-bottom: 12=
+px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: #2021=
+24;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 16px; font-wei=
+ght: 400; line-height: 24px;white-space: pre-wrap;margin: 0 0 16px;"><b>Ins=
+ira o link de seu perfil do LinkedIn, caso possua.</b></h2></div><div style=
+=3D"padding: 0 12px;"><div style=3D"width: 100%;"><div dir=3D"auto" style=
+=3D"white-space: pre-wrap;border-bottom: 1px dotted rgba(0,0,0,0.38);margin=
+: 12px 0 8px; min-height: 20px;display: inline-block; max-width: 100%; min-=
+width: 50%;">https://www.linkedin.com/in/fernando-ferreira-brito</div></div=
+></div></div><div style=3D"border: 1px solid #dadce0; padding: 20px 12px;ba=
+ckground-color: #fff; border-radius: 8px; margin-bottom: 12px;margin-bottom=
+: 12px;"><div style=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: #=
+202124;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: 16px; font=
+-weight: 400; line-height: 24px;white-space: pre-wrap;margin: 0 0 16px;"><b=
+>Insira o link de seu perfil do Github, caso possua.</b></h2></div><div sty=
+le=3D"padding: 0 12px;"><div style=3D"width: 100%;"><div dir=3D"auto" style=
+=3D"white-space: pre-wrap;border-bottom: 1px dotted rgba(0,0,0,0.38);margin=
+: 12px 0 8px; min-height: 20px;display: inline-block; max-width: 100%; min-=
+width: 50%;">https://github.com/Lz-Fernando</div></div></div></div><div sty=
+le=3D"border: 1px solid #dadce0; padding: 20px 12px;background-color: #fff;=
+ border-radius: 8px; margin-bottom: 12px;margin-bottom: 12px;"><div style=
+=3D"padding: 0 12px;"><h2 dir=3D"auto" style=3D"color: #202124;font-family:=
+ Roboto,Helvetica,Arial,sans-serif;font-size: 16px; font-weight: 400; line-=
+height: 24px;white-space: pre-wrap;margin: 0 0 16px;"><b>Por fim, anexe seu=
+ curr=C3=ADculo em formato .pdf.</b><span style=3D"color: #d93025;" aria-la=
+bel=3D"Pergunta obrigat=C3=B3ria"> *</span></h2></div><div style=3D"padding=
+: 0 12px;">Arquivos enviados<div role=3D"list" aria-label=3D"Arquivos envia=
+dos"><div dir=3D"auto" style=3D"border: 1px solid #dadce0; border-radius: 4=
+px; margin-top: 8px; padding: 8px;"><table role=3D"listitem"><tr><td><img s=
+rc=3D"https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_3_pdf_x32.=
+png" alt=3D"PDF" style=3D"height: 16px; width: 16px;"></td><td style=3D"min=
+-width: 4px;"></td><td style=3D"color: #202124;font-family: Roboto,Helvetic=
+a,Arial,sans-serif;font-size: 14px; font-weight: 400; line-height: 20px;; w=
+ord-break: break-word;">CURRICULO LUIZ FERNANDO BRITO(1) - Fernando Ferreir=
+a.pdf</td></tr></table></div></div></div></div></div><table align=3D"center=
+" cellpadding=3D"0" cellspacing=3D"0" style=3D"max-width: 672px; min-width:=
+ 154px; border-collapse: separate; border-spacing: 0 0.2em;" width=3D"100%"=
+ role=3D"presentation"><tbody><tr height=3D"24px"><td></td></tr><tr><td><a =
+href=3D"https://docs.google.com/forms?usp=3Dmail_form_link" style=3D"color:=
+ #424242; font-size: 13px;">Crie seu pr=C3=B3prio formul=C3=A1rio do Google=
+.</a></td></tr><tr><td>Does this form look suspicious? <a href=3D"https://d=
+ocs.google.com/forms/u/0/d/e/1FAIpQLSeiucdI8hjBOdjvkMrrizLJUJAETyrPii_qzU6W=
+Rsx_y1yu6g/reportabuse?source=3Dhttps://docs.google.com/forms/d/e/1FAIpQLSe=
+iucdI8hjBOdjvkMrrizLJUJAETyrPii_qzU6WRsx_y1yu6g/viewform&amp;usp=3Dmail_rec=
+eipt_abuse" target=3D"_blank" style=3D"color: #424242; font-size: 13px;">Re=
+lat=C3=B3rio</a></td></tr></tbody></table></div></body></html>
+--000000000000a62aa6062ea75a85--

@@ -1,0 +1,2946 @@
+X-GM-THRID: 1816713935438105544
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:f17:b0:298:e216:18d7 with SMTP id fm23csp1448550ysc;
+        Mon, 25 Nov 2024 08:50:21 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IErs1IapIRXRr0an3scvs8tkhteG5rqDB5DhtfigATWakfTMJQjTcDAN2sLKOs5/t0yqI+k
+X-Received: by 2002:a05:6871:3b07:b0:297:2844:4411 with SMTP id 586e51a60fabf-29728444442mr8284563fac.35.1732553420736;
+        Mon, 25 Nov 2024 08:50:20 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1732553420; cv=none;
+        d=google.com; s=arc-20240605;
+        b=Y2Mvz4+V0kgG63wg9FYqlq6lBZ4ex3CZpWMTdQo2Mm/Cdx+RRy5SwxwYk04v4p9Ybr
+         Wg7i5ldcp7VobPFnqyExIMpR3NK59g9ITrJ3pyytT+WcdhSnzb33ifRir4Zfoho4w/JH
+         iVxZQoJ89a6yYJXgMG1q1WPSFl6chk+u2HKG+RMTmF4o9rrizXXqlOgUdkgsCVkcFPak
+         zsYrC4sQWbHlM1EObQY6x3AmBOvhVoBrnIGFLVAoHsNmFfoQWIPszx8JznXkN9NdwiLZ
+         thRKDP3I36O1aO51/PBzs1JFja1u+6gR6ZygiW9ABmyNYbdnjsSdwTbDCxWv0sMk+XTO
+         jc8w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=N2ejtZG0BrWXk1ezFEBjTu8BHdJc0hJv3LJMi/nS8po=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=NjKS76zJCVoy5J51I86ShBCPoEHL5larfrTsN27Ej3Xr8HRsYydQvsTg5J/NzXWPIT
+         DCuZnUx1Dp/PQwGBkOY84B1iA2WdkblL2X5AM5lhLX5JuHFF+VGC1GeJvas8+edfcu7v
+         NS1a/ek/hKY/UumEfF2080imVPtpOzXlChEpogcgmy1UDvocuSuyGQlsvMHV+bbiiF68
+         nIQargZP5dw290iKFPz2BXg7J8PftefEWxoKUT0LpviVA4a5Qwpw5r4xIzsum8agohy/
+         fKtFUgS6w+efO4UGnKijLkAPpkphXWozMERAKqmLw+zi0GBmHireT6lyhvAWc82kvzIY
+         +0fg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=DwXk1VPo;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=ThH1lfSC;
+       spf=pass (google.com: domain of s-2t93bph9wfxai3xbooxv5cfqt5kxm2dd7sxz9ei7kro2mgvbw9tzfsj6@bounce.linkedin.com designates 108.174.0.201 as permitted sender) smtp.mailfrom=s-2t93bph9wfxai3xbooxv5cfqt5kxm2dd7sxz9ei7kro2mgvbw9tzfsj6@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-2t93bph9wfxai3xbooxv5cfqt5kxm2dd7sxz9ei7kro2mgvbw9tzfsj6@bounce.linkedin.com>
+Received: from maile-ha.linkedin.com (maile-ha.linkedin.com. [108.174.0.201])
+        by mx.google.com with ESMTPS id 41be03b00d2f7-7fbcc1f3905si8982853a12.126.2024.11.25.08.50.20
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 25 Nov 2024 08:50:20 -0800 (PST)
+Received-SPF: pass (google.com: domain of s-2t93bph9wfxai3xbooxv5cfqt5kxm2dd7sxz9ei7kro2mgvbw9tzfsj6@bounce.linkedin.com designates 108.174.0.201 as permitted sender) client-ip=108.174.0.201;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=DwXk1VPo;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=ThH1lfSC;
+       spf=pass (google.com: domain of s-2t93bph9wfxai3xbooxv5cfqt5kxm2dd7sxz9ei7kro2mgvbw9tzfsj6@bounce.linkedin.com designates 108.174.0.201 as permitted sender) smtp.mailfrom=s-2t93bph9wfxai3xbooxv5cfqt5kxm2dd7sxz9ei7kro2mgvbw9tzfsj6@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1732553416;
+	bh=N2ejtZG0BrWXk1ezFEBjTu8BHdJc0hJv3LJMi/nS8po=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=DwXk1VPoH7D7J8NhQ8R/Dh7TFWH7xzHlzpA5HRQ8LS5fZcIGtj0UjPDGt/caITS+W
+	 69D8mXMv++HR8Ju8ur7iETZf+duvsewBLOObyqkBTIA268iT2iMrQcqZhKHuvZqSO/
+	 T2a4+8L7/hPo9JK2IJu+lC71OQeLHscNlgvCoXEKfAx5GU/C1svxxwk4Brf7mhM4bG
+	 ocT5uSbb19Y9QPbVjlfm2Qz9na7eIoLjxWd54qcXcLETlWZlmgbv7kPvsSXi230H2h
+	 2XsKjaZ21IxCxLWGkC8hK7XD/bbX15vtZOiVWxzpxUjl716erj+ooJLqXJO3LiLwv5
+	 bhioBhyQMHcaA==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1732553416;
+	bh=N2ejtZG0BrWXk1ezFEBjTu8BHdJc0hJv3LJMi/nS8po=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=ThH1lfSCEHlGzXgw//rtznodCCHYLQ5NkOd31nFCbHBNB1TLWkMHLBC/cRtKqMWgd
+	 hVV6cHW5HMysbrHEAOkWAzkpC/E8dvynR3XDuE1pBRSZKLqop9BDwO1Y9EmSotD+VM
+	 JBQeCDSUEK3syY44RCuIrOoaslmzgBtGHW44LynaF4AsAEu76EhXknuaDPItBvi0zd
+	 7rTCDPQ1Dv5aZlwiN7pUH0vjb/IGQCqJEh1hyPJj33+LiJceEFm6+jEGF958OwOAjq
+	 n69hUrdbOJp3o9CWnzuWji+QUiXa+QzDtM4tHI3NWXsOv21cne5Zvrad5ps/zUw1Kq
+	 DmrpmvcCiDMrw==
+From: Leandro Brito via LinkedIn <newsletters-noreply@linkedin.com>
+Message-ID: <1531828893.16192915.1732553415810@lva1-app102848.prod.linkedin.com>
+Subject: O Governo Australiano que Declarou Guerra as Redes Sociais.
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_16192911_1204485075.1732553415805"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Mon, 25 Nov 2024 16:50:15 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-aszyh7h3gxodi3npb83dg2sb3ydff5d9kf2czlr59c9zzppozpw7oaatcs1iemikuhmwcxk6li0ukk7d0ho0zb8m3bv0axbinjno18
+X-LinkedIn-Id: gdb74f-m3x9jjxw-ov
+List-Unsubscribe: <https://www.linkedin.com/comm/series-notifications/?action=unsubscribe&memberToken=ADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&newsletterId=7206051779325632512&newsletterTitle=Resumo%20Tech&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B23ppN719Tdi2F4Phz3RWsg%3D%3D&midToken=AQHxaOsdYMWJVQ&midSig=3Lagjzim9ODbw1&trk=eml-email_series_follow_newsletter_01-unsub-0-unsub&trkEmail=eml-email_series_follow_newsletter_01-unsub-0-unsub-null-gdb74f~m3x9jjxw~ov-null-null&eid=gdb74f-m3x9jjxw-ov&otpToken=MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0NDk4YWM4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjlkNGZkNDA3ZTQwN2Y5MmQ1Mzc1Nzc2MGYwOSwxLDE%3D>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_16192911_1204485075.1732553415805
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Resumo Tech
+
+Por Leandro Brito
+
+
+Por Leandro Brito
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/o-governo-australiano-que-declarou-guer=
+ra-redes-sociais-leandro-brito-zxzdf?lipi=3Durn%3Ali%3Apage%3Aemail_email_s=
+eries_follow_newsletter_01%3B23ppN719Tdi2F4Phz3RWsg%3D%3D&midToken=3DAQHxaO=
+sdYMWJVQ&midSig=3D3Lagjzim9ODbw1&trk=3Deml-email_series_follow_newsletter_0=
+1-null-0-read_more_banner_cta_&trkEmail=3Deml-email_series_follow_newslette=
+r_01-null-0-read_more_banner_cta_-null-gdb74f~m3x9jjxw~ov-null-null&eid=3Dg=
+db74f-m3x9jjxw-ov&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2=
+NhZDE0NDk4YWM4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjM=
+jlkNGZkNDA3ZTQwN2Y5MmQ1Mzc1Nzc2MGYwOSwxLDE%3D
+ =20
+A Austr=C3=A1lia acaba de desencadear uma revolu=C3=A7=C3=A3o digital que f=
+ar=C3=A1 o mundo inteiro tremer. Em uma jogada ousada, o governo planeja ba=
+nir crian=C3=A7as completamente menores de 16 anos das redes sociais, crian=
+do uma linha de frente nunca antes vista contra os perigos do mundo virtual=
+. Bastidores da Decis=C3=A3o: Quando o Pesadelo se Torna Realidade A hist=
+=C3=B3ria por tr=C3=A1s dessa decis=C3=A3o =C3=A9 mais chocante do que voc=
+=C3=AA imagina. Sonya Ryan, uma m=C3=A3e que perdeu sua filha Carly de 15 a=
+nos para um ped=C3=B3filo online em 2007, liderou uma cruzada contra os pre=
+dadores digitais. Seu relato arrepiante exp=C3=B5e o lado mais sombrio da i=
+nternet: pornografia, desinforma=C3=A7=C3=A3o, problemas de imagem corporal=
+, sextors=C3=A3o e bullying. A Voz da Juventude: Um Adolescente Contra o Si=
+stema Leo Puglisi, um jovem empreendedor de 17 anos, levanta uma bandeira c=
+r=C3=ADtica contra essa exclus=C3=A3o. Ele argumenta que as redes sociais s=
+=C3=A3o mais do que plataformas simples - s=C3=A3o ecossistemas de comunica=
+=C3=A7=C3=A3o, trabalho e entretenimento para uma gera=C3=A7=C3=A3o inteira=
+ que nasceu conectada. Crian=C3=A7a brinca com celular em Ribeir=C3=A3o Pre=
+to, SP telas ansiedade =E2=80=94 Foto: Reprodu=C3=A7=C3=A3o/EPTV Pol=C3=ADt=
+ica e Unanimidade: Quando Todos Concordam Surpreendentemente, o plano tem a=
+poio un=C3=A2nime de todos os estados australianos. O partido de oposi=C3=
+=A7=C3=A3o n=C3=A3o s=C3=B3 concorda, como afirma que faria o mesmo. Mas se=
+r=C3=A1 que essa unanimidade esconde problemas mais profundos? O Dilema da =
+Privacidade: O Pre=C3=A7o da Seguran=C3=A7a A proposta levanta quest=C3=B5e=
+s assustadoras sobre privacidade digital. Como identificar a idade dos usu=
+=C3=A1rios? A proposta de solu=C3=A7=C3=A3o envolve o governo como autentic=
+ador, mantendo dados de identidade - um cen=C3=A1rio que faz especialistas =
+em tecnologia tremerem. Especialistas em Alerta: Um Plano Imperfeito? Mais =
+de 140 especialistas em tecnologia e bem-estar infantil j=C3=A1 estudaram u=
+ma carta aberta condenando a medida. Para eles, a decis=C3=A3o de 16 anos =
+=C3=A9 um instrumento muito grosseiro para lidar com riscos complexos. Tecn=
+ologia de Verifica=C3=A7=C3=A3o: Uma Solu=C3=A7=C3=A3o Furada? Os m=C3=A9to=
+dos de verifica=C3=A7=C3=A3o de idade s=C3=A3o exibidos notoriamente imprec=
+isos. A proposta de usar identifica=C3=A7=C3=A3o digital levanta mais pergu=
+ntas do que respostas. Ser=C3=A1 que as pr=C3=B3prias plataformas de m=C3=
+=ADdia social se tornar=C3=A3o guardi=C3=A3s de identidade? O Impacto Globa=
+l: Muito Al=C3=A9m da Austr=C3=A1lia Esta n=C3=A3o =C3=A9 apenas uma discus=
+s=C3=A3o australiana. =C3=89 um debate global sobre o papel das redes socia=
+is na vida de crian=C3=A7as e adolescentes. Como proteger sem cercear? Como=
+ educar sem proibir? A Vis=C3=A3o Cr=C3=ADtica: Mais do que uma Proibi=C3=
+=A7=C3=A3o Leo Puglisi resumiu perfeitamente: =E2=80=9CChutar a lata no cam=
+inho=E2=80=9D n=C3=A3o resolve o problema fundamental. As redes sociais s=
+=C3=A3o parte integrante da comunica=C3=A7=C3=A3o moderna, especialmente pa=
+ra os jovens. Nesta imagem feita a partir de um v=C3=ADdeo divulgado por Le=
+o Puglisi, de 17 anos, grava seu servi=C3=A7o de not=C3=ADcias on-line 6 Ne=
+ws Australia, de Melbourne, Austr=C3=A1lia, em janeiro de 2024. =E2=80=94 F=
+oto: Leo Puglisi via AP O Outro Lado da Moeda: Riscos vs Oportunidades Enqu=
+anto Sonya Ryan defende a prote=C3=A7=C3=A3o total, especialistas argumenta=
+m que a educa=C3=A7=C3=A3o digital seria uma abordagem mais eficaz do que s=
+implesmente proibir o acesso. A defensora da seguran=C3=A7a on-line Sonya R=
+yan participa de uma coletiva de imprensa no Parlamento em Canberra, Austr=
+=C3=A1lia, em 15 de junho de 2021. Ryan sabe por trag=C3=A9dia pessoal como=
+ a m=C3=ADdia social pode ser perigosa para as crian=C3=A7as. =E2=80=94 Fot=
+o: Mick Tsikas/AAP via AP A Legisla=C3=A7=C3=A3o em Constru=C3=A7=C3=A3o: O=
+ Que Vem por A=C3=AD A proposta legislativa ser=C3=A1 introduzida no Parlam=
+ento na pr=C3=B3xima semana. As plataformas ter=C3=A3o um ano para descobri=
+r como implementar a proibi=C3=A7=C3=A3o - um desafio e tanto para gigantes=
+ tecnol=C3=B3gicos. Uma Decis=C3=A3o que Ecoa: Prote=C3=A7=C3=A3o ou Censur=
+a? A linha entre prote=C3=A7=C3=A3o e censura =C3=A9 extremamente t=C3=AAnu=
+e. O governo australiano navega em =C3=A1guas perigosas, tentando proteger =
+sem cercear a liberdade de express=C3=A3o e comunica=C3=A7=C3=A3o. O Futuro=
+ Digital: Mais Perguntas que Respostas Esta proposta levanta quest=C3=B5es =
+fundamentais sobre cidadania digital, privacidade e o papel das tecnologias=
+ na vida dos jovens. N=C3=A3o =C3=A9 apenas uma lei, =C3=A9 um manifesto so=
+bre como vemos a inf=C3=A2ncia e a adolesc=C3=AAncia no mundo digital. Conc=
+lus=C3=A3o Provocativa: Estamos Preparados? A Austr=C3=A1lia lan=C3=A7a um =
+desafio global: como protegeremos nossa juventude sem os deixarmos para tr=
+=C3=A1s na revolu=C3=A7=C3=A3o digital? Quer fazer parte dessa discuss=C3=
+=A3o revolucion=C3=A1ria? Compartilhe, curta e COMENTE! Sua opini=C3=A3o po=
+de mudar o futuro digital! =F0=9F=9A=80=F0=9F=8C=90 #FuturoDigital Leandro =
+Brito =C3=A9 um profissional de tecnologia com mais de 20 anos de experi=C3=
+=AAncia em lideran=C3=A7a e consultoria em TI, novos neg=C3=B3cios, relacio=
+namento e ciberseguran=C3=A7a. Atualmente, ocupa a posi=C3=A7=C3=A3o de Chi=
+ef Information Officer em uma multinacional, sendo respons=C3=A1vel pelo pl=
+anejamento estrat=C3=A9gico dos sistemas de TI e ciberseguran=C3=A7a. Ele p=
+ossui ampla experi=C3=AAncia em recupera=C3=A7=C3=A3o de desastres, conscie=
+ntiza=C3=A7=C3=A3o em seguran=C3=A7a da informa=C3=A7=C3=A3o e lideran=C3=
+=A7a t=C3=A9cnica. Leandro =C3=A9 co-apresentador do Hyperdrive podcast , o=
+nde discute temas de tecnologia, pol=C3=ADtica e cultura nerd. Com sua vast=
+a experi=C3=AAncia, ele ajuda empresas a fortalecer a seguran=C3=A7a da inf=
+orma=C3=A7=C3=A3o, melhorar a resili=C3=AAncia e promover a inova=C3=A7=C3=
+=A3o tecnol=C3=B3gica. #Seguran=C3=A7aDigital #ProtecaoInfantil #RedesSocia=
+is #TecnologiaEtica #FuturoDigital #LeiDeProte=C3=A7=C3=A3o #M=C3=ADdiasSoc=
+iais #CidadaniaDigital #InovacaoTecnologica #PrivacidadeOnline #EducacaoDig=
+ital #AustraliaTech #ProtecaoDosJovens #EticaDigital #BemEstarInfantil #Lim=
+iteDeIdade #InternetSegura #TecnologiaEducacional #ComunicacaoModerna #Inov=
+acaoSocial
+Continue lendo no LinkedIn
+https://www.linkedin.com/comm/pulse/o-governo-australiano-que-declarou-guer=
+ra-redes-sociais-leandro-brito-zxzdf?lipi=3Durn%3Ali%3Apage%3Aemail_email_s=
+eries_follow_newsletter_01%3B23ppN719Tdi2F4Phz3RWsg%3D%3D&midToken=3DAQHxaO=
+sdYMWJVQ&midSig=3D3Lagjzim9ODbw1&trk=3Deml-email_series_follow_newsletter_0=
+1-newsletter_content_preview_text-0-readmore_button_&trkEmail=3Deml-email_s=
+eries_follow_newsletter_01-newsletter_content_preview_text-0-readmore_butto=
+n_-null-gdb74f~m3x9jjxw~ov-null-null&eid=3Dgdb74f-m3x9jjxw-ov&otpToken=3DMW=
+IwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0NDk4YWM4YjYxNzljNDA2NmQ0Y=
+jVkNWJmMmZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjlkNGZkNDA3ZTQwN2Y5MmQ1Mzc1Nzc2=
+MGYwOSwxLDE%3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | HTML | CSS | JS | React.js | Node.js | Python)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3B23ppN719Tdi2F4Phz3RWsg%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=
+=3D3Lagjzim9ODbw1&trk=3Deml-email_series_follow_newsletter_01-SecurityHelp-=
+0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Securi=
+tyHelp-0-textfooterglimmer-null-gdb74f~m3x9jjxw~ov-null-null&eid=3Dgdb74f-m=
+3x9jjxw-ov&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0N=
+Dk4YWM4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjlkNGZk=
+NDA3ZTQwN2Y5MmQ1Mzc1Nzc2MGYwOSwxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/comm/series-notifica=
+tions/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y=
+9whjlY&newsletterId=3D7206051779325632512&newsletterTitle=3DResumo%20Tech&l=
+ipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B23ppN719T=
+di2F4Phz3RWsg%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D3Lagjzim9ODbw1&trk=
+=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGlimmer&trkEma=
+il=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGlimmer-null=
+-gdb74f~m3x9jjxw~ov-null-null&eid=3Dgdb74f-m3x9jjxw-ov&otpToken=3DMWIwZDE3Z=
+TgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0NDk4YWM4YjYxNzljNDA2NmQ0YjVkNWJm=
+MmZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjlkNGZkNDA3ZTQwN2Y5MmQ1Mzc1Nzc2MGYwOSw=
+xLDE%3D=C2=A0=C2=A0=C2=B7=C2=A0=C2=A0Ajuda: https://www.linkedin.com/help/l=
+inkedin/answer/67?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_fol=
+low_newsletter_01%3B23ppN719Tdi2F4Phz3RWsg%3D%3D&midToken=3DAQHxaOsdYMWJVQ&=
+midSig=3D3Lagjzim9ODbw1&trk=3Deml-email_series_follow_newsletter_01-help-0-=
+textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-help-0-t=
+extfooterglimmer-null-gdb74f~m3x9jjxw~ov-null-null&eid=3Dgdb74f-m3x9jjxw-ov=
+&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0NDk4YWM4YjY=
+xNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjlkNGZkNDA3ZTQwN2=
+Y5MmQ1Mzc1Nzc2MGYwOSwxLDE%3D
+
+=C2=A9 2024 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_16192911_1204485075.1732553415805
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+style>
+@media (max-width: 480px) {
+  .inline-button,
+.inline-button table {
+    display: none !important;
+  }
+
+  .full-width-button,
+.full-width-button table {
+    display: table !important;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content,
+.pulse .article-main__content > * {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content h2,
+.pulse .article-main__content h2 span {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content p,
+.pulse .article-main__content p span {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content blockquote {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-img=
+ {
+    width: 48px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"][data-entity-typ=
+e=3D"organization"] .pub-entity-img img {
+    height: 48px;
+    width: 48px;
+    border-radius: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"][data-entity-typ=
+e=3D"member"] .pub-entity-img img {
+    height: 56px;
+    width: 56px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t {
+    padding-left: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t h1 {
+    margin-bottom: 2px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t h3 {
+    margin-bottom: 2px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t p {
+    margin-bottom: 2px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content,
+.advice .article-main__content > * {
+    font-size: 20px;
+  }
+
+  .advice .qa-redesign-article-content .article-main__content > * {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content h2,
+.advice .article-main__content h2 span {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice.redesign .article-main__content h2,
+.advice.redesign .article-main__content h2 span {
+    font-size: 32px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content p,
+.advice .article-main__content p span {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content blockquote {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar__wrapper.navbar__wrapper--x-article-split-layout {
+    margin-left: 24px;
+  }
+}
+@media (min-width: 1440px) {
+  .navbar__wrapper.navbar__wrapper--x-article-split-layout {
+    margin-left: 48px;
+  }
+}
+@media (min-width: 992px) {
+  [data-id=3D'member-nav-header__container'] {
+    margin-left: calc(40% - 8px - 392px);
+  }
+}
+@media (min-width: 1200px) {
+  [data-id=3D'member-nav-header__container'] {
+    margin-left: calc(40% - 32px - 392px);
+  }
+}
+@media (min-width: 1440px) {
+  [data-id=3D'member-nav-header__container'] {
+    margin-left: calc(40% - 64px - 392px);
+  }
+}
+@media (min-width: 992px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    width: 60%;
+  }
+}
+@media (min-width: 992px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    padding-left: 8px;
+  }
+}
+@media (min-width: 1200px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    padding-left: 32px;
+  }
+}
+@media (min-width: 1440px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    padding-left: 64px;
+  }
+}
+@media (min-width: 576px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1128px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
+@media (min-width: 1680px) {}
+@media (min-width: 1920px) {}
+@media (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media screen and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 991px) {}
+@media screen and (max-width: 991px) {}
+@media (max-width: 991px) {
+  .search-bar.isExpanded .search-bar__placeholder {
+    display: none;
+  }
+
+  .search-bar.isExpanded .base-search-bar__form {
+    display: flex;
+  }
+}
+@media screen and (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (min-width: 992px) {}
+@media (forced-colors: active) {}
+@media (-ms-high-contrast: active), (forced-colors: active) {}
+@media (min-width: 992px) {}
+@media (min-width: 576px) {}
+@media (min-width: 992px) {}
+@media (min-width: 992px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
+@media (min-width: 992px) {}
+@media (max-width: 575px) {}
+@media (max-width: 640px) {}
+@media (min-width: 992px) {}
+@media (max-width: 991px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media screen and (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (min-width: 245px) {}
+@media (min-width: 330px) {}
+@media only screen and (min-width: 30.06em) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (min-width: 992px) {
+  .papabear\:tab-vertical.tab-selected:after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:pointer-events-none::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:absolute::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:\!left-\[-19px\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:\!top-\[6px\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:bottom-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:left-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:right-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:top-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:ml-0\.5::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:ml-\[74px\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:block::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:h-full::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:w-full::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:rounded-full::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:border-1::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:border-solid::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:border-color-divider::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:bg-gradient-to-b::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:from-color-transparent::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:to-color-background-scrim::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:text-color-text-low-emphasis::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:no-underline::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:shadow-\[0_0_0_500px_var\(--color-scrim\)\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:content-\[\"\"\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:content-\[\'\'\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:content-\[\'\/\'\]::after {
+    content: "";
+  }
+}
+@media (min-width: 576px) {
+  .xs\:sticky {
+    position: sticky;
+  }
+
+  .xs\:left-\[-52px\] {
+    left: -52px;
+  }
+
+  .xs\:left-\[-56px\] {
+    left: -56px;
+  }
+
+  .xs\:top-0 {
+    top: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .sm\:m-0 {
+    margin: 0px;
+  }
+
+  .sm\:max-w-\[300px\] {
+    max-width: 300px;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:pl-0\.5 {
+    padding-left: 4px;
+  }
+
+  .sm\:text-sm {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  .md\:\!absolute {
+    position: absolute !important;
+  }
+
+  .md\:absolute {
+    position: absolute;
+  }
+
+  .md\:left-\[-44px\] {
+    left: -44px;
+  }
+
+  .md\:left-\[-52px\] {
+    left: -52px;
+  }
+
+  .md\:left-\[-53px\] {
+    left: -53px;
+  }
+
+  .md\:left-\[-60px\] {
+    left: -60px;
+  }
+
+  .md\:right-\[19px\] {
+    right: 19px;
+  }
+
+  .md\:m-2 {
+    margin: 16px;
+  }
+
+  .md\:-ml-1 {
+    margin-left: -8px;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .md\:mb-8 {
+    margin-bottom: 64px;
+  }
+
+  .md\:ml-1 {
+    margin-left: 8px;
+  }
+
+  .md\:ml-\[-12px\] {
+    margin-left: -12px;
+  }
+
+  .md\:ml-\[-41px\] {
+    margin-left: -41px;
+  }
+
+  .md\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .md\:mr-4 {
+    margin-right: 32px;
+  }
+
+  .md\:mr-6 {
+    margin-right: 48px;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:box-content {
+    box-sizing: content-box;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:inline-flex {
+    display: inline-flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:h-4 {
+    height: 32px;
+  }
+
+  .md\:h-56 {
+    height: 448px;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:w-2\/5 {
+    width: 40%;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
+  .md\:w-4 {
+    width: 32px;
+  }
+
+  .md\:w-\[280px\] {
+    width: 280px;
+  }
+
+  .md\:w-\[392px\] {
+    width: 392px;
+  }
+
+  .md\:w-\[452px\] {
+    width: 452px;
+  }
+
+  .md\:w-\[500px\] {
+    width: 500px;
+  }
+
+  .md\:w-\[calc\(100\%\+44px\)\] {
+    width: calc(100% + 44px);
+  }
+
+  .md\:w-\[calc\(37\%-40px\)\] {
+    width: calc(37% - 40px);
+  }
+
+  .md\:w-\[calc\(50\%-40px\)\] {
+    width: calc(50% - 40px);
+  }
+
+  .md\:max-w-\[392px\] {
+    max-width: 392px;
+  }
+
+  .md\:max-w-\[576px\] {
+    max-width: 576px;
+  }
+
+  .md\:flex-1 {
+    flex: 1 1 0%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+
+  .md\:whitespace-nowrap {
+    white-space: nowrap;
+  }
+
+  .md\:px-1 {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .md\:px-3 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .md\:py-1\.5 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .md\:py-4 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .md\:py-6 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .md\:pb-2 {
+    padding-bottom: 16px;
+  }
+
+  .md\:pb-6 {
+    padding-bottom: 48px;
+  }
+
+  .md\:pb-\[200px\] {
+    padding-bottom: 200px;
+  }
+
+  .md\:pl-1 {
+    padding-left: 8px;
+  }
+
+  .md\:pl-4 {
+    padding-left: 32px;
+  }
+
+  .md\:pl-\[32px\] {
+    padding-left: 32px;
+  }
+
+  .md\:pl-\[41px\] {
+    padding-left: 41px;
+  }
+
+  .md\:pl-\[56px\] {
+    padding-left: 56px;
+  }
+
+  .md\:pr-1 {
+    padding-right: 8px;
+  }
+
+  .md\:pr-\[320px\] {
+    padding-right: 320px;
+  }
+
+  .md\:pr-\[88px\] {
+    padding-right: 88px;
+  }
+
+  .md\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .md\:pt-1 {
+    padding-top: 8px;
+  }
+
+  .md\:pt-6 {
+    padding-top: 48px;
+  }
+
+  .md\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .md\:text-md {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .lg\:\!absolute {
+    position: absolute !important;
+  }
+
+  .lg\:left-\[-48px\] {
+    left: -48px;
+  }
+
+  .lg\:left-\[-56px\] {
+    left: -56px;
+  }
+
+  .lg\:left-\[-58px\] {
+    left: -58px;
+  }
+
+  .lg\:right-\[8px\] {
+    right: 8px;
+  }
+
+  .lg\:my-6 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
+  .lg\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .lg\:ml-1 {
+    margin-left: 8px;
+  }
+
+  .lg\:ml-12 {
+    margin-left: 96px;
+  }
+
+  .lg\:ml-3 {
+    margin-left: 24px;
+  }
+
+  .lg\:ml-\[-33px\] {
+    margin-left: -33px;
+  }
+
+  .lg\:ml-\[10px\] {
+    margin-left: 10px;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:inline-flex {
+    display: inline-flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:h-4 {
+    height: 32px;
+  }
+
+  .lg\:h-6 {
+    height: 48px;
+  }
+
+  .lg\:h-\[20px\] {
+    height: 20px;
+  }
+
+  .lg\:w-4 {
+    width: 32px;
+  }
+
+  .lg\:w-6 {
+    width: 48px;
+  }
+
+  .lg\:w-\[20px\] {
+    width: 20px;
+  }
+
+  .lg\:w-\[calc\(100\%\+56px\)\] {
+    width: calc(100% + 56px);
+  }
+
+  .lg\:w-\[calc\(37\%-32px\)\] {
+    width: calc(37% - 32px);
+  }
+
+  .lg\:w-\[calc\(50\%-32px\)\] {
+    width: calc(50% - 32px);
+  }
+
+  .lg\:max-w-x-article-width {
+    max-width: 816px;
+  }
+
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
+  .lg\:items-center {
+    align-items: center;
+  }
+
+  .lg\:pl-4 {
+    padding-left: 32px;
+  }
+
+  .lg\:pl-\[33px\] {
+    padding-left: 33px;
+  }
+
+  .lg\:pl-\[40px\] {
+    padding-left: 40px;
+  }
+
+  .lg\:pl-\[41px\] {
+    padding-left: 41px;
+  }
+
+  .lg\:pl-\[88px\] {
+    padding-left: 88px;
+  }
+
+  .lg\:pr-1 {
+    padding-right: 8px;
+  }
+
+  .lg\:pr-4 {
+    padding-right: 32px;
+  }
+
+  .lg\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .lg\:text-display-lg {
+    font-size: 48px;
+  }
+
+  .lg\:text-lg {
+    font-size: 20px;
+  }
+
+  .lg\:text-md {
+    font-size: 16px;
+  }
+
+  .lg\:text-sm {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1440px) {
+  .xl\:ml-6 {
+    margin-left: 48px;
+  }
+
+  .xl\:w-6 {
+    width: 48px;
+  }
+
+  .xl\:w-\[50px\] {
+    width: 50px;
+  }
+
+  .xl\:pl-8 {
+    padding-left: 64px;
+  }
+
+  .xl\:pl-\[120px\] {
+    padding-left: 120px;
+  }
+
+  .xl\:pr-8 {
+    padding-right: 64px;
+  }
+}
+@media (max-width: 767px) {
+  .babybear\:\!-top-0\.5 {
+    top: -4px !important;
+  }
+
+  .babybear\:-top-1 {
+    top: -8px;
+  }
+
+  .babybear\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .babybear\:bottom-\[120\%\] {
+    bottom: 120%;
+  }
+
+  .babybear\:left-3 {
+    left: 24px;
+  }
+
+  .babybear\:right-4 {
+    right: 32px;
+  }
+
+  .babybear\:top-0\.5 {
+    top: 4px;
+  }
+
+  .babybear\:z-0 {
+    z-index: 0;
+  }
+
+  .babybear\:order-last {
+    order: 9999;
+  }
+
+  .babybear\:m-0 {
+    margin: 0px;
+  }
+
+  .babybear\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .babybear\:mx-1\.5 {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .babybear\:my-2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .babybear\:-mt-0\.5 {
+    margin-top: -4px;
+  }
+
+  .babybear\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .babybear\:mb-0\.5 {
+    margin-bottom: 4px;
+  }
+
+  .babybear\:mb-1 {
+    margin-bottom: 8px;
+  }
+
+  .babybear\:mb-2 {
+    margin-bottom: 16px;
+  }
+
+  .babybear\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .babybear\:ml-1 {
+    margin-left: 8px;
+  }
+
+  .babybear\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .babybear\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .babybear\:mt-0\.5 {
+    margin-top: 4px;
+  }
+
+  .babybear\:mt-\[6px\] {
+    margin-top: 6px;
+  }
+
+  .babybear\:hidden {
+    display: none;
+  }
+
+  .babybear\:h-4 {
+    height: 32px;
+  }
+
+  .babybear\:h-6 {
+    height: 48px;
+  }
+
+  .babybear\:h-\[180px\] {
+    height: 180px;
+  }
+
+  .babybear\:h-\[26px\] {
+    height: 26px;
+  }
+
+  .babybear\:h-\[360px\] {
+    height: 360px;
+  }
+
+  .babybear\:h-\[59px\] {
+    height: 59px;
+  }
+
+  .babybear\:h-\[64px\] {
+    height: 64px;
+  }
+
+  .babybear\:h-\[72px\] {
+    height: 72px;
+  }
+
+  .babybear\:h-auto {
+    height: auto;
+  }
+
+  .babybear\:max-h-4 {
+    max-height: 32px;
+  }
+
+  .babybear\:max-h-\[225px\] {
+    max-height: 225px;
+  }
+
+  .babybear\:max-h-\[250px\] {
+    max-height: 250px;
+  }
+
+  .babybear\:max-h-\[400px\] {
+    max-height: 400px;
+  }
+
+  .babybear\:min-h-\[134px\] {
+    min-height: 134px;
+  }
+
+  .babybear\:w-1 {
+    width: 8px;
+  }
+
+  .babybear\:w-11\/12 {
+    width: 91.666667%;
+  }
+
+  .babybear\:w-6 {
+    width: 48px;
+  }
+
+  .babybear\:w-\[105px\] {
+    width: 105px;
+  }
+
+  .babybear\:w-\[199px\] {
+    width: 199px;
+  }
+
+  .babybear\:w-\[26px\] {
+    width: 26px;
+  }
+
+  .babybear\:w-\[360px\] {
+    width: 360px;
+  }
+
+  .babybear\:w-\[64px\] {
+    width: 64px;
+  }
+
+  .babybear\:w-\[calc\(100\%-68px\)\] {
+    width: calc(100% - 68px);
+  }
+
+  .babybear\:w-fit {
+    width: fit-content;
+  }
+
+  .babybear\:w-full {
+    width: 100%;
+  }
+
+  .babybear\:min-w-full {
+    min-width: 100%;
+  }
+
+  .babybear\:max-w-\[32px\] {
+    max-width: 32px;
+  }
+
+  .babybear\:max-w-\[790px\] {
+    max-width: 790px;
+  }
+
+  .babybear\:max-w-md {
+    max-width: 28rem;
+  }
+
+  .babybear\:flex-auto {
+    flex: 1 1 auto;
+  }
+
+  .babybear\:flex-none {
+    flex: none;
+  }
+
+  .babybear\:basis-0 {
+    flex-basis: 0px;
+  }
+
+  .babybear\:-translate-x-50\% {
+    transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY=
+(1);
+  }
+
+  @media (max-width: 767px) {
+    .babybear\:-translate-x-50\% {
+      transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(=
+1) scaleY(1);
+    }
+
+    @media (max-width: 767px) {
+      .babybear\:-translate-x-50\% {
+        transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scale=
+X(1) scaleY(1);
+      }
+
+      @media (max-width: 767px) {
+        .babybear\:-translate-x-50\% {
+          transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) sca=
+leX(1) scaleY(1);
+        }
+
+        @media (max-width: 767px) {
+          .babybear\:-translate-x-50\% {
+            transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) s=
+caleX(1) scaleY(1);
+          }
+
+          @media (max-width: 767px) {
+            .babybear\:-translate-x-50\% {
+              transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0)=
+ scaleX(1) scaleY(1);
+            }
+
+            @media (max-width: 767px) {
+              .babybear\:-translate-x-50\% {
+                transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(=
+0) scaleX(1) scaleY(1);
+              }
+
+              @media (max-width: 767px) {
+                .babybear\:-translate-x-50\% {
+                  transform: translate(-50%, 0) rotate(90deg) skewX(0) skew=
+Y(0) scaleX(1) scaleY(1);
+                }
+
+                @media (max-width: 767px) {
+                  .babybear\:-translate-x-50\% {
+                    transform: translate(-50%, 0) rotate(90deg) skewX(0) sk=
+ewY(0) scaleX(1) scaleY(1);
+                  }
+
+                  @media (max-width: 767px) {
+                    .babybear\:-translate-x-50\% {
+                      transform: translate(-50%, 0) rotate(90deg) skewX(0) =
+skewY(0) scaleX(1) scaleY(1);
+                    }
+
+                    @media (max-width: 767px) {
+                      .babybear\:-translate-x-50\% {
+                        transform: translate(-50%, 0) rotate(90deg) skewX(0=
+) skewY(0) scaleX(1) scaleY(1);
+                      }
+
+                      @media (max-width: 767px) {
+                        .babybear\:-translate-x-50\% {
+                          transform: translate(-50%, 0) rotate(90deg) skewX=
+(0) skewY(0) scaleX(1) scaleY(1);
+                        }
+
+                        @media (max-width: 767px) {
+                          .babybear\:-translate-x-50\% {
+                            transform: translate(-50%, 0) rotate(90deg) ske=
+wX(0) skewY(0) scaleX(1) scaleY(1);
+                          }
+
+                          @media (max-width: 767px) {
+                            .babybear\:-translate-x-50\% {
+                              transform: translate(-50%, 0) rotate(90deg) s=
+kewX(0) skewY(0) scaleX(1) scaleY(1);
+                            }
+
+                            @media (max-width: 767px) {
+                              .babybear\:-translate-x-50\% {
+                                transform: translate(-50%, 0) rotate(90deg)=
+ skewX(0) skewY(0) scaleX(1) scaleY(1);
+                              }
+
+                              @media transform: translate(0, 0) rotate(0) s=
+kewX(0) skewY(0) scaleX(1) scaleY(1);
+     (max-width: 767px) {
+                                .babybear\:rotate-90 {
+                                  transform: translate(-50%, 0) rotate(90de=
+g) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                }
+
+                                @media (max-width: 767px) {
+                                  .babybear\:rotate-90 {
+                                    transform: translate(-50%, 0) rotate(90=
+deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                  }
+
+                                  @media (max-width: 767px) {
+                                    .babybear\:rotate-90 {
+                                      transform: translate(-50%, 0) rotate(=
+90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                    }
+
+                                    @media (max-width: 767px) {
+                                      .babybear\:rotate-90 {
+                                        transform: translate(-50%, 0) rotat=
+e(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                      }
+
+                                      @media (max-width: 767px) {
+                                        .babybear\:rotate-90 {
+                                          transform: translate(-50%, 0) rot=
+ate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                        }
+
+                                        @media (max-width: 767px) {
+                                          .babybear\:rotate-90 {
+                                            transform: translate(-50%, 0) r=
+otate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                          }
+
+                                          @media (max-width: 767px) {
+                                            .babybear\:rotate-90 {
+                                              transform: translate(-50%, 0)=
+ rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                            }
+
+                                            @media (max-width: 767px) {
+                                              .babybear\:rotate-90 {
+                                                transform: translate(-50%, =
+0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                              }
+
+                                              @media (max-width: 767px) {
+                                                .babybear\:rotate-90 {
+                                                  transform: translate(-50%=
+, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                }
+
+                                                @media (max-width: 767px) {
+                                                  .babybear\:rotate-90 {
+                                                    transform: translate(-5=
+0%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                  }
+
+                                                  @media (max-width: 767px)=
+ {
+                                                    .babybear\:rotate-90 {
+                                                      transform: translate(=
+-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                    }
+
+                                                    @media (max-width: 767p=
+x) {
+                                                      .babybear\:rotate-90 =
+{
+                                                        transform: translat=
+e(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                      }
+
+                                                      @media (max-width: 76=
+7px) {
+                                                        .babybear\:rotate-9=
+0 {
+                                                          transform: transl=
+ate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                        }
+
+                                                        @media (max-width: =
+767px) {
+                                                          .babybear\:rotate=
+-90 {
+                                                            transform: tran=
+slate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                          }
+
+                                                          flex-direction: r=
+ow;
+    .babybear\:flex-col {
+                                                            flex-direction:=
+ column;
+                                                          }
+
+                                                          .babybear\:flex-w=
+rap {
+                                                            flex-wrap: wrap=
+;
+                                                          }
+
+                                                          .babybear\:items-=
+start {
+                                                            align-items: fl=
+ex-start;
+                                                          }
+
+                                                          .babybear\:items-=
+center {
+                                                            align-items: ce=
+nter;
+                                                          }
+
+                                                          .babybear\:justif=
+y-start {
+                                                            justify-content=
+: flex-start;
+                                                          }
+
+                                                          .babybear\:justif=
+y-end {
+                                                            justify-content=
+: flex-end;
+                                                          }
+
+                                                          .babybear\:justif=
+y-center {
+                                                            justify-content=
+: center;
+                                                          }
+
+                                                          .babybear\:justif=
+y-between {
+                                                            justify-content=
+: space-between;
+                                                          }
+
+                                                          .babybear\:justif=
+y-around {
+                                                            justify-content=
+: space-around;
+                                                          }
+
+                                                          .babybear\:self-s=
+tart {
+                                                            align-self: fle=
+x-start;
+                                                          }
+
+                                                          .babybear\:self-c=
+enter {
+                                                            align-self: cen=
+ter;
+                                                          }
+
+                                                          .babybear\:overfl=
+ow-y-auto {
+                                                            overflow-y: aut=
+o;
+                                                          }
+
+                                                          .babybear\:rounde=
+d-\[0px\] {
+                                                            border-radius: =
+0px;
+                                                          }
+
+                                                          .babybear\:border=
+-b-1 {
+                                                            border-bottom-w=
+idth: 1px;
+                                                          }
+
+                                                          .babybear\:border=
+-r-0 {
+                                                            border-right-wi=
+dth: 0;
+                                                          }
+
+                                                          .babybear\:border=
+-solid {
+                                                            border-style: s=
+olid;
+                                                          }
+
+                                                          .babybear\:border=
+-color-border-low-emphasis {
+                                                            border-color: r=
+gba(0, 0, 0, 0.3);
+                                                          }
+
+                                                          .babybear\:bg-col=
+or-brand {
+                                                            background-colo=
+r: #0a66c2;
+                                                          }
+
+                                                          .babybear\:p-2 {
+                                                            padding: 16px;
+                                                          }
+
+                                                          .babybear\:px-0 {
+                                                            padding-left: 0=
+px;
+                                                            padding-right: =
+0px;
+                                                          }
+
+                                                          .babybear\:px-2 {
+                                                            padding-left: 1=
+6px;
+                                                            padding-right: =
+16px;
+                                                          }
+
+                                                          .babybear\:px-mob=
+ile-container-padding {
+                                                            padding-left: 1=
+6px;
+                                                            padding-right: =
+16px;
+                                                          }
+
+                                                          .babybear\:py-1 {
+                                                            padding-top: 8p=
+x;
+                                                            padding-bottom:=
+ 8px;
+                                                          }
+
+                                                          .babybear\:py-3 {
+                                                            padding-top: 24=
+px;
+                                                            padding-bottom:=
+ 24px;
+                                                          }
+
+                                                          .babybear\:pb-0 {
+                                                            padding-bottom:=
+ 0px;
+                                                          }
+
+                                                          .babybear\:pb-2 {
+                                                            padding-bottom:=
+ 16px;
+                                                          }
+
+                                                          .babybear\:pl-0\.=
+5 {
+                                                            padding-left: 4=
+px;
+                                                          }
+
+                                                          .babybear\:pr-0 {
+                                                            padding-right: =
+0px;
+                                                          }
+
+                                                          .babybear\:pr-0\.=
+5 {
+                                                            padding-right: =
+4px;
+                                                          }
+
+                                                          .babybear\:pt-0 {
+                                                            padding-top: 0p=
+x;
+                                                          }
+
+                                                          .babybear\:pt-0\.=
+5 {
+                                                            padding-top: 4p=
+x;
+                                                          }
+
+                                                          .babybear\:pt-1 {
+                                                            padding-top: 8p=
+x;
+                                                          }
+
+                                                          .babybear\:pt-4 {
+                                                            padding-top: 32=
+px;
+                                                          }
+
+                                                          .babybear\:text-\=
+[10px\] {
+                                                            font-size: 10px=
+;
+                                                          }
+
+                                                          .babybear\:text-l=
+g {
+                                                            font-size: 20px=
+;
+                                                          }
+
+                                                          .babybear\:text-m=
+d {
+                                                            font-size: 16px=
+;
+                                                          }
+
+                                                          .babybear\:text-s=
+m {
+                                                            font-size: 14px=
+;
+                                                          }
+
+                                                          .babybear\:text-x=
+l {
+                                                            font-size: 24px=
+;
+                                                          }
+
+                                                          .babybear\:text-x=
+s {
+                                                            font-size: 12px=
+;
+                                                          }
+
+                                                          .babybear\:font-b=
+old {
+                                                            font-weight: 60=
+0;
+                                                          }
+
+                                                          .babybear\:leadin=
+g-\[150px\] {
+                                                            line-height: 15=
+0px;
+                                                          }
+
+                                                          .babybear\:last\:=
+border-b-0:last-child {
+                                                            border-bottom-w=
+idth: 0;
+                                                          }
+
+                                                        }
+
+                                                      }
+
+                                                    }
+
+                                                  }
+
+                                                }
+
+                                              }
+
+                                            }
+
+                                          }
+
+                                        }
+
+                                      }
+
+                                    }
+
+                                  }
+
+                                }
+
+                              }
+
+                            }
+
+                          }
+
+                        }
+
+                      }
+
+                    }
+
+                  }
+
+                }
+
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+}
+@media (max-width: 991px) {
+  .babymamabear\:invisible {
+    visibility: hidden;
+  }
+
+  .babymamabear\:static {
+    position: static;
+  }
+
+  .babymamabear\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .babymamabear\:mx-mobile-container-padding {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .babymamabear\:mb-1\.5 {
+    margin-bottom: 12px;
+  }
+
+  .babymamabear\:ml-\[-9999px\] {
+    margin-left: -9999px;
+  }
+
+  .babymamabear\:mr-3 {
+    margin-right: 24px;
+  }
+
+  .babymamabear\:flex {
+    display: flex;
+  }
+
+  .babymamabear\:hidden {
+    display: none;
+  }
+
+  .babymamabear\:h-\[1px\] {
+    height: 1px;
+  }
+
+  .babymamabear\:h-\[48px\] {
+    height: 48px;
+  }
+
+  .babymamabear\:w-\[100vw\] {
+    width: 100vw;
+  }
+
+  .babymamabear\:w-\[1px\] {
+    width: 1px;
+  }
+
+  .babymamabear\:w-full {
+    width: 100%;
+  }
+
+  .babymamabear\:min-w-\[50px\] {
+    min-width: 50px;
+  }
+
+  .babymamabear\:basis-1\/2 {
+    flex-basis: 50%;
+  }
+
+  .babymamabear\:flex-col {
+    flex-direction: column;
+  }
+
+  .babymamabear\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .babymamabear\:bg-color-transparent {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .babymamabear\:p-0 {
+    padding: 0px;
+  }
+
+  .babymamabear\:px-mobile-container-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .babymamabear\:py-1\.5 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .mamabear\:absolute {
+    position: absolute;
+  }
+
+  .mamabear\:-top-0\.5 {
+    top: -4px;
+  }
+
+  .mamabear\:-top-1 {
+    top: -8px;
+  }
+
+  .mamabear\:right-4 {
+    right: 32px;
+  }
+
+  .mamabear\:top-\[58px\] {
+    top: 58px;
+  }
+
+  .mamabear\:mr-3 {
+    margin-right: 24px;
+  }
+
+  .mamabear\:mt-\[68px\] {
+    margin-top: 68px;
+  }
+
+  .mamabear\:hidden {
+    display: none;
+  }
+
+  .mamabear\:\!h-4 {
+    height: 32px !important;
+  }
+
+  .mamabear\:h-\[100\%\] {
+    height: 100%;
+  }
+
+  .mamabear\:\!min-h-\[32px\] {
+    min-height: 32px !important;
+  }
+
+  .mamabear\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .mamabear\:w-48 {
+    width: 384px;
+  }
+
+  .mamabear\:w-\[744px\] {
+    width: 744px;
+  }
+
+  .mamabear\:w-\[calc\(100\%-97px\)\] {
+    width: calc(100% - 97px);
+  }
+
+  .mamabear\:w-full {
+    width: 100%;
+  }
+
+  .mamabear\:min-w-0 {
+    min-width: 0px;
+  }
+
+  .mamabear\:min-w-full {
+    min-width: 100%;
+  }
+
+  .mamabear\:max-w-\[790px\] {
+    max-width: 790px;
+  }
+
+  .mamabear\:flex-shrink-0 {
+    flex-shrink: 0;
+  }
+
+  .mamabear\:flex-row {
+    flex-direction: row;
+  }
+
+  .mamabear\:items-start {
+    align-items: flex-start;
+  }
+
+  .mamabear\:items-center {
+    align-items: center;
+  }
+
+  .mamabear\:self-center {
+    align-self: center;
+  }
+
+  .mamabear\:rounded-tr-none {
+    border-top-right-radius: 0px;
+  }
+
+  .mamabear\:px-2 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .mamabear\:px-3 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .mamabear\:px-mobile-container-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .mamabear\:py-3 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .mamabear\:pt-desktop-content-top-margin {
+    padding-top: 16px;
+  }
+
+  .mamabear\:text-center {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .papamamabear\:pt-desktop-content-top-margin {
+    padding-top: 16px;
+  }
+
+  .after\:papamamabear\:\!h-\[37px\]::after {
+    content: undefined;
+    height: 37px !important;
+  }
+
+  @media (min-width: 768px) {
+    .after\:papamamabear\:\!h-\[37px\]::after {
+      content: "";
+    }
+
+    content: "".after\:papamamabear\:\!h-\[37px\]::after:content-\[\'\'\]::=
+after {
+      content: "";
+    }
+
+    .after\:papamamabear\:\!h-\[37px\]::after:content-\[\"\"\]::after {
+      content: "";
+    }
+
+    .after\:papamamabear\:up-down-divider::after {
+      display: flex;
+      height: 100%;
+      width: 1px;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.3);
+      text-align: center;
+      content: undefined;
+    }
+
+    @media (min-width: 768px) {
+      .after\:papamamabear\:up-down-divider::after {
+        content: "";
+      }
+
+      content: "".after\:papamamabear\:up-down-divider::after:content-\[\'\=
+'\]::after {
+        content: "";
+      }
+
+      .after\:papamamabear\:up-down-divider::after:content-\[\"\"\]::after =
+{
+        content: "";
+      }
+
+    }
+
+  }
+}
+@media (min-width: 992px) {
+  .papabear\:absolute {
+    position: absolute;
+  }
+
+  .papabear\:-top-1 {
+    top: -8px;
+  }
+
+  .papabear\:top-\[58px\] {
+    top: 58px;
+  }
+
+  .papabear\:\!mx-2 {
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+  }
+
+  .papabear\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .papabear\:mb-\[18px\] {
+    margin-bottom: 18px;
+  }
+
+  .papabear\:ml-column-gutter {
+    margin-left: 24px;
+  }
+
+  .papabear\:mr-2 {
+    margin-right: 16px;
+  }
+
+  .papabear\:mr-3 {
+    margin-right: 24px;
+  }
+
+  .papabear\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .papabear\:mt-0\.5 {
+    margin-top: 4px;
+  }
+
+  .papabear\:mt-\[-100px\] {
+    margin-top: -100px;
+  }
+
+  .papabear\:mt-\[68px\] {
+    margin-top: 68px;
+  }
+
+  .papabear\:inline-block {
+    display: inline-block;
+  }
+
+  .papabear\:flex {
+    display: flex;
+  }
+
+  .papabear\:hidden {
+    display: none;
+  }
+
+  .papabear\:\!h-4 {
+    height: 32px !important;
+  }
+
+  .papabear\:h-6 {
+    height: 48px;
+  }
+
+  .papabear\:h-\[100\%\] {
+    height: 100%;
+  }
+
+  .papabear\:\!min-h-\[32px\] {
+    min-height: 32px !important;
+  }
+
+  .papabear\:min-h-\[96px\] {
+    min-height: 96px;
+  }
+
+  .papabear\:w-48 {
+    width: 384px;
+  }
+
+  .papabear\:w-\[1128px\] {
+    width: 1128px;
+  }
+
+  .papabear\:w-\[219px\] {
+    width: 219px;
+  }
+
+  .papabear\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .papabear\:w-\[calc\(100\%-97px\)\] {
+    width: calc(100% - 97px);
+  }
+
+  .papabear\:w-auto {
+    width: auto;
+  }
+
+  .papabear\:w-content-max-w {
+    width: 1128px;
+  }
+
+  .papabear\:w-core-rail-width {
+    width: 784px;
+  }
+
+  .papabear\:w-right-rail-width {
+    width: calc(1128px - 24px - 784px);
+  }
+
+  .papabear\:min-w-0 {
+    min-width: 0px;
+  }
+
+  .papabear\:max-w-\[550px\] {
+    max-width: 550px;
+  }
+
+  .papabear\:flex-shrink-0 {
+    flex-shrink: 0;
+  }
+
+  .papabear\:flex-col {
+    flex-direction: column;
+  }
+
+  .papabear\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .papabear\:items-start {
+    align-items: flex-start;
+  }
+
+  .papabear\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .papabear\:justify-center {
+    justify-content: center;
+  }
+
+  .papabear\:self-start {
+    align-self: flex-start;
+  }
+
+  .papabear\:rounded-tr-none {
+    border-top-right-radius: 0px;
+  }
+
+  .papabear\:border-4 {
+    border-width: 4px;
+  }
+
+  .papabear\:p-0 {
+    padding: 0px;
+  }
+
+  .papabear\:p-details-container-padding {
+    padding: 24px;
+  }
+
+  .papabear\:py-2 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .papabear\:pt-desktop-content-top-margin {
+    padding-top: 16px;
+  }
+
+  .papabear\:text-xl {
+    font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .-md\:ml-2 {
+    margin-left: 16px;
+  }
+
+  .-md\:mt-1 {
+    margin-top: 8px;
+  }
+
+  .-md\:flex-wrap {
+    flex-wrap: wrap;
+  }
+}
+</style></head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-ca=
+nvas w-full m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; pa=
+dding: 0px; padding-top: 8px; font-family: -apple-system, system-ui, BlinkM=
+acSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Ox=
+ygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe U=
+I Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, =
+Arial, sans-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible=
+ overflow-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; m=
+ax-height: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" dat=
+a-email-preheader=3D"true">A Austr=C3=A1lia acaba de desencadear uma revolu=
+=C3=A7=C3=A3o digital que far=C3=A1 o mundo inteiro=E2=80=A6</div> <div cla=
+ss=3D"h-0 opacity-0 text-transparent invisible overflow-hidden w-0 max-h-[0=
+]" style=3D"visibility: hidden; height: 0px; max-height: 0; width: 0px; ove=
+rflow: hidden; opacity: 0; mso-hide: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table =
+role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0" width=3D"512" align=3D"center" class=3D"mercado-container w-[512=
+px] max-w-[512px] mx-auto my-0 p-0 bg-color-background-container" style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt; margin-left: auto; margin-right: auto; margi=
+n-top: 0px; margin-bottom: 0px; width: 512px; max-width: 512px; background-=
+color: #ffffff; padding: 0px;"> <tbody> <tr> <td class=3D"text-center p-3" =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; padding: 24px; text-align: center;"=
+> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" width=3D"100%" class=3D"min-w-full" style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; min-width: 100%;"> <tbody> <tr> <td align=3D"left" val=
+ign=3D"middle" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https:/=
+/www.linkedin.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_fo=
+llow_newsletter_01%3B23ppN719Tdi2F4Phz3RWsg%3D%3D&amp;midToken=3DAQHxaOsdYM=
+WJVQ&amp;midSig=3D3Lagjzim9ODbw1&amp;trk=3Deml-email_series_follow_newslett=
+er_01-header-0-home_glimmer_dynamic_badging_high_dpi&amp;trkEmail=3Deml-ema=
+il_series_follow_newsletter_01-header-0-home_glimmer_dynamic_badging_high_d=
+pi-null-gdb74f~m3x9jjxw~ov-null-null&amp;eid=3Dgdb74f-m3x9jjxw-ov&amp;otpTo=
+ken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0NDk4YWM4YjYxNzljN=
+DA2NmQ0YjVkNWJmMmZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjlkNGZkNDA3ZTQwN2Y5MmQ1=
+Mzc1Nzc2MGYwOSwxLDE%3D" target=3D"_blank" class=3D"w-[84px]" style=3D"color=
+: #0a66c2; cursor: pointer; display: inline-block; text-decoration: none; -=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width: 84px;"> <=
+img class=3D"h-[37px] w-[101px]" alt=3D"LinkedIn" src=3D"https://www.linked=
+in.com/comm/dms/logo/v2?badgeTheme=3Dmercado&amp;lipi=3Durn%3Ali%3Apage%3Ae=
+mail_email_series_follow_newsletter_01%3B23ppN719Tdi2F4Phz3RWsg%3D%3D&amp;m=
+idSig=3D3Lagjzim9ODbw1&amp;midToken=3DAQHxaOsdYMWJVQ&amp;trkEmail=3Deml-ema=
+il_series_follow_newsletter_01-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7=
+Ev2-null-gdb74f%7Em3x9jjxw%7Eov-null-null&amp;trk=3Deml-email_series_follow=
+_newsletter_01-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2&amp;_sig=3D3=
+8FvaTMTRODbw1" data-test-header-dynamic-badging-img-high-dpi style=3D"outli=
+ne: none; text-decoration: none; -ms-interpolation-mode: bicubic; height: 3=
+7px; width: 101px;" width=3D"101" height=3D"37"> </a> </td> <td valign=3D"m=
+iddle" align=3D"right" style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table rol=
+e=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" width=3D"100%" data-test-header-profile style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt;"> <tbody> <tr> <td align=3D"right" valign=3D"middle" class=3D"=
+w-[32px]" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 32px;" width=3D"32=
+"> <a href=3D"https://br.linkedin.com/comm/in/fernando-ferreira-brito?lipi=
+=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B23ppN719Tdi2=
+F4Phz3RWsg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3Lagjzim9ODbw1&=
+amp;trk=3Deml-email_series_follow_newsletter_01-header-0-profile_glimmer&am=
+p;trkEmail=3Deml-email_series_follow_newsletter_01-header-0-profile_glimmer=
+-null-gdb74f~m3x9jjxw~ov-null-null&amp;eid=3Dgdb74f-m3x9jjxw-ov&amp;otpToke=
+n=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0NDk4YWM4YjYxNzljNDA=
+2NmQ0YjVkNWJmMmZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjlkNGZkNDA3ZTQwN2Y5MmQ1Mz=
+c1Nzc2MGYwOSwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: po=
+inter; display: inline-block; text-decoration: none; -webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%;"> <img alt=3D"Luiz Fernando Brito Fer=
+reira" src=3D"https://media.licdn.com/dms/image/v2/D4E03AQHtWMkj43o1lA/prof=
+ile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/17241=
+91556445?e=3D2147483647&amp;v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB92xXoc9=
+r_1IG6EIUIKB4" class=3D"rounded-[100%] w-[32px] h-[32px]" style=3D"outline:=
+ none; text-decoration: none; -ms-interpolation-mode: bicubic; height: 32px=
+; width: 32px; border-radius: 100%;" width=3D"32" height=3D"32"> </a> </td>=
+ </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr> <td=
+ class=3D"px-0 pb-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-left: =
+0px; padding-right: 0px; padding-bottom: 24px;"> <div> <table role=3D"prese=
+ntation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" wi=
+dth=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td dat=
+a-test-id=3D"newsletter-entity-lockup" class=3D"px-3 pt-1" style=3D"-webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt; padding-left: 24px; padding-right: 24px; padding-to=
+p: 8px;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"font-sans" style=3D"-we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt; font-family: -apple-system, system-ui, BlinkMac=
+SystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxyg=
+en, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI =
+Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Ar=
+ial, sans-serif;"> <tbody> <tr> <td valign=3D"top" class=3D"pr-1 w-6" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; width: 48px; padding-right: 8px;" width=
+=3D"48"> <a href=3D"https://www.linkedin.com/comm/newsletters/7206051779325=
+632512?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B2=
+3ppN719Tdi2F4Phz3RWsg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3Lag=
+jzim9ODbw1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_entit=
+y_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-email_series_follow_new=
+sletter_01-newsletter_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m3x=
+9jjxw~ov-null-null&amp;eid=3Dgdb74f-m3x9jjxw-ov&amp;otpToken=3DMWIwZDE3ZTgx=
+MzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0NDk4YWM4YjYxNzljNDA2NmQ0YjVkNWJmMmZ=
+lZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjlkNGZkNDA3ZTQwN2Y5MmQ1Mzc1Nzc2MGYwOSwxLD=
+E%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: =
+inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%;"> <img class=3D"inline-block relative bg-color-entity=
+-ghost-background w-6 h-6 rounded-md" src=3D"https://media.licdn.com/dms/im=
+age/v2/D4D12AQHMdLDdwxKvPg/series-logo_image-shrink_100_100/series-logo_ima=
+ge-shrink_100_100/0/1719253800475?e=3D2147483647&amp;v=3Dbeta&amp;t=3Dpv96s=
+IxNhbR-UQYdUcQy89XzsoG0ce2W02hEiXvC7h0" alt=3D"Abrir Resumo Tech" style=3D"=
+outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; posi=
+tion: relative; display: inline-block; height: 48px; width: 48px; border-ra=
+dius: 8px; background-color: #eae6df;" width=3D"48" height=3D"48"> </a> </t=
+d> <td valign=3D"top" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr=
+> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.link=
+edin.com/comm/newsletters/7206051779325632512?lipi=3Durn%3Ali%3Apage%3Aemai=
+l_email_series_follow_newsletter_01%3B23ppN719Tdi2F4Phz3RWsg%3D%3D&amp;midT=
+oken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3Lagjzim9ODbw1&amp;trk=3Deml-email_serie=
+s_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta&amp=
+;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-=
+0-newsletter_entity_cta-null-gdb74f~m3x9jjxw~ov-null-null&amp;eid=3Dgdb74f-=
+m3x9jjxw-ov&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2Nh=
+ZDE0NDk4YWM4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjl=
+kNGZkNDA3ZTQwN2Y5MmQ1Mzc1Nzc2MGYwOSwxLDE%3D" target=3D"_blank" class=3D"no-=
+underline" style=3D"color: #0a66c2; cursor: pointer; display: inline-block;=
+ text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; text-decoration-line: none;"> <div class=3D"pb-0.5" style=3D"paddi=
+ng-bottom: 4px;"> <span class=3D"text-md font-bold text-color-text break-wo=
+rds leading-regular" style=3D"overflow-wrap: break-word; font-size: 16px; f=
+ont-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Resumo Tec=
+h </span> </div> </a> </td> </tr> <tr> <td style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;"> <a href=3D"https://www.linkedin.com/comm/newsletters/720605177932=
+5632512?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B=
+23ppN719Tdi2F4Phz3RWsg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3La=
+gjzim9ODbw1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_enti=
+ty_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-email_series_follow_ne=
+wsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m3=
+x9jjxw~ov-null-null&amp;eid=3Dgdb74f-m3x9jjxw-ov&amp;otpToken=3DMWIwZDE3ZTg=
+xMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0NDk4YWM4YjYxNzljNDA2NmQ0YjVkNWJmMm=
+ZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjlkNGZkNDA3ZTQwN2Y5MmQ1Mzc1Nzc2MGYwOSwxL=
+DE%3D" target=3D"_blank" class=3D"no-underline" style=3D"color: #0a66c2; cu=
+rsor: pointer; display: inline-block; text-decoration: none; -webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; text-decoration-line: none;">=
+ <span class=3D"text-xs text-color-text-low-emphasis leading-regular" style=
+=3D"font-size: 12px; line-height: 1.25; color: rgba(0, 0, 0, 0.6);"> Conect=
+e-se com o futuro do mundo corporativo.An=C3=A1lises,insights que ir=C3=A3o=
+ fazer diferen=C3=A7a para=E2=80=A6 </span> </a> </td> </tr> </tbody> </tab=
+le> </td> </tr> </tbody> </table> </td> </tr> <tr data-test-id=3D"newslette=
+r-content-preview"> <td class=3D"px-3 pt-2" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt; padding-left: 24px; padding-right: 24px; padding-top: 16px;"> <tab=
+le role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-t=
+ext-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbo=
+dy> <tr> <td class=3D"overflow-hidden " style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt; overflow: hidden;"> <table role=3D"presentation" valign=3D"top" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/o-governo-australia=
+no-que-declarou-guerra-redes-sociais-leandro-brito-zxzdf?lipi=3Durn%3Ali%3A=
+page%3Aemail_email_series_follow_newsletter_01%3B23ppN719Tdi2F4Phz3RWsg%3D%=
+3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3Lagjzim9ODbw1&amp;trk=3Deml-=
+email_series_follow_newsletter_01-newsletter_content_preview-0-headline_&am=
+p;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_previ=
+ew-0-headline_-null-gdb74f~m3x9jjxw~ov-null-null&amp;eid=3Dgdb74f-m3x9jjxw-=
+ov&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0NDk4Y=
+WM4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjlkNGZkNDA3=
+ZTQwN2Y5MmQ1Mzc1Nzc2MGYwOSwxLDE%3D" target=3D"_blank" class=3D"w-full" styl=
+e=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decoratio=
+n: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width:=
+ 100%;"> <img class=3D"block w-full aspect-[744/400] object-cover overflow-=
+hidden" data-test-id=3D"newsletter-content-preview__cover-image" alt=3D"Ima=
+gem de capa da newsletter" src=3D"https://media.licdn.com/dms/image/v2/D4D1=
+2AQG0M0VJTcqaVg/article-cover_image-shrink_720_1280/article-cover_image-shr=
+ink_720_1280/0/1732549396058?e=3D2147483647&amp;v=3Dbeta&amp;t=3D9sVutkJ3ka=
+i2SOW4vH0blM7xOA5J4IXmYVAb6WXixs0" style=3D"outline: none; text-decoration:=
+ none; -ms-interpolation-mode: bicubic; display: block; aspect-ratio: 744/4=
+00; width: 100%; overflow: hidden; object-fit: cover;"> </a> </td> </tr> <t=
+r> <td class=3D"py-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: =
+16px; padding-bottom: 16px;"> <table role=3D"presentation" valign=3D"top" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/o-governo-aust=
+raliano-que-declarou-guerra-redes-sociais-leandro-brito-zxzdf?lipi=3Durn%3A=
+li%3Apage%3Aemail_email_series_follow_newsletter_01%3B23ppN719Tdi2F4Phz3RWs=
+g%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3Lagjzim9ODbw1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-title=
+_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_p=
+review-0-title_-null-gdb74f~m3x9jjxw~ov-null-null&amp;eid=3Dgdb74f-m3x9jjxw=
+-ov&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0NDk4=
+YWM4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjlkNGZkNDA=
+3ZTQwN2Y5MmQ1Mzc1Nzc2MGYwOSwxLDE%3D" target=3D"_blank" class=3D"no-underlin=
+e font-medium text-sm m-0 text-system-gray-90" style=3D"cursor: pointer; di=
+splay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; margin: 0px; font-size: 14px; font-weight: 500=
+; color: #282828; text-decoration-line: none;"> <h2 class=3D"m-0 text-displ=
+ay-sm leading-regular text-color-text font-bold font-sans" style=3D"margin:=
+ 0px; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Can=
+tarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-=
+size: 24px; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);=
+"> O Governo Australiano que Declarou Guerra as Redes Sociais. </h2> </a> <=
+/td> </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" data-test-id=3D"newsletter-author-lockup-redesign" cl=
+ass=3D"mt-1 mb-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-bottom: 16=
+px; margin-top: 8px;"> <tbody> <tr> <td valign=3D"middle" align=3D"left" cl=
+ass=3D"w-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 24px;" width=3D"=
+24"> <a href=3D"https://br.linkedin.com/comm/in/iamleandrobrito?lipi=3Durn%=
+3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B23ppN719Tdi2F4Phz3R=
+Wsg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3Lagjzim9ODbw1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-autho=
+r_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_=
+preview-0-author_-null-gdb74f~m3x9jjxw~ov-null-null&amp;eid=3Dgdb74f-m3x9jj=
+xw-ov&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0ND=
+k4YWM4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjlkNGZkN=
+DA3ZTQwN2Y5MmQ1Mzc1Nzc2MGYwOSwxLDE%3D" target=3D"_blank" style=3D"color: #0=
+a66c2; cursor: pointer; display: inline-block; text-decoration: none; -webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img class=3D"inli=
+ne-block relative bg-color-entity-ghost-background clip-path-circle-50 roun=
+ded-full w-4 h-4 align-middle" src=3D"https://media.licdn.com/dms/image/v2/=
+D4D03AQHmEFz5afHCFw/profile-displayphoto-shrink_400_400/profile-displayphot=
+o-shrink_400_400/0/1729191520640?e=3D2147483647&amp;v=3Dbeta&amp;t=3D-6w3s8=
+i7Bee6NCjlaVHPP3OTtcqietBNdW2ukTBAXH8" alt=3D"Imagem do autor" style=3D"out=
+line: none; text-decoration: none; -ms-interpolation-mode: bicubic; positio=
+n: relative; display: inline-block; height: 32px; width: 32px; border-radiu=
+s: 9999px; background-color: #eae6df; vertical-align: middle; clip-path: ci=
+rcle(50%);" width=3D"32" height=3D"32"> </a> </td> <td style=3D"-webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt;"> <a href=3D"https://br.linkedin.com/comm/in/iamleandro=
+brito?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B23=
+ppN719Tdi2F4Phz3RWsg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3Lagj=
+zim9ODbw1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_conten=
+t_preview-0-author_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-ne=
+wsletter_content_preview-0-author_-null-gdb74f~m3x9jjxw~ov-null-null&amp;ei=
+d=3Dgdb74f-m3x9jjxw-ov&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY=
+2UyYjE4Y2NhZDE0NDk4YWM4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmEzNTVmYWNkZjMwNWZm=
+ZmVkZjRjMjlkNGZkNDA3ZTQwN2Y5MmQ1Mzc1Nzc2MGYwOSwxLDE%3D" target=3D"_blank" c=
+lass=3D"no-underline ml-1" style=3D"color: #0a66c2; cursor: pointer; displa=
+y: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; margin-left: 8px; text-decoration-line: none;"> <s=
+pan class=3D"font-sans font-bold text-sm mb-3 text-color-text-low-emphasis =
+leading-regular" style=3D"margin-bottom: 24px; font-family: -apple-system, =
+system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira =
+Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color=
+ Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Gra=
+nde', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; line=
+-height: 1.25; color: rgba(0, 0, 0, 0.6);"> Leandro Brito </span> </a> </td=
+> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"pb-1" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; padding-bottom: 8px;"> <div class=3D"p-3 bg-colo=
+r-surface-tint rounded-md font-sans" data-test-id=3D"newsletter-cta-banner"=
+ style=3D"border-radius: 8px; background-color: #f5f7f9; padding: 24px; fon=
+t-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,=
+ 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, '=
+Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Sego=
+e UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;"> <div class=
+=3D"mb-1.5" style=3D"margin-bottom: 12px;"> <span class=3D"text-md leading-=
+regular font-bold text-color-text" style=3D"font-size: 16px; font-weight: 6=
+00; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Leia este artigo no Lin=
+kedIn para participar da conversa </span> </div> <table role=3D"presentatio=
+n" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D=
+"100%" class=3D"email-button " data-test-id=3D"email-button" style=3D"-webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=3D"middle" align=3D"lef=
+t" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedi=
+n.com/comm/pulse/o-governo-australiano-que-declarou-guerra-redes-sociais-le=
+andro-brito-zxzdf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsle=
+tter_01%3B23ppN719Tdi2F4Phz3RWsg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;mi=
+dSig=3D3Lagjzim9ODbw1&amp;trk=3Deml-email_series_follow_newsletter_01-newsl=
+etter_content_preview-0-read_more_banner_cta_&amp;trkEmail=3Deml-email_seri=
+es_follow_newsletter_01-newsletter_content_preview-0-read_more_banner_cta_-=
+null-gdb74f~m3x9jjxw~ov-null-null&amp;eid=3Dgdb74f-m3x9jjxw-ov&amp;otpToken=
+=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0NDk4YWM4YjYxNzljNDA2=
+NmQ0YjVkNWJmMmZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjlkNGZkNDA3ZTQwN2Y5MmQ1Mzc=
+1Nzc2MGYwOSwxLDE%3D" target=3D"_blank" aria-label=3D"Abrir este artigo no L=
+inkedIn" class=3D"align-top no-underline " style=3D"color: #0a66c2; cursor:=
+ pointer; display: inline-block; text-decoration: none; -webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; vertical-align: top; text-decorati=
+on-line: none;"> <table role=3D"presentation" valign=3D"top" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" width=3D"auto" class=3D"border-separate =
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: separate;"> <tbo=
+dy> <tr> <td class=3D"btn-sm btn-primary border-color-brand button-link lea=
+ding-regular !min-h-[auto] !shadow-none border-1 border-solid" style=3D"-we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt; height: min-content; border-radius: 24px; paddi=
+ng-top: 7px; padding-bottom: 7px; padding-left: 16px; padding-right: 16px; =
+text-align: center; font-size: 14px; font-weight: 600; cursor: pointer; tex=
+t-decoration-line: none; background-color: #0a66c2; color: #ffffff; border-=
+width: 1px; border-style: solid; border-color: #0a66c2; line-height: 1.25; =
+min-height: auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !i=
+mportant;"> <a href=3D"https://www.linkedin.com/comm/pulse/o-governo-austra=
+liano-que-declarou-guerra-redes-sociais-leandro-brito-zxzdf?lipi=3Durn%3Ali=
+%3Apage%3Aemail_email_series_follow_newsletter_01%3B23ppN719Tdi2F4Phz3RWsg%=
+3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3Lagjzim9ODbw1&amp;trk=3De=
+ml-email_series_follow_newsletter_01-newsletter_content_preview-0-read_more=
+_banner_cta_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newslette=
+r_content_preview-0-read_more_banner_cta_-null-gdb74f~m3x9jjxw~ov-null-null=
+&amp;eid=3Dgdb74f-m3x9jjxw-ov&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNG=
+VkNDUxY2UyYjE4Y2NhZDE0NDk4YWM4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmEzNTVmYWNkZ=
+jMwNWZmZmVkZjRjMjlkNGZkNDA3ZTQwN2Y5MmQ1Mzc1Nzc2MGYwOSwxLDE%3D" target=3D"_b=
+lank" tabindex=3D"-1" aria-hidden=3D"true" class=3D"no-underline" style=3D"=
+color: #0a66c2; cursor: pointer; display: inline-block; text-decoration: no=
+ne; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decora=
+tion-line: none;"> <span class=3D"no-underline text-white" style=3D"color: =
+#ffffff; text-decoration-line: none;"> Ler no LinkedIn </span> </a> </td> <=
+/tr> </tbody> </table> </a> </td> </tr> </tbody> </table> </div> </td> </tr=
+> <tr data-test-id=3D"newsletter-content-preview--content"> <td class=3D"se=
+ries-article-body" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -ap=
+ple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica N=
+eue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', =
+'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',=
+ 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 16px; line-heigh=
+t: 1.5; color: rgba(0, 0, 0, 0.9);"> <p style=3D"margin: 0; font-weight: 40=
+0; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">A Austr=C3=A1lia a=
+caba de desencadear uma revolu=C3=A7=C3=A3o digital que far=C3=A1 o mundo i=
+nteiro tremer. Em uma jogada ousada, o governo planeja banir crian=C3=A7as =
+completamente menores de 16 anos das redes sociais, criando uma linha de fr=
+ente nunca antes vista contra os perigos do mundo virtual.</p><h3 style=3D"=
+margin: 0; margin-left: 0px; margin-right: 0px; margin-top: 8px; margin-bot=
+tom: 4px; font-size: 16px; font-weight: 600; line-height: 1.25; letter-spac=
+ing: -0.02em; color: rgba(0, 0, 0, 0.9);">Bastidores da Decis=C3=A3o: Quand=
+o o Pesadelo se Torna Realidade</h3><p style=3D"margin: 0; font-weight: 400=
+; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">A hist=C3=B3ria por=
+ tr=C3=A1s dessa decis=C3=A3o =C3=A9 mais chocante do que voc=C3=AA imagina=
+. Sonya Ryan, uma m=C3=A3e que perdeu sua filha Carly de 15 anos para um pe=
+d=C3=B3filo online em 2007, liderou uma cruzada contra os predadores digita=
+is. Seu relato arrepiante exp=C3=B5e o lado mais sombrio da internet: porno=
+grafia, desinforma=C3=A7=C3=A3o, problemas de imagem corporal, sextors=C3=
+=A3o e bullying.</p><h3 style=3D"margin: 0; margin-left: 0px; margin-right:=
+ 0px; margin-top: 8px; margin-bottom: 4px; font-size: 16px; font-weight: 60=
+0; line-height: 1.25; letter-spacing: -0.02em; color: rgba(0, 0, 0, 0.9);">=
+A Voz da Juventude: Um Adolescente Contra o Sistema</h3><p style=3D"margin:=
+ 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;"=
+>Leo Puglisi, um jovem empreendedor de 17 anos, levanta uma bandeira cr=C3=
+=ADtica contra essa exclus=C3=A3o. Ele argumenta que as redes sociais s=C3=
+=A3o mais do que plataformas simples - s=C3=A3o ecossistemas de comunica=C3=
+=A7=C3=A3o, trabalho e entretenimento para uma gera=C3=A7=C3=A3o inteira qu=
+e nasceu conectada.</p><figure style=3D"margin: 0px;"><img data-media-urn d=
+ata-li-src=3D"https://media.licdn.com/dms/image/v2/D4D12AQF8n8LtUCQT3w/arti=
+cle-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1=
+732549812596?e=3D1738195200&amp;v=3Dbeta&amp;t=3DzTlcTozrZNmoTNujqAeGUixJIV=
+G5PxUjthXb8hT89Zk" src=3D"https://media.licdn.com/dms/image/v2/D4D12AQF8n8L=
+tUCQT3w/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1=
+000_1488/0/1732549812596?e=3D1738195200&amp;v=3Dbeta&amp;t=3DzTlcTozrZNmoTN=
+ujqAeGUixJIVG5PxUjthXb8hT89Zk" width=3D"480" style=3D"outline: none; text-d=
+ecoration: none; -ms-interpolation-mode: bicubic; margin-top: 1em; display:=
+ block; max-width: 100%; margin-left: auto; margin-right: auto; width: 100%=
+;"><figcaption style=3D"margin-top: 8px; text-align: center; font-family: -=
+apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica=
+ Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans'=
+, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol=
+', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 14px; line-hei=
+ght: 1.25; color: rgba(0, 0, 0, 0.6);">Crian=C3=A7a brinca com celular em R=
+ibeir=C3=A3o Preto, SP telas ansiedade =E2=80=94 Foto: Reprodu=C3=A7=C3=A3o=
+/EPTV</figcaption></figure><h3 style=3D"margin: 0; margin-left: 0px; margin=
+-right: 0px; margin-top: 8px; margin-bottom: 4px; font-size: 16px; font-wei=
+ght: 600; line-height: 1.25; letter-spacing: -0.02em; color: rgba(0, 0, 0, =
+0.9);">Pol=C3=ADtica e Unanimidade: Quando Todos Concordam</h3><p style=3D"=
+margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height=
+: 1.5;">Surpreendentemente, o plano tem apoio un=C3=A2nime de todos os esta=
+dos australianos. O partido de oposi=C3=A7=C3=A3o n=C3=A3o s=C3=B3 concorda=
+, como afirma que faria o mesmo. Mas ser=C3=A1 que essa unanimidade esconde=
+ problemas mais profundos?</p><h3 style=3D"margin: 0; margin-left: 0px; mar=
+gin-right: 0px; margin-top: 8px; margin-bottom: 4px; font-size: 16px; font-=
+weight: 600; line-height: 1.25; letter-spacing: -0.02em; color: rgba(0, 0, =
+0, 0.9);">O Dilema da Privacidade: O Pre=C3=A7o da Seguran=C3=A7a</h3><p st=
+yle=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line=
+-height: 1.5;">A proposta levanta quest=C3=B5es assustadoras sobre privacid=
+ade digital. Como identificar a idade ...</p> </td> </tr> <tr> <td class=3D=
+"pt-2 no-underline" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 16=
+px; text-decoration-line: none;"> <table role=3D"presentation" valign=3D"to=
+p" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D=
+"email-button series-content-preview__bottom-cta" data-test-id=3D"email-but=
+ton" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=3D"m=
+iddle" align=3D"left" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"=
+https://www.linkedin.com/comm/pulse/o-governo-australiano-que-declarou-guer=
+ra-redes-sociais-leandro-brito-zxzdf?lipi=3Durn%3Ali%3Apage%3Aemail_email_s=
+eries_follow_newsletter_01%3B23ppN719Tdi2F4Phz3RWsg%3D%3D&amp;midToken=3DAQ=
+HxaOsdYMWJVQ&amp;midSig=3D3Lagjzim9ODbw1&amp;trk=3Deml-email_series_follow_=
+newsletter_01-newsletter_content_preview-0-readmore_button_&amp;trkEmail=3D=
+eml-email_series_follow_newsletter_01-newsletter_content_preview-0-readmore=
+_button_-null-gdb74f~m3x9jjxw~ov-null-null&amp;eid=3Dgdb74f-m3x9jjxw-ov&amp=
+;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0NDk4YWM4YjY=
+xNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjlkNGZkNDA3ZTQwN2=
+Y5MmQ1Mzc1Nzc2MGYwOSwxLDE%3D" target=3D"_blank" aria-label=3D"Abrir Resumo =
+Tech no LinkedIn" class=3D"align-top no-underline " style=3D"color: #0a66c2=
+; cursor: pointer; display: inline-block; text-decoration: none; -webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; vertical-align: top; text=
+-decoration-line: none; width: 100%;"> <table role=3D"presentation" valign=
+=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" cl=
+ass=3D"border-separate " style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-col=
+lapse: separate; width: 100%;"> <tbody> <tr> <td class=3D"btn-md btn-second=
+ary-emphasis border-color-brand button-link leading-regular !min-h-[auto] !=
+shadow-none border-1 border-solid font-sans" data-test-id=3D"newsletter-con=
+tent-preview-redesign-bottom-cta" style=3D"-webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; h=
+eight: min-content; border-radius: 24px; padding-top: 12px; padding-bottom:=
+ 12px; padding-left: 24px; padding-right: 24px; text-align: center; font-si=
+ze: 16px; font-weight: 600; cursor: pointer; text-decoration-line: none; ba=
+ckground-color: rgba(0, 0, 0, 0); color: #0a66c2; border-width: 1px; border=
+-style: solid; border-color: #0a66c2; font-family: -apple-system, system-ui=
+, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ub=
+untu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Hel=
+vetica, Arial, sans-serif; line-height: 1.25; min-height: auto !important; =
+box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;"> <a href=3D"https:=
+//www.linkedin.com/comm/pulse/o-governo-australiano-que-declarou-guerra-red=
+es-sociais-leandro-brito-zxzdf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_=
+follow_newsletter_01%3B23ppN719Tdi2F4Phz3RWsg%3D%3D&amp;midToken=3DAQHxaOsd=
+YMWJVQ&amp;midSig=3D3Lagjzim9ODbw1&amp;trk=3Deml-email_series_follow_newsle=
+tter_01-newsletter_content_preview-0-readmore_button_&amp;trkEmail=3Deml-em=
+ail_series_follow_newsletter_01-newsletter_content_preview-0-readmore_butto=
+n_-null-gdb74f~m3x9jjxw~ov-null-null&amp;eid=3Dgdb74f-m3x9jjxw-ov&amp;otpTo=
+ken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0NDk4YWM4YjYxNzljN=
+DA2NmQ0YjVkNWJmMmZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjlkNGZkNDA3ZTQwN2Y5MmQ1=
+Mzc1Nzc2MGYwOSwxLDE%3D" target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"tr=
+ue" class=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; displa=
+y: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; text-decoration-line: none; width: 100%;"> <span c=
+lass=3D"no-underline text-color-brand" style=3D"color: #0a66c2; text-decora=
+tion-line: none;"> Continue lendo no LinkedIn </span> </a> </td> </tr> </tb=
+ody> </table> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </tab=
+le> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr>=
+ </tbody> </table> </div> </td> </tr> <tr> <td class=3D"bg-color-background=
+-canvas p-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f3f=
+2f0; padding: 24px;"> <table role=3D"presentation" valign=3D"top" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"text-xs" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt; font-size: 12px;"> <tbody> <tr> <td c=
+lass=3D"pb-1 m-0" data-test-id=3D"email-footer__intended" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> Este e-mail foi =
+enviado a Luiz Fernando Brito Ferreira (Full-Stack Developer | HTML | CSS |=
+ JS | React.js | Node.js | Python) </td> </tr> <tr> <td class=3D"pb-1 m-0" =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;">=
+ <a href=3D"https://www.linkedin.com/help/linkedin/answer/4788?lang=3Dpt&am=
+p;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B23ppN7=
+19Tdi2F4Phz3RWsg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3Lagjzim9=
+ODbw1&amp;trk=3Deml-email_series_follow_newsletter_01-SecurityHelp-0-footer=
+glimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-SecurityHelp-0=
+-footerglimmer-null-gdb74f~m3x9jjxw~ov-null-null&amp;eid=3Dgdb74f-m3x9jjxw-=
+ov&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0NDk4Y=
+WM4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjlkNGZkNDA3=
+ZTQwN2Y5MmQ1Mzc1Nzc2MGYwOSwxLDE%3D" target=3D"_blank" class=3D"text-inherit=
+ underline" style=3D"cursor: pointer; display: inline-block; text-decoratio=
+n: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color:=
+ inherit; text-decoration-line: underline;">Saiba por que inclu=C3=ADmos is=
+so.</a> </td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; margin: 0px; padding-bottom: 8px;">Voc=C3=AA est=C3=A1 receben=
+do e-mails de notifica=C3=A7=C3=A3o do LinkedIn. Outras pessoas podem ver q=
+ue voc=C3=AA =C3=A9 assinante.</td> </tr> <tr> <td class=3D"pb-1 m-0" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> <a h=
+ref=3D"https://www.linkedin.com/comm/series-notifications/?action=3Dunsubsc=
+ribe&amp;memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&amp;newslett=
+erId=3D7206051779325632512&amp;newsletterTitle=3DResumo%20Tech&amp;lipi=3Du=
+rn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B23ppN719Tdi2F4Ph=
+z3RWsg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3Lagjzim9ODbw1&amp;=
+trk=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGlimmer&amp=
+;trkEmail=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGlimm=
+er-null-gdb74f~m3x9jjxw~ov-null-null&amp;eid=3Dgdb74f-m3x9jjxw-ov&amp;otpTo=
+ken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0NDk4YWM4YjYxNzljN=
+DA2NmQ0YjVkNWJmMmZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjlkNGZkNDA3ZTQwN2Y5MmQ1=
+Mzc1Nzc2MGYwOSwxLDE%3D" target=3D"_blank" class=3D"text-inherit underline" =
+style=3D"cursor: pointer; display: inline-block; text-decoration: none; -we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: inherit; te=
+xt-decoration-line: underline;">Cancelar inscri=C3=A7=C3=A3o</a> =C2=A0=C2=
+=A0=C2=B7=C2=A0=C2=A0 <a href=3D"https://www.linkedin.com/help/linkedin/ans=
+wer/67?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3B23ppN719Tdi2F4Phz3RWsg%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp=
+;midSig=3D3Lagjzim9ODbw1&amp;trk=3Deml-email_series_follow_newsletter_01-he=
+lp-0-footerglimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-hel=
+p-0-footerglimmer-null-gdb74f~m3x9jjxw~ov-null-null&amp;eid=3Dgdb74f-m3x9jj=
+xw-ov&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0ND=
+k4YWM4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmEzNTVmYWNkZjMwNWZmZmVkZjRjMjlkNGZkN=
+DA3ZTQwN2Y5MmQ1Mzc1Nzc2MGYwOSwxLDE%3D" target=3D"_blank" class=3D"text-inhe=
+rit underline" style=3D"cursor: pointer; display: inline-block; text-decora=
+tion: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; col=
+or: inherit; text-decoration-line: underline;">Ajuda</a> </td> </tr> <tr> <=
+td class=3D"pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8=
+px;"> <a href=3D"https://www.linkedin.com/comm/feed/?lipi=3Durn%3Ali%3Apage=
+%3Aemail_email_series_follow_newsletter_01%3B23ppN719Tdi2F4Phz3RWsg%3D%3D&a=
+mp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3Lagjzim9ODbw1&amp;trk=3Deml-emai=
+l_series_follow_newsletter_01-footer-0-logoGlimmer&amp;trkEmail=3Deml-email=
+_series_follow_newsletter_01-footer-0-logoGlimmer-null-gdb74f~m3x9jjxw~ov-n=
+ull-null&amp;eid=3Dgdb74f-m3x9jjxw-ov&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2=
+I1MjQwNGVkNDUxY2UyYjE4Y2NhZDE0NDk4YWM4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmEzN=
+TVmYWNkZjMwNWZmZmVkZjRjMjlkNGZkNDA3ZTQwN2Y5MmQ1Mzc1Nzc2MGYwOSwxLDE%3D" targ=
+et=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-blo=
+ck; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%;"> <img src=3D"https://static.licdn.com/aero-v1/sc/h/9ehe6n39fa0=
+7dc5edzv0rla4e" alt=3D"LinkedIn" class=3D"block h-[14px] w-[56px] image-ren=
+dering-crisp" style=3D"outline: none; text-decoration: none; image-renderin=
+g: -moz-crisp-edges; image-rendering: -o-crisp-edges; image-rendering: -web=
+kit-optimize-contrast; image-rendering: crisp-edges; -ms-interpolation-mode=
+: nearest-neighbor; display: block; height: 14px; width: 56px;" width=3D"56=
+" height=3D"14"> </a> </td> </tr> <tr> <td data-test-copyright-text style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> =C2=A9 2024 LinkedIn Ireland Unlimited=
+ Company, Wilton Plaza, Wilton Place, Dublin 2 - Irlanda. LinkedIn =C3=A9 u=
+m nome comercial registrado da LinkedIn Ireland Unlimited Company. <span da=
+ta-test-trademarks-text> LinkedIn e o logo do LinkedIn s=C3=A3o marcas regi=
+stradas do LinkedIn. </span> </td> </tr> </tbody> </table> </td> </tr> </tb=
+ody> </table> <img alt role=3D"presentation" src=3D"https://www.linkedin.co=
+m/emimp/ip_WjJSaU56Um1MVzB6ZURscWFuaDNMVzkyOlpXMWhhV3hmYzJWeWFXVnpYMlp2Ykd4=
+dmQxOXVaWGR6YkdWMGRHVnlYekF4OmRYSnVPbXhwT214cGJtdGxaRWx1UVhKMGFXTnNaVG8zTWp=
+ZMk9ETTRPRFkxT0RFeU9EWTVNVEl4.gif" style=3D"outline: none; text-decoration:=
+ none; -ms-interpolation-mode: bicubic; width: 1px; height: 1px;" width=3D"=
+1" height=3D"1"> </body> </html>
+------=_Part_16192911_1204485075.1732553415805--
+

@@ -1,0 +1,956 @@
+X-GM-THRID: 1826487057671010905
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categoria:_promo=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:7a22:b0:2cd:a3c7:5e5d with SMTP id n34csp925005ysr;
+        Thu, 13 Mar 2025 06:49:56 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IEEB+9+jz0jqQhslRQRjoQEIS21i2gZGfmaXsUZdqg2wgIehubLhM4DqT6RCCK4+CafSxVb
+X-Received: by 2002:a05:6122:1d9e:b0:50a:c70b:9453 with SMTP id 71dfb90a1353d-523e4178542mr19200792e0c.10.1741873796451;
+        Thu, 13 Mar 2025 06:49:56 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1741873796; cv=none;
+        d=google.com; s=arc-20240605;
+        b=N/AcdlHSPPejIlcfJV2DVXAzcfFduQmQRrcq7T9i3F62U1pVdo8kKGcL/pOnzr+ZnB
+         EXywW9pVFBRtsbuv6NAH9RG9Er3FkR68WNHZXHbqiPA2uY+AwDTY/RxEKzsMh5G052fx
+         ccJr1shDuEU7OmWfFtOtYXOiMIYnqTW1VvVfCRH4QPVYsFNxromJ7mim/TPXwjvhUnxt
+         YGjlEPZw4OyvFsk8Ln7BP6M8wL+Vl57PAuBBEihMQIOYwbgUOqvY6tbgj4qnrdaFAj7S
+         LLsKMAUyz48Y8U9X9tJnvKhb4lSYTgSJq2z6flO9rBYzffVhxMzNjuRMc7XSjIoq9kDN
+         /uDw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=h2DAmOAjksZ//sx/N0GEq9Y2M/kvgJdF3enfvoXiWWU=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=ljkxSuE9KeupBkHfLKDAjZCe37yyHOBSnYxjhwo4AM6teq5zOxTGtTTaQLdWyxlRTl
+         79+aQxYvxWgKIWtYPJdHqiFfS1Fd2oMkmA210hHzQuPKXoVAQ/KblgkPyXsgNlHgJgnM
+         wte7zi1lIK+QtFAzzCm4zAkXB3Q3tYGCYXxwkETJI4WhaQYEzavrI17f2fRYmzIo6zrz
+         /BPqPfN6utvtHZTdGu6c88I2VshFHQO3gH+zHulHOe1w3BbYGE51NadCxFdcp9xb+rCf
+         TM/dOTXSuTQesbLCHr11s6gasxyfztue9Ap6WzFg3SIlOL4QKdMRNDTkCce4HamF8Lw/
+         qztg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=KLRPDRZj;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=ZrjZoR5G;
+       spf=pass (google.com: domain of s-50wskzg81tcm3nr3he26scrnq4secrb86gbqzn2yo3lcgtmytm32pun5@bounce.linkedin.com designates 108.174.3.196 as permitted sender) smtp.mailfrom=s-50wskzg81tcm3nr3he26scrnq4secrb86gbqzn2yo3lcgtmytm32pun5@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-50wskzg81tcm3nr3he26scrnq4secrb86gbqzn2yo3lcgtmytm32pun5@bounce.linkedin.com>
+Received: from maile-ad.linkedin.com (maile-ad.linkedin.com. [108.174.3.196])
+        by mx.google.com with ESMTPS id 71dfb90a1353d-5243a6f2de0si519240e0c.188.2025.03.13.06.49.56
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 13 Mar 2025 06:49:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of s-50wskzg81tcm3nr3he26scrnq4secrb86gbqzn2yo3lcgtmytm32pun5@bounce.linkedin.com designates 108.174.3.196 as permitted sender) client-ip=108.174.3.196;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=KLRPDRZj;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=ZrjZoR5G;
+       spf=pass (google.com: domain of s-50wskzg81tcm3nr3he26scrnq4secrb86gbqzn2yo3lcgtmytm32pun5@bounce.linkedin.com designates 108.174.3.196 as permitted sender) smtp.mailfrom=s-50wskzg81tcm3nr3he26scrnq4secrb86gbqzn2yo3lcgtmytm32pun5@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1741873794;
+	bh=h2DAmOAjksZ//sx/N0GEq9Y2M/kvgJdF3enfvoXiWWU=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=KLRPDRZjv8qZO475Js9m01wlYO2aCLtg7BVRjCuXcARFBwJXQ7JJ+FLKzdvO3j4YO
+	 U9jI0ijOmXeSq5xRTjeQ2eDYXETbjL75Mmz0M5eC8YW9oVO73YJ4zaaxsVf/sVigUl
+	 E1f2oZplxekao3mzJHXHS6dAyqeP7S8ZQoqiVlFROd5UHXsloFxEHe6i39j28Gk19l
+	 85pROIP9m/3FmTcLDIQBWFgP3L/E840z4MTFTe9cWFdkblWjojG1PFnupDsGA6P/XW
+	 jhRzh39c/fYK5bJF1BI/8g3Pyi5VESugkzN+AQ1WLSCOlt3nHwXBQf44DmbAapIdjf
+	 sqJ/DBWjVJ2SQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1741873794;
+	bh=h2DAmOAjksZ//sx/N0GEq9Y2M/kvgJdF3enfvoXiWWU=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=ZrjZoR5GRZo8/1QcHAUFSwXvV1c3rcF0F3WVRzTivClATXv4Rhp0xMMUYLlvNPLkp
+	 6gSBOxepGEx6tD9OFM6LsUkLyN+DPMh1hSQFsLFir6EDO6wgrL2GQhOP7jgpzTYpsE
+	 45a4X5K7W3j7sAHIY1l8gX3Z4UeECiB0hcP4UitN1NDEmyaI8xOYxCKpscrJmfGHQM
+	 3sFmKYuYe9NsRlirbPYHrEKCqlpegjkLOZCQZt0Fq7x/7WBUj8XnQvtCau5B5db9w8
+	 CI5tTE83xBPLa2VlEyuansMCjJspRQXuXjjkwJaa6n6re3JlEGcarvEnLqhrvRwfm8
+	 vNXe1xHMmimgg==
+From: "Luciano Rocha (PCD) via LinkedIn" <newsletters-noreply@linkedin.com>
+Message-ID: <1979586672.11110687.1741873794193@lva1-app48086.prod.linkedin.com>
+Subject: Curiosidade: a chave para o crescimento pessoal e profissional
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_11110685_1507881997.1741873794189"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Thu, 13 Mar 2025 13:49:54 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-aszwwdnn724ikwahrwocdisags7peuw4y28pmelft15bow8ya9vvjdypb8ozxlew9aqrvnw7q2zr9jrdzeqb3sm8z870cjlmcm5ze4
+X-LinkedIn-Id: gdb74f-m87eo3j2-6y
+List-Unsubscribe: <https://www.linkedin.com/series-notifications/?action=unsubscribe&memberToken=ADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&newsletterId=7223479127775862784&newsletterTitle=O Poder das soft skills no TI&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BdtMk3RfoSjueczGYNHhaVw%3D%3D&midToken=AQHxaOsdYMWJVQ&midSig=3DFNFlU-cZ-XE1&ek=email_series_follow_newsletter_01&e=gdb74f-m87eo3j2-6y&eid=gdb74f-m87eo3j2-6y&m=unsub&ts=unsub&li=0&t=plh>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_11110685_1507881997.1741873794189
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+O Poder das soft skills no TI
+
+Por Luciano Rocha (PCD)
+
+
+Por Luciano Rocha (PCD)
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/curiosidade-chave-para-o-crescimento-pe=
+ssoal-e-luciano-rocha-pcd--oefbf?lipi=3Durn%3Ali%3Apage%3Aemail_email_serie=
+s_follow_newsletter_01%3BdtMk3RfoSjueczGYNHhaVw%3D%3D&midToken=3DAQHxaOsdYM=
+WJVQ&midSig=3D3DFNFlU-cZ-XE1&trk=3Deml-email_series_follow_newsletter_01-nu=
+ll-0-read_more_banner_cta_&trkEmail=3Deml-email_series_follow_newsletter_01=
+-null-0-read_more_banner_cta_-null-gdb74f~m87eo3j2~6y-null-null&eid=3Dgdb74=
+f-m87eo3j2-6y&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVmYjM4Y2M5ZD=
+k0MjllYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU1NTVkMWUzZjU2MTk5ZDkxYWI4MTQwM=
+TcyYTA2OTcyNDNlYjJhNTExYjcyOTZjZiwxLDE%3D
+ =20
+Como a curiosidade pode transformar sua carreira e vida pessoal A curiosida=
+de =C3=A9 uma qualidade intr=C3=ADnseca aos seres humanos, um impulso natur=
+al para explorar, descobrir e compreender o mundo ao nosso redor. Embora mu=
+itas vezes subestimada, a curiosidade desempenha um papel crucial no desenv=
+olvimento pessoal e profissional. N=C3=A3o se trata apenas de buscar conhec=
+imento, mas tamb=C3=A9m de adotar uma mentalidade aberta e receptiva a nova=
+s experi=C3=AAncias. Neste artigo, vamos explorar a import=C3=A2ncia da cur=
+iosidade, suas caracter=C3=ADsticas, benef=C3=ADcios e como ela pode impact=
+ar positivamente sua carreira e vida pessoal. A curiosidade n=C3=A3o se lim=
+ita a um campo espec=C3=ADfico; ela permeia todos os aspectos da nossa vida=
+. Desde a inf=C3=A2ncia, somos incentivados a fazer perguntas e buscar resp=
+ostas. No entanto, =C3=A0 medida que crescemos, a sociedade muitas vezes de=
+sencoraja essa caracter=C3=ADstica, promovendo conformidade e aceita=C3=A7=
+=C3=A3o passiva. Resgatar a curiosidade =C3=A9 essencial para nos tornarmos=
+ indiv=C3=ADduos mais inovadores, criativos e resilientes. Ao longo deste a=
+rtigo, discutiremos o que =C3=A9 a curiosidade, suas caracter=C3=ADsticas, =
+para que serve, e como ela pode ser cultivada e utilizada no ambiente profi=
+ssional. Al=C3=A9m disso, abordaremos os lados positivos e negativos, os be=
+nef=C3=ADcios e as desvantagens de ser uma pessoa curiosa, e o que as empre=
+sas procuram em profissionais com essa habilidade. =C3=8Dndice O que =C3=A9=
+ curiosidade Caracter=C3=ADsticas da curiosidade Para que serve a curiosida=
+de O lado positivo e negativo da curiosidade Benef=C3=ADcios da curiosidade=
+ Desvantagens da curiosidade O que as empresas procuram Conclus=C3=A3o O qu=
+e =C3=A9 curiosidade? Curiosidade =C3=A9 o desejo inerente de adquirir novo=
+s conhecimentos e experi=C3=AAncias. =C3=89 a for=C3=A7a motriz que nos lev=
+a a fazer perguntas, buscar respostas e explorar o desconhecido. A curiosid=
+ade nos impulsiona a sair da nossa zona de conforto e a enfrentar desafios =
+com uma mente aberta. A curiosidade pode ser classificada em dois tipos pri=
+ncipais: epistemol=C3=B3gica e perceptiva. A curiosidade epistemol=C3=B3gic=
+a est=C3=A1 relacionada ao desejo de aprender e compreender informa=C3=A7=
+=C3=B5es novas. J=C3=A1 a curiosidade perceptiva envolve a explora=C3=A7=C3=
+=A3o sensorial e a busca por novas experi=C3=AAncias atrav=C3=A9s dos senti=
+dos. Independente do tipo, a curiosidade =C3=A9 essencial para o desenvolvi=
+mento cognitivo e emocional. Ela estimula a criatividade, a inova=C3=A7=C3=
+=A3o e a capacidade de resolver problemas. Quando nutrida adequadamente, a =
+curiosidade pode transformar nossa maneira de ver e interagir com o mundo. =
+Al=C3=A9m disso, a curiosidade =C3=A9 um fator chave na motiva=C3=A7=C3=A3o=
+ intr=C3=ADnseca. Pessoas curiosas s=C3=A3o frequentemente mais engajadas e=
+ motivadas em suas atividades, pois est=C3=A3o constantemente buscando form=
+as de expandir seu conhecimento e habilidades. Caracter=C3=ADsticas A curio=
+sidade apresenta v=C3=A1rias caracter=C3=ADsticas que a tornam uma habilida=
+de valiosa no ambiente profissional. Primeiramente, pessoas curiosas s=C3=
+=A3o mais propensas a questionar o status quo e a buscar solu=C3=A7=C3=B5es=
+ inovadoras para problemas complexos. Elas n=C3=A3o se contentam com respos=
+tas superficiais e est=C3=A3o sempre em busca de um entendimento mais profu=
+ndo. Outra caracter=C3=ADstica marcante da curiosidade =C3=A9 a capacidade =
+de se adaptar a novas situa=C3=A7=C3=B5es. Pessoas curiosas t=C3=AAm uma me=
+nte aberta e est=C3=A3o dispostas a explorar diferentes perspectivas e abor=
+dagens. Isso as torna mais flex=C3=ADveis e resilientes diante de mudan=C3=
+=A7as e adversidades. Al=C3=A9m disso, a curiosidade est=C3=A1 intimamente =
+ligada =C3=A0 empatia. Ao buscar compreender os outros e suas experi=C3=AAn=
+cias, pessoas curiosas desenvolvem uma maior sensibilidade =C3=A0s necessid=
+ades e sentimentos alheios. Isso =C3=A9 particularmente importante em ambie=
+ntes de trabalho colaborativos, onde a empatia pode facilitar a comunica=C3=
+=A7=C3=A3o e o trabalho em equipe. A curiosidade tamb=C3=A9m estimula a apr=
+endizagem cont=C3=ADnua. Pessoas curiosas est=C3=A3o sempre em busca de nov=
+os conhecimentos e habilidades, o que as torna mais aptas a se manterem atu=
+alizadas e competitivas no mercado de trabalho. Essa caracter=C3=ADstica =
+=C3=A9 especialmente relevante em um mundo em constante evolu=C3=A7=C3=A3o,=
+ onde a capacidade de aprender e se adaptar =C3=A9 crucial para o sucesso. =
+Para que serve A curiosidade desempenha um papel fundamental em v=C3=A1rias=
+ =C3=A1reas da vida pessoal e profissional. No ambiente de trabalho, a curi=
+osidade pode levar =C3=A0 inova=C3=A7=C3=A3o e =C3=A0 melhoria cont=C3=ADnu=
+a. Profissionais curiosos est=C3=A3o sempre em busca de novas maneiras de f=
+azer as coisas, o que pode resultar em processos mais eficientes e solu=C3=
+=A7=C3=B5es criativas para problemas. Al=C3=A9m disso, a curiosidade =C3=A9=
+ uma ferramenta valiosa para o desenvolvimento pessoal. Ao explorar novos i=
+nteresses e habilidades, indiv=C3=ADduos curiosos podem descobrir paix=C3=
+=B5es e talentos ocultos, o que pode enriquecer suas vidas e carreiras. A c=
+uriosidade tamb=C3=A9m promove a autoconfian=C3=A7a, =C3=A0 medida que as p=
+essoas se tornam mais seguras em sua capacidade de aprender e crescer. No =
+=C3=A2mbito das rela=C3=A7=C3=B5es interpessoais, a curiosidade pode fortal=
+ecer conex=C3=B5es e construir pontes. Ao demonstrar interesse genu=C3=ADno=
+ pelos outros e por suas experi=C3=AAncias, as pessoas curiosas podem estab=
+elecer relacionamentos mais profundos e significativos. Isso =C3=A9 particu=
+larmente importante em contextos profissionais, onde a constru=C3=A7=C3=A3o=
+ de redes s=C3=B3lidas pode abrir portas para novas oportunidades. A curios=
+idade tamb=C3=A9m =C3=A9 uma aliada na resolu=C3=A7=C3=A3o de problemas. Ao=
+ questionar suposi=C3=A7=C3=B5es e explorar diferentes perspectivas, pessoa=
+s curiosas s=C3=A3o capazes de encontrar solu=C3=A7=C3=B5es inovadoras e ef=
+icazes para desafios complexos. Essa habilidade =C3=A9 especialmente valios=
+a em ambientes de trabalho din=C3=A2micos, onde a capacidade de resolver pr=
+oblemas de forma criativa pode fazer toda a diferen=C3=A7a. O lado positivo=
+ e negativo A curiosidade possui muitos aspectos positivos que podem benefi=
+ciar tanto a vida pessoal quanto a profissional. Primeiramente, ela estimul=
+a a aprendizagem cont=C3=ADnua e o desenvolvimento pessoal. Pessoas curiosa=
+s est=C3=A3o sempre em busca de novos conhecimentos e experi=C3=AAncias, o =
+que as torna mais adapt=C3=A1veis e resilientes. Outro lado positivo da cur=
+iosidade =C3=A9 a capacidade de inovar. Profissionais curiosos s=C3=A3o mai=
+s propensos a questionar o status quo e a buscar solu=C3=A7=C3=B5es criativ=
+as para problemas. Isso pode levar a melhorias nos processos de trabalho e =
+a inova=C3=A7=C3=B5es que beneficiam a empresa como um todo. Al=C3=A9m diss=
+o, a curiosidade pode fortalecer as rela=C3=A7=C3=B5es interpessoais. Ao de=
+monstrar interesse genu=C3=ADno pelos outros e suas experi=C3=AAncias, pess=
+oas curiosas podem estabelecer conex=C3=B5es mais profundas e significativa=
+s. Isso =C3=A9 particularmente importante em ambientes de trabalho colabora=
+tivos, onde a empatia e a comunica=C3=A7=C3=A3o eficaz s=C3=A3o essenciais.=
+ Por outro lado, a curiosidade tamb=C3=A9m pode ter aspectos negativos. Em =
+alguns casos, a busca incessante por informa=C3=A7=C3=B5es e experi=C3=AAnc=
+ias pode levar =C3=A0 dispers=C3=A3o e =C3=A0 falta de foco. Pessoas excess=
+ivamente curiosas podem se distrair facilmente e ter dificuldade em se conc=
+entrar em tarefas espec=C3=ADficas. Outro aspecto negativo da curiosidade =
+=C3=A9 a possibilidade de invas=C3=A3o de privacidade. Em situa=C3=A7=C3=B5=
+es onde o limite entre o interesse genu=C3=ADno e a intromiss=C3=A3o n=C3=
+=A3o =C3=A9 claramente definido, a curiosidade pode causar desconforto e pr=
+ejudicar relacionamentos. =C3=89 importante equilibrar a curiosidade com o =
+respeito pelos limites e pela privacidade dos outros. Benef=C3=ADcios A cur=
+iosidade oferece in=C3=BAmeros benef=C3=ADcios que podem impactar positivam=
+ente a vida pessoal e profissional. Um dos principais benef=C3=ADcios =C3=
+=A9 a promo=C3=A7=C3=A3o da aprendizagem cont=C3=ADnua. Pessoas curiosas es=
+t=C3=A3o sempre em busca de novos conhecimentos e habilidades, o que as tor=
+na mais aptas a se adaptarem =C3=A0s mudan=C3=A7as e a se manterem competit=
+ivas no mercado de trabalho. Al=C3=A9m disso, a curiosidade estimula a cria=
+tividade e a inova=C3=A7=C3=A3o. Ao questionar suposi=C3=A7=C3=B5es e explo=
+rar diferentes perspectivas, pessoas curiosas s=C3=A3o capazes de encontrar=
+ solu=C3=A7=C3=B5es inovadoras para problemas complexos. Isso pode resultar=
+ em melhorias nos processos de trabalho e em inova=C3=A7=C3=B5es que benefi=
+ciam a empresa como um todo. A curiosidade tamb=C3=A9m fortalece as rela=C3=
+=A7=C3=B5es interpessoais. Ao demonstrar interesse genu=C3=ADno pelos outro=
+s e suas experi=C3=AAncias, pessoas curiosas podem estabelecer conex=C3=B5e=
+s mais profundas e significativas. Isso =C3=A9 especialmente importante em =
+ambientes de trabalho colaborativos, onde a empatia e a comunica=C3=A7=C3=
+=A3o eficaz s=C3=A3o essenciais para o sucesso. Outro benef=C3=ADcio da cur=
+iosidade =C3=A9 o aumento da autoconfian=C3=A7a. =C3=80 medida que as pesso=
+as exploram novos interesses e habilidades, elas se tornam mais seguras em =
+sua capacidade de aprender e crescer. Isso pode levar a uma maior satisfa=
+=C3=A7=C3=A3o pessoal e a um desempenho profissional mais eficiente. Desvan=
+tagens Embora a curiosidade tenha muitos aspectos positivos, tamb=C3=A9m =
+=C3=A9 importante reconhecer suas desvantagens. Uma das principais desvanta=
+gens =C3=A9 a possibilidade de dispers=C3=A3o e falta de foco. Pessoas exce=
+ssivamente curiosas podem se distrair facilmente e ter dificuldade em se co=
+ncentrar em tarefas espec=C3=ADficas, o que pode prejudicar sua produtivida=
+de. Outra desvantagem da curiosidade =C3=A9 a possibilidade de invas=C3=A3o=
+ de privacidade. Em situa=C3=A7=C3=B5es onde o limite entre o interesse gen=
+u=C3=ADno e a intromiss=C3=A3o n=C3=A3o =C3=A9 claramente definido, a curio=
+sidade pode causar desconforto e prejudicar relacionamentos. =C3=89 importa=
+nte equilibrar a curiosidade com o respeito pelos limites e pela privacidad=
+e dos outros. A curiosidade tamb=C3=A9m pode levar =C3=A0 sobrecarga de inf=
+orma=C3=A7=C3=B5es. Ao buscar constantemente novas informa=C3=A7=C3=B5es e =
+experi=C3=AAncias, pessoas curiosas podem se sentir sobrecarregadas e estre=
+ssadas. =C3=89 essencial encontrar um equil=C3=ADbrio entre a busca por con=
+hecimento e o bem-estar emocional. Al=C3=A9m disso, a curiosidade pode resu=
+ltar em expectativas irrealistas. Ao explorar novas ideias e possibilidades=
+, as pessoas podem criar expectativas que nem sempre correspondem =C3=A0 re=
+alidade. Isso pode levar =C3=A0 decep=C3=A7=C3=A3o e =C3=A0 frustra=C3=A7=
+=C3=A3o quando as coisas n=C3=A3o saem como esperado. O que as empresas pro=
+curam? As empresas valorizam a curiosidade como uma habilidade essencial em=
+ seus profissionais. Elas buscam indiv=C3=ADduos que estejam dispostos a ap=
+render continuamente e a se adaptar =C3=A0s mudan=C3=A7as no mercado de tra=
+balho. Profissionais curiosos s=C3=A3o mais aptos a se manterem adaptados =
+=C3=A0s novas demandas e desafios, tornando-se ativos valiosos para a organ=
+iza=C3=A7=C3=A3o. Empresas procuram profissionais que demonstrem proativida=
+de e disposi=C3=A7=C3=A3o para explorar novas ideias e solu=C3=A7=C3=B5es. =
+A capacidade de questionar suposi=C3=A7=C3=B5es e buscar maneiras inovadora=
+s de resolver problemas =C3=A9 altamente valorizada, pois contribui para a =
+melhoria cont=C3=ADnua e o crescimento da empresa. Al=C3=A9m disso, as empr=
+esas valorizam profissionais que possuem habilidades interpessoais fortes. =
+A curiosidade pode facilitar a constru=C3=A7=C3=A3o de relacionamentos saud=
+=C3=A1veis e colaborativos no ambiente de trabalho, promovendo um clima org=
+anizacional positivo e produtivo. Isso =C3=A9 particularmente importante em=
+ equipes multidisciplinares, onde a comunica=C3=A7=C3=A3o e a empatia s=C3=
+=A3o essenciais para o sucesso. Por fim, as empresas buscam profissionais q=
+ue sejam capazes de aprender e se adaptar rapidamente. Em um mercado de tra=
+balho em constante evolu=C3=A7=C3=A3o, a capacidade de adquirir novas habil=
+idades e conhecimentos de forma =C3=A1gil =C3=A9 crucial para se manter com=
+petitivo. A curiosidade desempenha um papel fundamental nesse processo, per=
+mitindo que os profissionais se mantenham atualizados e preparados para enf=
+rentar os desafios do futuro. Conclus=C3=A3o A curiosidade =C3=A9 uma habil=
+idade fundamental que pode transformar tanto a vida pessoal quanto a carrei=
+ra profissional. Ela promove a aprendizagem cont=C3=ADnua, estimula a criat=
+ividade e a inova=C3=A7=C3=A3o, e fortalece as rela=C3=A7=C3=B5es interpess=
+oais. No entanto, =C3=A9 importante equilibrar a curiosidade com o respeito=
+ pelos limites e pela privacidade dos outros, al=C3=A9m de gerenciar o foco=
+ e a dispers=C3=A3o. Ao cultivar a curiosidade, voc=C3=AA estar=C3=A1 melho=
+r preparado para enfrentar os desafios e aproveitar as oportunidades que su=
+rgirem ao longo da sua jornada profissional. As empresas reconhecem o valor=
+ dessa habilidade e procuram profissionais que demonstrem proatividade, hab=
+ilidades interpessoais e capacidade de adapta=C3=A7=C3=A3o. Gostar=C3=ADamo=
+s de ouvir a sua opini=C3=A3o sobre este assunto. Compartilhe seus pensamen=
+tos e experi=C3=AAncias nos coment=C3=A1rios abaixo. Vamos continuar essa c=
+onversa e aprender juntos! Encontrou algo de errado nesse ou em outro artig=
+o? Comente, curte e compartilhe para mais pessoas terem acesso al=C3=A9m de=
+ assinar a newsletter. Aceito cr=C3=ADticas em rela=C3=A7=C3=A3o aos conte=
+=C3=BAdos criados al=C3=A9m de sugest=C3=B5es e elogios. Hashtags #curiosit=
+y #innovation #growth Fontes https://www.rhportal.com.br/artigos-rh/a-impor=
+tancia-da-curiosidade-no-ambiente-de-trabalho/ https://www.todamateria.com.=
+br/curiosidade/ https://www.administradores.com.br/artigos/curiosidade-a-ch=
+ave-para-a-inovacao-e-criatividade https://www.mindtools.com/pages/article/=
+curiosity.htm https://www.hbrbr.com.br/curiosidade-e-empatia-como-essas-hab=
+ilidades-se-complementam/
+Continue lendo no LinkedIn
+https://www.linkedin.com/comm/pulse/curiosidade-chave-para-o-crescimento-pe=
+ssoal-e-luciano-rocha-pcd--oefbf?lipi=3Durn%3Ali%3Apage%3Aemail_email_serie=
+s_follow_newsletter_01%3BdtMk3RfoSjueczGYNHhaVw%3D%3D&midToken=3DAQHxaOsdYM=
+WJVQ&midSig=3D3DFNFlU-cZ-XE1&trk=3Deml-email_series_follow_newsletter_01-ne=
+wsletter_content_preview_text-0-readmore_button_&trkEmail=3Deml-email_serie=
+s_follow_newsletter_01-newsletter_content_preview_text-0-readmore_button_-n=
+ull-gdb74f~m87eo3j2~6y-null-null&eid=3Dgdb74f-m87eo3j2-6y&otpToken=3DMWIwZD=
+E3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVmYjM4Y2M5ZDk0MjllYWM4YTYxNzljNDA2NmQ0YjVkN=
+WJmMmZlZDNkZmU1NTVkMWUzZjU2MTk5ZDkxYWI4MTQwMTcyYTA2OTcyNDNlYjJhNTExYjcyOTZj=
+ZiwxLDE%3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | Java | JS | React.js | PostgreSQL)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3BdtMk3RfoSjueczGYNHhaVw%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=
+=3D3DFNFlU-cZ-XE1&trk=3Deml-email_series_follow_newsletter_01-SecurityHelp-=
+0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Securi=
+tyHelp-0-textfooterglimmer-null-gdb74f~m87eo3j2~6y-null-null&eid=3Dgdb74f-m=
+87eo3j2-6y&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVmYjM4Y2M5ZDk0M=
+jllYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU1NTVkMWUzZjU2MTk5ZDkxYWI4MTQwMTcy=
+YTA2OTcyNDNlYjJhNTExYjcyOTZjZiwxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/series-notifications=
+/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjl=
+Y&newsletterId=3D7223479127775862784&newsletterTitle=3DO Poder das soft ski=
+lls no TI&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%=
+3BdtMk3RfoSjueczGYNHhaVw%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D3DFNFlU-c=
+Z-XE1&ek=3Demail_series_follow_newsletter_01&e=3Dgdb74f-m87eo3j2-6y&eid=3Dg=
+db74f-m87eo3j2-6y&m=3Dunsubscribe&ts=3DfooterGlimmer&li=3D0&t=3Dplh  =C2=A0=
+=C2=A0=C2=B7=C2=A0=C2=A0Ajuda: https://www.linkedin.com/help/linkedin/answe=
+r/67?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslette=
+r_01%3BdtMk3RfoSjueczGYNHhaVw%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D3DFN=
+FlU-cZ-XE1&trk=3Deml-email_series_follow_newsletter_01-help-0-textfootergli=
+mmer&trkEmail=3Deml-email_series_follow_newsletter_01-help-0-textfooterglim=
+mer-null-gdb74f~m87eo3j2~6y-null-null&eid=3Dgdb74f-m87eo3j2-6y&otpToken=3DM=
+WIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVmYjM4Y2M5ZDk0MjllYWM4YTYxNzljNDA2NmQ0=
+YjVkNWJmMmZlZDNkZmU1NTVkMWUzZjU2MTk5ZDkxYWI4MTQwMTcyYTA2OTcyNDNlYjJhNTExYjc=
+yOTZjZiwxLDE%3D
+
+=C2=A9 2025 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_11110685_1507881997.1741873794189
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+/head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-canvas w-fu=
+ll m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; padding: 0p=
+x; padding-top: 8px; font-family: -apple-system, system-ui, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Ox=
+ygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sa=
+ns-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible overflow=
+-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; max-height=
+: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" data-email-p=
+reheader=3D"true">Como a curiosidade pode transformar sua carreira e vida p=
+essoal A curiosidade =C3=A9=E2=80=A6</div> <div class=3D"h-0 opacity-0 text=
+-transparent invisible overflow-hidden w-0 max-h-[0]" style=3D"visibility: =
+hidden; height: 0px; max-height: 0; width: 0px; overflow: hidden; opacity: =
+0; mso-hide: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+ =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table role=3D"presentation" va=
+lign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"512"=
+ align=3D"center" class=3D"mercado-container w-[512px] max-w-[512px] mx-aut=
+o my-0 p-0 " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-left: auto; mar=
+gin-right: auto; margin-top: 0px; margin-bottom: 0px; width: 512px; max-wid=
+th: 512px; padding: 0px;"> <tbody> <tr> <td style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"bg-color-background-co=
+ntainer " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff=
+;"> <tbody> <tr> <td class=3D"text-center p-3" style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt; padding: 24px; text-align: center;"> <table role=3D"presentatio=
+n" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D=
+"100%" class=3D"min-w-full" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-wid=
+th: 100%;"> <tbody> <tr> <td align=3D"left" valign=3D"middle" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/feed/=
+?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BdtMk3Rf=
+oSjueczGYNHhaVw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3DFNFlU-cZ=
+-XE1&amp;trk=3Deml-email_series_follow_newsletter_01-header-0-home_glimmer_=
+static_badging_with_count&amp;trkEmail=3Deml-email_series_follow_newsletter=
+_01-header-0-home_glimmer_static_badging_with_count-null-gdb74f~m87eo3j2~6y=
+-null-null&amp;eid=3Dgdb74f-m87eo3j2-6y&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2Jj=
+M2I1MjQwNGVkNDIxZmVmYjM4Y2M5ZDk0MjllYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU=
+1NTVkMWUzZjU2MTk5ZDkxYWI4MTQwMTcyYTA2OTcyNDNlYjJhNTExYjcyOTZjZiwxLDE%3D" ta=
+rget=3D"_blank" class=3D"w-[84px]" style=3D"color: #0a66c2; cursor: pointer=
+; display: inline-block; text-decoration: none; -webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; width: 84px;"> <img class=3D"h-[37px] w-[1=
+01px]" alt=3D"LinkedIn" src=3D"https://static.licdn.com/aero-v1/sc/h/2huuis=
+1k3beio0p1e40la2gcs" data-test-header-static-badging-img style=3D"outline: =
+none; text-decoration: none; -ms-interpolation-mode: bicubic; height: 37px;=
+ width: 101px;" width=3D"101" height=3D"37"> </a> </td> <td valign=3D"middl=
+e" align=3D"right" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D=
+"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" width=3D"100%" data-test-header-profile style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;"> <tbody> <tr> <td align=3D"right" valign=3D"middle" class=3D"w-[3=
+2px]" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 32px;" width=3D"32"> <=
+a href=3D"https://br.linkedin.com/comm/in/fernando-ferreira-brito?lipi=3Dur=
+n%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BdtMk3RfoSjueczGYN=
+HhaVw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3DFNFlU-cZ-XE1&amp;t=
+rk=3Deml-email_series_follow_newsletter_01-header-0-profile_glimmer&amp;trk=
+Email=3Deml-email_series_follow_newsletter_01-header-0-profile_glimmer-null=
+-gdb74f~m87eo3j2~6y-null-null&amp;eid=3Dgdb74f-m87eo3j2-6y&amp;otpToken=3DM=
+WIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVmYjM4Y2M5ZDk0MjllYWM4YTYxNzljNDA2NmQ0=
+YjVkNWJmMmZlZDNkZmU1NTVkMWUzZjU2MTk5ZDkxYWI4MTQwMTcyYTA2OTcyNDNlYjJhNTExYjc=
+yOTZjZiwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer=
+; display: inline-block; text-decoration: none; -webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%;"> <img alt=3D"Luiz Fernando Brito Ferreira=
+" src=3D"https://media.licdn.com/dms/image/v2/D4E03AQHtWMkj43o1lA/profile-d=
+isplayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724191556=
+445?e=3D2147483647&amp;v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB92xXoc9r_1IG=
+6EIUIKB4" class=3D"rounded-[100%] w-[32px] h-[32px]" style=3D"outline: none=
+; text-decoration: none; -ms-interpolation-mode: bicubic; height: 32px; wid=
+th: 32px; border-radius: 100%;" width=3D"32" height=3D"32"> </a> </td> </tr=
+> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr> <td clas=
+s=3D"px-0 pb-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 0px; =
+padding-right: 0px; padding-bottom: 24px;"> <div> <table role=3D"presentati=
+on" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td data-t=
+est-id=3D"newsletter-entity-lockup" class=3D"px-3 pt-1" style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; padding-left: 24px; padding-right: 24px; padding-top: =
+8px;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"font-sans" style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt; font-family: -apple-system, system-ui, BlinkMacSys=
+temFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen,=
+ 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emo=
+ji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial=
+, sans-serif;"> <tbody> <tr> <td valign=3D"top" class=3D"pr-1 w-6" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt; width: 48px; padding-right: 8px;" width=3D"=
+48"> <a href=3D"https://www.linkedin.com/comm/newsletters/72234791277758627=
+84?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BdtMk3=
+RfoSjueczGYNHhaVw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3DFNFlU-=
+cZ-XE1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_entity_lo=
+ckup-0-newsletter_entity_cta&amp;trkEmail=3Deml-email_series_follow_newslet=
+ter_01-newsletter_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m87eo3j=
+2~6y-null-null&amp;eid=3Dgdb74f-m87eo3j2-6y&amp;otpToken=3DMWIwZDE3ZTgxMzI4=
+Y2JjM2I1MjQwNGVkNDIxZmVmYjM4Y2M5ZDk0MjllYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDN=
+kZmU1NTVkMWUzZjU2MTk5ZDkxYWI4MTQwMTcyYTA2OTcyNDNlYjJhNTExYjcyOTZjZiwxLDE%3D=
+" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inli=
+ne-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%;"> <img class=3D"inline-block relative bg-color-entity-gho=
+st-background w-6 h-6 rounded-md" src=3D"https://media.licdn.com/dms/image/=
+v2/D4D12AQG3wpNQ_VtIkA/series-logo_image-shrink_100_100/series-logo_image-s=
+hrink_100_100/0/1722211598994?e=3D2147483647&amp;v=3Dbeta&amp;t=3Dnjz6FO2Hk=
+VR8_iBCqeaQrthRkaSn1Z-ZBSD4Z-K4IJM" alt=3D"Abrir O Poder das soft skills no=
+ TI" style=3D"outline: none; text-decoration: none; -ms-interpolation-mode:=
+ bicubic; position: relative; display: inline-block; height: 48px; width: 4=
+8px; border-radius: 8px; background-color: #eae6df;" width=3D"48" height=3D=
+"48"> </a> </td> <td valign=3D"top" style=3D"-webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"ht=
+tps://www.linkedin.com/comm/newsletters/7223479127775862784?lipi=3Durn%3Ali=
+%3Apage%3Aemail_email_series_follow_newsletter_01%3BdtMk3RfoSjueczGYNHhaVw%=
+3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3DFNFlU-cZ-XE1&amp;trk=3De=
+ml-email_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_=
+entity_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_=
+entity_lockup-0-newsletter_entity_cta-null-gdb74f~m87eo3j2~6y-null-null&amp=
+;eid=3Dgdb74f-m87eo3j2-6y&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkND=
+IxZmVmYjM4Y2M5ZDk0MjllYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU1NTVkMWUzZjU2M=
+Tk5ZDkxYWI4MTQwMTcyYTA2OTcyNDNlYjJhNTExYjcyOTZjZiwxLDE%3D" target=3D"_blank=
+" class=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; display:=
+ inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-t=
+ext-size-adjust: 100%; text-decoration-line: none;"> <div class=3D"pb-0.5" =
+style=3D"padding-bottom: 4px;"> <span class=3D"text-md font-bold text-color=
+-text break-words leading-regular" style=3D"overflow-wrap: break-word; font=
+-size: 16px; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9)=
+;"> O Poder das soft skills no TI </span> </div> </a> </td> </tr> <tr> <td =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.c=
+om/comm/newsletters/7223479127775862784?lipi=3Durn%3Ali%3Apage%3Aemail_emai=
+l_series_follow_newsletter_01%3BdtMk3RfoSjueczGYNHhaVw%3D%3D&amp;midToken=
+=3DAQHxaOsdYMWJVQ&amp;midSig=3D3DFNFlU-cZ-XE1&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta&amp;trk=
+Email=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-0-ne=
+wsletter_entity_cta-null-gdb74f~m87eo3j2~6y-null-null&amp;eid=3Dgdb74f-m87e=
+o3j2-6y&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVmYjM4Y2M5ZDk0=
+MjllYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU1NTVkMWUzZjU2MTk5ZDkxYWI4MTQwMTc=
+yYTA2OTcyNDNlYjJhNTExYjcyOTZjZiwxLDE%3D" target=3D"_blank" class=3D"no-unde=
+rline" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; tex=
+t-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; text-decoration-line: none;"> <span class=3D"text-xs text-color-text-l=
+ow-emphasis leading-regular" style=3D"font-size: 12px; line-height: 1.25; c=
+olor: rgba(0, 0, 0, 0.6);"> Uma newsletter voltado ao #OpenToWork onde as e=
+mpresas mais solicitam nas oportunidades de emprego:=E2=80=A6 </span> </a> =
+</td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr=
+ data-test-id=3D"newsletter-content-preview"> <td class=3D"px-3 pt-2" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; padding-left: 24px; padding-right: 24px;=
+ padding-top: 16px;"> <table role=3D"presentation" valign=3D"top" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"overflow-hidden " style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt; overflow: hidden;"> <table role=3D"presentat=
+ion" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/co=
+mm/pulse/curiosidade-chave-para-o-crescimento-pessoal-e-luciano-rocha-pcd--=
+oefbf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bdt=
+Mk3RfoSjueczGYNHhaVw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3DFNF=
+lU-cZ-XE1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_conten=
+t_preview-0-headline_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-=
+newsletter_content_preview-0-headline_-null-gdb74f~m87eo3j2~6y-null-null&am=
+p;eid=3Dgdb74f-m87eo3j2-6y&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkN=
+DIxZmVmYjM4Y2M5ZDk0MjllYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU1NTVkMWUzZjU2=
+MTk5ZDkxYWI4MTQwMTcyYTA2OTcyNDNlYjJhNTExYjcyOTZjZiwxLDE%3D" target=3D"_blan=
+k" class=3D"w-full" style=3D"color: #0a66c2; cursor: pointer; display: inli=
+ne-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%; width: 100%;"> <img class=3D"block w-full aspect-[744/400=
+] object-cover overflow-hidden" data-test-id=3D"newsletter-content-preview_=
+_cover-image" alt=3D"Imagem de capa da newsletter" src=3D"https://media.lic=
+dn.com/dms/image/v2/D4D12AQFJ4RBh_tjEkQ/article-cover_image-shrink_600_2000=
+/B4DZVYIYuyHkAU-/0/1740940348800?e=3D2147483647&amp;v=3Dbeta&amp;t=3D7wmNs4=
+ha5SeZnD9mpmlklxShKOEJKEilq-0-nDeuBho" style=3D"outline: none; text-decorat=
+ion: none; -ms-interpolation-mode: bicubic; display: block; aspect-ratio: 7=
+44/400; width: 100%; overflow: hidden; object-fit: cover;"> </a> </td> </tr=
+> <tr> <td class=3D"py-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-t=
+op: 16px; padding-bottom: 16px;"> <table role=3D"presentation" valign=3D"to=
+p" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tab=
+le-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/curiosidad=
+e-chave-para-o-crescimento-pessoal-e-luciano-rocha-pcd--oefbf?lipi=3Durn%3A=
+li%3Apage%3Aemail_email_series_follow_newsletter_01%3BdtMk3RfoSjueczGYNHhaV=
+w%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3DFNFlU-cZ-XE1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-title=
+_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_p=
+review-0-title_-null-gdb74f~m87eo3j2~6y-null-null&amp;eid=3Dgdb74f-m87eo3j2=
+-6y&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVmYjM4Y2M5ZDk0Mjll=
+YWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU1NTVkMWUzZjU2MTk5ZDkxYWI4MTQwMTcyYTA=
+2OTcyNDNlYjJhNTExYjcyOTZjZiwxLDE%3D" target=3D"_blank" class=3D"no-underlin=
+e font-medium text-sm m-0 text-system-gray-90" style=3D"cursor: pointer; di=
+splay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; margin: 0px; font-size: 14px; font-weight: 500=
+; color: #282828; text-decoration-line: none;"> <h2 class=3D"m-0 text-displ=
+ay-sm leading-regular text-color-text font-bold font-sans" style=3D"margin:=
+ 0px; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Can=
+tarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-=
+size: 24px; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);=
+"> Curiosidade: a chave para o crescimento pessoal e profissional </h2> </a=
+> </td> </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table rol=
+e=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" width=3D"100%" data-test-id=3D"newsletter-author-lockup-redesign" c=
+lass=3D"mt-1 mb-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-bottom: 1=
+6px; margin-top: 8px;"> <tbody> <tr> <td valign=3D"middle" align=3D"left" c=
+lass=3D"w-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 24px;" width=3D=
+"24"> <a href=3D"https://br.linkedin.com/comm/in/lgomesroc?lipi=3Durn%3Ali%=
+3Apage%3Aemail_email_series_follow_newsletter_01%3BdtMk3RfoSjueczGYNHhaVw%3=
+D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3DFNFlU-cZ-XE1&amp;trk=3Dem=
+l-email_series_follow_newsletter_01-newsletter_content_preview-0-author_&am=
+p;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_previ=
+ew-0-author_-null-gdb74f~m87eo3j2~6y-null-null&amp;eid=3Dgdb74f-m87eo3j2-6y=
+&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVmYjM4Y2M5ZDk0MjllYWM=
+4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU1NTVkMWUzZjU2MTk5ZDkxYWI4MTQwMTcyYTA2OT=
+cyNDNlYjJhNTExYjcyOTZjZiwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2=
+; cursor: pointer; display: inline-block; text-decoration: none; -webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img class=3D"inline-bl=
+ock relative bg-color-entity-ghost-background clip-path-circle-50 rounded-f=
+ull w-4 h-4 align-middle" src=3D"https://media.licdn.com/dms/image/v2/D4D35=
+AQFdH9kF8MJeXQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrin=
+k_400_400/0/1738186012214?e=3D1742479200&amp;v=3Dbeta&amp;t=3Dr_3izsJ3Wnqlu=
+_XfciL9bYSlcJFhbgSsZBHoCZSLORA" alt=3D"Imagem do autor" style=3D"outline: n=
+one; text-decoration: none; -ms-interpolation-mode: bicubic; position: rela=
+tive; display: inline-block; height: 32px; width: 32px; border-radius: 9999=
+px; background-color: #eae6df; vertical-align: middle; clip-path: circle(50=
+%);" width=3D"32" height=3D"32"> </a> </td> <td style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt;"> <a href=3D"https://br.linkedin.com/comm/in/lgomesroc?lipi=3D=
+urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BdtMk3RfoSjueczG=
+YNHhaVw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3DFNFlU-cZ-XE1&amp=
+;trk=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-a=
+uthor_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_cont=
+ent_preview-0-author_-null-gdb74f~m87eo3j2~6y-null-null&amp;eid=3Dgdb74f-m8=
+7eo3j2-6y&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVmYjM4Y2M5ZD=
+k0MjllYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU1NTVkMWUzZjU2MTk5ZDkxYWI4MTQwM=
+TcyYTA2OTcyNDNlYjJhNTExYjcyOTZjZiwxLDE%3D" target=3D"_blank" class=3D"no-un=
+derline ml-1" style=3D"color: #0a66c2; cursor: pointer; display: inline-blo=
+ck; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; margin-left: 8px; text-decoration-line: none;"> <span class=3D"=
+font-sans font-bold text-sm mb-3 text-color-text-low-emphasis leading-regul=
+ar" style=3D"margin-bottom: 24px; font-family: -apple-system, system-ui, Bl=
+inkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu=
+, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Seg=
+oe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helveti=
+ca, Arial, sans-serif; font-size: 14px; font-weight: 600; line-height: 1.25=
+; color: rgba(0, 0, 0, 0.6);"> Luciano Rocha (PCD) </span> </a> </td> </tr>=
+ </tbody> </table> </td> </tr> <tr> <td class=3D"pb-1" style=3D"-webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt; padding-bottom: 8px;"> <div class=3D"p-3 bg-color-surfa=
+ce-tint rounded-md font-sans" data-test-id=3D"newsletter-cta-banner" style=
+=3D"border-radius: 8px; background-color: #f5f7f9; padding: 24px; font-fami=
+ly: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helv=
+etica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid =
+Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI S=
+ymbol', 'Lucida Grande', Helvetica, Arial, sans-serif;"> <div class=3D"mb-1=
+.5" style=3D"margin-bottom: 12px;"> <span class=3D"text-md leading-regular =
+font-bold text-color-text" style=3D"font-size: 16px; font-weight: 600; line=
+-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Leia este artigo no LinkedIn pa=
+ra participar da conversa </span> </div> <table role=3D"presentation" valig=
+n=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" c=
+lass=3D"email-button " data-test-id=3D"email-button" style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt;"> <tbody> <tr> <td valign=3D"middle" align=3D"left" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/co=
+mm/pulse/curiosidade-chave-para-o-crescimento-pessoal-e-luciano-rocha-pcd--=
+oefbf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bdt=
+Mk3RfoSjueczGYNHhaVw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3DFNF=
+lU-cZ-XE1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_conten=
+t_preview-0-read_more_banner_cta_&amp;trkEmail=3Deml-email_series_follow_ne=
+wsletter_01-newsletter_content_preview-0-read_more_banner_cta_-null-gdb74f~=
+m87eo3j2~6y-null-null&amp;eid=3Dgdb74f-m87eo3j2-6y&amp;otpToken=3DMWIwZDE3Z=
+TgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVmYjM4Y2M5ZDk0MjllYWM4YTYxNzljNDA2NmQ0YjVkNWJm=
+MmZlZDNkZmU1NTVkMWUzZjU2MTk5ZDkxYWI4MTQwMTcyYTA2OTcyNDNlYjJhNTExYjcyOTZjZiw=
+xLDE%3D" target=3D"_blank" aria-label=3D"Abrir este artigo no LinkedIn" cla=
+ss=3D"align-top no-underline " style=3D"color: #0a66c2; cursor: pointer; di=
+splay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; vertical-align: top; text-decoration-line: non=
+e;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"auto" class=3D"border-separate " style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt; border-collapse: separate;"> <tbody> <tr> <=
+td class=3D"btn-sm btn-primary border-color-brand button-link leading-regul=
+ar !min-h-[auto] !shadow-none border-1 border-solid" style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt; height: min-content; border-radius: 24px; padding-top: 7p=
+x; padding-bottom: 7px; padding-left: 16px; padding-right: 16px; text-align=
+: center; font-size: 14px; font-weight: 600; cursor: pointer; text-decorati=
+on-line: none; background-color: #0a66c2; color: #ffffff; border-width: 1px=
+; border-style: solid; border-color: #0a66c2; line-height: 1.25; min-height=
+: auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;"=
+> <a href=3D"https://www.linkedin.com/comm/pulse/curiosidade-chave-para-o-c=
+rescimento-pessoal-e-luciano-rocha-pcd--oefbf?lipi=3Durn%3Ali%3Apage%3Aemai=
+l_email_series_follow_newsletter_01%3BdtMk3RfoSjueczGYNHhaVw%3D%3D&amp;midT=
+oken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3DFNFlU-cZ-XE1&amp;trk=3Deml-email_serie=
+s_follow_newsletter_01-newsletter_content_preview-0-read_more_banner_cta_&a=
+mp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_prev=
+iew-0-read_more_banner_cta_-null-gdb74f~m87eo3j2~6y-null-null&amp;eid=3Dgdb=
+74f-m87eo3j2-6y&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVmYjM4=
+Y2M5ZDk0MjllYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU1NTVkMWUzZjU2MTk5ZDkxYWI=
+4MTQwMTcyYTA2OTcyNDNlYjJhNTExYjcyOTZjZiwxLDE%3D" target=3D"_blank" tabindex=
+=3D"-1" aria-hidden=3D"true" class=3D"no-underline" style=3D"color: #0a66c2=
+; cursor: pointer; display: inline-block; text-decoration: none; -webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decoration-line: non=
+e;"> <span class=3D"no-underline text-white" style=3D"color: #ffffff; text-=
+decoration-line: none;"> Ler no LinkedIn </span> </a> </td> </tr> </tbody> =
+</table> </a> </td> </tr> </tbody> </table> </div> </td> </tr> <tr data-tes=
+t-id=3D"newsletter-content-preview--content"> <td class=3D"font-sans text-m=
+d leading-open text-system-gray-90" style=3D"-webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Rob=
+oto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarel=
+l, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', '=
+Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size:=
+ 16px; line-height: 1.5; color: #282828;"> <div data-test-id=3D"publishing-=
+text-block"> <h3 class=3D"m-0 text-md text-system-gray-90 pt-1 pb-0.5 leadi=
+ng-regular font-bold" data-test-id=3D"publishing-text-block-h2" style=3D"ma=
+rgin: 0px; padding-bottom: 4px; padding-top: 8px; font-size: 16px; font-wei=
+ght: 600; line-height: 1.25; color: #282828;"> <span class data-test-id=3D"=
+little-text-block">Como a curiosidade pode transformar sua carreira e vida =
+pessoal</span> </h3> </div> <div data-test-id=3D"publishing-text-block"> <p=
+ class=3D"m-0 mt-1.5 text-md leading-open" style=3D"font-weight: 400; margi=
+n: 0px; margin-top: 12px; font-size: 16px; line-height: 1.5;"> <br> </p> </=
+div> <div data-test-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1.5 te=
+xt-md leading-open" style=3D"font-weight: 400; margin: 0px; margin-top: 12p=
+x; font-size: 16px; line-height: 1.5;"> <span class data-test-id=3D"little-=
+text-block">A curiosidade =C3=A9 uma qualidade intr=C3=ADnseca aos seres hu=
+manos, um impulso natural para explorar, descobrir e compreender o mundo ao=
+ nosso redor. Embora muitas vezes subestimada, a curiosidade desempenha um =
+papel crucial no desenvolvimento pessoal e profissional. N=C3=A3o se trata =
+apenas de buscar conhecimento, mas tamb=C3=A9m de adotar uma mentalidade ab=
+erta e receptiva a novas experi=C3=AAncias. Neste artigo, vamos explorar a =
+import=C3=A2ncia da curiosidade, suas caracter=C3=ADsticas, benef=C3=ADcios=
+ e como ela pode impactar positivamente sua carreira e vida pessoal.</span>=
+ </p> </div> <div data-test-id=3D"publishing-text-block"> <p class=3D"m-0 m=
+t-1.5 text-md leading-open" style=3D"font-weight: 400; margin: 0px; margin-=
+top: 12px; font-size: 16px; line-height: 1.5;"> <span class data-test-id=3D=
+"little-text-block">A curiosidade n=C3=A3o se limita a um campo espec=C3=AD=
+fico; ela permeia todos os aspectos da nossa vida. Desde a inf=C3=A2ncia, s=
+omos incentivados a fazer perguntas e buscar respostas. No entanto, =C3=A0 =
+medida que crescemos, a sociedade muitas vezes desencoraja essa caracter=C3=
+=ADstica, promovendo conformidade e aceita=C3=A7=C3=A3o passiva. Resgatar a=
+ curiosidade =C3=A9 essencial para nos tornarmos indiv=C3=ADduos mais inova=
+dores, criativos e resilientes.</span> </p> </div> <div data-test-id=3D"pub=
+lishing-text-block"> <p class=3D"m-0 mt-1.5 text-md leading-open" style=3D"=
+font-weight: 400; margin: 0px; margin-top: 12px; font-size: 16px; line-heig=
+ht: 1.5;"> <span class data-test-id=3D"little-text-block">Ao longo deste ar=
+tigo, discutiremos o que =C3=A9 a curiosidade, suas caracter=C3=ADsticas, p=
+ara que serve, e como ela pode ser cultivada e utilizada no ambiente profis=
+sional. Al=C3=A9m disso, abordaremos os lados positivos e negativos, os ben=
+ef=C3=ADcios e as desvantagens de ser uma pessoa curiosa, e o que as empres=
+as procuram em profissionais com essa habilidade.</span> </p> </div> <div d=
+ata-test-id=3D"publishing-text-block"> <p class=3D"m-0 mt-1.5 text-md leadi=
+ng-open" style=3D"font-weight: 400; margin: 0px; margin-top: 12px; font-siz=
+e: 16px; line-height: 1.5;"> <br> </p> </div> <div data-test-id=3D"publishi=
+ng-text-block"> <h2 data-test-id=3D"publishing-text-block-h1" class=3D"font=
+-bold m-0 text-lg text-system-gray-90 py-1 leading-regular" style=3D"margin=
+: 0px; padding-top: 8px; padding-bottom: 8px; font-size: 20px; font-weight:=
+ 600; line-height: 1.25; color: #282828;"> <span class data-test-id=3D"litt=
+le-text-block">=C3=8Dndice</span> </h2> </div> <div data-test-id=3D"publish=
+ing-text-block"> <p class=3D"m-0 mt-1.5 text-md leading-open" style=3D"font=
+-weight: 400; margin: 0px; margin-top: 12px; font-size: 16px; line-height: =
+1.5;"> <span class data-test-id=3D"little-text-block"> <ul class=3D"block m=
+t-2 mr-0 ml-3 p-0" data-test-id=3D"little-template-list-unordered" style=3D=
+"margin-left: 24px; margin-right: 0px; margin-top: 16px; display: block; pa=
+dding: 0px;"> <li class=3D"mt-1.5 ml-2 text-md leading-open text-system-gra=
+y-90" style=3D"margin-left: 16px; margin-top: 12px; font-size: 16px; line-h=
+eight: 1.5; color: #282828;"> <span class=3D"font-[700]" data-test-id=3D"li=
+ttle-text-block" style=3D"font-weight: 700;">O que =C3=A9 curiosidade</span=
+> </li> <li class=3D"mt-1.5 ml-2 text-md leading-open text-system-gray-90" =
+style=3D"margin-left: 16px; margin-top: 12px; font-size: 16px; line-height:=
+ 1.5; color: #282828;"> <span class=3D"font-[700]" data-test-id=3D"little-t=
+ext-block" style=3D"font-weight: 700;">Caracter=C3=ADsticas da curiosidade<=
+/span> </li> <li class=3D"mt-1.5 ml-2 text-md leading-open text-system-gray=
+-90" style=3D"margin-left: 16px; margin-top: 12px; font-size: 16px; line-he=
+ight: 1.5; color: #282828;"> <span class=3D"font-[700]" data-test-id=3D"lit=
+tle-text-block" style=3D"font-weight: 700;">Para que serve a curiosidade</s=
+pan> </li> <li class=3D"mt-1.5 ml-2 text-md leading-open text-system-gray-9=
+0" style=3D"margin-left: 16px; margin-top: 12px; font-size: 16px; line-heig=
+ht: 1.5; color: #282828;"> <span class=3D"font-[700]" data-test-id=3D"littl=
+e-text-block" style=3D"font-weight: 700;">O lado positivo e negativo da cur=
+iosidade</span> </li> <li class=3D"mt-1.5 ml-2 text-md leading-open text-sy=
+stem-gray-90" style=3D"margin-left: 16px; margin-top: 12px; font-size: 16px=
+; line-height: 1.5; color: #282828;"> <span class=3D"font-[700]" data-test-=
+id=3D"little-text-block" style=3D"font-weight: 700;">Benef=C3=ADcios da cur=
+iosidade</span> </li> </ul> </span> </p> </div> <span>...</span> </td> </tr=
+> <tr> <td class=3D"pt-2 no-underline" style=3D"-webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt; padding-top: 16px; text-decoration-line: none;"> <table role=3D"present=
+ation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"100%" class=3D"email-button series-content-preview__bottom-cta" data-t=
+est-id=3D"email-button" style=3D"-webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <=
+tr> <td valign=3D"middle" align=3D"left" style=3D"-webkit-text-size-adjust:=
+ 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/curiosidade-chave-pa=
+ra-o-crescimento-pessoal-e-luciano-rocha-pcd--oefbf?lipi=3Durn%3Ali%3Apage%=
+3Aemail_email_series_follow_newsletter_01%3BdtMk3RfoSjueczGYNHhaVw%3D%3D&am=
+p;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3DFNFlU-cZ-XE1&amp;trk=3Deml-email=
+_series_follow_newsletter_01-newsletter_content_preview-0-readmore_button_&=
+amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_pre=
+view-0-readmore_button_-null-gdb74f~m87eo3j2~6y-null-null&amp;eid=3Dgdb74f-=
+m87eo3j2-6y&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVmYjM4Y2M5=
+ZDk0MjllYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU1NTVkMWUzZjU2MTk5ZDkxYWI4MTQ=
+wMTcyYTA2OTcyNDNlYjJhNTExYjcyOTZjZiwxLDE%3D" target=3D"_blank" aria-label=
+=3D"Abrir O Poder das soft skills no TI no LinkedIn" class=3D"align-top no-=
+underline " style=3D"color: #0a66c2; cursor: pointer; display: inline-block=
+; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%; vertical-align: top; text-decoration-line: none; width: 100%;"> <=
+table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" width=3D"100%" class=3D"border-separate " style=3D"-webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt; border-collapse: separate; width: 100%;"> <tbody> <=
+tr> <td class=3D"btn-md btn-secondary-emphasis border-color-brand button-li=
+nk leading-regular !min-h-[auto] !shadow-none border-1 border-solid font-sa=
+ns" data-test-id=3D"newsletter-content-preview-redesign-bottom-cta" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; height: min-content; border-radius: 24px=
+; padding-top: 12px; padding-bottom: 12px; padding-left: 24px; padding-righ=
+t: 24px; text-align: center; font-size: 16px; font-weight: 600; cursor: poi=
+nter; text-decoration-line: none; background-color: rgba(0, 0, 0, 0); color=
+: #0a66c2; border-width: 1px; border-style: solid; border-color: #0a66c2; f=
+ont-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Robot=
+o, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell,=
+ 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Se=
+goe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; line-height:=
+ 1.25; min-height: auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #=
+0000 !important;"> <a href=3D"https://www.linkedin.com/comm/pulse/curiosida=
+de-chave-para-o-crescimento-pessoal-e-luciano-rocha-pcd--oefbf?lipi=3Durn%3=
+Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BdtMk3RfoSjueczGYNHha=
+Vw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3DFNFlU-cZ-XE1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-readm=
+ore_button_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter=
+_content_preview-0-readmore_button_-null-gdb74f~m87eo3j2~6y-null-null&amp;e=
+id=3Dgdb74f-m87eo3j2-6y&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIx=
+ZmVmYjM4Y2M5ZDk0MjllYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU1NTVkMWUzZjU2MTk=
+5ZDkxYWI4MTQwMTcyYTA2OTcyNDNlYjJhNTExYjcyOTZjZiwxLDE%3D" target=3D"_blank" =
+tabindex=3D"-1" aria-hidden=3D"true" class=3D"no-underline" style=3D"color:=
+ #0a66c2; cursor: pointer; display: inline-block; text-decoration: none; -w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decoration-l=
+ine: none; width: 100%;"> <span class=3D"no-underline text-color-brand" sty=
+le=3D"color: #0a66c2; text-decoration-line: none;"> Continue lendo no Linke=
+dIn </span> </a> </td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </=
+table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </=
+tr> </tbody> </table> </td> </tr> </tbody> </table> </div> </td> </tr> <tr>=
+ <td class=3D"bg-color-background-canvas p-3" style=3D"-webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; background-color: #f3f2f0; padding: 24px;"> <table role=3D"prese=
+ntation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" wi=
+dth=3D"100%" class=3D"text-xs" style=3D"-webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font=
+-size: 12px;"> <tbody> <tr> <td class=3D"pb-1 m-0" data-test-id=3D"email-fo=
+oter__intended" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; paddin=
+g-bottom: 8px;"> Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Fu=
+ll-Stack Developer | Java | JS | React.js | PostgreSQL) </td> </tr> <tr> <t=
+d class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; p=
+adding-bottom: 8px;"> <a href=3D"https://www.linkedin.com/help/linkedin/ans=
+wer/4788?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_n=
+ewsletter_01%3BdtMk3RfoSjueczGYNHhaVw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&a=
+mp;midSig=3D3DFNFlU-cZ-XE1&amp;trk=3Deml-email_series_follow_newsletter_01-=
+SecurityHelp-0-footerglimmer&amp;trkEmail=3Deml-email_series_follow_newslet=
+ter_01-SecurityHelp-0-footerglimmer-null-gdb74f~m87eo3j2~6y-null-null&amp;e=
+id=3Dgdb74f-m87eo3j2-6y&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIx=
+ZmVmYjM4Y2M5ZDk0MjllYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU1NTVkMWUzZjU2MTk=
+5ZDkxYWI4MTQwMTcyYTA2OTcyNDNlYjJhNTExYjcyOTZjZiwxLDE%3D" target=3D"_blank" =
+class=3D"text-inherit underline" style=3D"cursor: pointer; display: inline-=
+block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; color: inherit; text-decoration-line: underline;">Saiba por =
+que inclu=C3=ADmos isso.</a> </td> </tr> <tr> <td class=3D"pb-1 m-0" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;">Voc=
+=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn. Ou=
+tras pessoas podem ver que voc=C3=AA =C3=A9 assinante.</td> </tr> <tr> <td =
+class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; pad=
+ding-bottom: 8px;"> <a href=3D"https://www.linkedin.com/series-notification=
+s/?action=3Dunsubscribe&amp;memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y=
+9whjlY&amp;newsletterId=3D7223479127775862784&amp;newsletterTitle=3DO Poder=
+ das soft skills no TI&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_foll=
+ow_newsletter_01%3BdtMk3RfoSjueczGYNHhaVw%3D%3D&amp;midToken=3DAQHxaOsdYMWJ=
+VQ&amp;midSig=3D3DFNFlU-cZ-XE1&amp;ek=3Demail_series_follow_newsletter_01&a=
+mp;e=3Dgdb74f-m87eo3j2-6y&amp;eid=3Dgdb74f-m87eo3j2-6y&amp;m=3Dunsubscribe&=
+amp;ts=3DfooterGlimmer&amp;li=3D0&amp;t=3Dplh" target=3D"_blank" class=3D"t=
+ext-inherit underline" style=3D"cursor: pointer; display: inline-block; tex=
+t-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; color: inherit; text-decoration-line: underline;">Cancelar inscri=C3=
+=A7=C3=A3o</a> =C2=A0=C2=A0=C2=B7=C2=A0=C2=A0 <a href=3D"https://www.linked=
+in.com/help/linkedin/answer/67?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail=
+_email_series_follow_newsletter_01%3BdtMk3RfoSjueczGYNHhaVw%3D%3D&amp;midTo=
+ken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3DFNFlU-cZ-XE1&amp;trk=3Deml-email_series=
+_follow_newsletter_01-help-0-footerglimmer&amp;trkEmail=3Deml-email_series_=
+follow_newsletter_01-help-0-footerglimmer-null-gdb74f~m87eo3j2~6y-null-null=
+&amp;eid=3Dgdb74f-m87eo3j2-6y&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNG=
+VkNDIxZmVmYjM4Y2M5ZDk0MjllYWM4YTYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmU1NTVkMWUzZ=
+jU2MTk5ZDkxYWI4MTQwMTcyYTA2OTcyNDNlYjJhNTExYjcyOTZjZiwxLDE%3D" target=3D"_b=
+lank" class=3D"text-inherit underline" style=3D"cursor: pointer; display: i=
+nline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; color: inherit; text-decoration-line: underline;">Ajud=
+a</a> </td> </tr> <tr> <td class=3D"pb-1" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; padding-bottom: 8px;"> <a href=3D"https://www.linkedin.com/comm/feed=
+/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BdtMk3R=
+foSjueczGYNHhaVw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D3DFNFlU-c=
+Z-XE1&amp;trk=3Deml-email_series_follow_newsletter_01-footer-0-logoGlimmer&=
+amp;trkEmail=3Deml-email_series_follow_newsletter_01-footer-0-logoGlimmer-n=
+ull-gdb74f~m87eo3j2~6y-null-null&amp;eid=3Dgdb74f-m87eo3j2-6y&amp;otpToken=
+=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDIxZmVmYjM4Y2M5ZDk0MjllYWM4YTYxNzljNDA2=
+NmQ0YjVkNWJmMmZlZDNkZmU1NTVkMWUzZjU2MTk5ZDkxYWI4MTQwMTcyYTA2OTcyNDNlYjJhNTE=
+xYjcyOTZjZiwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: poi=
+nter; display: inline-block; text-decoration: none; -webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%;"> <img src=3D"https://static.licdn.com=
+/aero-v1/sc/h/9ehe6n39fa07dc5edzv0rla4e" alt=3D"LinkedIn" class=3D"block h-=
+[14px] w-[56px] image-rendering-crisp" style=3D"outline: none; text-decorat=
+ion: none; image-rendering: -moz-crisp-edges; image-rendering: -o-crisp-edg=
+es; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edge=
+s; -ms-interpolation-mode: nearest-neighbor; display: block; height: 14px; =
+width: 56px;" width=3D"56" height=3D"14"> </a> </td> </tr> <tr> <td data-te=
+st-copyright-text style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> =C2=A9 2025 Lin=
+kedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place, Dublin 2 - Irl=
+anda. LinkedIn =C3=A9 um nome comercial registrado da LinkedIn Ireland Unli=
+mited Company. <span data-test-trademarks-text> LinkedIn e o logo do Linked=
+In s=C3=A3o marcas registradas do LinkedIn. </span> </td> </tr> </tbody> </=
+table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> <img alt=
+ role=3D"presentation" src=3D"https://www.linkedin.com/emimp/ip_WjJSaU56Um1=
+MVzA0TjJWdk0yb3lMVFo1OlpXMWhhV3hmYzJWeWFXVnpYMlp2Ykd4dmQxOXVaWGR6YkdWMGRHVn=
+lYekF4OmRYSnVPbXhwT214cGJtdGxaRWx1UVhKMGFXTnNaVG8zTXpBeU1ESTNPREEyTXpVNE5UU=
+XdNamc1.gif" style=3D"outline: none; text-decoration: none; -ms-interpolati=
+on-mode: bicubic; width: 1px; height: 1px;" width=3D"1" height=3D"1"> </bod=
+y> </html>
+------=_Part_11110685_1507881997.1741873794189--
+

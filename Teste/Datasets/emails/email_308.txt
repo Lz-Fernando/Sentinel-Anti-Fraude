@@ -1,0 +1,689 @@
+X-GM-THRID: 1824693148253482682
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Aberto,Categoria:_atualiza=C3=A7=C3=B5es?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:821c:b0:29a:824b:9ec3 with SMTP id g28csp451203ysr;
+        Fri, 21 Feb 2025 10:36:31 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IGD7WigfAtD3fX4ZwPPSqf9nOj2ACULhSN4BWGokivHFchie517aZs5Fyo2AZmJvL7wPgv2
+X-Received: by 2002:a05:6871:64c8:b0:2bc:6933:4a9f with SMTP id 586e51a60fabf-2bd517c493bmr3206489fac.25.1740162991036;
+        Fri, 21 Feb 2025 10:36:31 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1740162991; cv=none;
+        d=google.com; s=arc-20240605;
+        b=DaIV7kfrN5yFIRy6jdhKpRwlpl7zyyVYGc9nViMdDXrKhMDF1F5SbMZbWAuL5Y0C2v
+         dY3J95pspjXGrBpSPLM57yOxP12S9s+QRoI+5cptPlOERnU0VFb2Rskaf3JmXEfoI9z0
+         pHYyD5zvOtmSEpgDNhtEJ9rEl0lwULqP0GnIZVwNV+FahjAevZZhAbPcAN7B5FqTb+IX
+         Htvq010Geu/QIrzlE8AjnYJUyImhgWxXEiPo3H0JA4Ny4eLLy8rUNnRXXuNtbSiGLi2I
+         yC/C1K+Xx1uliwiOPvpWHRYD1m6JMRDvcOk0w3knpmGLOQ6t78UcGn9wxbLicuZh/h8b
+         DPpQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=content-transfer-encoding:mime-version:to:from:subject:date
+         :message-id:dkim-signature:resent-sender;
+        bh=SxO6R85oXEIntebtg1mtgRCYzZPR9wtxbEK0WyjqxIQ=;
+        fh=/HdUdLVjKbjM7vqKQCg0R7d+Cuu352Lx86DUD6qVhEc=;
+        b=Ch98k/BPCcX2JDPcPnREFDSuD5lA3txwDg4Z7/DjWPKdtVuXxTa7J4yD2L5/MzyO1g
+         qKNhJfpAyjKfKR8Zf+MysuZkuIptlsl22s+wPyqJvhdJJWhCj1//0esLUMjONmHc8ag8
+         fpA9E+c/hYbDDRMWyW54StfEUHWh1i6D3YEmTK/GHaWDIFZBwMx9eOPtyul/OzVkS/fX
+         eT+t9TmlFsUUzJXQXb5/dMwpSeZLlb3dea5Qx5IWqSrwW10ZjhWxToG5pfezAias1Gz4
+         sRM+vPApuya6A5dnri0MSMEXWgPOQ900KGTMksVXwbWWYW0nIhYOQ2TEbKU3apAfvEuW
+         1cbw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@selecty.email header.s=postal-vdgNKZ header.b=x1bJpXPK;
+       spf=pass (google.com: domain of h9awpw@psrp.selecty.email designates 186.227.198.177 as permitted sender) smtp.mailfrom=h9awpw@psrp.selecty.email;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=selecty.email
+Return-Path: <h9awpw@psrp.selecty.email>
+Received: from mail04.selecty.jobs (mail04.selecty.jobs. [186.227.198.177])
+        by mx.google.com with ESMTPS id 586e51a60fabf-2b963a0ce4bsi19236368fac.217.2025.02.21.10.36.29
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Fri, 21 Feb 2025 10:36:31 -0800 (PST)
+Received-SPF: pass (google.com: domain of h9awpw@psrp.selecty.email designates 186.227.198.177 as permitted sender) client-ip=186.227.198.177;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@selecty.email header.s=postal-vdgNKZ header.b=x1bJpXPK;
+       spf=pass (google.com: domain of h9awpw@psrp.selecty.email designates 186.227.198.177 as permitted sender) smtp.mailfrom=h9awpw@psrp.selecty.email;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=selecty.email
+Resent-Sender: h9awpw@psrp.selecty.email
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=selecty.email;
+	s=postal-vdgNKZ; t=1740162989;
+	bh=SxO6R85oXEIntebtg1mtgRCYzZPR9wtxbEK0WyjqxIQ=;
+	h=message-id:date:subject:from:to:mime-version:content-type:content-transfer-encoding;
+	b=x1bJpXPKW4ftu8LHSor45P0VUkoqlZGAF5fpgM5VFWx3wMRxw3Pa6MulDAN4bdcL/miGUw3V
+	GcB7PXbhO9ln/yZBGOWBxMKjUeMfGM9W8JYqFD64q1n0h/+UfxlkUbxkhRZg9FkoFnsCm74+
+	N93sba0WOSPRoftXx0J2eM+ZTKA=
+X-Postal-MsgID: BBiVQpEqvc3x
+Received: from [127.0.0.1] (172-0-0-3.lightspeed.brhmal.sbcglobal.net [172.0.0.3]) by mail03.selecty.jobs with SMTP; Fri, 21 Feb 2025 18:28:23 -0000
+Message-ID: <ffea01bfc50d8c558500b1388513cf40@swift.generated>
+Date: Fri, 21 Feb 2025 15:28:21 -0300
+Subject: Vaga para Instalador e Reparador - =?utf-8?Q?Telecomunica?=
+ =?utf-8?Q?=C3=A7=C3=B5es?= (Aracaju - Se) em Aracaju - SE
+From: Selecty <sistema@selecty.email>
+To: nandobritoferreira@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-TENANT-KEY: InyQhGHsa6IIejNyN9AcWiWL
+X-TENANT-KEY: InyQhGHsa6IIejNyN9AcWiWL
+X-ID: 19676
+
+<!DOCTYPE HTML=0D
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/=
+xhtml1/DTD/xhtml1-transitional.dtd">=0D
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-micro=
+soft-com:vml"=0D
+  xmlns:o=3D"urn:schemas-microsoft-com:office:office">=0D
+=0D
+<head>=0D
+  <!--[if gte mso 9]>=0D
+<xml>=0D
+  <o:OfficeDocumentSettings>=0D
+    <o:AllowPNG/>=0D
+    <o:PixelsPerInch>96</o:PixelsPerInch>=0D
+  </o:OfficeDocumentSettings>=0D
+</xml>=0D
+<![endif]-->=0D
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8=
+">=0D
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">=0D
+  <meta name=3D"x-apple-disable-message-reformatting">=0D
+  <!--[if !mso]><!-->=0D
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=0D
+  <!--<![endif]-->=0D
+  <!--[if gte mso 9]><xml>=0D
+	<o:OfficeDocumentSettings>=0D
+	<o:AllowPNG/>=0D
+	<o:PixelsPerInch>96</o:PixelsPerInch>=0D
+	</o:OfficeDocumentSettings>=0D
+</xml><![endif]-->=0D
+  <title></title>=0D
+=0D
+</head>=0D
+=0D
+<body style=3D"margin:0;padding:0;min-width:100%;background-color:#eaeef0=
+;">=0D
+  <table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=0D=
+
+    style=3D"background-color:#eaeef0;border:0;border-collapse:collapse;b=
+order-spacing:0" bgcolor=3D"#eaeef0">=0D
+    <tr>=0D
+      <td align=3D"center">=0D
+        <table=0D
+          style=3D"border:0;border-collapse:collapse;border-spacing:0;fon=
+t-family:arial,helvetica,sans-serif;background-color:#eaeef0;max-width: 7=
+00px;"=0D
+          role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" border=3D"0">=0D
+          <tbody>=0D
+            <tr>=0D
+              <td align=3D"center" style=3D"display: block;">=0D
+                <table width=3D"100%" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0"=0D
+                  style=3D"border:0;border-collapse:collapse;border-spaci=
+ng:0;max-width:700px">=0D
+                  <tbody>=0D
+                    <tr>=0D
+                      <td style=3D"direction:ltr;text-align:left" height=3D=
+"32">=0D
+                        &nbsp;=0D
+                      </td>=0D
+                    </tr>=0D
+                    <tr>=0D
+                      <td=0D
+                        style=3D"background-color:#ffffff;border-top-left=
+-radius:16px;border-top-right-radius:16px;border-bottom-left-radius:16px;=
+border-bottom-right-radius:16px">=0D
+                        <table width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0"=0D
+                          style=3D"border:none;border-collapse:collapse;b=
+order-spacing:0;width:100%">=0D
+                          <tbody>=0D
+                            <tr>=0D
+                              <td align=3D"center" style=3D"padding:0px 1=
+4px 0px 14px;direction:ltr;text-align:center">=0D
+                                <table border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0"=0D
+                                  style=3D"border:none;border-collapse:co=
+llapse;border-spacing:0;width:100%">=0D
+                                  <tbody>=0D
+                                    <tr>=0D
+                                      <td valign=3D"middle"=0D
+                                        style=3D"padding-top:8px;padding-=
+bottom:8px;vertical-align:middle;line-height:0;font-size:0;direction:ltr;=
+text-align:center">=0D
+                                        <table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0"=0D
+                                          style=3D"border:none;border-col=
+lapse:collapse;border-spacing:0;display:inline-block;max-width:132px;vert=
+ical-align:middle;width:100%">=0D
+                                          <tbody>=0D
+                                            <tr>=0D
+                                              <td=0D
+                                                style=3D"padding-top:8px;=
+padding-bottom:8px;direction:ltr;text-align:center">=0D
+                                                <table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"=0D
+                                                  align=3D"left"=0D
+                                                  style=3D"border:none;bo=
+rder-collapse:collapse;border-spacing:0;table-layout:fixed;width:100%">=0D=
+
+                                                  <tbody>=0D
+                                                    <tr>=0D
+                                                      <td=0D
+                                                        style=3D"font-fam=
+ily: Arial,sans-serif;font-size:16px;line-height:28px;vertical-align:midd=
+le;direction:ltr;text-align:center">=0D
+                                                                         =
+                                       <img=0D
+                                                          src=3D"https://=
+dvwdemalggrkw.cloudfront.net/config/upconsultoriaempresarial/normal.png"=0D=
+
+                                                          height=3D"45"=0D=
+
+                                                          style=3D"border=
+:none;clear:both;display:block;margin:0 auto;outline:none;text-decoration=
+:none;"=0D
+                                                          alt=3D"Ative as=
+ imagens">=0D
+                                                                         =
+                                     </td>=0D
+                                                    </tr>=0D
+                                                  </tbody>=0D
+                                                </table>=0D
+                                              </td>=0D
+                                            </tr>=0D
+                                          </tbody>=0D
+                                        </table>=0D
+                                      </td>=0D
+                                    </tr>=0D
+                                  </tbody>=0D
+                                </table>=0D
+                              </td>=0D
+                            </tr>=0D
+                            <tr>=0D
+                              <td style=3D"border-top:1px solid #e0e6e9;d=
+irection:ltr;text-align:left" height=3D"32">=0D
+                                &nbsp;=0D
+                              </td>=0D
+                            </tr>=0D
+                          </tbody>=0D
+                        </table>=0D
+                        <table width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0"=0D
+                          style=3D"border:0;border-collapse:collapse;bord=
+er-spacing:0;margin:auto;max-width:700px">=0D
+                          <tbody>=0D
+                            <tr>=0D
+                              <td align=3D"center">=0D
+                                <table width=3D"100%" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0"=0D
+                                  style=3D";border:0;border-collapse:coll=
+apse;border-spacing:0;margin:auto">=0D
+                                  <tbody>=0D
+                                    <tr>=0D
+                                      <td align=3D"center">=0D
+                                        <table width=3D"100%" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0"=0D
+                                          style=3D"border:0;border-collap=
+se:collapse;border-spacing:0">=0D
+                                          <tbody>=0D
+                                            <tr>=0D
+                                              <td align=3D"center">=0D
+                                                <table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%"=0D
+                                                  style=3D"border:0;borde=
+r-collapse:collapse;border-spacing:0">=0D
+                                                  <tbody>=0D
+                                                    <tr>=0D
+                                                      <td>=0D
+                                                        <table width=3D"1=
+00%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=0D
+                                                          style=3D"border=
+:0;border-collapse:collapse;border-spacing:0">=0D
+                                                          <tbody>=0D
+                                                            <tr>=0D
+                                                              <td>=0D
+                                                                <table wi=
+dth=3D"100%" border=3D"0" cellpadding=3D"0"=0D
+                                                                  cellspa=
+cing=3D"0"=0D
+                                                                  style=3D=
+"border:0;border-collapse:collapse;border-spacing:0">=0D
+                                                                  <tbody>=
+=0D
+                                                                    <tr>=0D=
+
+                                                                      <td=
+>=0D
+                                                                        <=
+table width=3D"100%" border=3D"0" cellpadding=3D"0"=0D
+                                                                         =
+ cellspacing=3D"0"=0D
+                                                                         =
+ style=3D"border:none;border-collapse:collapse;border-spacing:0;width:100=
+%">=0D
+                                                                         =
+ <tbody>=0D
+                                                                         =
+   <tr>=0D
+                                                                         =
+     <td align=3D"left"=0D
+                                                                         =
+       style=3D"padding:0px 14px 40px 14px;direction:ltr;text-align:left"=
+>=0D
+                                                                         =
+       <table border=3D"0" cellpadding=3D"0"=0D
+                                                                         =
+         cellspacing=3D"0"=0D
+                                                                         =
+         style=3D"border:none;border-collapse:collapse;border-spacing:0;w=
+idth:100%">=0D
+                                                                         =
+         <tbody>=0D
+                                                                         =
+           <tr>=0D
+                                                                         =
+             <td=0D
+                                                                         =
+               style=3D"direction:ltr;text-align:left">=0D
+                                                                         =
+               <table border=3D"0"=0D
+                                                                         =
+                 cellpadding=3D"0"=0D
+                                                                         =
+                 cellspacing=3D"0"=0D
+                                                                         =
+                 class=3D"m_994936306534729775t1of12"=0D
+                                                                         =
+                 align=3D"left"=0D
+                                                                         =
+                 style=3D"border:none;border-collapse:collapse;border-spa=
+cing:0;max-width:56px;width:100%">=0D
+                                                                         =
+                 <tbody>=0D
+                                                                         =
+                   <tr>=0D
+                                                                         =
+                     <td=0D
+                                                                         =
+                       style=3D"padding-left:12px;padding-right:12px;dire=
+ction:ltr;text-align:left">=0D
+                                                                         =
+                       <table border=3D"0"=0D
+                                                                         =
+                         cellpadding=3D"0"=0D
+                                                                         =
+                         cellspacing=3D"0"=0D
+                                                                         =
+                         width=3D"100%"=0D
+                                                                         =
+                         align=3D"left"=0D
+                                                                         =
+                         style=3D"border:none;border-collapse:collapse;bo=
+rder-spacing:0;table-layout:fixed;width:100%">=0D
+                                                                         =
+                         <tbody>=0D
+                                                                         =
+                           <tr>=0D
+                                                                         =
+                             <td height=3D"2"=0D
+                                                                         =
+                               style=3D"font-size:0;line-height:1px;direc=
+tion:ltr;text-align:left">=0D
+                                                                         =
+                               &nbsp;=0D
+                                                                         =
+                             </td>=0D
+                                                                         =
+                           </tr>=0D
+                                                                         =
+                         </tbody>=0D
+                                                                         =
+                       </table>=0D
+                                                                         =
+                     </td>=0D
+                                                                         =
+                   </tr>=0D
+                                                                         =
+                 </tbody>=0D
+                                                                         =
+               </table>=0D
+                                                                         =
+               <table border=3D"0"=0D
+                                                                         =
+                 cellpadding=3D"0"=0D
+                                                                         =
+                 cellspacing=3D"0"=0D
+                                                                         =
+                 class=3D"m_994936306534729775t11of12"=0D
+                                                                         =
+                 align=3D"left"=0D
+                                                                         =
+                 style=3D"border:none;border-collapse:collapse;border-spa=
+cing:0;max-width:616px;width:100%">=0D
+                                                                         =
+                 <tbody>=0D
+                                                                         =
+                   <tr>=0D
+                                                                         =
+                     <td=0D
+                                                                         =
+                       style=3D"padding-left:0px;padding-right:0px;direct=
+ion:ltr;text-align:left">=0D
+                                                                         =
+                       <table border=3D"0"=0D
+                                                                         =
+                         cellpadding=3D"0"=0D
+                                                                         =
+                         cellspacing=3D"0"=0D
+                                                                         =
+                         width=3D"100%"=0D
+                                                                         =
+                         align=3D"left"=0D
+                                                                         =
+                         style=3D"border:none;border-collapse:collapse;bo=
+rder-spacing:0;table-layout:fixed;width:100%">=0D
+                                                                         =
+                         <tbody>=0D
+                                                                         =
+                           <tr>=0D
+                                                                         =
+                             <td=0D
+                                                                         =
+                               style=3D"direction:ltr;text-align:left">=0D=
+
+                                                                         =
+                               <table=0D
+                                                                         =
+                                 border=3D"0"=0D
+                                                                         =
+                                 cellpadding=3D"0"=0D
+                                                                         =
+                                 cellspacing=3D"0"=0D
+                                                                         =
+                                 class=3D"m_994936306534729775t10of12"=0D=
+
+                                                                         =
+                                 align=3D"left"=0D
+                                                                         =
+                                 style=3D"border:none;border-collapse:col=
+lapse;border-spacing:0;max-width:560px;width:100%">=0D
+                                                                         =
+                                 <tbody>=0D
+                                                                         =
+                                   <tr>=0D
+                                                                         =
+                                     <td=0D
+                                                                         =
+                                       style=3D"padding-left:12px;padding=
+-right:12px;direction:ltr;text-align:left">=0D
+                                                                         =
+                                       <table=0D
+                                                                         =
+                                         border=3D"0"=0D
+                                                                         =
+                                         cellpadding=3D"0"=0D
+                                                                         =
+                                         cellspacing=3D"0"=0D
+                                                                         =
+                                         width=3D"100%"=0D
+                                                                         =
+                                         align=3D"left"=0D
+                                                                         =
+                                         style=3D"border:none;border-coll=
+apse:collapse;border-spacing:0;table-layout:fixed;width:100%">=0D
+                                                                         =
+                                         <tbody>=0D
+                                                                         =
+                                                                         =
+                                                                         =
+             <tr>=0D
+                                                                         =
+                                             <td style=3D"background-colo=
+r:#E2E7E9;display:block;font-family:Helvetica,Arial,sans-serif;font-size:=
+12px;padding:8px 8px;margin-bottom:32px;text-transform:uppercase;directio=
+n:ltr;text-align:left;color:#435D6B;border-radius:4px">=0D
+                                                                         =
+                                               Esta =C3=A9 uma mensagem a=
+utom=C3=A1tica. Por favor, n=C3=A3o responda este e-mail.=0D
+                                                                         =
+                                             </td>=0D
+                                                                         =
+                                           </tr>=0D
+                                                                         =
+                                           =0D
+                                                                         =
+                                           <tr>=0D
+                                                                         =
+                                             <td=0D
+                                                                         =
+                                               style=3D"color:#435D6B;fon=
+t-family:Helvetica,Arial,sans-serif;font-size:16px;line-height:28px;text-=
+align:left;direction:ltr">=0D
+                                                                         =
+                                                   <p style=3D"padding:5p=
+x;Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-li=
+ne-height-rule:exactly;font-size:16px;font-family:roboto, 'helvetica neue=
+', helvetica, arial, sans-serif;line-height:24px;color:#648090;">=0D
+        <p>C=C3=B3d. da vaga: 77</p>=0D
+=0D
+<p><font size=3D"18px"><b>Vaga para Instalador e Reparador - Telecomunica=
+=C3=A7=C3=B5es (Aracaju - Se) em Aracaju - SE</b></font></p>=0D
+=0D
+<p>Estamos contratando t=C3=A9cnicos de instala=C3=A7=C3=A3o e manuten=C3=
+=A7=C3=A3o, que deseje se juntar =C3=A0 equipe do nosso Provedor de Inter=
+net! Se voc=C3=AA =C3=A9 apaixonado(a) por telecomunica=C3=A7=C3=B5es, po=
+ssui os requisitos que a vaga solicita, gosta de oferecer um atendimento =
+de qualidade ao cliente, essa =C3=A9 a vaga certa para voc=C3=AA!=F0=9F=98=
+=8D=0D
+=0D
+=0D
+Ao ingressar na equipe, espera-se que voc=C3=AA seja capaz de executar as=
+ seguintes atividades:=F0=9F=AB=A1=0D
+=0D
+=0D
+Instalar, configurar e testar equipamentos de telecomunica=C3=A7=C3=B5es;=
+=0D
+=0D
+Realizar a manuten=C3=A7=C3=A3o preventiva e corretiva dos equipamentos;=0D=
+
+=0D
+Identificar e corrigir problemas de funcionamento dos equipamentos;=0D
+=0D
+Realizar a troca de pe=C3=A7as e componentes defeituosos;=0D
+=0D
+Realizar testes de funcionamento dos equipamentos;=0D
+=0D
+Realizar a instala=C3=A7=C3=A3o e configura=C3=A7=C3=A3o de redes de tele=
+comunica=C3=A7=C3=B5es;=0D
+=0D
+Atuar na resolu=C3=A7=C3=A3o de problemas de conex=C3=A3o e transmiss=C3=A3=
+o de dados;=0D
+=0D
+Realizar a instala=C3=A7=C3=A3o e configura=C3=A7=C3=A3o de sistemas de t=
+elefonia;=0D
+=0D
+Realizar a liga=C3=A7=C3=A3o e a distribui=C3=A7=C3=A3o de cabos de telec=
+omunica=C3=A7=C3=B5es;=0D
+=0D
+Manter registros atualizados das atividades realizadas..</p>=0D
+=0D
+<p><b>Cargo: </b>Instalador e Reparador - Telecomunica=C3=A7=C3=B5es (Ara=
+caju - Se)</p>=0D
+=0D
+<p><b>=C3=81rea profissional: </b>Inform=C3=A1tica/T.I., Telecomunica=C3=A7=
+=C3=B5es</p>=0D
+=0D
+<p><b>N=C3=BAmero de vagas: </b>2</p>=0D
+=0D
+<p><b>Sal=C3=A1rio: </b>R$ 2.088,72</p>=0D
+=0D
+<p><b>Benef=C3=ADcios: </b>- Periculosidade =0D
+=0D
+- Vale transporte ou aux=C3=ADlio combust=C3=ADvel;=0D
+=0D
+- Vale alimenta=C3=A7=C3=A3o R$ 350,00=0D
+=0D
+- Plano de Sa=C3=BAde Unimed (ap=C3=B3s per=C3=ADodo de experi=C3=AAncia)=
+=0D
+=0D
+- Bolsa Estudo (ap=C3=B3s 6 meses de empresa) / Periculosidade</p>=0D
+=0D
+<p> </p>=0D
+=0D
+<p><font size=3D"18px"><b>Requisitos</b></font></p>=0D
+=0D
+<p>- Possuir ensino t=C3=A9cnico completo ou superior cursando, na =C3=A1=
+rea de TI ou afins. =0D
+=0D
+- Habilita=C3=A7=C3=A3o A/B, =0D
+=0D
+- Experi=C3=AAncia como t=C3=A9cnico em provedores de internet efetuando =
+visitas t=C3=A9cnicas, instala=C3=A7=C3=B5es de FTTH, cabeamento de fibra=
+, fus=C3=B5es, CEO e CTO.</p>=0D
+=0D
+<p> </p>=0D
+=0D
+<p><font size=3D"18px"><b>Sobre a empresa</b></font></p>=0D
+=0D
+<p>Nenhuma informa=C3=A7=C3=A3o cadastrada</p>=0D
+=0D
+<p> </p>=0D
+=0D
+<p>Para visualizar a vaga e candidatar-se, <SPAN STYLE=3D"color:#0000ff;"=
+><A TARGET=3D"_blank" HREF=3D"https://upconsultoriaempresarial.selecty.co=
+m.br/vaga/77/"><U>clique aqui</U></A></SPAN></p>=0D
+    </p>=0D
+                                                                         =
+                                             </td>=0D
+                                                                         =
+                                           </tr>=0D
+                                                                         =
+                                         </tbody>=0D
+                                                                         =
+                                       </table>=0D
+                                                                         =
+                                       <table style=3D"font-family:arial,=
+helvetica,sans-serif;" role=3D"presentation" cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"100%" border=3D"0">=0D
+                                                                         =
+                                         <tbody>=0D
+                                                                         =
+                                           <tr>=0D
+                                                                         =
+                                             <td align=3D"left">=0D
+                                                                         =
+                                                                         =
+                                                                         =
+                       </td>=0D
+                                                                         =
+                                           </tr>=0D
+                                                                         =
+                                         </tbody>=0D
+                                                                         =
+                                       </table>=0D
+                                                                         =
+                                     </td>=0D
+                                                                         =
+                                   </tr>=0D
+                                                                         =
+                                 </tbody>=0D
+                                                                         =
+                               </table>=0D
+                                                                         =
+                             </td>=0D
+                                                                         =
+                           </tr>=0D
+                                                                         =
+                         </tbody>=0D
+                                                                         =
+                       </table>=0D
+                                                                         =
+                     </td>=0D
+                                                                         =
+                   </tr>=0D
+                                                                         =
+                 </tbody>=0D
+                                                                         =
+               </table>=0D
+                                                                         =
+             </td>=0D
+                                                                         =
+           </tr>=0D
+                                                                         =
+         </tbody>=0D
+                                                                         =
+       </table>=0D
+                                                                         =
+     </td>=0D
+                                                                         =
+   </tr>=0D
+                                                                         =
+ </tbody>=0D
+                                                                        <=
+/table>=0D
+                                                                      </t=
+d>=0D
+                                                                    </tr>=
+=0D
+                                                                  </tbody=
+>=0D
+                                                                </table>=0D=
+
+                                                              </td>=0D
+                                                            </tr>=0D
+                                                          </tbody>=0D
+                                                        </table>=0D
+                                                      </td>=0D
+                                                    </tr>=0D
+                                                  </tbody>=0D
+                                                </table>=0D
+                                              </td>=0D
+                                            </tr>=0D
+                                          </tbody>=0D
+                                        </table>=0D
+                                      </td>=0D
+                                    </tr>=0D
+                                  </tbody>=0D
+                                </table>=0D
+                              </td>=0D
+                            </tr>=0D
+                          </tbody>=0D
+                        </table>=0D
+                      </td>=0D
+                    </tr>=0D
+                    <tr>=0D
+                      <table width=3D"100%" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0"=0D
+                        style=3D"border:0;border-collapse:collapse;border=
+-spacing:0;margin:auto;max-width:700px;">=0D
+                        <tbody>=0D
+                          <tr>=0D
+                            <td align=3D"center">=0D
+                                                                    <img =
+align=3D"center" border=3D"0"=0D
+                                        src=3D"https://selecty.app/images=
+/logo-selecty-email-footer.png"=0D
+                                        alt=3D"Image" title=3D"Image"=0D
+                                        style=3D"padding-top:32px;outline=
+: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;=
+display: block !important;border: none;height: auto;float: none;width: 10=
+0%;max-width: 100px;"=0D
+                                        width=3D"100" />=0D
+                                                            </td>=0D
+                          </tr>=0D
+                        </tbody>=0D
+                    </tr>=0D
+                  </tbody>=0D
+                </table>=0D
+              </td>=0D
+            </tr>=0D
+          </tbody>=0D
+        </table>=0D
+      </td>=0D
+    </tr>=0D
+  </table>=0D
+<p class=3D'ampimg' style=3D'display:none;visibility:none;margin:0;paddin=
+g:0;line-height:0;'><img src=3D'https://click.selecty.email/img/h9awpw/BB=
+iVQpEqvc3x' alt=3D''></p></body>=0D
+</html>=0D
+=0D

@@ -1,0 +1,103 @@
+X-GM-THRID: 1814982343699139785
+X-Gmail-Labels: Importante,Lixeira,Aberto,Categoria: pessoal
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:1c14:b0:286:45bc:92ab with SMTP id fs20csp3618014ysb;
+        Thu, 7 Nov 2024 08:17:47 -0800 (PST)
+X-Received: by 2002:a17:906:6a26:b0:a9e:c4df:e3c9 with SMTP id a640c23a62f3a-a9eec9f81b1mr12324466b.24.1730996267192;
+        Thu, 07 Nov 2024 08:17:47 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1730996267; cv=none;
+        d=google.com; s=arc-20240605;
+        b=T5cw2A8q2wODwcOYWel4cxuMjwdtXBcnDeu1c69R4or1SyVFy+COj7SNB2xKXhZd6O
+         i86izgENTsQsRM1AzAP+ObXijQs7YbA31l//JaZOAmBz6OjjpxfBDTgyPd0d75OMKNf3
+         w4l23F0OfG2l0ynI1ZXbp38doQQBw+afJ2rpmpNfKbwKe+b4JXS4s/9OoCWmCtc9QNuh
+         2O0rRPG1DbBVro0krOgq3utt6E7Jg40DTVeESfLXmmZiZOzzjptg4eXBAGB9nVkNdgOl
+         kkuOZsPlFHpJkSvWLy5kcu15nAroQ4lWZ348u76IJTz607OlKf3lFHeQleSXBOHFW5BG
+         mfEQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=kkaSoiqTbWCw07fevrjZ+HDD5AuFo3NivQaSDTqxOKY=;
+        fh=7WwuVehcs6IJ4Bs4+lQjSSadG0qm31DkkI3vvNuv7Io=;
+        b=iZHljnNVWf57Yichx6KxhNDfsEmJ8g5og078Wf+Gb/wZfTM5i2jgKPRsYDWXqX3KtJ
+         4HL6+NV1j6d1kO/9DzodxFMnnYPek+zC25CwY2Vw0VXE8wL2BR7w8TdnswENQvNtCPWf
+         x3uxRarcShJggr8zpNBn9sRTOG7UoQ3TnOgBNlTj1h+Q+OgcRLQBdw93kuFwpjBf6U+z
+         t1AEFAS7lgV7BgRkD7lzmR7e+36WG9cbfvSnTNLJIRkjBdBQuElxrZBUGIyYpyWbKwxf
+         L+RNl62siL32tH++q9Opp5xq0aJk4gHbXvzGav4vboT/6pKFNs8ce4tyKBl2FWLuvB4d
+         cQiA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@souunit.com.br header.s=google header.b=ZW+x72Ux;
+       spf=pass (google.com: domain of lucas.silva03@souunit.com.br designates 209.85.220.41 as permitted sender) smtp.mailfrom=lucas.silva03@souunit.com.br;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=souunit.com.br;
+       dara=pass header.i=@gmail.com
+Return-Path: <lucas.silva03@souunit.com.br>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id a640c23a62f3a-a9ec8b0dea3sor200380566b.1.2024.11.07.08.17.47
+        for <nandobritoferreira@gmail.com>
+        (Google Transport Security);
+        Thu, 07 Nov 2024 08:17:47 -0800 (PST)
+Received-SPF: pass (google.com: domain of lucas.silva03@souunit.com.br designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@souunit.com.br header.s=google header.b=ZW+x72Ux;
+       spf=pass (google.com: domain of lucas.silva03@souunit.com.br designates 209.85.220.41 as permitted sender) smtp.mailfrom=lucas.silva03@souunit.com.br;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=souunit.com.br;
+       dara=pass header.i=@gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=souunit.com.br; s=google; t=1730996266; x=1731601066; dara=google.com;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=kkaSoiqTbWCw07fevrjZ+HDD5AuFo3NivQaSDTqxOKY=;
+        b=ZW+x72Uxq+JOQbqX/tlRrJ2ZNKlVKIkuzMtJiq4hVDRETxx85IJiatAVNeRP1ASOw5
+         osg1ZzsINk0bQ+f1jGgBM/8sdCenjhM1pC6f/llgTna0ZQEpwTQlwPMl8MyWr+A9G8Km
+         H0tPDKRKc79Yn19qhZNHcJfzDcofg0v0BK9X4=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1730996266; x=1731601066;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=kkaSoiqTbWCw07fevrjZ+HDD5AuFo3NivQaSDTqxOKY=;
+        b=OwE0/64wpuqiuEtyPaKGSv/CNh9vxTKAdM0leEecEBPfYFc2wfX6kR0FkOkYg6pMbq
+         60zHButyFQOmfSmqC3Yt9NGb6Trht+QKUu6biWD/apYB/Zf9HaDqanjJkdVKwh95oJkG
+         yD5gCjxwf5eHYFuSmpxtHuZupgC9VhnBSV/AfWuhGUzBGBciJghk+VgRf97OTKfft8sC
+         /Y5QuIQK3Q1k6jFFO+RNtejDWR3zVM8gGnthXSyvVWBhDIo9utRIOiEKr2KChSFnbKYX
+         K3UzUPS+TYE6/AKMDY290V+X/1PXo18jDZ/ki8YGY63ladiG9OCftfOJOVPEq9khvpyr
+         9rgw==
+X-Gm-Message-State: AOJu0Yw+G0e1dlhLR/JzuwVmEA1qLZgVsBLT/xQ9mz+gwBDYdenzJrhw
+	0EAns302OH3zWRetq2qAcLZvv53RD1VxkMK3zx5HXJtngTGcGd8q++lXFgowbE4Y3IjKGZvAVL/
+	3+TTXhXmpKTfTT8YGZ//Hfg+DQdFOL1EywQ8zs4XGCERYnATjmafbTDCZ
+X-Google-Smtp-Source: AGHT+IECxcLChR+zcMJSWCTDcxTKA881BP1xc+3B3WHoKG41bfZjaGYBn0GlAPvtbDppnEvbYjQ2B08GT7ZpiDQRoPQ=
+X-Received: by 2002:a17:907:7b8e:b0:a99:f777:c6ef with SMTP id
+ a640c23a62f3a-a9eec76cbd6mr12062966b.3.1730996265701; Thu, 07 Nov 2024
+ 08:17:45 -0800 (PST)
+MIME-Version: 1.0
+References: <CAPMiuM-X=Jtnms9zPjWgwugt=wciH=R-V2yu58uJuFyhJS1hzQ@mail.gmail.com>
+ <CAO1iV-34y6JMCZTd9RFm2=oFmmDjSGBi9zqorFGQoCWYvx742w@mail.gmail.com>
+In-Reply-To: <CAO1iV-34y6JMCZTd9RFm2=oFmmDjSGBi9zqorFGQoCWYvx742w@mail.gmail.com>
+From: =?UTF-8?Q?Lucas_Silva_de_Ara=C3=BAjo?= <lucas.silva03@souunit.com.br>
+Date: Thu, 7 Nov 2024 13:17:34 -0300
+Message-ID: <CAPMiuM88FssSNjy0+j9XnoBqeCGfH5PO=_OZYXPGWNH0hojjGQ@mail.gmail.com>
+Subject: Re: CURSO GOOGLE CLOUD
+To: Fernando Ferreira <nandobritoferreira@gmail.com>
+Content-Type: multipart/alternative; boundary="000000000000866c8c062654f903"
+
+--000000000000866c8c062654f903
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Boa tarde Fernando, agora com o cadastrado realizado (com o email
+luiz.brito@souunit.com.br) s=C3=B3 precisa aguardar o convite da turma que =
+far=C3=A1
+parte para poder come=C3=A7ar o curso do Google Cloud Skills Boost. Caso te=
+nha
+d=C3=BAvidas pode me consultar. Bons estudos e aproveite!
+
+--000000000000866c8c062654f903
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Boa tarde Fernando, agora com o cadastrado realizado (com =
+o email <a href=3D"mailto:luiz.brito@souunit.com.br">luiz.brito@souunit.com=
+.br</a>) s=C3=B3 precisa aguardar o convite da turma que far=C3=A1 parte pa=
+ra poder come=C3=A7ar o curso do Google Cloud Skills Boost. Caso tenha d=C3=
+=BAvidas pode me consultar. Bons estudos e aproveite!</div>
+
+--000000000000866c8c062654f903--

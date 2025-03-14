@@ -1,0 +1,2892 @@
+X-GM-THRID: 1816211830332121374
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:f23:b0:286:45bc:92ab with SMTP id fm35csp3847740ysc;
+        Tue, 19 Nov 2024 19:49:36 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IFU76VKCk+2JspknSDqXxo+PElsV0z1/sUlQp463c6VAvpYMwXo13YG8qQ3X1VCty0GN6AL
+X-Received: by 2002:a05:6e02:b44:b0:3a2:6cd7:3250 with SMTP id e9e14a558f8ab-3a786435c77mr13873825ab.10.1732074575863;
+        Tue, 19 Nov 2024 19:49:35 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1732074575; cv=none;
+        d=google.com; s=arc-20240605;
+        b=F5IeLsStbw9LpGw9qEciJxLxYNclukEPolLintDb4U9sbQkfbDWeWbh4auYxLOVyBt
+         LStdxyS/jezUW06QILc/Rizuk0uPl3O2VzEJJTnXJG+SNlO9hFgRqQWKcf/jmRtVadg3
+         UyC4DA0uqS/ZuahInzVqJY5+/J0b2SElRMZPF72teZFApJyH0UJJIFNK3C69R2edmH3b
+         tQI22T/v8/VfAOrCIafislCcLY0+h6iDGqIQdnVnhFcEVTAxINQc6SxEudfD8Q/gVbtM
+         BKciFrsUJTZlIcP2h6VWH5OlNuVBcRHUudg6nOP2c0i+dp0mfGsCf75Fg2+4zIGanHT7
+         /1NQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=yzD0g32vppsf2j+Pg47eomf8/iRGzeOlJJIep1nJ+tI=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=aOGF81KQSrJoDaDPyqMuqfszZsvry1cWXng3zkoNuCIFM/JLTNeJZelDa0rq0n0541
+         ak6xqTfk+uOEK+x+k3eQcf9qrfOG22zpxXDx/h7c9qMDn/xFCnQzrZPvuaKY7+yg+e8S
+         02jjZDlQytlZohxmfQ9qaCNP4mwzL6HP2X98WpN106SmCQd0FM26SYgrDMGEDA60w3ec
+         IaxqjEXW6kn6/VDdcW65neZ6ozKTAwnvos5leBG91u1FGKZxvEfeXms/7XEgaElLwZw+
+         su2ZgA9pMoC+mytdA7vTlIzlvm5E+mBcmRZj7SE02xf1DRn+dhG59V98/mNDNggcAHuD
+         8VFw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=Ri8hr64d;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b="n3ab/vTt";
+       spf=pass (google.com: domain of s-2ny3l6ndrcub9l5uxh85itxknzflytuiq6dubop1sxk9yw62yff7meec@bounce.linkedin.com designates 2620:109:c006:104::206 as permitted sender) smtp.mailfrom=s-2ny3l6ndrcub9l5uxh85itxknzflytuiq6dubop1sxk9yw62yff7meec@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-2ny3l6ndrcub9l5uxh85itxknzflytuiq6dubop1sxk9yw62yff7meec@bounce.linkedin.com>
+Received: from maile-bf.linkedin.com (maile-bf.linkedin.com. [2620:109:c006:104::206])
+        by mx.google.com with ESMTPS id e9e14a558f8ab-3a78ad4191csi857405ab.157.2024.11.19.19.49.35
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 19 Nov 2024 19:49:35 -0800 (PST)
+Received-SPF: pass (google.com: domain of s-2ny3l6ndrcub9l5uxh85itxknzflytuiq6dubop1sxk9yw62yff7meec@bounce.linkedin.com designates 2620:109:c006:104::206 as permitted sender) client-ip=2620:109:c006:104::206;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=Ri8hr64d;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b="n3ab/vTt";
+       spf=pass (google.com: domain of s-2ny3l6ndrcub9l5uxh85itxknzflytuiq6dubop1sxk9yw62yff7meec@bounce.linkedin.com designates 2620:109:c006:104::206 as permitted sender) smtp.mailfrom=s-2ny3l6ndrcub9l5uxh85itxknzflytuiq6dubop1sxk9yw62yff7meec@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1732074573;
+	bh=yzD0g32vppsf2j+Pg47eomf8/iRGzeOlJJIep1nJ+tI=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=Ri8hr64dgzlS3XdfQ40bTBKrJk0MB0TTkIbfadzCFdZBjThFvyxuV8JcRhy2CWVUS
+	 3gHnVskay5t+O319bg8wRSOG3QRBAX75hdKvANgIqSD19Bi0PSGwLj1ooksaZOISXi
+	 Gd0k8K8egHyhAd24qtohVLKZBkLBv6L0mEcddAE/jNfIM7QSHX69pJE7jungkdVsqs
+	 V0PKnaq1hcXH5MxfQ7pElnra/9mWj4sfB/xWySQIfbz26cM1qeJPYCRYWbKEf5Dxez
+	 xOzpG+O4pqOiZGVqFDgVOHEa0SU+jwrgNvOBs0lSqnH5DGT+9pY+FjLVhHHLco4eBZ
+	 eZppndfoDnycg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1732074573;
+	bh=yzD0g32vppsf2j+Pg47eomf8/iRGzeOlJJIep1nJ+tI=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=n3ab/vTtMtL4ZhYS/+N5rZb/i82W2Kz+2t/3xcRjed33YFqSF6+Knv0VXGnAUCdSg
+	 niswRih35Icge9Y26J0EUEUHNt49060M7VUvhsEjMCPuFH73hXDpzT1Lsq40hqdZh/
+	 8CZKxcZ6ESyEpejP7UidzYmjS6YNlLpoBpl0iqogR20C0WXr3GRDqZXA/HZlBetfIU
+	 MQEMrOEO8B8cw3rmaLdeOIdNUmK5IrxI01Ognhky8XaGfeSjg/e+PuF7JORc5AJxy4
+	 5o+nioe0I7clhbq3ZyYEpQcpNPM3iNYqEo00HPM637DaO43AULwemcvGf3as5eNyeV
+	 peaOUM0DZziHw==
+From: Portal Vagas via LinkedIn <newsletters-noreply@linkedin.com>
+Message-ID: <1885561817.42292790.1732074573544@lva1-app95503.prod.linkedin.com>
+Subject: =?UTF-8?Q?=E2=9C=A8_BLACK_FRIDAY_IMPERD=C3=8DVEL:_C?=
+ =?UTF-8?Q?urso_de_Ingl=C3=AAs_+_Espanhol_=F0=9F=8E=AF?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_42292788_814753448.1732074573539"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Wed, 20 Nov 2024 03:49:33 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-aszvgqrtkvphd8ufqpve3zq0iw6w84n5vx6eppycpom4leuz4qrcfnff6kf4x7q8ikc4lvtwmqlmml41zybf03a2dfhopsxbvy5xt8
+X-LinkedIn-Id: gdb74f-m3pch7lf-tb
+List-Unsubscribe: <https://www.linkedin.com/comm/series-notifications/?action=unsubscribe&memberToken=ADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&newsletterId=6957338479194181632&newsletterTitle=Novas%20vagas%20de%20empregos&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%3D%3D&midToken=AQHxaOsdYMWJVQ&midSig=1QxpxWV515vrw1&trk=eml-email_series_follow_newsletter_01-unsub-0-unsub&trkEmail=eml-email_series_follow_newsletter_01-unsub-0-unsub-null-gdb74f~m3pch7lf~tb-null-null&eid=gdb74f-m3pch7lf-tb&otpToken=MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3YjM4YmNiZDc0MzkxYTY4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZjU5Y2FhYWQxZmQ3YTA2MDBmYmM5NDBjNjAwNTFkNywxLDE%3D>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_42292788_814753448.1732074573539
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Novas vagas de empregos=20
+
+Por Portal Vagas
+
+
+Por Portal Vagas
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/black-friday-imperd%C3%ADvel-curso-de-i=
+ngl%C3%AAs-espanhol-portalvagas-0tghf?lipi=3Durn%3Ali%3Apage%3Aemail_email_=
+series_follow_newsletter_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%3D%3D&midToken=3DAQHxa=
+OsdYMWJVQ&midSig=3D1QxpxWV515vrw1&trk=3Deml-email_series_follow_newsletter_=
+01-null-0-read_more_banner_cta_&trkEmail=3Deml-email_series_follow_newslett=
+er_01-null-0-read_more_banner_cta_-null-gdb74f~m3pch7lf~tb-null-null&eid=3D=
+gdb74f-m3pch7lf-tb&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3YjM4Y=
+mNiZDc0MzkxYTY4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZjU5=
+Y2FhYWQxZmQ3YTA2MDBmYmM5NDBjNjAwNTFkNywxLDE%3D
+ =20
+A Zante Academy traz para voc=C3=AA uma oportunidade imperd=C3=ADvel nesta =
+Black Friday: dois cursos incr=C3=ADveis de idiomas, para voc=C3=AA aprende=
+r e conquistar o mundo! Com mais de 100 caminhos para o aprendizado, voc=C3=
+=AA pode come=C3=A7ar a sua jornada em ingl=C3=AAs e espanhol hoje mesmo! C=
+urso de Ingl=C3=AAs =E2=80=93 Interactive English Aprenda ingl=C3=AAs do b=
+=C3=A1sico ao avan=C3=A7ado com uma metodologia simples e pr=C3=A1tica. Sej=
+a no trabalho, viagens ou comunica=C3=A7=C3=A3o cotidiana, este curso ofere=
+ce a base s=C3=B3lida que voc=C3=AA precisa. Carga hor=C3=A1ria: 100 horas =
+Certificado reconhecido Suporte online Estude no seu ritmo, revisite as aul=
+as sempre que precisar Curso de Espanhol =E2=80=93 Espa=C3=B1ol Total Domin=
+e o espanhol com um curso que vai do b=C3=A1sico ao avan=C3=A7ado, com foco=
+ em situa=C3=A7=C3=B5es do dia a dia, vocabul=C3=A1rio essencial e gram=C3=
+=A1tica completa. Carga hor=C3=A1ria: 110 horas Certificado reconhecido Sup=
+orte online Aulas flex=C3=ADveis para se adaptar =C3=A0 sua rotina =F0=9F=
+=94=A5 Por apenas R$ 97,00 ou 5x de R$ 19,40 =F0=9F=94=A5 =F0=9F=91=89 Gara=
+nta agora mesmo o seu combo com o melhor pre=C3=A7o do ano! Acesse o link: =
+https://zante.academy/loja_virtual/vercombo.php?curso=3DBLACK%20FRIDAY:%20I=
+NGL%C3%8AS%20E%20ESPANHOL =F0=9F=93=B2 Vagas limitadas. Aproveite enquanto =
+dura!
+Participe da conversa
+https://www.linkedin.com/comm/pulse/black-friday-imperd%C3%ADvel-curso-de-i=
+ngl%C3%AAs-espanhol-portalvagas-0tghf?lipi=3Durn%3Ali%3Apage%3Aemail_email_=
+series_follow_newsletter_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%3D%3D&midToken=3DAQHxa=
+OsdYMWJVQ&midSig=3D1QxpxWV515vrw1&trk=3Deml-email_series_follow_newsletter_=
+01-newsletter_content_preview_text-0-readmore_button_&trkEmail=3Deml-email_=
+series_follow_newsletter_01-newsletter_content_preview_text-0-readmore_butt=
+on_-null-gdb74f~m3pch7lf~tb-null-null&eid=3Dgdb74f-m3pch7lf-tb&otpToken=3DM=
+WIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3YjM4YmNiZDc0MzkxYTY4YjYxNzljNDA2NmQ0=
+YjVkNWJmMmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZjU5Y2FhYWQxZmQ3YTA2MDBmYmM5NDBjNjA=
+wNTFkNywxLDE%3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | HTML | CSS | JS | React.js | Node.js | Python)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=
+=3D1QxpxWV515vrw1&trk=3Deml-email_series_follow_newsletter_01-SecurityHelp-=
+0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Securi=
+tyHelp-0-textfooterglimmer-null-gdb74f~m3pch7lf~tb-null-null&eid=3Dgdb74f-m=
+3pch7lf-tb&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3YjM4YmNiZDc0M=
+zkxYTY4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZjU5Y2FhYWQx=
+ZmQ3YTA2MDBmYmM5NDBjNjAwNTFkNywxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/comm/series-notifica=
+tions/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y=
+9whjlY&newsletterId=3D6957338479194181632&newsletterTitle=3DNovas%20vagas%2=
+0de%20empregos&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslette=
+r_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D1Qxp=
+xWV515vrw1&trk=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footer=
+Glimmer&trkEmail=3Deml-email_series_follow_newsletter_01-unsubscribe-0-foot=
+erGlimmer-null-gdb74f~m3pch7lf~tb-null-null&eid=3Dgdb74f-m3pch7lf-tb&otpTok=
+en=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3YjM4YmNiZDc0MzkxYTY4YjYxNzljND=
+A2NmQ0YjVkNWJmMmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZjU5Y2FhYWQxZmQ3YTA2MDBmYmM5N=
+DBjNjAwNTFkNywxLDE%3D=C2=A0=C2=A0=C2=B7=C2=A0=C2=A0Ajuda: https://www.linke=
+din.com/help/linkedin/answer/67?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_em=
+ail_series_follow_newsletter_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%3D%3D&midToken=3DA=
+QHxaOsdYMWJVQ&midSig=3D1QxpxWV515vrw1&trk=3Deml-email_series_follow_newslet=
+ter_01-help-0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newslett=
+er_01-help-0-textfooterglimmer-null-gdb74f~m3pch7lf~tb-null-null&eid=3Dgdb7=
+4f-m3pch7lf-tb&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3YjM4YmNiZ=
+Dc0MzkxYTY4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZjU5Y2Fh=
+YWQxZmQ3YTA2MDBmYmM5NDBjNjAwNTFkNywxLDE%3D
+
+=C2=A9 2024 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_42292788_814753448.1732074573539
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+style>
+@media (max-width: 480px) {
+  .inline-button,
+.inline-button table {
+    display: none !important;
+  }
+
+  .full-width-button,
+.full-width-button table {
+    display: table !important;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content,
+.pulse .article-main__content > * {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content h2,
+.pulse .article-main__content h2 span {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content p,
+.pulse .article-main__content p span {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .pulse .article-main__content blockquote {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-img=
+ {
+    width: 48px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"][data-entity-typ=
+e=3D"organization"] .pub-entity-img img {
+    height: 48px;
+    width: 48px;
+    border-radius: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"][data-entity-typ=
+e=3D"member"] .pub-entity-img img {
+    height: 56px;
+    width: 56px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t {
+    padding-left: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t h1 {
+    margin-bottom: 2px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t h3 {
+    margin-bottom: 2px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .pulse .article-main__content [data-type=3D"entityEmbed"] .pub-entity-tex=
+t p {
+    margin-bottom: 2px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content,
+.advice .article-main__content > * {
+    font-size: 20px;
+  }
+
+  .advice .qa-redesign-article-content .article-main__content > * {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content h2,
+.advice .article-main__content h2 span {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice.redesign .article-main__content h2,
+.advice.redesign .article-main__content h2 span {
+    font-size: 32px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content p,
+.advice .article-main__content p span {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .advice .article-main__content blockquote {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar__wrapper.navbar__wrapper--x-article-split-layout {
+    margin-left: 24px;
+  }
+}
+@media (min-width: 1440px) {
+  .navbar__wrapper.navbar__wrapper--x-article-split-layout {
+    margin-left: 48px;
+  }
+}
+@media (min-width: 992px) {
+  [data-id=3D'member-nav-header__container'] {
+    margin-left: calc(40% - 8px - 392px);
+  }
+}
+@media (min-width: 1200px) {
+  [data-id=3D'member-nav-header__container'] {
+    margin-left: calc(40% - 32px - 392px);
+  }
+}
+@media (min-width: 1440px) {
+  [data-id=3D'member-nav-header__container'] {
+    margin-left: calc(40% - 64px - 392px);
+  }
+}
+@media (min-width: 992px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    width: 60%;
+  }
+}
+@media (min-width: 992px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    padding-left: 8px;
+  }
+}
+@media (min-width: 1200px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    padding-left: 32px;
+  }
+}
+@media (min-width: 1440px) {
+  .member-nav-header__subnav--x-article-split-layout {
+    padding-left: 64px;
+  }
+}
+@media (min-width: 576px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1128px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
+@media (min-width: 1680px) {}
+@media (min-width: 1920px) {}
+@media (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media screen and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 991px) {}
+@media screen and (max-width: 991px) {}
+@media (max-width: 991px) {
+  .search-bar.isExpanded .search-bar__placeholder {
+    display: none;
+  }
+
+  .search-bar.isExpanded .base-search-bar__form {
+    display: flex;
+  }
+}
+@media screen and (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (min-width: 992px) {}
+@media (forced-colors: active) {}
+@media (-ms-high-contrast: active), (forced-colors: active) {}
+@media (min-width: 992px) {}
+@media (min-width: 576px) {}
+@media (min-width: 992px) {}
+@media (min-width: 992px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
+@media (min-width: 992px) {}
+@media (max-width: 575px) {}
+@media (max-width: 640px) {}
+@media (min-width: 992px) {}
+@media (max-width: 991px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media screen and (max-width: 767px) {}
+@media (max-width: 767px) {}
+@media (min-width: 245px) {}
+@media (min-width: 330px) {}
+@media only screen and (min-width: 30.06em) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 992px) {}
+@media (min-width: 992px) {
+  .papabear\:tab-vertical.tab-selected:after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:pointer-events-none::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:absolute::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:\!left-\[-19px\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:\!top-\[6px\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:bottom-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:left-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:right-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:top-0::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:ml-0\.5::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:ml-\[74px\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:block::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:h-full::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:w-full::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:rounded-full::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:border-1::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:border-solid::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:border-color-divider::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:bg-gradient-to-b::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:from-color-transparent::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:to-color-background-scrim::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:text-color-text-low-emphasis::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:no-underline::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:shadow-\[0_0_0_500px_var\(--color-scrim\)\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:content-\[\"\"\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:content-\[\'\'\]::after {
+    content: "";
+  }
+}
+@media (min-width: 768px) {
+  .after\:content-\[\'\/\'\]::after {
+    content: "";
+  }
+}
+@media (min-width: 576px) {
+  .xs\:sticky {
+    position: sticky;
+  }
+
+  .xs\:left-\[-52px\] {
+    left: -52px;
+  }
+
+  .xs\:left-\[-56px\] {
+    left: -56px;
+  }
+
+  .xs\:top-0 {
+    top: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .sm\:m-0 {
+    margin: 0px;
+  }
+
+  .sm\:max-w-\[300px\] {
+    max-width: 300px;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:pl-0\.5 {
+    padding-left: 4px;
+  }
+
+  .sm\:text-sm {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  .md\:\!absolute {
+    position: absolute !important;
+  }
+
+  .md\:absolute {
+    position: absolute;
+  }
+
+  .md\:left-\[-44px\] {
+    left: -44px;
+  }
+
+  .md\:left-\[-52px\] {
+    left: -52px;
+  }
+
+  .md\:left-\[-53px\] {
+    left: -53px;
+  }
+
+  .md\:left-\[-60px\] {
+    left: -60px;
+  }
+
+  .md\:right-\[19px\] {
+    right: 19px;
+  }
+
+  .md\:m-2 {
+    margin: 16px;
+  }
+
+  .md\:-ml-1 {
+    margin-left: -8px;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .md\:mb-8 {
+    margin-bottom: 64px;
+  }
+
+  .md\:ml-1 {
+    margin-left: 8px;
+  }
+
+  .md\:ml-\[-12px\] {
+    margin-left: -12px;
+  }
+
+  .md\:ml-\[-41px\] {
+    margin-left: -41px;
+  }
+
+  .md\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .md\:mr-4 {
+    margin-right: 32px;
+  }
+
+  .md\:mr-6 {
+    margin-right: 48px;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:box-content {
+    box-sizing: content-box;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:inline-flex {
+    display: inline-flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:h-4 {
+    height: 32px;
+  }
+
+  .md\:h-56 {
+    height: 448px;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:w-2\/5 {
+    width: 40%;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
+  .md\:w-4 {
+    width: 32px;
+  }
+
+  .md\:w-\[280px\] {
+    width: 280px;
+  }
+
+  .md\:w-\[392px\] {
+    width: 392px;
+  }
+
+  .md\:w-\[452px\] {
+    width: 452px;
+  }
+
+  .md\:w-\[500px\] {
+    width: 500px;
+  }
+
+  .md\:w-\[calc\(100\%\+44px\)\] {
+    width: calc(100% + 44px);
+  }
+
+  .md\:w-\[calc\(37\%-40px\)\] {
+    width: calc(37% - 40px);
+  }
+
+  .md\:w-\[calc\(50\%-40px\)\] {
+    width: calc(50% - 40px);
+  }
+
+  .md\:max-w-\[392px\] {
+    max-width: 392px;
+  }
+
+  .md\:max-w-\[576px\] {
+    max-width: 576px;
+  }
+
+  .md\:flex-1 {
+    flex: 1 1 0%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+
+  .md\:whitespace-nowrap {
+    white-space: nowrap;
+  }
+
+  .md\:px-1 {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .md\:px-3 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .md\:py-1\.5 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .md\:py-4 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .md\:py-6 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .md\:pb-2 {
+    padding-bottom: 16px;
+  }
+
+  .md\:pb-6 {
+    padding-bottom: 48px;
+  }
+
+  .md\:pb-\[200px\] {
+    padding-bottom: 200px;
+  }
+
+  .md\:pl-1 {
+    padding-left: 8px;
+  }
+
+  .md\:pl-4 {
+    padding-left: 32px;
+  }
+
+  .md\:pl-\[32px\] {
+    padding-left: 32px;
+  }
+
+  .md\:pl-\[41px\] {
+    padding-left: 41px;
+  }
+
+  .md\:pl-\[56px\] {
+    padding-left: 56px;
+  }
+
+  .md\:pr-1 {
+    padding-right: 8px;
+  }
+
+  .md\:pr-\[320px\] {
+    padding-right: 320px;
+  }
+
+  .md\:pr-\[88px\] {
+    padding-right: 88px;
+  }
+
+  .md\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .md\:pt-1 {
+    padding-top: 8px;
+  }
+
+  .md\:pt-6 {
+    padding-top: 48px;
+  }
+
+  .md\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .md\:text-md {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .lg\:\!absolute {
+    position: absolute !important;
+  }
+
+  .lg\:left-\[-48px\] {
+    left: -48px;
+  }
+
+  .lg\:left-\[-56px\] {
+    left: -56px;
+  }
+
+  .lg\:left-\[-58px\] {
+    left: -58px;
+  }
+
+  .lg\:right-\[8px\] {
+    right: 8px;
+  }
+
+  .lg\:my-6 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
+  .lg\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .lg\:ml-1 {
+    margin-left: 8px;
+  }
+
+  .lg\:ml-12 {
+    margin-left: 96px;
+  }
+
+  .lg\:ml-3 {
+    margin-left: 24px;
+  }
+
+  .lg\:ml-\[-33px\] {
+    margin-left: -33px;
+  }
+
+  .lg\:ml-\[10px\] {
+    margin-left: 10px;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:inline-flex {
+    display: inline-flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:h-4 {
+    height: 32px;
+  }
+
+  .lg\:h-6 {
+    height: 48px;
+  }
+
+  .lg\:h-\[20px\] {
+    height: 20px;
+  }
+
+  .lg\:w-4 {
+    width: 32px;
+  }
+
+  .lg\:w-6 {
+    width: 48px;
+  }
+
+  .lg\:w-\[20px\] {
+    width: 20px;
+  }
+
+  .lg\:w-\[calc\(100\%\+56px\)\] {
+    width: calc(100% + 56px);
+  }
+
+  .lg\:w-\[calc\(37\%-32px\)\] {
+    width: calc(37% - 32px);
+  }
+
+  .lg\:w-\[calc\(50\%-32px\)\] {
+    width: calc(50% - 32px);
+  }
+
+  .lg\:max-w-x-article-width {
+    max-width: 816px;
+  }
+
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
+  .lg\:items-center {
+    align-items: center;
+  }
+
+  .lg\:pl-4 {
+    padding-left: 32px;
+  }
+
+  .lg\:pl-\[33px\] {
+    padding-left: 33px;
+  }
+
+  .lg\:pl-\[40px\] {
+    padding-left: 40px;
+  }
+
+  .lg\:pl-\[41px\] {
+    padding-left: 41px;
+  }
+
+  .lg\:pl-\[88px\] {
+    padding-left: 88px;
+  }
+
+  .lg\:pr-1 {
+    padding-right: 8px;
+  }
+
+  .lg\:pr-4 {
+    padding-right: 32px;
+  }
+
+  .lg\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .lg\:text-display-lg {
+    font-size: 48px;
+  }
+
+  .lg\:text-lg {
+    font-size: 20px;
+  }
+
+  .lg\:text-md {
+    font-size: 16px;
+  }
+
+  .lg\:text-sm {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1440px) {
+  .xl\:ml-6 {
+    margin-left: 48px;
+  }
+
+  .xl\:w-6 {
+    width: 48px;
+  }
+
+  .xl\:w-\[50px\] {
+    width: 50px;
+  }
+
+  .xl\:pl-8 {
+    padding-left: 64px;
+  }
+
+  .xl\:pl-\[120px\] {
+    padding-left: 120px;
+  }
+
+  .xl\:pr-8 {
+    padding-right: 64px;
+  }
+}
+@media (max-width: 767px) {
+  .babybear\:\!-top-0\.5 {
+    top: -4px !important;
+  }
+
+  .babybear\:-top-1 {
+    top: -8px;
+  }
+
+  .babybear\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .babybear\:bottom-\[120\%\] {
+    bottom: 120%;
+  }
+
+  .babybear\:left-3 {
+    left: 24px;
+  }
+
+  .babybear\:right-4 {
+    right: 32px;
+  }
+
+  .babybear\:top-0\.5 {
+    top: 4px;
+  }
+
+  .babybear\:z-0 {
+    z-index: 0;
+  }
+
+  .babybear\:order-last {
+    order: 9999;
+  }
+
+  .babybear\:m-0 {
+    margin: 0px;
+  }
+
+  .babybear\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .babybear\:mx-1\.5 {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .babybear\:my-2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .babybear\:-mt-0\.5 {
+    margin-top: -4px;
+  }
+
+  .babybear\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .babybear\:mb-0\.5 {
+    margin-bottom: 4px;
+  }
+
+  .babybear\:mb-1 {
+    margin-bottom: 8px;
+  }
+
+  .babybear\:mb-2 {
+    margin-bottom: 16px;
+  }
+
+  .babybear\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .babybear\:ml-1 {
+    margin-left: 8px;
+  }
+
+  .babybear\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .babybear\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .babybear\:mt-0\.5 {
+    margin-top: 4px;
+  }
+
+  .babybear\:mt-\[6px\] {
+    margin-top: 6px;
+  }
+
+  .babybear\:hidden {
+    display: none;
+  }
+
+  .babybear\:h-4 {
+    height: 32px;
+  }
+
+  .babybear\:h-6 {
+    height: 48px;
+  }
+
+  .babybear\:h-\[180px\] {
+    height: 180px;
+  }
+
+  .babybear\:h-\[26px\] {
+    height: 26px;
+  }
+
+  .babybear\:h-\[360px\] {
+    height: 360px;
+  }
+
+  .babybear\:h-\[59px\] {
+    height: 59px;
+  }
+
+  .babybear\:h-\[64px\] {
+    height: 64px;
+  }
+
+  .babybear\:h-\[72px\] {
+    height: 72px;
+  }
+
+  .babybear\:h-auto {
+    height: auto;
+  }
+
+  .babybear\:max-h-4 {
+    max-height: 32px;
+  }
+
+  .babybear\:max-h-\[225px\] {
+    max-height: 225px;
+  }
+
+  .babybear\:max-h-\[250px\] {
+    max-height: 250px;
+  }
+
+  .babybear\:max-h-\[400px\] {
+    max-height: 400px;
+  }
+
+  .babybear\:min-h-\[134px\] {
+    min-height: 134px;
+  }
+
+  .babybear\:w-1 {
+    width: 8px;
+  }
+
+  .babybear\:w-11\/12 {
+    width: 91.666667%;
+  }
+
+  .babybear\:w-6 {
+    width: 48px;
+  }
+
+  .babybear\:w-\[105px\] {
+    width: 105px;
+  }
+
+  .babybear\:w-\[199px\] {
+    width: 199px;
+  }
+
+  .babybear\:w-\[26px\] {
+    width: 26px;
+  }
+
+  .babybear\:w-\[360px\] {
+    width: 360px;
+  }
+
+  .babybear\:w-\[64px\] {
+    width: 64px;
+  }
+
+  .babybear\:w-\[calc\(100\%-68px\)\] {
+    width: calc(100% - 68px);
+  }
+
+  .babybear\:w-fit {
+    width: fit-content;
+  }
+
+  .babybear\:w-full {
+    width: 100%;
+  }
+
+  .babybear\:min-w-full {
+    min-width: 100%;
+  }
+
+  .babybear\:max-w-\[32px\] {
+    max-width: 32px;
+  }
+
+  .babybear\:max-w-\[790px\] {
+    max-width: 790px;
+  }
+
+  .babybear\:max-w-md {
+    max-width: 28rem;
+  }
+
+  .babybear\:flex-auto {
+    flex: 1 1 auto;
+  }
+
+  .babybear\:flex-none {
+    flex: none;
+  }
+
+  .babybear\:basis-0 {
+    flex-basis: 0px;
+  }
+
+  .babybear\:-translate-x-50\% {
+    transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY=
+(1);
+  }
+
+  @media (max-width: 767px) {
+    .babybear\:-translate-x-50\% {
+      transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(=
+1) scaleY(1);
+    }
+
+    @media (max-width: 767px) {
+      .babybear\:-translate-x-50\% {
+        transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scale=
+X(1) scaleY(1);
+      }
+
+      @media (max-width: 767px) {
+        .babybear\:-translate-x-50\% {
+          transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) sca=
+leX(1) scaleY(1);
+        }
+
+        @media (max-width: 767px) {
+          .babybear\:-translate-x-50\% {
+            transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0) s=
+caleX(1) scaleY(1);
+          }
+
+          @media (max-width: 767px) {
+            .babybear\:-translate-x-50\% {
+              transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(0)=
+ scaleX(1) scaleY(1);
+            }
+
+            @media (max-width: 767px) {
+              .babybear\:-translate-x-50\% {
+                transform: translate(-50%, 0) rotate(90deg) skewX(0) skewY(=
+0) scaleX(1) scaleY(1);
+              }
+
+              @media (max-width: 767px) {
+                .babybear\:-translate-x-50\% {
+                  transform: translate(-50%, 0) rotate(90deg) skewX(0) skew=
+Y(0) scaleX(1) scaleY(1);
+                }
+
+                @media (max-width: 767px) {
+                  .babybear\:-translate-x-50\% {
+                    transform: translate(-50%, 0) rotate(90deg) skewX(0) sk=
+ewY(0) scaleX(1) scaleY(1);
+                  }
+
+                  @media (max-width: 767px) {
+                    .babybear\:-translate-x-50\% {
+                      transform: translate(-50%, 0) rotate(90deg) skewX(0) =
+skewY(0) scaleX(1) scaleY(1);
+                    }
+
+                    @media (max-width: 767px) {
+                      .babybear\:-translate-x-50\% {
+                        transform: translate(-50%, 0) rotate(90deg) skewX(0=
+) skewY(0) scaleX(1) scaleY(1);
+                      }
+
+                      @media (max-width: 767px) {
+                        .babybear\:-translate-x-50\% {
+                          transform: translate(-50%, 0) rotate(90deg) skewX=
+(0) skewY(0) scaleX(1) scaleY(1);
+                        }
+
+                        @media (max-width: 767px) {
+                          .babybear\:-translate-x-50\% {
+                            transform: translate(-50%, 0) rotate(90deg) ske=
+wX(0) skewY(0) scaleX(1) scaleY(1);
+                          }
+
+                          @media (max-width: 767px) {
+                            .babybear\:-translate-x-50\% {
+                              transform: translate(-50%, 0) rotate(90deg) s=
+kewX(0) skewY(0) scaleX(1) scaleY(1);
+                            }
+
+                            @media (max-width: 767px) {
+                              .babybear\:-translate-x-50\% {
+                                transform: translate(-50%, 0) rotate(90deg)=
+ skewX(0) skewY(0) scaleX(1) scaleY(1);
+                              }
+
+                              @media transform: translate(0, 0) rotate(0) s=
+kewX(0) skewY(0) scaleX(1) scaleY(1);
+     (max-width: 767px) {
+                                .babybear\:rotate-90 {
+                                  transform: translate(-50%, 0) rotate(90de=
+g) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                }
+
+                                @media (max-width: 767px) {
+                                  .babybear\:rotate-90 {
+                                    transform: translate(-50%, 0) rotate(90=
+deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                  }
+
+                                  @media (max-width: 767px) {
+                                    .babybear\:rotate-90 {
+                                      transform: translate(-50%, 0) rotate(=
+90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                    }
+
+                                    @media (max-width: 767px) {
+                                      .babybear\:rotate-90 {
+                                        transform: translate(-50%, 0) rotat=
+e(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                      }
+
+                                      @media (max-width: 767px) {
+                                        .babybear\:rotate-90 {
+                                          transform: translate(-50%, 0) rot=
+ate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                        }
+
+                                        @media (max-width: 767px) {
+                                          .babybear\:rotate-90 {
+                                            transform: translate(-50%, 0) r=
+otate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                          }
+
+                                          @media (max-width: 767px) {
+                                            .babybear\:rotate-90 {
+                                              transform: translate(-50%, 0)=
+ rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                            }
+
+                                            @media (max-width: 767px) {
+                                              .babybear\:rotate-90 {
+                                                transform: translate(-50%, =
+0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                              }
+
+                                              @media (max-width: 767px) {
+                                                .babybear\:rotate-90 {
+                                                  transform: translate(-50%=
+, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                }
+
+                                                @media (max-width: 767px) {
+                                                  .babybear\:rotate-90 {
+                                                    transform: translate(-5=
+0%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                  }
+
+                                                  @media (max-width: 767px)=
+ {
+                                                    .babybear\:rotate-90 {
+                                                      transform: translate(=
+-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                    }
+
+                                                    @media (max-width: 767p=
+x) {
+                                                      .babybear\:rotate-90 =
+{
+                                                        transform: translat=
+e(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                      }
+
+                                                      @media (max-width: 76=
+7px) {
+                                                        .babybear\:rotate-9=
+0 {
+                                                          transform: transl=
+ate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                        }
+
+                                                        @media (max-width: =
+767px) {
+                                                          .babybear\:rotate=
+-90 {
+                                                            transform: tran=
+slate(-50%, 0) rotate(90deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+                                                          }
+
+                                                          flex-direction: r=
+ow;
+    .babybear\:flex-col {
+                                                            flex-direction:=
+ column;
+                                                          }
+
+                                                          .babybear\:flex-w=
+rap {
+                                                            flex-wrap: wrap=
+;
+                                                          }
+
+                                                          .babybear\:items-=
+start {
+                                                            align-items: fl=
+ex-start;
+                                                          }
+
+                                                          .babybear\:items-=
+center {
+                                                            align-items: ce=
+nter;
+                                                          }
+
+                                                          .babybear\:justif=
+y-start {
+                                                            justify-content=
+: flex-start;
+                                                          }
+
+                                                          .babybear\:justif=
+y-end {
+                                                            justify-content=
+: flex-end;
+                                                          }
+
+                                                          .babybear\:justif=
+y-center {
+                                                            justify-content=
+: center;
+                                                          }
+
+                                                          .babybear\:justif=
+y-between {
+                                                            justify-content=
+: space-between;
+                                                          }
+
+                                                          .babybear\:justif=
+y-around {
+                                                            justify-content=
+: space-around;
+                                                          }
+
+                                                          .babybear\:self-s=
+tart {
+                                                            align-self: fle=
+x-start;
+                                                          }
+
+                                                          .babybear\:self-c=
+enter {
+                                                            align-self: cen=
+ter;
+                                                          }
+
+                                                          .babybear\:overfl=
+ow-y-auto {
+                                                            overflow-y: aut=
+o;
+                                                          }
+
+                                                          .babybear\:rounde=
+d-\[0px\] {
+                                                            border-radius: =
+0px;
+                                                          }
+
+                                                          .babybear\:border=
+-b-1 {
+                                                            border-bottom-w=
+idth: 1px;
+                                                          }
+
+                                                          .babybear\:border=
+-r-0 {
+                                                            border-right-wi=
+dth: 0;
+                                                          }
+
+                                                          .babybear\:border=
+-solid {
+                                                            border-style: s=
+olid;
+                                                          }
+
+                                                          .babybear\:border=
+-color-border-low-emphasis {
+                                                            border-color: r=
+gba(0, 0, 0, 0.3);
+                                                          }
+
+                                                          .babybear\:bg-col=
+or-brand {
+                                                            background-colo=
+r: #0a66c2;
+                                                          }
+
+                                                          .babybear\:p-2 {
+                                                            padding: 16px;
+                                                          }
+
+                                                          .babybear\:px-0 {
+                                                            padding-left: 0=
+px;
+                                                            padding-right: =
+0px;
+                                                          }
+
+                                                          .babybear\:px-2 {
+                                                            padding-left: 1=
+6px;
+                                                            padding-right: =
+16px;
+                                                          }
+
+                                                          .babybear\:px-mob=
+ile-container-padding {
+                                                            padding-left: 1=
+6px;
+                                                            padding-right: =
+16px;
+                                                          }
+
+                                                          .babybear\:py-1 {
+                                                            padding-top: 8p=
+x;
+                                                            padding-bottom:=
+ 8px;
+                                                          }
+
+                                                          .babybear\:py-3 {
+                                                            padding-top: 24=
+px;
+                                                            padding-bottom:=
+ 24px;
+                                                          }
+
+                                                          .babybear\:pb-0 {
+                                                            padding-bottom:=
+ 0px;
+                                                          }
+
+                                                          .babybear\:pb-2 {
+                                                            padding-bottom:=
+ 16px;
+                                                          }
+
+                                                          .babybear\:pl-0\.=
+5 {
+                                                            padding-left: 4=
+px;
+                                                          }
+
+                                                          .babybear\:pr-0 {
+                                                            padding-right: =
+0px;
+                                                          }
+
+                                                          .babybear\:pr-0\.=
+5 {
+                                                            padding-right: =
+4px;
+                                                          }
+
+                                                          .babybear\:pt-0 {
+                                                            padding-top: 0p=
+x;
+                                                          }
+
+                                                          .babybear\:pt-0\.=
+5 {
+                                                            padding-top: 4p=
+x;
+                                                          }
+
+                                                          .babybear\:pt-1 {
+                                                            padding-top: 8p=
+x;
+                                                          }
+
+                                                          .babybear\:pt-4 {
+                                                            padding-top: 32=
+px;
+                                                          }
+
+                                                          .babybear\:text-\=
+[10px\] {
+                                                            font-size: 10px=
+;
+                                                          }
+
+                                                          .babybear\:text-l=
+g {
+                                                            font-size: 20px=
+;
+                                                          }
+
+                                                          .babybear\:text-m=
+d {
+                                                            font-size: 16px=
+;
+                                                          }
+
+                                                          .babybear\:text-s=
+m {
+                                                            font-size: 14px=
+;
+                                                          }
+
+                                                          .babybear\:text-x=
+l {
+                                                            font-size: 24px=
+;
+                                                          }
+
+                                                          .babybear\:text-x=
+s {
+                                                            font-size: 12px=
+;
+                                                          }
+
+                                                          .babybear\:font-b=
+old {
+                                                            font-weight: 60=
+0;
+                                                          }
+
+                                                          .babybear\:leadin=
+g-\[150px\] {
+                                                            line-height: 15=
+0px;
+                                                          }
+
+                                                          .babybear\:last\:=
+border-b-0:last-child {
+                                                            border-bottom-w=
+idth: 0;
+                                                          }
+
+                                                        }
+
+                                                      }
+
+                                                    }
+
+                                                  }
+
+                                                }
+
+                                              }
+
+                                            }
+
+                                          }
+
+                                        }
+
+                                      }
+
+                                    }
+
+                                  }
+
+                                }
+
+                              }
+
+                            }
+
+                          }
+
+                        }
+
+                      }
+
+                    }
+
+                  }
+
+                }
+
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+}
+@media (max-width: 991px) {
+  .babymamabear\:invisible {
+    visibility: hidden;
+  }
+
+  .babymamabear\:static {
+    position: static;
+  }
+
+  .babymamabear\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .babymamabear\:mx-mobile-container-padding {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .babymamabear\:mb-1\.5 {
+    margin-bottom: 12px;
+  }
+
+  .babymamabear\:ml-\[-9999px\] {
+    margin-left: -9999px;
+  }
+
+  .babymamabear\:mr-3 {
+    margin-right: 24px;
+  }
+
+  .babymamabear\:flex {
+    display: flex;
+  }
+
+  .babymamabear\:hidden {
+    display: none;
+  }
+
+  .babymamabear\:h-\[1px\] {
+    height: 1px;
+  }
+
+  .babymamabear\:h-\[48px\] {
+    height: 48px;
+  }
+
+  .babymamabear\:w-\[100vw\] {
+    width: 100vw;
+  }
+
+  .babymamabear\:w-\[1px\] {
+    width: 1px;
+  }
+
+  .babymamabear\:w-full {
+    width: 100%;
+  }
+
+  .babymamabear\:min-w-\[50px\] {
+    min-width: 50px;
+  }
+
+  .babymamabear\:basis-1\/2 {
+    flex-basis: 50%;
+  }
+
+  .babymamabear\:flex-col {
+    flex-direction: column;
+  }
+
+  .babymamabear\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .babymamabear\:bg-color-transparent {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .babymamabear\:p-0 {
+    padding: 0px;
+  }
+
+  .babymamabear\:px-mobile-container-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .babymamabear\:py-1\.5 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .mamabear\:absolute {
+    position: absolute;
+  }
+
+  .mamabear\:-top-0\.5 {
+    top: -4px;
+  }
+
+  .mamabear\:-top-1 {
+    top: -8px;
+  }
+
+  .mamabear\:right-4 {
+    right: 32px;
+  }
+
+  .mamabear\:top-\[58px\] {
+    top: 58px;
+  }
+
+  .mamabear\:mr-3 {
+    margin-right: 24px;
+  }
+
+  .mamabear\:mt-\[68px\] {
+    margin-top: 68px;
+  }
+
+  .mamabear\:hidden {
+    display: none;
+  }
+
+  .mamabear\:\!h-4 {
+    height: 32px !important;
+  }
+
+  .mamabear\:h-\[100\%\] {
+    height: 100%;
+  }
+
+  .mamabear\:\!min-h-\[32px\] {
+    min-height: 32px !important;
+  }
+
+  .mamabear\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .mamabear\:w-48 {
+    width: 384px;
+  }
+
+  .mamabear\:w-\[744px\] {
+    width: 744px;
+  }
+
+  .mamabear\:w-\[calc\(100\%-97px\)\] {
+    width: calc(100% - 97px);
+  }
+
+  .mamabear\:w-full {
+    width: 100%;
+  }
+
+  .mamabear\:min-w-0 {
+    min-width: 0px;
+  }
+
+  .mamabear\:min-w-full {
+    min-width: 100%;
+  }
+
+  .mamabear\:max-w-\[790px\] {
+    max-width: 790px;
+  }
+
+  .mamabear\:flex-shrink-0 {
+    flex-shrink: 0;
+  }
+
+  .mamabear\:flex-row {
+    flex-direction: row;
+  }
+
+  .mamabear\:items-start {
+    align-items: flex-start;
+  }
+
+  .mamabear\:items-center {
+    align-items: center;
+  }
+
+  .mamabear\:self-center {
+    align-self: center;
+  }
+
+  .mamabear\:rounded-tr-none {
+    border-top-right-radius: 0px;
+  }
+
+  .mamabear\:px-2 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .mamabear\:px-3 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .mamabear\:px-mobile-container-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .mamabear\:py-3 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .mamabear\:pt-desktop-content-top-margin {
+    padding-top: 16px;
+  }
+
+  .mamabear\:text-center {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .papamamabear\:pt-desktop-content-top-margin {
+    padding-top: 16px;
+  }
+
+  .after\:papamamabear\:\!h-\[37px\]::after {
+    content: undefined;
+    height: 37px !important;
+  }
+
+  @media (min-width: 768px) {
+    .after\:papamamabear\:\!h-\[37px\]::after {
+      content: "";
+    }
+
+    content: "".after\:papamamabear\:\!h-\[37px\]::after:content-\[\'\'\]::=
+after {
+      content: "";
+    }
+
+    .after\:papamamabear\:\!h-\[37px\]::after:content-\[\"\"\]::after {
+      content: "";
+    }
+
+    .after\:papamamabear\:up-down-divider::after {
+      display: flex;
+      height: 100%;
+      width: 1px;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.3);
+      text-align: center;
+      content: undefined;
+    }
+
+    @media (min-width: 768px) {
+      .after\:papamamabear\:up-down-divider::after {
+        content: "";
+      }
+
+      content: "".after\:papamamabear\:up-down-divider::after:content-\[\'\=
+'\]::after {
+        content: "";
+      }
+
+      .after\:papamamabear\:up-down-divider::after:content-\[\"\"\]::after =
+{
+        content: "";
+      }
+
+    }
+
+  }
+}
+@media (min-width: 992px) {
+  .papabear\:absolute {
+    position: absolute;
+  }
+
+  .papabear\:-top-1 {
+    top: -8px;
+  }
+
+  .papabear\:top-\[58px\] {
+    top: 58px;
+  }
+
+  .papabear\:\!mx-2 {
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+  }
+
+  .papabear\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .papabear\:mb-\[18px\] {
+    margin-bottom: 18px;
+  }
+
+  .papabear\:ml-column-gutter {
+    margin-left: 24px;
+  }
+
+  .papabear\:mr-2 {
+    margin-right: 16px;
+  }
+
+  .papabear\:mr-3 {
+    margin-right: 24px;
+  }
+
+  .papabear\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .papabear\:mt-0\.5 {
+    margin-top: 4px;
+  }
+
+  .papabear\:mt-\[-100px\] {
+    margin-top: -100px;
+  }
+
+  .papabear\:mt-\[68px\] {
+    margin-top: 68px;
+  }
+
+  .papabear\:inline-block {
+    display: inline-block;
+  }
+
+  .papabear\:flex {
+    display: flex;
+  }
+
+  .papabear\:hidden {
+    display: none;
+  }
+
+  .papabear\:\!h-4 {
+    height: 32px !important;
+  }
+
+  .papabear\:h-6 {
+    height: 48px;
+  }
+
+  .papabear\:h-\[100\%\] {
+    height: 100%;
+  }
+
+  .papabear\:\!min-h-\[32px\] {
+    min-height: 32px !important;
+  }
+
+  .papabear\:min-h-\[96px\] {
+    min-height: 96px;
+  }
+
+  .papabear\:w-48 {
+    width: 384px;
+  }
+
+  .papabear\:w-\[1128px\] {
+    width: 1128px;
+  }
+
+  .papabear\:w-\[219px\] {
+    width: 219px;
+  }
+
+  .papabear\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .papabear\:w-\[calc\(100\%-97px\)\] {
+    width: calc(100% - 97px);
+  }
+
+  .papabear\:w-auto {
+    width: auto;
+  }
+
+  .papabear\:w-content-max-w {
+    width: 1128px;
+  }
+
+  .papabear\:w-core-rail-width {
+    width: 784px;
+  }
+
+  .papabear\:w-right-rail-width {
+    width: calc(1128px - 24px - 784px);
+  }
+
+  .papabear\:min-w-0 {
+    min-width: 0px;
+  }
+
+  .papabear\:max-w-\[550px\] {
+    max-width: 550px;
+  }
+
+  .papabear\:flex-shrink-0 {
+    flex-shrink: 0;
+  }
+
+  .papabear\:flex-col {
+    flex-direction: column;
+  }
+
+  .papabear\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .papabear\:items-start {
+    align-items: flex-start;
+  }
+
+  .papabear\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .papabear\:justify-center {
+    justify-content: center;
+  }
+
+  .papabear\:self-start {
+    align-self: flex-start;
+  }
+
+  .papabear\:rounded-tr-none {
+    border-top-right-radius: 0px;
+  }
+
+  .papabear\:border-4 {
+    border-width: 4px;
+  }
+
+  .papabear\:p-0 {
+    padding: 0px;
+  }
+
+  .papabear\:p-details-container-padding {
+    padding: 24px;
+  }
+
+  .papabear\:py-2 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .papabear\:pt-desktop-content-top-margin {
+    padding-top: 16px;
+  }
+
+  .papabear\:text-xl {
+    font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .-md\:ml-2 {
+    margin-left: 16px;
+  }
+
+  .-md\:mt-1 {
+    margin-top: 8px;
+  }
+
+  .-md\:flex-wrap {
+    flex-wrap: wrap;
+  }
+}
+</style></head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-ca=
+nvas w-full m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; pa=
+dding: 0px; padding-top: 8px; font-family: -apple-system, system-ui, BlinkM=
+acSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Ox=
+ygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe U=
+I Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, =
+Arial, sans-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible=
+ overflow-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; m=
+ax-height: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" dat=
+a-email-preheader=3D"true">A Zante Academy traz para voc=C3=AA uma oportuni=
+dade imperd=C3=ADvel nesta Black Friday:=E2=80=A6</div> <div class=3D"h-0 o=
+pacity-0 text-transparent invisible overflow-hidden w-0 max-h-[0]" style=3D=
+"visibility: hidden; height: 0px; max-height: 0; width: 0px; overflow: hidd=
+en; opacity: 0; mso-hide: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+ =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table role=3D"pres=
+entation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" w=
+idth=3D"512" align=3D"center" class=3D"mercado-container w-[512px] max-w-[5=
+12px] mx-auto my-0 p-0 bg-color-background-container" style=3D"-webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt; margin-left: auto; margin-right: auto; margin-top: 0px; =
+margin-bottom: 0px; width: 512px; max-width: 512px; background-color: #ffff=
+ff; padding: 0px;"> <tbody> <tr> <td class=3D"text-center p-3" style=3D"-we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt; padding: 24px; text-align: center;"> <table rol=
+e=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" width=3D"100%" class=3D"min-w-full" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt; min-width: 100%;"> <tbody> <tr> <td align=3D"left" valign=3D"middl=
+e" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedi=
+n.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslet=
+ter_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;mid=
+Sig=3D1QxpxWV515vrw1&amp;trk=3Deml-email_series_follow_newsletter_01-header=
+-0-home_glimmer_dynamic_badging_high_dpi&amp;trkEmail=3Deml-email_series_fo=
+llow_newsletter_01-header-0-home_glimmer_dynamic_badging_high_dpi-null-gdb7=
+4f~m3pch7lf~tb-null-null&amp;eid=3Dgdb74f-m3pch7lf-tb&amp;otpToken=3DMWIwZD=
+E3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3YjM4YmNiZDc0MzkxYTY4YjYxNzljNDA2NmQ0YjVkN=
+WJmMmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZjU5Y2FhYWQxZmQ3YTA2MDBmYmM5NDBjNjAwNTFk=
+NywxLDE%3D" target=3D"_blank" class=3D"w-[84px]" style=3D"color: #0a66c2; c=
+ursor: pointer; display: inline-block; text-decoration: none; -webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; width: 84px;"> <img class=3D=
+"h-[37px] w-[101px]" alt=3D"LinkedIn" src=3D"https://www.linkedin.com/comm/=
+dms/logo/v2?badgeTheme=3Dmercado&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_s=
+eries_follow_newsletter_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%3D%3D&amp;midSig=3D1Qxp=
+xWV515vrw1&amp;midToken=3DAQHxaOsdYMWJVQ&amp;trkEmail=3Deml-email_series_fo=
+llow_newsletter_01-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2-null-gdb=
+74f%7Em3pch7lf%7Etb-null-null&amp;trk=3Deml-email_series_follow_newsletter_=
+01-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2&amp;_sig=3D3TzKG5d5p5vrw=
+1" data-test-header-dynamic-badging-img-high-dpi style=3D"outline: none; te=
+xt-decoration: none; -ms-interpolation-mode: bicubic; height: 37px; width: =
+101px;" width=3D"101" height=3D"37"> </a> </td> <td valign=3D"middle" align=
+=3D"right" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"present=
+ation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"100%" data-test-header-profile style=3D"-webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+"> <tbody> <tr> <td align=3D"right" valign=3D"middle" class=3D"w-[32px]" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt; width: 32px;" width=3D"32"> <a href=
+=3D"https://br.linkedin.com/comm/in/fernando-ferreira-brito?lipi=3Durn%3Ali=
+%3Apage%3Aemail_email_series_follow_newsletter_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%=
+3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1QxpxWV515vrw1&amp;trk=3De=
+ml-email_series_follow_newsletter_01-header-0-profile_glimmer&amp;trkEmail=
+=3Deml-email_series_follow_newsletter_01-header-0-profile_glimmer-null-gdb7=
+4f~m3pch7lf~tb-null-null&amp;eid=3Dgdb74f-m3pch7lf-tb&amp;otpToken=3DMWIwZD=
+E3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3YjM4YmNiZDc0MzkxYTY4YjYxNzljNDA2NmQ0YjVkN=
+WJmMmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZjU5Y2FhYWQxZmQ3YTA2MDBmYmM5NDBjNjAwNTFk=
+NywxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; dis=
+play: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%;"> <img alt=3D"Luiz Fernando Brito Ferreira" src=
+=3D"https://media.licdn.com/dms/image/v2/D4E03AQHtWMkj43o1lA/profile-displa=
+yphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724191556445?e=
+=3D2147483647&amp;v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB92xXoc9r_1IG6EIUI=
+KB4" class=3D"rounded-[100%] w-[32px] h-[32px]" style=3D"outline: none; tex=
+t-decoration: none; -ms-interpolation-mode: bicubic; height: 32px; width: 3=
+2px; border-radius: 100%;" width=3D"32" height=3D"32"> </a> </td> </tr> </t=
+body> </table> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"=
+px-0 pb-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 0px; paddi=
+ng-right: 0px; padding-bottom: 24px;"> <div> <table role=3D"presentation" v=
+align=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100=
+%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td data-test-id=
+=3D"newsletter-entity-lockup" class=3D"px-3 pt-1" style=3D"-webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tabl=
+e-rspace: 0pt; padding-left: 24px; padding-right: 24px; padding-top: 8px;">=
+ <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" width=3D"100%" class=3D"font-sans" style=3D"-webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt; font-family: -apple-system, system-ui, BlinkMacSystemFon=
+t, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxyg=
+en Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', '=
+Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans=
+-serif;"> <tbody> <tr> <td valign=3D"top" class=3D"pr-1 w-6" style=3D"-webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt; width: 48px; padding-right: 8px;" width=3D"48"> <=
+a href=3D"https://www.linkedin.com/comm/newsletters/6957338479194181632?lip=
+i=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BAQJ8SNwwQ9S=
+U8xhTLRBhtQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1QxpxWV515vrw1=
+&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-0=
+-newsletter_entity_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01=
+-newsletter_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m3pch7lf~tb-n=
+ull-null&amp;eid=3Dgdb74f-m3pch7lf-tb&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2=
+I1MjQwNGVkNDUxY2U3YjM4YmNiZDc0MzkxYTY4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUzN=
+DBkM2M4ZGI3YTg2Y2YzZjU5Y2FhYWQxZmQ3YTA2MDBmYmM5NDBjNjAwNTFkNywxLDE%3D" targ=
+et=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-blo=
+ck; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%;"> <img class=3D"inline-block relative bg-color-entity-ghost-bac=
+kground w-6 h-6 rounded-md" src=3D"https://media.licdn.com/dms/image/v2/D4D=
+12AQFEGiuI4iWL7w/series-logo_image-shrink_100_100/series-logo_image-shrink_=
+100_100/0/1658758747664?e=3D2147483647&amp;v=3Dbeta&amp;t=3DquS2Vp7uZ8rCe6z=
+px7nyz2COCCqnpdeS2_0TeDeS218" alt=3D"Abrir Novas vagas de empregos " style=
+=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; =
+position: relative; display: inline-block; height: 48px; width: 48px; borde=
+r-radius: 8px; background-color: #eae6df;" width=3D"48" height=3D"48"> </a>=
+ </td> <td valign=3D"top" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table =
+role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody>=
+ <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.=
+linkedin.com/comm/newsletters/6957338479194181632?lipi=3Durn%3Ali%3Apage%3A=
+email_email_series_follow_newsletter_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%3D%3D&amp;=
+midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1QxpxWV515vrw1&amp;trk=3Deml-email_s=
+eries_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta=
+&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_entity_loc=
+kup-0-newsletter_entity_cta-null-gdb74f~m3pch7lf~tb-null-null&amp;eid=3Dgdb=
+74f-m3pch7lf-tb&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3YjM4=
+YmNiZDc0MzkxYTY4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZjU=
+5Y2FhYWQxZmQ3YTA2MDBmYmM5NDBjNjAwNTFkNywxLDE%3D" target=3D"_blank" class=3D=
+"no-underline" style=3D"color: #0a66c2; cursor: pointer; display: inline-bl=
+ock; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; text-decoration-line: none;"> <div class=3D"pb-0.5" style=3D"p=
+adding-bottom: 4px;"> <span class=3D"text-md font-bold text-color-text brea=
+k-words leading-regular" style=3D"overflow-wrap: break-word; font-size: 16p=
+x; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Novas =
+vagas de empregos </span> </div> </a> </td> </tr> <tr> <td style=3D"-webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/newslett=
+ers/6957338479194181632?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_=
+newsletter_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&=
+amp;midSig=3D1QxpxWV515vrw1&amp;trk=3Deml-email_series_follow_newsletter_01=
+-newsletter_entity_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-email_=
+series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_ct=
+a-null-gdb74f~m3pch7lf~tb-null-null&amp;eid=3Dgdb74f-m3pch7lf-tb&amp;otpTok=
+en=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3YjM4YmNiZDc0MzkxYTY4YjYxNzljND=
+A2NmQ0YjVkNWJmMmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZjU5Y2FhYWQxZmQ3YTA2MDBmYmM5N=
+DBjNjAwNTFkNywxLDE%3D" target=3D"_blank" class=3D"no-underline" style=3D"co=
+lor: #0a66c2; cursor: pointer; display: inline-block; text-decoration: none=
+; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decorati=
+on-line: none;"> <span class=3D"text-xs text-color-text-low-emphasis leadin=
+g-regular" style=3D"font-size: 12px; line-height: 1.25; color: rgba(0, 0, 0=
+, 0.6);"> Aqui voc=C3=AA vai ser informado de novas vagas diariamente </spa=
+n> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> <=
+/tr> <tr data-test-id=3D"newsletter-content-preview"> <td class=3D"px-3 pt-=
+2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 24px; padding-righ=
+t: 24px; padding-top: 16px;"> <table role=3D"presentation" valign=3D"top" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"overflow-hidden " s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; overflow: hidden;"> <table role=3D"p=
+resentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.=
+com/comm/pulse/black-friday-imperd%C3%ADvel-curso-de-ingl%C3%AAs-espanhol-p=
+ortalvagas-0tghf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newslet=
+ter_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;mid=
+Sig=3D1QxpxWV515vrw1&amp;trk=3Deml-email_series_follow_newsletter_01-newsle=
+tter_content_preview-0-headline_&amp;trkEmail=3Deml-email_series_follow_new=
+sletter_01-newsletter_content_preview-0-headline_-null-gdb74f~m3pch7lf~tb-n=
+ull-null&amp;eid=3Dgdb74f-m3pch7lf-tb&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2=
+I1MjQwNGVkNDUxY2U3YjM4YmNiZDc0MzkxYTY4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUzN=
+DBkM2M4ZGI3YTg2Y2YzZjU5Y2FhYWQxZmQ3YTA2MDBmYmM5NDBjNjAwNTFkNywxLDE%3D" targ=
+et=3D"_blank" class=3D"w-full" style=3D"color: #0a66c2; cursor: pointer; di=
+splay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; width: 100%;"> <img class=3D"block w-full aspe=
+ct-[744/400] object-cover overflow-hidden" data-test-id=3D"newsletter-conte=
+nt-preview__cover-image" alt=3D"Imagem de capa da newsletter" src=3D"https:=
+//media.licdn.com/dms/image/v2/D4D12AQHRf4zNC34JJQ/article-cover_image-shri=
+nk_720_1280/article-cover_image-shrink_720_1280/0/1732072212439?e=3D2147483=
+647&amp;v=3Dbeta&amp;t=3DWAdrOHSSpHrBh4k0Mm-bLrok0jONYTPAM9rzQ5_jbQQ" style=
+=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; =
+display: block; aspect-ratio: 744/400; width: 100%; overflow: hidden; objec=
+t-fit: cover;"> </a> </td> </tr> <tr> <td class=3D"py-2" style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; padding-top: 16px; padding-bottom: 16px;"> <table rol=
+e=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <t=
+r> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.lin=
+kedin.com/comm/pulse/black-friday-imperd%C3%ADvel-curso-de-ingl%C3%AAs-espa=
+nhol-portalvagas-0tghf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_n=
+ewsletter_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&a=
+mp;midSig=3D1QxpxWV515vrw1&amp;trk=3Deml-email_series_follow_newsletter_01-=
+newsletter_content_preview-0-title_&amp;trkEmail=3Deml-email_series_follow_=
+newsletter_01-newsletter_content_preview-0-title_-null-gdb74f~m3pch7lf~tb-n=
+ull-null&amp;eid=3Dgdb74f-m3pch7lf-tb&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2=
+I1MjQwNGVkNDUxY2U3YjM4YmNiZDc0MzkxYTY4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUzN=
+DBkM2M4ZGI3YTg2Y2YzZjU5Y2FhYWQxZmQ3YTA2MDBmYmM5NDBjNjAwNTFkNywxLDE%3D" targ=
+et=3D"_blank" class=3D"no-underline font-medium text-sm m-0 text-system-gra=
+y-90" style=3D"cursor: pointer; display: inline-block; text-decoration: non=
+e; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0px;=
+ font-size: 14px; font-weight: 500; color: #282828; text-decoration-line: n=
+one;"> <h2 class=3D"m-0 text-display-sm leading-regular text-color-text fon=
+t-bold font-sans" style=3D"margin: 0px; font-family: -apple-system, system-=
+ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', =
+Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', H=
+elvetica, Arial, sans-serif; font-size: 24px; font-weight: 600; line-height=
+: 1.25; color: rgba(0, 0, 0, 0.9);"> =E2=9C=A8 BLACK FRIDAY IMPERD=C3=8DVEL=
+: Curso de Ingl=C3=AAs + Espanhol =F0=9F=8E=AF </h2> </a> </td> </tr> <tr> =
+<td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" =
+valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"10=
+0%" data-test-id=3D"newsletter-author-lockup-redesign" class=3D"mt-1 mb-2" =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; margin-bottom: 16px; margin-top: 8p=
+x;"> <tbody> <tr> <td valign=3D"middle" align=3D"left" class=3D"w-3" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; width: 24px;" width=3D"24"> <a href=3D"h=
+ttps://www.linkedin.com/comm/company/portalvagas?lipi=3Durn%3Ali%3Apage%3Ae=
+mail_email_series_follow_newsletter_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%3D%3D&amp;m=
+idToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1QxpxWV515vrw1&amp;trk=3Deml-email_se=
+ries_follow_newsletter_01-newsletter_content_preview-0-author_&amp;trkEmail=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-autho=
+r_-null-gdb74f~m3pch7lf~tb-null-null&amp;eid=3Dgdb74f-m3pch7lf-tb&amp;otpTo=
+ken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3YjM4YmNiZDc0MzkxYTY4YjYxNzljN=
+DA2NmQ0YjVkNWJmMmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZjU5Y2FhYWQxZmQ3YTA2MDBmYmM5=
+NDBjNjAwNTFkNywxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: =
+pointer; display: inline-block; text-decoration: none; -webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%;"> <img class=3D"inline-block relati=
+ve bg-color-entity-ghost-background w-4 h-4 align-middle" src=3D"https://me=
+dia.licdn.com/dms/image/v2/C4E0BAQFX20l0o2t3dQ/company-logo_100_100/company=
+-logo_100_100/0/1658163368034/portalvagas_logo?e=3D2147483647&amp;v=3Dbeta&=
+amp;t=3DhEPG7gRTOxaOCvcE3-cz57GgNW1wBqGyYl_CU-WxSDM" alt=3D"Imagem do autor=
+" style=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bi=
+cubic; position: relative; display: inline-block; height: 32px; width: 32px=
+; background-color: #eae6df; vertical-align: middle;" width=3D"32" height=
+=3D"32"> </a> </td> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=
+=3D"https://www.linkedin.com/comm/company/portalvagas?lipi=3Durn%3Ali%3Apag=
+e%3Aemail_email_series_follow_newsletter_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%3D%3D&=
+amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1QxpxWV515vrw1&amp;trk=3Deml-ema=
+il_series_follow_newsletter_01-newsletter_content_preview-0-author_&amp;trk=
+Email=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-=
+author_-null-gdb74f~m3pch7lf~tb-null-null&amp;eid=3Dgdb74f-m3pch7lf-tb&amp;=
+otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3YjM4YmNiZDc0MzkxYTY4YjYx=
+NzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZjU5Y2FhYWQxZmQ3YTA2MDB=
+mYmM5NDBjNjAwNTFkNywxLDE%3D" target=3D"_blank" class=3D"no-underline ml-1" =
+style=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decor=
+ation: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; ma=
+rgin-left: 8px; text-decoration-line: none;"> <span class=3D"font-sans font=
+-bold text-sm mb-3 text-color-text-low-emphasis leading-regular" style=3D"m=
+argin-bottom: 24px; font-family: -apple-system, system-ui, BlinkMacSystemFo=
+nt, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxy=
+gen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', =
+'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, san=
+s-serif; font-size: 14px; font-weight: 600; line-height: 1.25; color: rgba(=
+0, 0, 0, 0.6);"> Portal Vagas </span> </a> </td> </tr> </tbody> </table> </=
+td> </tr> <tr> <td class=3D"pb-1" style=3D"-webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; p=
+adding-bottom: 8px;"> <div class=3D"p-3 bg-color-surface-tint rounded-md fo=
+nt-sans" data-test-id=3D"newsletter-cta-banner" style=3D"border-radius: 8px=
+; background-color: #f5f7f9; padding: 24px; font-family: -apple-system, sys=
+tem-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira San=
+s', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Em=
+oji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande=
+', Helvetica, Arial, sans-serif;"> <div class=3D"mb-1.5" style=3D"margin-bo=
+ttom: 12px;"> <span class=3D"text-md leading-regular font-bold text-color-t=
+ext" style=3D"font-size: 16px; font-weight: 600; line-height: 1.25; color: =
+rgba(0, 0, 0, 0.9);"> Leia este artigo no LinkedIn para participar da conve=
+rsa </span> </div> <table role=3D"presentation" valign=3D"top" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"email-button "=
+ data-test-id=3D"email-button" style=3D"-webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <t=
+body> <tr> <td valign=3D"middle" align=3D"left" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/black-friday-=
+imperd%C3%ADvel-curso-de-ingl%C3%AAs-espanhol-portalvagas-0tghf?lipi=3Durn%=
+3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BAQJ8SNwwQ9SU8xhTLRB=
+htQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1QxpxWV515vrw1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-read_=
+more_banner_cta_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsl=
+etter_content_preview-0-read_more_banner_cta_-null-gdb74f~m3pch7lf~tb-null-=
+null&amp;eid=3Dgdb74f-m3pch7lf-tb&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1Mj=
+QwNGVkNDUxY2U3YjM4YmNiZDc0MzkxYTY4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUzNDBkM=
+2M4ZGI3YTg2Y2YzZjU5Y2FhYWQxZmQ3YTA2MDBmYmM5NDBjNjAwNTFkNywxLDE%3D" target=
+=3D"_blank" aria-label=3D"Abrir este artigo no LinkedIn" class=3D"align-top=
+ no-underline " style=3D"color: #0a66c2; cursor: pointer; display: inline-b=
+lock; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; vertical-align: top; text-decoration-line: none;"> <table rol=
+e=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" width=3D"auto" class=3D"border-separate " style=3D"-webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tabl=
+e-rspace: 0pt; border-collapse: separate;"> <tbody> <tr> <td class=3D"btn-s=
+m btn-primary border-color-brand button-link leading-regular !min-h-[auto] =
+!shadow-none border-1 border-solid" style=3D"-webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ height: min-content; border-radius: 24px; padding-top: 7px; padding-bottom=
+: 7px; padding-left: 16px; padding-right: 16px; text-align: center; font-si=
+ze: 14px; font-weight: 600; cursor: pointer; text-decoration-line: none; ba=
+ckground-color: #0a66c2; color: #ffffff; border-width: 1px; border-style: s=
+olid; border-color: #0a66c2; line-height: 1.25; min-height: auto !important=
+; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;"> <a href=3D"http=
+s://www.linkedin.com/comm/pulse/black-friday-imperd%C3%ADvel-curso-de-ingl%=
+C3%AAs-espanhol-portalvagas-0tghf?lipi=3Durn%3Ali%3Apage%3Aemail_email_seri=
+es_follow_newsletter_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%3D%3D&amp;midToken=3DAQHxa=
+OsdYMWJVQ&amp;midSig=3D1QxpxWV515vrw1&amp;trk=3Deml-email_series_follow_new=
+sletter_01-newsletter_content_preview-0-read_more_banner_cta_&amp;trkEmail=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-read_=
+more_banner_cta_-null-gdb74f~m3pch7lf~tb-null-null&amp;eid=3Dgdb74f-m3pch7l=
+f-tb&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3YjM4YmNiZDc0Mzk=
+xYTY4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZjU5Y2FhYWQxZm=
+Q3YTA2MDBmYmM5NDBjNjAwNTFkNywxLDE%3D" target=3D"_blank" tabindex=3D"-1" ari=
+a-hidden=3D"true" class=3D"no-underline" style=3D"color: #0a66c2; cursor: p=
+ointer; display: inline-block; text-decoration: none; -webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; text-decoration-line: none;"> <span =
+class=3D"no-underline text-white" style=3D"color: #ffffff; text-decoration-=
+line: none;"> Ler no LinkedIn </span> </a> </td> </tr> </tbody> </table> </=
+a> </td> </tr> </tbody> </table> </div> </td> </tr> <tr data-test-id=3D"new=
+sletter-content-preview--content"> <td class=3D"series-article-body" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, system-ui, B=
+linkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubunt=
+u, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvet=
+ica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: rgba(0, 0=
+, 0, 0.9);"> <p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; fo=
+nt-size: 1em; line-height: 1.5;">A <a target=3D"_blank" href=3D"https://www=
+.linkedin.com/company/zante-academy/" style=3D"text-decoration: none; -webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; display: inline; cur=
+sor: pointer; font-weight: 600; color: #0a66c2; text-decoration-line: none;=
+">Zante Academy</a> traz para voc=C3=AA uma oportunidade imperd=C3=ADvel ne=
+sta Black Friday: dois cursos incr=C3=ADveis de idiomas, para voc=C3=AA apr=
+ender e conquistar o mundo! Com mais de 100 caminhos para o aprendizado, vo=
+c=C3=AA pode come=C3=A7ar a sua jornada em ingl=C3=AAs e espanhol hoje mesm=
+o!</p><h3 style=3D"margin: 0; margin-left: 0px; margin-right: 0px; margin-t=
+op: 8px; margin-bottom: 4px; font-size: 16px; font-weight: 600; line-height=
+: 1.25; letter-spacing: -0.02em; color: rgba(0, 0, 0, 0.9);">Curso de Ingl=
+=C3=AAs =E2=80=93 Interactive English</h3><p style=3D"margin: 0; font-weigh=
+t: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">Aprenda ingl=
+=C3=AAs do b=C3=A1sico ao avan=C3=A7ado com uma metodologia simples e pr=C3=
+=A1tica. Seja no trabalho, viagens ou comunica=C3=A7=C3=A3o cotidiana, este=
+ curso oferece a base s=C3=B3lida que voc=C3=AA precisa.</p><ul style=3D"ma=
+rgin-top: 1em; margin-right: 0px; margin-bottom: 0px; margin-left: 1.5em; d=
+isplay: block; padding: 0px;"><li style=3D"margin-left: 1em; font-size: 1em=
+; line-height: 1.5; letter-spacing: -0.15%; color: #282828;"><p style=3D"ma=
+rgin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: =
+1.5;"><strong>Carga hor=C3=A1ria:</strong> 100 horas</p></li><li style=3D"m=
+argin-left: 1em; font-size: 1em; line-height: 1.5; letter-spacing: -0.15%; =
+color: #282828;"><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em=
+; font-size: 1em; line-height: 1.5;"><strong>Certificado reconhecido</stron=
+g></p></li><li style=3D"margin-left: 1em; font-size: 1em; line-height: 1.5;=
+ letter-spacing: -0.15%; color: #282828;"><p style=3D"margin: 0; font-weigh=
+t: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;"><strong>Supor=
+te online </strong></p></li><li style=3D"margin-left: 1em; font-size: 1em; =
+line-height: 1.5; letter-spacing: -0.15%; color: #282828;"><p style=3D"marg=
+in: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.=
+5;"><strong>Estude no seu ritmo, revisite as aulas sempre que precisar</str=
+ong></p></li></ul><h3 style=3D"margin: 0; margin-left: 0px; margin-right: 0=
+px; margin-top: 8px; margin-bottom: 4px; font-size: 16px; font-weight: 600;=
+ line-height: 1.25; letter-spacing: -0.02em; color: rgba(0, 0, 0, 0.9);">Cu=
+rso de Espanhol =E2=80=93 Espa=C3=B1ol Total</h3><p style=3D"margin: 0; fon=
+t-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">Domine=
+ o espanhol com um curso que vai do b=C3=A1sico ao avan=C3=A7ado, com foco =
+em situa=C3=A7=C3=B5es do dia a dia, vocabul=C3=A1rio essencial e gram=C3=
+=A1tica completa.</p><ul style=3D"margin-top: 1em; margin-right: 0px; margi=
+n-bottom: 0px; margin-left: 1.5em; display: block; padding: 0px;"><li style=
+=3D"margin-left: 1em; font-size: 1em; line-height: 1.5; letter-spacing: -0.=
+15%; color: #282828;"><p style=3D"margin: 0; font-weight: 400; margin-top: =
+0.8em; font-size: 1em; line-height: 1.5;"><strong>Carga hor=C3=A1ria:</stro=
+ng> 110 horas</p></li><li style=3D"margin-left: 1em; font-size: 1em; line-h=
+eight: 1.5; letter-spacing: -0.15%; color: #282828;"><p style=3D"margin: 0;=
+ font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;"><s=
+trong>Certificado reconhecido</strong></p></li><li style=3D"margin-left: 1e=
+m; font-size: 1em; line-height: 1.5; letter-spacing: -0.15%; color: #282828=
+;"><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1=
+em; line-height: 1.5;"><strong>Suporte online</strong></p></li><li style=3D=
+"margin-left: 1em; font-size: 1em; line-height: 1.5; letter-spacing: -0.15%=
+; color: #282828;"><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8=
+em; font-size: 1em; line-height: 1.5;"><strong>Aulas flex=C3=ADveis para se=
+ adaptar =C3=A0 sua rotina</strong></p></li></ul><p style=3D"margin: 0; fon=
+t-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">=F0=9F=
+=94=A5 <strong>Por apenas R$ 97,00 ou 5x de R$ 19,40</strong> =F0=9F=94=A5<=
+/p><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1=
+em; line-height: 1.5;">=F0=9F=91=89 <strong>Garanta agora mesmo o seu combo=
+ com o melhor pre=C3=A7o do ano!</strong> Acesse o link: <a href=3D"https:/=
+/zante.academy/loja_virtual/vercombo.php?curso=3DBLACK%20FRIDAY:%20INGL%C3%=
+8AS%20E%20ESPANHOL" target=3D"_blank" rel=3D"nofollow noopener" style=3D"te=
+xt-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; display: inline; cursor: pointer; font-weight: 600; color: #0a66c2; t=
+ext-decoration-line: none;">https://zante.academy/loja_virtual/vercombo.php=
+?curso=3DBLACK%20FRIDAY:%20INGL%C3%8AS%20E%20ESPANHOL</a></p><p style=3D"ma=
+rgin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: =
+1.5;">=F0=9F=93=B2 <em style=3D"font-style: italic;">Vagas limitadas. Aprov=
+eite enquanto dura!</em></p> </td> </tr> <tr> <td class=3D"pt-2 no-underlin=
+e" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 16px; text-decorati=
+on-line: none;"> <table role=3D"presentation" valign=3D"top" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"email-button ser=
+ies-content-preview__bottom-cta" data-test-id=3D"email-button" style=3D"-we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=3D"middle" align=3D"l=
+eft" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linke=
+din.com/comm/pulse/black-friday-imperd%C3%ADvel-curso-de-ingl%C3%AAs-espanh=
+ol-portalvagas-0tghf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp=
+;midSig=3D1QxpxWV515vrw1&amp;trk=3Deml-email_series_follow_newsletter_01-ne=
+wsletter_content_preview-0-readmore_button_&amp;trkEmail=3Deml-email_series=
+_follow_newsletter_01-newsletter_content_preview-0-readmore_button_-null-gd=
+b74f~m3pch7lf~tb-null-null&amp;eid=3Dgdb74f-m3pch7lf-tb&amp;otpToken=3DMWIw=
+ZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3YjM4YmNiZDc0MzkxYTY4YjYxNzljNDA2NmQ0YjV=
+kNWJmMmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZjU5Y2FhYWQxZmQ3YTA2MDBmYmM5NDBjNjAwNT=
+FkNywxLDE%3D" target=3D"_blank" aria-label=3D"Abrir Novas vagas de empregos=
+ no LinkedIn" class=3D"align-top no-underline " style=3D"color: #0a66c2; cu=
+rsor: pointer; display: inline-block; text-decoration: none; -webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; vertical-align: top; text-dec=
+oration-line: none; width: 100%;"> <table role=3D"presentation" valign=3D"t=
+op" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=
+=3D"border-separate " style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collap=
+se: separate; width: 100%;"> <tbody> <tr> <td class=3D"btn-md btn-secondary=
+-emphasis border-color-brand button-link leading-regular !min-h-[auto] !sha=
+dow-none border-1 border-solid font-sans" data-test-id=3D"newsletter-conten=
+t-preview-redesign-bottom-cta" style=3D"-webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; heig=
+ht: min-content; border-radius: 24px; padding-top: 12px; padding-bottom: 12=
+px; padding-left: 24px; padding-right: 24px; text-align: center; font-size:=
+ 16px; font-weight: 600; cursor: pointer; text-decoration-line: none; backg=
+round-color: rgba(0, 0, 0, 0); color: #0a66c2; border-width: 1px; border-st=
+yle: solid; border-color: #0a66c2; font-family: -apple-system, system-ui, B=
+linkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubunt=
+u, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvet=
+ica, Arial, sans-serif; line-height: 1.25; min-height: auto !important; box=
+-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;"> <a href=3D"https://w=
+ww.linkedin.com/comm/pulse/black-friday-imperd%C3%ADvel-curso-de-ingl%C3%AA=
+s-espanhol-portalvagas-0tghf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_fo=
+llow_newsletter_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%3D%3D&amp;midToken=3DAQHxaOsdYM=
+WJVQ&amp;midSig=3D1QxpxWV515vrw1&amp;trk=3Deml-email_series_follow_newslett=
+er_01-newsletter_content_preview-0-readmore_button_&amp;trkEmail=3Deml-emai=
+l_series_follow_newsletter_01-newsletter_content_preview-0-readmore_button_=
+-null-gdb74f~m3pch7lf~tb-null-null&amp;eid=3Dgdb74f-m3pch7lf-tb&amp;otpToke=
+n=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3YjM4YmNiZDc0MzkxYTY4YjYxNzljNDA=
+2NmQ0YjVkNWJmMmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZjU5Y2FhYWQxZmQ3YTA2MDBmYmM5ND=
+BjNjAwNTFkNywxLDE%3D" target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true=
+" class=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; display:=
+ inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-t=
+ext-size-adjust: 100%; text-decoration-line: none; width: 100%;"> <span cla=
+ss=3D"no-underline text-color-brand" style=3D"color: #0a66c2; text-decorati=
+on-line: none;"> Participe da conversa </span> </a> </td> </tr> </tbody> </=
+table> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </t=
+d> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbod=
+y> </table> </div> </td> </tr> <tr> <td class=3D"bg-color-background-canvas=
+ p-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f3f2f0; pa=
+dding: 24px;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"text-xs" style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt; font-size: 12px;"> <tbody> <tr> <td class=3D=
+"pb-1 m-0" data-test-id=3D"email-footer__intended" style=3D"-webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tab=
+le-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> Este e-mail foi enviado=
+ a Luiz Fernando Brito Ferreira (Full-Stack Developer | HTML | CSS | JS | R=
+eact.js | Node.js | Python) </td> </tr> <tr> <td class=3D"pb-1 m-0" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> <a h=
+ref=3D"https://www.linkedin.com/help/linkedin/answer/4788?lang=3Dpt&amp;lip=
+i=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BAQJ8SNwwQ9S=
+U8xhTLRBhtQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1QxpxWV515vrw1=
+&amp;trk=3Deml-email_series_follow_newsletter_01-SecurityHelp-0-footerglimm=
+er&amp;trkEmail=3Deml-email_series_follow_newsletter_01-SecurityHelp-0-foot=
+erglimmer-null-gdb74f~m3pch7lf~tb-null-null&amp;eid=3Dgdb74f-m3pch7lf-tb&am=
+p;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3YjM4YmNiZDc0MzkxYTY4Yj=
+YxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZjU5Y2FhYWQxZmQ3YTA2M=
+DBmYmM5NDBjNjAwNTFkNywxLDE%3D" target=3D"_blank" class=3D"text-inherit unde=
+rline" style=3D"cursor: pointer; display: inline-block; text-decoration: no=
+ne; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: inhe=
+rit; text-decoration-line: underline;">Saiba por que inclu=C3=ADmos isso.</=
+a> </td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt; margin: 0px; padding-bottom: 8px;">Voc=C3=AA est=C3=A1 recebendo e-=
+mails de notifica=C3=A7=C3=A3o do LinkedIn. Outras pessoas podem ver que vo=
+c=C3=AA =C3=A9 assinante.</td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> <a href=
+=3D"https://www.linkedin.com/comm/series-notifications/?action=3Dunsubscrib=
+e&amp;memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&amp;newsletterI=
+d=3D6957338479194181632&amp;newsletterTitle=3DNovas%20vagas%20de%20empregos=
+&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BAQJ=
+8SNwwQ9SU8xhTLRBhtQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1QxpxW=
+V515vrw1&amp;trk=3Deml-email_series_follow_newsletter_01-unsubscribe-0-foot=
+erGlimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-unsubscribe-=
+0-footerGlimmer-null-gdb74f~m3pch7lf~tb-null-null&amp;eid=3Dgdb74f-m3pch7lf=
+-tb&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3YjM4YmNiZDc0Mzkx=
+YTY4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZjU5Y2FhYWQxZmQ=
+3YTA2MDBmYmM5NDBjNjAwNTFkNywxLDE%3D" target=3D"_blank" class=3D"text-inheri=
+t underline" style=3D"cursor: pointer; display: inline-block; text-decorati=
+on: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color=
+: inherit; text-decoration-line: underline;">Cancelar inscri=C3=A7=C3=A3o</=
+a> =C2=A0=C2=A0=C2=B7=C2=A0=C2=A0 <a href=3D"https://www.linkedin.com/help/=
+linkedin/answer/67?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_serie=
+s_follow_newsletter_01%3BAQJ8SNwwQ9SU8xhTLRBhtQ%3D%3D&amp;midToken=3DAQHxaO=
+sdYMWJVQ&amp;midSig=3D1QxpxWV515vrw1&amp;trk=3Deml-email_series_follow_news=
+letter_01-help-0-footerglimmer&amp;trkEmail=3Deml-email_series_follow_newsl=
+etter_01-help-0-footerglimmer-null-gdb74f~m3pch7lf~tb-null-null&amp;eid=3Dg=
+db74f-m3pch7lf-tb&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3Yj=
+M4YmNiZDc0MzkxYTY4YjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZ=
+jU5Y2FhYWQxZmQ3YTA2MDBmYmM5NDBjNjAwNTFkNywxLDE%3D" target=3D"_blank" class=
+=3D"text-inherit underline" style=3D"cursor: pointer; display: inline-block=
+; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%; color: inherit; text-decoration-line: underline;">Ajuda</a> </td>=
+ </tr> <tr> <td class=3D"pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padd=
+ing-bottom: 8px;"> <a href=3D"https://www.linkedin.com/comm/feed/?lipi=3Dur=
+n%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BAQJ8SNwwQ9SU8xhTL=
+RBhtQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1QxpxWV515vrw1&amp;t=
+rk=3Deml-email_series_follow_newsletter_01-footer-0-logoGlimmer&amp;trkEmai=
+l=3Deml-email_series_follow_newsletter_01-footer-0-logoGlimmer-null-gdb74f~=
+m3pch7lf~tb-null-null&amp;eid=3Dgdb74f-m3pch7lf-tb&amp;otpToken=3DMWIwZDE3Z=
+TgxMzI4Y2JjM2I1MjQwNGVkNDUxY2U3YjM4YmNiZDc0MzkxYTY4YjYxNzljNDA2NmQ0YjVkNWJm=
+MmZlZDNkZmUzNDBkM2M4ZGI3YTg2Y2YzZjU5Y2FhYWQxZmQ3YTA2MDBmYmM5NDBjNjAwNTFkNyw=
+xLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; displa=
+y: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%;"> <img src=3D"https://static.licdn.com/aero-v1/sc/=
+h/9ehe6n39fa07dc5edzv0rla4e" alt=3D"LinkedIn" class=3D"block h-[14px] w-[56=
+px] image-rendering-crisp" style=3D"outline: none; text-decoration: none; i=
+mage-rendering: -moz-crisp-edges; image-rendering: -o-crisp-edges; image-re=
+ndering: -webkit-optimize-contrast; image-rendering: crisp-edges; -ms-inter=
+polation-mode: nearest-neighbor; display: block; height: 14px; width: 56px;=
+" width=3D"56" height=3D"14"> </a> </td> </tr> <tr> <td data-test-copyright=
+-text style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> =C2=A9 2024 LinkedIn Irelan=
+d Unlimited Company, Wilton Plaza, Wilton Place, Dublin 2 - Irlanda. Linked=
+In =C3=A9 um nome comercial registrado da LinkedIn Ireland Unlimited Compan=
+y. <span data-test-trademarks-text> LinkedIn e o logo do LinkedIn s=C3=A3o =
+marcas registradas do LinkedIn. </span> </td> </tr> </tbody> </table> </td>=
+ </tr> </tbody> </table> <img alt role=3D"presentation" src=3D"https://www.=
+linkedin.com/emimp/ip_WjJSaU56Um1MVzB6Y0dOb04yeG1MWFJpOlpXMWhhV3hmYzJWeWFXV=
+npYMlp2Ykd4dmQxOXVaWGR6YkdWMGRHVnlYekF4OmRYSnVPbXhwT214cGJtdGxaRWx1UVhKMGFX=
+TnNaVG8zTWpZME9ETTNOREV4TVRBM05EVTVNRGN6.gif" style=3D"outline: none; text-=
+decoration: none; -ms-interpolation-mode: bicubic; width: 1px; height: 1px;=
+" width=3D"1" height=3D"1"> </body> </html>
+------=_Part_42292788_814753448.1732074573539--
+

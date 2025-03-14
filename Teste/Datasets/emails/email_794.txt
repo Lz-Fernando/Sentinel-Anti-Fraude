@@ -1,0 +1,828 @@
+X-GM-THRID: 1818070497416937384
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categoria:_promo=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:9ea1:b0:29a:824b:9ec3 with SMTP id fi33csp2303784ysc;
+        Tue, 10 Dec 2024 08:12:19 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IHfUfBiKr7AumxzZHzMyD329Sxy6o/m9qZEoUDsgdfpSqMEmn8fREMW+RaVmrZF13yfvlSS
+X-Received: by 2002:a05:6214:23c8:b0:6d4:1bad:7415 with SMTP id 6a1803df08f44-6d91e3415f5mr100921106d6.2.1733847138577;
+        Tue, 10 Dec 2024 08:12:18 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1733847138; cv=none;
+        d=google.com; s=arc-20240605;
+        b=hoBwEv4Xgcc6o9OVE26L5Uz9cKcbHkSdB8KC4R3od9xruF/3Q4Xd1HIbYl6sb0WT8s
+         AwTmY9PrGnaTjtByRB1ERFBmfdJ6YNbOAghIHpWJuwmtKFf5Q8e9Ue3JBYld1DUB1fRT
+         tYpBG1Ib/dbaLSPRTCKZlR/Xn5XWJNxVx5lmN/utfQq2wyur2VIzs87uJWGnbhc1CzXq
+         Otd4YSsHpgbBIDbwmJk9DlAfOH0TAG2lEsm9IqLiQqO9Fu2pfr0+u0y/YqAK01LiXU7v
+         Xg4rOvDtGNj9bwsWCAOVbAJ2ay5z6klZ+V/SS/If/XkTDz/pzMxmZ/+B7OtQJZZco5Oh
+         +VhQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:list-unsubscribe-post:list-unsubscribe:mailcoach-send-uuid
+         :list-id:precedence:reply-to:subject:message-id:mime-version:from
+         :date:dkim-signature:dkim-signature;
+        bh=igZ1xRUbOj0kOzOD/yYNMdslwoKdIPvSxobusOxISWo=;
+        fh=/HdUdLVjKbjM7vqKQCg0R7d+Cuu352Lx86DUD6qVhEc=;
+        b=SD9Bl9syLzngq6TCCXNcVinTIQRCyUCfs3Pi30+yRGTl6/tELTeY2RWaabMOWoMPVN
+         36utYLRcmaQISF9qAkM4mX67LJxL84rS6SLhZHK3KzXPfSOQA/qri5EPoJu7Q9Q1rBSs
+         C1YAvT39zaz/cy3BQa7/MPsfZYcFnMpzUt28MgWxgOQXPjIL8dvYz5rMi1DMV81CUodk
+         wxjg6G1zXwIuRxU5piuv2ACyU3S6l46TV+waEwTR3Jr7R7yuMOM37jq3+DgsyMbcfOWJ
+         avPBYg2JrKPQIU9L0CsrJTjowPcl65U6KbZEPJdbiu+64lC+2ozpWnFgpD87ER+hj4Fc
+         rcYg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@dio.me header.s=s1 header.b=61wLloTM;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=LqTiXg2n;
+       spf=pass (google.com: domain of bounces+3590386-bc6c-nandobritoferreira=gmail.com@em9437.dio.me designates 159.183.124.242 as permitted sender) smtp.mailfrom="bounces+3590386-bc6c-nandobritoferreira=gmail.com@em9437.dio.me";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=dio.me
+Return-Path: <bounces+3590386-bc6c-nandobritoferreira=gmail.com@em9437.dio.me>
+Received: from wfbttcfn.outbound-mail.sendgrid.net (wfbttcfn.outbound-mail.sendgrid.net. [159.183.124.242])
+        by mx.google.com with ESMTPS id 6a1803df08f44-6d8e6079c80si126516776d6.184.2024.12.10.08.12.17
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Tue, 10 Dec 2024 08:12:18 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+3590386-bc6c-nandobritoferreira=gmail.com@em9437.dio.me designates 159.183.124.242 as permitted sender) client-ip=159.183.124.242;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@dio.me header.s=s1 header.b=61wLloTM;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=LqTiXg2n;
+       spf=pass (google.com: domain of bounces+3590386-bc6c-nandobritoferreira=gmail.com@em9437.dio.me designates 159.183.124.242 as permitted sender) smtp.mailfrom="bounces+3590386-bc6c-nandobritoferreira=gmail.com@em9437.dio.me";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=dio.me
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=dio.me;
+	h=content-type:from:mime-version:subject:reply-to:list-id:
+	list-unsubscribe:list-unsubscribe-post:x-feedback-id:to:cc:content-type:from:subject:
+	to;
+	s=s1; bh=igZ1xRUbOj0kOzOD/yYNMdslwoKdIPvSxobusOxISWo=;
+	b=61wLloTMvgyegvgutHHxeQbtvABN+6xI8WjJGiEaGvTyrRTWaOQ911dazr53cVKYUce3
+	NRKFIlrlBWQ0ZCwvVZdNFjerYXMms2fkOYTJmAGMOE1lC5m1k1ZdUUXck/W4aKe2NGsghe
+	4M9An1c9cSMfKcSrxlYmTLoxTyNCBi+XHJ+0u/pxdw/yL4DMBSUr8FZfgAjxDALGfcD+xW
+	nGkIlD1f6EnyagPlYsUY3gcHMce6Rg6bcMdJFvAb+uOdmSbuEtW3ixgwrk9WIDlS0+nqWS
+	RyE/C+ZDc9uTZPKCaImufVcpQIkLaHYPf9aRVV7owbcDVR/5nQxh717iMmGuBVQg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=content-type:from:mime-version:subject:reply-to:list-id:
+	list-unsubscribe:list-unsubscribe-post:x-feedback-id:to:cc:content-type:from:subject:
+	to;
+	s=smtpapi; bh=igZ1xRUbOj0kOzOD/yYNMdslwoKdIPvSxobusOxISWo=;
+	b=LqTiXg2nNIcHy7ShHI2677gMSsIUJGTsSP6pIu47HJbcDFuUJOXDmNflYuQoKXza9fUX
+	6xHgbUF2iDdojSk73zGiqfXM+5nPVvb7hjhmVaYvVEx+fiBjk/iVeicWea5JStdVJHMPeb
+	HGsGSwDbVL4dJ7RXtnDjMAfKaeNAKCNrQ=
+Received: by recvd-56545945fc-wzbx2 with SMTP id recvd-56545945fc-wzbx2-1-67586860-9
+	2024-12-10 16:12:16.24904131 +0000 UTC m=+2227774.453616296
+Received: from MzU5MDM4Ng (unknown)
+	by geopod-ismtpd-canary-0 (SG) with HTTP
+	id nVo-sEhlSpWh4qK0Y6yn5w
+	Tue, 10 Dec 2024 16:12:16.184 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=76a805e357ad05bbb96d02d2d8ceb019c185c76bd687772050263c562c72
+Date: Tue, 10 Dec 2024 16:12:16 +0000 (UTC)
+From: Denize | DIO <ead@dio.me>
+Mime-Version: 1.0
+Message-ID: <868976e06f90365a34cc940395f57ab1@dio.me>
+Subject: =?UTF-8?B?8J+MjSBIb2plIMOgcyAxOWg6IEVzdHJhdMOpZ2lh?= e Insights para
+ Construir sua Carreira nos EUA
+Reply-To: "ead@dio.me" <ead@dio.me>
+X-PM-Metadata-send-uuid: 09974534-d81d-4468-95a9-7607fd71ab11
+Precedence: Bulk
+X-MAILCOACH: true
+List-ID: <fa6ac63d-92af-48ab-8e2e-a6999754b716@dio.me>
+mailcoach-send-uuid: 09974534-d81d-4468-95a9-7607fd71ab11
+List-Unsubscribe: 
+ =?us-ascii?Q?=3Chttps=3A=2F=2Fcampaigns=2Edio=2Eme=2Funsubscribe=2F0a3073e3-2322-4e93-b514-?=
+ =?us-ascii?Q?fc5cdcd8c8ea=2F09974534-d81d-4468-95a9-76?=
+ =?us-ascii?Q?07fd71ab11=3E?=
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Feedback-ID: 3590386:SG
+X-SG-EID: 
+ =?us-ascii?Q?u001=2EIqSg9IL5JwfWuuDYBOIbbFwDM7Jb+uL9GUDICN=2FGbUVmOrtrWWkKfwh0C?=
+ =?us-ascii?Q?3JehcPw8EV4bGG8SWnwqphJ=2FsKHzHNHr6pxNaFx?=
+ =?us-ascii?Q?a2S6wGIM2cwtEa+m1xdqBhC6ypAjd0L3xbhTYSV?=
+ =?us-ascii?Q?9XI3rZG3wMrkLiW=2FZD0JadYTyDBo1=2F179x0bLSt?=
+ =?us-ascii?Q?DrCcWKNtA3xt4c5ZCq+IRkTo4ny9xjKib+uaDiY?=
+ =?us-ascii?Q?4hhO3VZ4skYHEoCXsLpT14=3D?=
+To: nandobritoferreira@gmail.com
+X-Entity-ID: u001.2xtker3BQks/9kSF9coF8w==
+
+--76a805e357ad05bbb96d02d2d8ceb019c185c76bd687772050263c562c72
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+[ ![](https://hermes.dio.me/raw/emails/assets/logotipodio.png) ](https://ww=
+w.youtube.com/live/0_Rhqr3QXAE)     =20
+
+=20
+
+
+
+ =20
+
+=20
+
+=20
+
+                       Fala, Luiz! Tudo bem?
+
+Hoje (10/12), =C3=A0s 19h, temos um encontro marcado na Masterclass DIO GLO=
+BAL: "**Estrat=C3=A9gia e Insights para Construir sua Carreira Digital nos =
+EUA**"
+
+=20
+
+   =20
+
+=20
+
+
+
+ =20
+
+=20
+
+=20
+
+       [CLIQUE AQUI PARA ATIVAR O LEMBRETE](https://www.youtube.com/live/0_=
+Rhqr3QXAE)
+
+=20
+
+   =20
+
+=20
+
+
+
+ =20
+
+=20
+
+=20
+
+       A Masterclass ter=C3=A1 a presen=C3=A7a da expert Diogo Pio, engenhe=
+iro, empreendedor e diretor de processos.
+
+O que voc=C3=AA ir=C3=A1 aprender =F0=9F=91=87
+
+=E2=9C=85 Oportunidades e desafios do mercado norte-americano;
+
+=E2=9C=85 Estrat=C3=A9gias de qualifica=C3=A7=C3=A3o em hard skills e soft =
+skills;
+
+=E2=9C=85 Como realizar networking e destacar sua carreira internacional.
+
+Se voc=C3=AA est=C3=A1 determinado a trilhar um caminho de sucesso profissi=
+onal no exterior, n=C3=A3o pode perder esta masterclass!
+
+=20
+
+   =20
+
+=20
+
+
+
+ =20
+
+=20
+
+=20
+
+       Te esperamos l=C3=A1!
+
+Denize Janu=C3=A1rio | DIO
+
+=20
+
+   =20
+
+=20
+
+
+
+ =20
+
+=20
+
+=20
+
+        N=C3=A3o quer receber dicas sobre carreira internacional? Clique aq=
+ui para [cancelar inscri=C3=A7=C3=A3o](https://campaigns.dio.me/unsubscribe=
+/0a3073e3-2322-4e93-b514-fc5cdcd8c8ea/09974534-d81d-4468-95a9-7607fd71ab11)
+
+--76a805e357ad05bbb96d02d2d8ceb019c185c76bd687772050263c562c72
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www=
+.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir=3D"ltr" xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:sch=
+emas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office"=
+ style=3D"line-height: inherit;">
+<head style=3D"line-height: inherit;">
+<!--[if gte mso 9]>
+<xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" =
+style=3D"line-height: inherit;">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0" style=3D"line-height: inherit;">
+  <meta name=3D"x-apple-disable-message-reformatting" style=3D"line-height:=
+ inherit;">
+  <!--[if !mso]><!--><meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3De=
+dge" style=3D"line-height: inherit;">
+<!--<![endif]-->
+  <title style=3D"line-height: inherit;"></title>
+ =20
+    <style type=3D"text/css" style=3D"line-height: inherit;">
+     =20
+      @media only screen and (min-width: 520px) {
+        .u-row {
+          width: 500px !important;
+        }
+
+        .u-row .u-col {
+          vertical-align: top;
+        }
+
+       =20
+            .u-row .u-col-100 {
+              width: 500px !important;
+            }
+         =20
+      }
+
+      @media only screen and (max-width: 520px) {
+        .u-row-container {
+          max-width: 100% !important;
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+        }
+
+        .u-row {
+          width: 100% !important;
+        }
+
+        .u-row .u-col {
+          display: block !important;
+          width: 100% !important;
+          min-width: 320px !important;
+          max-width: 100% !important;
+        }
+
+        .u-row .u-col > div {
+          margin: 0 auto;
+        }
+
+
+        .u-row .u-col img {
+          max-width: 100% !important;
+        }
+
+}
+   =20
+body{margin:0;padding:0}table,td,tr{border-collapse:collapse;vertical-align=
+:top}p{margin:0}.ie-container table,.mso-container table{table-layout:fixed=
+}*{line-height:inherit}a[x-apple-data-detectors=3Dtrue]{color:inherit!impor=
+tant;text-decoration:none!important}
+
+
+table, td { color: #000000; } #u_body a { color: #0000ee; text-decoration: =
+underline; }
+    </style>
+ =20
+ =20
+
+</head>
+
+<body class=3D"clean-body u_body" style=3D"line-height: inherit; margin: 0;=
+ padding: 0; -webkit-text-size-adjust: 100%; background-color: #ffffff; col=
+or: #000000;">
+  <!--[if IE]><div class=3D"ie-container"><![endif]-->
+  <!--[if mso]><div class=3D"mso-container"><![endif]-->
+  <table id=3D"u_body" style=3D"line-height: inherit; color: #000000; borde=
+r-collapse: collapse; table-layout: fixed; border-spacing: 0; mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt; vertical-align: top; min-width: 320px; Mar=
+gin: 0 auto; background-color: #ffffff; width: 100%;" cellpadding=3D"0" cel=
+lspacing=3D"0">
+  <tbody style=3D"line-height: inherit;">
+  <tr style=3D"line-height: inherit; border-collapse: collapse; vertical-al=
+ign: top;">
+    <td style=3D"line-height: inherit; color: #000000; word-break: break-wo=
+rd; border-collapse: collapse !important; vertical-align: top;">
+    <!--[if (mso)|(IE)]><table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0"><tr><td align=3D"center" style=3D"background-color: #ff=
+ffff;"><![endif]-->
+   =20
+ =20
+ =20
+<div class=3D"u-row-container" style=3D"line-height: inherit; padding: 0px;=
+ background-color: transparent;">
+  <div class=3D"u-row" style=3D"line-height: inherit; margin: 0 auto; min-w=
+idth: 320px; max-width: 500px; overflow-wrap: break-word; word-wrap: break-=
+word; word-break: break-word; background-color: transparent;">
+    <div style=3D"line-height: inherit; border-collapse: collapse; display:=
+ table; width: 100%; height: 100%; background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width=3D"100%" cellpadding=3D"0" cellspaci=
+ng=3D"0" border=3D"0"><tr><td style=3D"padding: 0px;background-color: trans=
+parent;" align=3D"center"><table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" style=3D"width:500px;"><tr style=3D"background-color: transparent;">=
+<![endif]-->
+     =20
+<!--[if (mso)|(IE)]><td align=3D"center" width=3D"500" style=3D"width: 500p=
+x;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid tra=
+nsparent;border-right: 0px solid transparent;border-bottom: 0px solid trans=
+parent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0=
+px;" valign=3D"top"><![endif]-->
+<div class=3D"u-col u-col-100" style=3D"line-height: inherit; max-width: 32=
+0px; min-width: 500px; display: table-cell; vertical-align: top;">
+  <div style=3D"line-height: inherit; height: 100%; width: 100% !important;=
+ border-radius: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px;">
+  <!--[if (!mso)&(!IE)]><!--><div style=3D"line-height: inherit; box-sizing=
+: border-box; height: 100%; padding: 0px; border-top: 0px solid transparent=
+; border-left: 0px solid transparent; border-right: 0px solid transparent; =
+border-bottom: 0px solid transparent; border-radius: 0px; -webkit-border-ra=
+dius: 0px; -moz-border-radius: 0px;">
+<!--<![endif]-->
+ =20
+<table style=3D"line-height: inherit; border-collapse: collapse; vertical-a=
+lign: top; color: #000000; font-family: arial,helvetica,sans-serif;" role=
+=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=
+=3D"0">
+  <tbody style=3D"line-height: inherit;">
+    <tr style=3D"line-height: inherit; border-collapse: collapse; vertical-=
+align: top;">
+      <td style=3D"line-height: inherit; border-collapse: collapse; vertica=
+l-align: top; color: #000000; overflow-wrap: break-word; word-break: break-=
+word; padding: 10px; font-family: arial,helvetica,sans-serif;" align=3D"lef=
+t">
+       =20
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" styl=
+e=3D"line-height: inherit; border-collapse: collapse; vertical-align: top; =
+color: #000000;">
+  <tr style=3D"line-height: inherit; border-collapse: collapse; vertical-al=
+ign: top;">
+    <td style=3D"line-height: inherit; border-collapse: collapse; vertical-=
+align: top; color: #000000; padding-right: 0px; padding-left: 0px;" align=
+=3D"center">
+      <a href=3D"http://url5012.dio.me/ls/click?upn=3Du001.bzFvFKgALhWpnDj-=
+2FYgk7AIvTaf9lvT2rYdjz9wM28t-2F2YnFcuvLjww0c813xJdadNGbOEyaa-2FE5tA7Kv8gOhP=
+g-3D-3D-zHy_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4h4y4I9iIecF0LVUD9jd=
+DpOmFwFZz5rt-2FSEWOBsx0GLClnxTSLDLB2UGbNc94eySCnpH3Or-2Bk-2FJJcYoPMJACP4N0G=
+MkXKcMs6n85Q0BpIPj1k1ha0Vs-2BGrc33CxdP-2FFDpDAWwuocbsVyGIb-2BmP6ZBrJUxonm8U=
+mBzMUSjFd6WX1lA-3D-3D" target=3D"_blank" style=3D"line-height: inherit; col=
+or: #0000ee; text-decoration: underline;">
+      <img align=3D"center" border=3D"0" src=3D"https://hermes.dio.me/raw/e=
+mails/assets/logotipodio.png" alt=3D"" title=3D"" style=3D"line-height: inh=
+erit; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic=
+; clear: both; display: inline-block !important; border: none; height: auto=
+; float: none; width: 100%; max-width: 200px;" width=3D"200">
+      </a>
+    </td>
+  </tr>
+</table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!-->
+</div>
+<!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+ =20
+
+
+ =20
+ =20
+<div class=3D"u-row-container" style=3D"line-height: inherit; padding: 0px;=
+ background-color: transparent;">
+  <div class=3D"u-row" style=3D"line-height: inherit; margin: 0 auto; min-w=
+idth: 320px; max-width: 500px; overflow-wrap: break-word; word-wrap: break-=
+word; word-break: break-word; background-color: transparent;">
+    <div style=3D"line-height: inherit; border-collapse: collapse; display:=
+ table; width: 100%; height: 100%; background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width=3D"100%" cellpadding=3D"0" cellspaci=
+ng=3D"0" border=3D"0"><tr><td style=3D"padding: 0px;background-color: trans=
+parent;" align=3D"center"><table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" style=3D"width:500px;"><tr style=3D"background-color: transparent;">=
+<![endif]-->
+     =20
+<!--[if (mso)|(IE)]><td align=3D"center" width=3D"500" style=3D"width: 500p=
+x;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid tra=
+nsparent;border-right: 0px solid transparent;border-bottom: 0px solid trans=
+parent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0=
+px;" valign=3D"top"><![endif]-->
+<div class=3D"u-col u-col-100" style=3D"line-height: inherit; max-width: 32=
+0px; min-width: 500px; display: table-cell; vertical-align: top;">
+  <div style=3D"line-height: inherit; height: 100%; width: 100% !important;=
+ border-radius: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px;">
+  <!--[if (!mso)&(!IE)]><!--><div style=3D"line-height: inherit; box-sizing=
+: border-box; height: 100%; padding: 0px; border-top: 0px solid transparent=
+; border-left: 0px solid transparent; border-right: 0px solid transparent; =
+border-bottom: 0px solid transparent; border-radius: 0px; -webkit-border-ra=
+dius: 0px; -moz-border-radius: 0px;">
+<!--<![endif]-->
+ =20
+<table style=3D"line-height: inherit; border-collapse: collapse; vertical-a=
+lign: top; color: #000000; font-family: arial,helvetica,sans-serif;" role=
+=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=
+=3D"0">
+  <tbody style=3D"line-height: inherit;">
+    <tr style=3D"line-height: inherit; border-collapse: collapse; vertical-=
+align: top;">
+      <td style=3D"line-height: inherit; border-collapse: collapse; vertica=
+l-align: top; color: #000000; overflow-wrap: break-word; word-break: break-=
+word; padding: 10px; font-family: arial,helvetica,sans-serif;" align=3D"lef=
+t">
+       =20
+  <table height=3D"0px" align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" width=3D"100%" style=3D"line-height: inherit; color: #000000=
+; border-collapse: collapse; table-layout: fixed; border-spacing: 0; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; vertical-align: top; border-top: 1p=
+x solid #BBBBBB; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%=
+;">
+    <tbody style=3D"line-height: inherit;">
+      <tr style=3D"line-height: inherit; border-collapse: collapse; vertica=
+l-align: top;">
+        <td style=3D"color: #000000; word-break: break-word; border-collaps=
+e: collapse !important; vertical-align: top; font-size: 0px; line-height: 0=
+px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text=
+-size-adjust: 100%;">
+          <span style=3D"line-height: inherit;">=C2=A0</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style=3D"line-height: inherit; border-collapse: collapse; vertical-a=
+lign: top; color: #000000; font-family: arial,helvetica,sans-serif;" role=
+=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=
+=3D"0">
+  <tbody style=3D"line-height: inherit;">
+    <tr style=3D"line-height: inherit; border-collapse: collapse; vertical-=
+align: top;">
+      <td style=3D"line-height: inherit; border-collapse: collapse; vertica=
+l-align: top; color: #000000; overflow-wrap: break-word; word-break: break-=
+word; padding: 10px; font-family: arial,helvetica,sans-serif;" align=3D"lef=
+t">
+       =20
+  <div style=3D"font-family: arial,helvetica,sans-serif; font-size: 16px; l=
+ine-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style=3D"margin: 0; line-height: 140%;">Fala, =C2=A0Luiz! Tudo bem?<=
+/p>
+<p style=3D"margin: 0; line-height: 140%;">=C2=A0</p>
+<p style=3D"margin: 0; line-height: 140%;">Hoje (10/12), =C3=A0s 19h, temos=
+ um encontro marcado na Masterclass DIO GLOBAL: "<strong style=3D"line-heig=
+ht: inherit;">Estrat=C3=A9gia e Insights para Construir sua Carreira Digita=
+l nos EUA</strong>"</p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!-->
+</div>
+<!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+ =20
+
+
+ =20
+ =20
+<div class=3D"u-row-container" style=3D"line-height: inherit; padding: 0px;=
+ background-color: transparent;">
+  <div class=3D"u-row" style=3D"line-height: inherit; margin: 0 auto; min-w=
+idth: 320px; max-width: 500px; overflow-wrap: break-word; word-wrap: break-=
+word; word-break: break-word; background-color: transparent;">
+    <div style=3D"line-height: inherit; border-collapse: collapse; display:=
+ table; width: 100%; height: 100%; background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width=3D"100%" cellpadding=3D"0" cellspaci=
+ng=3D"0" border=3D"0"><tr><td style=3D"padding: 0px;background-color: trans=
+parent;" align=3D"center"><table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" style=3D"width:500px;"><tr style=3D"background-color: transparent;">=
+<![endif]-->
+     =20
+<!--[if (mso)|(IE)]><td align=3D"center" width=3D"500" style=3D"width: 500p=
+x;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid tra=
+nsparent;border-right: 0px solid transparent;border-bottom: 0px solid trans=
+parent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0=
+px;" valign=3D"top"><![endif]-->
+<div class=3D"u-col u-col-100" style=3D"line-height: inherit; max-width: 32=
+0px; min-width: 500px; display: table-cell; vertical-align: top;">
+  <div style=3D"line-height: inherit; height: 100%; width: 100% !important;=
+ border-radius: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px;">
+  <!--[if (!mso)&(!IE)]><!--><div style=3D"line-height: inherit; box-sizing=
+: border-box; height: 100%; padding: 0px; border-top: 0px solid transparent=
+; border-left: 0px solid transparent; border-right: 0px solid transparent; =
+border-bottom: 0px solid transparent; border-radius: 0px; -webkit-border-ra=
+dius: 0px; -moz-border-radius: 0px;">
+<!--<![endif]-->
+ =20
+<table style=3D"line-height: inherit; border-collapse: collapse; vertical-a=
+lign: top; color: #000000; font-family: arial,helvetica,sans-serif;" role=
+=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=
+=3D"0">
+  <tbody style=3D"line-height: inherit;">
+    <tr style=3D"line-height: inherit; border-collapse: collapse; vertical-=
+align: top;">
+      <td style=3D"line-height: inherit; border-collapse: collapse; vertica=
+l-align: top; color: #000000; overflow-wrap: break-word; word-break: break-=
+word; padding: 10px; font-family: arial,helvetica,sans-serif;" align=3D"lef=
+t">
+       =20
+  <div style=3D"font-family: arial,helvetica,sans-serif; font-size: 16px; l=
+ine-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style=3D"margin: 0; line-height: 140%;"><a rel=3D"noopener" href=3D"=
+http://url5012.dio.me/ls/click?upn=3Du001.bzFvFKgALhWpnDj-2FYgk7AIvTaf9lvT2=
+rYdjz9wM28t-2F2YnFcuvLjww0c813xJdadNGbOEyaa-2FE5tA7Kv8gOhPg-3D-3DZO_L_sOkiS=
+dg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiwUu4h4y4I9iIecF0LVUD9jdDpOmFwFZz5rt-2FSE=
+WOBsx0GLCrWpTN8lppHA359jxS3ZTG7jq-2FZuGUKDvXRJ5PzR-2B-2F3f88Qu7rua-2FtFztmH=
+22noL86cYgGYmYuM0O6c6Si0Q5kCveiQYHTA0Fpjz6K6QALHCCp3VvnqfQB1Na8TvoQhJDA-3D-=
+3D" target=3D"_blank" style=3D"line-height: inherit; color: #0000ee; text-d=
+ecoration: underline;">CLIQUE AQUI PARA ATIVAR O LEMBRETE</a></p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!-->
+</div>
+<!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+ =20
+
+
+ =20
+ =20
+<div class=3D"u-row-container" style=3D"line-height: inherit; padding: 0px;=
+ background-color: transparent;">
+  <div class=3D"u-row" style=3D"line-height: inherit; margin: 0 auto; min-w=
+idth: 320px; max-width: 500px; overflow-wrap: break-word; word-wrap: break-=
+word; word-break: break-word; background-color: transparent;">
+    <div style=3D"line-height: inherit; border-collapse: collapse; display:=
+ table; width: 100%; height: 100%; background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width=3D"100%" cellpadding=3D"0" cellspaci=
+ng=3D"0" border=3D"0"><tr><td style=3D"padding: 0px;background-color: trans=
+parent;" align=3D"center"><table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" style=3D"width:500px;"><tr style=3D"background-color: transparent;">=
+<![endif]-->
+     =20
+<!--[if (mso)|(IE)]><td align=3D"center" width=3D"500" style=3D"width: 500p=
+x;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid tra=
+nsparent;border-right: 0px solid transparent;border-bottom: 0px solid trans=
+parent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0=
+px;" valign=3D"top"><![endif]-->
+<div class=3D"u-col u-col-100" style=3D"line-height: inherit; max-width: 32=
+0px; min-width: 500px; display: table-cell; vertical-align: top;">
+  <div style=3D"line-height: inherit; height: 100%; width: 100% !important;=
+ border-radius: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px;">
+  <!--[if (!mso)&(!IE)]><!--><div style=3D"line-height: inherit; box-sizing=
+: border-box; height: 100%; padding: 0px; border-top: 0px solid transparent=
+; border-left: 0px solid transparent; border-right: 0px solid transparent; =
+border-bottom: 0px solid transparent; border-radius: 0px; -webkit-border-ra=
+dius: 0px; -moz-border-radius: 0px;">
+<!--<![endif]-->
+ =20
+<table style=3D"line-height: inherit; border-collapse: collapse; vertical-a=
+lign: top; color: #000000; font-family: arial,helvetica,sans-serif;" role=
+=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=
+=3D"0">
+  <tbody style=3D"line-height: inherit;">
+    <tr style=3D"line-height: inherit; border-collapse: collapse; vertical-=
+align: top;">
+      <td style=3D"line-height: inherit; border-collapse: collapse; vertica=
+l-align: top; color: #000000; overflow-wrap: break-word; word-break: break-=
+word; padding: 10px; font-family: arial,helvetica,sans-serif;" align=3D"lef=
+t">
+       =20
+  <div style=3D"font-family: arial,helvetica,sans-serif; font-size: 16px; l=
+ine-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style=3D"margin: 0; line-height: 140%;">A Masterclass ter=C3=A1 a pr=
+esen=C3=A7a da expert Diogo Pio, engenheiro, empreendedor e diretor de proc=
+essos.=C2=A0</p>
+<p style=3D"margin: 0; line-height: 140%;">=C2=A0</p>
+<p style=3D"margin: 0; line-height: 140%;">O que voc=C3=AA ir=C3=A1 aprende=
+r =F0=9F=91=87=C2=A0</p>
+<p style=3D"margin: 0; line-height: 140%;">=C2=A0</p>
+<p style=3D"margin: 0; line-height: 140%;">=E2=9C=85 Oportunidades e desafi=
+os do mercado norte-americano; =C2=A0</p>
+<p style=3D"margin: 0; line-height: 140%;">=E2=9C=85 Estrat=C3=A9gias de qu=
+alifica=C3=A7=C3=A3o em hard skills e soft skills;=C2=A0</p>
+<p style=3D"margin: 0; line-height: 140%;">=E2=9C=85 Como realizar networki=
+ng e destacar sua carreira internacional.</p>
+<p style=3D"margin: 0; line-height: 140%;">=C2=A0</p>
+<p style=3D"margin: 0; line-height: 140%;">Se voc=C3=AA est=C3=A1 determina=
+do a trilhar um caminho de sucesso profissional no exterior, n=C3=A3o pode =
+perder esta masterclass!</p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!-->
+</div>
+<!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+ =20
+
+
+ =20
+ =20
+<div class=3D"u-row-container" style=3D"line-height: inherit; padding: 0px;=
+ background-color: transparent;">
+  <div class=3D"u-row" style=3D"line-height: inherit; margin: 0 auto; min-w=
+idth: 320px; max-width: 500px; overflow-wrap: break-word; word-wrap: break-=
+word; word-break: break-word; background-color: transparent;">
+    <div style=3D"line-height: inherit; border-collapse: collapse; display:=
+ table; width: 100%; height: 100%; background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width=3D"100%" cellpadding=3D"0" cellspaci=
+ng=3D"0" border=3D"0"><tr><td style=3D"padding: 0px;background-color: trans=
+parent;" align=3D"center"><table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" style=3D"width:500px;"><tr style=3D"background-color: transparent;">=
+<![endif]-->
+     =20
+<!--[if (mso)|(IE)]><td align=3D"center" width=3D"500" style=3D"width: 500p=
+x;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid tra=
+nsparent;border-right: 0px solid transparent;border-bottom: 0px solid trans=
+parent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0=
+px;" valign=3D"top"><![endif]-->
+<div class=3D"u-col u-col-100" style=3D"line-height: inherit; max-width: 32=
+0px; min-width: 500px; display: table-cell; vertical-align: top;">
+  <div style=3D"line-height: inherit; height: 100%; width: 100% !important;=
+ border-radius: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px;">
+  <!--[if (!mso)&(!IE)]><!--><div style=3D"line-height: inherit; box-sizing=
+: border-box; height: 100%; padding: 0px; border-top: 0px solid transparent=
+; border-left: 0px solid transparent; border-right: 0px solid transparent; =
+border-bottom: 0px solid transparent; border-radius: 0px; -webkit-border-ra=
+dius: 0px; -moz-border-radius: 0px;">
+<!--<![endif]-->
+ =20
+<table style=3D"line-height: inherit; border-collapse: collapse; vertical-a=
+lign: top; color: #000000; font-family: arial,helvetica,sans-serif;" role=
+=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=
+=3D"0">
+  <tbody style=3D"line-height: inherit;">
+    <tr style=3D"line-height: inherit; border-collapse: collapse; vertical-=
+align: top;">
+      <td style=3D"line-height: inherit; border-collapse: collapse; vertica=
+l-align: top; color: #000000; overflow-wrap: break-word; word-break: break-=
+word; padding: 10px; font-family: arial,helvetica,sans-serif;" align=3D"lef=
+t">
+       =20
+  <div style=3D"font-family: arial,helvetica,sans-serif; font-size: 16px; l=
+ine-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style=3D"margin: 0; line-height: 140%;">=C2=A0</p>
+<p style=3D"margin: 0; line-height: 140%;">Te esperamos l=C3=A1!=C2=A0</p>
+<p style=3D"margin: 0; line-height: 140%;">Denize Janu=C3=A1rio | DIO=C2=A0=
+</p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!-->
+</div>
+<!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+ =20
+
+
+ =20
+ =20
+<div class=3D"u-row-container" style=3D"line-height: inherit; padding: 0px;=
+ background-color: transparent;">
+  <div class=3D"u-row" style=3D"line-height: inherit; margin: 0 auto; min-w=
+idth: 320px; max-width: 500px; overflow-wrap: break-word; word-wrap: break-=
+word; word-break: break-word; background-color: transparent;">
+    <div style=3D"line-height: inherit; border-collapse: collapse; display:=
+ table; width: 100%; height: 100%; background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width=3D"100%" cellpadding=3D"0" cellspaci=
+ng=3D"0" border=3D"0"><tr><td style=3D"padding: 0px;background-color: trans=
+parent;" align=3D"center"><table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" style=3D"width:500px;"><tr style=3D"background-color: transparent;">=
+<![endif]-->
+     =20
+<!--[if (mso)|(IE)]><td align=3D"center" width=3D"500" style=3D"width: 500p=
+x;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid tra=
+nsparent;border-right: 0px solid transparent;border-bottom: 0px solid trans=
+parent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0=
+px;" valign=3D"top"><![endif]-->
+<div class=3D"u-col u-col-100" style=3D"line-height: inherit; max-width: 32=
+0px; min-width: 500px; display: table-cell; vertical-align: top;">
+  <div style=3D"line-height: inherit; height: 100%; width: 100% !important;=
+ border-radius: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px;">
+  <!--[if (!mso)&(!IE)]><!--><div style=3D"line-height: inherit; box-sizing=
+: border-box; height: 100%; padding: 0px; border-top: 0px solid transparent=
+; border-left: 0px solid transparent; border-right: 0px solid transparent; =
+border-bottom: 0px solid transparent; border-radius: 0px; -webkit-border-ra=
+dius: 0px; -moz-border-radius: 0px;">
+<!--<![endif]-->
+ =20
+<table style=3D"line-height: inherit; border-collapse: collapse; vertical-a=
+lign: top; color: #000000; font-family: arial,helvetica,sans-serif;" role=
+=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=
+=3D"0">
+  <tbody style=3D"line-height: inherit;">
+    <tr style=3D"line-height: inherit; border-collapse: collapse; vertical-=
+align: top;">
+      <td style=3D"line-height: inherit; border-collapse: collapse; vertica=
+l-align: top; color: #000000; overflow-wrap: break-word; word-break: break-=
+word; padding: 10px; font-family: arial,helvetica,sans-serif;" align=3D"lef=
+t">
+       =20
+  <div style=3D"line-height: inherit;">
+    <center style=3D"line-height: inherit;"><p style=3D"line-height: inheri=
+t; margin: 0;">N=C3=A3o quer receber dicas sobre carreira internacional? Cl=
+ique aqui para <a href=3D"http://url5012.dio.me/ls/click?upn=3Du001.bzFvFKg=
+ALhWpnDj-2FYgk7AGiA4mLu-2BhdhkEjOiBSH1OhHc3F82yd-2FId1VQof4TLlFgk7vIr7zOX83=
+42kfisHn1HxSaiGvzyXDWIwFavoLgsnB6QE6cnRyDZffvUq1rmCWFVZZ2-2BEbEdj1P5zh0NvZK=
+-2B0-2FA40Z44Mi2HEAfXnyQuE-3DWNtL_sOkiSdg45xV2z-2F2myqjOqSk8yvSjvGUO6RVOPiw=
+Uu4h4y4I9iIecF0LVUD9jdDpOmFwFZz5rt-2FSEWOBsx0GLCnHQtKTrUBsl86Z2p1yTdH80YcAb=
+5u5873Pm19tB4F7fEJgpIl-2FUoqIcOg3MoExkqrpcbTLFDtJcoDDyVZ5ggKWijROZa-2Fuq2ox=
+o77JRGNwIrBLkAihC6oNEd-2FhHqshvIA-3D-3D" style=3D"line-height: inherit; col=
+or: #0000ee; text-decoration: underline;">cancelar inscri=C3=A7=C3=A3o</a><=
+/p></center>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!-->
+</div>
+<!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+ =20
+
+
+    <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
+    </td>
+  </tr>
+  </tbody>
+  </table>
+  <!--[if mso]></div><![endif]-->
+  <!--[if IE]></div><![endif]-->
+<img src=3D"http://url5012.dio.me/wf/open?upn=3Du001.Uc38NygRbQhNXpXyyVB0ep=
+c8zXeETEAPvgjqk9HrZFbViHoPYsyD-2BiNDHYRj-2BUhblARro2fjEYsbxKRoKsVe7Cd7y6ifq=
+u7Kq8CfwrpIFA2PSeBZ9crbfBBM2J-2FM76juvWSdBZCYcvELUNLhJQkCdXNckR9cwdE3evBxRJ=
+-2FWYBxiefRqbJT60vHCaqchBG0eaFYmvSOBgvhAN6P4eFqWOxgH-2BGFzrvwtD7NBAPwFsSM-3=
+D" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !impo=
+rtant;width:1px !important;border-width:0 !important;margin-top:0 !importan=
+t;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !impor=
+tant;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !=
+important;padding-left:0 !important;"/></body>
+
+</html>
+
+--76a805e357ad05bbb96d02d2d8ceb019c185c76bd687772050263c562c72--

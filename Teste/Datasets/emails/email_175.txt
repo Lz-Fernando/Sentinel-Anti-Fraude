@@ -1,0 +1,1581 @@
+X-GM-THRID: 1815769069209340817
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:f23:b0:286:45bc:92ab with SMTP id fm35csp827679ysc;
+        Thu, 14 Nov 2024 22:32:05 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IFcB9WPfxy5N665yygZyWF+p7LxmnUzoMo2b35pRaXNUAFC13BestWvVQpr3pbNW+4lhVtA
+X-Received: by 2002:a05:620a:3905:b0:7b1:7da1:e733 with SMTP id af79cd13be357-7b3622ceb19mr268409685a.30.1731652325656;
+        Thu, 14 Nov 2024 22:32:05 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1731652325; cv=none;
+        d=google.com; s=arc-20240605;
+        b=KrVx27D7tZQMarWqhrPrfVnL5PU6FWdWRI4M5PWrv0VzMXfXxSa4VE0Ad7ee6+cd6K
+         GvwAvinD78tDriuDiRafkuYKRvf53KpUwGiUo2iiQ4lnWoWPux3NxpiyLpW79QDOzsPe
+         o7umttFCKIIu0o43JC298Z83ORjXVlZEjxG0Yyih1zieSScQkqz2o8FPiJwwYKk9hQua
+         yshMws9JMDw98Blbj1Nh5CAV+MA1tQOS/+IILroJz44HeOiI6kpwPchXhwnTcbb2M1JN
+         I0ChR+5aSeovT5gOezP588+tWNO9sTvEuZZDe4jA9M2ayMhwn11DG76/jX5RsklCcquO
+         SAMg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:message-id:date:content-language:mime-version:reply-to
+         :from:to:subject:list-unsubscribe:dkim-signature
+         :freelancer-domain-signer;
+        bh=g5bpqZL81HU8yza6Rk4jTJpvxW72+sikd/tJOZium+I=;
+        fh=/HdUdLVjKbjM7vqKQCg0R7d+Cuu352Lx86DUD6qVhEc=;
+        b=fOEEYvdg+IxPKirJFrgM6pGrgjkDuyFBWnc8gAecwmT912TXfmF2ErXEuhdWGgwpJl
+         xeljNJcg3bhUcNwJl1hhppggwKmGWkS2EuEi5d56lz79btDnFiWtzdf+yFfLYaJJCDeN
+         /tSvyun1khrVQRHXlCxUlhxqP/6eWxgk4dOI8Ki0iguw7IK/YbiIWNqZtSmCMZHy/Ap8
+         IuiBvSDafoknoJzPvraOEhS+SOz+5cisfs4LOqGtsPuzVYjmZT6T+BZl3v3ejOiYvHfl
+         +/jAnx5xd+FHj6j/0NuajGXHDHdH0hJ0lmkVegiCXLf2VqSSlUNcuXXdFjnEp+lvzq7N
+         uCcQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass (test mode) header.i=@freelancer.com header.s=mail header.b=WJL7skzR;
+       spf=pass (google.com: domain of noreply@notifications.freelancer.com designates 174.129.202.232 as permitted sender) smtp.mailfrom=noreply@notifications.freelancer.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=notifications.freelancer.com
+Return-Path: <noreply@notifications.freelancer.com>
+Received: from mail002.use.t2.freelancer.com (mail002.use.t2.freelancer.com. [174.129.202.232])
+        by mx.google.com with UTF8SMTPS id af79cd13be357-7b35c96fdbbsi282770685a.138.2024.11.14.22.32.05
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 14 Nov 2024 22:32:05 -0800 (PST)
+Received-SPF: pass (google.com: domain of noreply@notifications.freelancer.com designates 174.129.202.232 as permitted sender) client-ip=174.129.202.232;
+Authentication-Results: mx.google.com;
+       dkim=pass (test mode) header.i=@freelancer.com header.s=mail header.b=WJL7skzR;
+       spf=pass (google.com: domain of noreply@notifications.freelancer.com designates 174.129.202.232 as permitted sender) smtp.mailfrom=noreply@notifications.freelancer.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=notifications.freelancer.com
+freelancer-domain-signer: signer-01
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=freelancer.com;
+ i=@freelancer.com; q=dns/txt; s=mail; t=1731652325; h=subject : to :
+ from : date; bh=GnYeBCCO54j9Lq6lVVCofED/wtvt9xhm77gwaK03P7A=;
+ b=WJL7skzRGoI8Le2ZSx0H1LnDdgHLKO74bgxpnzhrb+mcKGsELKH7Ml2BB1Bzl8uaec5Nz
+ IYerlRRkTFiwdQLAkppGkoaMrYjWfWa6M/7dszYLy+3AppBPFZvW9diSSqJelowjAoW/D10
+ aftDDvxQ+EONfowGnGf74031xZoK5Iw=
+List-Unsubscribe: 
+ <http://www.freelancer.com/bl-email/unsubscribe.php?id=78205122&token=a0e0ae73a47cc486a83e9eae5e088302&subject=Unsubscribe-Luiz%2BFernando%252C%2Bthese%2BHTML%252C%2BWebsite%2BDesign%252C%2Band%2BPHP%2Bprojects%2Band%2Bcontests%2Bmight%2Binterest%2Byou-78205122>
+Subject: Luiz Fernando, these HTML, Website Design,
+ and PHP projects and contests might interest you
+To: nandobritoferreira@gmail.com
+From: Freelancer.com <noreply@notifications.freelancer.com>
+Reply-To: Freelancer.com <noreply@notifications.freelancer.com>
+MIME-version: 1.0
+Content-language: en
+X-Priority: 3 (Normal)
+X-Accept-Language: en
+Content-Type: multipart/alternative;
+ 	boundary="b1_90923763339ccf630ad7b27ab4908037"
+Date: Fri, 15 Nov 2024 01:32:05 -0500
+Message-Id: <noreply+mailer-6736eae5497852.84833093@freelancer.com>
+Feedback-ID: 
+ email|latest-projects-and-contests-ab-test:user|78205122:tier|lpcn:freelancer
+
+--b1_90923763339ccf630ad7b27ab4908037
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+(https://www.freelancer.com/)
+
+Hi Luiz Fernando,
+
+Here are the latest projects and contests matching your skills. Updating =
+your profile and skills can make these recommendations even more relevant =
+for you.
+
+=3D=3D=3D=3D=3D=3D=3D=3D
+Projects
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+expert in woocommerce -- 2
+Budget: $8 - $21 USD
+Skills: HTML, PHP, Website Design, WooCommerce, WordPress
+Description:
+I should create a system on woocommerce. The customer at the time of =
+purchase can select whether the purchase is a gift or not. If he selects a =
+gift, he must add the name of the person to whom he wants to give this =
+gift ...
+/projects/php/expert-woocommerce-38788192.html?utm_campaign=3Dlatest_proje=
+ct_contest&utm_medium=3Demail_notification&utm_source=3Dproject_url&utm_co=
+ntent=3Dplain&ttref=3DProject_LPCNplain
+
+Senior Machine Learning Data Specialist
+Budget: $25 - $50 USD/hr
+Skills: Machine Learning (ML), Predictive Analytics, Python, Statistical =
+Analysis, Statistics
+Description:
+I'm in need of a seasoned Data & AI expert, particularly proficient in =
+machine learning, with a focus on Clustering and Predictive Learning, Key =
+Responsibilities: - Develop and implement predictive models using machine =
+...
+/projects/python/Senior-Machine-Learning-Data-Specialist.html?utm_campaign=
+=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3Dpro=
+ject_url&utm_content=3Dplain&ttref=3DProject_LPCNplain
+
+Fun & Vibrant Service Website Design
+Budget: $250 - $750 USD
+Skills: Graphic Design, HTML, PHP, User Interface / IA, Website Design
+Description:
+I'm looking for a designer who can create a fun and playful website for my =
+services business. We handle tasks like dog poop pickup, leaf raking, and =
+gutter cleaning. This website should pull inspiration from sites like p =
+...
+/projects/website-design/Fun-Vibrant-Service-Website-Design.html?utm_campa=
+ign=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3D=
+project_url&utm_content=3Dplain&ttref=3DProject_LPCNplain
+
+Movie Booking Website Data Scraper
+Budget: $18 - $148 USD
+Skills: .NET Core Web API, AngularJS, HTML, Web Scraping
+Description:
+I'm looking for a skilled web developer who can create a website scraper =
+for me. The scraper will be used to fetch data from various movie booking =
+websites and display it on my site with live updates. The data I need t =
+...
+/projects/Movie-Booking-Website-Data-Scraper.html?utm_campaign=3Dlatest_pr=
+oject_contest&utm_medium=3Demail_notification&utm_source=3Dproject_url&utm=
+_content=3Dplain&ttref=3DProject_LPCNplain
+
+Custom PHP/ Core PHP Code Work / New Junior Freelancer Work
+Budget: $2 - $8 USD/hr
+Skills: Graphic Design, HTML, MySQL, PHP, Website Design
+Description:
+I'm looking for a junior Core PHP coder to assist with my project. - Type: =
+easy projects in PHP - Skills: Proficient in PHP, knowledge of website =
+development. - Experience: Custom/ Core PHP Coder
+/projects/php/Custom-PHP-Core-PHP-Code.html?utm_campaign=3Dlatest_project_=
+contest&utm_medium=3Demail_notification&utm_source=3Dproject_url&utm_conte=
+nt=3Dplain&ttref=3DProject_LPCNplain
+
+AI Workflow Optimization Specialist Needed
+Budget: $10 - $16 USD/hr
+Skills: AI Chatbot, AI Chatbot Development, AI Content Writing, AI =
+Development, Graphic Design, Java, Machine Learning (ML), Python, Software =
+Architecture
+Description:
+I'm seeking a Python and AI expert, proficient in Replit, to help me =
+refine my existing AI workflow primarily focused on data preprocessing. =
+Key Requirements: - Optimize the current AI workflow with a keen focus on =
+e ...
+/projects/graphic-design/Workflow-Optimization-Specialist-Needed.html?utm_=
+campaign=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_sour=
+ce=3Dproject_url&utm_content=3Dplain&ttref=3DProject_LPCNplain
+
+Design a PDF Vascular Ultrasound Referral Form
+Featured
+Budget: $19 - $161 USD
+Skills: Graphic Design, HTML, Logo Design, Photoshop, Website Design
+Description:
+I am seeking a freelancer to modify a template I've provided into a PDF =
+vascular ultrasound referral form for my clinic in Sydney. This form will =
+be used for our vascular ultrasound service. Requirements: - Modify an e =
+...
+/projects/graphic-design/Design-PDF-Vascular-Ultrasound-Referral.html?utm_=
+campaign=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_sour=
+ce=3Dproject_url&utm_content=3Dplain&ttref=3DProject_LPCNplain
+
+Product-Centric Business Website Development
+Budget: $161 - $484 USD
+Skills: Graphic Design, HTML, PHP, Website Design
+Description:
+I am seeking a proficient web developer to create a business-oriented, =
+product-based website for me. This site should showcase a comprehensive =
+product catalog without the necessity for e-commerce functionality at this =
+st ...
+/projects/Product-Centric-Business-Website.html?utm_campaign=3Dlatest_proj=
+ect_contest&utm_medium=3Demail_notification&utm_source=3Dproject_url&utm_c=
+ontent=3Dplain&ttref=3DProject_LPCNplain
+
+Hosting, CRM, Email Simplification Expert Needed
+Budget: $30 - $250 USD
+Skills: HTML, PHP, Web Hosting, Website Design, Website Management
+Description:
+I'm seeking a professional with extensive knowledge in hosting, website =
+migration, and Email CRM migration. The goal is to simplify my tech stack. =
+- Hosting Management: I need assistance in setting up new hosting. - W ...
+/projects/php/Hosting-CRM-Email-Simplification-Expert.html?utm_campaign=3D=
+latest_project_contest&utm_medium=3Demail_notification&utm_source=3Dprojec=
+t_url&utm_content=3Dplain&ttref=3DProject_LPCNplain
+
+Application Server Setup for Game
+Budget: $15 - $30 USD/hr
+Skills: Amazon Web Services, Linux, Network Administration, Testing / QA, =
+Windows Server
+Description:
+I am looking to hire a proficient DevOps Engineer who can set up an =
+application server for our game. Key Responsibilities: - Setup of a =
+reliable application server. - Ensure the server is optimized for gaming =
+performanc ...
+/projects/network-administration/Application-Server-Setup-for-Game.html?ut=
+m_campaign=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_so=
+urce=3Dproject_url&utm_content=3Dplain&ttref=3DProject_LPCNplain
+
+Doctor Appointment Apps & Web & Jobs Portal Enhancement
+Budget: $30 - $250 USD
+Skills: Android, HTML, iPhone, Mobile App Development, PHP
+Description:
+I'm seeking a skilled developer to modify my current Doctor appointment =
+mobile apps and web platform. Project Requirements: - Apply a new homepage =
+from a provided template to both the mobile app and the web. - Alter the =
+...
+/projects/php/Doctor-Appointment-Apps-Web-Jobs-38788372.html?utm_campaign=
+=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3Dpro=
+ject_url&utm_content=3Dplain&ttref=3DProject_LPCNplain
+
+Exam Portal Development for Hiring Startup
+Budget: $18 - $148 USD
+Skills: Graphic Design, HTML, MySQL, PHP, Website Design
+Description:
+I'm seeking a developer to create a comprehensive exam portal for our =
+hiring startup. The platform should be user-friendly and robust, catering =
+to different user types - candidates, hiring managers, and admin staff. =
+Key ...
+/projects/php/Exam-Portal-Development-for-Hiring-38788375.html?utm_campaig=
+n=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3Dpr=
+oject_url&utm_content=3Dplain&ttref=3DProject_LPCNplain
+
+Modern Minimalistic WordPress Data-Driven Design
+Budget: $30 - $250 USD
+Skills: API, CSS, HTML, MySQL, WordPress
+Description:
+I'm seeking a WordPress expert to assist with a straightforward yet =
+crucial project. The task involves importing data from a CSV file into a =
+set of conditional logic options, crafting a sophisticated, high-end =
+drop-down ...
+/projects/wordpress/Modern-Minimalistic-WordPress-Data.html?utm_campaign=
+=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3Dpro=
+ject_url&utm_content=3Dplain&ttref=3DProject_LPCNplain
+
+React.js Portal Development with Material-Tailwind
+Budget: $18 - $148 USD
+Skills: HTML, HTML5, JavaScript, React.js
+Description:
+I need a skilled React.js developer to create a portal using the =
+Material-Tailwind Dashboard template. The project will involve around 10 =
+pages for various management tasks. Key Features: - User authentication =
+via OAut ...
+/projects/javascript/React-Portal-Development-with-Material.html?utm_campa=
+ign=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3D=
+project_url&utm_content=3Dplain&ttref=3DProject_LPCNplain
+
+Full stack developer API Integration & openai Implementation
+Budget: $18 - $148 USD
+Skills: Full Stack Development, HTML, MERN Stack, PHP, Website Design
+Description:
+I'm looking for a seasoned developer who can integrate 25 different app =
+APIs into my project. This includes the gemini natural language API. Key =
+Features: - New message functionality - AI settings - A dedicated workspa =
+...
+/projects/php/Full-stack-developer-API-Integration-38788468.html?utm_campa=
+ign=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3D=
+project_url&utm_content=3Dplain&ttref=3DProject_LPCNplain
+
+Wordpress Developer
+Budget: $148 - $444 USD
+Skills: eCommerce, HTML, Shopify, Shopify Templates, Website Design
+Description:
+Hey! I need a website exact like ([login to view URL] ) but need a header =
+like this website ( [login to view URL] ) So if possible then please lemme =
+know who can develop the website for me
+/projects/ecommerce/Wordpress-Developer-38788492.html?utm_campaign=3Dlates=
+t_project_contest&utm_medium=3Demail_notification&utm_source=3Dproject_url=
+&utm_content=3Dplain&ttref=3DProject_LPCNplain
+
+Simple, Modern, Professional Construction Website
+Budget: $30 - $250 USD
+Skills: Graphic Design, HTML, PHP, Website Design, WordPress
+Description:
+I'm in need of a simple yet modern construction website with a =
+professional and corporate design style. Key sections of the website =
+should include: - Main Page - About Us: A brief description of our =
+company, our mission ...
+/projects/website-design/Simple-Modern-Professional-Construction.html?utm_=
+campaign=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_sour=
+ce=3Dproject_url&utm_content=3Dplain&ttref=3DProject_LPCNplain
+
+Python + Java Developer
+Budget: $888 - $1776 USD
+Skills: Java, Python
+Description:
+We have multiple opening into Python Department: 1) Python + Java =
+2)Python- 3 + Years 3)Python Developer- 5+ Years
+/projects/python/Python-Java-Developer-38788483.html?utm_campaign=3Dlatest=
+_project_contest&utm_medium=3Demail_notification&utm_source=3Dproject_url&=
+utm_content=3Dplain&ttref=3DProject_LPCNplain
+
+Custom E-commerce Web Development
+Budget: $7 - $18 USD
+Skills: Graphic Design, HTML, PHP, Website Design, WordPress
+Description:
+I'm looking for a skilled web developer who can create a bespoke =
+e-commerce website for me. This is not a project for Shopify or =
+WooCommerce; I want a completely custom-built platform. Key requirements: =
+- Expert in web ...
+/projects/website-design/Custom-commerce-Web-Development.html?utm_campaign=
+=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3Dpro=
+ject_url&utm_content=3Dplain&ttref=3DProject_LPCNplain
+
+AI Chatbot Development for Healthcare services
+Budget: $7 - $59 USD
+Skills: CSS, Express JS, HTML, MySQL, Node.js
+Description:
+I'm looking for an AI Chatbot website, similar to ChatGPT, that serves =
+both customer support and educational purposes. This project requires the =
+chatbot to handle various functions, from technical assistance to =
+providing ...
+/projects/html/Chatbot-Development-for-Healthcare.html?utm_campaign=3Dlate=
+st_project_contest&utm_medium=3Demail_notification&utm_source=3Dproject_ur=
+l&utm_content=3Dplain&ttref=3DProject_LPCNplain
+
+Professional Squarespace Website Designer/Developer
+Budget: $968 - $1937 USD
+Skills: Graphic Design, HTML, SEO, User Interface / IA, Website Design
+Description:
+I'm looking for a skilled Squarespace developer to create a professional , =
+clean and innovative website for me. The website should encompass the =
+following essential pages: - Home - About - Contact - Services - Portfolio =
+...
+/projects/graphic-design/Professional-Squarespace-Website.html?utm_campaig=
+n=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3Dpr=
+oject_url&utm_content=3Dplain&ttref=3DProject_LPCNplain
+
+=3D=3D=3D=3D=3D=3D=3D=3D
+Contests
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+Soccer players Scout Record
+Guaranteed
+Prize: $190 USD
+Skills: Android, HTML, Mobile App Development, PHP, Website Design
+Description:
+A control panel that specializes in adding data on football players who =
+are subject to continuous monitoring and updating by multiple users =
+according to multiple powers. With the possibility of classifying the =
+lists and ...
+/contest/Soccer-players-Scout-Record-2484862.html?utm_campaign=3Dlatest_pr=
+oject_contest&utm_medium=3Demail_notification&utm_source=3Dcontest_url&utm=
+_content=3Dplain
+
+vitamine.org - design and develop a figma UX UI website
+Guaranteed, Sealed
+Prize: $250 USD
+Skills: Figma, Graphic Design, UI / User Interface, UX / User Experience, =
+Website Design
+Description:
+Design a User-Friendly Supplement Website with Figma for [login to view =
+URL] !!!Please also note the detailed files in the attachment. The text =
+here is merely a brief summary!!! Description: We are seeking an =
+experienced web d ...
+/contest/2484955.html?utm_campaign=3Dlatest_project_contest&utm_medium=3De=
+mail_notification&utm_source=3Dcontest_url&utm_content=3Dplain
+
+Modern UI Design for Web App - 14/11/2024 16:56 EST
+Prize: $18 USD
+Skills: Figma, Graphic Design, User Interface / IA, UX / User Experience, =
+Website Design
+Description:
+I'm looking for a modern styled UI design for my web application. The =
+design should be clean, intuitive and user-friendly, consistent with a =
+contemporary aesthetic. Key Skills and Experience Needed: - Proven =
+experience ...
+/contest/Modern-UI-Design-for-Web-App-14-11-2024-16-56-EST-2484964.html?ut=
+m_campaign=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_so=
+urce=3Dcontest_url&utm_content=3Dplain
+
+View more jobs matching your skills at:
+/search/projects/?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail=
+_notification&utm_source=3Dviewmore&utm_content=3Dplain&ttref=3DProject_LP=
+CNplain
+
+Regards,
+
+The Freelancer Team
+
+=C2=A9 2024 Freelancer Technology Pty Limited. All Rights Reserved.
+
+Level 37, 225 George Street, Sydney, NSW 2000, Australia
+
+Privacy Policy (https://www.freelancer.com/page.php?p=3Dinfo%2Fprivacy)  | =
+ Terms and Conditions =
+(https://www.freelancer.com/page.php?p=3Dinfo%2Fterms)  |  Unsubscribe =
+(https://www.freelancer.com/users/email/subscriptions.php?token=3DeyJhbGci=
+OiJIUzI1NiIsInR5cCI6IkZyZWVsYW5jZXJcXEdBRlxcQ29yZVxcSldUXFxKV1QifQ.eyJpZCI=
+6Ijc4MjA1MTIyIiwic3ViIjoidW5zdWJzY3JpYmUiLCJpYXQiOjE3MzE2NTIzMjV9.oLbjlcVA=
+bkhtpZpsZTecZeM6-OXKu48StabYOZrIItw)  |  Get Support =
+(https://www.freelancer.com/support)  |  Get Free Credit =
+(https://www.freelancer.com/give?from=3Demail_footer)
+
+Facebook (https://www.facebook.com/fansoffreelancer)
+
+Twitter (https://twitter.com/freelancer)
+
+Instagram (https://www.instagram.com/freelancerofficial)
+
+Download our mobile app (https://www.freelancer.com/download)
+
+(https://www.freelancer.com/download)
+
+
+
+--b1_90923763339ccf630ad7b27ab4908037
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!doctypehtml PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w=
+3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3Dhttp://www.w3.or=
+g/1999/xhtml><meta content=3D"text/html; charset=3DUTF-8"http-equiv=3DConte=
+nt-Type><style>html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%=
+;font-size:100%}body{color:#0e1724;background-color:#fff;margin:0;font-size=
+:14px;line-height:18px}a{color:#0087e0;border:0;text-decoration:none}a:hove=
+r{color:#139ff0;text-decoration:underline}p{color:#0e1724;margin:0!importan=
+t;padding:0!important}img{border:none}</style><style>td{font-family:Helveti=
+ca,Arial,sans-serif!important}</style><body style=3Dbackground-color:#fff><=
+table align=3Dcenter bgcolor=3D#FFFFFF border=3D0 cellpadding=3D0 cellspaci=
+ng=3D0 height=3D100% style=3Dfont-family:Helvetica,Arial,sans-serif!importa=
+nt width=3D100%><tr><td><table align=3Dcenter border=3D0 cellpadding=3D0 ce=
+llspacing=3D0 width=3D690><tr><td align=3Dcenter width=3D100%><a href=3Dhtt=
+ps://www.freelancer.com/?uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=
+=3D0> <img alt border=3D0 src=3Dhttps://cdn3.f-cdn.com/img/email-images/com=
+mon/logo_300.png?v=3D834faebc40fa464bac75aca01de49a50&m=3D6&buildVersion=3D=
+f7444e6f1d143d44061faeb466493d38bcee3988 style=3Dpadding:30px;display:block=
+ width=3D150> </a><tr><td align=3Dcenter width=3D100%><table align=3Dcenter=
+ bgcolor=3D#ffffff border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%>=
+<tbody><tr><td><table align=3Dleft border=3D0 cellpadding=3D0 cellspacing=
+=3D0 width=3D100%><table align=3Dcenter border=3D0 cellpadding=3D0 cellspac=
+ing=3D0 width=3D100%><tr><td colspan=3D3 height=3D32><tr><td width=3D32><td=
+><span style=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvetic=
+a,Arial,sans-serif;font-size:22px;font-weight:700;line-height:1.5>Hi Luiz F=
+ernando,</span><td width=3D32></table></table><tr><td align=3Dcenter width=
+=3D100%><table align=3Dcenter border=3D0 cellpadding=3D0 cellspacing=3D0 wi=
+dth=3D100%><tr bgcolor=3D#ffffff><td width=3D32><td><table align=3Dcenter b=
+order=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td height=3D24>=
+<tr><td><span style=3Dcolor:#000;mso-line-height-rule:exactly;font-family:H=
+elvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.5>He=
+re are the latest projects and contests matching your <a href=3Dhttps://www=
+.freelancer.com/me/?page=3Dedit_skills&utm_campaign=3Dlatest_project_contes=
+t&utm_medium=3Demail&utm_source=3Dskills&utm_content=3Dhtml&uniqid=3D782051=
+22-481140-6736eae5-ebdb00c1&linkid=3D1 style=3Dcolor:#000;font-weight:700 t=
+arget=3D_blank> skills</a>:</span><tr><td height=3D24><tr><td><table align=
+=3Dcenter border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td><=
+table align=3Dcenter bgcolor=3D#313640 border=3D0 cellpadding=3D0 cellspaci=
+ng=3D0 height=3D38 width=3D100%><tr><td width=3D16><td align=3Dleft valign=
+=3Dmiddle width=3D440><span style=3Dcolor:#fff;mso-line-height-rule:exactly=
+;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:700;line=
+-height:1.5>PROJECT DESCRIPTION</span><td width=3D16><td width=3D130>  <spa=
+n style=3Dcolor:#fff;mso-line-height-rule:exactly;font-family:Helvetica,Ari=
+al,sans-serif;font-size:12px;font-weight:700;line-height:1.5>BUDGET</span><=
+td width=3D16></table><tr><td><table style=3D"border:1px solid #ccc"align=
+=3Dcenter bgcolor=3D#ffffff border=3D0 cellpadding=3D0 cellspacing=3D0 widt=
+h=3D100%><tr><td width=3D16><td style=3D"padding:16px 0"align=3Dleft height=
+=3D86 valign=3Dtop width=3D440><table border=3D0 cellpadding=3D0 cellspacin=
+g=3D0><tr><td><a href=3Dhttps://www.freelancer.com/projects/php/expert-wooc=
+ommerce-38788192/?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail_=
+notification&utm_source=3Dproject_title&utm_content=3Dhtml&ttref=3DProject_=
+LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D2 style=3Dcolo=
+r:#007fed;font-weight:700 target=3D_blank> <span style=3Dcolor:#007fed;mso-=
+line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:1=
+6px;font-weight:700;line-height:1.5>expert in woocommerce -- 2</span> </a> =
+=C2=A0<tr><td height=3D4><tr><td><span style=3Dcolor:#000;mso-line-height-r=
+ule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weig=
+ht:400;line-height:1.5>I should create a system on woocommerce. The custome=
+r at the time of purchase can select whether the purchase is a gift or not.=
+ If he selects a gift, he must add the name of the person to whom he wants =
+to give this gift</span> ... <a href=3Dhttps://www.freelancer.com/projects/=
+php/expert-woocommerce-38788192/?utm_campaign=3Dlatest_project_contest&utm_=
+medium=3Demail_notification&utm_source=3Dproject_title&utm_content=3Dhtml&t=
+tref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=
+=3D3 style=3Dcolor:#007fed;font-weight:400 target=3D_blank> <span style=3Dc=
+olor:#007fed;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-=
+serif;font-size:12px;font-weight:400;line-height:1.5>See more</span> </a><t=
+r><td height=3D4><tr><td><span style=3Dcolor:#000;mso-line-height-rule:exac=
+tly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:700;l=
+ine-height:1.5>Skills:=C2=A0</span> <span style=3Dcolor:#000;mso-line-heigh=
+t-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-w=
+eight:400;line-height:1.5>HTML | PHP | Website Design | WooCommerce | WordP=
+ress</span></table><td width=3D16><td style=3D"padding:16px 0"align=3Dleft =
+valign=3Dtop width=3D130><table border=3D0 cellpadding=3D0 cellspacing=3D0 =
+width=3D100%><tr><td><span style=3Dcolor:#000;mso-line-height-rule:exactly;=
+font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-=
+height:1.5>$8 - $21 USD</span><tr><td height=3D4><tr><td align=3Dleft style=
+=3Dwhite-space:nowrap><table border=3D0 cellpadding=3D0 cellspacing=3D0 wid=
+th=3D100%><tr><td align=3Dcenter bgcolor=3D#77BE53><a style=3D"border:1px s=
+olid #77be53;padding:5px 10px;text-decoration:none;display:inline-block"hre=
+f=3Dhttps://www.freelancer.com/projects/php/expert-woocommerce-38788192/?ut=
+m_campaign=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_sou=
+rce=3Dproject_cta&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D7820=
+5122-481140-6736eae5-ebdb00c1&linkid=3D4 target=3D_blank> <span style=3Dcol=
+or:#fff;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif=
+;font-size:14px;font-weight:700;line-height:1.5>Bid now</span> </a></table>=
+</table><td width=3D16><tr><td bgcolor=3D#cccccc colspan=3D5 height=3D1 sty=
+le=3Dmargin:0;padding:0;font-size:0;line-height:0><tr><td width=3D16><td st=
+yle=3D"padding:16px 0"align=3Dleft height=3D86 valign=3Dtop width=3D440><ta=
+ble border=3D0 cellpadding=3D0 cellspacing=3D0><tr><td><a href=3Dhttps://ww=
+w.freelancer.com/projects/python/Senior-Machine-Learning-Data-Specialist/?u=
+tm_campaign=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_so=
+urce=3Dproject_title&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D7=
+8205122-481140-6736eae5-ebdb00c1&linkid=3D5 style=3Dcolor:#007fed;font-weig=
+ht:700 target=3D_blank> <span style=3Dcolor:#007fed;mso-line-height-rule:ex=
+actly;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:700=
+;line-height:1.5>Senior Machine Learning Data Specialist</span> </a> =C2=A0=
+<tr><td height=3D4><tr><td><span style=3Dcolor:#000;mso-line-height-rule:ex=
+actly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:400=
+;line-height:1.5>I'm in need of a seasoned Data & AI expert, particularly p=
+roficient in machine learning, with a focus on Clustering and Predictive Le=
+arning, Key Responsibilities: - Develop and implement predictive models usi=
+ng machine</span> ... <a href=3Dhttps://www.freelancer.com/projects/python/=
+Senior-Machine-Learning-Data-Specialist/?utm_campaign=3Dlatest_project_cont=
+est&utm_medium=3Demail_notification&utm_source=3Dproject_title&utm_content=
+=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1=
+&linkid=3D6 style=3Dcolor:#007fed;font-weight:400 target=3D_blank> <span st=
+yle=3Dcolor:#007fed;mso-line-height-rule:exactly;font-family:Helvetica,Aria=
+l,sans-serif;font-size:12px;font-weight:400;line-height:1.5>See more</span>=
+ </a><tr><td height=3D4><tr><td><span style=3Dcolor:#000;mso-line-height-ru=
+le:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weigh=
+t:700;line-height:1.5>Skills:=C2=A0</span> <span style=3Dcolor:#000;mso-lin=
+e-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px=
+;font-weight:400;line-height:1.5>Machine Learning (ML) | Predictive Analyti=
+cs | Python | Statistical Analysis | Statistics</span></table><td width=3D1=
+6><td style=3D"padding:16px 0"align=3Dleft valign=3Dtop width=3D130><table =
+border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td><span style=
+=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans=
+-serif;font-size:16px;font-weight:700;line-height:1.5>$25 - $50 USD /hr</sp=
+an><tr><td height=3D4><tr><td align=3Dleft style=3Dwhite-space:nowrap><tabl=
+e border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td align=3Dc=
+enter bgcolor=3D#77BE53><a style=3D"border:1px solid #77be53;padding:5px 10=
+px;text-decoration:none;display:inline-block"href=3Dhttps://www.freelancer.=
+com/projects/python/Senior-Machine-Learning-Data-Specialist/?utm_campaign=
+=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3Dproj=
+ect_cta&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-48114=
+0-6736eae5-ebdb00c1&linkid=3D7 target=3D_blank> <span style=3Dcolor:#fff;ms=
+o-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size=
+:14px;font-weight:700;line-height:1.5>Bid now</span> </a></table></table><t=
+d width=3D16><tr><td bgcolor=3D#cccccc colspan=3D5 height=3D1 style=3Dmargi=
+n:0;padding:0;font-size:0;line-height:0><tr><td width=3D16><td style=3D"pad=
+ding:16px 0"align=3Dleft height=3D86 valign=3Dtop width=3D440><table border=
+=3D0 cellpadding=3D0 cellspacing=3D0><tr><td><a href=3Dhttps://www.freelanc=
+er.com/projects/website-design/Fun-Vibrant-Service-Website-Design/?utm_camp=
+aign=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3D=
+project_title&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122=
+-481140-6736eae5-ebdb00c1&linkid=3D8 style=3Dcolor:#007fed;font-weight:700 =
+target=3D_blank> <span style=3Dcolor:#007fed;mso-line-height-rule:exactly;f=
+ont-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-h=
+eight:1.5>Fun & Vibrant Service Website Design</span> </a> =C2=A0<tr><td he=
+ight=3D4><tr><td><span style=3Dcolor:#000;mso-line-height-rule:exactly;font=
+-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-heig=
+ht:1.5>I'm looking for a designer who can create a fun and playful website =
+for my services business. We handle tasks like dog poop pickup, leaf raking=
+, and gutter cleaning. This website should pull inspiration from sites like=
+ p</span> ... <a href=3Dhttps://www.freelancer.com/projects/website-design/=
+Fun-Vibrant-Service-Website-Design/?utm_campaign=3Dlatest_project_contest&u=
+tm_medium=3Demail_notification&utm_source=3Dproject_title&utm_content=3Dhtm=
+l&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linki=
+d=3D9 style=3Dcolor:#007fed;font-weight:400 target=3D_blank> <span style=3D=
+color:#007fed;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans=
+-serif;font-size:12px;font-weight:400;line-height:1.5>See more</span> </a><=
+tr><td height=3D4><tr><td><span style=3Dcolor:#000;mso-line-height-rule:exa=
+ctly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:700;=
+line-height:1.5>Skills:=C2=A0</span> <span style=3Dcolor:#000;mso-line-heig=
+ht-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-=
+weight:400;line-height:1.5>Graphic Design | HTML | PHP | User Interface / I=
+A | Website Design</span></table><td width=3D16><td style=3D"padding:16px 0=
+"align=3Dleft valign=3Dtop width=3D130><table border=3D0 cellpadding=3D0 ce=
+llspacing=3D0 width=3D100%><tr><td><span style=3Dcolor:#000;mso-line-height=
+-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-we=
+ight:700;line-height:1.5>$250 - $750 USD</span><tr><td height=3D4><tr><td a=
+lign=3Dleft style=3Dwhite-space:nowrap><table border=3D0 cellpadding=3D0 ce=
+llspacing=3D0 width=3D100%><tr><td align=3Dcenter bgcolor=3D#77BE53><a styl=
+e=3D"border:1px solid #77be53;padding:5px 10px;text-decoration:none;display=
+:inline-block"href=3Dhttps://www.freelancer.com/projects/website-design/Fun=
+-Vibrant-Service-Website-Design/?utm_campaign=3Dlatest_project_contest&utm_=
+medium=3Demail_notification&utm_source=3Dproject_cta&utm_content=3Dhtml&ttr=
+ef=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D1=
+0 target=3D_blank> <span style=3Dcolor:#fff;mso-line-height-rule:exactly;fo=
+nt-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;line-he=
+ight:1.5>Bid now</span> </a></table></table><td width=3D16><tr><td bgcolor=
+=3D#cccccc colspan=3D5 height=3D1 style=3Dmargin:0;padding:0;font-size:0;li=
+ne-height:0><tr><td width=3D16><td style=3D"padding:16px 0"align=3Dleft hei=
+ght=3D86 valign=3Dtop width=3D440><table border=3D0 cellpadding=3D0 cellspa=
+cing=3D0><tr><td><a href=3Dhttps://www.freelancer.com/projects/Movie-Bookin=
+g-Website-Data-Scraper/?utm_campaign=3Dlatest_project_contest&utm_medium=3D=
+email_notification&utm_source=3Dproject_title&utm_content=3Dhtml&ttref=3DPr=
+oject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D11 style=
+=3Dcolor:#007fed;font-weight:700 target=3D_blank> <span style=3Dcolor:#007f=
+ed;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font=
+-size:16px;font-weight:700;line-height:1.5>Movie Booking Website Data Scrap=
+er</span> </a> =C2=A0<tr><td height=3D4><tr><td><span style=3Dcolor:#000;ms=
+o-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size=
+:12px;font-weight:400;line-height:1.5>I'm looking for a skilled web develop=
+er who can create a website scraper for me. The scraper will be used to fet=
+ch data from various movie booking websites and display it on my site with =
+live updates. The data I need t</span> ... <a href=3Dhttps://www.freelancer=
+.com/projects/Movie-Booking-Website-Data-Scraper/?utm_campaign=3Dlatest_pro=
+ject_contest&utm_medium=3Demail_notification&utm_source=3Dproject_title&utm=
+_content=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-=
+ebdb00c1&linkid=3D12 style=3Dcolor:#007fed;font-weight:400 target=3D_blank>=
+ <span style=3Dcolor:#007fed;mso-line-height-rule:exactly;font-family:Helve=
+tica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.5>See mo=
+re</span> </a><tr><td height=3D4><tr><td><span style=3Dcolor:#000;mso-line-=
+height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;f=
+ont-weight:700;line-height:1.5>Skills:=C2=A0</span> <span style=3Dcolor:#00=
+0;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-=
+size:12px;font-weight:400;line-height:1.5>.NET Core Web API | AngularJS | H=
+TML | Web Scraping</span></table><td width=3D16><td style=3D"padding:16px 0=
+"align=3Dleft valign=3Dtop width=3D130><table border=3D0 cellpadding=3D0 ce=
+llspacing=3D0 width=3D100%><tr><td><span style=3Dcolor:#000;mso-line-height=
+-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-we=
+ight:700;line-height:1.5>$18 - $148 USD</span><tr><td height=3D4><tr><td al=
+ign=3Dleft style=3Dwhite-space:nowrap><table border=3D0 cellpadding=3D0 cel=
+lspacing=3D0 width=3D100%><tr><td align=3Dcenter bgcolor=3D#77BE53><a style=
+=3D"border:1px solid #77be53;padding:5px 10px;text-decoration:none;display:=
+inline-block"href=3Dhttps://www.freelancer.com/projects/Movie-Booking-Websi=
+te-Data-Scraper/?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail_n=
+otification&utm_source=3Dproject_cta&utm_content=3Dhtml&ttref=3DProject_LPC=
+Nhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D13 target=3D_blan=
+k> <span style=3Dcolor:#fff;mso-line-height-rule:exactly;font-family:Helvet=
+ica,Arial,sans-serif;font-size:14px;font-weight:700;line-height:1.5>Bid now=
+</span> </a></table></table><td width=3D16><tr><td bgcolor=3D#cccccc colspa=
+n=3D5 height=3D1 style=3Dmargin:0;padding:0;font-size:0;line-height:0><tr><=
+td width=3D16><td style=3D"padding:16px 0"align=3Dleft height=3D86 valign=
+=3Dtop width=3D440><table border=3D0 cellpadding=3D0 cellspacing=3D0><tr><t=
+d><a href=3Dhttps://www.freelancer.com/projects/php/Custom-PHP-Core-PHP-Cod=
+e/?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail_notification&ut=
+m_source=3Dproject_title&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=
+=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D14 style=3Dcolor:#007fed;font=
+-weight:700 target=3D_blank> <span style=3Dcolor:#007fed;mso-line-height-ru=
+le:exactly;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weigh=
+t:700;line-height:1.5>Custom PHP/ Core PHP Code Work / New Junior Freelance=
+r Work</span> </a> =C2=A0<tr><td height=3D4><tr><td><span style=3Dcolor:#00=
+0;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-=
+size:12px;font-weight:400;line-height:1.5>I'm looking for a junior Core PHP=
+ coder to assist with my project. - Type: easy projects in PHP - Skills: Pr=
+oficient in PHP, knowledge of website development. - Experience: Custom/ Co=
+re PHP Coder</span><tr><td height=3D4><tr><td><span style=3Dcolor:#000;mso-=
+line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:1=
+2px;font-weight:700;line-height:1.5>Skills:=C2=A0</span> <span style=3Dcolo=
+r:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;=
+font-size:12px;font-weight:400;line-height:1.5>Graphic Design | HTML | MySQ=
+L | PHP | Website Design</span></table><td width=3D16><td style=3D"padding:=
+16px 0"align=3Dleft valign=3Dtop width=3D130><table border=3D0 cellpadding=
+=3D0 cellspacing=3D0 width=3D100%><tr><td><span style=3Dcolor:#000;mso-line=
+-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:16px;=
+font-weight:700;line-height:1.5>$2 - $8 USD /hr</span><tr><td height=3D4><t=
+r><td align=3Dleft style=3Dwhite-space:nowrap><table border=3D0 cellpadding=
+=3D0 cellspacing=3D0 width=3D100%><tr><td align=3Dcenter bgcolor=3D#77BE53>=
+<a style=3D"border:1px solid #77be53;padding:5px 10px;text-decoration:none;=
+display:inline-block"href=3Dhttps://www.freelancer.com/projects/php/Custom-=
+PHP-Core-PHP-Code/?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail=
+_notification&utm_source=3Dproject_cta&utm_content=3Dhtml&ttref=3DProject_L=
+PCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D15 target=3D_bl=
+ank> <span style=3Dcolor:#fff;mso-line-height-rule:exactly;font-family:Helv=
+etica,Arial,sans-serif;font-size:14px;font-weight:700;line-height:1.5>Bid n=
+ow</span> </a></table></table><td width=3D16><tr><td bgcolor=3D#cccccc cols=
+pan=3D5 height=3D1 style=3Dmargin:0;padding:0;font-size:0;line-height:0><tr=
+><td width=3D16><td style=3D"padding:16px 0"align=3Dleft height=3D86 valign=
+=3Dtop width=3D440><table border=3D0 cellpadding=3D0 cellspacing=3D0><tr><t=
+d><a href=3Dhttps://www.freelancer.com/projects/graphic-design/Workflow-Opt=
+imization-Specialist-Needed/?utm_campaign=3Dlatest_project_contest&utm_medi=
+um=3Demail_notification&utm_source=3Dproject_title&utm_content=3Dhtml&ttref=
+=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D16 =
+style=3Dcolor:#007fed;font-weight:700 target=3D_blank> <span style=3Dcolor:=
+#007fed;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif=
+;font-size:16px;font-weight:700;line-height:1.5>AI Workflow Optimization Sp=
+ecialist Needed</span> </a> =C2=A0<tr><td height=3D4><tr><td><span style=3D=
+color:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-se=
+rif;font-size:12px;font-weight:400;line-height:1.5>I'm seeking a Python and=
+ AI expert, proficient in Replit, to help me refine my existing AI workflow=
+ primarily focused on data preprocessing. Key Requirements: - Optimize the =
+current AI workflow with a keen focus on e</span> ... <a href=3Dhttps://www=
+.freelancer.com/projects/graphic-design/Workflow-Optimization-Specialist-Ne=
+eded/?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail_notification=
+&utm_source=3Dproject_title&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&uni=
+qid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D17 style=3Dcolor:#007fed;f=
+ont-weight:400 target=3D_blank> <span style=3Dcolor:#007fed;mso-line-height=
+-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-we=
+ight:400;line-height:1.5>See more</span> </a><tr><td height=3D4><tr><td><sp=
+an style=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvetica,Ar=
+ial,sans-serif;font-size:12px;font-weight:700;line-height:1.5>Skills:=C2=A0=
+</span> <span style=3Dcolor:#000;mso-line-height-rule:exactly;font-family:H=
+elvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.5>AI=
+ Chatbot | AI Chatbot Development | AI Content Writing | AI Development | G=
+raphic Design | Java | Machine Learning (ML) | Python | Software Architectu=
+re</span></table><td width=3D16><td style=3D"padding:16px 0"align=3Dleft va=
+lign=3Dtop width=3D130><table border=3D0 cellpadding=3D0 cellspacing=3D0 wi=
+dth=3D100%><tr><td><span style=3Dcolor:#000;mso-line-height-rule:exactly;fo=
+nt-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-he=
+ight:1.5>$10 - $16 USD /hr</span><tr><td height=3D4><tr><td align=3Dleft st=
+yle=3Dwhite-space:nowrap><table border=3D0 cellpadding=3D0 cellspacing=3D0 =
+width=3D100%><tr><td align=3Dcenter bgcolor=3D#77BE53><a style=3D"border:1p=
+x solid #77be53;padding:5px 10px;text-decoration:none;display:inline-block"=
+href=3Dhttps://www.freelancer.com/projects/graphic-design/Workflow-Optimiza=
+tion-Specialist-Needed/?utm_campaign=3Dlatest_project_contest&utm_medium=3D=
+email_notification&utm_source=3Dproject_cta&utm_content=3Dhtml&ttref=3DProj=
+ect_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D18 target=
+=3D_blank> <span style=3Dcolor:#fff;mso-line-height-rule:exactly;font-famil=
+y:Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;line-height:1.5=
+>Bid now</span> </a></table></table><td width=3D16><tr><td bgcolor=3D#ccccc=
+c colspan=3D5 height=3D1 style=3Dmargin:0;padding:0;font-size:0;line-height=
+:0><tr><td width=3D16><td style=3D"padding:16px 0"align=3Dleft height=3D86 =
+valign=3Dtop width=3D440><table border=3D0 cellpadding=3D0 cellspacing=3D0>=
+<tr><td><a href=3Dhttps://www.freelancer.com/projects/graphic-design/Design=
+-PDF-Vascular-Ultrasound-Referral/?utm_campaign=3Dlatest_project_contest&ut=
+m_medium=3Demail_notification&utm_source=3Dproject_title&utm_content=3Dhtml=
+&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=
+=3D19 style=3Dcolor:#007fed;font-weight:700 target=3D_blank> <span style=3D=
+color:#007fed;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans=
+-serif;font-size:16px;font-weight:700;line-height:1.5>Design a PDF Vascular=
+ Ultrasound Referral Form</span> </a> =C2=A0 <span style=3D"vertical-align:=
+2px;background-color:#ff910f;border-radius:2px;margin:0;padding:2px 0;displ=
+ay:inline-block"> <span style=3Dcolor:#fff;mso-line-height-rule:exactly;fon=
+t-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:700;line-hei=
+ght:1.5>=C2=A0 Featured =C2=A0</span> </span> =C2=A0<tr><td height=3D4><tr>=
+<td><span style=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helve=
+tica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.5>I am s=
+eeking a freelancer to modify a template I've provided into a PDF vascular =
+ultrasound referral form for my clinic in Sydney. This form will be used fo=
+r our vascular ultrasound service. Requirements: - Modify an e</span> ... <=
+a href=3Dhttps://www.freelancer.com/projects/graphic-design/Design-PDF-Vasc=
+ular-Ultrasound-Referral/?utm_campaign=3Dlatest_project_contest&utm_medium=
+=3Demail_notification&utm_source=3Dproject_title&utm_content=3Dhtml&ttref=
+=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D20 =
+style=3Dcolor:#007fed;font-weight:400 target=3D_blank> <span style=3Dcolor:=
+#007fed;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif=
+;font-size:12px;font-weight:400;line-height:1.5>See more</span> </a><tr><td=
+ height=3D4><tr><td><span style=3Dcolor:#000;mso-line-height-rule:exactly;f=
+ont-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:700;line-h=
+eight:1.5>Skills:=C2=A0</span> <span style=3Dcolor:#000;mso-line-height-rul=
+e:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight=
+:400;line-height:1.5>Graphic Design | HTML | Logo Design | Photoshop | Webs=
+ite Design</span></table><td width=3D16><td style=3D"padding:16px 0"align=
+=3Dleft valign=3Dtop width=3D130><table border=3D0 cellpadding=3D0 cellspac=
+ing=3D0 width=3D100%><tr><td><span style=3Dcolor:#000;mso-line-height-rule:=
+exactly;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:7=
+00;line-height:1.5>$19 - $161 USD</span><tr><td height=3D4><tr><td align=3D=
+left style=3Dwhite-space:nowrap><table border=3D0 cellpadding=3D0 cellspaci=
+ng=3D0 width=3D100%><tr><td align=3Dcenter bgcolor=3D#77BE53><a style=3D"bo=
+rder:1px solid #77be53;padding:5px 10px;text-decoration:none;display:inline=
+-block"href=3Dhttps://www.freelancer.com/projects/graphic-design/Design-PDF=
+-Vascular-Ultrasound-Referral/?utm_campaign=3Dlatest_project_contest&utm_me=
+dium=3Demail_notification&utm_source=3Dproject_cta&utm_content=3Dhtml&ttref=
+=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D21 =
+target=3D_blank> <span style=3Dcolor:#fff;mso-line-height-rule:exactly;font=
+-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;line-heig=
+ht:1.5>Bid now</span> </a></table></table><td width=3D16><tr><td bgcolor=3D=
+#cccccc colspan=3D5 height=3D1 style=3Dmargin:0;padding:0;font-size:0;line-=
+height:0><tr><td width=3D16><td style=3D"padding:16px 0"align=3Dleft height=
+=3D86 valign=3Dtop width=3D440><table border=3D0 cellpadding=3D0 cellspacin=
+g=3D0><tr><td><a href=3Dhttps://www.freelancer.com/projects/Product-Centric=
+-Business-Website/?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail=
+_notification&utm_source=3Dproject_title&utm_content=3Dhtml&ttref=3DProject=
+_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D22 style=3Dco=
+lor:#007fed;font-weight:700 target=3D_blank> <span style=3Dcolor:#007fed;ms=
+o-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size=
+:16px;font-weight:700;line-height:1.5>Product-Centric Business Website Deve=
+lopment</span> </a> =C2=A0<tr><td height=3D4><tr><td><span style=3Dcolor:#0=
+00;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font=
+-size:12px;font-weight:400;line-height:1.5>I am seeking a proficient web de=
+veloper to create a business-oriented, product-based website for me. This s=
+ite should showcase a comprehensive product catalog without the necessity f=
+or e-commerce functionality at this st</span> ... <a href=3Dhttps://www.fre=
+elancer.com/projects/Product-Centric-Business-Website/?utm_campaign=3Dlates=
+t_project_contest&utm_medium=3Demail_notification&utm_source=3Dproject_titl=
+e&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736=
+eae5-ebdb00c1&linkid=3D23 style=3Dcolor:#007fed;font-weight:400 target=3D_b=
+lank> <span style=3Dcolor:#007fed;mso-line-height-rule:exactly;font-family:=
+Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.5>S=
+ee more</span> </a><tr><td height=3D4><tr><td><span style=3Dcolor:#000;mso-=
+line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:1=
+2px;font-weight:700;line-height:1.5>Skills:=C2=A0</span> <span style=3Dcolo=
+r:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;=
+font-size:12px;font-weight:400;line-height:1.5>Graphic Design | HTML | PHP =
+| Website Design</span></table><td width=3D16><td style=3D"padding:16px 0"a=
+lign=3Dleft valign=3Dtop width=3D130><table border=3D0 cellpadding=3D0 cell=
+spacing=3D0 width=3D100%><tr><td><span style=3Dcolor:#000;mso-line-height-r=
+ule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weig=
+ht:700;line-height:1.5>$161 - $484 USD</span><tr><td height=3D4><tr><td ali=
+gn=3Dleft style=3Dwhite-space:nowrap><table border=3D0 cellpadding=3D0 cell=
+spacing=3D0 width=3D100%><tr><td align=3Dcenter bgcolor=3D#77BE53><a style=
+=3D"border:1px solid #77be53;padding:5px 10px;text-decoration:none;display:=
+inline-block"href=3Dhttps://www.freelancer.com/projects/Product-Centric-Bus=
+iness-Website/?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail_not=
+ification&utm_source=3Dproject_cta&utm_content=3Dhtml&ttref=3DProject_LPCNh=
+tml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D24 target=3D_blank>=
+ <span style=3Dcolor:#fff;mso-line-height-rule:exactly;font-family:Helvetic=
+a,Arial,sans-serif;font-size:14px;font-weight:700;line-height:1.5>Bid now</=
+span> </a></table></table><td width=3D16><tr><td bgcolor=3D#cccccc colspan=
+=3D5 height=3D1 style=3Dmargin:0;padding:0;font-size:0;line-height:0><tr><t=
+d width=3D16><td style=3D"padding:16px 0"align=3Dleft height=3D86 valign=3D=
+top width=3D440><table border=3D0 cellpadding=3D0 cellspacing=3D0><tr><td><=
+a href=3Dhttps://www.freelancer.com/projects/php/Hosting-CRM-Email-Simplifi=
+cation-Expert/?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail_not=
+ification&utm_source=3Dproject_title&utm_content=3Dhtml&ttref=3DProject_LPC=
+Nhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D25 style=3Dcolor:=
+#007fed;font-weight:700 target=3D_blank> <span style=3Dcolor:#007fed;mso-li=
+ne-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:16p=
+x;font-weight:700;line-height:1.5>Hosting, CRM, Email Simplification Expert=
+ Needed</span> </a> =C2=A0<tr><td height=3D4><tr><td><span style=3Dcolor:#0=
+00;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font=
+-size:12px;font-weight:400;line-height:1.5>I'm seeking a professional with =
+extensive knowledge in hosting, website migration, and Email CRM migration.=
+ The goal is to simplify my tech stack. - Hosting Management: I need assist=
+ance in setting up new hosting. - W</span> ... <a href=3Dhttps://www.freela=
+ncer.com/projects/php/Hosting-CRM-Email-Simplification-Expert/?utm_campaign=
+=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3Dproj=
+ect_title&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481=
+140-6736eae5-ebdb00c1&linkid=3D26 style=3Dcolor:#007fed;font-weight:400 tar=
+get=3D_blank> <span style=3Dcolor:#007fed;mso-line-height-rule:exactly;font=
+-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-heig=
+ht:1.5>See more</span> </a><tr><td height=3D4><tr><td><span style=3Dcolor:#=
+000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;fon=
+t-size:12px;font-weight:700;line-height:1.5>Skills:=C2=A0</span> <span styl=
+e=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,san=
+s-serif;font-size:12px;font-weight:400;line-height:1.5>HTML | PHP | Web Hos=
+ting | Website Design | Website Management</span></table><td width=3D16><td=
+ style=3D"padding:16px 0"align=3Dleft valign=3Dtop width=3D130><table borde=
+r=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td><span style=3Dco=
+lor:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-seri=
+f;font-size:16px;font-weight:700;line-height:1.5>$30 - $250 USD</span><tr><=
+td height=3D4><tr><td align=3Dleft style=3Dwhite-space:nowrap><table border=
+=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td align=3Dcenter bg=
+color=3D#77BE53><a style=3D"border:1px solid #77be53;padding:5px 10px;text-=
+decoration:none;display:inline-block"href=3Dhttps://www.freelancer.com/proj=
+ects/php/Hosting-CRM-Email-Simplification-Expert/?utm_campaign=3Dlatest_pro=
+ject_contest&utm_medium=3Demail_notification&utm_source=3Dproject_cta&utm_c=
+ontent=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-eb=
+db00c1&linkid=3D27 target=3D_blank> <span style=3Dcolor:#fff;mso-line-heigh=
+t-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-w=
+eight:700;line-height:1.5>Bid now</span> </a></table></table><td width=3D16=
+><tr><td bgcolor=3D#cccccc colspan=3D5 height=3D1 style=3Dmargin:0;padding:=
+0;font-size:0;line-height:0><tr><td width=3D16><td style=3D"padding:16px 0"=
+align=3Dleft height=3D86 valign=3Dtop width=3D440><table border=3D0 cellpad=
+ding=3D0 cellspacing=3D0><tr><td><a href=3Dhttps://www.freelancer.com/proje=
+cts/network-administration/Application-Server-Setup-for-Game/?utm_campaign=
+=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3Dproj=
+ect_title&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481=
+140-6736eae5-ebdb00c1&linkid=3D28 style=3Dcolor:#007fed;font-weight:700 tar=
+get=3D_blank> <span style=3Dcolor:#007fed;mso-line-height-rule:exactly;font=
+-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-heig=
+ht:1.5>Application Server Setup for Game</span> </a> =C2=A0<tr><td height=
+=3D4><tr><td><span style=3Dcolor:#000;mso-line-height-rule:exactly;font-fam=
+ily:Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1=
+.5>I am looking to hire a proficient DevOps Engineer who can set up an appl=
+ication server for our game. Key Responsibilities: - Setup of a reliable ap=
+plication server. - Ensure the server is optimized for gaming performanc</s=
+pan> ... <a href=3Dhttps://www.freelancer.com/projects/network-administrati=
+on/Application-Server-Setup-for-Game/?utm_campaign=3Dlatest_project_contest=
+&utm_medium=3Demail_notification&utm_source=3Dproject_title&utm_content=3Dh=
+tml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&lin=
+kid=3D29 style=3Dcolor:#007fed;font-weight:400 target=3D_blank> <span style=
+=3Dcolor:#007fed;mso-line-height-rule:exactly;font-family:Helvetica,Arial,s=
+ans-serif;font-size:12px;font-weight:400;line-height:1.5>See more</span> </=
+a><tr><td height=3D4><tr><td><span style=3Dcolor:#000;mso-line-height-rule:=
+exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:7=
+00;line-height:1.5>Skills:=C2=A0</span> <span style=3Dcolor:#000;mso-line-h=
+eight-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;fo=
+nt-weight:400;line-height:1.5>Amazon Web Services | Linux | Network Adminis=
+tration | Testing / QA | Windows Server</span></table><td width=3D16><td st=
+yle=3D"padding:16px 0"align=3Dleft valign=3Dtop width=3D130><table border=
+=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td><span style=3Dcol=
+or:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif=
+;font-size:16px;font-weight:700;line-height:1.5>$15 - $30 USD /hr</span><tr=
+><td height=3D4><tr><td align=3Dleft style=3Dwhite-space:nowrap><table bord=
+er=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td align=3Dcenter =
+bgcolor=3D#77BE53><a style=3D"border:1px solid #77be53;padding:5px 10px;tex=
+t-decoration:none;display:inline-block"href=3Dhttps://www.freelancer.com/pr=
+ojects/network-administration/Application-Server-Setup-for-Game/?utm_campai=
+gn=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3Dpr=
+oject_cta&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481=
+140-6736eae5-ebdb00c1&linkid=3D30 target=3D_blank> <span style=3Dcolor:#fff=
+;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-s=
+ize:14px;font-weight:700;line-height:1.5>Bid now</span> </a></table></table=
+><td width=3D16><tr><td bgcolor=3D#cccccc colspan=3D5 height=3D1 style=3Dma=
+rgin:0;padding:0;font-size:0;line-height:0><tr><td width=3D16><td style=3D"=
+padding:16px 0"align=3Dleft height=3D86 valign=3Dtop width=3D440><table bor=
+der=3D0 cellpadding=3D0 cellspacing=3D0><tr><td><a href=3Dhttps://www.freel=
+ancer.com/projects/php/Doctor-Appointment-Apps-Web-Jobs-38788372/?utm_campa=
+ign=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3Dp=
+roject_title&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-=
+481140-6736eae5-ebdb00c1&linkid=3D31 style=3Dcolor:#007fed;font-weight:700 =
+target=3D_blank> <span style=3Dcolor:#007fed;mso-line-height-rule:exactly;f=
+ont-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-h=
+eight:1.5>Doctor Appointment Apps & Web & Jobs Portal Enhancement</span> </=
+a> =C2=A0<tr><td height=3D4><tr><td><span style=3Dcolor:#000;mso-line-heigh=
+t-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-w=
+eight:400;line-height:1.5>I'm seeking a skilled developer to modify my curr=
+ent Doctor appointment mobile apps and web platform. Project Requirements: =
+- Apply a new homepage from a provided template to both the mobile app and =
+the web. - Alter the</span> ... <a href=3Dhttps://www.freelancer.com/projec=
+ts/php/Doctor-Appointment-Apps-Web-Jobs-38788372/?utm_campaign=3Dlatest_pro=
+ject_contest&utm_medium=3Demail_notification&utm_source=3Dproject_title&utm=
+_content=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-=
+ebdb00c1&linkid=3D32 style=3Dcolor:#007fed;font-weight:400 target=3D_blank>=
+ <span style=3Dcolor:#007fed;mso-line-height-rule:exactly;font-family:Helve=
+tica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.5>See mo=
+re</span> </a><tr><td height=3D4><tr><td><span style=3Dcolor:#000;mso-line-=
+height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;f=
+ont-weight:700;line-height:1.5>Skills:=C2=A0</span> <span style=3Dcolor:#00=
+0;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-=
+size:12px;font-weight:400;line-height:1.5>Android | HTML | iPhone | Mobile =
+App Development | PHP</span></table><td width=3D16><td style=3D"padding:16p=
+x 0"align=3Dleft valign=3Dtop width=3D130><table border=3D0 cellpadding=3D0=
+ cellspacing=3D0 width=3D100%><tr><td><span style=3Dcolor:#000;mso-line-hei=
+ght-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:16px;font=
+-weight:700;line-height:1.5>$30 - $250 USD</span><tr><td height=3D4><tr><td=
+ align=3Dleft style=3Dwhite-space:nowrap><table border=3D0 cellpadding=3D0 =
+cellspacing=3D0 width=3D100%><tr><td align=3Dcenter bgcolor=3D#77BE53><a st=
+yle=3D"border:1px solid #77be53;padding:5px 10px;text-decoration:none;displ=
+ay:inline-block"href=3Dhttps://www.freelancer.com/projects/php/Doctor-Appoi=
+ntment-Apps-Web-Jobs-38788372/?utm_campaign=3Dlatest_project_contest&utm_me=
+dium=3Demail_notification&utm_source=3Dproject_cta&utm_content=3Dhtml&ttref=
+=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D33 =
+target=3D_blank> <span style=3Dcolor:#fff;mso-line-height-rule:exactly;font=
+-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;line-heig=
+ht:1.5>Bid now</span> </a></table></table><td width=3D16><tr><td bgcolor=3D=
+#cccccc colspan=3D5 height=3D1 style=3Dmargin:0;padding:0;font-size:0;line-=
+height:0><tr><td width=3D16><td style=3D"padding:16px 0"align=3Dleft height=
+=3D86 valign=3Dtop width=3D440><table border=3D0 cellpadding=3D0 cellspacin=
+g=3D0><tr><td><a href=3Dhttps://www.freelancer.com/projects/php/Exam-Portal=
+-Development-for-Hiring-38788375/?utm_campaign=3Dlatest_project_contest&utm=
+_medium=3Demail_notification&utm_source=3Dproject_title&utm_content=3Dhtml&=
+ttref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=
+=3D34 style=3Dcolor:#007fed;font-weight:700 target=3D_blank> <span style=3D=
+color:#007fed;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans=
+-serif;font-size:16px;font-weight:700;line-height:1.5>Exam Portal Developme=
+nt for Hiring Startup</span> </a> =C2=A0<tr><td height=3D4><tr><td><span st=
+yle=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,s=
+ans-serif;font-size:12px;font-weight:400;line-height:1.5>I'm seeking a deve=
+loper to create a comprehensive exam portal for our hiring startup. The pla=
+tform should be user-friendly and robust, catering to different user types =
+- candidates, hiring managers, and admin staff. Key</span> ... <a href=3Dht=
+tps://www.freelancer.com/projects/php/Exam-Portal-Development-for-Hiring-38=
+788375/?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail_notificati=
+on&utm_source=3Dproject_title&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&u=
+niqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D35 style=3Dcolor:#007fed=
+;font-weight:400 target=3D_blank> <span style=3Dcolor:#007fed;mso-line-heig=
+ht-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-=
+weight:400;line-height:1.5>See more</span> </a><tr><td height=3D4><tr><td><=
+span style=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvetica,=
+Arial,sans-serif;font-size:12px;font-weight:700;line-height:1.5>Skills:=C2=
+=A0</span> <span style=3Dcolor:#000;mso-line-height-rule:exactly;font-famil=
+y:Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.5=
+>Graphic Design | HTML | MySQL | PHP | Website Design</span></table><td wid=
+th=3D16><td style=3D"padding:16px 0"align=3Dleft valign=3Dtop width=3D130><=
+table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td><span=
+ style=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvetica,Aria=
+l,sans-serif;font-size:16px;font-weight:700;line-height:1.5>$18 - $148 USD<=
+/span><tr><td height=3D4><tr><td align=3Dleft style=3Dwhite-space:nowrap><t=
+able border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td align=
+=3Dcenter bgcolor=3D#77BE53><a style=3D"border:1px solid #77be53;padding:5p=
+x 10px;text-decoration:none;display:inline-block"href=3Dhttps://www.freelan=
+cer.com/projects/php/Exam-Portal-Development-for-Hiring-38788375/?utm_campa=
+ign=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3Dp=
+roject_cta&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-48=
+1140-6736eae5-ebdb00c1&linkid=3D36 target=3D_blank> <span style=3Dcolor:#ff=
+f;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-=
+size:14px;font-weight:700;line-height:1.5>Bid now</span> </a></table></tabl=
+e><td width=3D16><tr><td bgcolor=3D#cccccc colspan=3D5 height=3D1 style=3Dm=
+argin:0;padding:0;font-size:0;line-height:0><tr><td width=3D16><td style=3D=
+"padding:16px 0"align=3Dleft height=3D86 valign=3Dtop width=3D440><table bo=
+rder=3D0 cellpadding=3D0 cellspacing=3D0><tr><td><a href=3Dhttps://www.free=
+lancer.com/projects/wordpress/Modern-Minimalistic-WordPress-Data/?utm_campa=
+ign=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3Dp=
+roject_title&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-=
+481140-6736eae5-ebdb00c1&linkid=3D37 style=3Dcolor:#007fed;font-weight:700 =
+target=3D_blank> <span style=3Dcolor:#007fed;mso-line-height-rule:exactly;f=
+ont-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-h=
+eight:1.5>Modern Minimalistic WordPress Data-Driven Design</span> </a> =C2=
+=A0<tr><td height=3D4><tr><td><span style=3Dcolor:#000;mso-line-height-rule=
+:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:=
+400;line-height:1.5>I'm seeking a WordPress expert to assist with a straigh=
+tforward yet crucial project. The task involves importing data from a CSV f=
+ile into a set of conditional logic options, crafting a sophisticated, high=
+-end drop-down</span> ... <a href=3Dhttps://www.freelancer.com/projects/wor=
+dpress/Modern-Minimalistic-WordPress-Data/?utm_campaign=3Dlatest_project_co=
+ntest&utm_medium=3Demail_notification&utm_source=3Dproject_title&utm_conten=
+t=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c=
+1&linkid=3D38 style=3Dcolor:#007fed;font-weight:400 target=3D_blank> <span =
+style=3Dcolor:#007fed;mso-line-height-rule:exactly;font-family:Helvetica,Ar=
+ial,sans-serif;font-size:12px;font-weight:400;line-height:1.5>See more</spa=
+n> </a><tr><td height=3D4><tr><td><span style=3Dcolor:#000;mso-line-height-=
+rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-wei=
+ght:700;line-height:1.5>Skills:=C2=A0</span> <span style=3Dcolor:#000;mso-l=
+ine-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12=
+px;font-weight:400;line-height:1.5>API | CSS | HTML | MySQL | WordPress</sp=
+an></table><td width=3D16><td style=3D"padding:16px 0"align=3Dleft valign=
+=3Dtop width=3D130><table border=3D0 cellpadding=3D0 cellspacing=3D0 width=
+=3D100%><tr><td><span style=3Dcolor:#000;mso-line-height-rule:exactly;font-=
+family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-heigh=
+t:1.5>$30 - $250 USD</span><tr><td height=3D4><tr><td align=3Dleft style=3D=
+white-space:nowrap><table border=3D0 cellpadding=3D0 cellspacing=3D0 width=
+=3D100%><tr><td align=3Dcenter bgcolor=3D#77BE53><a style=3D"border:1px sol=
+id #77be53;padding:5px 10px;text-decoration:none;display:inline-block"href=
+=3Dhttps://www.freelancer.com/projects/wordpress/Modern-Minimalistic-WordPr=
+ess-Data/?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail_notifica=
+tion&utm_source=3Dproject_cta&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&u=
+niqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D39 target=3D_blank> <spa=
+n style=3Dcolor:#fff;mso-line-height-rule:exactly;font-family:Helvetica,Ari=
+al,sans-serif;font-size:14px;font-weight:700;line-height:1.5>Bid now</span>=
+ </a></table></table><td width=3D16><tr><td bgcolor=3D#cccccc colspan=3D5 h=
+eight=3D1 style=3Dmargin:0;padding:0;font-size:0;line-height:0><tr><td widt=
+h=3D16><td style=3D"padding:16px 0"align=3Dleft height=3D86 valign=3Dtop wi=
+dth=3D440><table border=3D0 cellpadding=3D0 cellspacing=3D0><tr><td><a href=
+=3Dhttps://www.freelancer.com/projects/javascript/React-Portal-Development-=
+with-Material/?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail_not=
+ification&utm_source=3Dproject_title&utm_content=3Dhtml&ttref=3DProject_LPC=
+Nhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D40 style=3Dcolor:=
+#007fed;font-weight:700 target=3D_blank> <span style=3Dcolor:#007fed;mso-li=
+ne-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:16p=
+x;font-weight:700;line-height:1.5>React.js Portal Development with Material=
+-Tailwind</span> </a> =C2=A0<tr><td height=3D4><tr><td><span style=3Dcolor:=
+#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;fo=
+nt-size:12px;font-weight:400;line-height:1.5>I need a skilled React.js deve=
+loper to create a portal using the Material-Tailwind Dashboard template. Th=
+e project will involve around 10 pages for various management tasks. Key Fe=
+atures: - User authentication via OAut</span> ... <a href=3Dhttps://www.fre=
+elancer.com/projects/javascript/React-Portal-Development-with-Material/?utm=
+_campaign=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_sour=
+ce=3Dproject_title&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D782=
+05122-481140-6736eae5-ebdb00c1&linkid=3D41 style=3Dcolor:#007fed;font-weigh=
+t:400 target=3D_blank> <span style=3Dcolor:#007fed;mso-line-height-rule:exa=
+ctly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;=
+line-height:1.5>See more</span> </a><tr><td height=3D4><tr><td><span style=
+=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans=
+-serif;font-size:12px;font-weight:700;line-height:1.5>Skills:=C2=A0</span> =
+<span style=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvetica=
+,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.5>HTML | HTM=
+L5 | JavaScript | React.js</span></table><td width=3D16><td style=3D"paddin=
+g:16px 0"align=3Dleft valign=3Dtop width=3D130><table border=3D0 cellpaddin=
+g=3D0 cellspacing=3D0 width=3D100%><tr><td><span style=3Dcolor:#000;mso-lin=
+e-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:16px=
+;font-weight:700;line-height:1.5>$18 - $148 USD</span><tr><td height=3D4><t=
+r><td align=3Dleft style=3Dwhite-space:nowrap><table border=3D0 cellpadding=
+=3D0 cellspacing=3D0 width=3D100%><tr><td align=3Dcenter bgcolor=3D#77BE53>=
+<a style=3D"border:1px solid #77be53;padding:5px 10px;text-decoration:none;=
+display:inline-block"href=3Dhttps://www.freelancer.com/projects/javascript/=
+React-Portal-Development-with-Material/?utm_campaign=3Dlatest_project_conte=
+st&utm_medium=3Demail_notification&utm_source=3Dproject_cta&utm_content=3Dh=
+tml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&lin=
+kid=3D42 target=3D_blank> <span style=3Dcolor:#fff;mso-line-height-rule:exa=
+ctly;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;=
+line-height:1.5>Bid now</span> </a></table></table><td width=3D16><tr><td b=
+gcolor=3D#cccccc colspan=3D5 height=3D1 style=3Dmargin:0;padding:0;font-siz=
+e:0;line-height:0><tr><td width=3D16><td style=3D"padding:16px 0"align=3Dle=
+ft height=3D86 valign=3Dtop width=3D440><table border=3D0 cellpadding=3D0 c=
+ellspacing=3D0><tr><td><a href=3Dhttps://www.freelancer.com/projects/php/Fu=
+ll-stack-developer-API-Integration-38788468/?utm_campaign=3Dlatest_project_=
+contest&utm_medium=3Demail_notification&utm_source=3Dproject_title&utm_cont=
+ent=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb0=
+0c1&linkid=3D43 style=3Dcolor:#007fed;font-weight:700 target=3D_blank> <spa=
+n style=3Dcolor:#007fed;mso-line-height-rule:exactly;font-family:Helvetica,=
+Arial,sans-serif;font-size:16px;font-weight:700;line-height:1.5>Full stack =
+developer API Integration & openai Implementation</span> </a> =C2=A0<tr><td=
+ height=3D4><tr><td><span style=3Dcolor:#000;mso-line-height-rule:exactly;f=
+ont-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-h=
+eight:1.5>I'm looking for a seasoned developer who can integrate 25 differe=
+nt app APIs into my project. This includes the gemini natural language API.=
+ Key Features: - New message functionality - AI settings - A dedicated work=
+spa</span> ... <a href=3Dhttps://www.freelancer.com/projects/php/Full-stack=
+-developer-API-Integration-38788468/?utm_campaign=3Dlatest_project_contest&=
+utm_medium=3Demail_notification&utm_source=3Dproject_title&utm_content=3Dht=
+ml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&link=
+id=3D44 style=3Dcolor:#007fed;font-weight:400 target=3D_blank> <span style=
+=3Dcolor:#007fed;mso-line-height-rule:exactly;font-family:Helvetica,Arial,s=
+ans-serif;font-size:12px;font-weight:400;line-height:1.5>See more</span> </=
+a><tr><td height=3D4><tr><td><span style=3Dcolor:#000;mso-line-height-rule:=
+exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:7=
+00;line-height:1.5>Skills:=C2=A0</span> <span style=3Dcolor:#000;mso-line-h=
+eight-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;fo=
+nt-weight:400;line-height:1.5>Full Stack Development | HTML | MERN Stack | =
+PHP | Website Design</span></table><td width=3D16><td style=3D"padding:16px=
+ 0"align=3Dleft valign=3Dtop width=3D130><table border=3D0 cellpadding=3D0 =
+cellspacing=3D0 width=3D100%><tr><td><span style=3Dcolor:#000;mso-line-heig=
+ht-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-=
+weight:700;line-height:1.5>$18 - $148 USD</span><tr><td height=3D4><tr><td =
+align=3Dleft style=3Dwhite-space:nowrap><table border=3D0 cellpadding=3D0 c=
+ellspacing=3D0 width=3D100%><tr><td align=3Dcenter bgcolor=3D#77BE53><a sty=
+le=3D"border:1px solid #77be53;padding:5px 10px;text-decoration:none;displa=
+y:inline-block"href=3Dhttps://www.freelancer.com/projects/php/Full-stack-de=
+veloper-API-Integration-38788468/?utm_campaign=3Dlatest_project_contest&utm=
+_medium=3Demail_notification&utm_source=3Dproject_cta&utm_content=3Dhtml&tt=
+ref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D=
+45 target=3D_blank> <span style=3Dcolor:#fff;mso-line-height-rule:exactly;f=
+ont-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;line-h=
+eight:1.5>Bid now</span> </a></table></table><td width=3D16><tr><td bgcolor=
+=3D#cccccc colspan=3D5 height=3D1 style=3Dmargin:0;padding:0;font-size:0;li=
+ne-height:0><tr><td width=3D16><td style=3D"padding:16px 0"align=3Dleft hei=
+ght=3D86 valign=3Dtop width=3D440><table border=3D0 cellpadding=3D0 cellspa=
+cing=3D0><tr><td><a href=3Dhttps://www.freelancer.com/projects/ecommerce/Wo=
+rdpress-Developer-38788492/?utm_campaign=3Dlatest_project_contest&utm_mediu=
+m=3Demail_notification&utm_source=3Dproject_title&utm_content=3Dhtml&ttref=
+=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D46 =
+style=3Dcolor:#007fed;font-weight:700 target=3D_blank> <span style=3Dcolor:=
+#007fed;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif=
+;font-size:16px;font-weight:700;line-height:1.5>Wordpress Developer</span> =
+</a> =C2=A0<tr><td height=3D4><tr><td><span style=3Dcolor:#000;mso-line-hei=
+ght-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font=
+-weight:400;line-height:1.5>Hey! I need a website exact like ([login to vie=
+w URL] ) but need a header like this website ( [login to view URL] ) So if =
+possible then please lemme know who can develop the website for me</span><t=
+r><td height=3D4><tr><td><span style=3Dcolor:#000;mso-line-height-rule:exac=
+tly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:700;l=
+ine-height:1.5>Skills:=C2=A0</span> <span style=3Dcolor:#000;mso-line-heigh=
+t-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-w=
+eight:400;line-height:1.5>eCommerce | HTML | Shopify | Shopify Templates | =
+Website Design</span></table><td width=3D16><td style=3D"padding:16px 0"ali=
+gn=3Dleft valign=3Dtop width=3D130><table border=3D0 cellpadding=3D0 cellsp=
+acing=3D0 width=3D100%><tr><td><span style=3Dcolor:#000;mso-line-height-rul=
+e:exactly;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight=
+:700;line-height:1.5>$148 - $444 USD</span><tr><td height=3D4><tr><td align=
+=3Dleft style=3Dwhite-space:nowrap><table border=3D0 cellpadding=3D0 cellsp=
+acing=3D0 width=3D100%><tr><td align=3Dcenter bgcolor=3D#77BE53><a style=3D=
+"border:1px solid #77be53;padding:5px 10px;text-decoration:none;display:inl=
+ine-block"href=3Dhttps://www.freelancer.com/projects/ecommerce/Wordpress-De=
+veloper-38788492/?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail_=
+notification&utm_source=3Dproject_cta&utm_content=3Dhtml&ttref=3DProject_LP=
+CNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D47 target=3D_bla=
+nk> <span style=3Dcolor:#fff;mso-line-height-rule:exactly;font-family:Helve=
+tica,Arial,sans-serif;font-size:14px;font-weight:700;line-height:1.5>Bid no=
+w</span> </a></table></table><td width=3D16><tr><td bgcolor=3D#cccccc colsp=
+an=3D5 height=3D1 style=3Dmargin:0;padding:0;font-size:0;line-height:0><tr>=
+<td width=3D16><td style=3D"padding:16px 0"align=3Dleft height=3D86 valign=
+=3Dtop width=3D440><table border=3D0 cellpadding=3D0 cellspacing=3D0><tr><t=
+d><a href=3Dhttps://www.freelancer.com/projects/website-design/Simple-Moder=
+n-Professional-Construction/?utm_campaign=3Dlatest_project_contest&utm_medi=
+um=3Demail_notification&utm_source=3Dproject_title&utm_content=3Dhtml&ttref=
+=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D48 =
+style=3Dcolor:#007fed;font-weight:700 target=3D_blank> <span style=3Dcolor:=
+#007fed;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif=
+;font-size:16px;font-weight:700;line-height:1.5>Simple, Modern, Professiona=
+l Construction Website</span> </a> =C2=A0<tr><td height=3D4><tr><td><span s=
+tyle=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,=
+sans-serif;font-size:12px;font-weight:400;line-height:1.5>I'm in need of a =
+simple yet modern construction website with a professional and corporate de=
+sign style. Key sections of the website should include: - Main Page - About=
+ Us: A brief description of our company, our mission</span> ... <a href=3Dh=
+ttps://www.freelancer.com/projects/website-design/Simple-Modern-Professiona=
+l-Construction/?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail_no=
+tification&utm_source=3Dproject_title&utm_content=3Dhtml&ttref=3DProject_LP=
+CNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D49 style=3Dcolor=
+:#007fed;font-weight:400 target=3D_blank> <span style=3Dcolor:#007fed;mso-l=
+ine-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12=
+px;font-weight:400;line-height:1.5>See more</span> </a><tr><td height=3D4><=
+tr><td><span style=3Dcolor:#000;mso-line-height-rule:exactly;font-family:He=
+lvetica,Arial,sans-serif;font-size:12px;font-weight:700;line-height:1.5>Ski=
+lls:=C2=A0</span> <span style=3Dcolor:#000;mso-line-height-rule:exactly;fon=
+t-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-hei=
+ght:1.5>Graphic Design | HTML | PHP | Website Design | WordPress</span></ta=
+ble><td width=3D16><td style=3D"padding:16px 0"align=3Dleft valign=3Dtop wi=
+dth=3D130><table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%><t=
+r><td><span style=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Hel=
+vetica,Arial,sans-serif;font-size:16px;font-weight:700;line-height:1.5>$30 =
+- $250 USD</span><tr><td height=3D4><tr><td align=3Dleft style=3Dwhite-spac=
+e:nowrap><table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%><tr=
+><td align=3Dcenter bgcolor=3D#77BE53><a style=3D"border:1px solid #77be53;=
+padding:5px 10px;text-decoration:none;display:inline-block"href=3Dhttps://w=
+ww.freelancer.com/projects/website-design/Simple-Modern-Professional-Constr=
+uction/?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail_notificati=
+on&utm_source=3Dproject_cta&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&uni=
+qid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D50 target=3D_blank> <span =
+style=3Dcolor:#fff;mso-line-height-rule:exactly;font-family:Helvetica,Arial=
+,sans-serif;font-size:14px;font-weight:700;line-height:1.5>Bid now</span> <=
+/a></table></table><td width=3D16><tr><td bgcolor=3D#cccccc colspan=3D5 hei=
+ght=3D1 style=3Dmargin:0;padding:0;font-size:0;line-height:0><tr><td width=
+=3D16><td style=3D"padding:16px 0"align=3Dleft height=3D86 valign=3Dtop wid=
+th=3D440><table border=3D0 cellpadding=3D0 cellspacing=3D0><tr><td><a href=
+=3Dhttps://www.freelancer.com/projects/python/Python-Java-Developer-3878848=
+3/?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail_notification&ut=
+m_source=3Dproject_title&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=
+=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D51 style=3Dcolor:#007fed;font=
+-weight:700 target=3D_blank> <span style=3Dcolor:#007fed;mso-line-height-ru=
+le:exactly;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weigh=
+t:700;line-height:1.5>Python + Java Developer</span> </a> =C2=A0<tr><td hei=
+ght=3D4><tr><td><span style=3Dcolor:#000;mso-line-height-rule:exactly;font-=
+family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-heigh=
+t:1.5>We have multiple opening into Python Department: 1) Python + Java 2)P=
+ython- 3 + Years 3)Python Developer- 5+ Years</span><tr><td height=3D4><tr>=
+<td><span style=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helve=
+tica,Arial,sans-serif;font-size:12px;font-weight:700;line-height:1.5>Skills=
+:=C2=A0</span> <span style=3Dcolor:#000;mso-line-height-rule:exactly;font-f=
+amily:Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-height=
+:1.5>Java | Python</span></table><td width=3D16><td style=3D"padding:16px 0=
+"align=3Dleft valign=3Dtop width=3D130><table border=3D0 cellpadding=3D0 ce=
+llspacing=3D0 width=3D100%><tr><td><span style=3Dcolor:#000;mso-line-height=
+-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-we=
+ight:700;line-height:1.5>$888 - $1776 USD</span><tr><td height=3D4><tr><td =
+align=3Dleft style=3Dwhite-space:nowrap><table border=3D0 cellpadding=3D0 c=
+ellspacing=3D0 width=3D100%><tr><td align=3Dcenter bgcolor=3D#77BE53><a sty=
+le=3D"border:1px solid #77be53;padding:5px 10px;text-decoration:none;displa=
+y:inline-block"href=3Dhttps://www.freelancer.com/projects/python/Python-Jav=
+a-Developer-38788483/?utm_campaign=3Dlatest_project_contest&utm_medium=3Dem=
+ail_notification&utm_source=3Dproject_cta&utm_content=3Dhtml&ttref=3DProjec=
+t_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D52 target=3D=
+_blank> <span style=3Dcolor:#fff;mso-line-height-rule:exactly;font-family:H=
+elvetica,Arial,sans-serif;font-size:14px;font-weight:700;line-height:1.5>Bi=
+d now</span> </a></table></table><td width=3D16><tr><td bgcolor=3D#cccccc c=
+olspan=3D5 height=3D1 style=3Dmargin:0;padding:0;font-size:0;line-height:0>=
+<tr><td width=3D16><td style=3D"padding:16px 0"align=3Dleft height=3D86 val=
+ign=3Dtop width=3D440><table border=3D0 cellpadding=3D0 cellspacing=3D0><tr=
+><td><a href=3Dhttps://www.freelancer.com/projects/website-design/Custom-co=
+mmerce-Web-Development/?utm_campaign=3Dlatest_project_contest&utm_medium=3D=
+email_notification&utm_source=3Dproject_title&utm_content=3Dhtml&ttref=3DPr=
+oject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D53 style=
+=3Dcolor:#007fed;font-weight:700 target=3D_blank> <span style=3Dcolor:#007f=
+ed;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font=
+-size:16px;font-weight:700;line-height:1.5>Custom E-commerce Web Developmen=
+t</span> </a> =C2=A0<tr><td height=3D4><tr><td><span style=3Dcolor:#000;mso=
+-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:=
+12px;font-weight:400;line-height:1.5>I'm looking for a skilled web develope=
+r who can create a bespoke e-commerce website for me. This is not a project=
+ for Shopify or WooCommerce; I want a completely custom-built platform. Key=
+ requirements: - Expert in web</span> ... <a href=3Dhttps://www.freelancer.=
+com/projects/website-design/Custom-commerce-Web-Development/?utm_campaign=
+=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3Dproj=
+ect_title&utm_content=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481=
+140-6736eae5-ebdb00c1&linkid=3D54 style=3Dcolor:#007fed;font-weight:400 tar=
+get=3D_blank> <span style=3Dcolor:#007fed;mso-line-height-rule:exactly;font=
+-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-heig=
+ht:1.5>See more</span> </a><tr><td height=3D4><tr><td><span style=3Dcolor:#=
+000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;fon=
+t-size:12px;font-weight:700;line-height:1.5>Skills:=C2=A0</span> <span styl=
+e=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,san=
+s-serif;font-size:12px;font-weight:400;line-height:1.5>Graphic Design | HTM=
+L | PHP | Website Design | WordPress</span></table><td width=3D16><td style=
+=3D"padding:16px 0"align=3Dleft valign=3Dtop width=3D130><table border=3D0 =
+cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td><span style=3Dcolor:#0=
+00;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font=
+-size:16px;font-weight:700;line-height:1.5>$7 - $18 USD</span><tr><td heigh=
+t=3D4><tr><td align=3Dleft style=3Dwhite-space:nowrap><table border=3D0 cel=
+lpadding=3D0 cellspacing=3D0 width=3D100%><tr><td align=3Dcenter bgcolor=3D=
+#77BE53><a style=3D"border:1px solid #77be53;padding:5px 10px;text-decorati=
+on:none;display:inline-block"href=3Dhttps://www.freelancer.com/projects/web=
+site-design/Custom-commerce-Web-Development/?utm_campaign=3Dlatest_project_=
+contest&utm_medium=3Demail_notification&utm_source=3Dproject_cta&utm_conten=
+t=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c=
+1&linkid=3D55 target=3D_blank> <span style=3Dcolor:#fff;mso-line-height-rul=
+e:exactly;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight=
+:700;line-height:1.5>Bid now</span> </a></table></table><td width=3D16><tr>=
+<td bgcolor=3D#cccccc colspan=3D5 height=3D1 style=3Dmargin:0;padding:0;fon=
+t-size:0;line-height:0><tr><td width=3D16><td style=3D"padding:16px 0"align=
+=3Dleft height=3D86 valign=3Dtop width=3D440><table border=3D0 cellpadding=
+=3D0 cellspacing=3D0><tr><td><a href=3Dhttps://www.freelancer.com/projects/=
+html/Chatbot-Development-for-Healthcare/?utm_campaign=3Dlatest_project_cont=
+est&utm_medium=3Demail_notification&utm_source=3Dproject_title&utm_content=
+=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1=
+&linkid=3D56 style=3Dcolor:#007fed;font-weight:700 target=3D_blank> <span s=
+tyle=3Dcolor:#007fed;mso-line-height-rule:exactly;font-family:Helvetica,Ari=
+al,sans-serif;font-size:16px;font-weight:700;line-height:1.5>AI Chatbot Dev=
+elopment for Healthcare services</span> </a> =C2=A0<tr><td height=3D4><tr><=
+td><span style=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvet=
+ica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.5>I'm loo=
+king for an AI Chatbot website, similar to ChatGPT, that serves both custom=
+er support and educational purposes. This project requires the chatbot to h=
+andle various functions, from technical assistance to providing</span> ... =
+<a href=3Dhttps://www.freelancer.com/projects/html/Chatbot-Development-for-=
+Healthcare/?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail_notifi=
+cation&utm_source=3Dproject_title&utm_content=3Dhtml&ttref=3DProject_LPCNht=
+ml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D57 style=3Dcolor:#00=
+7fed;font-weight:400 target=3D_blank> <span style=3Dcolor:#007fed;mso-line-=
+height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;f=
+ont-weight:400;line-height:1.5>See more</span> </a><tr><td height=3D4><tr><=
+td><span style=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvet=
+ica,Arial,sans-serif;font-size:12px;font-weight:700;line-height:1.5>Skills:=
+=C2=A0</span> <span style=3Dcolor:#000;mso-line-height-rule:exactly;font-fa=
+mily:Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:=
+1.5>CSS | Express JS | HTML | MySQL | Node.js</span></table><td width=3D16>=
+<td style=3D"padding:16px 0"align=3Dleft valign=3Dtop width=3D130><table bo=
+rder=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td><span style=
+=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans=
+-serif;font-size:16px;font-weight:700;line-height:1.5>$7 - $59 USD</span><t=
+r><td height=3D4><tr><td align=3Dleft style=3Dwhite-space:nowrap><table bor=
+der=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td align=3Dcenter=
+ bgcolor=3D#77BE53><a style=3D"border:1px solid #77be53;padding:5px 10px;te=
+xt-decoration:none;display:inline-block"href=3Dhttps://www.freelancer.com/p=
+rojects/html/Chatbot-Development-for-Healthcare/?utm_campaign=3Dlatest_proj=
+ect_contest&utm_medium=3Demail_notification&utm_source=3Dproject_cta&utm_co=
+ntent=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebd=
+b00c1&linkid=3D58 target=3D_blank> <span style=3Dcolor:#fff;mso-line-height=
+-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-we=
+ight:700;line-height:1.5>Bid now</span> </a></table></table><td width=3D16>=
+<tr><td bgcolor=3D#cccccc colspan=3D5 height=3D1 style=3Dmargin:0;padding:0=
+;font-size:0;line-height:0><tr><td width=3D16><td style=3D"padding:16px 0"a=
+lign=3Dleft height=3D86 valign=3Dtop width=3D440><table border=3D0 cellpadd=
+ing=3D0 cellspacing=3D0><tr><td><a href=3Dhttps://www.freelancer.com/projec=
+ts/graphic-design/Professional-Squarespace-Website/?utm_campaign=3Dlatest_p=
+roject_contest&utm_medium=3Demail_notification&utm_source=3Dproject_title&u=
+tm_content=3Dhtml&ttref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae=
+5-ebdb00c1&linkid=3D59 style=3Dcolor:#007fed;font-weight:700 target=3D_blan=
+k> <span style=3Dcolor:#007fed;mso-line-height-rule:exactly;font-family:Hel=
+vetica,Arial,sans-serif;font-size:16px;font-weight:700;line-height:1.5>Prof=
+essional Squarespace Website Designer/Developer</span> </a> =C2=A0<tr><td h=
+eight=3D4><tr><td><span style=3Dcolor:#000;mso-line-height-rule:exactly;fon=
+t-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-hei=
+ght:1.5>I'm looking for a skilled Squarespace developer to create a profess=
+ional , clean and innovative website for me. The website should encompass t=
+he following essential pages: - Home - About - Contact - Services - Portfol=
+io</span> ... <a href=3Dhttps://www.freelancer.com/projects/graphic-design/=
+Professional-Squarespace-Website/?utm_campaign=3Dlatest_project_contest&utm=
+_medium=3Demail_notification&utm_source=3Dproject_title&utm_content=3Dhtml&=
+ttref=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=
+=3D60 style=3Dcolor:#007fed;font-weight:400 target=3D_blank> <span style=3D=
+color:#007fed;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans=
+-serif;font-size:12px;font-weight:400;line-height:1.5>See more</span> </a><=
+tr><td height=3D4><tr><td><span style=3Dcolor:#000;mso-line-height-rule:exa=
+ctly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:700;=
+line-height:1.5>Skills:=C2=A0</span> <span style=3Dcolor:#000;mso-line-heig=
+ht-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-=
+weight:400;line-height:1.5>Graphic Design | HTML | SEO | User Interface / I=
+A | Website Design</span></table><td width=3D16><td style=3D"padding:16px 0=
+"align=3Dleft valign=3Dtop width=3D130><table border=3D0 cellpadding=3D0 ce=
+llspacing=3D0 width=3D100%><tr><td><span style=3Dcolor:#000;mso-line-height=
+-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-we=
+ight:700;line-height:1.5>$968 - $1937 USD</span><tr><td height=3D4><tr><td =
+align=3Dleft style=3Dwhite-space:nowrap><table border=3D0 cellpadding=3D0 c=
+ellspacing=3D0 width=3D100%><tr><td align=3Dcenter bgcolor=3D#77BE53><a sty=
+le=3D"border:1px solid #77be53;padding:5px 10px;text-decoration:none;displa=
+y:inline-block"href=3Dhttps://www.freelancer.com/projects/graphic-design/Pr=
+ofessional-Squarespace-Website/?utm_campaign=3Dlatest_project_contest&utm_m=
+edium=3Demail_notification&utm_source=3Dproject_cta&utm_content=3Dhtml&ttre=
+f=3DProject_LPCNhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D61=
+ target=3D_blank> <span style=3Dcolor:#fff;mso-line-height-rule:exactly;fon=
+t-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;line-hei=
+ght:1.5>Bid now</span> </a></table></table><td width=3D16><tr><td bgcolor=
+=3D#cccccc colspan=3D5 height=3D1 style=3Dmargin:0;padding:0;font-size:0;li=
+ne-height:0></table></table><tr><td height=3D32><tr><td><table align=3Dcent=
+er border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td><table a=
+lign=3Dcenter bgcolor=3D#313640 border=3D0 cellpadding=3D0 cellspacing=3D0 =
+height=3D38 width=3D100%><tr><td width=3D16><td align=3Dleft valign=3Dmiddl=
+e width=3D440><span style=3Dcolor:#fff;mso-line-height-rule:exactly;font-fa=
+mily:Helvetica,Arial,sans-serif;font-size:12px;font-weight:700;line-height:=
+1.5>CONTEST DESCRIPTION</span><td width=3D16><td width=3D130><span style=3D=
+color:#fff;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-se=
+rif;font-size:12px;font-weight:700;line-height:1.5>PRIZE</span><td width=3D=
+16></table><tr><td><table style=3D"border:1px solid #ccc"align=3Dcenter bor=
+der=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td width=3D16><td=
+ style=3D"padding:16px 0"align=3Dleft height=3D86 valign=3Dtop width=3D440>=
+<table border=3D0 cellpadding=3D0 cellspacing=3D0><tr><td><a href=3Dhttps:/=
+/www.freelancer.com/contest/Soccer-players-Scout-Record-2484862.html?utm_ca=
+mpaign=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=
+=3Dcontest_title&utm_content=3Dhtml&uniqid=3D78205122-481140-6736eae5-ebdb0=
+0c1&linkid=3D62 style=3Dcolor:#007fed;font-weight:700 target=3D_blank> <spa=
+n style=3Dcolor:#007fed;mso-line-height-rule:exactly;font-family:Helvetica,=
+Arial,sans-serif;font-size:16px;font-weight:700;line-height:1.5>Soccer play=
+ers Scout Record</span> </a> =C2=A0 <span style=3D"vertical-align:2px;backg=
+round-color:#67b972;border-radius:2px;margin:0;padding:2px 0;display:inline=
+-block"> <span style=3Dcolor:#fff;mso-line-height-rule:exactly;font-family:=
+Helvetica,Arial,sans-serif;font-size:12px;font-weight:700;line-height:1.5>=
+=C2=A0 Guaranteed =C2=A0</span> </span> =C2=A0<tr><td height=3D4><tr><td><s=
+pan style=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvetica,A=
+rial,sans-serif;font-size:12px;font-weight:400;line-height:1.5>A control pa=
+nel that specializes in adding data on football players who are subject to =
+continuous monitoring and updating by multiple users according to multiple =
+powers. With the possibility of classifying the lists and</span> ... <a hre=
+f=3Dhttps://www.freelancer.com/contest/Soccer-players-Scout-Record-2484862.=
+html?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail_notification&=
+utm_source=3Dcontest_title&utm_content=3Dhtml&uniqid=3D78205122-481140-6736=
+eae5-ebdb00c1&linkid=3D63 style=3Dcolor:#007fed;font-weight:400 target=3D_b=
+lank> <span style=3Dcolor:#007fed;mso-line-height-rule:exactly;font-family:=
+Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.5>S=
+ee more</span> </a><tr><td height=3D4><tr><td><span style=3Dcolor:#000;mso-=
+line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:1=
+2px;font-weight:700;line-height:1.5>Skills:=C2=A0</span> <span style=3Dcolo=
+r:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;=
+font-size:12px;font-weight:400;line-height:1.5>Android | HTML | Mobile App =
+Development | PHP | Website Design</span></table><td width=3D16><td style=
+=3D"padding:16px 0"align=3Dleft valign=3Dtop width=3D130><table border=3D0 =
+cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td><span style=3Dcolor:#0=
+00;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font=
+-size:12px;font-weight:400;line-height:1.5>USD</span><tr><td><span style=3D=
+color:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-se=
+rif;font-size:16px;font-weight:700;line-height:1.5>$190</span><tr><td heigh=
+t=3D4><tr><td align=3Dleft><table border=3D0 cellpadding=3D0 cellspacing=3D=
+0 width=3D100%><tr><td align=3Dcenter bgcolor=3D#77BE53><a style=3D"border:=
+1px solid #77be53;padding:5px 10px;text-decoration:none;display:inline-bloc=
+k"href=3Dhttps://www.freelancer.com/contest/Soccer-players-Scout-Record-248=
+4862.html?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail_notifica=
+tion&utm_source=3Dcontest_cta&utm_content=3Dhtml&uniqid=3D78205122-481140-6=
+736eae5-ebdb00c1&linkid=3D64 target=3D_blank> <span style=3Dcolor:#fff;mso-=
+line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:1=
+4px;font-weight:700;line-height:1.5>Enter now</span> </a></table></table><t=
+d width=3D16><tr><td bgcolor=3D#cccccc colspan=3D5 height=3D1 style=3Dmargi=
+n:0;padding:0;font-size:0;line-height:0><tr><td width=3D16><td style=3D"pad=
+ding:16px 0"align=3Dleft height=3D86 valign=3Dtop width=3D440><table border=
+=3D0 cellpadding=3D0 cellspacing=3D0><tr><td><a href=3Dhttps://www.freelanc=
+er.com/contest/2484955.html?utm_campaign=3Dlatest_project_contest&utm_mediu=
+m=3Demail_notification&utm_source=3Dcontest_title&utm_content=3Dhtml&uniqid=
+=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D65 style=3Dcolor:#007fed;font=
+-weight:700 target=3D_blank> <span style=3Dcolor:#007fed;mso-line-height-ru=
+le:exactly;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weigh=
+t:700;line-height:1.5>vitamine.org - design and develop a figma UX UI websi=
+te</span> </a> =C2=A0 <span style=3D"vertical-align:2px;background-color:#6=
+7b972;border-radius:2px;margin:0;padding:2px 0;display:inline-block"> <span=
+ style=3Dcolor:#fff;mso-line-height-rule:exactly;font-family:Helvetica,Aria=
+l,sans-serif;font-size:12px;font-weight:700;line-height:1.5>=C2=A0 Guarante=
+ed =C2=A0</span> </span> =C2=A0 <span style=3D"vertical-align:2px;backgroun=
+d-color:#0093d0;border-radius:2px;margin:0;padding:2px 0;display:inline-blo=
+ck"> <span style=3Dcolor:#fff;mso-line-height-rule:exactly;font-family:Helv=
+etica,Arial,sans-serif;font-size:12px;font-weight:700;line-height:1.5>=C2=
+=A0 Sealed =C2=A0</span> </span> =C2=A0<tr><td height=3D4><tr><td><span sty=
+le=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sa=
+ns-serif;font-size:12px;font-weight:400;line-height:1.5>Design a User-Frien=
+dly Supplement Website with Figma for [login to view URL] !!!Please also no=
+te the detailed files in the attachment. The text here is merely a brief su=
+mmary!!! Description: We are seeking an experienced web d</span> ... <a hre=
+f=3Dhttps://www.freelancer.com/contest/2484955.html?utm_campaign=3Dlatest_p=
+roject_contest&utm_medium=3Demail_notification&utm_source=3Dcontest_title&u=
+tm_content=3Dhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D66 st=
+yle=3Dcolor:#007fed;font-weight:400 target=3D_blank> <span style=3Dcolor:#0=
+07fed;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;f=
+ont-size:12px;font-weight:400;line-height:1.5>See more</span> </a><tr><td h=
+eight=3D4><tr><td><span style=3Dcolor:#000;mso-line-height-rule:exactly;fon=
+t-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:700;line-hei=
+ght:1.5>Skills:=C2=A0</span> <span style=3Dcolor:#000;mso-line-height-rule:=
+exactly;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:4=
+00;line-height:1.5>Figma | Graphic Design | UI / User Interface | UX / User=
+ Experience | Website Design</span></table><td width=3D16><td style=3D"padd=
+ing:16px 0"align=3Dleft valign=3Dtop width=3D130><table border=3D0 cellpadd=
+ing=3D0 cellspacing=3D0 width=3D100%><tr><td><span style=3Dcolor:#000;mso-l=
+ine-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:12=
+px;font-weight:400;line-height:1.5>USD</span><tr><td><span style=3Dcolor:#0=
+00;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font=
+-size:16px;font-weight:700;line-height:1.5>$250</span><tr><td height=3D4><t=
+r><td align=3Dleft><table border=3D0 cellpadding=3D0 cellspacing=3D0 width=
+=3D100%><tr><td align=3Dcenter bgcolor=3D#77BE53><a style=3D"border:1px sol=
+id #77be53;padding:5px 10px;text-decoration:none;display:inline-block"href=
+=3Dhttps://www.freelancer.com/contest/2484955.html?utm_campaign=3Dlatest_pr=
+oject_contest&utm_medium=3Demail_notification&utm_source=3Dcontest_cta&utm_=
+content=3Dhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D67 targe=
+t=3D_blank> <span style=3Dcolor:#fff;mso-line-height-rule:exactly;font-fami=
+ly:Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;line-height:1.=
+5>Enter now</span> </a></table></table><td width=3D16><tr><td bgcolor=3D#cc=
+cccc colspan=3D5 height=3D1 style=3Dmargin:0;padding:0;font-size:0;line-hei=
+ght:0><tr><td width=3D16><td style=3D"padding:16px 0"align=3Dleft height=3D=
+86 valign=3Dtop width=3D440><table border=3D0 cellpadding=3D0 cellspacing=
+=3D0><tr><td><a href=3Dhttps://www.freelancer.com/contest/Modern-UI-Design-=
+for-Web-App-14-11-2024-16-56-EST-2484964.html?utm_campaign=3Dlatest_project=
+_contest&utm_medium=3Demail_notification&utm_source=3Dcontest_title&utm_con=
+tent=3Dhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D68 style=3D=
+color:#007fed;font-weight:700 target=3D_blank> <span style=3Dcolor:#007fed;=
+mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-si=
+ze:16px;font-weight:700;line-height:1.5>Modern UI Design for Web App - 14/1=
+1/2024 16:56 EST</span> </a> =C2=A0<tr><td height=3D4><tr><td><span style=
+=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans=
+-serif;font-size:12px;font-weight:400;line-height:1.5>I'm looking for a mod=
+ern styled UI design for my web application. The design should be clean, in=
+tuitive and user-friendly, consistent with a contemporary aesthetic. Key Sk=
+ills and Experience Needed: - Proven experience</span> ... <a href=3Dhttps:=
+//www.freelancer.com/contest/Modern-UI-Design-for-Web-App-14-11-2024-16-56-=
+EST-2484964.html?utm_campaign=3Dlatest_project_contest&utm_medium=3Demail_n=
+otification&utm_source=3Dcontest_title&utm_content=3Dhtml&uniqid=3D78205122=
+-481140-6736eae5-ebdb00c1&linkid=3D69 style=3Dcolor:#007fed;font-weight:400=
+ target=3D_blank> <span style=3Dcolor:#007fed;mso-line-height-rule:exactly;=
+font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-=
+height:1.5>See more</span> </a><tr><td height=3D4><tr><td><span style=3Dcol=
+or:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif=
+;font-size:12px;font-weight:700;line-height:1.5>Skills:=C2=A0</span> <span =
+style=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial=
+,sans-serif;font-size:12px;font-weight:400;line-height:1.5>Figma | Graphic =
+Design | User Interface / IA | UX / User Experience | Website Design</span>=
+</table><td width=3D16><td style=3D"padding:16px 0"align=3Dleft valign=3Dto=
+p width=3D130><table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100=
+%><tr><td><span style=3Dcolor:#000;mso-line-height-rule:exactly;font-family=
+:Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:1.5>=
+USD</span><tr><td><span style=3Dcolor:#000;mso-line-height-rule:exactly;fon=
+t-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-hei=
+ght:1.5>$18</span><tr><td height=3D4><tr><td align=3Dleft><table border=3D0=
+ cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td align=3Dcenter bgcolo=
+r=3D#77BE53><a style=3D"border:1px solid #77be53;padding:5px 10px;text-deco=
+ration:none;display:inline-block"href=3Dhttps://www.freelancer.com/contest/=
+Modern-UI-Design-for-Web-App-14-11-2024-16-56-EST-2484964.html?utm_campaign=
+=3Dlatest_project_contest&utm_medium=3Demail_notification&utm_source=3Dcont=
+est_cta&utm_content=3Dhtml&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linki=
+d=3D70 target=3D_blank> <span style=3Dcolor:#fff;mso-line-height-rule:exact=
+ly;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;li=
+ne-height:1.5>Enter now</span> </a></table></table><td width=3D16><tr><td b=
+gcolor=3D#cccccc colspan=3D5 height=3D1 style=3Dmargin:0;padding:0;font-siz=
+e:0;line-height:0></table></table><tr><td height=3D32><tr><td align=3Dcente=
+r><table border=3D0 cellpadding=3D0 cellspacing=3D0><tr><td align=3Dcenter =
+bgcolor=3D#77BE53><a style=3D"border:1px solid #77be53;padding:13px 26px;te=
+xt-decoration:none;display:inline-block"href=3Dhttps://www.freelancer.com/s=
+earch/projects/?uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D71 targ=
+et=3D_blank> <span style=3Dcolor:#fff;mso-line-height-rule:exactly;font-fam=
+ily:Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-height:1=
+.5>View more jobs matching your skills!</span> <img src=3Dhttps://cdn2.f-cd=
+n.com/img/email-images/common/arrow.png?v=3Dc0213aebc469bba4d757e7b302c8873=
+6&m=3D6&buildVersion=3Df7444e6f1d143d44061faeb466493d38bcee3988> </a></tabl=
+e><tr><td height=3D32></table><td width=3D32></table><tr><td><table align=
+=3Dleft border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%><table alig=
+n=3Dcenter border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%><tr><td =
+width=3D32><td><table align=3Dcenter border=3D0 cellpadding=3D0 cellspacing=
+=3D0 width=3D100%><tr><td><span style=3Dcolor:#000;mso-line-height-rule:exa=
+ctly;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:400;=
+line-height:1.5>Regards,</span><tr><td height=3D4><tr><td><span style=3Dcol=
+or:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif=
+;font-size:20px;font-weight:700;line-height:1.5>The Freelancer Team</span><=
+/table><td width=3D32><tr><td colspan=3D3 height=3D32></table></table></tab=
+le><tr><td><table align=3Dcenter border=3D0 cellpadding=3D0 cellspacing=3D0=
+ width=3D100%><tr><td height=3D24><tr><td align=3Dcenter><span style=3Dcolo=
+r:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;=
+font-size:13px;font-weight:400;line-height:1.5>=C2=A9 2024 Freelancer Techn=
+ology Pty Limited. All Rights Reserved.</span><tr><td height=3D8><tr><td al=
+ign=3Dcenter><span style=3Dcolor:#000;mso-line-height-rule:exactly;font-fam=
+ily:Helvetica,Arial,sans-serif;font-size:13px;font-weight:400;line-height:1=
+.5>Level 37, 225 George Street, Sydney, NSW 2000, Australia</span><tr><td h=
+eight=3D8><tr><td align=3Dcenter><a href=3Dhttps://www.freelancer.com/page.=
+php?p=3Dinfo%2Fprivacy&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D=
+72 style=3Dcolor:#000;font-weight:400;text-decoration:underline target=3D_b=
+lank> <span style=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Hel=
+vetica,Arial,sans-serif;font-size:13px;font-weight:400;line-height:1.5;text=
+-decoration:underline>Privacy Policy</span> </a> =C2=A0 <span style=3Dcolor=
+:#000;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;f=
+ont-size:13px;font-weight:400;line-height:1.5>|</span> =C2=A0 <a href=3Dhtt=
+ps://www.freelancer.com/page.php?p=3Dinfo%2Fterms&uniqid=3D78205122-481140-=
+6736eae5-ebdb00c1&linkid=3D73 style=3Dcolor:#000;font-weight:400;text-decor=
+ation:underline target=3D_blank> <span style=3Dcolor:#000;mso-line-height-r=
+ule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:13px;font-weig=
+ht:400;line-height:1.5;text-decoration:underline>Terms and Conditions</span=
+> </a> =C2=A0 <span style=3Dcolor:#000;mso-line-height-rule:exactly;font-fa=
+mily:Helvetica,Arial,sans-serif;font-size:13px;font-weight:400;line-height:=
+1.5>|</span> =C2=A0 <a href=3Dhttps://www.freelancer.com/users/email/subscr=
+iptions.php?token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkZyZWVsYW5jZXJcXEdBRlxcQ29=
+yZVxcSldUXFxKV1QifQ.eyJpZCI6Ijc4MjA1MTIyIiwic3ViIjoidW5zdWJzY3JpYmUiLCJpYXQ=
+iOjE3MzE2NTIzMjV9.oLbjlcVAbkhtpZpsZTecZeM6-OXKu48StabYOZrIItw&uniqid=3D7820=
+5122-481140-6736eae5-ebdb00c1&linkid=3D74 style=3Dcolor:#000;font-weight:40=
+0;text-decoration:underline target=3D_blank> <span style=3Dcolor:#000;mso-l=
+ine-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-size:13=
+px;font-weight:400;line-height:1.5;text-decoration:underline>Unsubscribe</s=
+pan> </a> =C2=A0 <span style=3Dcolor:#000;mso-line-height-rule:exactly;font=
+-family:Helvetica,Arial,sans-serif;font-size:13px;font-weight:400;line-heig=
+ht:1.5>|</span> =C2=A0 <a href=3Dhttps://www.freelancer.com/support?uniqid=
+=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D75 style=3Dcolor:#000;font-we=
+ight:400;text-decoration:underline target=3D_blank> <span style=3Dcolor:#00=
+0;mso-line-height-rule:exactly;font-family:Helvetica,Arial,sans-serif;font-=
+size:13px;font-weight:400;line-height:1.5;text-decoration:underline>Get Sup=
+port</span> </a> =C2=A0 <span style=3Dcolor:#000;mso-line-height-rule:exact=
+ly;font-family:Helvetica,Arial,sans-serif;font-size:13px;font-weight:400;li=
+ne-height:1.5>|</span> =C2=A0 <a href=3Dhttps://www.freelancer.com/give?fro=
+m=3Demail_footer&uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D76 sty=
+le=3Dcolor:#000;font-weight:400;text-decoration:underline target=3D_blank> =
+<span style=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helvetica=
+,Arial,sans-serif;font-size:13px;font-weight:400;line-height:1.5;text-decor=
+ation:underline>Get Free Credit</span> </a><tr><td height=3D16><tr><td alig=
+n=3Dcenter><table align=3Dcenter border=3D0 cellpadding=3D0 cellspacing=3D0=
+><tr><td><a href=3Dhttps://www.facebook.com/fansoffreelancer> <img alt=3DFa=
+cebook border=3D0 src=3Dhttps://d3bvzwcd1dw6vt.cloudfront.net/static/images=
+/email/build/19bacfd0c58e6a35b841790d89354564.png width=3D24> </a><td width=
+=3D4><td><a href=3Dhttps://twitter.com/freelancer> <img alt=3DTwitter borde=
+r=3D0 src=3Dhttps://d3bvzwcd1dw6vt.cloudfront.net/static/images/email/build=
+/cf858d8bbdf01f6d8f3a7f3ecb08f266.png width=3D24> </a><td width=3D4><td><a =
+href=3Dhttps://www.instagram.com/freelancerofficial> <img alt=3DInstagram b=
+order=3D0 src=3Dhttps://d3bvzwcd1dw6vt.cloudfront.net/static/images/email/b=
+uild/7517195fa748ffb4ccc210202e644d7d.png width=3D24> </a><td width=3D16><t=
+d><a href=3Dhttps://www.freelancer.com/download?uniqid=3D78205122-481140-67=
+36eae5-ebdb00c1&linkid=3D77 style=3Dcolor:#000;font-weight:400 target=3D_bl=
+ank> <span style=3Dcolor:#000;mso-line-height-rule:exactly;font-family:Helv=
+etica,Arial,sans-serif;font-size:13px;font-weight:400;line-height:1.5>Downl=
+oad our mobile app</span> </a><td width=3D4><td><a href=3Dhttps://www.freel=
+ancer.com/download?uniqid=3D78205122-481140-6736eae5-ebdb00c1&linkid=3D78> =
+<img border=3D0 src=3Dhttps://d3bvzwcd1dw6vt.cloudfront.net/static/images/e=
+mail/build/b98e76935f88dac4cbd67e14f237d7cc.png style=3Ddisplay:inline widt=
+h=3D38> </a></table><tr><td height=3D24></table></table></table><img style=
+=3D"border:1px solid #d9d9d9"src=3Dhttps://t.freelancer.com/1px.gif?en=3Dem=
+ail-tracking.opened&acct=3D.Freelancer.com&uniqid=3D78205122-481140-6736eae=
+5-ebdb00c1>
+--b1_90923763339ccf630ad7b27ab4908037--

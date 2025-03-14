@@ -1,0 +1,794 @@
+X-GM-THRID: 1820265962191164372
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:9ea8:b0:29a:824b:9ec3 with SMTP id fi40csp10938786ysc;
+        Fri, 3 Jan 2025 13:48:17 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IE7h4AZSvxMDJAekl5uVUErfYgOfVzYLTeB0V6K6C6SdbtNCGMLDOt9sQVxb5QH+5XvvpGE
+X-Received: by 2002:a17:90b:5487:b0:2ee:f653:9f8e with SMTP id 98e67ed59e1d1-2f452eeda4dmr77121947a91.35.1735940896967;
+        Fri, 03 Jan 2025 13:48:16 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1735940896; cv=none;
+        d=google.com; s=arc-20240605;
+        b=A9CYM+BmfqtjzhmJ1+UI/MkiQgC9/hy+p5Vh4bWbKROv7kV9Hnx7za3okuxYXLYLzj
+         kCBu7wMj2FFgKYsKsStOCG89+gwQOMEiDj5A6Ho4RjjeHrn2Kijew3D3Bd2gaJaOuzD2
+         gNkHhPc2iV43BQrZgfgQuM7hgAFIg/3w6Ue3rIritv1ndAp2tiXItmlGpYzTXxJf0yyE
+         9m/lM35h6pfVeRJQzC6RHEU4aGyPcU+EB8fuozGhXyuqnZyY1hgEie27WbZWveEJVZNJ
+         EVu7ihiAy+iR7fkdkpPaWR3G7d2e+dn/guH/6me7tvBg9WfnDqasARRkW0ic13eeb3uD
+         U8/g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=oDfG+a2iZBdUWyh9zD3zxYMxRcFLGiXvxA9RJh8/lbg=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=Hp6L3VFm7iKthkrHY4wU56BKyjRzgsPcYSKYlFOKiwlLygVKFD5bFKQkqPAtLh//oB
+         pOmO/XvUDuTOiui0jfTuk1zOSPTX69c5GF72udJ+Ym3jqmFPiqMqANTzWamtVxSG1OGi
+         7xJ2Os8yGmrzcTxreS7FhHRSffWPtzFVA3TVZF81nV0CKsFdl20CXmXnoVM2X4U8AKXV
+         5BscCtNSrsE0dOImKDrLDpo4WQgtcNA6duEmmPo+xfDWBs6dQlJVuLc2Q+QPW3MfX+AB
+         mrVs7RYi2hCjMzjazNMpluaLamZM++2r4wBbi1+7kcrMLfK0Q7iticg0MrmtQztXhDJt
+         1W0Q==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=KUZXf4YI;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b="S0r4/QUS";
+       spf=pass (google.com: domain of s-2ke6avx1nixzz75cklpkl6mlxbu427fo7ssf8xg4h0hlzakx816d77sg@bounce.linkedin.com designates 108.174.0.193 as permitted sender) smtp.mailfrom=s-2ke6avx1nixzz75cklpkl6mlxbu427fo7ssf8xg4h0hlzakx816d77sg@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-2ke6avx1nixzz75cklpkl6mlxbu427fo7ssf8xg4h0hlzakx816d77sg@bounce.linkedin.com>
+Received: from maile-ga.linkedin.com (maile-ga.linkedin.com. [108.174.0.193])
+        by mx.google.com with ESMTPS id 98e67ed59e1d1-2f2ee278c97si40788522a91.127.2025.01.03.13.48.15
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 03 Jan 2025 13:48:16 -0800 (PST)
+Received-SPF: pass (google.com: domain of s-2ke6avx1nixzz75cklpkl6mlxbu427fo7ssf8xg4h0hlzakx816d77sg@bounce.linkedin.com designates 108.174.0.193 as permitted sender) client-ip=108.174.0.193;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=KUZXf4YI;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b="S0r4/QUS";
+       spf=pass (google.com: domain of s-2ke6avx1nixzz75cklpkl6mlxbu427fo7ssf8xg4h0hlzakx816d77sg@bounce.linkedin.com designates 108.174.0.193 as permitted sender) smtp.mailfrom=s-2ke6avx1nixzz75cklpkl6mlxbu427fo7ssf8xg4h0hlzakx816d77sg@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1735930243;
+	bh=oDfG+a2iZBdUWyh9zD3zxYMxRcFLGiXvxA9RJh8/lbg=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=KUZXf4YIN/cYPASfLTqKVl8ysf1X8noW9HrVjikYaYELfIPlr136fmn1E2Zeb5tTw
+	 DX7x2QIUh1EOXAIJg5voxFOiiGoGZLwfk8n2NzUgwtHvGnLaUEy1LeQlX0hG2AVEC0
+	 MX+RuiYcZqr4+9H1ix2sICqFkJyO8Gkvw6luQBM2r1S06nvPIWRPD4dyq9yFVPU0NV
+	 n7FVvXfJ+f7V1hOExacpIDZJoYjT+AQ0jlia/Cq+yQchWjn+Qwrs5eoQ3eCpUXSkIn
+	 JlmqB9WNivAvrL0yfYMHAR9HKKMMuvFWPJ0VSjsRvsbEZ/9KQBewDX6458ZpqsCawx
+	 +AvnZP+Wzgj3g==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1735930243;
+	bh=oDfG+a2iZBdUWyh9zD3zxYMxRcFLGiXvxA9RJh8/lbg=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=S0r4/QUSdhQaZwZdhV9nzsVevQJI0E+aYxJKAw5cl+riIjX7wcxi+0t3NRiVOOZf1
+	 lyhF0tkdTwARdA6BlHnrnvhiszNBNroMgcURg7+PMwKgs+Fo2vXNmYjm84Wq4dAffF
+	 dZPOVCpp3y9F3X5wRBfNbSwAv8n0uZgYREcaL4DuNZcLv39Gss69wdLR+DK09jzikH
+	 dCcsjobgTQAxC0IMj7eBEQCptm2+W5s87mh+/GbqLqiuamL2ZL1vO2jV8lC/sr/oGL
+	 rb3GqdeXDEFUeANrYNspPGDUX+xeQCN3K1JsBoT2wgTR8e+0rN3iRYtdZ91GaYP6If
+	 ci9LwRlL6WLng==
+From: DIO via LinkedIn <newsletters-noreply@linkedin.com>
+Message-ID: <107462.67351708.1735930243037@lva1-app95306.prod.linkedin.com>
+Subject: =?UTF-8?Q?Por_que_delegar_tarefas_repetitivas_para_a_IA,_como_o_Gith?=
+ =?UTF-8?Q?ub_Copilot,_=C3=A9_o_futuro_da_pro?=
+ =?UTF-8?Q?dutividade_no_desenvolvimento=3F?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_67351704_1937010927.1735930243033"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Fri, 3 Jan 2025 18:50:43 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-aszww5ieh73s3kly1pu1ziq7z1eumg0kmsgs7zvkdgf0w67od5xf4qbfjo60rn6gzwv5nqytbrx6x0vkqzi0ifkhbh77ned3ons9yk
+X-LinkedIn-Id: gdb74f-m5h403qh-9l
+List-Unsubscribe: <https://www.linkedin.com/comm/series-notifications/?action=unsubscribe&memberToken=ADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&newsletterId=6924778912161906689&newsletterTitle=#MaketheChange&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B3iipnsWBSqa3qRcXBxU4TQ%3D%3D&midToken=AQHxaOsdYMWJVQ&midSig=1t4mkdiO9aubA1&trk=eml-email_series_follow_newsletter_01-unsub-0-unsub&trkEmail=eml-email_series_follow_newsletter_01-unsub-0-unsub-null-gdb74f~m5h403qh~9l-null-null&eid=gdb74f-m5h403qh-9l&otpToken=MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmVlYjc4ZmNjZDQ0MzlkYWE4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk1NjZiMWVhZGY0MDgyZjJhMGFiNDgyNWE0OWRhZjYwMTVlM2M1ZGEzMjA0ZWZhMiwxLDE%3D>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_67351704_1937010927.1735930243033
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+#MaketheChange
+
+Por DIO
+
+
+Por DIO
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/por-que-delegar-tarefas-repetitivas-par=
+a-ia-como-o-github-n567c?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow=
+_newsletter_01%3B3iipnsWBSqa3qRcXBxU4TQ%3D%3D&midToken=3DAQHxaOsdYMWJVQ&mid=
+Sig=3D1t4mkdiO9aubA1&trk=3Deml-email_series_follow_newsletter_01-null-0-rea=
+d_more_banner_cta_&trkEmail=3Deml-email_series_follow_newsletter_01-null-0-=
+read_more_banner_cta_-null-gdb74f~m5h403qh~9l-null-null&eid=3Dgdb74f-m5h403=
+qh-9l&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmVlYjc4ZmNjZDQ0MzlkYW=
+E4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk1NjZiMWVhZGY0MDgyZjJhMGFiNDgyNWE0OWRhZ=
+jYwMTVlM2M1ZGEzMjA0ZWZhMiwxLDE%3D
+ =20
+Imagine come=C3=A7ar seu dia de trabalho com uma lista cheia de tarefas. En=
+tre elas, est=C3=A3o atividades como escrever c=C3=B3digos padr=C3=A3o, cor=
+rigir bugs simples ou refatorar trechos j=C3=A1 conhecidos. Agora, imagine =
+se voc=C3=AA pudesse deixar essas tarefas para uma intelig=C3=AAncia artifi=
+cial, enquanto concentra sua energia em resolver problemas realmente desafi=
+adores e criativos. Parece um sonho, certo? Mas com ferramentas como o GitH=
+ub Copilot, isso j=C3=A1 =C3=A9 realidade.=C2=A0 =C2=A0=C2=A0 O custo invis=
+=C3=ADvel das tarefas repetitivas=C2=A0 Tarefas rotineiras, por mais simple=
+s que sejam, consomem tempo e energia mental. Cada linha de c=C3=B3digo que=
+ voc=C3=AA escreve ou refatora exige concentra=C3=A7=C3=A3o, mesmo quando j=
+=C3=A1 sabe exatamente o que fazer. Esse "custo invis=C3=ADvel" =C3=A9 acum=
+ulativo e pode impactar negativamente sua produtividade e criatividade ao l=
+ongo do dia. O resultado? Menos foco nas solu=C3=A7=C3=B5es inovadoras e ma=
+is desgaste mental.=C2=A0 =C2=A0=C2=A0 Como a IA pode ser sua parceira de t=
+rabalho=C2=A0 A Intelig=C3=AAncia Artificial, como o GitHub Copilot, =C3=A9=
+ projetada para ser um parceiro que "pensa" junto com voc=C3=AA. Ela aprend=
+e com os seus padr=C3=B5es de c=C3=B3digo, entende o contexto e fornece sug=
+est=C3=B5es em tempo real. Veja alguns exemplos de como ela pode transforma=
+r seu dia a dia:=C2=A0 =C2=A0=C2=A0 Gera=C3=A7=C3=A3o de c=C3=B3digo autom=
+=C3=A1tico: Economize tempo ao receber sugest=C3=B5es de c=C3=B3digos pront=
+os para fun=C3=A7=C3=B5es comuns ou padr=C3=B5es de projeto.=C2=A0 Refatora=
+=C3=A7=C3=A3o autom=C3=A1tica: Melhore a legibilidade e performance do c=C3=
+=B3digo com recomenda=C3=A7=C3=B5es precisas.=C2=A0 Cria=C3=A7=C3=A3o de te=
+stes automatizados: Garanta a qualidade do software com testes sugeridos pe=
+la IA.=C2=A0 Acelere a resolu=C3=A7=C3=A3o de problemas: Concentre-se na l=
+=C3=B3gica e deixe que a IA sugira solu=C3=A7=C3=B5es para tarefas mais mec=
+=C3=A2nicas.=C2=A0 =C2=A0=C2=A0 O impacto na sua produtividade=C2=A0 Ao del=
+egar as tarefas repetitivas para a IA, voc=C3=AA ganha espa=C3=A7o para:=C2=
+=A0 =C2=A0=C2=A0 Focar no que importa: Solucionar problemas complexos, pens=
+ar em arquiteturas melhores e criar solu=C3=A7=C3=B5es mais robustas.=C2=A0=
+ Aumentar sua efici=C3=AAncia: Com menos distra=C3=A7=C3=B5es, voc=C3=AA en=
+trega mais em menos tempo.=C2=A0 Desenvolver habilidades estrat=C3=A9gicas:=
+ Com mais tempo livre, voc=C3=AA pode estudar novas tecnologias, liderar pr=
+ojetos ou mentorizar outros profissionais.=C2=A0 Participe do Bootcamp Micr=
+osoft AI for Tech - GitHub Copilot e aprenda a integrar IA ao seu ambiente =
+de c=C3=B3digo enquanto domina t=C3=A9cnicas avan=C3=A7adas de produtividad=
+e.=C2=A0=C2=A0 Inscreva-se e transforme sua forma de codar: https://c.dio.m=
+e/YPjdLd=C2=A0=C2=A0 E voc=C3=AA, j=C3=A1 est=C3=A1 usando IA no seu dia a =
+dia? Compartilhe sua experi=C3=AAncia nos coment=C3=A1rios e vamos conversa=
+r sobre o futuro do desenvolvimento!=C2=A0
+Continue lendo no LinkedIn
+https://www.linkedin.com/comm/pulse/por-que-delegar-tarefas-repetitivas-par=
+a-ia-como-o-github-n567c?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow=
+_newsletter_01%3B3iipnsWBSqa3qRcXBxU4TQ%3D%3D&midToken=3DAQHxaOsdYMWJVQ&mid=
+Sig=3D1t4mkdiO9aubA1&trk=3Deml-email_series_follow_newsletter_01-newsletter=
+_content_preview_text-0-readmore_button_&trkEmail=3Deml-email_series_follow=
+_newsletter_01-newsletter_content_preview_text-0-readmore_button_-null-gdb7=
+4f~m5h403qh~9l-null-null&eid=3Dgdb74f-m5h403qh-9l&otpToken=3DMWIwZDE3ZTgxMz=
+I4Y2JjM2I1MjQwNGVkNDUxYmVlYjc4ZmNjZDQ0MzlkYWE4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZ=
+DNkZjk1NjZiMWVhZGY0MDgyZjJhMGFiNDgyNWE0OWRhZjYwMTVlM2M1ZGEzMjA0ZWZhMiwxLDE%=
+3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | Java | JS | React.js | Node.js | Python)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3B3iipnsWBSqa3qRcXBxU4TQ%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=
+=3D1t4mkdiO9aubA1&trk=3Deml-email_series_follow_newsletter_01-SecurityHelp-=
+0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Securi=
+tyHelp-0-textfooterglimmer-null-gdb74f~m5h403qh~9l-null-null&eid=3Dgdb74f-m=
+5h403qh-9l&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmVlYjc4ZmNjZDQ0M=
+zlkYWE4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk1NjZiMWVhZGY0MDgyZjJhMGFiNDgyNWE0=
+OWRhZjYwMTVlM2M1ZGEzMjA0ZWZhMiwxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/comm/series-notifica=
+tions/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y=
+9whjlY&newsletterId=3D6924778912161906689&newsletterTitle=3D#MaketheChange&=
+lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B3iipnsWB=
+Sqa3qRcXBxU4TQ%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D1t4mkdiO9aubA1&trk=
+=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGlimmer&trkEma=
+il=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGlimmer-null=
+-gdb74f~m5h403qh~9l-null-null&eid=3Dgdb74f-m5h403qh-9l&otpToken=3DMWIwZDE3Z=
+TgxMzI4Y2JjM2I1MjQwNGVkNDUxYmVlYjc4ZmNjZDQ0MzlkYWE4ZDYxNzljNDA2NmQ0YjVkNWJm=
+MmZlZDNkZjk1NjZiMWVhZGY0MDgyZjJhMGFiNDgyNWE0OWRhZjYwMTVlM2M1ZGEzMjA0ZWZhMiw=
+xLDE%3D=C2=A0=C2=A0=C2=B7=C2=A0=C2=A0Ajuda: https://www.linkedin.com/help/l=
+inkedin/answer/67?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_fol=
+low_newsletter_01%3B3iipnsWBSqa3qRcXBxU4TQ%3D%3D&midToken=3DAQHxaOsdYMWJVQ&=
+midSig=3D1t4mkdiO9aubA1&trk=3Deml-email_series_follow_newsletter_01-help-0-=
+textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-help-0-t=
+extfooterglimmer-null-gdb74f~m5h403qh~9l-null-null&eid=3Dgdb74f-m5h403qh-9l=
+&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmVlYjc4ZmNjZDQ0MzlkYWE4ZDY=
+xNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk1NjZiMWVhZGY0MDgyZjJhMGFiNDgyNWE0OWRhZjYwMT=
+VlM2M1ZGEzMjA0ZWZhMiwxLDE%3D
+
+=C2=A9 2025 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_67351704_1937010927.1735930243033
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+/head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-canvas w-fu=
+ll m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; padding: 0p=
+x; padding-top: 8px; font-family: -apple-system, system-ui, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Ox=
+ygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sa=
+ns-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible overflow=
+-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; max-height=
+: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" data-email-p=
+reheader=3D"true">Imagine come=C3=A7ar seu dia de trabalho com uma lista ch=
+eia de tarefas. Entre elas,=E2=80=A6</div> <div class=3D"h-0 opacity-0 text=
+-transparent invisible overflow-hidden w-0 max-h-[0]" style=3D"visibility: =
+hidden; height: 0px; max-height: 0; width: 0px; overflow: hidden; opacity: =
+0; mso-hide: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+ =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table role=3D"presentation" va=
+lign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"512"=
+ align=3D"center" class=3D"mercado-container w-[512px] max-w-[512px] mx-aut=
+o my-0 p-0 " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-left: auto; mar=
+gin-right: auto; margin-top: 0px; margin-bottom: 0px; width: 512px; max-wid=
+th: 512px; padding: 0px;"> <tbody> <tr> <td style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"bg-color-background-co=
+ntainer " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff=
+;"> <tbody> <tr> <td class=3D"text-center p-3" style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt; padding: 24px; text-align: center;"> <table role=3D"presentatio=
+n" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D=
+"100%" class=3D"min-w-full" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-wid=
+th: 100%;"> <tbody> <tr> <td align=3D"left" valign=3D"middle" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/feed/=
+?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B3iipnsW=
+BSqa3qRcXBxU4TQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1t4mkdiO9a=
+ubA1&amp;trk=3Deml-email_series_follow_newsletter_01-header-0-home_glimmer_=
+dynamic_badging_high_dpi&amp;trkEmail=3Deml-email_series_follow_newsletter_=
+01-header-0-home_glimmer_dynamic_badging_high_dpi-null-gdb74f~m5h403qh~9l-n=
+ull-null&amp;eid=3Dgdb74f-m5h403qh-9l&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2=
+I1MjQwNGVkNDUxYmVlYjc4ZmNjZDQ0MzlkYWE4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk1N=
+jZiMWVhZGY0MDgyZjJhMGFiNDgyNWE0OWRhZjYwMTVlM2M1ZGEzMjA0ZWZhMiwxLDE%3D" targ=
+et=3D"_blank" class=3D"w-[84px]" style=3D"color: #0a66c2; cursor: pointer; =
+display: inline-block; text-decoration: none; -webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; width: 84px;"> <img class=3D"h-[37px] w-[101=
+px]" alt=3D"LinkedIn" src=3D"https://www.linkedin.com/comm/dms/logo/v2?badg=
+eTheme=3Dmercado&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3B3iipnsWBSqa3qRcXBxU4TQ%3D%3D&amp;midSig=3D1t4mkdiO9aubA1&amp;m=
+idToken=3DAQHxaOsdYMWJVQ&amp;trkEmail=3Deml-email_series_follow_newsletter_=
+01-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2-null-gdb74f%7Em5h403qh%7=
+E9l-null-null&amp;trk=3Deml-email_series_follow_newsletter_01-null-0-comms%=
+7Ebadging%7Edynamic%7Eglimmer%7Ev2&amp;_sig=3D2sJggZkDlaubA1" data-test-hea=
+der-dynamic-badging-img-high-dpi style=3D"outline: none; text-decoration: n=
+one; -ms-interpolation-mode: bicubic; height: 37px; width: 101px;" width=3D=
+"101" height=3D"37"> </a> </td> <td valign=3D"middle" align=3D"right" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D=
+"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" data-=
+test-header-profile style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> =
+<td align=3D"right" valign=3D"middle" class=3D"w-[32px]" style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; width: 32px;" width=3D"32"> <a href=3D"https://br.lin=
+kedin.com/comm/in/fernando-ferreira-brito?lipi=3Durn%3Ali%3Apage%3Aemail_em=
+ail_series_follow_newsletter_01%3B3iipnsWBSqa3qRcXBxU4TQ%3D%3D&amp;midToken=
+=3DAQHxaOsdYMWJVQ&amp;midSig=3D1t4mkdiO9aubA1&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-header-0-profile_glimmer&amp;trkEmail=3Deml-email_series=
+_follow_newsletter_01-header-0-profile_glimmer-null-gdb74f~m5h403qh~9l-null=
+-null&amp;eid=3Dgdb74f-m5h403qh-9l&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1M=
+jQwNGVkNDUxYmVlYjc4ZmNjZDQ0MzlkYWE4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk1NjZi=
+MWVhZGY0MDgyZjJhMGFiNDgyNWE0OWRhZjYwMTVlM2M1ZGEzMjA0ZWZhMiwxLDE%3D" target=
+=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-block=
+; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%;"> <img alt=3D"Luiz Fernando Brito Ferreira" src=3D"https://media.=
+licdn.com/dms/image/v2/D4E03AQHtWMkj43o1lA/profile-displayphoto-shrink_200_=
+200/profile-displayphoto-shrink_200_200/0/1724191556445?e=3D2147483647&amp;=
+v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB92xXoc9r_1IG6EIUIKB4" class=3D"roun=
+ded-[100%] w-[32px] h-[32px]" style=3D"outline: none; text-decoration: none=
+; -ms-interpolation-mode: bicubic; height: 32px; width: 32px; border-radius=
+: 100%;" width=3D"32" height=3D"32"> </a> </td> </tr> </tbody> </table> </t=
+d> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"px-0 pb-3" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; padding-left: 0px; padding-right: 0px; p=
+adding-bottom: 24px;"> <div> <table role=3D"presentation" valign=3D"top" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td data-test-id=3D"newsletter-en=
+tity-lockup" class=3D"px-3 pt-1" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; pa=
+dding-left: 24px; padding-right: 24px; padding-top: 8px;"> <table role=3D"p=
+resentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" width=3D"100%" class=3D"font-sans" style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Ro=
+boto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantare=
+ll, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', =
+'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;"> <tbody>=
+ <tr> <td valign=3D"top" class=3D"pr-1 w-6" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt; width: 48px; padding-right: 8px;" width=3D"48"> <a href=3D"https:/=
+/www.linkedin.com/comm/newsletters/6924778912161906689?lipi=3Durn%3Ali%3Apa=
+ge%3Aemail_email_series_follow_newsletter_01%3B3iipnsWBSqa3qRcXBxU4TQ%3D%3D=
+&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1t4mkdiO9aubA1&amp;trk=3Deml-em=
+ail_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entit=
+y_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_entit=
+y_lockup-0-newsletter_entity_cta-null-gdb74f~m5h403qh~9l-null-null&amp;eid=
+=3Dgdb74f-m5h403qh-9l&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYm=
+VlYjc4ZmNjZDQ0MzlkYWE4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk1NjZiMWVhZGY0MDgyZ=
+jJhMGFiNDgyNWE0OWRhZjYwMTVlM2M1ZGEzMjA0ZWZhMiwxLDE%3D" target=3D"_blank" st=
+yle=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decorat=
+ion: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <i=
+mg class=3D"inline-block relative bg-color-entity-ghost-background w-6 h-6 =
+rounded-md" src=3D"https://media.licdn.com/dms/image/v2/C4E12AQG3MmGNUq3gFA=
+/series-logo_image-shrink_100_100/series-logo_image-shrink_100_100/0/165099=
+5874462?e=3D2147483647&amp;v=3Dbeta&amp;t=3D3MbLefeKux45-i2TOkzdYChV7z6Mavu=
+2YO4GmfTPZuE" alt=3D"Abrir #MaketheChange" style=3D"outline: none; text-dec=
+oration: none; -ms-interpolation-mode: bicubic; position: relative; display=
+: inline-block; height: 48px; width: 48px; border-radius: 8px; background-c=
+olor: #eae6df;" width=3D"48" height=3D"48"> </a> </td> <td valign=3D"top" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valig=
+n=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/newslette=
+rs/6924778912161906689?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_n=
+ewsletter_01%3B3iipnsWBSqa3qRcXBxU4TQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&a=
+mp;midSig=3D1t4mkdiO9aubA1&amp;trk=3Deml-email_series_follow_newsletter_01-=
+newsletter_entity_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-email_s=
+eries_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta=
+-null-gdb74f~m5h403qh~9l-null-null&amp;eid=3Dgdb74f-m5h403qh-9l&amp;otpToke=
+n=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmVlYjc4ZmNjZDQ0MzlkYWE4ZDYxNzljNDA=
+2NmQ0YjVkNWJmMmZlZDNkZjk1NjZiMWVhZGY0MDgyZjJhMGFiNDgyNWE0OWRhZjYwMTVlM2M1ZG=
+EzMjA0ZWZhMiwxLDE%3D" target=3D"_blank" class=3D"no-underline" style=3D"col=
+or: #0a66c2; cursor: pointer; display: inline-block; text-decoration: none;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decoratio=
+n-line: none;"> <div class=3D"pb-0.5" style=3D"padding-bottom: 4px;"> <span=
+ class=3D"text-md font-bold text-color-text break-words leading-regular" st=
+yle=3D"overflow-wrap: break-word; font-size: 16px; font-weight: 600; line-h=
+eight: 1.25; color: rgba(0, 0, 0, 0.9);"> #MaketheChange </span> </div> </a=
+> </td> </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D=
+"https://www.linkedin.com/comm/newsletters/6924778912161906689?lipi=3Durn%3=
+Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B3iipnsWBSqa3qRcXBxU4=
+TQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1t4mkdiO9aubA1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-newsletter_entity_lockup-0-newslet=
+ter_entity_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newslet=
+ter_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m5h403qh~9l-null-null=
+&amp;eid=3Dgdb74f-m5h403qh-9l&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNG=
+VkNDUxYmVlYjc4ZmNjZDQ0MzlkYWE4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk1NjZiMWVhZ=
+GY0MDgyZjJhMGFiNDgyNWE0OWRhZjYwMTVlM2M1ZGEzMjA0ZWZhMiwxLDE%3D" target=3D"_b=
+lank" class=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; disp=
+lay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; text-decoration-line: none;"> <span class=3D"tex=
+t-xs text-color-text-low-emphasis leading-regular" style=3D"font-size: 12px=
+; line-height: 1.25; color: rgba(0, 0, 0, 0.6);"> Cases, not=C3=ADcias, lan=
+=C3=A7amentos, artigos sobre tecnologia </span> </a> </td> </tr> </tbody> <=
+/table> </td> </tr> </tbody> </table> </td> </tr> <tr data-test-id=3D"newsl=
+etter-content-preview"> <td class=3D"px-3 pt-2" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; padding-left: 24px; padding-right: 24px; padding-top: 16px;"> =
+<table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> =
+<tbody> <tr> <td class=3D"overflow-hidden " style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt; overflow: hidden;"> <table role=3D"presentation" valign=3D"top" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/por-que-delegar=
+-tarefas-repetitivas-para-ia-como-o-github-n567c?lipi=3Durn%3Ali%3Apage%3Ae=
+mail_email_series_follow_newsletter_01%3B3iipnsWBSqa3qRcXBxU4TQ%3D%3D&amp;m=
+idToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1t4mkdiO9aubA1&amp;trk=3Deml-email_se=
+ries_follow_newsletter_01-newsletter_content_preview-0-headline_&amp;trkEma=
+il=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-hea=
+dline_-null-gdb74f~m5h403qh~9l-null-null&amp;eid=3Dgdb74f-m5h403qh-9l&amp;o=
+tpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmVlYjc4ZmNjZDQ0MzlkYWE4ZDYxN=
+zljNDA2NmQ0YjVkNWJmMmZlZDNkZjk1NjZiMWVhZGY0MDgyZjJhMGFiNDgyNWE0OWRhZjYwMTVl=
+M2M1ZGEzMjA0ZWZhMiwxLDE%3D" target=3D"_blank" class=3D"w-full" style=3D"col=
+or: #0a66c2; cursor: pointer; display: inline-block; text-decoration: none;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width: 100%;">=
+ <img class=3D"block w-full aspect-[744/400] object-cover overflow-hidden" =
+data-test-id=3D"newsletter-content-preview__cover-image" alt=3D"Imagem de c=
+apa da newsletter" src=3D"https://media.licdn.com/dms/image/v2/D5612AQGZBj8=
+NOUGi4g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_=
+1280/0/1733843997983?e=3D2147483647&amp;v=3Dbeta&amp;t=3DgxXmcPmsT08EhPxgG0=
+ZtsR0SWNC4hI7IBhFuK9E1FZ4" style=3D"outline: none; text-decoration: none; -=
+ms-interpolation-mode: bicubic; display: block; aspect-ratio: 744/400; widt=
+h: 100%; overflow: hidden; object-fit: cover;"> </a> </td> </tr> <tr> <td c=
+lass=3D"py-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 16px; pa=
+dding-bottom: 16px;"> <table role=3D"presentation" valign=3D"top" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/por-que-delegar-tarefa=
+s-repetitivas-para-ia-como-o-github-n567c?lipi=3Durn%3Ali%3Apage%3Aemail_em=
+ail_series_follow_newsletter_01%3B3iipnsWBSqa3qRcXBxU4TQ%3D%3D&amp;midToken=
+=3DAQHxaOsdYMWJVQ&amp;midSig=3D1t4mkdiO9aubA1&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-newsletter_content_preview-0-title_&amp;trkEmail=3Deml-e=
+mail_series_follow_newsletter_01-newsletter_content_preview-0-title_-null-g=
+db74f~m5h403qh~9l-null-null&amp;eid=3Dgdb74f-m5h403qh-9l&amp;otpToken=3DMWI=
+wZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmVlYjc4ZmNjZDQ0MzlkYWE4ZDYxNzljNDA2NmQ0Yj=
+VkNWJmMmZlZDNkZjk1NjZiMWVhZGY0MDgyZjJhMGFiNDgyNWE0OWRhZjYwMTVlM2M1ZGEzMjA0Z=
+WZhMiwxLDE%3D" target=3D"_blank" class=3D"no-underline font-medium text-sm =
+m-0 text-system-gray-90" style=3D"cursor: pointer; display: inline-block; t=
+ext-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; margin: 0px; font-size: 14px; font-weight: 500; color: #282828; text=
+-decoration-line: none;"> <h2 class=3D"m-0 text-display-sm leading-regular =
+text-color-text font-bold font-sans" style=3D"margin: 0px; font-family: -ap=
+ple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica N=
+eue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', =
+'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',=
+ 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 24px; font-weigh=
+t: 600; line-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Por que delegar tar=
+efas repetitivas para a IA, como o Github Copilot, =C3=A9 o futuro da produ=
+tividade no desenvolvimento? </h2> </a> </td> </tr> <tr> <td style=3D"-webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D"top" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" data-test-id=
+=3D"newsletter-author-lockup-redesign" class=3D"mt-1 mb-2" style=3D"-webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt; margin-bottom: 16px; margin-top: 8px;"> <tbody> <tr=
+> <td valign=3D"middle" align=3D"left" class=3D"w-3" style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt; width: 24px;" width=3D"24"> <a href=3D"https://www.linked=
+in.com/comm/school/dio-makethechange/?lipi=3Durn%3Ali%3Apage%3Aemail_email_=
+series_follow_newsletter_01%3B3iipnsWBSqa3qRcXBxU4TQ%3D%3D&amp;midToken=3DA=
+QHxaOsdYMWJVQ&amp;midSig=3D1t4mkdiO9aubA1&amp;trk=3Deml-email_series_follow=
+_newsletter_01-newsletter_content_preview-0-author_&amp;trkEmail=3Deml-emai=
+l_series_follow_newsletter_01-newsletter_content_preview-0-author_-null-gdb=
+74f~m5h403qh~9l-null-null&amp;eid=3Dgdb74f-m5h403qh-9l&amp;otpToken=3DMWIwZ=
+DE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmVlYjc4ZmNjZDQ0MzlkYWE4ZDYxNzljNDA2NmQ0YjVk=
+NWJmMmZlZDNkZjk1NjZiMWVhZGY0MDgyZjJhMGFiNDgyNWE0OWRhZjYwMTVlM2M1ZGEzMjA0ZWZ=
+hMiwxLDE%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; di=
+splay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%;"> <img class=3D"inline-block relative bg-color=
+-entity-ghost-background w-4 h-4 align-middle" src=3D"https://media.licdn.c=
+om/dms/image/v2/D4D0BAQEcsvXHHVJMnA/company-logo_100_100/company-logo_100_1=
+00/0/1733229097166/dio_makethechange_logo?e=3D2147483647&amp;v=3Dbeta&amp;t=
+=3DZ8NrDEn9_ujtdlj9ILwPSDCaHlpiLL3jPGsK9kq_F2U" alt=3D"Imagem do autor" sty=
+le=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicubic=
+; position: relative; display: inline-block; height: 32px; width: 32px; bac=
+kground-color: #eae6df; vertical-align: middle;" width=3D"32" height=3D"32"=
+> </a> </td> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https=
+://www.linkedin.com/comm/school/dio-makethechange/?lipi=3Durn%3Ali%3Apage%3=
+Aemail_email_series_follow_newsletter_01%3B3iipnsWBSqa3qRcXBxU4TQ%3D%3D&amp=
+;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1t4mkdiO9aubA1&amp;trk=3Deml-email_=
+series_follow_newsletter_01-newsletter_content_preview-0-author_&amp;trkEma=
+il=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-aut=
+hor_-null-gdb74f~m5h403qh~9l-null-null&amp;eid=3Dgdb74f-m5h403qh-9l&amp;otp=
+Token=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmVlYjc4ZmNjZDQ0MzlkYWE4ZDYxNzl=
+jNDA2NmQ0YjVkNWJmMmZlZDNkZjk1NjZiMWVhZGY0MDgyZjJhMGFiNDgyNWE0OWRhZjYwMTVlM2=
+M1ZGEzMjA0ZWZhMiwxLDE%3D" target=3D"_blank" class=3D"no-underline ml-1" sty=
+le=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decorati=
+on: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margi=
+n-left: 8px; text-decoration-line: none;"> <span class=3D"font-sans font-bo=
+ld text-sm mb-3 text-color-text-low-emphasis leading-regular" style=3D"marg=
+in-bottom: 24px; font-family: -apple-system, system-ui, BlinkMacSystemFont,=
+ 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen=
+ Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-s=
+erif; font-size: 14px; font-weight: 600; line-height: 1.25; color: rgba(0, =
+0, 0, 0.6);"> DIO </span> </a> </td> </tr> </tbody> </table> </td> </tr> <t=
+r> <td class=3D"pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-botto=
+m: 8px;"> <div class=3D"p-3 bg-color-surface-tint rounded-md font-sans" dat=
+a-test-id=3D"newsletter-cta-banner" style=3D"border-radius: 8px; background=
+-color: #f5f7f9; padding: 24px; font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, =
+Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;"> <div class=3D"mb-1.5" style=3D"margin-bottom: 12px;"=
+> <span class=3D"text-md leading-regular font-bold text-color-text" style=
+=3D"font-size: 16px; font-weight: 600; line-height: 1.25; color: rgba(0, 0,=
+ 0, 0.9);"> Leia este artigo no LinkedIn para participar da conversa </span=
+> </div> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"email-button " data-test=
+-id=3D"email-button" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr>=
+ <td valign=3D"middle" align=3D"left" style=3D"-webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t;"> <a href=3D"https://www.linkedin.com/comm/pulse/por-que-delegar-tarefas=
+-repetitivas-para-ia-como-o-github-n567c?lipi=3Durn%3Ali%3Apage%3Aemail_ema=
+il_series_follow_newsletter_01%3B3iipnsWBSqa3qRcXBxU4TQ%3D%3D&amp;midToken=
+=3DAQHxaOsdYMWJVQ&amp;midSig=3D1t4mkdiO9aubA1&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-newsletter_content_preview-0-read_more_banner_cta_&amp;t=
+rkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-=
+0-read_more_banner_cta_-null-gdb74f~m5h403qh~9l-null-null&amp;eid=3Dgdb74f-=
+m5h403qh-9l&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmVlYjc4ZmNj=
+ZDQ0MzlkYWE4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk1NjZiMWVhZGY0MDgyZjJhMGFiNDg=
+yNWE0OWRhZjYwMTVlM2M1ZGEzMjA0ZWZhMiwxLDE%3D" target=3D"_blank" aria-label=
+=3D"Abrir este artigo no LinkedIn" class=3D"align-top no-underline " style=
+=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decoration=
+: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; vertica=
+l-align: top; text-decoration-line: none;"> <table role=3D"presentation" va=
+lign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"auto=
+" class=3D"border-separate " style=3D"-webkit-text-size-adjust: 100%; -ms-t=
+ext-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border=
+-collapse: separate;"> <tbody> <tr> <td class=3D"btn-sm btn-primary border-=
+color-brand button-link leading-regular !min-h-[auto] !shadow-none border-1=
+ border-solid" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: min-content;=
+ border-radius: 24px; padding-top: 7px; padding-bottom: 7px; padding-left: =
+16px; padding-right: 16px; text-align: center; font-size: 14px; font-weight=
+: 600; cursor: pointer; text-decoration-line: none; background-color: #0a66=
+c2; color: #ffffff; border-width: 1px; border-style: solid; border-color: #=
+0a66c2; line-height: 1.25; min-height: auto !important; box-shadow: 0 0 #00=
+00, 0 0 #0000, 0 0 #0000 !important;"> <a href=3D"https://www.linkedin.com/=
+comm/pulse/por-que-delegar-tarefas-repetitivas-para-ia-como-o-github-n567c?=
+lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B3iipnsWB=
+Sqa3qRcXBxU4TQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1t4mkdiO9au=
+bA1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_content_prev=
+iew-0-read_more_banner_cta_&amp;trkEmail=3Deml-email_series_follow_newslett=
+er_01-newsletter_content_preview-0-read_more_banner_cta_-null-gdb74f~m5h403=
+qh~9l-null-null&amp;eid=3Dgdb74f-m5h403qh-9l&amp;otpToken=3DMWIwZDE3ZTgxMzI=
+4Y2JjM2I1MjQwNGVkNDUxYmVlYjc4ZmNjZDQ0MzlkYWE4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZD=
+NkZjk1NjZiMWVhZGY0MDgyZjJhMGFiNDgyNWE0OWRhZjYwMTVlM2M1ZGEzMjA0ZWZhMiwxLDE%3=
+D" target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" class=3D"no-under=
+line" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; text=
+-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; text-decoration-line: none;"> <span class=3D"no-underline text-white" s=
+tyle=3D"color: #ffffff; text-decoration-line: none;"> Ler no LinkedIn </spa=
+n> </a> </td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </table> </=
+div> </td> </tr> <tr data-test-id=3D"newsletter-content-preview--content"> =
+<td class=3D"series-article-body" style=3D"-webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; f=
+ont-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Robot=
+o, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell,=
+ 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Se=
+goe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 1=
+6px; line-height: 1.5; color: rgba(0, 0, 0, 0.9);"> <p style=3D"margin: 0; =
+font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">Ima=
+gine come=C3=A7ar seu dia de trabalho com uma lista cheia de tarefas. Entre=
+ elas, est=C3=A3o atividades como escrever c=C3=B3digos padr=C3=A3o, corrig=
+ir bugs simples ou refatorar trechos j=C3=A1 conhecidos. Agora, imagine se =
+voc=C3=AA pudesse deixar essas tarefas para uma intelig=C3=AAncia artificia=
+l, enquanto concentra sua energia em resolver problemas realmente desafiado=
+res e criativos. Parece um sonho, certo? Mas com ferramentas como o GitHub =
+Copilot, isso j=C3=A1 =C3=A9 realidade.&nbsp;</p><p style=3D"margin: 0; fon=
+t-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">&nbsp;=
+&nbsp;</p><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-=
+size: 1em; line-height: 1.5;"><strong>O custo invis=C3=ADvel das tarefas re=
+petitivas</strong>&nbsp;</p><p style=3D"margin: 0; font-weight: 400; margin=
+-top: 0.8em; font-size: 1em; line-height: 1.5;">Tarefas rotineiras, por mai=
+s simples que sejam, consomem tempo e energia mental. Cada linha de c=C3=B3=
+digo que voc=C3=AA escreve ou refatora exige concentra=C3=A7=C3=A3o, mesmo =
+quando j=C3=A1 sabe exatamente o que fazer. Esse "custo invis=C3=ADvel" =C3=
+=A9 acumulativo e pode impactar negativamente sua produtividade e criativid=
+ade ao longo do dia. O resultado? Menos foco nas solu=C3=A7=C3=B5es inovado=
+ras e mais desgaste mental.&nbsp;</p><p style=3D"margin: 0; font-weight: 40=
+0; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">&nbsp;&nbsp;</p><p=
+ style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; l=
+ine-height: 1.5;"><strong>Como a IA pode ser sua parceira de trabalho</stro=
+ng>&nbsp;</p><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; fo=
+nt-size: 1em; line-height: 1.5;">A Intelig=C3=AAncia Artificial, como o Git=
+Hub Copilot, =C3=A9 projetada para ser um parceiro que "pensa" junto com vo=
+c=C3=AA. Ela aprende com os seus padr=C3=B5es de c=C3=B3digo, entende o con=
+texto e fornece sugest=C3=B5es em tempo real. Veja alguns exemplos de como =
+ela pode transformar seu dia a dia:&nbsp;</p><p style=3D"margin: 0; font-we=
+ight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">&nbsp;&nbs=
+p;</p><ul style=3D"margin-top: 1em; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 1.5em; display: block; padding: 0px;"><li style=3D"margin-left=
+: 1em; font-size: 1em; line-height: 1.5; letter-spacing: -0.15%; color: #28=
+2828;"><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-siz=
+e: 1em; line-height: 1.5;">Gera=C3=A7=C3=A3o de c=C3=B3digo autom=C3=A1tico=
+: Economize tempo ao receber sugest=C3=B5es de c=C3=B3digos prontos para fu=
+n=C3=A7=C3=B5es comuns ou padr=C3=B5es de projeto.&nbsp;</p></li></ul><ul s=
+tyle=3D"margin-top: 1em; margin-right: 0px; margin-bottom: 0px; margin-left=
+: 1.5em; display: block; padding: 0px;"><li style=3D"margin-left: 1em; font=
+-size: 1em; line-height: 1.5; letter-spacing: -0.15%; color: #282828;"><p s=
+tyle=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; lin=
+e-height: 1.5;">Refatora=C3=A7=C3=A3o autom=C3=A1tica: Melhore a legibilida=
+de e performance do c=C3=B3digo com recomenda=C3=A7=C3=B5es precisas.&nbsp;=
+</p></li></ul><ul style=3D"margin-top: 1em; margin-right: 0px; margin-botto=
+m: 0px; margin-left: 1.5em; display: block; padding: 0px;"><li style=3D"mar=
+gin-left: 1em; font-size: 1em; line-height: 1.5; letter-spacing: -0.15%; co=
+lor: #282828;"><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; =
+font-size: 1em; line-height: 1.5;">Cria=C3=A7=C3=A3o d...</p></li></ul> </t=
+d> </tr> <tr> <td class=3D"pt-2 no-underline" style=3D"-webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; padding-top: 16px; text-decoration-line: none;"> <table role=3D"=
+presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%" class=3D"email-button series-content-preview__bottom-cta"=
+ data-test-id=3D"email-button" style=3D"-webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <t=
+body> <tr> <td valign=3D"middle" align=3D"left" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/por-que-deleg=
+ar-tarefas-repetitivas-para-ia-como-o-github-n567c?lipi=3Durn%3Ali%3Apage%3=
+Aemail_email_series_follow_newsletter_01%3B3iipnsWBSqa3qRcXBxU4TQ%3D%3D&amp=
+;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1t4mkdiO9aubA1&amp;trk=3Deml-email_=
+series_follow_newsletter_01-newsletter_content_preview-0-readmore_button_&a=
+mp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_prev=
+iew-0-readmore_button_-null-gdb74f~m5h403qh~9l-null-null&amp;eid=3Dgdb74f-m=
+5h403qh-9l&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmVlYjc4ZmNjZ=
+DQ0MzlkYWE4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk1NjZiMWVhZGY0MDgyZjJhMGFiNDgy=
+NWE0OWRhZjYwMTVlM2M1ZGEzMjA0ZWZhMiwxLDE%3D" target=3D"_blank" aria-label=3D=
+"Abrir #MaketheChange no LinkedIn" class=3D"align-top no-underline " style=
+=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decoration=
+: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; vertica=
+l-align: top; text-decoration-line: none; width: 100%;"> <table role=3D"pre=
+sentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" class=3D"border-separate " style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; border-collapse: separate; width: 100%;"> <tbody> <tr> <td class=3D"=
+btn-md btn-secondary-emphasis border-color-brand button-link leading-regula=
+r !min-h-[auto] !shadow-none border-1 border-solid font-sans" data-test-id=
+=3D"newsletter-content-preview-redesign-bottom-cta" style=3D"-webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt; height: min-content; border-radius: 24px; padding-top: 12p=
+x; padding-bottom: 12px; padding-left: 24px; padding-right: 24px; text-alig=
+n: center; font-size: 16px; font-weight: 600; cursor: pointer; text-decorat=
+ion-line: none; background-color: rgba(0, 0, 0, 0); color: #0a66c2; border-=
+width: 1px; border-style: solid; border-color: #0a66c2; font-family: -apple=
+-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue=
+', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Ap=
+ple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'L=
+ucida Grande', Helvetica, Arial, sans-serif; line-height: 1.25; min-height:=
+ auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;">=
+ <a href=3D"https://www.linkedin.com/comm/pulse/por-que-delegar-tarefas-rep=
+etitivas-para-ia-como-o-github-n567c?lipi=3Durn%3Ali%3Apage%3Aemail_email_s=
+eries_follow_newsletter_01%3B3iipnsWBSqa3qRcXBxU4TQ%3D%3D&amp;midToken=3DAQ=
+HxaOsdYMWJVQ&amp;midSig=3D1t4mkdiO9aubA1&amp;trk=3Deml-email_series_follow_=
+newsletter_01-newsletter_content_preview-0-readmore_button_&amp;trkEmail=3D=
+eml-email_series_follow_newsletter_01-newsletter_content_preview-0-readmore=
+_button_-null-gdb74f~m5h403qh~9l-null-null&amp;eid=3Dgdb74f-m5h403qh-9l&amp=
+;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmVlYjc4ZmNjZDQ0MzlkYWE4ZDY=
+xNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk1NjZiMWVhZGY0MDgyZjJhMGFiNDgyNWE0OWRhZjYwMT=
+VlM2M1ZGEzMjA0ZWZhMiwxLDE%3D" target=3D"_blank" tabindex=3D"-1" aria-hidden=
+=3D"true" class=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; =
+display: inline-block; text-decoration: none; -webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; text-decoration-line: none; width: 100%;"> <=
+span class=3D"no-underline text-color-brand" style=3D"color: #0a66c2; text-=
+decoration-line: none;"> Continue lendo no LinkedIn </span> </a> </td> </tr=
+> </tbody> </table> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody>=
+ </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td>=
+ </tr> </tbody> </table> </div> </td> </tr> <tr> <td class=3D"bg-color-back=
+ground-canvas p-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color=
+: #f3f2f0; padding: 24px;"> <table role=3D"presentation" valign=3D"top" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"text-=
+xs" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 12px;"> <tbody> <tr>=
+ <td class=3D"pb-1 m-0" data-test-id=3D"email-footer__intended" style=3D"-w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> Este e-mai=
+l foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Developer | Java |=
+ JS | React.js | Node.js | Python) </td> </tr> <tr> <td class=3D"pb-1 m-0" =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;">=
+ <a href=3D"https://www.linkedin.com/help/linkedin/answer/4788?lang=3Dpt&am=
+p;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B3iipns=
+WBSqa3qRcXBxU4TQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1t4mkdiO9=
+aubA1&amp;trk=3Deml-email_series_follow_newsletter_01-SecurityHelp-0-footer=
+glimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-SecurityHelp-0=
+-footerglimmer-null-gdb74f~m5h403qh~9l-null-null&amp;eid=3Dgdb74f-m5h403qh-=
+9l&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmVlYjc4ZmNjZDQ0MzlkY=
+WE4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk1NjZiMWVhZGY0MDgyZjJhMGFiNDgyNWE0OWRh=
+ZjYwMTVlM2M1ZGEzMjA0ZWZhMiwxLDE%3D" target=3D"_blank" class=3D"text-inherit=
+ underline" style=3D"cursor: pointer; display: inline-block; text-decoratio=
+n: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color:=
+ inherit; text-decoration-line: underline;">Saiba por que inclu=C3=ADmos is=
+so.</a> </td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; margin: 0px; padding-bottom: 8px;">Voc=C3=AA est=C3=A1 receben=
+do e-mails de notifica=C3=A7=C3=A3o do LinkedIn. Outras pessoas podem ver q=
+ue voc=C3=AA =C3=A9 assinante.</td> </tr> <tr> <td class=3D"pb-1 m-0" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> <a h=
+ref=3D"https://www.linkedin.com/comm/series-notifications/?action=3Dunsubsc=
+ribe&amp;memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&amp;newslett=
+erId=3D6924778912161906689&amp;newsletterTitle=3D#MaketheChange&amp;lipi=3D=
+urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3B3iipnsWBSqa3qRc=
+XBxU4TQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1t4mkdiO9aubA1&amp=
+;trk=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGlimmer&am=
+p;trkEmail=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGlim=
+mer-null-gdb74f~m5h403qh~9l-null-null&amp;eid=3Dgdb74f-m5h403qh-9l&amp;otpT=
+oken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmVlYjc4ZmNjZDQ0MzlkYWE4ZDYxNzlj=
+NDA2NmQ0YjVkNWJmMmZlZDNkZjk1NjZiMWVhZGY0MDgyZjJhMGFiNDgyNWE0OWRhZjYwMTVlM2M=
+1ZGEzMjA0ZWZhMiwxLDE%3D" target=3D"_blank" class=3D"text-inherit underline"=
+ style=3D"cursor: pointer; display: inline-block; text-decoration: none; -w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: inherit; t=
+ext-decoration-line: underline;">Cancelar inscri=C3=A7=C3=A3o</a> =C2=A0=C2=
+=A0=C2=B7=C2=A0=C2=A0 <a href=3D"https://www.linkedin.com/help/linkedin/ans=
+wer/67?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3B3iipnsWBSqa3qRcXBxU4TQ%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp=
+;midSig=3D1t4mkdiO9aubA1&amp;trk=3Deml-email_series_follow_newsletter_01-he=
+lp-0-footerglimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-hel=
+p-0-footerglimmer-null-gdb74f~m5h403qh~9l-null-null&amp;eid=3Dgdb74f-m5h403=
+qh-9l&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmVlYjc4ZmNjZDQ0Mz=
+lkYWE4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk1NjZiMWVhZGY0MDgyZjJhMGFiNDgyNWE0O=
+WRhZjYwMTVlM2M1ZGEzMjA0ZWZhMiwxLDE%3D" target=3D"_blank" class=3D"text-inhe=
+rit underline" style=3D"cursor: pointer; display: inline-block; text-decora=
+tion: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; col=
+or: inherit; text-decoration-line: underline;">Ajuda</a> </td> </tr> <tr> <=
+td class=3D"pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8=
+px;"> <a href=3D"https://www.linkedin.com/comm/feed/?lipi=3Durn%3Ali%3Apage=
+%3Aemail_email_series_follow_newsletter_01%3B3iipnsWBSqa3qRcXBxU4TQ%3D%3D&a=
+mp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D1t4mkdiO9aubA1&amp;trk=3Deml-emai=
+l_series_follow_newsletter_01-footer-0-logoGlimmer&amp;trkEmail=3Deml-email=
+_series_follow_newsletter_01-footer-0-logoGlimmer-null-gdb74f~m5h403qh~9l-n=
+ull-null&amp;eid=3Dgdb74f-m5h403qh-9l&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2=
+I1MjQwNGVkNDUxYmVlYjc4ZmNjZDQ0MzlkYWE4ZDYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjk1N=
+jZiMWVhZGY0MDgyZjJhMGFiNDgyNWE0OWRhZjYwMTVlM2M1ZGEzMjA0ZWZhMiwxLDE%3D" targ=
+et=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-blo=
+ck; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%;"> <img src=3D"https://static.licdn.com/aero-v1/sc/h/9ehe6n39fa0=
+7dc5edzv0rla4e" alt=3D"LinkedIn" class=3D"block h-[14px] w-[56px] image-ren=
+dering-crisp" style=3D"outline: none; text-decoration: none; image-renderin=
+g: -moz-crisp-edges; image-rendering: -o-crisp-edges; image-rendering: -web=
+kit-optimize-contrast; image-rendering: crisp-edges; -ms-interpolation-mode=
+: nearest-neighbor; display: block; height: 14px; width: 56px;" width=3D"56=
+" height=3D"14"> </a> </td> </tr> <tr> <td data-test-copyright-text style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> =C2=A9 2025 LinkedIn Ireland Unlimited=
+ Company, Wilton Plaza, Wilton Place, Dublin 2 - Irlanda. LinkedIn =C3=A9 u=
+m nome comercial registrado da LinkedIn Ireland Unlimited Company. <span da=
+ta-test-trademarks-text> LinkedIn e o logo do LinkedIn s=C3=A3o marcas regi=
+stradas do LinkedIn. </span> </td> </tr> </tbody> </table> </td> </tr> </tb=
+ody> </table> </td> </tr> </tbody> </table> <img alt role=3D"presentation" =
+src=3D"https://www.linkedin.com/emimp/ip_WjJSaU56Um1MVzAxYURRd00zRm9MVGxzOl=
+pXMWhhV3hmYzJWeWFXVnpYMlp2Ykd4dmQxOXVaWGR6YkdWMGRHVnlYekF4OmRYSnVPbXhwT214c=
+GJtdGxaRWx1UVhKMGFXTnNaVG8zTWpjeU1qWTJNakF5TWpVMU5qVXdPREUz.gif" style=3D"o=
+utline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width=
+: 1px; height: 1px;" width=3D"1" height=3D"1"> </body> </html>
+------=_Part_67351704_1937010927.1735930243033--
+

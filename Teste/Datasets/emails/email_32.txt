@@ -1,0 +1,577 @@
+X-GM-THRID: 1816461849987426246
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:f27:b0:298:e216:18d7 with SMTP id fm39csp265398ysc;
+        Fri, 22 Nov 2024 14:03:33 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IFeo/cJSqQHtfxypOIZu28YdoB8oRhSAPqXkdrP2zZJ69I2EWPQiqrSWHqNt+LS8utP3twO
+X-Received: by 2002:a05:620a:f14:b0:7b1:4174:ac78 with SMTP id af79cd13be357-7b5143e5a58mr621396485a.0.1732313013161;
+        Fri, 22 Nov 2024 14:03:33 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1732313013; cv=none;
+        d=google.com; s=arc-20240605;
+        b=d6aFfcJbRxZuE05purh9LS4q1VrigqY2imuCcdUQpRRo9aBKoqMW5RFXztSQXFRBs2
+         rgs7kBdaRCdKL9We4P+FuYUoVzVGUdvqEaCxTVdOwqAl366BO79hxc0bjxVkwL1uP6ql
+         nHOOMMO9/Fsfj4oO6LGlJ7Ei3uTGY5xL2j5wZlrZnP3ZE4gUtVD2ZPbo7KbdmgPSocVQ
+         kUz6CX+RaFF1L3SK3gwM4DzZ6c+AHSg2LUEunv51Mn5Uf4qLoCpNHBA7Kjdk0n6rCxEk
+         0pZ5ikKhoVMkR1rtmTRsRrsMfwt4RUE49swABSrgFVqEUBru5+1EtlmPzqDy1g7pCViD
+         bvnw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:message-id:content-transfer-encoding:cco:sender:bu
+         :account-id:event:process-id:destination-email:cc:source:from
+         :category-id:to:reply-to:subject:date:mime-version:dkim-signature
+         :dkim-signature;
+        bh=Gbz1w1IZhP4FQCvdzZgKBTpkSt/7g8L9qHnOh2auHMQ=;
+        fh=8lT31Ze2c9+40GQJQQaZX8Mn2t9JsBhS1oSoaZ9s3pQ=;
+        b=AoUUllY0i0A2QH1UTc+k2saqKZ+B8WU8wQe9aEJinJVoXkBL/QWlwatXiJIP1sq2wA
+         /bzt7LC/yqRAm/dS7c46DRxDKITd3Q/hv1bnyapK7KUMvEqj+AgdvJfy5gFUu9M/Zzro
+         boK9MvgJauIHCtfVKgIwFdNAHECqypM/JQGD6RCMmNUPEfTjN/0AokNE6Bru1Q38vuZ8
+         z1++DnMI9IKx10udvqcQJTBW1r0CTmlIt1BILK9sW1PMhuzpA7EIQ7RJ8Jza2QM4Sxfy
+         3zPxHz4Jp8cDAl1J1hL/l+JRzNoj2q6Lt6Pc4tpKDHIXdwoQkUyajDOCOOCLw1RQeci/
+         6lyQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@olx.com.br header.s=zf4zhdv5itdqxv4tfp4q25sietiepyil header.b=fQ5jl8DW;
+       dkim=pass header.i=@amazonses.com header.s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug header.b=sl6xNzQK;
+       spf=pass (google.com: domain of 0100019355e6d987-61f9d7c5-bfec-422e-9b6a-e6240c14837a-000000@mail.olx.com.br designates 54.240.48.85 as permitted sender) smtp.mailfrom=0100019355e6d987-61f9d7c5-bfec-422e-9b6a-e6240c14837a-000000@mail.olx.com.br;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=olx.com.br
+Return-Path: <0100019355e6d987-61f9d7c5-bfec-422e-9b6a-e6240c14837a-000000@mail.olx.com.br>
+Received: from a48-85.smtp-out.amazonses.com (a48-85.smtp-out.amazonses.com. [54.240.48.85])
+        by mx.google.com with ESMTPS id d75a77b69052e-4666fd392ffsi11689681cf.121.2024.11.22.14.03.32
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Fri, 22 Nov 2024 14:03:33 -0800 (PST)
+Received-SPF: pass (google.com: domain of 0100019355e6d987-61f9d7c5-bfec-422e-9b6a-e6240c14837a-000000@mail.olx.com.br designates 54.240.48.85 as permitted sender) client-ip=54.240.48.85;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@olx.com.br header.s=zf4zhdv5itdqxv4tfp4q25sietiepyil header.b=fQ5jl8DW;
+       dkim=pass header.i=@amazonses.com header.s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug header.b=sl6xNzQK;
+       spf=pass (google.com: domain of 0100019355e6d987-61f9d7c5-bfec-422e-9b6a-e6240c14837a-000000@mail.olx.com.br designates 54.240.48.85 as permitted sender) smtp.mailfrom=0100019355e6d987-61f9d7c5-bfec-422e-9b6a-e6240c14837a-000000@mail.olx.com.br;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=olx.com.br
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=zf4zhdv5itdqxv4tfp4q25sietiepyil; d=olx.com.br; t=1732313012;
+	h=Mime-Version:Date:Subject:Reply-To:To:From:Cc:Sender:Content-Type:Content-Transfer-Encoding:Message-ID;
+	bh=kufdGHEwbqBwA7AvKSBA7mF7S+aDkg866Gv0/H1MSVQ=;
+	b=fQ5jl8DWPUXqIyO219rcFkTjHuS3lXuL1hDBWM8V6tGIAc1nNrIzTbtbTH2M4H1T
+	Y35AKwZON92/5ZAAqMjEg5HCGDNbbjnFwE6mmf1QGkfn9x/8lXu5bP6YgzwaItQSnQG
+	suymtx2SZbvgUkDnwfwhDLDlxf+SVOhiAx6jp2zqpOM13+7HPqUwvUaN/+2771TRlXn
+	oqE4CQda9qzzSC6WSA2KPf/GHIqA7RntzNEDWr7r/1j0SWaFlFvh2sphm+azqBQZRsM
+	dKv2HaFWdOeBSHWeK3i6Y2ikO83VuM3LeVUfpN3MGaxXbzO5d1uDzDoRsU0h5MAwNxp
+	LxWvJnPQXg==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1732313012;
+	h=Mime-Version:Date:Subject:Reply-To:To:From:Cc:Sender:Content-Type:Content-Transfer-Encoding:Message-ID:Feedback-ID;
+	bh=kufdGHEwbqBwA7AvKSBA7mF7S+aDkg866Gv0/H1MSVQ=;
+	b=sl6xNzQK12NXBSKEP2b/TtvX1bXPLo2ecF1Tm8DrIxY3AbYxBR7mto2ReKZzK4Wr
+	+dDP+MHADqW+rp5PyExffmM1u1Y1kEyzj/cqYMz7/1fll1H6HJnauXzo7GtEl1f9sPr
+	b+n9iSCd+qdRfa+fwLuv3BFF8PSqwp6P2NtEaBo4=
+Mime-Version: 1.0
+Date: Fri, 22 Nov 2024 22:03:32 +0000
+Subject: =?UTF-8?q?Oba!_Tem_mensagem_nova_para_voc=C3=AA_sobre:_Mini_volante_brigh?=
+ =?UTF-8?q?t_ps2_ps3_pc?=
+Reply-To: OLX <noreply@olx.com.br>
+To: nandobritoferreira@gmail.com
+Category-ID: 32
+From: OLX <noreply@olx.com.br>
+Source: chat
+Cc: 
+Destination-Email: nandobritoferreira@gmail.com
+Process-ID: 327f6a703a204cf58158f7776ae5283f
+Event: chatReminderEmail
+Account-ID: 122348072
+Bu: OLX
+Sender: 
+Cco: 
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <0100019355e6d987-61f9d7c5-bfec-422e-9b6a-e6240c14837a-000000@email.amazonses.com>
+Feedback-ID: ::1.us-east-1.hA94BSM6OjCk5UuNLZ30sND9bzRB707UIaTt6rZ2E0M=:AmazonSES
+X-SES-Outgoing: 2024.11.22-54.240.48.85
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html
+
+    dir=3D"ltr"
+    xmlns=3D"http://www.w3.org/1999/xhtml"
+    xmlns:v=3D"urn:schemas-microsoft-com:vml"
+    xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+    <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+" />
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />
+    <meta name=3D"viewport" content=3D"user-scalable=3Dno, initial-scale=3D=
+1.0, maximum-scale=3D1.0, width=3Ddevice-width" />
+    <title></title>
+
+    <style type=3D"text/css">
+        @media (max-width:600px){#__body__,#__footer__,#__header__{width:au=
+to!important}#__renaultTitle__{padding:0!important}}
+
+        #__bodyTable__ {
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+        }
+
+        body {
+            font-family: "Nunito Sans","Helvetica Neue",HelveticaNeue,Helve=
+tica,Arial,sans-serif;
+        }
+    </style>
+
+    <!--[if gte mso 9]>
+        <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+        </xml>
+    <![endif]-->
+    </head>
+    <body bgcolor=3D"#FFFFFF" width=3D"100%" style=3D"-webkit-font-smoothin=
+g: antialiased; width:100% !important; background:#FFFFFF;-webkit-text-size=
+-adjust:none; margin:0; padding:0; min-width:100%; direction: ltr;">
+    <table bgcolor=3D"#FFFFFF" id=3D"__bodyTable__" width=3D"100%" style=3D=
+"-webkit-font-smoothing: antialiased; width:100% !important; background:#FF=
+FFFF;-webkit-text-size-adjust:none; margin:0; padding:0; min-width:100%">
+        <tr>
+        <td align=3D"center">
+            <span style=3D"display: none !important; color: #FFFFFF; margin=
+:0; padding:0; font-size:1px; line-height:1px;"></span>
+            <div style=3D"background-color:#eeeeee;font-family:Arial;font-s=
+ize:16px;color:#323232"><div style=3D"padding-top:0" data-radium=3D"true"><=
+p style=3D"text-align:center;margin:0;padding:0;color:#323232;line-height:2=
+4px;font-family:Verdana, 'Helvetica Neue', HelveticaNeue, Helvetica, Arial,=
+ sans-serif;display:none">Baixe o app OLX para se apegar e desapegar!<span =
+role=3D"img" aria-label=3D"smartphone">=F0=9F=93=B1</span>Tem autom=C3=B3ve=
+is, im=C3=B3veis, eletr=C3=B4nicos, m=C3=B3veis, roupas e muito mais!</p><d=
+iv style=3D"box-sizing:border-box;display:block;width:720px;background-colo=
+r:#fff;font-family:Verdana, 'Helvetica Neue', HelveticaNeue, Helvetica, Ari=
+al, sans-serif;border-radius:0px;border:0;border-top:none;text-align:center=
+;padding:0;margin-top:0" id=3D"__body__"><table cellPadding=3D"0" cellSpaci=
+ng=3D"0" align=3D"center" border=3D"0"><tbody><tr><td align=3D"center" vali=
+gn=3D"middle" style=3D"padding:25px 0px 0px 0px;width:100%"><a href=3D"http=
+s://email-redirect.olx.com.br/prod/click/v2/eyJhY2NvdW50X2lkIjoiMTdlY2YyOGV=
+jOWRjNTRjNTgwNjQ1NmIzMGEzNGU1MzVjYWI5MGU2Y2RjZjMyMmVjYTYiLCJhZF9pZCI6IiIsIm=
+J1IjoiT0xYIiwiY2F0ZWdvcnlfaWQiOiI2MGZjNDZjZDcxY2U1MGU0OGNjNDUzYWUyMTVhMjAzN=
+DNhNjgiLCJldmVudCI6ImNoYXRSZW1pbmRlckVtYWlsIiwicGFyYW1ldGVycyI6e30sInByb2Nl=
+c3NfaWQiOiIzMjdmNmE3MDNhMjA0Y2Y1ODE1OGY3Nzc2YWU1MjgzZiIsInRlYW0iOiJNZXNzYWd=
+pbmciLCJ0byI6Im5hbmRvYnJpdG9mZXJyZWlyYUBnbWFpbC5jb20iLCJ1cmwiOiJodHRwczovL3=
+d3dy5vbHguY29tLmJyLz91dG1fc291cmNlPWVtYWlsXHUwMDI2dXRtX21lZGl1bT10cmFuc2Fjd=
+GlvbmFsXHUwMDI2dXRtX3NvdXJjZV9wbGF0Zm9ybT1tb25ha2FcdTAwMjZ1dG1fY2FtcGFpZ249=
+Y2hhdF9lbV90cl9vc19ldl9hb19jcl9jcl9vbF9jciJ9.O1OBY_fpygwUQgfVlUs4N8RDD30M6J=
+32aPo-P7FYsMk" style=3D"color:#6E0AD6;text-decoration:none;font-family:Verd=
+ana, 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;padding:=
+10px 0 0 0;display:inline-block"><img src=3D"https://static.olx.com.br/nu/e=
+mail/images/png/olx-rounded-logo.png" width=3D"95"/></a></td></tr><tr><td a=
+lign=3D"center" valign=3D"middle" style=3D"padding:20px 0 20px 0"><table al=
+ign=3D"center" cellSpacing=3D"0" cellPadding=3D"0" border=3D"0"><tbody><tr>=
+<div data-radium=3D"true"><td valign=3D"middle" align=3D"center" style=3D"p=
+adding-left:10px;padding-right:10px"><a href=3D"https://email-redirect.olx.=
+com.br/prod/click/v2/eyJhY2NvdW50X2lkIjoiMTdlY2YyOGVjOWRjNTRjNTgwNjQ1NmIzMG=
+EzNGU1MzVjYWI5MGU2Y2RjZjMyMmVjYTYiLCJhZF9pZCI6IiIsImJ1IjoiT0xYIiwiY2F0ZWdvc=
+nlfaWQiOiI2MGZjNDZjZDcxY2U1MGU0OGNjNDUzYWUyMTVhMjAzNDNhNjgiLCJldmVudCI6ImNo=
+YXRSZW1pbmRlckVtYWlsIiwicGFyYW1ldGVycyI6e30sInByb2Nlc3NfaWQiOiIzMjdmNmE3MDN=
+hMjA0Y2Y1ODE1OGY3Nzc2YWU1MjgzZiIsInRlYW0iOiJNZXNzYWdpbmciLCJ0byI6Im5hbmRvYn=
+JpdG9mZXJyZWlyYUBnbWFpbC5jb20iLCJ1cmwiOiJodHRwczovL3d3dy5vbHguY29tLmJyL2F1d=
+G9zLWUtcGVjYXMvY2Fycm9zLXZhbnMtZS11dGlsaXRhcmlvcz91dG1fc291cmNlPWVtYWlsXHUw=
+MDI2dXRtX21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZV9wbGF0Zm9ybT1tb25=
+ha2FcdTAwMjZ1dG1fY2FtcGFpZ249Y2hhdF9lbV90cl9vc19ldl9hb19jcl9jcl9vbF9jciJ9.a=
+35iOFw2-jB1mJrqlpkQx9qLoeJ8hHffdJhPF3ZSoRM" style=3D"color:#6E0AD6;text-dec=
+oration:none;font-family:Trebuchet MS, Geneva, Tahoma, sans-serif;font-size=
+:16px">Carros</a></td><td><div align=3D"middle" style=3D"height:18px;width:=
+2px;background-color:#6d6e71"></div></td></div><div data-radium=3D"true"><t=
+d valign=3D"middle" align=3D"center" style=3D"padding-left:10px;padding-rig=
+ht:10px"><a href=3D"https://email-redirect.olx.com.br/prod/click/v2/eyJhY2N=
+vdW50X2lkIjoiMTdlY2YyOGVjOWRjNTRjNTgwNjQ1NmIzMGEzNGU1MzVjYWI5MGU2Y2RjZjMyMm=
+VjYTYiLCJhZF9pZCI6IiIsImJ1IjoiT0xYIiwiY2F0ZWdvcnlfaWQiOiI2MGZjNDZjZDcxY2U1M=
+GU0OGNjNDUzYWUyMTVhMjAzNDNhNjgiLCJldmVudCI6ImNoYXRSZW1pbmRlckVtYWlsIiwicGFy=
+YW1ldGVycyI6e30sInByb2Nlc3NfaWQiOiIzMjdmNmE3MDNhMjA0Y2Y1ODE1OGY3Nzc2YWU1Mjg=
+zZiIsInRlYW0iOiJNZXNzYWdpbmciLCJ0byI6Im5hbmRvYnJpdG9mZXJyZWlyYUBnbWFpbC5jb2=
+0iLCJ1cmwiOiJodHRwczovL3d3dy5vbHguY29tLmJyL2ltb3ZlaXM_dXRtX3NvdXJjZT1lbWFpb=
+Fx1MDAyNnV0bV9tZWRpdW09dHJhbnNhY3Rpb25hbFx1MDAyNnV0bV9zb3VyY2VfcGxhdGZvcm09=
+bW9uYWthXHUwMDI2dXRtX2NhbXBhaWduPWNoYXRfZW1fdHJfb3NfZXZfYW9fY3JfY3Jfb2xfY3I=
+ifQ.VDWdwd3OOYmIopAmegT-bSHIHNxXI1r2IN8ukxPJR_E" style=3D"color:#6E0AD6;tex=
+t-decoration:none;font-family:Trebuchet MS, Geneva, Tahoma, sans-serif;font=
+-size:16px">Im=C3=B3veis</a></td><td><div align=3D"middle" style=3D"height:=
+18px;width:2px;background-color:#6d6e71"></div></td></div><div data-radium=
+=3D"true"><td valign=3D"middle" align=3D"center" style=3D"padding-left:10px=
+;padding-right:10px"><a href=3D"https://email-redirect.olx.com.br/prod/clic=
+k/v2/eyJhY2NvdW50X2lkIjoiMTdlY2YyOGVjOWRjNTRjNTgwNjQ1NmIzMGEzNGU1MzVjYWI5MG=
+U2Y2RjZjMyMmVjYTYiLCJhZF9pZCI6IiIsImJ1IjoiT0xYIiwiY2F0ZWdvcnlfaWQiOiI2MGZjN=
+DZjZDcxY2U1MGU0OGNjNDUzYWUyMTVhMjAzNDNhNjgiLCJldmVudCI6ImNoYXRSZW1pbmRlckVt=
+YWlsIiwicGFyYW1ldGVycyI6e30sInByb2Nlc3NfaWQiOiIzMjdmNmE3MDNhMjA0Y2Y1ODE1OGY=
+3Nzc2YWU1MjgzZiIsInRlYW0iOiJNZXNzYWdpbmciLCJ0byI6Im5hbmRvYnJpdG9mZXJyZWlyYU=
+BnbWFpbC5jb20iLCJ1cmwiOiJodHRwczovL3d3dy5vbHguY29tLmJyL2VsZXRyb25pY29zLWUtY=
+2VsdWxhcmVzP3V0bV9zb3VyY2U9ZW1haWxcdTAwMjZ1dG1fbWVkaXVtPXRyYW5zYWN0aW9uYWxc=
+dTAwMjZ1dG1fc291cmNlX3BsYXRmb3JtPW1vbmFrYVx1MDAyNnV0bV9jYW1wYWlnbj1jaGF0X2V=
+tX3RyX29zX2V2X2FvX2NyX2NyX29sX2NyIn0.U02ZXGpJAVKzzL6EJBkJKVEQjWWszfquXxBibS=
+wpzEc" style=3D"color:#6E0AD6;text-decoration:none;font-family:Trebuchet MS=
+, Geneva, Tahoma, sans-serif;font-size:16px">Eletr=C3=B4nicos</a></td><td><=
+div align=3D"middle" style=3D"height:18px;width:2px;background-color:#6d6e7=
+1"></div></td></div><div data-radium=3D"true"><td valign=3D"middle" align=
+=3D"center" style=3D"padding-left:10px;padding-right:10px"><a href=3D"https=
+://email-redirect.olx.com.br/prod/click/v2/eyJhY2NvdW50X2lkIjoiMTdlY2YyOGVj=
+OWRjNTRjNTgwNjQ1NmIzMGEzNGU1MzVjYWI5MGU2Y2RjZjMyMmVjYTYiLCJhZF9pZCI6IiIsImJ=
+1IjoiT0xYIiwiY2F0ZWdvcnlfaWQiOiI2MGZjNDZjZDcxY2U1MGU0OGNjNDUzYWUyMTVhMjAzND=
+NhNjgiLCJldmVudCI6ImNoYXRSZW1pbmRlckVtYWlsIiwicGFyYW1ldGVycyI6e30sInByb2Nlc=
+3NfaWQiOiIzMjdmNmE3MDNhMjA0Y2Y1ODE1OGY3Nzc2YWU1MjgzZiIsInRlYW0iOiJNZXNzYWdp=
+bmciLCJ0byI6Im5hbmRvYnJpdG9mZXJyZWlyYUBnbWFpbC5jb20iLCJ1cmwiOiJodHRwczovL3d=
+3dy5vbHguY29tLmJyL21vdmVpcz91dG1fc291cmNlPWVtYWlsXHUwMDI2dXRtX21lZGl1bT10cm=
+Fuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZV9wbGF0Zm9ybT1tb25ha2FcdTAwMjZ1dG1fY2Ftc=
+GFpZ249Y2hhdF9lbV90cl9vc19ldl9hb19jcl9jcl9vbF9jciJ9.2E09cWQr7UphG2msyiSuUcs=
+2SNUo64ajR2fakyTeTa8" style=3D"color:#6E0AD6;text-decoration:none;font-fami=
+ly:Trebuchet MS, Geneva, Tahoma, sans-serif;font-size:16px">M=C3=B3veis</a>=
+</td></div><td valign=3D"middle" align=3D"center" style=3D"padding-left:10p=
+x;padding-right:10px"><a href=3D"https://email-redirect.olx.com.br/prod/cli=
+ck/v2/eyJhY2NvdW50X2lkIjoiMTdlY2YyOGVjOWRjNTRjNTgwNjQ1NmIzMGEzNGU1MzVjYWI5M=
+GU2Y2RjZjMyMmVjYTYiLCJhZF9pZCI6IiIsImJ1IjoiT0xYIiwiY2F0ZWdvcnlfaWQiOiI2MGZj=
+NDZjZDcxY2U1MGU0OGNjNDUzYWUyMTVhMjAzNDNhNjgiLCJldmVudCI6ImNoYXRSZW1pbmRlckV=
+tYWlsIiwicGFyYW1ldGVycyI6e30sInByb2Nlc3NfaWQiOiIzMjdmNmE3MDNhMjA0Y2Y1ODE1OG=
+Y3Nzc2YWU1MjgzZiIsInRlYW0iOiJNZXNzYWdpbmciLCJ0byI6Im5hbmRvYnJpdG9mZXJyZWlyY=
+UBnbWFpbC5jb20iLCJ1cmwiOiJodHRwczovL29seGJyYXNpbC5nby5saW5rL2xpc3QvP3V0bV9z=
+b3VyY2U9ZW1haWxcdTAwMjZ1dG1fbWVkaXVtPXRyYW5zYWN0aW9uYWxcdTAwMjZ1dG1fc291cmN=
+lX3BsYXRmb3JtPW1vbmFrYVx1MDAyNnV0bV9jYW1wYWlnbj1oZWFkZXJ0cmFuc2FjaW9uYWxfZW=
+1fdHJfZ2VfYXdfYW9fd2JfY3Jfb2xfY3JcdTAwMjZhZGpfdD0xZGkwb29zZF8xZG1rcHh4eVx1M=
+DAyNmFkal9mYWxsYmFjaz1odHRwcyUzQSUyRiUyRnd3dy5vbHguY29tLmJyJTJGJTNGdXRtX3Nv=
+dXJjZSUzRGVtYWlsJTI2dXRtX21lZGl1bSUzRHRyYW5zYWN0aW9uYWwlMjZ1dG1fc291cmNlX3B=
+sYXRmb3JtJTNEbW9uYWthJTI2dXRtX2NhbXBhaWduJTNEaGVhZGVydHJhbnNhY2lvbmFsX2VtX3=
+RyX2dlX2F3X2FvX3diX2NyX29sX2NyXHUwMDI2YWRqX3JlZGlyZWN0X21hY29zPWh0dHBzJTNBJ=
+TJGJTJGd3d3Lm9seC5jb20uYnIlMkYlM0Z1dG1fc291cmNlJTNEZW1haWwlMjZ1dG1fbWVkaXVt=
+JTNEdHJhbnNhY3Rpb25hbCUyNnV0bV9zb3VyY2VfcGxhdGZvcm0lM0Rtb25ha2ElMjZ1dG1fY2F=
+tcGFpZ24lM0RoZWFkZXJ0cmFuc2FjaW9uYWxfZW1fdHJfZ2VfYXdfYW9fd2JfY3Jfb2xfY3IifQ=
+.tMKzeAwcYaKw2M0UF4pRWqc4DsyKibQWBXbBcFBW6_c" style=3D"color:#fff;text-deco=
+ration:none;font-family:Trebuchet MS, Geneva, Tahoma, sans-serif;min-height=
+:30px;line-height:30px;border-width:0;border-radius:33px;background-color:#=
+F28101;display:inline-block;font-size:14px;position:relative;margin:0 auto;=
+padding:0px 15px 0px 15px;margin-left:5px;min-width:100px;font-weight:800">=
+Baixar o App</a></td></tr></tbody></table></td></tr></tbody></table></div><=
+/div><div style=3D"box-sizing:border-box;display:block;width:720px;backgrou=
+nd-color:#fff;font-family:Verdana, 'Helvetica Neue', HelveticaNeue, Helveti=
+ca, Arial, sans-serif;border-radius:0px;border:0;border-top:none;text-align=
+:center;padding:25px;margin-top:-0.2rem" id=3D"__body__"><div style=3D"font=
+-family:Trebuchet MS, Geneva, Tahoma, sans-serif;margin:0 0 30px 0;font-siz=
+e:32px;color:#6E0AD6;text-align:center;font-weight:bold">Fernando Ferreira,=
+ chegou mensagem pra voc=C3=AA de Arthur Gabriel Correia Passos!</div><div =
+style=3D"font-family:Verdana, 'Helvetica Neue', HelveticaNeue, Helvetica, A=
+rial, sans-serif;margin:40px auto 0 auto;display:flex;flex-direction:row;wi=
+dth:545px"><div style=3D"font-family:Verdana, 'Helvetica Neue', HelveticaNe=
+ue, Helvetica, Arial, sans-serif;margin:0 0 30px 0;margin-bottom:0"><a href=
+=3D"https://www.olx.com.br/vi/1349094904.html?utm_source=3Demail&utm_medium=
+=3Dtransactional&utm_source_platform=3Dmonaka&utm_campaign=3Dchat_em_tr_os_=
+ev_ao_cr_cr_ol_cr" style=3D"color:#6E0AD6;text-decoration:none;font-family:=
+Verdana, 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif"><im=
+g style=3D"width:245px;max-width:245px" src=3D"https://img.olx.com.br/thumb=
+sli/80/801483691534533.jpg" alt=3D"Imagem principal do an=C3=BAncio"/></a><=
+/div><div style=3D"font-family:Verdana, 'Helvetica Neue', HelveticaNeue, He=
+lvetica, Arial, sans-serif;margin:auto 30px;max-width:545px;display:block">=
+<div style=3D"font-family:Trebuchet MS, Geneva, Tahoma, sans-serif;margin:0=
+ 0 30px 0;padding:0;color:#6D6E71;font-style:normal;font-size:21px;font-wei=
+ght:700;text-align:center;margin-bottom:0">Mini volante bright ps2 ps3 pc</=
+div><a href=3D"https://email-redirect.olx.com.br/prod/click/v2/eyJhY2NvdW50=
+X2lkIjoiMTdlY2YyOGVjOWRjNTRjNTgwNjQ1NmIzMGEzNGU1MzVjYWI5MGU2Y2RjZjMyMmVjYTY=
+iLCJhZF9pZCI6IiIsImJ1IjoiT0xYIiwiY2F0ZWdvcnlfaWQiOiI2MGZjNDZjZDcxY2U1MGU0OG=
+NjNDUzYWUyMTVhMjAzNDNhNjgiLCJldmVudCI6ImNoYXRSZW1pbmRlckVtYWlsIiwicGFyYW1ld=
+GVycyI6e30sInByb2Nlc3NfaWQiOiIzMjdmNmE3MDNhMjA0Y2Y1ODE1OGY3Nzc2YWU1MjgzZiIs=
+InRlYW0iOiJNZXNzYWdpbmciLCJ0byI6Im5hbmRvYnJpdG9mZXJyZWlyYUBnbWFpbC5jb20iLCJ=
+1cmwiOiJodHRwczovL29seGJyYXNpbC5nby5saW5rL2wxaUxvIn0.EWyztCiSS3dYXWm72Hgja6=
+Et8Sz1htYmBogtTRKUAqU" style=3D"color:#fff;text-decoration:none;font-family=
+:Trebuchet MS, Geneva, Tahoma, sans-serif;min-height:32px;line-height:51px;=
+border-width:0;border-radius:24px;background-color:#F28000;display:inline-b=
+lock;font-size:16px;position:relative;margin:0 auto;padding:0px;max-width:2=
+41px;width:241px;max-height:51px;height:51px;font-weight:800;text-align:cen=
+ter;margin-top:20px">Responder agora</a></div></div><div style=3D"font-fami=
+ly:Verdana, 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;m=
+argin:0;display:flex;justify-content:center"><div style=3D"font-family:Verd=
+ana, 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;margin:3=
+2px auto 0 auto;width:545px"><div style=3D"font-family:Verdana, 'Helvetica =
+Neue', HelveticaNeue, Helvetica, Arial, sans-serif;margin:0 0 30px 0;displa=
+y:flex;background-color:#6E0AD6;padding:8px 16px;border-radius:20px 20px 0 =
+0;margin-bottom:0"><img src=3D"https://static.olx.com.br/nu/email/images/pn=
+g/window-buttons-marketing.png" style=3D"display:flex;margin:0 0 0 auto"/><=
+/div><div style=3D"font-family:Verdana, 'Helvetica Neue', HelveticaNeue, He=
+lvetica, Arial, sans-serif;margin:0 0 30px 0;display:flex;padding:8px 20px;=
+border-radius:0 0 20px 20px;border:2px solid #6E0AD6;margin-bottom:0"><img =
+src=3D"https://static.olx.com.br/nu/email/images/png/chat-marketing.png" st=
+yle=3D"padding:0 20px;width:65px"/><p style=3D"text-align:left;margin:0;pad=
+ding:0;color:#6E0AD6;line-height:24px;font-family:Trebuchet MS, Geneva, Tah=
+oma, sans-serif;font-size:21px;font-weight:bold">Responda r=C3=A1pido e aum=
+ente <br/> as chances de fazer um bom neg=C3=B3cio!</p></div></div></div><d=
+iv style=3D"font-family:Verdana, 'Helvetica Neue', HelveticaNeue, Helvetica=
+, Arial, sans-serif;margin:0 auto;display:table;text-align:center"><div sty=
+le=3D"width:126px;border:0;border-top:1px solid #C7C8CA;display:block;margi=
+n:34px auto"></div><div style=3D"font-family:Verdana, 'Helvetica Neue', Hel=
+veticaNeue, Helvetica, Arial, sans-serif;margin:0 auto 30px auto;background=
+-color:#F4F4F4;border-radius:23px;width:457px;padding:44px 44px 0px 44px;ma=
+x-width:545px"><div style=3D"font-family:Trebuchet MS, Verdana, Geneva, Tah=
+oma, sans-serif;margin:10px auto;background-color:#F4F4F4;color:#6E0AD6;fon=
+t-size:25px;font-weight:bold;display:block;width:100%;margin-bottom:34px"><=
+img src=3D"https://static.olx.com.br/nu/email/images/png/shield-security-ti=
+ps-marketing.png" style=3D"vertical-align:middle"/> Dicas de Seguran=C3=A7a=
+</div><table border=3D"0" cellSpacing=3D"0" cellPadding=3D"0"><tr><td style=
+=3D"width:50px;padding-bottom:34px"><img src=3D"https://static.olx.com.br/n=
+u/email/images/png/check-security-tips-marketing.png" style=3D"width:31px;d=
+isplay:block;border:0"/></td><td><p style=3D"text-align:left;margin:0;paddi=
+ng:0;color:#6D6E71;line-height:24px;font-family:Trebuchet MS, Verdana, Gene=
+va, Tahoma, sans-serif;font-size:18px;padding-bottom:34px">Negocie <strong =
+style=3D"color:#6E0AD6">sempre</strong> pelo chat da OLX</p></td></tr><tr><=
+td style=3D"width:50px;padding-bottom:34px"><img src=3D"https://static.olx.=
+com.br/nu/email/images/png/check-security-tips-marketing.png" style=3D"widt=
+h:31px;display:block;border:0"/></td><td><p style=3D"text-align:left;margin=
+:0;padding:0;color:#6D6E71;line-height:24px;font-family:Trebuchet MS, Verda=
+na, Geneva, Tahoma, sans-serif;font-size:18px;padding-bottom:34px">Nunca co=
+mpartilhe <strong style=3D"color:#6E0AD6">senhas, n=C3=BAmero de celular ou=
+ seu e-mail</strong> durante as negocia=C3=A7=C3=B5es</p></td></tr><tr><td =
+style=3D"width:50px;padding-bottom:34px"><img src=3D"https://static.olx.com=
+.br/nu/email/images/png/check-security-tips-marketing.png" style=3D"width:3=
+1px;display:block;border:0"/></td><td><p style=3D"text-align:left;margin:0;=
+padding:0;color:#6D6E71;line-height:24px;font-family:Trebuchet MS, Verdana,=
+ Geneva, Tahoma, sans-serif;font-size:18px;padding-bottom:34px">Se perceber=
+ que a negocia=C3=A7=C3=A3o n=C3=A3o =C3=A9 segura, <strong style=3D"color:=
+#6E0AD6">denuncie no chat ou no an=C3=BAncio</strong></p></td></tr><tr><td =
+style=3D"width:50px;padding-bottom:34px"><img src=3D"https://static.olx.com=
+.br/nu/email/images/png/check-security-tips-marketing.png" style=3D"width:3=
+1px;display:block;border:0"/></td><td><p style=3D"text-align:left;margin:0;=
+padding:0;color:#6D6E71;line-height:24px;font-family:Trebuchet MS, Verdana,=
+ Geneva, Tahoma, sans-serif;font-size:18px;padding-bottom:34px">Os e-mails =
+da OLX chegam somente atrav=C3=A9s de dois remetentes: <strong style=3D"col=
+or:#6E0AD6">@olx.com.br</strong> ou <strong style=3D"color:#6E0AD6">@newsol=
+x.com.br</strong></p></td></tr></table></div></div></div><div style=3D"box-=
+sizing:border-box;display:block;width:720px;background-color:#fff;font-fami=
+ly:Verdana, 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;b=
+order-radius:0px;border:0;border-top:none;text-align:center;margin-top:0;pa=
+dding:0 40px" id=3D"__body__"><div id=3D"nu-banner"></div></div><div style=
+=3D"padding:0;margin-top:-1.5rem" data-radium=3D"true"><div style=3D"box-si=
+zing:border-box;display:block;width:720px;background-color:#fff;font-family=
+:Verdana, 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;bor=
+der-radius:0px;border:0;border-top:none;text-align:center;padding:0;margin-=
+top:-0.2rem;margin:0" id=3D"__body__"><table width=3D"100%" align=3D"center=
+" cellPadding=3D"0" cellSpacing=3D"0" border=3D"0"><tbody><tr><td align=3D"=
+center" valign=3D"middle" style=3D"padding-top:40px"><table width=3D"100%" =
+align=3D"center" cellPadding=3D"0" cellSpacing=3D"0" border=3D"0"><tbody><t=
+r><td align=3D"center" valign=3D"middle"><table cellPadding=3D"0" cellSpaci=
+ng=3D"0" align=3D"center" border=3D"0" width=3D"100"><tbody><tr><td><img sr=
+c=3D"https://static.olx.com.br/nu/email/images/png/footer-marketing-porquin=
+ho.png" style=3D"width:75px;height:98px"/></td><td align=3D"left" valign=3D=
+"middle" style=3D"font-size:11px;line-height:1.6;padding-left:20px;min-widt=
+h:144px;font-family:Trebuchet MS, Verdana, Geneva, Tahoma, sans-serif">Fa=
+=C3=A7a uma <span style=3D"color:#6E0AD6;font-weight:bold;font-size:10px;fo=
+nt-family:Trebuchet MS, Verdana, Geneva, Tahoma, sans-serif" data-radium=3D=
+"true">Grana extra</span> com o<br/>que est=C3=A1 parado na sua casa.<table=
+ cellPadding=3D"0" cellSpacing=3D"0" align=3D"left" border=3D"0" width=3D"1=
+00"><tbody width=3D"100"><tr><td align=3D"left"><a href=3D"https://email-re=
+direct.olx.com.br/prod/click/v2/eyJhY2NvdW50X2lkIjoiMTdlY2YyOGVjOWRjNTRjNTg=
+wNjQ1NmIzMGEzNGU1MzVjYWI5MGU2Y2RjZjMyMmVjYTYiLCJhZF9pZCI6IiIsImJ1IjoiT0xYIi=
+wiY2F0ZWdvcnlfaWQiOiI2MGZjNDZjZDcxY2U1MGU0OGNjNDUzYWUyMTVhMjAzNDNhNjgiLCJld=
+mVudCI6ImNoYXRSZW1pbmRlckVtYWlsIiwicGFyYW1ldGVycyI6e30sInByb2Nlc3NfaWQiOiIz=
+MjdmNmE3MDNhMjA0Y2Y1ODE1OGY3Nzc2YWU1MjgzZiIsInRlYW0iOiJNZXNzYWdpbmciLCJ0byI=
+6Im5hbmRvYnJpdG9mZXJyZWlyYUBnbWFpbC5jb20iLCJ1cmwiOiJodHRwczovL3d3dzIub2x4Lm=
+NvbS5ici9haS9mb3JtLzAvP3V0bV9zb3VyY2U9ZW1haWxcdTAwMjZ1dG1fbWVkaXVtPXRyYW5zY=
+WN0aW9uYWxcdTAwMjZ1dG1fc291cmNlX3BsYXRmb3JtPW1vbmFrYVx1MDAyNnV0bV9jYW1wYWln=
+bj1jaGF0X2VtX3RyX29zX2V2X2FvX2NyX2NyX29sX2NyIn0.UdBj_gIIJ99rVsOvc1nvGvBc6wo=
+vVhIpnBVhK-wSl5I" style=3D"color:#fff;text-decoration:none;font-family:Treb=
+uchet MS, Verdana, Geneva, Tahoma, sans-serif;min-height:23px;line-height:2=
+3px;border-width:0;border-radius:33px;background-color:#F28101;display:inli=
+ne-block;font-size:14px;position:relative;margin:0 auto;padding:0 1rem;widt=
+h:98px;font-weight:600;text-align:center;margin-top:16px">Anunciar</a></td>=
+</tr></tbody></table></td></tr><tr><td align=3D"center" valign=3D"middle" s=
+tyle=3D"padding-top:20px"><table border=3D"0" cellSpacing=3D"0" cellPadding=
+=3D"0"><tbody><tr><td align=3D"center" style=3D"line-height:20px;font-size:=
+20px"></td></tr></tbody></table></td></tr></tbody></table></td><td align=3D=
+"center" valign=3D"middle"><div style=3D"border-right:1px solid #C7C8CA;wid=
+th:1px;height:62px;display:block" data-radium=3D"true"></div></td><td align=
+=3D"center" valign=3D"top" style=3D"padding-top:16px"><table width=3D"300" =
+cellPadding=3D"0" cellSpacing=3D"0" border=3D"0"><tbody><tr><td align=3D"ce=
+nter" valign=3D"middle" style=3D"color:#464646;font-size:13px;line-height:1=
+.6;box-sizing:border-box;width:720px;font-family:Trebuchet MS, Verdana, Gen=
+eva, Tahoma, sans-serif">Siga a OLX nas redes:</td></tr><tr><td align=3D"ce=
+nter" valign=3D"middle" style=3D"padding-top:10px"><table cellPadding=3D"0"=
+ cellSpacing=3D"0" border=3D"0"><tbody><tr><td style=3D"padding-left:10px;p=
+adding-right:10px" align=3D"center" valign=3D"middle"><table border=3D"0" c=
+ellSpacing=3D"0" cellPadding=3D"0"><tr><td><a href=3D"https://email-redirec=
+t.olx.com.br/prod/click/v2/eyJhY2NvdW50X2lkIjoiMTdlY2YyOGVjOWRjNTRjNTgwNjQ1=
+NmIzMGEzNGU1MzVjYWI5MGU2Y2RjZjMyMmVjYTYiLCJhZF9pZCI6IiIsImJ1IjoiT0xYIiwiY2F=
+0ZWdvcnlfaWQiOiI2MGZjNDZjZDcxY2U1MGU0OGNjNDUzYWUyMTVhMjAzNDNhNjgiLCJldmVudC=
+I6ImNoYXRSZW1pbmRlckVtYWlsIiwicGFyYW1ldGVycyI6e30sInByb2Nlc3NfaWQiOiIzMjdmN=
+mE3MDNhMjA0Y2Y1ODE1OGY3Nzc2YWU1MjgzZiIsInRlYW0iOiJNZXNzYWdpbmciLCJ0byI6Im5h=
+bmRvYnJpdG9mZXJyZWlyYUBnbWFpbC5jb20iLCJ1cmwiOiJodHRwczovL3d3dy5pbnN0YWdyYW0=
+uY29tL29seGJyLyJ9.hQ8-I89evprjqClI_EqBweWq6cd5mRxszFE9Hp7Hhpk" style=3D"col=
+or:#6E0AD6;text-decoration:none;font-family:Verdana, 'Helvetica Neue', Helv=
+eticaNeue, Helvetica, Arial, sans-serif"><img src=3D"https://static.olx.com=
+.br/nu/email/images/png/instagram-marketing.png" width=3D"37" height=3D"37"=
+/></a></td></tr><tr><td><a href=3D"https://www.instagram.com/olxbr/" style=
+=3D"color:#6E0AD6;text-decoration:none;font-family:Verdana, 'Helvetica Neue=
+', HelveticaNeue, Helvetica, Arial, sans-serif"><p style=3D"text-align:cent=
+er;margin:0px;padding:0;color:#6E0AD6;line-height:24px;font-family:Verdana,=
+ 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;font-weight:=
+bold;font-size:16px;text-decoration:underline"></p></a></td></tr></table></=
+td><td style=3D"padding-left:10px;padding-right:10px" align=3D"center" vali=
+gn=3D"middle"><table border=3D"0" cellSpacing=3D"0" cellPadding=3D"0"><tr><=
+td><a href=3D"https://email-redirect.olx.com.br/prod/click/v2/eyJhY2NvdW50X=
+2lkIjoiMTdlY2YyOGVjOWRjNTRjNTgwNjQ1NmIzMGEzNGU1MzVjYWI5MGU2Y2RjZjMyMmVjYTYi=
+LCJhZF9pZCI6IiIsImJ1IjoiT0xYIiwiY2F0ZWdvcnlfaWQiOiI2MGZjNDZjZDcxY2U1MGU0OGN=
+jNDUzYWUyMTVhMjAzNDNhNjgiLCJldmVudCI6ImNoYXRSZW1pbmRlckVtYWlsIiwicGFyYW1ldG=
+VycyI6e30sInByb2Nlc3NfaWQiOiIzMjdmNmE3MDNhMjA0Y2Y1ODE1OGY3Nzc2YWU1MjgzZiIsI=
+nRlYW0iOiJNZXNzYWdpbmciLCJ0byI6Im5hbmRvYnJpdG9mZXJyZWlyYUBnbWFpbC5jb20iLCJ1=
+cmwiOiJodHRwczovL3d3dy50aWt0b2suY29tL0BvbHhfYnJhc2lsIn0.A8sAO-g223VTley2X_z=
+XvGavg4jhlw6k4FaZSNGbeQ8" style=3D"color:#6E0AD6;text-decoration:none;font-=
+family:Verdana, 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-ser=
+if"><img src=3D"https://static.olx.com.br/nu/email/images/png/tiktok-market=
+ing.png" width=3D"37" height=3D"37"/></a></td></tr><tr><td><a href=3D"https=
+://www.tiktok.com/@olx_brasil" style=3D"color:#6E0AD6;text-decoration:none;=
+font-family:Verdana, 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, san=
+s-serif"><p style=3D"text-align:center;margin:0px;padding:0;color:#6E0AD6;l=
+ine-height:24px;font-family:Verdana, 'Helvetica Neue', HelveticaNeue, Helve=
+tica, Arial, sans-serif;font-weight:bold;font-size:16px;text-decoration:und=
+erline"></p></a></td></tr></table></td><td style=3D"padding-left:10px;paddi=
+ng-right:10px" align=3D"center" valign=3D"middle"><table border=3D"0" cellS=
+pacing=3D"0" cellPadding=3D"0"><tr><td><a href=3D"https://email-redirect.ol=
+x.com.br/prod/click/v2/eyJhY2NvdW50X2lkIjoiMTdlY2YyOGVjOWRjNTRjNTgwNjQ1NmIz=
+MGEzNGU1MzVjYWI5MGU2Y2RjZjMyMmVjYTYiLCJhZF9pZCI6IiIsImJ1IjoiT0xYIiwiY2F0ZWd=
+vcnlfaWQiOiI2MGZjNDZjZDcxY2U1MGU0OGNjNDUzYWUyMTVhMjAzNDNhNjgiLCJldmVudCI6Im=
+NoYXRSZW1pbmRlckVtYWlsIiwicGFyYW1ldGVycyI6e30sInByb2Nlc3NfaWQiOiIzMjdmNmE3M=
+DNhMjA0Y2Y1ODE1OGY3Nzc2YWU1MjgzZiIsInRlYW0iOiJNZXNzYWdpbmciLCJ0byI6Im5hbmRv=
+YnJpdG9mZXJyZWlyYUBnbWFpbC5jb20iLCJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL29seF9=
+CcmFzaWwifQ.Ynt7eNWySibPQmyy4Z8Sk1XIwvyRD3c6_VY7iO80Udg" style=3D"color:#6E=
+0AD6;text-decoration:none;font-family:Verdana, 'Helvetica Neue', HelveticaN=
+eue, Helvetica, Arial, sans-serif"><img src=3D"https://static.olx.com.br/nu=
+/email/images/png/twitter-marketing.png" width=3D"37" height=3D"37"/></a></=
+td></tr><tr><td><a href=3D"https://twitter.com/olx_Brasil" style=3D"color:#=
+6E0AD6;text-decoration:none;font-family:Verdana, 'Helvetica Neue', Helvetic=
+aNeue, Helvetica, Arial, sans-serif"><p style=3D"text-align:center;margin:0=
+px;padding:0;color:#6E0AD6;line-height:24px;font-family:Verdana, 'Helvetica=
+ Neue', HelveticaNeue, Helvetica, Arial, sans-serif;font-weight:bold;font-s=
+ize:16px;text-decoration:underline"></p></a></td></tr></table></td><td styl=
+e=3D"padding-left:10px;padding-right:10px" align=3D"center" valign=3D"middl=
+e"><table border=3D"0" cellSpacing=3D"0" cellPadding=3D"0"><tr><td><a href=
+=3D"https://email-redirect.olx.com.br/prod/click/v2/eyJhY2NvdW50X2lkIjoiMTd=
+lY2YyOGVjOWRjNTRjNTgwNjQ1NmIzMGEzNGU1MzVjYWI5MGU2Y2RjZjMyMmVjYTYiLCJhZF9pZC=
+I6IiIsImJ1IjoiT0xYIiwiY2F0ZWdvcnlfaWQiOiI2MGZjNDZjZDcxY2U1MGU0OGNjNDUzYWUyM=
+TVhMjAzNDNhNjgiLCJldmVudCI6ImNoYXRSZW1pbmRlckVtYWlsIiwicGFyYW1ldGVycyI6e30s=
+InByb2Nlc3NfaWQiOiIzMjdmNmE3MDNhMjA0Y2Y1ODE1OGY3Nzc2YWU1MjgzZiIsInRlYW0iOiJ=
+NZXNzYWdpbmciLCJ0byI6Im5hbmRvYnJpdG9mZXJyZWlyYUBnbWFpbC5jb20iLCJ1cmwiOiJodH=
+RwczovL3d3dy55b3V0dWJlLmNvbS91c2VyL29seGJyYXNpbCJ9.bmAmRG-ct3tPUCce2xbSRjLY=
+XtNpbWjFN5DKBzLmbv0" style=3D"color:#6E0AD6;text-decoration:none;font-famil=
+y:Verdana, 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif"><=
+img src=3D"https://static.olx.com.br/nu/email/images/png/youtube-marketing.=
+png" width=3D"37" height=3D"37"/></a></td></tr><tr><td><a href=3D"https://w=
+ww.youtube.com/user/olxbrasil" style=3D"color:#6E0AD6;text-decoration:none;=
+font-family:Verdana, 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, san=
+s-serif"><p style=3D"text-align:center;margin:0px;padding:0;color:#6E0AD6;l=
+ine-height:24px;font-family:Verdana, 'Helvetica Neue', HelveticaNeue, Helve=
+tica, Arial, sans-serif;font-weight:bold;font-size:16px;text-decoration:und=
+erline"></p></a></td></tr></table></td><td style=3D"padding-left:10px;paddi=
+ng-right:10px" align=3D"center" valign=3D"middle"><table border=3D"0" cellS=
+pacing=3D"0" cellPadding=3D"0"><tr><td><a href=3D"https://email-redirect.ol=
+x.com.br/prod/click/v2/eyJhY2NvdW50X2lkIjoiMTdlY2YyOGVjOWRjNTRjNTgwNjQ1NmIz=
+MGEzNGU1MzVjYWI5MGU2Y2RjZjMyMmVjYTYiLCJhZF9pZCI6IiIsImJ1IjoiT0xYIiwiY2F0ZWd=
+vcnlfaWQiOiI2MGZjNDZjZDcxY2U1MGU0OGNjNDUzYWUyMTVhMjAzNDNhNjgiLCJldmVudCI6Im=
+NoYXRSZW1pbmRlckVtYWlsIiwicGFyYW1ldGVycyI6e30sInByb2Nlc3NfaWQiOiIzMjdmNmE3M=
+DNhMjA0Y2Y1ODE1OGY3Nzc2YWU1MjgzZiIsInRlYW0iOiJNZXNzYWdpbmciLCJ0byI6Im5hbmRv=
+YnJpdG9mZXJyZWlyYUBnbWFpbC5jb20iLCJ1cmwiOiJodHRwczovL3d3dy5mYWNlYm9vay5jb20=
+vb2x4YnJhc2lsIn0.ZFsUw-hH4T-T97usyARdbM6dU30bU1uUSoFOuZlM8P8" style=3D"colo=
+r:#6E0AD6;text-decoration:none;font-family:Verdana, 'Helvetica Neue', Helve=
+ticaNeue, Helvetica, Arial, sans-serif"><img src=3D"https://static.olx.com.=
+br/nu/email/images/png/facebook-marketing.png" width=3D"37" height=3D"37"/>=
+</a></td></tr><tr><td><a href=3D"https://www.facebook.com/olxbrasil" style=
+=3D"color:#6E0AD6;text-decoration:none;font-family:Verdana, 'Helvetica Neue=
+', HelveticaNeue, Helvetica, Arial, sans-serif"><p style=3D"text-align:cent=
+er;margin:0px;padding:0;color:#6E0AD6;line-height:24px;font-family:Verdana,=
+ 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;font-weight:=
+bold;font-size:16px;text-decoration:underline"></p></a></td></tr></table></=
+td><td style=3D"padding-left:10px;padding-right:10px" align=3D"center" vali=
+gn=3D"middle"><table border=3D"0" cellSpacing=3D"0" cellPadding=3D"0"><tr><=
+td><a href=3D"https://email-redirect.olx.com.br/prod/click/v2/eyJhY2NvdW50X=
+2lkIjoiMTdlY2YyOGVjOWRjNTRjNTgwNjQ1NmIzMGEzNGU1MzVjYWI5MGU2Y2RjZjMyMmVjYTYi=
+LCJhZF9pZCI6IiIsImJ1IjoiT0xYIiwiY2F0ZWdvcnlfaWQiOiI2MGZjNDZjZDcxY2U1MGU0OGN=
+jNDUzYWUyMTVhMjAzNDNhNjgiLCJldmVudCI6ImNoYXRSZW1pbmRlckVtYWlsIiwicGFyYW1ldG=
+VycyI6e30sInByb2Nlc3NfaWQiOiIzMjdmNmE3MDNhMjA0Y2Y1ODE1OGY3Nzc2YWU1MjgzZiIsI=
+nRlYW0iOiJNZXNzYWdpbmciLCJ0byI6Im5hbmRvYnJpdG9mZXJyZWlyYUBnbWFpbC5jb20iLCJ1=
+cmwiOiJodHRwczovL3d3dy5saW5rZWRpbi5jb20vY29tcGFueS9vbHgtYnJhc2lsIn0.bG4sKqI=
+aklszp5hCSKO6hNAF4Tbd6bWI1rQRA9-y924" style=3D"color:#6E0AD6;text-decoratio=
+n:none;font-family:Verdana, 'Helvetica Neue', HelveticaNeue, Helvetica, Ari=
+al, sans-serif"><img src=3D"https://static.olx.com.br/nu/email/images/png/l=
+inkedin-marketing.png" width=3D"37" height=3D"37"/></a></td></tr><tr><td><a=
+ href=3D"https://www.linkedin.com/company/olx-brasil" style=3D"color:#6E0AD=
+6;text-decoration:none;font-family:Verdana, 'Helvetica Neue', HelveticaNeue=
+, Helvetica, Arial, sans-serif"><p style=3D"text-align:center;margin:0px;pa=
+dding:0;color:#6E0AD6;line-height:24px;font-family:Verdana, 'Helvetica Neue=
+', HelveticaNeue, Helvetica, Arial, sans-serif;font-weight:bold;font-size:1=
+6px;text-decoration:underline"></p></a></td></tr></table></td></tr></tbody>=
+</table></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><=
+td align=3D"center" valign=3D"middle" width=3D"100" style=3D"padding-top:40=
+px"><table cellSpacing=3D"0" cellPadding=3D"0" border=3D"0"><tbody><td vali=
+gn=3D"middle" align=3D"center" style=3D"padding-left:16px;padding-right:16p=
+x"><a href=3D"https://email-redirect.olx.com.br/prod/click/v2/eyJhY2NvdW50X=
+2lkIjoiMTdlY2YyOGVjOWRjNTRjNTgwNjQ1NmIzMGEzNGU1MzVjYWI5MGU2Y2RjZjMyMmVjYTYi=
+LCJhZF9pZCI6IiIsImJ1IjoiT0xYIiwiY2F0ZWdvcnlfaWQiOiI2MGZjNDZjZDcxY2U1MGU0OGN=
+jNDUzYWUyMTVhMjAzNDNhNjgiLCJldmVudCI6ImNoYXRSZW1pbmRlckVtYWlsIiwicGFyYW1ldG=
+VycyI6e30sInByb2Nlc3NfaWQiOiIzMjdmNmE3MDNhMjA0Y2Y1ODE1OGY3Nzc2YWU1MjgzZiIsI=
+nRlYW0iOiJNZXNzYWdpbmciLCJ0byI6Im5hbmRvYnJpdG9mZXJyZWlyYUBnbWFpbC5jb20iLCJ1=
+cmwiOiJodHRwczovL2FqdWRhLm9seC5jb20uYnIvcz91dG1fc291cmNlPWVtYWlsXHUwMDI2dXR=
+tX21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZV9wbGF0Zm9ybT1tb25ha2FcdT=
+AwMjZ1dG1fY2FtcGFpZ249Y2hhdF9lbV90cl9vc19ldl9hb19jcl9jcl9vbF9jciJ9.VVJ0jZUW=
+cG2CsIOOJtpfTBsiB7XNqfNZjCL5YchWlrQ" style=3D"color:#6E0AD6;text-decoration=
+:none;font-family:Trebuchet MS, Verdana, Geneva, Tahoma, sans-serif;text-co=
+lor:#6E0AD6;font-size:15px;line-height:1.6">Plano Profissional</a></td><td =
+valign=3D"middle" align=3D"center" style=3D"padding-left:16px;padding-right=
+:16px"><a href=3D"https://email-redirect.olx.com.br/prod/click/v2/eyJhY2Nvd=
+W50X2lkIjoiMTdlY2YyOGVjOWRjNTRjNTgwNjQ1NmIzMGEzNGU1MzVjYWI5MGU2Y2RjZjMyMmVj=
+YTYiLCJhZF9pZCI6IiIsImJ1IjoiT0xYIiwiY2F0ZWdvcnlfaWQiOiI2MGZjNDZjZDcxY2U1MGU=
+0OGNjNDUzYWUyMTVhMjAzNDNhNjgiLCJldmVudCI6ImNoYXRSZW1pbmRlckVtYWlsIiwicGFyYW=
+1ldGVycyI6e30sInByb2Nlc3NfaWQiOiIzMjdmNmE3MDNhMjA0Y2Y1ODE1OGY3Nzc2YWU1MjgzZ=
+iIsInRlYW0iOiJNZXNzYWdpbmciLCJ0byI6Im5hbmRvYnJpdG9mZXJyZWlyYUBnbWFpbC5jb20i=
+LCJ1cmwiOiJodHRwczovL2RpY2FzLm9seC5jb20uYnIvP3V0bV9zb3VyY2U9ZW1haWxcdTAwMjZ=
+1dG1fbWVkaXVtPXRyYW5zYWN0aW9uYWxcdTAwMjZ1dG1fc291cmNlX3BsYXRmb3JtPW1vbmFrYV=
+x1MDAyNnV0bV9jYW1wYWlnbj1jaGF0X2VtX3RyX29zX2V2X2FvX2NyX2NyX29sX2NyIn0.2QbDm=
+fuJpwBmHCQwLPUHJXsEdSmmeC9Y03eJgGWi5B8" style=3D"color:#6E0AD6;text-decorat=
+ion:none;font-family:Trebuchet MS, Verdana, Geneva, Tahoma, sans-serif;text=
+-color:#6E0AD6;font-size:15px;line-height:1.6">Dicas OLX</a></td><td valign=
+=3D"middle" align=3D"center" style=3D"padding-left:16px;padding-right:16px"=
+><a href=3D"https://email-redirect.olx.com.br/prod/click/v2/eyJhY2NvdW50X2l=
+kIjoiMTdlY2YyOGVjOWRjNTRjNTgwNjQ1NmIzMGEzNGU1MzVjYWI5MGU2Y2RjZjMyMmVjYTYiLC=
+JhZF9pZCI6IiIsImJ1IjoiT0xYIiwiY2F0ZWdvcnlfaWQiOiI2MGZjNDZjZDcxY2U1MGU0OGNjN=
+DUzYWUyMTVhMjAzNDNhNjgiLCJldmVudCI6ImNoYXRSZW1pbmRlckVtYWlsIiwicGFyYW1ldGVy=
+cyI6e30sInByb2Nlc3NfaWQiOiIzMjdmNmE3MDNhMjA0Y2Y1ODE1OGY3Nzc2YWU1MjgzZiIsInR=
+lYW0iOiJNZXNzYWdpbmciLCJ0byI6Im5hbmRvYnJpdG9mZXJyZWlyYUBnbWFpbC5jb20iLCJ1cm=
+wiOiJodHRwczovL2FqdWRhLm9seC5jb20uYnIvcz91dG1fc291cmNlPWVtYWlsXHUwMDI2dXRtX=
+21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZV9wbGF0Zm9ybT1tb25ha2FcdTAw=
+MjZ1dG1fY2FtcGFpZ249Y2hhdF9lbV90cl9vc19ldl9hb19jcl9jcl9vbF9jciJ9.VVJ0jZUWcG=
+2CsIOOJtpfTBsiB7XNqfNZjCL5YchWlrQ" style=3D"color:#6E0AD6;text-decoration:n=
+one;font-family:Trebuchet MS, Verdana, Geneva, Tahoma, sans-serif;text-colo=
+r:#6E0AD6;font-size:15px;line-height:1.6">Central de Relacionamento</a></td=
+><td valign=3D"middle" align=3D"center" style=3D"padding-left:16px;padding-=
+right:16px"><a href=3D"https://email-redirect.olx.com.br/prod/click/v2/eyJh=
+Y2NvdW50X2lkIjoiMTdlY2YyOGVjOWRjNTRjNTgwNjQ1NmIzMGEzNGU1MzVjYWI5MGU2Y2RjZjM=
+yMmVjYTYiLCJhZF9pZCI6IiIsImJ1IjoiT0xYIiwiY2F0ZWdvcnlfaWQiOiI2MGZjNDZjZDcxY2=
+U1MGU0OGNjNDUzYWUyMTVhMjAzNDNhNjgiLCJldmVudCI6ImNoYXRSZW1pbmRlckVtYWlsIiwic=
+GFyYW1ldGVycyI6e30sInByb2Nlc3NfaWQiOiIzMjdmNmE3MDNhMjA0Y2Y1ODE1OGY3Nzc2YWU1=
+MjgzZiIsInRlYW0iOiJNZXNzYWdpbmciLCJ0byI6Im5hbmRvYnJpdG9mZXJyZWlyYUBnbWFpbC5=
+jb20iLCJ1cmwiOiJodHRwczovL3NlZ3VyYW5jYS5vbHguY29tLmJyLz91dG1fc291cmNlPWVtYW=
+lsXHUwMDI2dXRtX21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZV9wbGF0Zm9yb=
+T1tb25ha2FcdTAwMjZ1dG1fY2FtcGFpZ249Y2hhdF9lbV90cl9vc19ldl9hb19jcl9jcl9vbF9j=
+ciJ9.nMBZzhMkNsoonFGucfyK7VSaHVMNuj9xfX1wGSczRus" style=3D"color:#6E0AD6;te=
+xt-decoration:none;font-family:Trebuchet MS, Verdana, Geneva, Tahoma, sans-=
+serif;text-color:#6E0AD6;font-size:15px;line-height:1.6">Seguran=C3=A7a</a>=
+</td></tbody></table></td></tr><tr><td align=3D"center" valign=3D"middle" s=
+tyle=3D"padding:45px 0px 35px 0"><table cellSpacing=3D"0" cellPadding=3D"0"=
+ border=3D"0"><tbody><tr><td align=3D"center" valign=3D"middle" style=3D"fo=
+nt-size:11px;color:#1b1b1b;line-height:1.6;mso-line-height-rule:exacly;font=
+-family:Trebuchet MS, Verdana, Geneva, Tahoma, sans-serif">Enviado por OLX =
+Brasil<br/>Rua do Catete, 359, Flamengo - 22220-001 - Rio de Janeiro, RJ<br=
+/><br/></td></tr></tbody></table></td></tr><tr><td align=3D"center" valign=
+=3D"middle"><img src=3D"https://static.olx.com.br/nu/email/images/png/white=
+Space.png" style=3D"width:720px"/></td></tr></tbody></table></div></div></d=
+iv>
+        </td>
+        </tr>
+    </table>
+    <img src=3D"https://email-redirect.olx.com.br/prod/open/v2/eyJhY2NvdW50=
+X2lkIjoiMGEyNTI1ZDI5ZGVhODlhYTE1NzU3M2ViMGZiYjgyZmM4NTM0MmU0YjRmODRmN2RiNjA=
+iLCJhZF9pZCI6IiIsImJ1IjoiT0xYIiwiY2F0ZWdvcnlfaWQiOiI1ZDRiZTUwMTM0M2I1MGI4ZT=
+kzNmRmYzRmMzY5NzQxNDVmODIiLCJldmVudCI6ImNoYXRSZW1pbmRlckVtYWlsIiwicGFyYW1ld=
+GVycyI6bnVsbCwicHJvY2Vzc19pZCI6IjMyN2Y2YTcwM2EyMDRjZjU4MTU4Zjc3NzZhZTUyODNm=
+IiwidGVhbSI6Ik1lc3NhZ2luZyIsInRvIjoibmFuZG9icml0b2ZlcnJlaXJhQGdtYWlsLmNvbSI=
+sInVybCI6IiJ9.uZKdmS_WVsE2iltPm7J8o_u5ejRLX2o1uUTZe1IVMQM" height=3D"0" wid=
+th=3D"0"></body>
+</html>

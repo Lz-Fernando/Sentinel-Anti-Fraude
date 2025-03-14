@@ -1,0 +1,890 @@
+X-GM-THRID: 1820704221612650026
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6919:e41a:b0:29a:824b:9ec3 with SMTP id qk26csp321874ysc;
+        Wed, 8 Jan 2025 09:54:14 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IGjoEZ8c3UwXemEcAoAxcBqj8I05qRCNvSZdUs/2p6ZaI+2qsb9S+XW/vzaurbRmrOIxALN
+X-Received: by 2002:ac8:594d:0:b0:466:8cc1:6221 with SMTP id d75a77b69052e-46c7109ddd9mr59962821cf.50.1736358854028;
+        Wed, 08 Jan 2025 09:54:14 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1736358854; cv=none;
+        d=google.com; s=arc-20240605;
+        b=OSCpwnTqnYnAuU1sXF12So0mZFTXhlCPoVZppafb+xEthRqWi6U8+wEDdZOgIiOspe
+         ImExPJspF1FVOIuDcDTrrnGM6uUMiOdhqGSO05qbZP8w7S/muiJ7uBn89i1o0WShEmgO
+         gzM/CmNYcdoNQK35Y2Dnlqdt46n4+33XnbdJjlhFWvlnbCWYyMmPgKZ4qGUs4slvx4hh
+         EhARNZzO6GhUArNxE+ckrYhNIri4bHRQc7N11Ux58DRjUvNW4313GyCPaOJtmAtkSPjL
+         9f4YOrtmxJmhWSQU06ueA6DD5R8vlwbvZYnaTCkIGgi4JKxERPDPjwXMGqB+FE/zJ0tw
+         xx3w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=eMrC7tazKLZZqegsAYWRastnIibisHBaAAvFTirVbPM=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=hr9snR/ZM7Scun1+HfdE87auUUMpAOWDav5qJVVH660sr765TSH47/fDwZOJElVUsP
+         pUrfdfEnjoSsdc01suCiWJyFod1iTc6cKqOf9J8w+T1aQcwwCGGIAs/3zZqyrRAsKAR0
+         eiEhAoyVI+s66mMvWNtmKXiNJMEtN5lNgwLbFZHwCoGmAUghxS4PZ+C7Goo95okiWBNz
+         faqesRI15b4JRST86f0jbtomilw5XMYukxOH5wmkz58UxiHXdUA4ncznjRyYTQRGjISU
+         HXi4+cRKTYqUi0h1Fk8C1O+CXP/Sq8oMpL4n8cqFvkV6Ms74MDPbrCxNIulVgtRXG01p
+         6J5Q==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=I3nLstuY;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=iUWc7tvy;
+       spf=pass (google.com: domain of s-2db764djablsh7j45s4gy02xzhkx57tv0tgg4a5u7irkhbx2anrbh6ba@bounce.linkedin.com designates 2620:109:c006:104::194 as permitted sender) smtp.mailfrom=s-2db764djablsh7j45s4gy02xzhkx57tv0tgg4a5u7irkhbx2anrbh6ba@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-2db764djablsh7j45s4gy02xzhkx57tv0tgg4a5u7irkhbx2anrbh6ba@bounce.linkedin.com>
+Received: from maile-ab.linkedin.com (maile-ab.linkedin.com. [2620:109:c006:104::194])
+        by mx.google.com with ESMTPS id d75a77b69052e-46a3ebc5dfasi474136951cf.483.2025.01.08.09.54.13
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 08 Jan 2025 09:54:14 -0800 (PST)
+Received-SPF: pass (google.com: domain of s-2db764djablsh7j45s4gy02xzhkx57tv0tgg4a5u7irkhbx2anrbh6ba@bounce.linkedin.com designates 2620:109:c006:104::194 as permitted sender) client-ip=2620:109:c006:104::194;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=I3nLstuY;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=iUWc7tvy;
+       spf=pass (google.com: domain of s-2db764djablsh7j45s4gy02xzhkx57tv0tgg4a5u7irkhbx2anrbh6ba@bounce.linkedin.com designates 2620:109:c006:104::194 as permitted sender) smtp.mailfrom=s-2db764djablsh7j45s4gy02xzhkx57tv0tgg4a5u7irkhbx2anrbh6ba@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1736358852;
+	bh=eMrC7tazKLZZqegsAYWRastnIibisHBaAAvFTirVbPM=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=I3nLstuYTjE2OwnECQiLaBGVbXwKmO0RzxHQMOGJG/QuRbihdG2WXnEfd27SMQiFn
+	 AawUoOrYTnKIuKnvICqCLMeKciGWG+wp9CcnmtKNz3xb6JaS+4e2eURlNoPWJNH6BO
+	 +iBuGY9QKec7mHUmADPVCnNEGuI3dZtubez5mIRgQfa+60vY2USBz1K9nARMmvtlX8
+	 A9b3lpdFqL5ZP1ltDepdFzMEaicK+ClSfnTp/fLIB7X6jmvyMgMZhly+QIiuWNgz6f
+	 O8ZuNiXk8hf6IhjVI7vfxB7E61637KPjg4IZVtDt4lBHEaI0hUdJ0JJq3+NTk/18UC
+	 YeEDvRPUeBhjQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1736358852;
+	bh=eMrC7tazKLZZqegsAYWRastnIibisHBaAAvFTirVbPM=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=iUWc7tvyI5nDdz6/QvJmBCYZA3fFkRGbiFBa0xEQww1PdA2ejKhz9G4Bs2cD9F+Qr
+	 DN7+Nd5dZsEQKtZouo7T/61aNWJAzL9u9fjRUiFflGNu1xJaSeV0RAqoYyXA2s74Xd
+	 DVjMwSCVHlz82Syk6C2UuiC2xRDWMkUS2dnL3Y0BJG2v7nK6ikkMUiqODDcXwKVJI4
+	 GYqyHLQowY5+vreEmulEzgFVLrvZc+r9PaCPcOfWONyLAhIOZTj9mw5ELT040M6XGv
+	 qz2GjH5DLGqReHUsL8rBdCuaLpNcPN8u/rQitdoN40j5n0fnL8ZU4lrjj90pdHKeS7
+	 /jbb1Cu424EuQ==
+From: Remotar via LinkedIn <newsletters-noreply@linkedin.com>
+Message-ID: <91539415.19287504.1736358852303@lva1-app112645.prod.linkedin.com>
+Subject: =?UTF-8?Q?Em_2025:_(Re)Come=C3=A7ar._(Re)Lembrar._Remotar!?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_19287502_1740066362.1736358852299"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Wed, 8 Jan 2025 17:54:12 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-aszqcg205a9p7eovzynmexkvgo57m0fa3x8z7gqtord21sftc9yb4wghs2sl3u5bph0c1ng3m0non6svcr6o12pgm8xh2n9z1y1bvw
+X-LinkedIn-Id: gdb74f-m5o727d6-v2
+List-Unsubscribe: <https://www.linkedin.com/comm/series-notifications/?action=unsubscribe&memberToken=ADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&newsletterId=7095120867877122048&newsletterTitle=Remotar%20News&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bn7W2wsHMQzSS6zFjYaEF7g%3D%3D&midToken=AQHxaOsdYMWJVQ&midSig=0gva4rwDEOBbA1&trk=eml-email_series_follow_newsletter_01-unsub-0-unsub&trkEmail=eml-email_series_follow_newsletter_01-unsub-0-unsub-null-gdb74f~m5o727d6~v2-null-null&eid=gdb74f-m5o727d6-v2&otpToken=MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU0YjE4N2M2ZDU0MDlmYWI4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NTZmNmM0YzQ1ZmZlZWIxYTRjNTkwMDllMDVmOTdkNmRlNzk0YTQ1NjQ4NmNmOCwxLDE%3D>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_19287502_1740066362.1736358852299
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Remotar News
+
+Por Remotar
+
+
+Por Remotar
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/em-2025-recome%C3%A7ar-relembrar-remota=
+r-remotar-jobs-6o7lf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3Bn7W2wsHMQzSS6zFjYaEF7g%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=
+=3D0gva4rwDEOBbA1&trk=3Deml-email_series_follow_newsletter_01-null-0-read_m=
+ore_banner_cta_&trkEmail=3Deml-email_series_follow_newsletter_01-null-0-rea=
+d_more_banner_cta_-null-gdb74f~m5o727d6~v2-null-null&eid=3Dgdb74f-m5o727d6-=
+v2&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU0YjE4N2M2ZDU0MDlmYWI4N=
+jYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NTZmNmM0YzQ1ZmZlZWIxYTRjNTkwMDllMDVmOTdk=
+NmRlNzk0YTQ1NjQ4NmNmOCwxLDE%3D
+ =20
+Chegamos em 2025, o ano em que completamos 5 anos conectando pessoas, empre=
+sas e sonhos atrav=C3=A9s do trabalho remoto. Nesse tempo, vimos o futuro s=
+e tornar presente, as carreiras se transformando, culturas organizacionais =
+se solidificando e a forma como o mundo trabalha sendo repensada.=C2=A0 N=
+=C3=B3s seguimos aqui, acreditando no potencial de um modelo mais flex=C3=
+=ADvel, humano e inclusivo, prontos para continuar escrevendo essa hist=C3=
+=B3ria com voc=C3=AA. Em 2024 Foram 39.753 vagas remotas publicadas na noss=
+a plataforma e 2.806 empresas remotando com a gente. Tivemos exatos 288.672=
+ cadastros de novos usu=C3=A1rios. As =C3=A1reas com mais vagas remotas for=
+am:=C2=A0 =F0=9F=91=BE Programa=C3=A7=C3=A3o com 30.302 vagas =F0=9F=92=BC =
+Vendas & Neg=C3=B3cios com 1.939 vagas =F0=9F=8E=B2 Data Science / Analytic=
+s com 1.884 vagas E as tags mais badaladas do peda=C3=A7o: =F0=9F=8C=8D 100=
+% Remoto, com incr=C3=ADveis 39.483 vagas =F0=9F=92=BC CLT, com 7312 vagas =
+remotas =F0=9F=A7=93=F0=9F=8F=BD S=C3=AAnior, com 5247 vagas remotas Alguns=
+ conte=C3=BAdos tiveram um destaque especial no nosso blog e vale a pena le=
+r de novo! O que o trabalho remoto nos ensinou em 2024 Aumente suas chances=
+: 6 dicas para montar o curr=C3=ADculo perfeito para trabalhos remotos Ritu=
+ais no trabalho remoto: descubra o que funciona para voc=C3=AA 5 podcasts s=
+obre trabalho remoto Daqui pra frente Desde que nascemos, h=C3=A1 quase 5 a=
+nos, olhamos para o futuro. O trabalho remoto, mais do que uma tend=C3=AAnc=
+ia, =C3=A9 uma evolu=C3=A7=C3=A3o que transformou a forma como vivemos e tr=
+abalhamos. Ele rompeu barreiras geogr=C3=A1ficas, democratizou o acesso a o=
+portunidades e trouxe um equil=C3=ADbrio maior entre vida profissional e pe=
+ssoal para milh=C3=B5es de pessoas. Al=C3=A9m de aumentar a produtividade, =
+o modelo remoto promove flexibilidade, reduz o tempo gasto com deslocamento=
+s e contribui para um estilo de vida mais saud=C3=A1vel e sustent=C3=A1vel.=
+ =C3=89 uma prova de que o futuro do trabalho j=C3=A1 est=C3=A1 aqui, propo=
+rcionando mais liberdade e qualidade de vida para todos. No Blog da Remotar=
+, voc=C3=AA encontra conte=C3=BAdos fresquinhos para ajudar a encarar 2025 =
+com uma nova perspectiva para sua carreira. Venha com a gente! 6 dicas para=
+ conquistar um trabalho 100% remoto em 2025 Como o trabalho remoto te ajuda=
+ a resgatar pequenos prazeres adormecidos Plano de carreira no trabalho rem=
+oto: =C3=A9 poss=C3=ADvel crescer fora do escrit=C3=B3rio? Como explicar o =
+trabalho remoto para sua m=C3=A3e Vagas para come=C3=A7ar 2025 remotando An=
+alista de Sucesso do Cliente J=C3=BAnior na BHS Analista de Suporte J=C3=BA=
+nior na Smartspace Est=C3=A1gio em Design na AEVO Analista de Reda=C3=A7=C3=
+=A3o J=C3=BAnior na 8D Hubify Consultor (a) Viagens Emergencial J=C3=BAnior=
+ na BeFly Analista de Seguran=C3=A7a da Informa=C3=A7=C3=A3o J=C3=BAnior na=
+ Binario.net Desenvolvedor FrontEnd JR na MadeiraMadeira Analista de dados =
+J=C3=BAnior na Pmweb Product Owner na Moovx =E2=9C=88=EF=B8=8F Vaga interna=
+cional Est=C3=A1gio em Desenvolvimento de Neg=C3=B3cios na Radix Brasil Ana=
+lista de Folha de Pagamento J=C3=BAnior na Contabilizei Est=C3=A1gio em Int=
+elig=C3=AAncia Artificial na Code n' App Est=C3=A1gio em Novos Neg=C3=B3cio=
+s - Comercial na VExpenses Accountant na Deel =E2=9C=88=EF=B8=8F Vaga inter=
+nacional Veja todas as vagas dispon=C3=ADveis na Remotar! =E2=86=92=C2=A0 V=
+amos remotar juntos em 2025? Comente qual =C3=A9 sua maior expectativa prof=
+issional para este ano. Acesse nossa plataforma remotar.com.br e acompanhe =
+a Remotar nas redes sociais Instagram, X, Facebook, Linkedin e nos nossos c=
+anais no Telegram e no Whatsapp.
+Continue lendo no LinkedIn
+https://www.linkedin.com/comm/pulse/em-2025-recome%C3%A7ar-relembrar-remota=
+r-remotar-jobs-6o7lf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3Bn7W2wsHMQzSS6zFjYaEF7g%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=
+=3D0gva4rwDEOBbA1&trk=3Deml-email_series_follow_newsletter_01-newsletter_co=
+ntent_preview_text-0-readmore_button_&trkEmail=3Deml-email_series_follow_ne=
+wsletter_01-newsletter_content_preview_text-0-readmore_button_-null-gdb74f~=
+m5o727d6~v2-null-null&eid=3Dgdb74f-m5o727d6-v2&otpToken=3DMWIwZDE3ZTgxMzI4Y=
+2JjM2I1MjQwNGVkNDUxOGU0YjE4N2M2ZDU0MDlmYWI4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNk=
+ZmI4NTZmNmM0YzQ1ZmZlZWIxYTRjNTkwMDllMDVmOTdkNmRlNzk0YTQ1NjQ4NmNmOCwxLDE%3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | Java | JS | React.js | Node.js | Python)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3Bn7W2wsHMQzSS6zFjYaEF7g%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=
+=3D0gva4rwDEOBbA1&trk=3Deml-email_series_follow_newsletter_01-SecurityHelp-=
+0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Securi=
+tyHelp-0-textfooterglimmer-null-gdb74f~m5o727d6~v2-null-null&eid=3Dgdb74f-m=
+5o727d6-v2&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU0YjE4N2M2ZDU0M=
+DlmYWI4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NTZmNmM0YzQ1ZmZlZWIxYTRjNTkwMDll=
+MDVmOTdkNmRlNzk0YTQ1NjQ4NmNmOCwxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/comm/series-notifica=
+tions/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y=
+9whjlY&newsletterId=3D7095120867877122048&newsletterTitle=3DRemotar%20News&=
+lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bn7W2wsHM=
+QzSS6zFjYaEF7g%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D0gva4rwDEOBbA1&trk=
+=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGlimmer&trkEma=
+il=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGlimmer-null=
+-gdb74f~m5o727d6~v2-null-null&eid=3Dgdb74f-m5o727d6-v2&otpToken=3DMWIwZDE3Z=
+TgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU0YjE4N2M2ZDU0MDlmYWI4NjYxNzljNDA2NmQ0YjVkNWJm=
+MmZlZDNkZmI4NTZmNmM0YzQ1ZmZlZWIxYTRjNTkwMDllMDVmOTdkNmRlNzk0YTQ1NjQ4NmNmOCw=
+xLDE%3D=C2=A0=C2=A0=C2=B7=C2=A0=C2=A0Ajuda: https://www.linkedin.com/help/l=
+inkedin/answer/67?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_fol=
+low_newsletter_01%3Bn7W2wsHMQzSS6zFjYaEF7g%3D%3D&midToken=3DAQHxaOsdYMWJVQ&=
+midSig=3D0gva4rwDEOBbA1&trk=3Deml-email_series_follow_newsletter_01-help-0-=
+textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-help-0-t=
+extfooterglimmer-null-gdb74f~m5o727d6~v2-null-null&eid=3Dgdb74f-m5o727d6-v2=
+&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU0YjE4N2M2ZDU0MDlmYWI4NjY=
+xNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NTZmNmM0YzQ1ZmZlZWIxYTRjNTkwMDllMDVmOTdkNm=
+RlNzk0YTQ1NjQ4NmNmOCwxLDE%3D
+
+=C2=A9 2025 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_19287502_1740066362.1736358852299
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+/head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-canvas w-fu=
+ll m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; padding: 0p=
+x; padding-top: 8px; font-family: -apple-system, system-ui, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Ox=
+ygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sa=
+ns-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible overflow=
+-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; max-height=
+: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" data-email-p=
+reheader=3D"true">Chegamos em 2025, o ano em que completamos 5 anos conecta=
+ndo pessoas, empresas=E2=80=A6</div> <div class=3D"h-0 opacity-0 text-trans=
+parent invisible overflow-hidden w-0 max-h-[0]" style=3D"visibility: hidden=
+; height: 0px; max-height: 0; width: 0px; overflow: hidden; opacity: 0; mso=
+-hide: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+ =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table role=3D"presentation" valign=
+=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"512" ali=
+gn=3D"center" class=3D"mercado-container w-[512px] max-w-[512px] mx-auto my=
+-0 p-0 " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-left: auto; margin-=
+right: auto; margin-top: 0px; margin-bottom: 0px; width: 512px; max-width: =
+512px; padding: 0px;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"bg-color-background-contai=
+ner " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff;"> =
+<tbody> <tr> <td class=3D"text-center p-3" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt; padding: 24px; text-align: center;"> <table role=3D"presentation" v=
+align=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100=
+%" class=3D"min-w-full" style=3D"-webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: =
+100%;"> <tbody> <tr> <td align=3D"left" valign=3D"middle" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/feed/?lip=
+i=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bn7W2wsHMQzS=
+S6zFjYaEF7g%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0gva4rwDEOBbA1=
+&amp;trk=3Deml-email_series_follow_newsletter_01-header-0-home_glimmer_dyna=
+mic_badging_high_dpi&amp;trkEmail=3Deml-email_series_follow_newsletter_01-h=
+eader-0-home_glimmer_dynamic_badging_high_dpi-null-gdb74f~m5o727d6~v2-null-=
+null&amp;eid=3Dgdb74f-m5o727d6-v2&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1Mj=
+QwNGVkNDUxOGU0YjE4N2M2ZDU0MDlmYWI4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NTZmN=
+mM0YzQ1ZmZlZWIxYTRjNTkwMDllMDVmOTdkNmRlNzk0YTQ1NjQ4NmNmOCwxLDE%3D" target=
+=3D"_blank" class=3D"w-[84px]" style=3D"color: #0a66c2; cursor: pointer; di=
+splay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; width: 84px;"> <img class=3D"h-[37px] w-[101px=
+]" alt=3D"LinkedIn" src=3D"https://www.linkedin.com/comm/dms/logo/v2?badgeT=
+heme=3Dmercado&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsl=
+etter_01%3Bn7W2wsHMQzSS6zFjYaEF7g%3D%3D&amp;midSig=3D0gva4rwDEOBbA1&amp;mid=
+Token=3DAQHxaOsdYMWJVQ&amp;trkEmail=3Deml-email_series_follow_newsletter_01=
+-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2-null-gdb74f%7Em5o727d6%7Ev=
+2-null-null&amp;trk=3Deml-email_series_follow_newsletter_01-null-0-comms%7E=
+badging%7Edynamic%7Eglimmer%7Ev2&amp;_sig=3D3f0tj89YYOBbA1" data-test-heade=
+r-dynamic-badging-img-high-dpi style=3D"outline: none; text-decoration: non=
+e; -ms-interpolation-mode: bicubic; height: 37px; width: 101px;" width=3D"1=
+01" height=3D"37"> </a> </td> <td valign=3D"middle" align=3D"right" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D=
+"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" data-=
+test-header-profile style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> =
+<td align=3D"right" valign=3D"middle" class=3D"w-[32px]" style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; width: 32px;" width=3D"32"> <a href=3D"https://br.lin=
+kedin.com/comm/in/fernando-ferreira-brito?lipi=3Durn%3Ali%3Apage%3Aemail_em=
+ail_series_follow_newsletter_01%3Bn7W2wsHMQzSS6zFjYaEF7g%3D%3D&amp;midToken=
+=3DAQHxaOsdYMWJVQ&amp;midSig=3D0gva4rwDEOBbA1&amp;trk=3Deml-email_series_fo=
+llow_newsletter_01-header-0-profile_glimmer&amp;trkEmail=3Deml-email_series=
+_follow_newsletter_01-header-0-profile_glimmer-null-gdb74f~m5o727d6~v2-null=
+-null&amp;eid=3Dgdb74f-m5o727d6-v2&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1M=
+jQwNGVkNDUxOGU0YjE4N2M2ZDU0MDlmYWI4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NTZm=
+NmM0YzQ1ZmZlZWIxYTRjNTkwMDllMDVmOTdkNmRlNzk0YTQ1NjQ4NmNmOCwxLDE%3D" target=
+=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-block=
+; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%;"> <img alt=3D"Luiz Fernando Brito Ferreira" src=3D"https://media.=
+licdn.com/dms/image/v2/D4E03AQHtWMkj43o1lA/profile-displayphoto-shrink_200_=
+200/profile-displayphoto-shrink_200_200/0/1724191556445?e=3D2147483647&amp;=
+v=3Dbeta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB92xXoc9r_1IG6EIUIKB4" class=3D"roun=
+ded-[100%] w-[32px] h-[32px]" style=3D"outline: none; text-decoration: none=
+; -ms-interpolation-mode: bicubic; height: 32px; width: 32px; border-radius=
+: 100%;" width=3D"32" height=3D"32"> </a> </td> </tr> </tbody> </table> </t=
+d> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"px-0 pb-3" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; padding-left: 0px; padding-right: 0px; p=
+adding-bottom: 24px;"> <div> <table role=3D"presentation" valign=3D"top" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td data-test-id=3D"newsletter-en=
+tity-lockup" class=3D"px-3 pt-1" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; pa=
+dding-left: 24px; padding-right: 24px; padding-top: 8px;"> <table role=3D"p=
+resentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" width=3D"100%" class=3D"font-sans" style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Ro=
+boto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantare=
+ll, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', =
+'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;"> <tbody>=
+ <tr> <td valign=3D"top" class=3D"pr-1 w-6" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt; width: 48px; padding-right: 8px;" width=3D"48"> <a href=3D"https:/=
+/www.linkedin.com/comm/newsletters/7095120867877122048?lipi=3Durn%3Ali%3Apa=
+ge%3Aemail_email_series_follow_newsletter_01%3Bn7W2wsHMQzSS6zFjYaEF7g%3D%3D=
+&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0gva4rwDEOBbA1&amp;trk=3Deml-em=
+ail_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entit=
+y_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_entit=
+y_lockup-0-newsletter_entity_cta-null-gdb74f~m5o727d6~v2-null-null&amp;eid=
+=3Dgdb74f-m5o727d6-v2&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOG=
+U0YjE4N2M2ZDU0MDlmYWI4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NTZmNmM0YzQ1ZmZlZ=
+WIxYTRjNTkwMDllMDVmOTdkNmRlNzk0YTQ1NjQ4NmNmOCwxLDE%3D" target=3D"_blank" st=
+yle=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decorat=
+ion: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <i=
+mg class=3D"inline-block relative bg-color-entity-ghost-background w-6 h-6 =
+rounded-md" src=3D"https://media.licdn.com/dms/image/v2/D4D12AQEKlVZ28E63-w=
+/series-logo_image-shrink_100_100/series-logo_image-shrink_100_100/0/169228=
+1444879?e=3D2147483647&amp;v=3Dbeta&amp;t=3DUOqk6qBst8OMCHG025g2jGRp7CSFt-M=
+CP9at2-JTNcg" alt=3D"Abrir Remotar News" style=3D"outline: none; text-decor=
+ation: none; -ms-interpolation-mode: bicubic; position: relative; display: =
+inline-block; height: 48px; width: 48px; border-radius: 8px; background-col=
+or: #eae6df;" width=3D"48" height=3D"48"> </a> </td> <td valign=3D"top" sty=
+le=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=
+=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/newsletter=
+s/7095120867877122048?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_ne=
+wsletter_01%3Bn7W2wsHMQzSS6zFjYaEF7g%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&am=
+p;midSig=3D0gva4rwDEOBbA1&amp;trk=3Deml-email_series_follow_newsletter_01-n=
+ewsletter_entity_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-email_se=
+ries_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta-=
+null-gdb74f~m5o727d6~v2-null-null&amp;eid=3Dgdb74f-m5o727d6-v2&amp;otpToken=
+=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU0YjE4N2M2ZDU0MDlmYWI4NjYxNzljNDA2=
+NmQ0YjVkNWJmMmZlZDNkZmI4NTZmNmM0YzQ1ZmZlZWIxYTRjNTkwMDllMDVmOTdkNmRlNzk0YTQ=
+1NjQ4NmNmOCwxLDE%3D" target=3D"_blank" class=3D"no-underline" style=3D"colo=
+r: #0a66c2; cursor: pointer; display: inline-block; text-decoration: none; =
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decoration=
+-line: none;"> <div class=3D"pb-0.5" style=3D"padding-bottom: 4px;"> <span =
+class=3D"text-md font-bold text-color-text break-words leading-regular" sty=
+le=3D"overflow-wrap: break-word; font-size: 16px; font-weight: 600; line-he=
+ight: 1.25; color: rgba(0, 0, 0, 0.9);"> Remotar News </span> </div> </a> <=
+/td> </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"ht=
+tps://www.linkedin.com/comm/newsletters/7095120867877122048?lipi=3Durn%3Ali=
+%3Apage%3Aemail_email_series_follow_newsletter_01%3Bn7W2wsHMQzSS6zFjYaEF7g%=
+3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0gva4rwDEOBbA1&amp;trk=3De=
+ml-email_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_=
+entity_cta&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_=
+entity_lockup-0-newsletter_entity_cta-null-gdb74f~m5o727d6~v2-null-null&amp=
+;eid=3Dgdb74f-m5o727d6-v2&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkND=
+UxOGU0YjE4N2M2ZDU0MDlmYWI4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NTZmNmM0YzQ1Z=
+mZlZWIxYTRjNTkwMDllMDVmOTdkNmRlNzk0YTQ1NjQ4NmNmOCwxLDE%3D" target=3D"_blank=
+" class=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; display:=
+ inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-t=
+ext-size-adjust: 100%; text-decoration-line: none;"> <span class=3D"text-xs=
+ text-color-text-low-emphasis leading-regular" style=3D"font-size: 12px; li=
+ne-height: 1.25; color: rgba(0, 0, 0, 0.6);"> Tudo sobre Trabalho Remoto </=
+span> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td=
+> </tr> <tr data-test-id=3D"newsletter-content-preview"> <td class=3D"px-3 =
+pt-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 24px; padding-r=
+ight: 24px; padding-top: 16px;"> <table role=3D"presentation" valign=3D"top=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"overflow-hidden =
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt; overflow: hidden;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr=
+> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.link=
+edin.com/comm/pulse/em-2025-recome%C3%A7ar-relembrar-remotar-remotar-jobs-6=
+o7lf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bn7W=
+2wsHMQzSS6zFjYaEF7g%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0gva4r=
+wDEOBbA1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_content=
+_preview-0-headline_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-n=
+ewsletter_content_preview-0-headline_-null-gdb74f~m5o727d6~v2-null-null&amp=
+;eid=3Dgdb74f-m5o727d6-v2&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkND=
+UxOGU0YjE4N2M2ZDU0MDlmYWI4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NTZmNmM0YzQ1Z=
+mZlZWIxYTRjNTkwMDllMDVmOTdkNmRlNzk0YTQ1NjQ4NmNmOCwxLDE%3D" target=3D"_blank=
+" class=3D"w-full" style=3D"color: #0a66c2; cursor: pointer; display: inlin=
+e-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; width: 100%;"> <img class=3D"block w-full aspect-[744/400]=
+ object-cover overflow-hidden" data-test-id=3D"newsletter-content-preview__=
+cover-image" alt=3D"Imagem de capa da newsletter" src=3D"https://media.licd=
+n.com/dms/image/v2/D4D12AQFayFMW7nvYPA/article-cover_image-shrink_720_1280/=
+article-cover_image-shrink_720_1280/0/1736351117081?e=3D2147483647&amp;v=3D=
+beta&amp;t=3Do1WwsQvYMkqHc4xm_x_UU9sM1jj19BaXgc6YVngci6A" style=3D"outline:=
+ none; text-decoration: none; -ms-interpolation-mode: bicubic; display: blo=
+ck; aspect-ratio: 744/400; width: 100%; overflow: hidden; object-fit: cover=
+;"> </a> </td> </tr> <tr> <td class=3D"py-2" style=3D"-webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding-top: 16px; padding-bottom: 16px;"> <table role=3D"present=
+ation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/co=
+mm/pulse/em-2025-recome%C3%A7ar-relembrar-remotar-remotar-jobs-6o7lf?lipi=
+=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bn7W2wsHMQzSS=
+6zFjYaEF7g%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0gva4rwDEOBbA1&=
+amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-=
+0-title_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_co=
+ntent_preview-0-title_-null-gdb74f~m5o727d6~v2-null-null&amp;eid=3Dgdb74f-m=
+5o727d6-v2&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU0YjE4N2M2Z=
+DU0MDlmYWI4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NTZmNmM0YzQ1ZmZlZWIxYTRjNTkw=
+MDllMDVmOTdkNmRlNzk0YTQ1NjQ4NmNmOCwxLDE%3D" target=3D"_blank" class=3D"no-u=
+nderline font-medium text-sm m-0 text-system-gray-90" style=3D"cursor: poin=
+ter; display: inline-block; text-decoration: none; -webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; margin: 0px; font-size: 14px; font-weig=
+ht: 500; color: #282828; text-decoration-line: none;"> <h2 class=3D"m-0 tex=
+t-display-sm leading-regular text-color-text font-bold font-sans" style=3D"=
+margin: 0px; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Se=
+goe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen San=
+s', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif=
+; font-size: 24px; font-weight: 600; line-height: 1.25; color: rgba(0, 0, 0=
+, 0.9);"> Em 2025: (Re)Come=C3=A7ar. (Re)Lembrar. Remotar! </h2> </a> </td>=
+ </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"pr=
+esentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ width=3D"100%" data-test-id=3D"newsletter-author-lockup-redesign" class=3D=
+"mt-1 mb-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-bottom: 16px; ma=
+rgin-top: 8px;"> <tbody> <tr> <td valign=3D"middle" align=3D"left" class=3D=
+"w-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 24px;" width=3D"24"> <=
+a href=3D"https://www.linkedin.com/comm/company/remotar-jobs?lipi=3Durn%3Al=
+i%3Apage%3Aemail_email_series_follow_newsletter_01%3Bn7W2wsHMQzSS6zFjYaEF7g=
+%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0gva4rwDEOBbA1&amp;trk=3D=
+eml-email_series_follow_newsletter_01-newsletter_content_preview-0-author_&=
+amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_pre=
+view-0-author_-null-gdb74f~m5o727d6~v2-null-null&amp;eid=3Dgdb74f-m5o727d6-=
+v2&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU0YjE4N2M2ZDU0MDlmY=
+WI4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NTZmNmM0YzQ1ZmZlZWIxYTRjNTkwMDllMDVm=
+OTdkNmRlNzk0YTQ1NjQ4NmNmOCwxLDE%3D" target=3D"_blank" style=3D"color: #0a66=
+c2; cursor: pointer; display: inline-block; text-decoration: none; -webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img class=3D"inline-=
+block relative bg-color-entity-ghost-background w-4 h-4 align-middle" src=
+=3D"https://media.licdn.com/dms/image/v2/C4D0BAQEnPN0Y0nFPIQ/company-logo_1=
+00_100/company-logo_100_100/0/1659324817701/remotar_jobs_logo?e=3D214748364=
+7&amp;v=3Dbeta&amp;t=3DLobWq-QMim53KtyDu0rG1A-lKOUxMWJrAh30hgzPe-g" alt=3D"=
+Imagem do autor" style=3D"outline: none; text-decoration: none; -ms-interpo=
+lation-mode: bicubic; position: relative; display: inline-block; height: 32=
+px; width: 32px; background-color: #eae6df; vertical-align: middle;" width=
+=3D"32" height=3D"32"> </a> </td> <td style=3D"-webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t;"> <a href=3D"https://www.linkedin.com/comm/company/remotar-jobs?lipi=3Du=
+rn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bn7W2wsHMQzSS6zFj=
+YaEF7g%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0gva4rwDEOBbA1&amp;=
+trk=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-au=
+thor_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_conte=
+nt_preview-0-author_-null-gdb74f~m5o727d6~v2-null-null&amp;eid=3Dgdb74f-m5o=
+727d6-v2&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU0YjE4N2M2ZDU=
+0MDlmYWI4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NTZmNmM0YzQ1ZmZlZWIxYTRjNTkwMD=
+llMDVmOTdkNmRlNzk0YTQ1NjQ4NmNmOCwxLDE%3D" target=3D"_blank" class=3D"no-und=
+erline ml-1" style=3D"color: #0a66c2; cursor: pointer; display: inline-bloc=
+k; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; margin-left: 8px; text-decoration-line: none;"> <span class=3D"f=
+ont-sans font-bold text-sm mb-3 text-color-text-low-emphasis leading-regula=
+r" style=3D"margin-bottom: 24px; font-family: -apple-system, system-ui, Bli=
+nkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu,=
+ Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Sego=
+e UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetic=
+a, Arial, sans-serif; font-size: 14px; font-weight: 600; line-height: 1.25;=
+ color: rgba(0, 0, 0, 0.6);"> Remotar </span> </a> </td> </tr> </tbody> </t=
+able> </td> </tr> <tr> <td class=3D"pb-1" style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; padding-bottom: 8px;"> <div class=3D"p-3 bg-color-surface-tint round=
+ed-md font-sans" data-test-id=3D"newsletter-cta-banner" style=3D"border-rad=
+ius: 8px; background-color: #f5f7f9; padding: 24px; font-family: -apple-sys=
+tem, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', '=
+Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple =
+Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucid=
+a Grande', Helvetica, Arial, sans-serif;"> <div class=3D"mb-1.5" style=3D"m=
+argin-bottom: 12px;"> <span class=3D"text-md leading-regular font-bold text=
+-color-text" style=3D"font-size: 16px; font-weight: 600; line-height: 1.25;=
+ color: rgba(0, 0, 0, 0.9);"> Leia este artigo no LinkedIn para participar =
+da conversa </span> </div> <table role=3D"presentation" valign=3D"top" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"email-=
+button " data-test-id=3D"email-button" style=3D"-webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt;"> <tbody> <tr> <td valign=3D"middle" align=3D"left" style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/em-20=
+25-recome%C3%A7ar-relembrar-remotar-remotar-jobs-6o7lf?lipi=3Durn%3Ali%3Apa=
+ge%3Aemail_email_series_follow_newsletter_01%3Bn7W2wsHMQzSS6zFjYaEF7g%3D%3D=
+&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0gva4rwDEOBbA1&amp;trk=3Deml-em=
+ail_series_follow_newsletter_01-newsletter_content_preview-0-read_more_bann=
+er_cta_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_con=
+tent_preview-0-read_more_banner_cta_-null-gdb74f~m5o727d6~v2-null-null&amp;=
+eid=3Dgdb74f-m5o727d6-v2&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDU=
+xOGU0YjE4N2M2ZDU0MDlmYWI4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NTZmNmM0YzQ1Zm=
+ZlZWIxYTRjNTkwMDllMDVmOTdkNmRlNzk0YTQ1NjQ4NmNmOCwxLDE%3D" target=3D"_blank"=
+ aria-label=3D"Abrir este artigo no LinkedIn" class=3D"align-top no-underli=
+ne " style=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-=
+decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; vertical-align: top; text-decoration-line: none;"> <table role=3D"presen=
+tation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" wid=
+th=3D"auto" class=3D"border-separate " style=3D"-webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt; border-collapse: separate;"> <tbody> <tr> <td class=3D"btn-sm btn-prima=
+ry border-color-brand button-link leading-regular !min-h-[auto] !shadow-non=
+e border-1 border-solid" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: mi=
+n-content; border-radius: 24px; padding-top: 7px; padding-bottom: 7px; padd=
+ing-left: 16px; padding-right: 16px; text-align: center; font-size: 14px; f=
+ont-weight: 600; cursor: pointer; text-decoration-line: none; background-co=
+lor: #0a66c2; color: #ffffff; border-width: 1px; border-style: solid; borde=
+r-color: #0a66c2; line-height: 1.25; min-height: auto !important; box-shado=
+w: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;"> <a href=3D"https://www.lin=
+kedin.com/comm/pulse/em-2025-recome%C3%A7ar-relembrar-remotar-remotar-jobs-=
+6o7lf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bn7=
+W2wsHMQzSS6zFjYaEF7g%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0gva4=
+rwDEOBbA1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_conten=
+t_preview-0-read_more_banner_cta_&amp;trkEmail=3Deml-email_series_follow_ne=
+wsletter_01-newsletter_content_preview-0-read_more_banner_cta_-null-gdb74f~=
+m5o727d6~v2-null-null&amp;eid=3Dgdb74f-m5o727d6-v2&amp;otpToken=3DMWIwZDE3Z=
+TgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU0YjE4N2M2ZDU0MDlmYWI4NjYxNzljNDA2NmQ0YjVkNWJm=
+MmZlZDNkZmI4NTZmNmM0YzQ1ZmZlZWIxYTRjNTkwMDllMDVmOTdkNmRlNzk0YTQ1NjQ4NmNmOCw=
+xLDE%3D" target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"true" class=3D"no=
+-underline" style=3D"color: #0a66c2; cursor: pointer; display: inline-block=
+; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%; text-decoration-line: none;"> <span class=3D"no-underline text-wh=
+ite" style=3D"color: #ffffff; text-decoration-line: none;"> Ler no LinkedIn=
+ </span> </a> </td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </tab=
+le> </div> </td> </tr> <tr data-test-id=3D"newsletter-content-preview--cont=
+ent"> <td class=3D"series-article-body" style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cant=
+arell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-s=
+ize: 16px; line-height: 1.5; color: rgba(0, 0, 0, 0.9);"> <p style=3D"margi=
+n: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5=
+;">Chegamos em 2025, o ano em que completamos 5 anos conectando pessoas, em=
+presas e sonhos <strong>atrav=C3=A9s do trabalho remoto</strong>. Nesse tem=
+po, vimos o futuro se tornar presente, as carreiras se transformando, cultu=
+ras organizacionais se solidificando e a forma como o mundo trabalha sendo =
+repensada.&nbsp;</p><p style=3D"margin: 0; font-weight: 400; margin-top: 0.=
+8em; font-size: 1em; line-height: 1.5;">N=C3=B3s seguimos aqui, acreditando=
+ no potencial de um modelo mais flex=C3=ADvel, humano e inclusivo, prontos =
+para continuar escrevendo essa hist=C3=B3ria com voc=C3=AA.</p><h2 style=3D=
+"margin: 0; margin-left: 0px; margin-right: 0px; margin-top: 8px; margin-bo=
+ttom: 8px; font-size: 20px; font-weight: 600; line-height: 1.25; letter-spa=
+cing: -0.02em; color: rgba(0, 0, 0, 0.9);">Em 2024</h2><p style=3D"margin: =
+0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">=
+Foram <strong>39.753 vagas remotas</strong> publicadas na nossa plataforma =
+e <strong>2.806 empresas remotando </strong>com a gente. Tivemos exatos <st=
+rong>288.672 cadastros</strong> de novos usu=C3=A1rios.</p><p style=3D"marg=
+in: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.=
+5;">As =C3=A1reas com mais vagas remotas foram:&nbsp;</p><blockquote style=
+=3D"margin-top: 24px; margin-bottom: 24px; margin-left: 0px; margin-right: =
+0px; display: block; border-width: 0; border-left-width: 4px; border-style:=
+ solid; border-left-color: #424242; padding-top: 0px; padding-bottom: 0px; =
+padding-right: 0px; padding-left: 12px; font-family: -apple-system, system-=
+ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', =
+Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', H=
+elvetica, Arial, sans-serif; font-size: 20px; font-weight: 600; font-style:=
+ normal; line-height: 1.5; color: #38434f;"><p style=3D"margin: 0; margin-t=
+op: 0.8em; font-size: 16px; font-weight: 500; line-height: 1.25;">=F0=9F=91=
+=BE Programa=C3=A7=C3=A3o com<strong> 30.302 vagas</strong></p></blockquote=
+><blockquote style=3D"margin-top: 24px; margin-bottom: 24px; margin-left: 0=
+px; margin-right: 0px; display: block; border-width: 0; border-left-width: =
+4px; border-style: solid; border-left-color: #424242; padding-top: 0px; pad=
+ding-bottom: 0px; padding-right: 0px; padding-left: 12px; font-family: -app=
+le-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Ne=
+ue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', =
+'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 20px; font-weight=
+: 600; font-style: normal; line-height: 1.5; color: #38434f;"><p style=3D"m=
+argin: 0; margin-top: 0.8em; font-size: 16px; font-weight: 500; line-height=
+: 1.25;">=F0=9F=92=BC Vendas &amp; Neg=C3=B3cios com <strong>1.939 vagas</s=
+trong></p></blockquote><blockquote style=3D"margin-top: 24px; margin-bottom=
+: 24px; margin-left: 0px; margin-right: 0px; display: block; border-width: =
+0; border-left-width: 4px; border-style: solid; border-left-color: #424242;=
+ padding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 1=
+2px; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cant=
+arell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-s=
+ize: 20px; font-weight: 600; font-style: normal; line-height: 1.5; color: #=
+38434f;"><p style=3D"margin: 0; margin-top: 0.8em; font-size: 16px; font-we=
+ight: 500; line-height: 1.25;">=F0=9F=8E=B2 Data Science / Analytics com <s=
+trong>1.884 vagas</strong></p></blockquote><p style=3D"margin: 0; font-weig=
+ht: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">E as <em sty=
+le=3D"font-style: italic;">tags</em> mais badaladas do peda=C3=A7o:</p><blo=
+ckquote style=3D"margin-top: 24px; margin-bottom: 24px; margin-left: 0px; m=
+argin-right: 0px; display: block; border-width: 0; border-left-width: 4px; =
+border-style: solid; border-left-color: #424242; padding-top: 0px; padding-=
+bottom: 0px; padding-right: 0px; padding-left: 12px; font-family: -apple-sy=
+stem, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', =
+'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple=
+ Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Luci=
+da Grande', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 600=
+; font-style: normal; line-height: 1.5; color: #38434f;"><p style=3D"margin=
+: 0; margin-top: 0.8em; font-size: 16px; font-weight: 500; line-height: 1.2=
+5;">=F0=9F=8C=8D 100% Remoto, com incr=C3=ADveis <strong>39.483 vagas</stro=
+ng></p></blockquote><blockquote style=3D"margin-top: 24px; margin-bottom: 2=
+4px; margin-left: 0px; margin-right: 0px; display: block; border-width: 0; =
+border-left-width: 4px; border-style: solid; border-left-color: #424242; pa=
+dding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 12px=
+; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Ro=
+boto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantare=
+ll, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', =
+'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size=
+: 20px; font-weight: 600; font-style: normal; line-height: 1.5; color: #384=
+34f;"><p style=3D"margin: 0; margin-top: 0.8em; font-size: 16px; font-weigh=
+t: 500; line-height: 1.25;">=F0=9F=92=BC CLT, com <strong>7312 vagas remota=
+s</strong></p></blockquote><blockquote style=3D"margin-top: 24px; margin-bo=
+ttom: 24px; margin-left: 0px; margin-right: 0px; display: block; border-wid=
+th: 0; border-left-width: 4px; border-style: solid; border-left-color: #424=
+242; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-lef=
+t: 12px; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe =
+UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', =
+Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI E=
+moji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; fo=
+nt-size: 20px; font-weight: 600; font-style: normal; line-height: 1.5; colo=
+r: #38434f;"><p style=3D"margin: 0; margin-top: 0.8em; font-size: 16px; fon=
+t-weight: 500; line-height: 1.25;">=F0=9F=A7=93=F0=9F=8F=BD S=C3=AAnior, co=
+m <strong>5247 vagas remotas</strong></p></blockquote><p style=3D"margin: 0=
+; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">A=
+lguns conte=C3=BAdos tiveram um destaque especial no <a href=3D"https://blo=
+g.remotar.com.br/" target=3D"_blank" rel=3D"nofollow noopener" style=3D"tex=
+t-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; display: inline; cursor: pointer; font-weight: 600; color: #0a66c2; te=
+xt-decoration-line: none;"><strong>nosso blog</strong></a> e vale a pena le=
+r de novo!</p><ul style=3D"margin-top: 1em; margin-right: 0px; margin-botto=
+m: 0px; margin-left: 1.5em; display: block; padding: 0px;"><li style=3D"mar=
+gin-left: 1em; font-size: 1em; line-height: 1.5; letter-spacing: -0.15%; co=
+lor: #282828;"><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; =
+font-size: 1em; line-height: 1.5;"><a href=3D"https://blog.remotar.com.br/o=
+-que-o-trabalho-remoto-nos-ensinou-em-2024/" target=3D"_blank" rel=3D"nofol=
+low noopener" style=3D"text-decoration: none; -webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; display: inline; cursor: pointer; font-weigh=
+t: 600; color: #0a66c2; text-decoration-line: none;">O que o trabalho remot=
+o nos ensinou em 2024</a></p></li><li style=3D"margin-left: 1em; font-size:=
+ 1em; line-height: 1.5; letter-spacing: -0.15%; color: #282828;"><p style=
+=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-he=
+ight: 1.5;"><a href=3D"https://blog.remotar.com.br/dicas-curriculoperfeitop=
+ara-trabalhosremotos/" target=3D"_blank" rel=3D"nofollow noopener" style=3D=
+"text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; display: inline; cursor: pointer; font-weight: 600; color: #0a66c2=
+; text-decoration-line: none;">Aumente suas chances: 6 dicas para montar o =
+curr=C3=ADculo perfeito para trabalhos remotos</a></p></li><li style=3D"mar=
+gin-left: 1em; font-size: 1em; line-height: 1.5; letter-spacing: -0.15%; co=
+lor: #282828;"><p style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; =
+font-size: 1em; line-height: 1.5;"><a href=3D"https://blog.remotar.com.br/r=
+ituais-no-trabalho-remoto-descubra-o-que-funciona-para-voce/" target=3D"_bl=
+ank" rel=3D"nofollow noopener" style=3D"text-decoration: none; -webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; display: inline; cursor: po=
+inter; font-weight: 600; color: #0a66c2; text-decoration-line: none;">Ritua=
+is no trabalho remoto: descubra o que funciona para voc=C3=AA</a></p></li><=
+li style=3D"margin-left: 1em; font-size: 1em; line-height: 1.5; letter-spac=
+ing: -0.15%; color: #282828;"><p style=3D"margin: 0; font-weight: 400; marg=
+in-top: 0.8em; font-size: 1em; line-height: 1.5;"><a href=3D"https://blog.r=
+emotar.com.br/5-podcasts-sobre-trabalho-remoto/" target=3D"_blank" rel=3D"n=
+ofollow noopener" style=3D"text-decoration: none; -webkit-text-size-adjust:=
+ 100%; -ms-text-size-adjust: 100%; display: inline; cursor: pointer; font-w=
+eight: 600; color: #0a66c2; text-decoration-line: none;">5 podcasts sobre t=
+rabalho remoto</a></p></li></ul><p style=3D"margin: 0; font-weight: 400; ma=
+rgin-top: 0.8em; font-size: 1em; line-height: 1.5;"></p><h2 style=3D"margin=
+: 0; margin-left: 0px; margin-right: 0px; margin-top: 8px; margin-bottom: 8=
+px; font-size: 20px; font-weight: 600; line-height: 1.25; letter-spacing: -=
+0.02em; color: rgba(0, 0, 0, 0.9);">Daqui pra frente</h2><p style=3D"margin=
+: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: 1.5;=
+">Desde que nascemos, h=C3=A1 quase 5 anos, olhamos para o futuro. O trabal=
+ho remoto, mais do que uma tend=C3=AAncia, =C3=A9 uma <strong>evolu=C3=A7=
+=C3=A3o</strong> que transformou a forma como vivemos e trabalhamos.</p><p =
+style=3D"margin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; li=
+ne-height: 1.5;">Ele rompeu barreiras geogr=C3=A1ficas, democratizou o aces=
+so a oportunidades e trouxe um equil=C3=ADbrio maior entre vida profi...</p=
+> </td> </tr> <tr> <td class=3D"pt-2 no-underline" style=3D"-webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tab=
+le-rspace: 0pt; padding-top: 16px; text-decoration-line: none;"> <table rol=
+e=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" width=3D"100%" class=3D"email-button series-content-preview__bottom=
+-cta" data-test-id=3D"email-button" style=3D"-webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+"> <tbody> <tr> <td valign=3D"middle" align=3D"left" style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/em-2025-=
+recome%C3%A7ar-relembrar-remotar-remotar-jobs-6o7lf?lipi=3Durn%3Ali%3Apage%=
+3Aemail_email_series_follow_newsletter_01%3Bn7W2wsHMQzSS6zFjYaEF7g%3D%3D&am=
+p;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0gva4rwDEOBbA1&amp;trk=3Deml-email=
+_series_follow_newsletter_01-newsletter_content_preview-0-readmore_button_&=
+amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_pre=
+view-0-readmore_button_-null-gdb74f~m5o727d6~v2-null-null&amp;eid=3Dgdb74f-=
+m5o727d6-v2&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU0YjE4N2M2=
+ZDU0MDlmYWI4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NTZmNmM0YzQ1ZmZlZWIxYTRjNTk=
+wMDllMDVmOTdkNmRlNzk0YTQ1NjQ4NmNmOCwxLDE%3D" target=3D"_blank" aria-label=
+=3D"Abrir Remotar News no LinkedIn" class=3D"align-top no-underline " style=
+=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decoration=
+: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; vertica=
+l-align: top; text-decoration-line: none; width: 100%;"> <table role=3D"pre=
+sentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" class=3D"border-separate " style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; border-collapse: separate; width: 100%;"> <tbody> <tr> <td class=3D"=
+btn-md btn-secondary-emphasis border-color-brand button-link leading-regula=
+r !min-h-[auto] !shadow-none border-1 border-solid font-sans" data-test-id=
+=3D"newsletter-content-preview-redesign-bottom-cta" style=3D"-webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt; height: min-content; border-radius: 24px; padding-top: 12p=
+x; padding-bottom: 12px; padding-left: 24px; padding-right: 24px; text-alig=
+n: center; font-size: 16px; font-weight: 600; cursor: pointer; text-decorat=
+ion-line: none; background-color: rgba(0, 0, 0, 0); color: #0a66c2; border-=
+width: 1px; border-style: solid; border-color: #0a66c2; font-family: -apple=
+-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue=
+', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Ap=
+ple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'L=
+ucida Grande', Helvetica, Arial, sans-serif; line-height: 1.25; min-height:=
+ auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;">=
+ <a href=3D"https://www.linkedin.com/comm/pulse/em-2025-recome%C3%A7ar-rele=
+mbrar-remotar-remotar-jobs-6o7lf?lipi=3Durn%3Ali%3Apage%3Aemail_email_serie=
+s_follow_newsletter_01%3Bn7W2wsHMQzSS6zFjYaEF7g%3D%3D&amp;midToken=3DAQHxaO=
+sdYMWJVQ&amp;midSig=3D0gva4rwDEOBbA1&amp;trk=3Deml-email_series_follow_news=
+letter_01-newsletter_content_preview-0-readmore_button_&amp;trkEmail=3Deml-=
+email_series_follow_newsletter_01-newsletter_content_preview-0-readmore_but=
+ton_-null-gdb74f~m5o727d6~v2-null-null&amp;eid=3Dgdb74f-m5o727d6-v2&amp;otp=
+Token=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU0YjE4N2M2ZDU0MDlmYWI4NjYxNzl=
+jNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NTZmNmM0YzQ1ZmZlZWIxYTRjNTkwMDllMDVmOTdkNmRlNz=
+k0YTQ1NjQ4NmNmOCwxLDE%3D" target=3D"_blank" tabindex=3D"-1" aria-hidden=3D"=
+true" class=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer; disp=
+lay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; text-decoration-line: none; width: 100%;"> <span=
+ class=3D"no-underline text-color-brand" style=3D"color: #0a66c2; text-deco=
+ration-line: none;"> Continue lendo no LinkedIn </span> </a> </td> </tr> </=
+tbody> </table> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </t=
+able> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </t=
+r> </tbody> </table> </div> </td> </tr> <tr> <td class=3D"bg-color-backgrou=
+nd-canvas p-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f=
+3f2f0; padding: 24px;"> <table role=3D"presentation" valign=3D"top" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"text-xs"=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; font-size: 12px;"> <tbody> <tr> <t=
+d class=3D"pb-1 m-0" data-test-id=3D"email-footer__intended" style=3D"-webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> Este e-mail f=
+oi enviado a Luiz Fernando Brito Ferreira (Full-Stack Developer | Java | JS=
+ | React.js | Node.js | Python) </td> </tr> <tr> <td class=3D"pb-1 m-0" sty=
+le=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> <a=
+ href=3D"https://www.linkedin.com/help/linkedin/answer/4788?lang=3Dpt&amp;l=
+ipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bn7W2wsHMQ=
+zSS6zFjYaEF7g%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0gva4rwDEOBb=
+A1&amp;trk=3Deml-email_series_follow_newsletter_01-SecurityHelp-0-footergli=
+mmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-SecurityHelp-0-fo=
+oterglimmer-null-gdb74f~m5o727d6~v2-null-null&amp;eid=3Dgdb74f-m5o727d6-v2&=
+amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU0YjE4N2M2ZDU0MDlmYWI4=
+NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NTZmNmM0YzQ1ZmZlZWIxYTRjNTkwMDllMDVmOTd=
+kNmRlNzk0YTQ1NjQ4NmNmOCwxLDE%3D" target=3D"_blank" class=3D"text-inherit un=
+derline" style=3D"cursor: pointer; display: inline-block; text-decoration: =
+none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: in=
+herit; text-decoration-line: underline;">Saiba por que inclu=C3=ADmos isso.=
+</a> </td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; margin: 0px; padding-bottom: 8px;">Voc=C3=AA est=C3=A1 recebendo =
+e-mails de notifica=C3=A7=C3=A3o do LinkedIn. Outras pessoas podem ver que =
+voc=C3=AA =C3=A9 assinante.</td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> <a href=
+=3D"https://www.linkedin.com/comm/series-notifications/?action=3Dunsubscrib=
+e&amp;memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&amp;newsletterI=
+d=3D7095120867877122048&amp;newsletterTitle=3DRemotar%20News&amp;lipi=3Durn=
+%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bn7W2wsHMQzSS6zFjYa=
+EF7g%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0gva4rwDEOBbA1&amp;tr=
+k=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGlimmer&amp;t=
+rkEmail=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGlimmer=
+-null-gdb74f~m5o727d6~v2-null-null&amp;eid=3Dgdb74f-m5o727d6-v2&amp;otpToke=
+n=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU0YjE4N2M2ZDU0MDlmYWI4NjYxNzljNDA=
+2NmQ0YjVkNWJmMmZlZDNkZmI4NTZmNmM0YzQ1ZmZlZWIxYTRjNTkwMDllMDVmOTdkNmRlNzk0YT=
+Q1NjQ4NmNmOCwxLDE%3D" target=3D"_blank" class=3D"text-inherit underline" st=
+yle=3D"cursor: pointer; display: inline-block; text-decoration: none; -webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: inherit; text=
+-decoration-line: underline;">Cancelar inscri=C3=A7=C3=A3o</a> =C2=A0=C2=A0=
+=C2=B7=C2=A0=C2=A0 <a href=3D"https://www.linkedin.com/help/linkedin/answer=
+/67?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsle=
+tter_01%3Bn7W2wsHMQzSS6zFjYaEF7g%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;mi=
+dSig=3D0gva4rwDEOBbA1&amp;trk=3Deml-email_series_follow_newsletter_01-help-=
+0-footerglimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-help-0=
+-footerglimmer-null-gdb74f~m5o727d6~v2-null-null&amp;eid=3Dgdb74f-m5o727d6-=
+v2&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxOGU0YjE4N2M2ZDU0MDlmY=
+WI4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NTZmNmM0YzQ1ZmZlZWIxYTRjNTkwMDllMDVm=
+OTdkNmRlNzk0YTQ1NjQ4NmNmOCwxLDE%3D" target=3D"_blank" class=3D"text-inherit=
+ underline" style=3D"cursor: pointer; display: inline-block; text-decoratio=
+n: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color:=
+ inherit; text-decoration-line: underline;">Ajuda</a> </td> </tr> <tr> <td =
+class=3D"pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 8px;=
+"> <a href=3D"https://www.linkedin.com/comm/feed/?lipi=3Durn%3Ali%3Apage%3A=
+email_email_series_follow_newsletter_01%3Bn7W2wsHMQzSS6zFjYaEF7g%3D%3D&amp;=
+midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0gva4rwDEOBbA1&amp;trk=3Deml-email_s=
+eries_follow_newsletter_01-footer-0-logoGlimmer&amp;trkEmail=3Deml-email_se=
+ries_follow_newsletter_01-footer-0-logoGlimmer-null-gdb74f~m5o727d6~v2-null=
+-null&amp;eid=3Dgdb74f-m5o727d6-v2&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1M=
+jQwNGVkNDUxOGU0YjE4N2M2ZDU0MDlmYWI4NjYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZmI4NTZm=
+NmM0YzQ1ZmZlZWIxYTRjNTkwMDllMDVmOTdkNmRlNzk0YTQ1NjQ4NmNmOCwxLDE%3D" target=
+=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-block=
+; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%;"> <img src=3D"https://static.licdn.com/aero-v1/sc/h/9ehe6n39fa07d=
+c5edzv0rla4e" alt=3D"LinkedIn" class=3D"block h-[14px] w-[56px] image-rende=
+ring-crisp" style=3D"outline: none; text-decoration: none; image-rendering:=
+ -moz-crisp-edges; image-rendering: -o-crisp-edges; image-rendering: -webki=
+t-optimize-contrast; image-rendering: crisp-edges; -ms-interpolation-mode: =
+nearest-neighbor; display: block; height: 14px; width: 56px;" width=3D"56" =
+height=3D"14"> </a> </td> </tr> <tr> <td data-test-copyright-text style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt;"> =C2=A9 2025 LinkedIn Ireland Unlimited Com=
+pany, Wilton Plaza, Wilton Place, Dublin 2 - Irlanda. LinkedIn =C3=A9 um no=
+me comercial registrado da LinkedIn Ireland Unlimited Company. <span data-t=
+est-trademarks-text> LinkedIn e o logo do LinkedIn s=C3=A3o marcas registra=
+das do LinkedIn. </span> </td> </tr> </tbody> </table> </td> </tr> </tbody>=
+ </table> </td> </tr> </tbody> </table> <img alt role=3D"presentation" src=
+=3D"https://www.linkedin.com/emimp/ip_WjJSaU56Um1MVzAxYnpjeU4yUTJMWFl5OlpXM=
+WhhV3hmYzJWeWFXVnpYMlp2Ykd4dmQxOXVaWGR6YkdWMGRHVnlYekF4OmRYSnVPbXhwT214cGJt=
+dGxaRWx1UVhKMGFXTnNaVG8zTWpneU56Z3lOell4TnpjMk5UTTNOakF3.gif" style=3D"outl=
+ine: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: 1=
+px; height: 1px;" width=3D"1" height=3D"1"> </body> </html>
+------=_Part_19287502_1740066362.1736358852299--
+

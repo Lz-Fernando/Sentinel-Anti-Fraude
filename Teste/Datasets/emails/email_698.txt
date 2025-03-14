@@ -1,0 +1,794 @@
+X-GM-THRID: 1819511080188625520
+X-Gmail-Labels: =?UTF-8?Q?Caixa_de_entrada,Categori?=
+ =?UTF-8?Q?a:_atualiza=C3=A7=C3=B5es,N=C3=A3o_lidas?=
+Delivered-To: nandobritoferreira@gmail.com
+Received: by 2002:a05:6918:9ea8:b0:29a:824b:9ec3 with SMTP id fi40csp6066336ysc;
+        Thu, 26 Dec 2024 05:49:46 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IGcedl4HxBNk+/ERRuKtH8wSaCN7UKQnSyUsD0WyONsdXHv8HicPWuhPuZNACxSmel6iors
+X-Received: by 2002:a17:90b:51c1:b0:2ee:8031:cdbc with SMTP id 98e67ed59e1d1-2f452ee634bmr30834331a91.23.1735220985758;
+        Thu, 26 Dec 2024 05:49:45 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1735220985; cv=none;
+        d=google.com; s=arc-20240605;
+        b=MwzdedB93IXZ26umW+KZMflng3sKsd6FF+CHgrmzLaTMEVNFY/c6y5gaVITnLqqTWP
+         UZtsttNDRhUn3WLtk2isy9ciuhvOxQt5UF71VlnelcC9gXsOWCmnAxiuf0QLwBt+XK+t
+         FDnasb0LdEvqMrHFnovSfbYe0dx3n8ZfOg8W4/H9aH4+c4v9mN08WVS/NSlK5z0xX8Aa
+         lBDCWyxOS+JgWbVs7PGxLp+9rseLg+kG4KDc68bZoCKWd9SinrpmvAbKeORoXD4nCryJ
+         +jVGacWTpmJoEyRK03CWmT2WWmNlZLknvlaJpih/vwg2jzVbT15iTqfPBrezy4PU3Du5
+         ng2Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post
+         :list-unsubscribe:date:to:mime-version:subject:message-id:from
+         :dkim-signature:dkim-signature;
+        bh=158RP3C6qmnlA4thQhfvPEIWPGG8FD2TShAv2sbTXEo=;
+        fh=9THnMkYPrEZBHi+i36UuLTgSBkrTIoUsJ4LU3KfhvmM=;
+        b=Vf+62d8/WoqKqS/O3vkEHCADqmsWSLBmlr/QN60NQyj7bzvfpTwXlbisR2FGJmxlHj
+         t2ebvQ6n3OtlG9LygGxnVUQGMzqLPdBA0gF7SB3+AHwKClVjGYDHE2hphw4U/2aiSFmA
+         5ntxOp0hSZsgf9IVtK+/u4zsdSunljMLrEP508aCQKO5qWlD49O+k1E2eH1HX5EG98tS
+         jZbSflEImvC19rcIDy9cKTooChcYEj/k+5hFhmrZNlFhtJHeKiWhrTB4rfaxLOVoAyUG
+         EqGgiaWydS6QKLmrPnaI/9OPU3S+h9OTT/P3LUJbDv+PgeQOWtUqJKjD2CTonNJ3sorS
+         diTw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=TNzO8SZC;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=sDsJXogU;
+       spf=pass (google.com: domain of s-4vlucw5h9s7jf83y1zw6kqa6jjpqqpqartrkq0j9siidyeyld682zewi@bounce.linkedin.com designates 2620:109:c003:104::193 as permitted sender) smtp.mailfrom=s-4vlucw5h9s7jf83y1zw6kqa6jjpqqpqartrkq0j9siidyeyld682zewi@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <s-4vlucw5h9s7jf83y1zw6kqa6jjpqqpqartrkq0j9siidyeyld682zewi@bounce.linkedin.com>
+Received: from maile-ca.linkedin.com (maile-ca.linkedin.com. [2620:109:c003:104::193])
+        by mx.google.com with ESMTPS id d9443c01a7336-219dca27b81si179080885ad.509.2024.12.26.05.49.45
+        for <nandobritoferreira@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 26 Dec 2024 05:49:45 -0800 (PST)
+Received-SPF: pass (google.com: domain of s-4vlucw5h9s7jf83y1zw6kqa6jjpqqpqartrkq0j9siidyeyld682zewi@bounce.linkedin.com designates 2620:109:c003:104::193 as permitted sender) client-ip=2620:109:c003:104::193;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@maile.linkedin.com header.s=d2048-202308-0e header.b=TNzO8SZC;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=sDsJXogU;
+       spf=pass (google.com: domain of s-4vlucw5h9s7jf83y1zw6kqa6jjpqqpqartrkq0j9siidyeyld682zewi@bounce.linkedin.com designates 2620:109:c003:104::193 as permitted sender) smtp.mailfrom=s-4vlucw5h9s7jf83y1zw6kqa6jjpqqpqartrkq0j9siidyeyld682zewi@bounce.linkedin.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=maile.linkedin.com;
+	s=d2048-202308-0e; t=1735220982;
+	bh=158RP3C6qmnlA4thQhfvPEIWPGG8FD2TShAv2sbTXEo=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=TNzO8SZCLAEAyEefnGQgwIlyAFQ2eobhiN7QDoOzSJFGmKRDoBFCBSr8Yz97W4WqS
+	 9JSy5pChuO1JkF3MZeecePmM8hxic2qG0kTSsdmqvZJPPrF7koNcZoJPALsxx2jctM
+	 YZksFm6jo/Fd0ftNwdOCtDYmNFUADN9M9w5OkjrXd7RM9mPhpk//gg2BAFpITXEc8U
+	 Z2nBYkVWNMr0cGrlfPgczpkrOFznLDHQhwDLZhC8fnu+5TmgjKaZ+RJgBi3rYdWMpc
+	 JcwQJBO1srcrncHC4bKzcI6+aBvc7u1AYwdWPsE60Aq0EO8K39bF03JEcnnPqgUDR0
+	 YsQc2dqCA5OQA==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=d2048-202308-00; t=1735220982;
+	bh=158RP3C6qmnlA4thQhfvPEIWPGG8FD2TShAv2sbTXEo=;
+	h=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=sDsJXogUe4sRuRfn7SX6e8AyUW9DARm694bA5uHQQWQhn2YxdUdk73xV2ikOIDoyI
+	 786PBnHODLkXbXsyQmT3Gbo/LUw0PcPB+fATR482ZaurcX1AUTzh2VZPaEl8rOmzLp
+	 VKtHcrBVu3cyziD/ZR/Wmq7N7G5JpoA2GF9cq1+nkbMvao4evyjun5zT93BFS0qBIi
+	 7aWkSkyAHZz3zqyZ2FG/9g/sAzdp10ggzXbtZwLS/OMQzxIU/9TEpVgjQujnOXiLfK
+	 JZr9THp45pDyN8gcVhb10tDzQsBulbAdfBORKpWX85d5wYLRDM/Llrq3dIQVPGlZpw
+	 kjJiecv0Pye2A==
+From: Vagas Remotas via LinkedIn <newsletters-noreply@linkedin.com>
+Message-ID: <435022202.32866032.1735220982442@lva1-app88902.prod.linkedin.com>
+Subject: Bullying no trabalho?
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_32866030_1156070833.1735220982439"
+To: Luiz Fernando Brito Ferreira <nandobritoferreira@gmail.com>
+Date: Thu, 26 Dec 2024 13:49:42 +0000 (UTC)
+X-LinkedIn-Class: EMAIL-DEFAULT
+X-LinkedIn-Template: email_series_follow_newsletter_01
+X-LinkedIn-fbl: m2-aszp94v84h21qivkdhhnqvswhkgis86j3mpmbs78z02xw0adris26x9adsur0ytclband3kozcasv05ezx5fkgbpwxftb2ma3xucmk
+X-LinkedIn-Id: gdb74f-m55drhr5-r
+List-Unsubscribe: <https://www.linkedin.com/comm/series-notifications/?action=unsubscribe&memberToken=ADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&newsletterId=7202681997633196033&newsletterTitle=Emprego%20&%20Tecnologia&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BwUdVlnrRRFukun4YeBBBmw%3D%3D&midToken=AQHxaOsdYMWJVQ&midSig=0VUF2opkItiHA1&trk=eml-email_series_follow_newsletter_01-unsub-0-unsub&trkEmail=eml-email_series_follow_newsletter_01-unsub-0-unsub-null-gdb74f~m55drhr5~r-null-null&eid=gdb74f-m55drhr5-r&otpToken=MWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmU1YjY4ZmM3ZDg0MDkxYWU4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGRlZWM3ZmM0MWEyY2FhZDZjYjFlZjc3YTE0ZDVhYTE1NjM1MzU3MjhmNDVlYiwxLDE%3D>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_series_follow_newsletter_01:linkedin
+Require-Recipient-Valid-Since: nandobritoferreira@gmail.com; Tue, 12 Apr 2022 17:15:25 +0000
+
+------=_Part_32866030_1156070833.1735220982439
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: text-body
+
+Emprego & Tecnologia
+
+Por Vagas Remotas
+
+
+Por Vagas Remotas
+
+   =20
+   =20
+    Leia este artigo no LinkedIn para participar da conversa
+Leia no LinkedIn
+https://www.linkedin.com/comm/pulse/bullying-trabalho-vagas-remotas-net-lus=
+mf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BwUdVl=
+nrRRFukun4YeBBBmw%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D0VUF2opkItiHA1&t=
+rk=3Deml-email_series_follow_newsletter_01-null-0-read_more_banner_cta_&trk=
+Email=3Deml-email_series_follow_newsletter_01-null-0-read_more_banner_cta_-=
+null-gdb74f~m55drhr5~r-null-null&eid=3Dgdb74f-m55drhr5-r&otpToken=3DMWIwZDE=
+3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmU1YjY4ZmM3ZDg0MDkxYWU4NzYxNzljNDA2NmQ0YjVkNW=
+JmMmZlZDNkZjg2NGRlZWM3ZmM0MWEyY2FhZDZjYjFlZjc3YTE0ZDVhYTE1NjM1MzU3MjhmNDVlY=
+iwxLDE%3D
+ =20
+Bullying no trabalho: um novo desafio que compromete a sa=C3=BAde e o desem=
+penho nas empresas; M=C3=A9dica alerta sobre o impacto dessa pr=C3=A1tica n=
+a sa=C3=BAde dos trabalhadores Atualmente, a busca por bem-estar e equil=C3=
+=ADbrio tem sido uma constante, e um dos resultados mais desejados desse es=
+tilo de vida =C3=A9 alcan=C3=A7ar a "felicidade" em diferentes =C3=A1reas d=
+a vida. E para muitos brasileiros, o trabalho ocupa grande parte da rotina,=
+ o que torna a qualidade do ambiente profissional essencial para o equil=C3=
+=ADbrio emocional. Um levantamento sobre sa=C3=BAde mental e ambiente de tr=
+abalho, publicado pela InfoMoney em novembro deste ano, revelou que 39,95% =
+dos participantes apontam que a infelicidade no trabalho est=C3=A1 diretame=
+nte ligada a relacionamentos t=C3=B3xicos. A pesquisa, intitulada=C2=A0"70%=
+ da felicidade no trabalho depende do chefe direto =E2=80=93 e isso impacta=
+ produtividade",=C2=A0baseou-se em um estudo realizado pela Robert Half em =
+parceria com a The School of Life, destacando a influ=C3=AAncia dos gestore=
+s diretos na satisfa=C3=A7=C3=A3o e produtividade dos funcion=C3=A1rios. Bu=
+llying no Trabalho O termo=C2=A0bullying, frequentemente associado ao ambie=
+nte escolar, agora ganha destaque em um contexto inesperado: o ambiente de =
+trabalho. Situa=C3=A7=C3=B5es de hostilidade, intimida=C3=A7=C3=A3o ou excl=
+us=C3=A3o entre colegas, ou superiores n=C3=A3o apenas afetam o bem-estar d=
+os profissionais, mas tamb=C3=A9m comprometem a produtividade e a sa=C3=BAd=
+e f=C3=ADsica e mental dos colaboradores. Muitas vezes, essas atitudes est=
+=C3=A3o mascaradas em cr=C3=ADticas constantes e injustificadas, tom de voz=
+ elevado, insultos em p=C3=BAblico, atribui=C3=A7=C3=A3o de tarefas degrada=
+ntes ou prazos imposs=C3=ADveis, exclus=C3=A3o social e ataques pessoais di=
+sfar=C3=A7ados de feedback. A Doutora Simone Nascimento, m=C3=A9dica especi=
+alizada em Sa=C3=BAde Mental Corporativa pelo Hospital Israelita Albert Ein=
+stein e fundadora do Projeto Equilibria, destaca que o bullying corporativo=
+ =C3=A9 uma quest=C3=A3o urgente.=C2=A0=E2=80=9COs impactos v=C3=A3o al=C3=
+=A9m do psicol=C3=B3gico, podendo desencadear ansiedade, depress=C3=A3o, ab=
+sente=C3=ADsmo e at=C3=A9 doen=C3=A7as psicossom=C3=A1ticas. Isso prejudica=
+ tanto os colaboradores quanto a organiza=C3=A7=C3=A3o=E2=80=9D,=C2=A0alert=
+a. Al=C3=A9m disso, segundo a m=C3=A9dica, a pr=C3=A1tica do bullying no am=
+biente profissional resulta em alta rotatividade, afastamentos m=C3=A9dicos=
+ e queda no desempenho das equipes. =E2=80=9CEmpresas que negligenciam esse=
+ problema podem enfrentar perdas financeiras e danos =C3=A0 reputa=C3=A7=C3=
+=A3o. Investir em programas de sa=C3=BAde mental e qualidade de vida =C3=A9=
+ essencial para promover um ambiente de trabalho mais saud=C3=A1vel e produ=
+tivo=E2=80=9D,=C2=A0refor=C3=A7a. Como evitar e mitigar o Bullying no ambie=
+nte de trabalho? Para enfrentar o bullying no ambiente de trabalho, a Douto=
+ra Simone prop=C3=B5e algumas a=C3=A7=C3=B5es essenciais: Oferecer treiname=
+ntos=C2=A0para esclarecer o que =C3=A9 bullying e os seus impactos, promove=
+ndo conscientiza=C3=A7=C3=A3o e respeito; Criar canais de apoio confidencia=
+is, permitindo que os funcion=C3=A1rios comuniquem os casos com seguran=C3=
+=A7a; Investigar den=C3=BAncias com seriedade=C2=A0e tomar as medidas neces=
+s=C3=A1rias contra os respons=C3=A1veis; Refor=C3=A7ar pol=C3=ADticas organ=
+izacionais claras, destacando que o bullying =C3=A9 uma conduta grave, inac=
+eit=C3=A1vel e intoler=C3=A1vel na empresa. Essas iniciativas refor=C3=A7am=
+ que a organiza=C3=A7=C3=A3o considera o bullying uma pr=C3=A1tica grave e =
+inaceit=C3=A1vel. Assim, reiterando seu compromisso com o respeito, a empat=
+ia e o bem-estar dos colaboradores.=C2=A0Empresas que priorizam a sa=C3=BAd=
+e mental e o equil=C3=ADbrio dos profissionais n=C3=A3o apenas fortalecem a=
+ produtividade interna, mas tamb=C3=A9m se tornam mais competitivas no merc=
+ado, consolidando uma imagem de responsabilidade e cuidado. Sobre a Doutora=
+ Simone Nascimento=C2=A0=C2=A0 A Doutora Simone Nascimento =C3=A9 m=C3=A9di=
+ca especializada em Sa=C3=BAde Mental Corporativa pelo Instituto de Ensino =
+e Pesquisa do Hospital Israelita Albert Einstein. Com certifica=C3=A7=C3=A3=
+o em Medicina do Estilo de Vida pelo American College of Lifestyle Medicine=
+, atua como palestrante e consultora, promovendo programas de sa=C3=BAde e =
+qualidade de vida no ambiente de trabalho. =C3=89 fundadora do Projeto Equi=
+libria, iniciativa voltada para a constru=C3=A7=C3=A3o de ambientes laborai=
+s saud=C3=A1veis e sustent=C3=A1veis.=C2=A0
+Continue lendo no LinkedIn
+https://www.linkedin.com/comm/pulse/bullying-trabalho-vagas-remotas-net-lus=
+mf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BwUdVl=
+nrRRFukun4YeBBBmw%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D0VUF2opkItiHA1&t=
+rk=3Deml-email_series_follow_newsletter_01-newsletter_content_preview_text-=
+0-readmore_button_&trkEmail=3Deml-email_series_follow_newsletter_01-newslet=
+ter_content_preview_text-0-readmore_button_-null-gdb74f~m55drhr5~r-null-nul=
+l&eid=3Dgdb74f-m55drhr5-r&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYm=
+U1YjY4ZmM3ZDg0MDkxYWU4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGRlZWM3ZmM0MWEyY=
+2FhZDZjYjFlZjc3YTE0ZDVhYTE1NjM1MzU3MjhmNDVlYiwxLDE%3D
+ =20
+     =20
+
+----------------------------------------
+
+Este e-mail foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Develope=
+r | Java | JS | React.js | Node.js | Python)
+Saiba por que inclu=C3=ADmos isso: https://www.linkedin.com/help/linkedin/a=
+nswer/4788?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_new=
+sletter_01%3BwUdVlnrRRFukun4YeBBBmw%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=
+=3D0VUF2opkItiHA1&trk=3Deml-email_series_follow_newsletter_01-SecurityHelp-=
+0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-Securi=
+tyHelp-0-textfooterglimmer-null-gdb74f~m55drhr5~r-null-null&eid=3Dgdb74f-m5=
+5drhr5-r&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmU1YjY4ZmM3ZDg0MDk=
+xYWU4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGRlZWM3ZmM0MWEyY2FhZDZjYjFlZjc3YT=
+E0ZDVhYTE1NjM1MzU3MjhmNDVlYiwxLDE%3D
+Voc=C3=AA est=C3=A1 recebendo e-mails de notifica=C3=A7=C3=A3o do LinkedIn.=
+ Outras pessoas podem ver que voc=C3=AA =C3=A9 assinante.
+
+Cancelar inscri=C3=A7=C3=A3o: https://www.linkedin.com/comm/series-notifica=
+tions/?action=3Dunsubscribe&memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y=
+9whjlY&newsletterId=3D7202681997633196033&newsletterTitle=3DEmprego%20&%20T=
+ecnologia&lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%=
+3BwUdVlnrRRFukun4YeBBBmw%3D%3D&midToken=3DAQHxaOsdYMWJVQ&midSig=3D0VUF2opkI=
+tiHA1&trk=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGlimm=
+er&trkEmail=3Deml-email_series_follow_newsletter_01-unsubscribe-0-footerGli=
+mmer-null-gdb74f~m55drhr5~r-null-null&eid=3Dgdb74f-m55drhr5-r&otpToken=3DMW=
+IwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmU1YjY4ZmM3ZDg0MDkxYWU4NzYxNzljNDA2NmQ0Y=
+jVkNWJmMmZlZDNkZjg2NGRlZWM3ZmM0MWEyY2FhZDZjYjFlZjc3YTE0ZDVhYTE1NjM1MzU3Mjhm=
+NDVlYiwxLDE%3D=C2=A0=C2=A0=C2=B7=C2=A0=C2=A0Ajuda: https://www.linkedin.com=
+/help/linkedin/answer/67?lang=3Dpt&lipi=3Durn%3Ali%3Apage%3Aemail_email_ser=
+ies_follow_newsletter_01%3BwUdVlnrRRFukun4YeBBBmw%3D%3D&midToken=3DAQHxaOsd=
+YMWJVQ&midSig=3D0VUF2opkItiHA1&trk=3Deml-email_series_follow_newsletter_01-=
+help-0-textfooterglimmer&trkEmail=3Deml-email_series_follow_newsletter_01-h=
+elp-0-textfooterglimmer-null-gdb74f~m55drhr5~r-null-null&eid=3Dgdb74f-m55dr=
+hr5-r&otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmU1YjY4ZmM3ZDg0MDkxYW=
+U4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGRlZWM3ZmM0MWEyY2FhZDZjYjFlZjc3YTE0Z=
+DVhYTE1NjM1MzU3MjhmNDVlYiwxLDE%3D
+
+=C2=A9 2024 LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place,=
+ Dublin 2 - Irlanda.LinkedIn =C3=A9 um nome comercial registrado da LinkedI=
+n Ireland Unlimited Company.
+LinkedIn e o logo do LinkedIn s=C3=A3o marcas registradas do LinkedIn.
+------=_Part_32866030_1156070833.1735220982439
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: html-body
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"pt" xml:lang=3D"pt"> <=
+head> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-=
+8"> <meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewpor=
+t" content=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=
+=3D0"> <meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></t=
+itle> <style>
+            @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+          </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button tabl=
+e { display: none !important; }
+            .full-width-button, .full-width-button table { display: table !=
+important; } }
+          </style> <style>body {font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </styl=
+e><![endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> <=
+/head> <body dir=3D"ltr" class=3D"font-sans bg-color-background-canvas w-fu=
+ll m-0 p-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; margin: 0px; width: 100%; background-color: #f3f2f0; padding: 0p=
+x; padding-top: 8px; font-family: -apple-system, system-ui, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Ox=
+ygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sa=
+ns-serif;"> <div class=3D"h-0 opacity-0 text-transparent invisible overflow=
+-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; max-height=
+: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;" data-email-p=
+reheader=3D"true">Bullying no trabalho: um novo desafio que compromete a sa=
+=C3=BAde e o desempenho nas=E2=80=A6</div> <div class=3D"h-0 opacity-0 text=
+-transparent invisible overflow-hidden w-0 max-h-[0]" style=3D"visibility: =
+hidden; height: 0px; max-height: 0; width: 0px; overflow: hidden; opacity: =
+0; mso-hide: all;"> =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+ =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table role=3D"presentation" va=
+lign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"512"=
+ align=3D"center" class=3D"mercado-container w-[512px] max-w-[512px] mx-aut=
+o my-0 p-0 " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-left: auto; mar=
+gin-right: auto; margin-top: 0px; margin-bottom: 0px; width: 512px; max-wid=
+th: 512px; padding: 0px;"> <tbody> <tr> <td style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"bg-color-background-co=
+ntainer " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff=
+;"> <tbody> <tr> <td class=3D"text-center p-3" style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt; padding: 24px; text-align: center;"> <table role=3D"presentatio=
+n" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D=
+"100%" class=3D"min-w-full" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-wid=
+th: 100%;"> <tbody> <tr> <td align=3D"left" valign=3D"middle" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/feed/=
+?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BwUdVlnr=
+RRFukun4YeBBBmw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0VUF2opkIt=
+iHA1&amp;trk=3Deml-email_series_follow_newsletter_01-header-0-home_glimmer_=
+dynamic_badging_high_dpi&amp;trkEmail=3Deml-email_series_follow_newsletter_=
+01-header-0-home_glimmer_dynamic_badging_high_dpi-null-gdb74f~m55drhr5~r-nu=
+ll-null&amp;eid=3Dgdb74f-m55drhr5-r&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1=
+MjQwNGVkNDUxYmU1YjY4ZmM3ZDg0MDkxYWU4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGR=
+lZWM3ZmM0MWEyY2FhZDZjYjFlZjc3YTE0ZDVhYTE1NjM1MzU3MjhmNDVlYiwxLDE%3D" target=
+=3D"_blank" class=3D"w-[84px]" style=3D"color: #0a66c2; cursor: pointer; di=
+splay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; width: 84px;"> <img class=3D"h-[37px] w-[101px=
+]" alt=3D"LinkedIn" src=3D"https://www.linkedin.com/comm/dms/logo/v2?badgeT=
+heme=3Dmercado&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsl=
+etter_01%3BwUdVlnrRRFukun4YeBBBmw%3D%3D&amp;midSig=3D0VUF2opkItiHA1&amp;mid=
+Token=3DAQHxaOsdYMWJVQ&amp;trkEmail=3Deml-email_series_follow_newsletter_01=
+-null-0-comms%7Ebadging%7Edynamic%7Eglimmer%7Ev2-null-gdb74f%7Em55drhr5%7Er=
+-null-null&amp;trk=3Deml-email_series_follow_newsletter_01-null-0-comms%7Eb=
+adging%7Edynamic%7Eglimmer%7Ev2&amp;_sig=3D0EOwL8nJstiHA1" data-test-header=
+-dynamic-badging-img-high-dpi style=3D"outline: none; text-decoration: none=
+; -ms-interpolation-mode: bicubic; height: 37px; width: 101px;" width=3D"10=
+1" height=3D"37"> </a> </td> <td valign=3D"middle" align=3D"right" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D"to=
+p" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" data-tes=
+t-header-profile style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td=
+ align=3D"right" valign=3D"middle" class=3D"w-[32px]" style=3D"-webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt; width: 32px;" width=3D"32"> <a href=3D"https://br.linked=
+in.com/comm/in/fernando-ferreira-brito?lipi=3Durn%3Ali%3Apage%3Aemail_email=
+_series_follow_newsletter_01%3BwUdVlnrRRFukun4YeBBBmw%3D%3D&amp;midToken=3D=
+AQHxaOsdYMWJVQ&amp;midSig=3D0VUF2opkItiHA1&amp;trk=3Deml-email_series_follo=
+w_newsletter_01-header-0-profile_glimmer&amp;trkEmail=3Deml-email_series_fo=
+llow_newsletter_01-header-0-profile_glimmer-null-gdb74f~m55drhr5~r-null-nul=
+l&amp;eid=3Dgdb74f-m55drhr5-r&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNG=
+VkNDUxYmU1YjY4ZmM3ZDg0MDkxYWU4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGRlZWM3Z=
+mM0MWEyY2FhZDZjYjFlZjc3YTE0ZDVhYTE1NjM1MzU3MjhmNDVlYiwxLDE%3D" target=3D"_b=
+lank" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; text=
+-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%;"> <img alt=3D"Luiz Fernando Brito Ferreira" src=3D"https://media.licdn.=
+com/dms/image/v2/D4E03AQHtWMkj43o1lA/profile-displayphoto-shrink_200_200/pr=
+ofile-displayphoto-shrink_200_200/0/1724191556445?e=3D2147483647&amp;v=3Dbe=
+ta&amp;t=3DCDzZBUOBoeuTW6v8conB5wB92xXoc9r_1IG6EIUIKB4" class=3D"rounded-[1=
+00%] w-[32px] h-[32px]" style=3D"outline: none; text-decoration: none; -ms-=
+interpolation-mode: bicubic; height: 32px; width: 32px; border-radius: 100%=
+;" width=3D"32" height=3D"32"> </a> </td> </tr> </tbody> </table> </td> </t=
+r> </tbody> </table> </td> </tr> <tr> <td class=3D"px-0 pb-3" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; padding-left: 0px; padding-right: 0px; padding-b=
+ottom: 24px;"> <div> <table role=3D"presentation" valign=3D"top" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt;"> <tbody> <tr> <td data-test-id=3D"newsletter-entity-loc=
+kup" class=3D"px-3 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-le=
+ft: 24px; padding-right: 24px; padding-top: 8px;"> <table role=3D"presentat=
+ion" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%" class=3D"font-sans" style=3D"-webkit-text-size-adjust: 100%; -ms-=
+text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-=
+family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, '=
+Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Dr=
+oid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;"> <tbody> <tr> <=
+td valign=3D"top" class=3D"pr-1 w-6" style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; width: 48px; padding-right: 8px;" width=3D"48"> <a href=3D"https://www.li=
+nkedin.com/comm/newsletters/7202681997633196033?lipi=3Durn%3Ali%3Apage%3Aem=
+ail_email_series_follow_newsletter_01%3BwUdVlnrRRFukun4YeBBBmw%3D%3D&amp;mi=
+dToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0VUF2opkItiHA1&amp;trk=3Deml-email_ser=
+ies_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_entity_cta&a=
+mp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_entity_locku=
+p-0-newsletter_entity_cta-null-gdb74f~m55drhr5~r-null-null&amp;eid=3Dgdb74f=
+-m55drhr5-r&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmU1YjY4ZmM3=
+ZDg0MDkxYWU4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGRlZWM3ZmM0MWEyY2FhZDZjYjF=
+lZjc3YTE0ZDVhYTE1NjM1MzU3MjhmNDVlYiwxLDE%3D" target=3D"_blank" style=3D"col=
+or: #0a66c2; cursor: pointer; display: inline-block; text-decoration: none;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img class=
+=3D"inline-block relative bg-color-entity-ghost-background w-6 h-6 rounded-=
+md" src=3D"https://media.licdn.com/dms/image/v2/D4D12AQEvYk0-bFZqjA/series-=
+logo_image-shrink_100_100/series-logo_image-shrink_100_100/0/1721173757342?=
+e=3D2147483647&amp;v=3Dbeta&amp;t=3DZfs8TCasQiCWc6FDIg9vLAPekNY5_CgMU4qcOns=
+JmM4" alt=3D"Abrir Emprego &amp;amp; Tecnologia" style=3D"outline: none; te=
+xt-decoration: none; -ms-interpolation-mode: bicubic; position: relative; d=
+isplay: inline-block; height: 48px; width: 48px; border-radius: 8px; backgr=
+ound-color: #eae6df;" width=3D"48" height=3D"48"> </a> </td> <td valign=3D"=
+top" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation"=
+ valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"1=
+00%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/new=
+sletters/7202681997633196033?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_fo=
+llow_newsletter_01%3BwUdVlnrRRFukun4YeBBBmw%3D%3D&amp;midToken=3DAQHxaOsdYM=
+WJVQ&amp;midSig=3D0VUF2opkItiHA1&amp;trk=3Deml-email_series_follow_newslett=
+er_01-newsletter_entity_lockup-0-newsletter_entity_cta&amp;trkEmail=3Deml-e=
+mail_series_follow_newsletter_01-newsletter_entity_lockup-0-newsletter_enti=
+ty_cta-null-gdb74f~m55drhr5~r-null-null&amp;eid=3Dgdb74f-m55drhr5-r&amp;otp=
+Token=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmU1YjY4ZmM3ZDg0MDkxYWU4NzYxNzl=
+jNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGRlZWM3ZmM0MWEyY2FhZDZjYjFlZjc3YTE0ZDVhYTE1Nj=
+M1MzU3MjhmNDVlYiwxLDE%3D" target=3D"_blank" class=3D"no-underline" style=3D=
+"color: #0a66c2; cursor: pointer; display: inline-block; text-decoration: n=
+one; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decor=
+ation-line: none;"> <div class=3D"pb-0.5" style=3D"padding-bottom: 4px;"> <=
+span class=3D"text-md font-bold text-color-text break-words leading-regular=
+" style=3D"overflow-wrap: break-word; font-size: 16px; font-weight: 600; li=
+ne-height: 1.25; color: rgba(0, 0, 0, 0.9);"> Emprego &amp; Tecnologia </sp=
+an> </div> </a> </td> </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;"> <a href=3D"https://www.linkedin.com/comm/newsletters/720268199763319603=
+3?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BwUdVln=
+rRRFukun4YeBBBmw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0VUF2opkI=
+tiHA1&amp;trk=3Deml-email_series_follow_newsletter_01-newsletter_entity_loc=
+kup-0-newsletter_entity_cta&amp;trkEmail=3Deml-email_series_follow_newslett=
+er_01-newsletter_entity_lockup-0-newsletter_entity_cta-null-gdb74f~m55drhr5=
+~r-null-null&amp;eid=3Dgdb74f-m55drhr5-r&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2J=
+jM2I1MjQwNGVkNDUxYmU1YjY4ZmM3ZDg0MDkxYWU4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZj=
+g2NGRlZWM3ZmM0MWEyY2FhZDZjYjFlZjc3YTE0ZDVhYTE1NjM1MzU3MjhmNDVlYiwxLDE%3D" t=
+arget=3D"_blank" class=3D"no-underline" style=3D"color: #0a66c2; cursor: po=
+inter; display: inline-block; text-decoration: none; -webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; text-decoration-line: none;"> <span c=
+lass=3D"text-xs text-color-text-low-emphasis leading-regular" style=3D"font=
+-size: 12px; line-height: 1.25; color: rgba(0, 0, 0, 0.6);"> Not=C3=ADcias =
+sobre emprego remoto, mercado de trabalho, empregabilidade e afins </span> =
+</a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr=
+> <tr data-test-id=3D"newsletter-content-preview"> <td class=3D"px-3 pt-2" =
+style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 24px; padding-right: =
+24px; padding-top: 16px;"> <table role=3D"presentation" valign=3D"top" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"overflow-hidden " styl=
+e=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; overflow: hidden;"> <table role=3D"pres=
+entation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" w=
+idth=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td st=
+yle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com=
+/comm/pulse/bullying-trabalho-vagas-remotas-net-lusmf?lipi=3Durn%3Ali%3Apag=
+e%3Aemail_email_series_follow_newsletter_01%3BwUdVlnrRRFukun4YeBBBmw%3D%3D&=
+amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0VUF2opkItiHA1&amp;trk=3Deml-ema=
+il_series_follow_newsletter_01-newsletter_content_preview-0-headline_&amp;t=
+rkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-=
+0-headline_-null-gdb74f~m55drhr5~r-null-null&amp;eid=3Dgdb74f-m55drhr5-r&am=
+p;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmU1YjY4ZmM3ZDg0MDkxYWU4Nz=
+YxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGRlZWM3ZmM0MWEyY2FhZDZjYjFlZjc3YTE0ZDVhY=
+TE1NjM1MzU3MjhmNDVlYiwxLDE%3D" target=3D"_blank" class=3D"w-full" style=3D"=
+color: #0a66c2; cursor: pointer; display: inline-block; text-decoration: no=
+ne; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width: 100%=
+;"> <img class=3D"block w-full aspect-[744/400] object-cover overflow-hidde=
+n" data-test-id=3D"newsletter-content-preview__cover-image" alt=3D"Imagem d=
+e capa da newsletter" src=3D"https://media.licdn.com/dms/image/v2/D4D12AQHs=
+yf2ftcrmWw/article-cover_image-shrink_720_1280/article-cover_image-shrink_7=
+20_1280/0/1735220203659?e=3D2147483647&amp;v=3Dbeta&amp;t=3DRXhu-GoDZRNXd-E=
+_lhSij-kBm_EjdPMZffhVRK2SgpI" style=3D"outline: none; text-decoration: none=
+; -ms-interpolation-mode: bicubic; display: block; aspect-ratio: 744/400; w=
+idth: 100%; overflow: hidden; object-fit: cover;"> </a> </td> </tr> <tr> <t=
+d class=3D"py-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 16px;=
+ padding-bottom: 16px;"> <table role=3D"presentation" valign=3D"top" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/bullying-trabalho-v=
+agas-remotas-net-lusmf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_n=
+ewsletter_01%3BwUdVlnrRRFukun4YeBBBmw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&a=
+mp;midSig=3D0VUF2opkItiHA1&amp;trk=3Deml-email_series_follow_newsletter_01-=
+newsletter_content_preview-0-title_&amp;trkEmail=3Deml-email_series_follow_=
+newsletter_01-newsletter_content_preview-0-title_-null-gdb74f~m55drhr5~r-nu=
+ll-null&amp;eid=3Dgdb74f-m55drhr5-r&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1=
+MjQwNGVkNDUxYmU1YjY4ZmM3ZDg0MDkxYWU4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGR=
+lZWM3ZmM0MWEyY2FhZDZjYjFlZjc3YTE0ZDVhYTE1NjM1MzU3MjhmNDVlYiwxLDE%3D" target=
+=3D"_blank" class=3D"no-underline font-medium text-sm m-0 text-system-gray-=
+90" style=3D"cursor: pointer; display: inline-block; text-decoration: none;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0px; f=
+ont-size: 14px; font-weight: 500; color: #282828; text-decoration-line: non=
+e;"> <h2 class=3D"m-0 text-display-sm leading-regular text-color-text font-=
+bold font-sans" style=3D"margin: 0px; font-family: -apple-system, system-ui=
+, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ub=
+untu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Hel=
+vetica, Arial, sans-serif; font-size: 24px; font-weight: 600; line-height: =
+1.25; color: rgba(0, 0, 0, 0.9);"> Bullying no trabalho? </h2> </a> </td> <=
+/tr> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"pres=
+entation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" w=
+idth=3D"100%" data-test-id=3D"newsletter-author-lockup-redesign" class=3D"m=
+t-1 mb-2" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-bottom: 16px; marg=
+in-top: 8px;"> <tbody> <tr> <td valign=3D"middle" align=3D"left" class=3D"w=
+-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt; width: 24px;" width=3D"24"> <a =
+href=3D"https://www.linkedin.com/comm/company/vagas-remotas-net?lipi=3Durn%=
+3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BwUdVlnrRRFukun4YeBB=
+Bmw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0VUF2opkItiHA1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-autho=
+r_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter_content_=
+preview-0-author_-null-gdb74f~m55drhr5~r-null-null&amp;eid=3Dgdb74f-m55drhr=
+5-r&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmU1YjY4ZmM3ZDg0MDkx=
+YWU4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGRlZWM3ZmM0MWEyY2FhZDZjYjFlZjc3YTE=
+0ZDVhYTE1NjM1MzU3MjhmNDVlYiwxLDE%3D" target=3D"_blank" style=3D"color: #0a6=
+6c2; cursor: pointer; display: inline-block; text-decoration: none; -webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img class=3D"inline=
+-block relative bg-color-entity-ghost-background w-4 h-4 align-middle" src=
+=3D"https://media.licdn.com/dms/image/v2/D4D0BAQF-pKv8RCGa_w/company-logo_1=
+00_100/company-logo_100_100/0/1686408381536?e=3D2147483647&amp;v=3Dbeta&amp=
+;t=3DsmrhYnygldxlXBqsVTU8Y6hT5pJlox0U9AsTNbNB-Ks" alt=3D"Imagem do autor" s=
+tyle=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicub=
+ic; position: relative; display: inline-block; height: 32px; width: 32px; b=
+ackground-color: #eae6df; vertical-align: middle;" width=3D"32" height=3D"3=
+2"> </a> </td> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"htt=
+ps://www.linkedin.com/comm/company/vagas-remotas-net?lipi=3Durn%3Ali%3Apage=
+%3Aemail_email_series_follow_newsletter_01%3BwUdVlnrRRFukun4YeBBBmw%3D%3D&a=
+mp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0VUF2opkItiHA1&amp;trk=3Deml-emai=
+l_series_follow_newsletter_01-newsletter_content_preview-0-author_&amp;trkE=
+mail=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-a=
+uthor_-null-gdb74f~m55drhr5~r-null-null&amp;eid=3Dgdb74f-m55drhr5-r&amp;otp=
+Token=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmU1YjY4ZmM3ZDg0MDkxYWU4NzYxNzl=
+jNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGRlZWM3ZmM0MWEyY2FhZDZjYjFlZjc3YTE0ZDVhYTE1Nj=
+M1MzU3MjhmNDVlYiwxLDE%3D" target=3D"_blank" class=3D"no-underline ml-1" sty=
+le=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decorati=
+on: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margi=
+n-left: 8px; text-decoration-line: none;"> <span class=3D"font-sans font-bo=
+ld text-sm mb-3 text-color-text-low-emphasis leading-regular" style=3D"marg=
+in-bottom: 24px; font-family: -apple-system, system-ui, BlinkMacSystemFont,=
+ 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen=
+ Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-s=
+erif; font-size: 14px; font-weight: 600; line-height: 1.25; color: rgba(0, =
+0, 0, 0.6);"> Vagas Remotas </span> </a> </td> </tr> </tbody> </table> </td=
+> </tr> <tr> <td class=3D"pb-1" style=3D"-webkit-text-size-adjust: 100%; -m=
+s-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; pad=
+ding-bottom: 8px;"> <div class=3D"p-3 bg-color-surface-tint rounded-md font=
+-sans" data-test-id=3D"newsletter-cta-banner" style=3D"border-radius: 8px; =
+background-color: #f5f7f9; padding: 24px; font-family: -apple-system, syste=
+m-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans'=
+, Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoj=
+i', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande',=
+ Helvetica, Arial, sans-serif;"> <div class=3D"mb-1.5" style=3D"margin-bott=
+om: 12px;"> <span class=3D"text-md leading-regular font-bold text-color-tex=
+t" style=3D"font-size: 16px; font-weight: 600; line-height: 1.25; color: rg=
+ba(0, 0, 0, 0.9);"> Leia este artigo no LinkedIn para participar da convers=
+a </span> </div> <table role=3D"presentation" valign=3D"top" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"email-button " d=
+ata-test-id=3D"email-button" style=3D"-webkit-text-size-adjust: 100%; -ms-t=
+ext-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbo=
+dy> <tr> <td valign=3D"middle" align=3D"left" style=3D"-webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/pulse/bullying-trabal=
+ho-vagas-remotas-net-lusmf?lipi=3Durn%3Ali%3Apage%3Aemail_email_series_foll=
+ow_newsletter_01%3BwUdVlnrRRFukun4YeBBBmw%3D%3D&amp;midToken=3DAQHxaOsdYMWJ=
+VQ&amp;midSig=3D0VUF2opkItiHA1&amp;trk=3Deml-email_series_follow_newsletter=
+_01-newsletter_content_preview-0-read_more_banner_cta_&amp;trkEmail=3Deml-e=
+mail_series_follow_newsletter_01-newsletter_content_preview-0-read_more_ban=
+ner_cta_-null-gdb74f~m55drhr5~r-null-null&amp;eid=3Dgdb74f-m55drhr5-r&amp;o=
+tpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmU1YjY4ZmM3ZDg0MDkxYWU4NzYxN=
+zljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGRlZWM3ZmM0MWEyY2FhZDZjYjFlZjc3YTE0ZDVhYTE1=
+NjM1MzU3MjhmNDVlYiwxLDE%3D" target=3D"_blank" aria-label=3D"Abrir este arti=
+go no LinkedIn" class=3D"align-top no-underline " style=3D"color: #0a66c2; =
+cursor: pointer; display: inline-block; text-decoration: none; -webkit-text=
+-size-adjust: 100%; -ms-text-size-adjust: 100%; vertical-align: top; text-d=
+ecoration-line: none;"> <table role=3D"presentation" valign=3D"top" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"auto" class=3D"border-s=
+eparate " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: separate=
+;"> <tbody> <tr> <td class=3D"btn-sm btn-primary border-color-brand button-=
+link leading-regular !min-h-[auto] !shadow-none border-1 border-solid" styl=
+e=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; height: min-content; border-radius: 24p=
+x; padding-top: 7px; padding-bottom: 7px; padding-left: 16px; padding-right=
+: 16px; text-align: center; font-size: 14px; font-weight: 600; cursor: poin=
+ter; text-decoration-line: none; background-color: #0a66c2; color: #ffffff;=
+ border-width: 1px; border-style: solid; border-color: #0a66c2; line-height=
+: 1.25; min-height: auto !important; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 =
+#0000 !important;"> <a href=3D"https://www.linkedin.com/comm/pulse/bullying=
+-trabalho-vagas-remotas-net-lusmf?lipi=3Durn%3Ali%3Apage%3Aemail_email_seri=
+es_follow_newsletter_01%3BwUdVlnrRRFukun4YeBBBmw%3D%3D&amp;midToken=3DAQHxa=
+OsdYMWJVQ&amp;midSig=3D0VUF2opkItiHA1&amp;trk=3Deml-email_series_follow_new=
+sletter_01-newsletter_content_preview-0-read_more_banner_cta_&amp;trkEmail=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-read_=
+more_banner_cta_-null-gdb74f~m55drhr5~r-null-null&amp;eid=3Dgdb74f-m55drhr5=
+-r&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmU1YjY4ZmM3ZDg0MDkxY=
+WU4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGRlZWM3ZmM0MWEyY2FhZDZjYjFlZjc3YTE0=
+ZDVhYTE1NjM1MzU3MjhmNDVlYiwxLDE%3D" target=3D"_blank" tabindex=3D"-1" aria-=
+hidden=3D"true" class=3D"no-underline" style=3D"color: #0a66c2; cursor: poi=
+nter; display: inline-block; text-decoration: none; -webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; text-decoration-line: none;"> <span cl=
+ass=3D"no-underline text-white" style=3D"color: #ffffff; text-decoration-li=
+ne: none;"> Ler no LinkedIn </span> </a> </td> </tr> </tbody> </table> </a>=
+ </td> </tr> </tbody> </table> </div> </td> </tr> <tr data-test-id=3D"newsl=
+etter-content-preview--content"> <td class=3D"series-article-body" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, system-ui, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, =
+Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica=
+, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: rgba(0, 0, 0=
+, 0.9);"> <h3 style=3D"margin: 0; margin-left: 0px; margin-right: 0px; marg=
+in-top: 8px; margin-bottom: 4px; font-size: 16px; font-weight: 600; line-he=
+ight: 1.25; letter-spacing: -0.02em; color: rgba(0, 0, 0, 0.9);">Bullying n=
+o trabalho: um novo desafio que compromete a sa=C3=BAde e o desempenho nas =
+empresas; M=C3=A9dica alerta sobre o impacto dessa pr=C3=A1tica na sa=C3=BA=
+de dos trabalhadores</h3><p style=3D"margin: 0; font-weight: 400; margin-to=
+p: 0.8em; font-size: 1em; line-height: 1.5;">Atualmente, a busca por bem-es=
+tar e equil=C3=ADbrio tem sido uma constante, e um dos resultados mais dese=
+jados desse estilo de vida =C3=A9 alcan=C3=A7ar a "felicidade" em diferente=
+s =C3=A1reas da vida. E para muitos brasileiros, o trabalho ocupa grande pa=
+rte da rotina, o que torna a qualidade do ambiente profissional essencial p=
+ara o equil=C3=ADbrio emocional.</p><p style=3D"margin: 0; font-weight: 400=
+; margin-top: 0.8em; font-size: 1em; line-height: 1.5;">Um levantamento sob=
+re sa=C3=BAde mental e ambiente de trabalho, publicado pela InfoMoney em no=
+vembro deste ano, revelou que 39,95% dos participantes apontam que a infeli=
+cidade no trabalho est=C3=A1 diretamente ligada a relacionamentos t=C3=B3xi=
+cos. A pesquisa, intitulada&nbsp;<strong>"70% da felicidade no trabalho dep=
+ende do chefe direto =E2=80=93 e isso impacta produtividade",</strong>&nbsp=
+;baseou-se em um estudo realizado pela Robert Half em parceria com a The Sc=
+hool of Life, destacando a influ=C3=AAncia dos gestores diretos na satisfa=
+=C3=A7=C3=A3o e produtividade dos funcion=C3=A1rios.</p><h3 style=3D"margin=
+: 0; margin-left: 0px; margin-right: 0px; margin-top: 8px; margin-bottom: 4=
+px; font-size: 16px; font-weight: 600; line-height: 1.25; letter-spacing: -=
+0.02em; color: rgba(0, 0, 0, 0.9);">Bullying no Trabalho</h3><p style=3D"ma=
+rgin: 0; font-weight: 400; margin-top: 0.8em; font-size: 1em; line-height: =
+1.5;">O termo&nbsp;<em style=3D"font-style: italic;">bullying</em>, frequen=
+temente associado ao ambiente escolar, agora ganha destaque em um contexto =
+inesperado: o ambiente de trabalho. Situa=C3=A7=C3=B5es de hostilidade, int=
+imida=C3=A7=C3=A3o ou exclus=C3=A3o entre colegas, ou superiores n=C3=A3o a=
+penas afetam o bem-estar dos profissionais, mas tamb=C3=A9m comprometem a p=
+rodutividade e a sa=C3=BAde f=C3=ADsica e mental dos colaboradores. Muitas =
+vezes, essas atitudes est=C3=A3o mascaradas em cr=C3=ADticas constantes e i=
+njustificadas, tom de v...</p> </td> </tr> <tr> <td class=3D"pt-2 no-underl=
+ine" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 16px; text-decora=
+tion-line: none;"> <table role=3D"presentation" valign=3D"top" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"email-button s=
+eries-content-preview__bottom-cta" data-test-id=3D"email-button" style=3D"-=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=3D"middle" align=3D=
+"left" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.lin=
+kedin.com/comm/pulse/bullying-trabalho-vagas-remotas-net-lusmf?lipi=3Durn%3=
+Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BwUdVlnrRRFukun4YeBBB=
+mw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0VUF2opkItiHA1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-readm=
+ore_button_&amp;trkEmail=3Deml-email_series_follow_newsletter_01-newsletter=
+_content_preview-0-readmore_button_-null-gdb74f~m55drhr5~r-null-null&amp;ei=
+d=3Dgdb74f-m55drhr5-r&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYm=
+U1YjY4ZmM3ZDg0MDkxYWU4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGRlZWM3ZmM0MWEyY=
+2FhZDZjYjFlZjc3YTE0ZDVhYTE1NjM1MzU3MjhmNDVlYiwxLDE%3D" target=3D"_blank" ar=
+ia-label=3D"Abrir Emprego &amp;amp; Tecnologia no LinkedIn" class=3D"align-=
+top no-underline " style=3D"color: #0a66c2; cursor: pointer; display: inlin=
+e-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; vertical-align: top; text-decoration-line: none; width: 10=
+0%;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"border-separate " style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspa=
+ce: 0pt; mso-table-rspace: 0pt; border-collapse: separate; width: 100%;"> <=
+tbody> <tr> <td class=3D"btn-md btn-secondary-emphasis border-color-brand b=
+utton-link leading-regular !min-h-[auto] !shadow-none border-1 border-solid=
+ font-sans" data-test-id=3D"newsletter-content-preview-redesign-bottom-cta"=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; height: min-content; border-radius=
+: 24px; padding-top: 12px; padding-bottom: 12px; padding-left: 24px; paddin=
+g-right: 24px; text-align: center; font-size: 16px; font-weight: 600; curso=
+r: pointer; text-decoration-line: none; background-color: rgba(0, 0, 0, 0);=
+ color: #0a66c2; border-width: 1px; border-style: solid; border-color: #0a6=
+6c2; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cant=
+arell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; line-h=
+eight: 1.25; min-height: auto !important; box-shadow: 0 0 #0000, 0 0 #0000,=
+ 0 0 #0000 !important;"> <a href=3D"https://www.linkedin.com/comm/pulse/bul=
+lying-trabalho-vagas-remotas-net-lusmf?lipi=3Durn%3Ali%3Apage%3Aemail_email=
+_series_follow_newsletter_01%3BwUdVlnrRRFukun4YeBBBmw%3D%3D&amp;midToken=3D=
+AQHxaOsdYMWJVQ&amp;midSig=3D0VUF2opkItiHA1&amp;trk=3Deml-email_series_follo=
+w_newsletter_01-newsletter_content_preview-0-readmore_button_&amp;trkEmail=
+=3Deml-email_series_follow_newsletter_01-newsletter_content_preview-0-readm=
+ore_button_-null-gdb74f~m55drhr5~r-null-null&amp;eid=3Dgdb74f-m55drhr5-r&am=
+p;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmU1YjY4ZmM3ZDg0MDkxYWU4Nz=
+YxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGRlZWM3ZmM0MWEyY2FhZDZjYjFlZjc3YTE0ZDVhY=
+TE1NjM1MzU3MjhmNDVlYiwxLDE%3D" target=3D"_blank" tabindex=3D"-1" aria-hidde=
+n=3D"true" class=3D"no-underline" style=3D"color: #0a66c2; cursor: pointer;=
+ display: inline-block; text-decoration: none; -webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; text-decoration-line: none; width: 100%;"> =
+<span class=3D"no-underline text-color-brand" style=3D"color: #0a66c2; text=
+-decoration-line: none;"> Continue lendo no LinkedIn </span> </a> </td> </t=
+r> </tbody> </table> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody=
+> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td=
+> </tr> </tbody> </table> </div> </td> </tr> <tr> <td class=3D"bg-color-bac=
+kground-canvas p-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-colo=
+r: #f3f2f0; padding: 24px;"> <table role=3D"presentation" valign=3D"top" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"text=
+-xs" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 12px;"> <tbody> <tr=
+> <td class=3D"pb-1 m-0" data-test-id=3D"email-footer__intended" style=3D"-=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> Este e-ma=
+il foi enviado a Luiz Fernando Brito Ferreira (Full-Stack Developer | Java =
+| JS | React.js | Node.js | Python) </td> </tr> <tr> <td class=3D"pb-1 m-0"=
+ style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"=
+> <a href=3D"https://www.linkedin.com/help/linkedin/answer/4788?lang=3Dpt&a=
+mp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BwUdVl=
+nrRRFukun4YeBBBmw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0VUF2opk=
+ItiHA1&amp;trk=3Deml-email_series_follow_newsletter_01-SecurityHelp-0-foote=
+rglimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-SecurityHelp-=
+0-footerglimmer-null-gdb74f~m55drhr5~r-null-null&amp;eid=3Dgdb74f-m55drhr5-=
+r&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmU1YjY4ZmM3ZDg0MDkxYW=
+U4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGRlZWM3ZmM0MWEyY2FhZDZjYjFlZjc3YTE0Z=
+DVhYTE1NjM1MzU3MjhmNDVlYiwxLDE%3D" target=3D"_blank" class=3D"text-inherit =
+underline" style=3D"cursor: pointer; display: inline-block; text-decoration=
+: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: =
+inherit; text-decoration-line: underline;">Saiba por que inclu=C3=ADmos iss=
+o.</a> </td> </tr> <tr> <td class=3D"pb-1 m-0" style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt; margin: 0px; padding-bottom: 8px;">Voc=C3=AA est=C3=A1 recebend=
+o e-mails de notifica=C3=A7=C3=A3o do LinkedIn. Outras pessoas podem ver qu=
+e voc=C3=AA =C3=A9 assinante.</td> </tr> <tr> <td class=3D"pb-1 m-0" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> <a h=
+ref=3D"https://www.linkedin.com/comm/series-notifications/?action=3Dunsubsc=
+ribe&amp;memberToken=3DADoAADr_Zc8BliE63H4nkhqY_TxFq4e-Y9whjlY&amp;newslett=
+erId=3D7202681997633196033&amp;newsletterTitle=3DEmprego%20&amp;%20Tecnolog=
+ia&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3Bw=
+UdVlnrRRFukun4YeBBBmw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0VUF=
+2opkItiHA1&amp;trk=3Deml-email_series_follow_newsletter_01-unsubscribe-0-fo=
+oterGlimmer&amp;trkEmail=3Deml-email_series_follow_newsletter_01-unsubscrib=
+e-0-footerGlimmer-null-gdb74f~m55drhr5~r-null-null&amp;eid=3Dgdb74f-m55drhr=
+5-r&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmU1YjY4ZmM3ZDg0MDkx=
+YWU4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGRlZWM3ZmM0MWEyY2FhZDZjYjFlZjc3YTE=
+0ZDVhYTE1NjM1MzU3MjhmNDVlYiwxLDE%3D" target=3D"_blank" class=3D"text-inheri=
+t underline" style=3D"cursor: pointer; display: inline-block; text-decorati=
+on: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color=
+: inherit; text-decoration-line: underline;">Cancelar inscri=C3=A7=C3=A3o</=
+a> =C2=A0=C2=A0=C2=B7=C2=A0=C2=A0 <a href=3D"https://www.linkedin.com/help/=
+linkedin/answer/67?lang=3Dpt&amp;lipi=3Durn%3Ali%3Apage%3Aemail_email_serie=
+s_follow_newsletter_01%3BwUdVlnrRRFukun4YeBBBmw%3D%3D&amp;midToken=3DAQHxaO=
+sdYMWJVQ&amp;midSig=3D0VUF2opkItiHA1&amp;trk=3Deml-email_series_follow_news=
+letter_01-help-0-footerglimmer&amp;trkEmail=3Deml-email_series_follow_newsl=
+etter_01-help-0-footerglimmer-null-gdb74f~m55drhr5~r-null-null&amp;eid=3Dgd=
+b74f-m55drhr5-r&amp;otpToken=3DMWIwZDE3ZTgxMzI4Y2JjM2I1MjQwNGVkNDUxYmU1YjY4=
+ZmM3ZDg0MDkxYWU4NzYxNzljNDA2NmQ0YjVkNWJmMmZlZDNkZjg2NGRlZWM3ZmM0MWEyY2FhZDZ=
+jYjFlZjc3YTE0ZDVhYTE1NjM1MzU3MjhmNDVlYiwxLDE%3D" target=3D"_blank" class=3D=
+"text-inherit underline" style=3D"cursor: pointer; display: inline-block; t=
+ext-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust:=
+ 100%; color: inherit; text-decoration-line: underline;">Ajuda</a> </td> </=
+tr> <tr> <td class=3D"pb-1" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding=
+-bottom: 8px;"> <a href=3D"https://www.linkedin.com/comm/feed/?lipi=3Durn%3=
+Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BwUdVlnrRRFukun4YeBBB=
+mw%3D%3D&amp;midToken=3DAQHxaOsdYMWJVQ&amp;midSig=3D0VUF2opkItiHA1&amp;trk=
+=3Deml-email_series_follow_newsletter_01-footer-0-logoGlimmer&amp;trkEmail=
+=3Deml-email_series_follow_newsletter_01-footer-0-logoGlimmer-null-gdb74f~m=
+55drhr5~r-null-null&amp;eid=3Dgdb74f-m55drhr5-r&amp;otpToken=3DMWIwZDE3ZTgx=
+MzI4Y2JjM2I1MjQwNGVkNDUxYmU1YjY4ZmM3ZDg0MDkxYWU4NzYxNzljNDA2NmQ0YjVkNWJmMmZ=
+lZDNkZjg2NGRlZWM3ZmM0MWEyY2FhZDZjYjFlZjc3YTE0ZDVhYTE1NjM1MzU3MjhmNDVlYiwxLD=
+E%3D" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: =
+inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%;"> <img src=3D"https://static.licdn.com/aero-v1/sc/h/9=
+ehe6n39fa07dc5edzv0rla4e" alt=3D"LinkedIn" class=3D"block h-[14px] w-[56px]=
+ image-rendering-crisp" style=3D"outline: none; text-decoration: none; imag=
+e-rendering: -moz-crisp-edges; image-rendering: -o-crisp-edges; image-rende=
+ring: -webkit-optimize-contrast; image-rendering: crisp-edges; -ms-interpol=
+ation-mode: nearest-neighbor; display: block; height: 14px; width: 56px;" w=
+idth=3D"56" height=3D"14"> </a> </td> </tr> <tr> <td data-test-copyright-te=
+xt style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;"> =C2=A9 2024 LinkedIn Ireland U=
+nlimited Company, Wilton Plaza, Wilton Place, Dublin 2 - Irlanda. LinkedIn =
+=C3=A9 um nome comercial registrado da LinkedIn Ireland Unlimited Company. =
+<span data-test-trademarks-text> LinkedIn e o logo do LinkedIn s=C3=A3o mar=
+cas registradas do LinkedIn. </span> </td> </tr> </tbody> </table> </td> </=
+tr> </tbody> </table> </td> </tr> </tbody> </table> <img alt role=3D"presen=
+tation" src=3D"https://www.linkedin.com/emimp/ip_WjJSaU56Um1MVzAxTldSeWFIST=
+FMWEk9OlpXMWhhV3hmYzJWeWFXVnpYMlp2Ykd4dmQxOXVaWGR6YkdWMGRHVnlYekF4OmRYSnVPb=
+XhwT214cGJtdGxaRWx1UVhKMGFXTnNaVG8zTWpjNE1EUXdORFV6TWpNNU5qZzVNakUz.gif" st=
+yle=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicubi=
+c; width: 1px; height: 1px;" width=3D"1" height=3D"1"> </body> </html>
+------=_Part_32866030_1156070833.1735220982439--
+
