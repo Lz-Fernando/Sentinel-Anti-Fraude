@@ -5,6 +5,7 @@ import pickle
 import nltk
 import unicodedata
 import string
+import os
 
 # Inicializando a aplicação FastAPI
 app = FastAPI()
@@ -25,11 +26,12 @@ def process_text_conteudo(conteudo: str) -> str:
 
 # Função de tokenização (opcional para vetorizador)
 def tokenize_text(conteudo):
-    return conteudo.split()
+  return conteudo.split()
 
 # Carregando o modelo treinado e o vetor TF-IDF na inicialização da API
-modelo = pickle.load(open('C:\\Users\\nando\\OneDrive\\Documentos\\Fernando\\Sentinel-Anti-Fraude\\Teste\\IA\\modelo.pk1', 'rb'))
-vectorizer = pickle.load(open('C:\\Users\\nando\\OneDrive\\Documentos\\Fernando\\Sentinel-Anti-Fraude\\Teste\\IA\\tfidf_vectorizer.pk1', 'rb'))
+base_dir = os.path.dirname(__file__)
+modelo = pickle.load(open(os.path.join(base_dir, 'modelo.pk1'), 'rb'))
+vectorizer = pickle.load(open(os.path.join(base_dir, 'tfidf_vectorizer.pk1'), 'rb'))
 
 # Definição do esquema de entrada para a API
 class Mensagem(BaseModel):
