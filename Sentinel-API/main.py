@@ -54,4 +54,5 @@ def verificar_mensagem(mensagem: Mensagem):
 
 
 if __name__ == "__main__":
-  uvicorn.run("main:app", port=5000)
+  port = int(os.environ.get("PORT", 8080))
+  uvicorn.run("main:app", host = "127.0.0.1", port = port)
